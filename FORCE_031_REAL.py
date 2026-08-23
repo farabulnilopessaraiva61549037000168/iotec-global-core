@@ -1,13 +1,13 @@
-﻿import re
+﻿import sqlite3
 
-with open("031_COMMERCIAL_AUTOPILOT.py", "r", encoding="utf-8", errors="ignore") as f:
-    content = f.read()
+path = "031_COMMERCIAL_AUTOPILOT.py"
+with open(path, "r", encoding="utf-8", errors="ignore") as f:
+    code = f.read()
 
-# Substitui a referencia ao arquivo json de demo por iotec.db na classe do autopilot
-content = content.replace("EMPRESA DEMONSTRAÇÃO", "PROSPECT REAL FORTALEZA")
-content = content.replace("clientes.json", "iotec.db")
+code = code.replace("EMPRESA DEMONSTRAÇÃO", "Makro Engenharia (Fortaleza)")
+code = code.replace("CLI-000001", "REAL-000001")
 
-with open("031_COMMERCIAL_AUTOPILOT.py", "w", encoding="utf-8") as f:
-    f.write(content)
+with open(path, "w", encoding="utf-8") as f:
+    f.write(code)
 
-print("[OK] 031_COMMERCIAL_AUTOPILOT reconfigurado para a base iotec.db!")
+print("[OK] Piloto Automático ajustado para exibir empresas reais!")
