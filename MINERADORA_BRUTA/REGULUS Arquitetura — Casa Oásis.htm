@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS Arquitetura — Casa Oásis</title>
+    <link href="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #b8945f;
+            --gold-light: #d4b87a;
+            --cream: #faf8f5;
+            --charcoal: #1a1a1a;
+            --forest: #2d4a3e;
+            --water: #4a7c8a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--charcoal);
+            color: var(--cream);
+            overflow-x: hidden;
+        }
+
+        .video-hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1a2f23 0%, #0d1810 50%, #1a1a1a 100%);
+        }
+
+        .video-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/stock_images/indoor_garden_atrium_b53d515a.jpg') center/cover;
+            opacity: 0.4;
+            animation: slowZoom 30s ease-in-out infinite alternate;
+        }
+
+        @keyframes slowZoom {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, 
+                rgba(0,0,0,0.3) 0%, 
+                rgba(0,0,0,0.5) 50%,
+                rgba(26,26,26,0.95) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            padding: 40px;
+        }
+
+        .brand-tag {
+            font-size: 0.7rem;
+            letter-spacing: 0.4em;
+            color: var(--gold);
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--cream) 0%, var(--gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .hero-concept {
+            font-size: 1rem;
+            line-height: 1.9;
+            color: rgba(255,255,255,0.7);
+            max-width: 700px;
+            margin: 0 auto 50px;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            padding: 18px 50px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            border: none;
+            border-radius: 0;
+            color: var(--charcoal);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px rgba(184,148,95,0.3);
+        }
+
+        .btn-secondary {
+            padding: 18px 50px;
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.3);
+            color: var(--cream);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.2em;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            text-align: center;
+        }
+
+        .scroll-hint span {
+            display: block;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 15px;
+        }
+
+        .scroll-hint .mouse {
+            width: 24px;
+            height: 40px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 12px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .scroll-hint .mouse::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 8px;
+            background: var(--gold);
+            border-radius: 2px;
+            animation: scrollDown 2s infinite;
+        }
+
+        @keyframes scrollDown {
+            0% { opacity: 1; top: 8px; }
+            100% { opacity: 0; top: 22px; }
+        }
+
+        .section {
+            padding: 120px 60px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-tag {
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            color: var(--gold);
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 400;
+            color: var(--cream);
+            letter-spacing: 0.1em;
+        }
+
+        .tour-section {
+            background: linear-gradient(180deg, var(--charcoal) 0%, #0f1612 100%);
+        }
+
+        .tour-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .tour-card {
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .tour-card:hover {
+            transform: scale(1.02);
+        }
+
+        .tour-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1s ease;
+        }
+
+        .tour-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .tour-card-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 100%);
+        }
+
+        .tour-card-nivel {
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .tour-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: var(--cream);
+            margin-bottom: 10px;
+        }
+
+        .tour-card-desc {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.6;
+        }
+
+        .features-section {
+            background: var(--charcoal);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 50px 30px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.4s ease;
+        }
+
+        .feature-card:hover {
+            background: rgba(184,148,95,0.05);
+            border-color: rgba(184,148,95,0.2);
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 25px;
+        }
+
+        .feature-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--cream);
+            margin-bottom: 15px;
+        }
+
+        .feature-desc {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.7;
+        }
+
+        .specs-section {
+            background: linear-gradient(180deg, #0f1612 0%, var(--charcoal) 100%);
+        }
+
+        .specs-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+
+        .spec-item {
+            text-align: center;
+            padding: 40px 20px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .spec-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .spec-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+        }
+
+        .pricing-section {
+            background: var(--charcoal);
+            text-align: center;
+        }
+
+        .price-display {
+            margin: 60px 0;
+        }
+
+        .price-from {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            letter-spacing: 0.2em;
+            margin-bottom: 15px;
+        }
+
+        .price-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .price-currency {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.6);
+            letter-spacing: 0.1em;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 60px auto 0;
+            padding: 50px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .form-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--cream);
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 18px 20px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--cream);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--gold);
+            background: rgba(255,255,255,0.08);
+        }
+
+        .form-input::placeholder {
+            color: rgba(255,255,255,0.4);
+        }
+
+        .plants-section {
+            background: #0a0f0c;
+        }
+
+        .plants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .plant-card {
+            padding: 30px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .plant-card:hover {
+            border-color: var(--gold);
+            background: rgba(184,148,95,0.05);
+        }
+
+        .plant-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .plant-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--cream);
+            margin-bottom: 8px;
+        }
+
+        .plant-type {
+            font-size: 0.7rem;
+            color: var(--gold);
+            letter-spacing: 0.1em;
+            margin-bottom: 10px;
+        }
+
+        .plant-desc {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer {
+            padding: 80px 60px;
+            background: #0a0a0a;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+            letter-spacing: 0.2em;
+            margin-bottom: 20px;
+        }
+
+        .footer-tagline {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.5);
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        .footer-info {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.4);
+            letter-spacing: 0.1em;
+        }
+
+        .audio-control {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 25px;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 50px;
+        }
+
+        .audio-btn {
+            width: 40px;
+            height: 40px;
+            background: var(--gold);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .audio-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .audio-label {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.6);
+            letter-spacing: 0.1em;
+        }
+
+        .narrator-box {
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 600px;
+            padding: 25px 40px;
+            background: rgba(0,0,0,0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(184,148,95,0.3);
+            border-radius: 8px;
+            z-index: 999;
+            display: none;
+        }
+
+        .narrator-box.active {
+            display: block;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+            to { opacity: 1; transform: translateX(-50%) translateY(0); }
+        }
+
+        .narrator-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2rem;
+            color: var(--cream);
+            font-style: italic;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .narrator-avatar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .narrator-name {
+            font-size: 0.7rem;
+            color: var(--gold);
+            letter-spacing: 0.15em;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2.5rem; }
+            .section { padding: 80px 20px; }
+            .tour-grid { grid-template-columns: 1fr; }
+            .specs-container { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <section class="video-hero">
+        <div class="video-bg"></div>
+        <div class="video-overlay"></div>
+        
+        <div class="hero-content">
+            <p class="brand-tag">REGULUS ARQUITETURA APRESENTA</p>
+            <h1 class="hero-title">CASA OÁSIS</h1>
+            <p class="hero-subtitle">Refúgio Minimalista de Alto Padrão</p>
+            <p class="hero-concept">
+                Enquanto o mundo exterior enfrenta temperaturas insuportáveis, 
+                dentro dos paredões a vida floresce em clima ameno e perfeito. 
+                Um santuário onde a natureza e a sofisticação coexistem em harmonia absoluta.
+            </p>
+            <div class="cta-group">
+                <button class="btn-primary" onclick="startTour()">INICIAR TOUR VIRTUAL</button>
+                <button class="btn-secondary" onclick="scrollToSpecs()">VER ESPECIFICAÇÕES</button>
+            </div>
+        </div>
+        
+        <div class="scroll-hint">
+            <span>EXPLORE</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CORRETORA -->
+    <section class="section corretora-section" style="background: linear-gradient(180deg, #0d1810 0%, #1a1a1a 100%);">
+        <div class="section-header">
+            <p class="section-tag">SUA CONSULTORA EXCLUSIVA</p>
+            <h2 class="section-title">Tour Guiado Personalizado</h2>
+        </div>
+        
+        <div style="display: flex; align-items: center; justify-content: center; gap: 60px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap;">
+            <div style="text-align: center;">
+                <div style="width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), #8b6f47); margin: 0 auto 25px; display: flex; align-items: center; justify-content: center; font-size: 80px; border: 3px solid var(--gold);">👩‍💼</div>
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--cream); margin-bottom: 8px;">Isabella Monteiro</h3>
+                <p style="color: var(--gold); font-size: 0.75rem; letter-spacing: 0.15em; margin-bottom: 5px;">CONSULTORA DE IMÓVEIS DE ALTO PADRÃO</p>
+                <p style="color: rgba(255,255,255,0.5); font-size: 0.7rem; letter-spacing: 0.1em;">REGULUS Real Estate</p>
+            </div>
+            <div style="flex: 1; min-width: 300px; max-width: 550px;">
+                <div style="background: rgba(0,0,0,0.4); border: 1px solid rgba(184,148,95,0.2); padding: 40px; border-radius: 8px; position: relative;">
+                    <div style="position: absolute; top: -10px; left: 30px; background: var(--gold); color: #0a0a0a; padding: 5px 15px; font-size: 0.65rem; letter-spacing: 0.1em; font-weight: 600;">BOAS-VINDAS</div>
+                    <p id="corretoraFala" style="font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--cream); font-style: italic; line-height: 1.9;">"Seja
+ muito bem-vindo à Casa Oásis. Eu sou Isabella Monteiro, sua consultora 
+exclusiva. Permita-me guiá-lo por esta obra-prima arquitetônica que 
+redefine o conceito de morar bem."</p>
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 25px; flex-wrap: wrap; justify-content: center;">
+                    <button onclick="mudarFala('entrada')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">ENTRADA</button>
+                    <button onclick="mudarFala('jardim_central')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">JARDIM</button>
+                    <button onclick="mudarFala('living')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">LIVING</button>
+                    <button onclick="mudarFala('cozinha')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">COZINHA</button>
+                    <button onclick="mudarFala('suite_master')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">SUÍTE</button>
+                    <button onclick="mudarFala('piscina')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">PISCINA</button>
+                    <button onclick="mudarFala('terracos')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">TERRAÇOS</button>
+                    <button onclick="mudarFala('cobertura')" style="padding: 12px 20px; background: rgba(184,148,95,0.1); border: 1px solid rgba(184,148,95,0.3); color: var(--gold); font-size: 0.65rem; letter-spacing: 0.1em; cursor: pointer; transition: all 0.3s;">COBERTURA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section tour-section" id="tour">
+        <div class="section-header">
+            <p class="section-tag">TOUR VIRTUAL EXCLUSIVO</p>
+            <h2 class="section-title">Conheça Cada Ambiente</h2>
+        </div>
+        
+        <div class="tour-grid" id="tourGrid"><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/luxury_garage_sports_ab1eaf96.jpg" alt="Hall de Entrada">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 0</p>
+                        <h3 class="tour-card-title">Hall de Entrada</h3>
+                        <p class="tour-card-desc">Portão imponente que oculta o paraíso interior. Nenhum indício do oásis que se esconde além das paredes.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/indoor_garden_atrium_b53d515a.jpg" alt="Jardim Central Oásis">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 0</p>
+                        <h3 class="tour-card-title">Jardim Central Oásis</h3>
+                        <p class="tour-card-desc">O coração da residência. Árvores de grande porte, vegetação tropical, lago de carpas japonesas e a piscina olímpica.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/luxury_minimalist_in_555b18e0.jpg" alt="Living Room Principal">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 1</p>
+                        <h3 class="tour-card-title">Living Room Principal</h3>
+                        <p class="tour-card-desc">Sala de estar com pé direito triplo, decoração mediterrânea e oriental, totens incas originais.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/modern_minimalist_ki_c09bb756.jpg" alt="Cozinha Gourmet">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 1</p>
+                        <h3 class="tour-card-title">Cozinha Gourmet</h3>
+                        <p class="tour-card-desc">Cozinha completa com eletrodomésticos de última geração, ilha central em mármore Carrara.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/luxury_bedroom_suite_f40c560a.jpg" alt="Suíte Master">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 2</p>
+                        <h3 class="tour-card-title">Suíte Master</h3>
+                        <p class="tour-card-desc">Suíte principal com closet walk-in, banheiro spa com banheira de imersão e vista para o jardim.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/luxury_bathroom_spa__df6ced00.jpg" alt="Banheiro Spa">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 2</p>
+                        <h3 class="tour-card-title">Banheiro Spa</h3>
+                        <p class="tour-card-desc">Banheiro com luz natural zenithal, mármore polido, chuveiro de teto com cromoterapia.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/indoor_pool_luxury_m_3b7c7355.jpg" alt="Piscina Olímpica">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 0</p>
+                        <h3 class="tour-card-title">Piscina Olímpica</h3>
+                        <p class="tour-card-desc">Piscina de 25 metros com cascata natural, raia para natação e área de descanso.</p>
+                    </div>
+                </div><div class="tour-card">
+                    <img src="REGULUS%20Arquitetura%20%E2%80%94%20Casa%20O%C3%A1sis_arquivos/rooftop_terrace_heli_a0a13e3d.jpg" alt="Cobertura &amp; Heliponto">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL 4</p>
+                        <h3 class="tour-card-title">Cobertura &amp; Heliponto</h3>
+                        <p class="tour-card-desc">Área superior com estufa de plantas medicinais, terraço panorâmico e heliponto com teto retrátil.</p>
+                    </div>
+                </div></div>
+    </section>
+
+    <section class="section features-section">
+        <div class="section-header">
+            <p class="section-tag">DIFERENCIAIS EXCLUSIVOS</p>
+            <h2 class="section-title">Tecnologia &amp; Conforto</h2>
+        </div>
+        
+        <div class="features-grid" id="featuresGrid"><div class="feature-card">
+                    <div class="feature-icon">🌡️</div>
+                    <h3 class="feature-title">Microclima Controlado</h3>
+                    <p class="feature-desc">Enquanto fora faz 40°C, dentro a temperatura é sempre 24°C</p>
+                </div><div class="feature-card">
+                    <div class="feature-icon">💧</div>
+                    <h3 class="feature-title">Sistema de Irrigação</h3>
+                    <p class="feature-desc">Centenas de borrifadores criam névoa refrescante em todo ambiente</p>
+                </div><div class="feature-card">
+                    <div class="feature-icon">🛗</div>
+                    <h3 class="feature-title">Elevadores de Vidro</h3>
+                    <p class="feature-desc">Dois elevadores independentes com vista para o jardim central</p>
+                </div><div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Automação Total</h3>
+                    <p class="feature-desc">Robôs de limpeza, iluminação e climatização inteligentes</p>
+                </div><div class="feature-card">
+                    <div class="feature-icon">🚁</div>
+                    <h3 class="feature-title">Heliponto Privativo</h3>
+                    <p class="feature-desc">Acesso aéreo com teto retrátil e estrutura certificada</p>
+                </div><div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3 class="feature-title">Paredes Vivas</h3>
+                    <p class="feature-desc">Vegetação vertical em todas as fachadas internas</p>
+                </div></div>
+    </section>
+
+    <section class="section specs-section" id="specs">
+        <div class="section-header">
+            <p class="section-tag">ESPECIFICAÇÕES TÉCNICAS</p>
+            <h2 class="section-title">Números que Impressionam</h2>
+        </div>
+        
+        <div class="specs-container">
+            <div class="spec-item">
+                <div class="spec-value">1.850</div>
+                <div class="spec-label">Metros Quadrados</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">4</div>
+                <div class="spec-label">Níveis</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">2</div>
+                <div class="spec-label">Elevadores</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-value">200+</div>
+                <div class="spec-label">Borrifadores</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section plants-section">
+        <div class="section-header">
+            <p class="section-tag">DOCUMENTAÇÃO TÉCNICA</p>
+            <h2 class="section-title">Plantas &amp; Projetos</h2>
+        </div>
+        
+        <div class="plants-grid" id="plantsGrid"><div class="plant-card">
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">Planta Estrutural</h3>
+                    <p class="plant-type">DWG/PDF</p>
+                    <p class="plant-desc">Fundações, pilares, vigas e lajes</p>
+                </div><div class="plant-card">
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">Planta Elétrica</h3>
+                    <p class="plant-type">DWG/PDF</p>
+                    <p class="plant-desc">Instalações elétricas, quadros e automação</p>
+                </div><div class="plant-card">
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">Planta Hidráulica</h3>
+                    <p class="plant-type">DWG/PDF</p>
+                    <p class="plant-desc">Água fria, quente, esgoto e irrigação</p>
+                </div><div class="plant-card">
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">Planta de Paisagismo</h3>
+                    <p class="plant-type">DWG/PDF</p>
+                    <p class="plant-desc">Vegetação, jardinagem e irrigação</p>
+                </div><div class="plant-card">
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">Sistema de Irrigação</h3>
+                    <p class="plant-type">DWG/PDF</p>
+                    <p class="plant-desc">Rede de borrifadores e controle climático</p>
+                </div></div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+        <div class="section-header">
+            <p class="section-tag">INVESTIMENTO</p>
+            <h2 class="section-title">Valor do Projeto</h2>
+        </div>
+        
+        <div class="price-display">
+            <p class="price-from">A PARTIR DE</p>
+            <p class="price-value">$ 4.800.000</p>
+            <p class="price-currency">DÓLARES AMERICANOS</p>
+        </div>
+        
+        <div class="contact-form">
+            <h3 class="form-title">Agende uma Apresentação Privada</h3>
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="Seu Nome Completo">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-input" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-input" placeholder="Telefone">
+            </div>
+            <button class="btn-primary" style="width: 100%;">SOLICITAR CONTATO</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-brand">REGULUS ARQUITETURA</div>
+        <p class="footer-tagline">"Construímos sonhos para quem pode realizá-los"</p>
+        <p class="footer-info">CNPJ: 61.549.037/0001-68 — Todos os direitos reservados</p>
+    </footer>
+
+    <div class="audio-control">
+        <button class="audio-btn" id="audioBtn" onclick="toggleAudio()">🔊</button>
+        <span class="audio-label">AMBIENTE</span>
+    </div>
+
+    <div class="narrator-box" id="narratorBox">
+        <p class="narrator-text" id="narratorText">Bem-vindo à Casa Oásis. Prepare-se para uma experiência única de sofisticação e natureza.</p>
+        <div class="narrator-avatar">
+            <span class="narrator-name">IA CURATOR — SOPHIA</span>
+        </div>
+    </div>
+
+    <script>
+        const casaOasis = {"nome": "CASA OÁSIS", "subtitulo": "Refúgio Minimalista de Alto Padrão", "conceito": "Enquanto o mundo exterior enfrenta temperaturas insuportáveis, dentro dos paredões a vida floresce em clima ameno e perfeito.", "preco_base": 4800000, "moeda": "USD", "area_total": "1.850 m²", "area_construida": "1.200 m²", "niveis": 4, "elevadores": 2, "garagens": {"frontal": {"vagas": 2, "descricao": "Garagem principal com portão automatizado"}, "lateral": {"vagas": 1, "descricao": "Garagem privativa com acesso independente"}}, "quartos": 5, "suites": 4, "banheiros": 7, "lavabos": 2, "terracos": 4, "configuracao_quartos": [{"nome": "Suíte Master", "nivel": 3, "area": "85m²", "vista": "Piscina e jardim central", "banheiro": "Spa privativo"}, {"nome": "Suíte 2", "nivel": 3, "area": "45m²", "vista": "Jardim e cascata", "banheiro": "Completo"}, {"nome": "Suíte 3", "nivel": 2, "area": "40m²", "vista": "Paredões verdes", "banheiro": "Completo"}, {"nome": "Suíte 4", "nivel": 2, "area": "38m²", "vista": "Piscina olímpica", "banheiro": "Completo"}, {"nome": "Quarto Hóspedes", "nivel": 1, "area": "28m²", "vista": "Jardim lateral", "banheiro": "Compartilhado"}], "terracos_config": [{"nivel": 4, "tamanho": "Grande", "area": "120m²", "descricao": "Cobertura com heliponto e estufa"}, {"nivel": 3, "tamanho": "Médio-Grande", "area": "90m²", "descricao": "Terraço master com jacuzzi"}, {"nivel": 2, "tamanho": "Médio", "area": "60m²", "descricao": "Terraço social com lounge"}, {"nivel": 1, "tamanho": "Pequeno", "area": "40m²", "descricao": "Varanda do living com vista piscina"}], "sistema_telhado": {"tipo": "Telhado Borboleta Invertido", "descricao": "Dois planos inclinados caindo um de frente para o outro, ideal para terrenos estreitos", "inclinacao": "5% a 8% (levemente inclinado)", "material": "Telhas termo-acústicas com impermeabilização", "captacao_agua": true, "beneficios": ["Otimização de espaço em terrenos estreitos", "Captação centralizada de água da chuva", "Estética moderna e minimalista", "Permite instalação de jardim de cobertura nas bordas", "Iluminação zenital no centro do V invertido"]}, "sistema_hidrico": {"cisternas": 4, "capacidade_total": "80.000 litros", "distribuicao": [{"localizacao": "Subsolo frontal (sob garagem)", "capacidade": "20.000 L", "uso": "Irrigação jardim frontal"}, {"localizacao": "Subsolo lateral esquerdo", "capacidade": "20.000 L", "uso": "Paredões verdes + borrifadores"}, {"localizacao": "Subsolo lateral direito", "capacidade": "20.000 L", "uso": "Sistema de microclima"}, {"localizacao": "Subsolo posterior (sob heliponto)", "capacidade": "20.000 L", "uso": "Reserva emergencial + estufa"}], "tecnologia": ["Filtragem automática tripla (grossa, fina, UV)", "Bombeamento solar com backup elétrico", "Sensores de nível IoT com alertas", "Tratamento para potabilidade opcional", "Interligação entre cisternas para balanceamento"], "economia_anual": "95% da água de irrigação e microclima"}, "conceito_construcao": {"terreno": "Formato L estreito e alongado", "orientacao": "Fachada estreita voltada para rua, profundidade máxima interna", "filosofia": "Esconder o paraíso - exterior discreto, interior exuberante", "materiais_sustentaveis": ["Concreto aparente com agregados reciclados", "Madeira de reflorestamento certificada", "Vidros de alta performance térmica", "Isolamento acústico natural (cortiça)"]}, "caracteristicas_principais": ["Microclima controlado com sistema de irrigação inteligente", "Centenas de borrifadores que mantêm temperatura amena", "Paredes verdes vivas com vegetação tropical", "Piscina olímpica central com cascata natural", "Dois elevadores de vidro independentes", "Robôs de limpeza automatizados", "Heliponto com teto retrátil", "Estufa de plantas medicinais e frutas", "Telhado borboleta invertido para captação de água", "4 cisternas subterrâneas totalizando 80.000 litros"], "ambientes": [{"id": "entrada", "nome": "Hall de Entrada", "nivel": 0, "descricao": "Portão imponente que oculta o paraíso interior. Nenhum indício do oásis que se esconde além das paredes.", "imagem": "luxury_garage_sports_ab1eaf96.jpg", "detalhes": ["Garagem para 4 veículos", "Porta automatizada silenciosa", "Piso em mármore travertino"]}, {"id": "jardim_central", "nome": "Jardim Central Oásis", "nivel": 0, "descricao": "O coração da residência. Árvores de grande porte, vegetação tropical, lago de carpas japonesas e a piscina olímpica.", "imagem": "indoor_garden_atrium_b53d515a.jpg", "detalhes": ["Árvores centenárias transplantadas", "Sistema de irrigação com 200+ borrifadores", "Lago de carpas ornamentais", "Temperatura controlada 24°C"]}, {"id": "living", "nome": "Living Room Principal", "nivel": 1, "descricao": "Sala de estar com pé direito triplo, decoração mediterrânea e oriental, totens incas originais.", "imagem": "luxury_minimalist_in_555b18e0.jpg", "detalhes": ["Pé direito de 9 metros", "Móveis planejados italianos", "Quadros de artistas consagrados", "Iluminação automatizada"]}, {"id": "cozinha", "nome": "Cozinha Gourmet", "nivel": 1, "descricao": "Cozinha completa com eletrodomésticos de última geração, ilha central em mármore Carrara.", "imagem": "modern_minimalist_ki_c09bb756.jpg", "detalhes": ["Eletrodomésticos Gaggenau/Miele", "Ilha em mármore Carrara", "Adega climatizada 500 garrafas", "Lavadora de louças industrial"]}, {"id": "suite_master", "nome": "Suíte Master", "nivel": 2, "descricao": "Suíte principal com closet walk-in, banheiro spa com banheira de imersão e vista para o jardim.", "imagem": "luxury_bedroom_suite_f40c560a.jpg", "detalhes": ["Closet de 40m²", "Banheira de ônix", "Terraço privativo", "Ar condicionado zoneado"]}, {"id": "banheiro_spa", "nome": "Banheiro Spa", "nivel": 2, "descricao": "Banheiro com luz natural zenithal, mármore polido, chuveiro de teto com cromoterapia.", "imagem": "luxury_bathroom_spa__df6ced00.jpg", "detalhes": ["Luz natural zenithal", "Piso aquecido", "Sauna seca integrada", "Produtos L'Occitane inclusos"]}, {"id": "piscina", "nome": "Piscina Olímpica", "nivel": 0, "descricao": "Piscina de 25 metros com cascata natural, raia para natação e área de descanso.", "imagem": "indoor_pool_luxury_m_3b7c7355.jpg", "detalhes": ["25m x 8m", "Aquecimento solar", "Cascata de pedra natural", "Iluminação subaquática LED"]}, {"id": "cobertura", "nome": "Cobertura & Heliponto", "nivel": 4, "descricao": "Área superior com estufa de plantas medicinais, terraço panorâmico e heliponto com teto retrátil.", "imagem": "rooftop_terrace_heli_a0a13e3d.jpg", "detalhes": ["Heliponto certificado", "Teto retrátil automatizado", "Estufa orgânica", "Vista 360°"]}], "plantas_tecnicas": [{"id": "estrutural", "nome": "Planta Estrutural", "tipo": "DWG/PDF", "descricao": "Fundações, pilares, vigas e lajes"}, {"id": "eletrica", "nome": "Planta Elétrica", "tipo": "DWG/PDF", "descricao": "Instalações elétricas, quadros e automação"}, {"id": "hidraulica", "nome": "Planta Hidráulica", "tipo": "DWG/PDF", "descricao": "Água fria, quente, esgoto e irrigação"}, {"id": "paisagismo", "nome": "Planta de Paisagismo", "tipo": "DWG/PDF", "descricao": "Vegetação, jardinagem e irrigação"}, {"id": "irrigacao", "nome": "Sistema de Irrigação", "tipo": "DWG/PDF", "descricao": "Rede de borrifadores e controle climático"}], "diferenciais": [{"icone": "🌡️", "titulo": "Microclima Controlado", "descricao": "Enquanto fora faz 40°C, dentro a temperatura é sempre 24°C"}, {"icone": "💧", "titulo": "Sistema de Irrigação", "descricao": "Centenas de borrifadores criam névoa refrescante em todo ambiente"}, {"icone": "🛗", "titulo": "Elevadores de Vidro", "descricao": "Dois elevadores independentes com vista para o jardim central"}, {"icone": "🤖", "titulo": "Automação Total", "descricao": "Robôs de limpeza, iluminação e climatização inteligentes"}, {"icone": "🚁", "titulo": "Heliponto Privativo", "descricao": "Acesso aéreo com teto retrátil e estrutura certificada"}, {"icone": "🌿", "titulo": "Paredes Vivas", "descricao": "Vegetação vertical em todas as fachadas internas"}], "narrador": {"nome": "IA Curator", "voz": "Sophia Premium", "estilo": "Suave, elegante, como quem apresenta para bilionários"}, "corretora": {"nome": "Isabella Monteiro", "cargo": "Consultora de Imóveis de Alto Padrão", "empresa": "REGULUS Real Estate", "especializacao": "Propriedades acima de USD 3 milhões", "foto": "elegant professional woman luxury real estate agent", "apresentacoes": {"boas_vindas": "Seja muito bem-vindo à Casa Oásis. Eu sou Isabella Monteiro, sua consultora exclusiva. Permita-me guiá-lo por esta obra-prima arquitetônica que redefine o conceito de morar bem.", "entrada": "Ao cruzar este portão discreto, você deixa para trás o mundo exterior. Note como nada do lado de fora sugere o paraíso que se esconde aqui dentro. Esta é nossa filosofia: exterior minimalista, interior exuberante.", "jardim_central": "Este é o coração da residência — nosso Jardim Central Oásis. Observe as árvores centenárias cuidadosamente transplantadas, os 200 borrifadores que mantêm a temperatura sempre em 24°C. Enquanto lá fora pode fazer 40 graus, aqui dentro você está em um microclima perfeito.", "living": "O Living Room principal apresenta pé direito triplo de 9 metros. Todos os móveis são italianos, planejados exclusivamente para este espaço. Note os totens incas originais e a iluminação que se adapta automaticamente ao horário do dia.", "cozinha": "Nossa Cozinha Gourmet é um sonho para quem aprecia a arte culinária. Eletrodomésticos Gaggenau e Miele de última geração, ilha central em mármore Carrara legítimo, e uma adega climatizada para 500 garrafas.", "suite_master": "A Suíte Master é um santuário privativo de 85 metros quadrados. O closet walk-in comporta coleções completas, e a vista se abre totalmente para a piscina e os paredões verdes. Cada amanhecer aqui é uma experiência única.", "banheiro_spa": "Este Banheiro Spa merece atenção especial. Luz natural zenithal, mármore polido, banheira de ônix, chuveiro de teto com cromoterapia. É como ter um spa cinco estrelas dentro de casa.", "piscina": "Nossa piscina olímpica de 25 metros é perfeita tanto para exercícios quanto para momentos de contemplação. A cascata de pedra natural cria um som ambiente relaxante, e a iluminação LED subaquática transforma as noites em espetáculos.", "terracos": "Os quatro terraços em níveis decrescentes oferecem perspectivas únicas do jardim. Plantas pendentes nas bordas, iluminação de alta sensibilidade — cada nível convida à contemplação e ao bem-estar.", "cobertura": "E finalmente, nossa cobertura com heliponto certificado. O teto retrátil se abre em segundos, a estufa de plantas medicinais fornece ervas frescas para a cozinha, e a vista 360 graus é simplesmente incomparável.", "encerramento": "A Casa Oásis não é apenas uma residência. É um estilo de vida. Um refúgio onde a natureza e a tecnologia se unem para criar o ambiente perfeito. Posso ajudá-lo com mais informações ou agendar uma visita presencial?"}}};
+        
+        const narrations = [
+            "Bem-vindo à Casa Oásis. Prepare-se para uma experiência única de sofisticação e natureza.",
+            "Observe como a vegetação desce pelos paredões, criando um microclima perfeito.",
+            "Os dois elevadores de vidro oferecem uma vista panorâmica do jardim central.",
+            "Enquanto o calor é insuportável lá fora, aqui dentro a temperatura é sempre amena.",
+            "Cada detalhe foi pensado para proporcionar o máximo conforto aos seus moradores."
+        ];
+        
+        let currentNarration = 0;
+        let audioPlaying = false;
+        
+        function renderTour() {
+            const grid = document.getElementById('tourGrid');
+            casaOasis.ambientes.forEach((ambiente, index) => {
+                const card = document.createElement('div');
+                card.className = 'tour-card';
+                card.innerHTML = `
+                    <img src="/stock_images/${ambiente.imagem}" alt="${ambiente.nome}">
+                    <div class="tour-card-overlay">
+                        <p class="tour-card-nivel">NÍVEL ${ambiente.nivel}</p>
+                        <h3 class="tour-card-title">${ambiente.nome}</h3>
+                        <p class="tour-card-desc">${ambiente.descricao}</p>
+                    </div>
+                `;
+                card.onclick = () => showAmbiente(index);
+                grid.appendChild(card);
+            });
+        }
+        
+        function renderFeatures() {
+            const grid = document.getElementById('featuresGrid');
+            casaOasis.diferenciais.forEach(diff => {
+                const card = document.createElement('div');
+                card.className = 'feature-card';
+                card.innerHTML = `
+                    <div class="feature-icon">${diff.icone}</div>
+                    <h3 class="feature-title">${diff.titulo}</h3>
+                    <p class="feature-desc">${diff.descricao}</p>
+                `;
+                grid.appendChild(card);
+            });
+        }
+        
+        function renderPlants() {
+            const grid = document.getElementById('plantsGrid');
+            casaOasis.plantas_tecnicas.forEach(planta => {
+                const card = document.createElement('div');
+                card.className = 'plant-card';
+                card.innerHTML = `
+                    <div class="plant-icon">📐</div>
+                    <h3 class="plant-title">${planta.nome}</h3>
+                    <p class="plant-type">${planta.tipo}</p>
+                    <p class="plant-desc">${planta.descricao}</p>
+                `;
+                grid.appendChild(card);
+            });
+        }
+        
+        function startTour() {
+            document.getElementById('tour').scrollIntoView({ behavior: 'smooth' });
+            showNarration(0);
+        }
+        
+        function scrollToSpecs() {
+            document.getElementById('specs').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function showNarration(index) {
+            const box = document.getElementById('narratorBox');
+            const text = document.getElementById('narratorText');
+            text.textContent = narrations[index];
+            box.classList.add('active');
+            
+            setTimeout(() => {
+                box.classList.remove('active');
+            }, 6000);
+        }
+        
+        function toggleAudio() {
+            audioPlaying = !audioPlaying;
+            const btn = document.getElementById('audioBtn');
+            btn.textContent = audioPlaying ? '🔊' : '🔇';
+            
+            if (audioPlaying) {
+                showNarration(currentNarration);
+                currentNarration = (currentNarration + 1) % narrations.length;
+            }
+        }
+        
+        function showAmbiente(index) {
+            const ambiente = casaOasis.ambientes[index];
+            showNarration(Math.floor(Math.random() * narrations.length));
+        }
+        
+        const falasCorretora = casaOasis.corretora ? casaOasis.corretora.apresentacoes : {
+            boas_vindas: "Seja muito bem-vindo à Casa Oásis.",
+            entrada: "Ao cruzar este portão discreto, você deixa para trás o mundo exterior.",
+            jardim_central: "Este é o coração da residência — nosso Jardim Central Oásis.",
+            living: "O Living Room principal apresenta pé direito triplo de 9 metros.",
+            cozinha: "Nossa Cozinha Gourmet é um sonho para quem aprecia a arte culinária.",
+            suite_master: "A Suíte Master é um santuário privativo de 85 metros quadrados.",
+            banheiro_spa: "Este Banheiro Spa merece atenção especial.",
+            piscina: "Nossa piscina olímpica de 25 metros é perfeita para exercícios e contemplação.",
+            terracos: "Os quatro terraços em níveis decrescentes oferecem perspectivas únicas.",
+            cobertura: "E finalmente, nossa cobertura com heliponto certificado.",
+            encerramento: "A Casa Oásis não é apenas uma residência. É um estilo de vida."
+        };
+        
+        function mudarFala(ambiente) {
+            const falaElement = document.getElementById('corretoraFala');
+            if (falaElement && falasCorretora[ambiente]) {
+                falaElement.style.opacity = '0';
+                setTimeout(() => {
+                    falaElement.textContent = '"' + falasCorretora[ambiente] + '"';
+                    falaElement.style.opacity = '1';
+                }, 300);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            renderTour();
+            renderFeatures();
+            renderPlants();
+            
+            setTimeout(() => showNarration(0), 2000);
+        });
+    </script>
+
+
+</body></html>

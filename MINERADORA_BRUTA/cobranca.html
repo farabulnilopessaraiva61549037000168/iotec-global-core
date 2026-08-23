@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cobrança {{ cobranca.id_cobranca }} · REGULUS</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <strong>REGULUS IOTEC</strong><br>
+          <span class="small">Cobrança individual com ID interno</span>
+        </div>
+      </div>
+      <a class="small" href="{{ url_for('home') }}">Voltar ao financeiro</a>
+    </div>
+
+    <section class="hero">
+      <h1>Link único de cobrança</h1>
+      <p>
+        Esta cobrança pertence a um protocolo específico e possui identificação interna exclusiva.
+      </p>
+    </section>
+
+    <div class="panel">
+      <h3>Resumo da cobrança</h3>
+      <p><strong>ID da cobrança:</strong> {{ cobranca.id_cobranca }}</p>
+      <p><strong>Protocolo:</strong> {{ cobranca.protocolo }}</p>
+      <p><strong>Cliente:</strong> {{ cobranca.cliente }}</p>
+      <p><strong>Tipo:</strong> {{ cobranca.tipo_cobranca }}</p>
+      <p><strong>Valor:</strong> {{ moeda(cobranca.valor) }}</p>
+      <p><strong>Status:</strong> {{ cobranca.status_cobranca }}</p>
+      <p><strong>Expira em:</strong> {{ cobranca.expira_em }}</p>
+    </div>
+
+    <div class="panel">
+      <h3>QR vinculado ao ID interno</h3>
+      <div class="qrbox">
+        <img src="{{ cobranca.qrcode_img }}" alt="QR cobrança" width="320" height="320">
+      </div>
+      <p class="small" style="margin-top:12px;">Este QR representa a cobrança vinculada ao ID interno.</p>
+      <div class="code">{{ cobranca.qr_payload }}</div>
+    </div>
+
+    <div class="panel">
+      <h3>Validação interna preliminar</h3>
+      <p class="small">
+        Esta etapa é usada pelo núcleo para conferir se a cobrança apresentada corresponde ao ID correto e ao valor esperado.
+      </p>
+      <form method="post" action="{{ url_for('validar_cobranca', id_cobranca=cobranca.id_cobranca) }}">
+        <label>Token interno de validação</label>
+        <input name="token_informado" placeholder="Uso interno" required>
+
+        <label>Valor informado</label>
+        <input name="valor_informado" placeholder="Ex.: 4500.00" required>
+
+        <button class="btn btn-blue" type="submit">Validar cobrança</button>
+      </form>
+    </div>
+
+    <div class="panel">
+      <h3>Metadados internos</h3>
+      <p><strong>Hash de integridade:</strong></p>
+      <div class="code">{{ cobranca.hash_integridade }}</div>
+      <p style="margin-top:14px;"><strong>Observação interna:</strong> {{ cobranca.observacao_interna or 'nenhuma' }}</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS | Entretenimento &amp; Lifestyle</title>
+    <link href="REGULUS%20_%20Entretenimento%20&amp;%20Lifestyle_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --black: #0a0a0a;
+            --white: #ffffff;
+            --bg: #fafafa;
+            --gray-100: #f5f5f5;
+            --gray-200: #e5e5e5;
+            --gray-400: #a3a3a3;
+            --gray-600: #525252;
+            --gold: #C9A227;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--black);
+            min-height: 100vh;
+        }
+
+        /* === HEADER === */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 18px 50px;
+            background: var(--white);
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-r {
+            width: 32px;
+            height: 32px;
+            border: 1.5px solid var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateR 10s linear infinite;
+        }
+
+        @keyframes rotateR {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .logo-r span {
+            font-family: 'Cinzel', serif;
+            font-size: 0.85rem;
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-main {
+            font-family: 'Cinzel', serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.3rem;
+        }
+
+        .logo-sub {
+            font-size: 0.45rem;
+            letter-spacing: 0.15rem;
+            color: var(--gray-400);
+        }
+
+        .header-time {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(231, 76, 60, 0.1);
+            border-radius: 20px;
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: #E74C3C;
+            border-radius: 50%;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .live-text {
+            font-size: 0.55rem;
+            color: #E74C3C;
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+        }
+
+        .time-display {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--gray-600);
+        }
+
+        /* === HERO === */
+        .hero {
+            padding: 60px 50px;
+            background: linear-gradient(135deg, var(--black) 0%, #1a1a2e 100%);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 10px 25px;
+            background: rgba(201, 162, 39, 0.15);
+            border-radius: 25px;
+            font-size: 0.55rem;
+            letter-spacing: 0.25rem;
+            color: var(--gold);
+            margin-bottom: 25px;
+        }
+
+        .hero-title {
+            font-family: 'Cinzel', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-subtitle {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            font-weight: 300;
+        }
+
+        /* === DESTAQUES === */
+        .destaques {
+            padding: 50px;
+            background: var(--white);
+        }
+
+        .section-title {
+            font-family: 'Cinzel', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .destaques-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .destaque-card {
+            padding: 25px;
+            background: var(--bg);
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .destaque-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-color: var(--gold);
+        }
+
+        .destaque-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .destaque-cat {
+            font-size: 0.5rem;
+            color: var(--gray-400);
+            letter-spacing: 0.1rem;
+            margin-bottom: 8px;
+        }
+
+        .destaque-titulo {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* === CATEGORIAS === */
+        .categorias {
+            padding: 50px;
+        }
+
+        .categorias-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .cat-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 25px 20px;
+            text-align: center;
+            transition: all 0.4s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--cat-color);
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+
+        .cat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .cat-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .cat-icon {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+        }
+
+        .cat-nome {
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+            margin-bottom: 8px;
+            color: var(--black);
+        }
+
+        .cat-desc {
+            font-size: 0.55rem;
+            color: var(--gray-400);
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        .cat-artigos {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--cat-color);
+        }
+
+        /* === VANTAGENS === */
+        .vantagens {
+            padding: 60px 50px;
+            background: var(--black);
+            color: var(--white);
+        }
+
+        .vantagens-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .vantagem-card {
+            text-align: center;
+            padding: 30px 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+        }
+
+        .vantagem-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .vantagem-titulo {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            margin-bottom: 10px;
+        }
+
+        .vantagem-desc {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.5);
+            line-height: 1.6;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 30px 50px;
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .footer-r {
+            width: 24px;
+            height: 24px;
+            border: 1px solid var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotateR 10s linear infinite;
+        }
+
+        .footer-r span {
+            font-family: 'Cinzel', serif;
+            font-size: 0.6rem;
+            color: var(--gold);
+        }
+
+        .footer-text {
+            font-family: 'Cinzel', serif;
+            font-size: 0.6rem;
+            letter-spacing: 0.15rem;
+            color: var(--gray-600);
+        }
+
+        .footer-info {
+            font-size: 0.5rem;
+            color: var(--gray-400);
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1200px) {
+            .categorias-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+
+        @media (max-width: 900px) {
+            .categorias-grid { grid-template-columns: repeat(3, 1fr); }
+            .destaques-grid { grid-template-columns: repeat(2, 1fr); }
+            .vantagens-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 600px) {
+            .header { padding: 15px 25px; }
+            .categorias-grid { grid-template-columns: repeat(2, 1fr); }
+            .destaques-grid { grid-template-columns: 1fr; }
+            .vantagens-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo-group">
+            <div class="logo-r"><span>R</span></div>
+            <div class="logo-text">
+                <span class="logo-main">REGULUS</span>
+                <span class="logo-sub">ENTRETENIMENTO &amp; LIFESTYLE</span>
+            </div>
+        </div>
+        <div class="header-time">
+            <div class="live-badge">
+                <div class="live-dot"></div>
+                <span class="live-text">AO VIVO</span>
+            </div>
+            <span class="time-display">07/12/2025 17:14</span>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-badge">PORTAL DE CULTURA, LAZER E INFORMAÇÃO</div>
+        <h1 class="hero-title">Entretenimento Premium</h1>
+        <p class="hero-subtitle">Esporte, Culinária, Viagens, Música, Séries, Arquitetura e muito mais</p>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="destaques">
+        <h2 class="section-title">DESTAQUES DO DIA</h2>
+        <div class="destaques-grid">
+            
+            <div class="destaque-card">
+                <div class="destaque-icon">📺</div>
+                <div class="destaque-cat">SÉRIES</div>
+                <div class="destaque-titulo">As 10 Melhores Séries de 2025</div>
+            </div>
+            
+            <div class="destaque-card">
+                <div class="destaque-icon">🗺️</div>
+                <div class="destaque-cat">TURISMO</div>
+                <div class="destaque-titulo">Roteiro de 7 Dias em Tokyo</div>
+            </div>
+            
+            <div class="destaque-card">
+                <div class="destaque-icon">🧘</div>
+                <div class="destaque-cat">MEDITAÇÃO</div>
+                <div class="destaque-titulo">Meditação: 10 Min para Paz</div>
+            </div>
+            
+            <div class="destaque-card">
+                <div class="destaque-icon">🏠</div>
+                <div class="destaque-cat">ARQUITETURA</div>
+                <div class="destaque-titulo">Casa Container de 80m²</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="categorias">
+        <h2 class="section-title">20 CANAIS DE CONTEÚDO</h2>
+        <div class="categorias-grid">
+            
+            <div class="cat-card" style="--cat-color: #27AE60;">
+                <div class="cat-icon">⚽</div>
+                <div class="cat-nome">ESPORTE</div>
+                <div class="cat-desc">Futebol, tênis, F1, NBA e muito mais</div>
+                
+                <div class="cat-artigos">847 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #E67E22;">
+                <div class="cat-icon">🍽️</div>
+                <div class="cat-nome">CULINÁRIA</div>
+                <div class="cat-desc">Receitas, restaurantes, vinhos e gastronomia</div>
+                
+                <div class="cat-artigos">1,247 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #9B59B6;">
+                <div class="cat-icon">🎯</div>
+                <div class="cat-nome">LAZER</div>
+                <div class="cat-desc">Hobbies, jogos, parques e diversão</div>
+                
+                <div class="cat-artigos">524 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #1ABC9C;">
+                <div class="cat-icon">🧘</div>
+                <div class="cat-nome">MEDITAÇÃO</div>
+                <div class="cat-desc">Mindfulness, yoga e paz interior</div>
+                
+                <div class="cat-artigos">328 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #3498DB;">
+                <div class="cat-icon">🌤️</div>
+                <div class="cat-nome">CLIMA</div>
+                <div class="cat-desc">Previsão em tempo real para 196 países</div>
+                
+                <div class="cat-artigos" style="color: #E74C3C;">EM TEMPO REAL</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #E74C3C;">
+                <div class="cat-icon">✈️</div>
+                <div class="cat-nome">PASSAGENS AÉREAS</div>
+                <div class="cat-desc">Descontos exclusivos e milhas premium</div>
+                
+                <div class="cat-artigos" style="color: #E74C3C;">EM TEMPO REAL</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #F39C12;">
+                <div class="cat-icon">🗺️</div>
+                <div class="cat-nome">TURISMO</div>
+                <div class="cat-desc">Destinos, roteiros e dicas de viagem</div>
+                
+                <div class="cat-artigos">2,847 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #34495E;">
+                <div class="cat-icon">🏙️</div>
+                <div class="cat-nome">CENTROS URBANOS</div>
+                <div class="cat-desc">O que fazer nas grandes cidades</div>
+                
+                <div class="cat-artigos">1,584 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #16A085;">
+                <div class="cat-icon">🧠</div>
+                <div class="cat-nome">SAÚDE MENTAL</div>
+                <div class="cat-desc">Bem-estar, terapia e equilíbrio</div>
+                
+                <div class="cat-artigos">642 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #8E44AD;">
+                <div class="cat-icon">👗</div>
+                <div class="cat-nome">MODA</div>
+                <div class="cat-desc">Tendências, looks e alta costura</div>
+                
+                <div class="cat-artigos">3,247 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #F1C40F;">
+                <div class="cat-icon">💡</div>
+                <div class="cat-nome">CURIOSIDADES</div>
+                <div class="cat-desc">Fatos interessantes do mundo</div>
+                
+                <div class="cat-artigos">4,827 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #E91E63;">
+                <div class="cat-icon">🎵</div>
+                <div class="cat-nome">MÚSICA</div>
+                <div class="cat-desc">Playlists, artistas e lançamentos</div>
+                
+                <div class="cat-artigos">2,148 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #673AB7;">
+                <div class="cat-icon">📺</div>
+                <div class="cat-nome">SÉRIES</div>
+                <div class="cat-desc">Reviews, novidades e maratonas</div>
+                
+                <div class="cat-artigos">1,847 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #795548;">
+                <div class="cat-icon">📚</div>
+                <div class="cat-nome">LIVROS</div>
+                <div class="cat-desc">Resenhas, lançamentos e clássicos</div>
+                
+                <div class="cat-artigos">924 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #607D8B;">
+                <div class="cat-icon">📰</div>
+                <div class="cat-nome">JORNALISMO</div>
+                <div class="cat-desc">Notícias em tempo real 24/7</div>
+                
+                <div class="cat-artigos" style="color: #E74C3C;">EM TEMPO REAL</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #4A148C;">
+                <div class="cat-icon">✒️</div>
+                <div class="cat-nome">LITERATURA</div>
+                <div class="cat-desc">Poesia, contos e obras-primas</div>
+                
+                <div class="cat-artigos">547 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #00BCD4;">
+                <div class="cat-icon">🏠</div>
+                <div class="cat-nome">CASAS CONTAINER</div>
+                <div class="cat-desc">Projetos modernos e sustentáveis</div>
+                
+                <div class="cat-artigos">248 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #9E9E9E;">
+                <div class="cat-icon">🏛️</div>
+                <div class="cat-nome">ARQUITETURA</div>
+                <div class="cat-desc">Design, interiores e decoração</div>
+                
+                <div class="cat-artigos">1,247 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #FF5722;">
+                <div class="cat-icon">🎨</div>
+                <div class="cat-nome">CRIATIVIDADE</div>
+                <div class="cat-desc">Arte, DIY e inspiração</div>
+                
+                <div class="cat-artigos">847 artigos</div>
+                
+            </div>
+            
+            <div class="cat-card" style="--cat-color: #2196F3;">
+                <div class="cat-icon">💻</div>
+                <div class="cat-nome">TECNOLOGIA</div>
+                <div class="cat-desc">Gadgets, apps e inovações</div>
+                
+                <div class="cat-artigos">2,847 artigos</div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- VANTAGENS -->
+    <section class="vantagens">
+        <h2 class="section-title" style="color: var(--gold);">VANTAGENS EXCLUSIVAS</h2>
+        <div class="vantagens-grid">
+            <div class="vantagem-card">
+                <div class="vantagem-icon">✈️</div>
+                <div class="vantagem-titulo">PASSAGENS AÉREAS</div>
+                <div class="vantagem-desc">Descontos de até 40% em voos internacionais para membros premium</div>
+            </div>
+            <div class="vantagem-card">
+                <div class="vantagem-icon">🏨</div>
+                <div class="vantagem-titulo">HOTÉIS 5 ESTRELAS</div>
+                <div class="vantagem-desc">Parcerias com as melhores redes hoteleiras do mundo</div>
+            </div>
+            <div class="vantagem-card">
+                <div class="vantagem-icon">🎫</div>
+                <div class="vantagem-titulo">EVENTOS VIP</div>
+                <div class="vantagem-desc">Acesso prioritário a shows, estreias e eventos exclusivos</div>
+            </div>
+            <div class="vantagem-card">
+                <div class="vantagem-icon">🌍</div>
+                <div class="vantagem-titulo">EXPERIÊNCIAS</div>
+                <div class="vantagem-desc">Roteiros personalizados em mais de 196 países</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <div class="footer-r"><span>R</span></div>
+            <span class="footer-text">REGULUS • CASA TURCA • MASCATE</span>
+        </div>
+        <div class="footer-info">CNPJ: 61.549.037/0001-68 • 07/12/2025 17:14</div>
+    </footer>
+
+
+</body></html>

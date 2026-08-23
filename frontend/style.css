@@ -1,0 +1,14 @@
+body {
+background:#0D0D0D;
+color:#FFF;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.container {
+background:#1A1A1A;
+padding:30px;
+border-radius:10px;
+}
+

@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASA TURCA | Centro de Comando</title>
+    <link href="CASA%20TURCA%20_%20Centro%20de%20Comando_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --gold-light: #E8C547;
+            --gold-dim: rgba(212, 175, 55, 0.15);
+            --obsidian: #080808;
+            --surface: #0d0d0d;
+            --surface-2: #121212;
+            --surface-3: #181818;
+            --border: rgba(212, 175, 55, 0.12);
+            --text: #ffffff;
+            --text-dim: rgba(255,255,255,0.6);
+            --text-muted: rgba(255,255,255,0.3);
+            --success: #00D26A;
+            --warning: #FFB800;
+            --danger: #FF4757;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--obsidian);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* === R FRAGMENTADO - MARCA D'ÁGUA === */
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Playfair Display', serif;
+            font-size: 60vw;
+            font-weight: 600;
+            color: rgba(212, 175, 55, 0.03);
+            pointer-events: none;
+            z-index: 0;
+            user-select: none;
+            letter-spacing: -5vw;
+        }
+
+        .watermark-fragments {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .fragment {
+            position: absolute;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            color: rgba(212, 175, 55, 0.025);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .fragment:nth-child(1) { font-size: 25vw; top: 5%; left: 10%; animation-delay: 0s; }
+        .fragment:nth-child(2) { font-size: 35vw; top: 30%; right: 5%; animation-delay: -5s; }
+        .fragment:nth-child(3) { font-size: 20vw; bottom: 10%; left: 30%; animation-delay: -10s; }
+        .fragment:nth-child(4) { font-size: 40vw; top: 50%; left: 50%; transform: translate(-50%, -50%); animation-delay: -15s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.025; }
+            50% { transform: translateY(-20px) rotate(2deg); opacity: 0.04; }
+        }
+
+        /* === HEADER === */
+        .header {
+            position: sticky;
+            top: 0;
+            background: rgba(8, 8, 8, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .brand-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-icon::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 40%, rgba(212, 175, 55, 0.2) 50%, transparent 60%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .brand-text h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: 0.3rem;
+            color: var(--gold);
+        }
+
+        .brand-text span {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .ia-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            background: var(--gold-dim);
+            border: 1px solid var(--border);
+            border-radius: 30px;
+        }
+
+        .ia-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.9); }
+        }
+
+        .ia-label {
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.1rem;
+            color: var(--gold);
+        }
+
+        .clock {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        /* === MAIN LAYOUT === */
+        .main {
+            position: relative;
+            z-index: 1;
+            padding: 30px 40px;
+        }
+
+        /* === STATS BAR === */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light));
+        }
+
+        .stat-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: var(--gold);
+        }
+
+        .stat-change {
+            font-size: 0.7rem;
+            margin-top: 8px;
+            color: var(--success);
+        }
+
+        /* === SECTION TITLE === */
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--text);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-badge {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.6rem;
+            padding: 6px 15px;
+            background: var(--gold-dim);
+            color: var(--gold);
+            border-radius: 20px;
+            letter-spacing: 0.1rem;
+        }
+
+        /* === SETORES GRID === */
+        .setores-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .setor-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px 20px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .setor-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--setor-cor);
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+
+        .setor-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--setor-cor);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 30px color-mix(in srgb, var(--setor-cor) 20%, transparent);
+        }
+
+        .setor-card:hover::before {
+            opacity: 1;
+        }
+
+        .setor-card.active {
+            border-color: var(--setor-cor);
+            background: linear-gradient(180deg, var(--surface) 0%, color-mix(in srgb, var(--setor-cor) 8%, var(--surface)) 100%);
+        }
+
+        .setor-card.active::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            right: 15px;
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        .setor-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+            background: color-mix(in srgb, var(--setor-cor) 15%, transparent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .setor-nome {
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: var(--text);
+        }
+
+        .setor-capital {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            color: var(--setor-cor);
+            margin-bottom: 10px;
+        }
+
+        .setor-status {
+            font-size: 0.6rem;
+            padding: 4px 10px;
+            background: rgba(0, 210, 106, 0.15);
+            color: var(--success);
+            border-radius: 10px;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+        }
+
+        /* === SUBSETORES === */
+        .subsetores {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid var(--border);
+            display: none;
+        }
+
+        .setor-card.expanded .subsetores {
+            display: block;
+        }
+
+        .subsetor-item {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            padding: 6px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .subsetor-item::before {
+            content: '→';
+            color: var(--setor-cor);
+        }
+
+        /* === ROBÔS DE RELATÓRIO === */
+        .robos-section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .robo-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px;
+            position: relative;
+        }
+
+        .robo-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .robo-avatar {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--gold-dim), rgba(212, 175, 55, 0.3));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            animation: robotFloat 3s ease-in-out infinite;
+        }
+
+        @keyframes robotFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .robo-info h3 {
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 3px;
+        }
+
+        .robo-info span {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        .robo-data {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .robo-metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: var(--surface-2);
+            border-radius: 10px;
+        }
+
+        .robo-metric-label {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+        }
+
+        .robo-metric-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--gold);
+        }
+
+        /* === CONSÓRCIO === */
+        .consorcio-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .consorcio-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .consorcio-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--gold);
+        }
+
+        .consorcio-badge {
+            font-size: 0.6rem;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            color: var(--obsidian);
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+        }
+
+        .consorcio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .consorcio-card {
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .consorcio-card:hover {
+            border-color: var(--gold-dim);
+            transform: translateY(-5px);
+        }
+
+        .consorcio-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .consorcio-name {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .consorcio-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .consorcio-stat {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+        }
+
+        .consorcio-stat-label {
+            color: var(--text-muted);
+        }
+
+        .consorcio-stat-value {
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === IA TERMINAL === */
+        .ia-terminal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 25px;
+            background: var(--surface-2);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .terminal-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .terminal-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--gold);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        .terminal-body {
+            padding: 20px 25px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .terminal-line {
+            padding: 8px 0;
+            display: flex;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .terminal-line:last-child {
+            border-bottom: none;
+        }
+
+        .prompt {
+            color: var(--gold);
+        }
+
+        .success { color: var(--success); }
+        .warning { color: var(--warning); }
+        .info { color: var(--text-dim); }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1400px) {
+            .setores-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+
+        @media (max-width: 1100px) {
+            .setores-grid { grid-template-columns: repeat(3, 1fr); }
+            .robos-section { grid-template-columns: repeat(2, 1fr); }
+            .consorcio-grid { grid-template-columns: repeat(2, 1fr); }
+            .stats-bar { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .setores-grid { grid-template-columns: repeat(2, 1fr); }
+            .robos-section { grid-template-columns: 1fr; }
+            .consorcio-grid { grid-template-columns: 1fr; }
+            .stats-bar { grid-template-columns: 1fr; }
+            .header { flex-direction: column; gap: 15px; padding: 15px 20px; }
+            .main { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- R FRAGMENTADO - MARCA D'ÁGUA -->
+    <div class="watermark-fragments">
+        <span class="fragment">R</span>
+        <span class="fragment">R</span>
+        <span class="fragment">R</span>
+        <span class="fragment">R</span>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="brand">
+            <div class="brand-icon">R</div>
+            <div class="brand-text">
+                <h1>CASA TURCA</h1>
+                <span>Centro de Recolhimento de Capital</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="ia-status">
+                <div class="ia-dot"></div>
+                <span class="ia-label">IA BANCÁRIA ATIVA</span>
+            </div>
+            <div class="clock" id="clock">13:27:16</div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- STATS BAR -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-label">Capital Total Monitorado</div>
+                <div class="stat-value" id="capitalTotal">R$ 2.8B</div>
+                <div class="stat-change">↑ +12.4% este mês</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Setores Ativos</div>
+                <div class="stat-value">10</div>
+                <div class="stat-change">100% operacional</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Transações Hoje</div>
+                <div class="stat-value" id="transacoesHoje">14.178</div>
+                <div class="stat-change">↑ +8.2% vs ontem</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Cotas Consórcio</div>
+                <div class="stat-value">7.640</div>
+                <div class="stat-change">↑ 278 contemplados/mês</div>
+            </div>
+        </div>
+
+        <!-- SETORES ECONÔMICOS -->
+        <div class="section-title">
+            Setores de Recolhimento de Capital
+            <span class="section-badge">MONITORADO POR IA</span>
+        </div>
+        <div class="setores-grid" id="setoresGrid">
+            
+            <div class="setor-card active" style="--setor-cor: #E74C3C;" onclick="toggleSetor(this, 'varejo')">
+                <div class="setor-icon">🏪</div>
+                <div class="setor-nome">Varejo &amp; Comércio</div>
+                <div class="setor-capital">R$ 90M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">E-commerce</div>
+                    
+                    <div class="subsetor-item">Lojas Físicas</div>
+                    
+                    <div class="subsetor-item">Atacado</div>
+                    
+                    <div class="subsetor-item">Franquias</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #3498DB;" onclick="toggleSetor(this, 'industria')">
+                <div class="setor-icon">🏭</div>
+                <div class="setor-nome">Indústria &amp; Manufatura</div>
+                <div class="setor-capital">R$ 215M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Automotivo</div>
+                    
+                    <div class="subsetor-item">Têxtil</div>
+                    
+                    <div class="subsetor-item">Alimentos</div>
+                    
+                    <div class="subsetor-item">Metalúrgica</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #9B59B6;" onclick="toggleSetor(this, 'tecnologia')">
+                <div class="setor-icon">💻</div>
+                <div class="setor-nome">Tecnologia &amp; Inovação</div>
+                <div class="setor-capital">R$ 211M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Software</div>
+                    
+                    <div class="subsetor-item">Hardware</div>
+                    
+                    <div class="subsetor-item">Fintech</div>
+                    
+                    <div class="subsetor-item">IA/ML</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #27AE60;" onclick="toggleSetor(this, 'agronegocio')">
+                <div class="setor-icon">🌾</div>
+                <div class="setor-nome">Agronegócio</div>
+                <div class="setor-capital">R$ 371M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Grãos</div>
+                    
+                    <div class="subsetor-item">Pecuária</div>
+                    
+                    <div class="subsetor-item">Café</div>
+                    
+                    <div class="subsetor-item">Cana-de-açúcar</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #F39C12;" onclick="toggleSetor(this, 'energia')">
+                <div class="setor-icon">⚡</div>
+                <div class="setor-nome">Energia &amp; Utilities</div>
+                <div class="setor-capital">R$ 339M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Solar</div>
+                    
+                    <div class="subsetor-item">Eólica</div>
+                    
+                    <div class="subsetor-item">Hidrelétrica</div>
+                    
+                    <div class="subsetor-item">Petróleo</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #1ABC9C;" onclick="toggleSetor(this, 'saude')">
+                <div class="setor-icon">🏥</div>
+                <div class="setor-nome">Saúde &amp; Biotec</div>
+                <div class="setor-capital">R$ 203M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Hospitais</div>
+                    
+                    <div class="subsetor-item">Farmacêutico</div>
+                    
+                    <div class="subsetor-item">Planos</div>
+                    
+                    <div class="subsetor-item">Equipamentos</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #D4AF37;" onclick="toggleSetor(this, 'financeiro')">
+                <div class="setor-icon">💰</div>
+                <div class="setor-nome">Financeiro &amp; Banking</div>
+                <div class="setor-capital">R$ 402M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Bancos</div>
+                    
+                    <div class="subsetor-item">Seguros</div>
+                    
+                    <div class="subsetor-item">Investimentos</div>
+                    
+                    <div class="subsetor-item">Crédito</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #E67E22;" onclick="toggleSetor(this, 'imobiliario')">
+                <div class="setor-icon">🏠</div>
+                <div class="setor-nome">Imobiliário</div>
+                <div class="setor-capital">R$ 115M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Residencial</div>
+                    
+                    <div class="subsetor-item">Comercial</div>
+                    
+                    <div class="subsetor-item">Industrial</div>
+                    
+                    <div class="subsetor-item">Fundos</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #34495E;" onclick="toggleSetor(this, 'transportes')">
+                <div class="setor-icon">🚚</div>
+                <div class="setor-nome">Transportes &amp; Logística</div>
+                <div class="setor-capital">R$ 133M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">Aéreo</div>
+                    
+                    <div class="subsetor-item">Marítimo</div>
+                    
+                    <div class="subsetor-item">Rodoviário</div>
+                    
+                    <div class="subsetor-item">Ferroviário</div>
+                    
+                </div>
+            </div>
+            
+            <div class="setor-card active" style="--setor-cor: #8E44AD;" onclick="toggleSetor(this, 'educacao')">
+                <div class="setor-icon">📚</div>
+                <div class="setor-nome">Educação</div>
+                <div class="setor-capital">R$ 126M</div>
+                <span class="setor-status">ativo</span>
+                <div class="subsetores">
+                    
+                    <div class="subsetor-item">EAD</div>
+                    
+                    <div class="subsetor-item">Presencial</div>
+                    
+                    <div class="subsetor-item">Técnico</div>
+                    
+                    <div class="subsetor-item">Superior</div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- ROBÔS DE RELATÓRIO -->
+        <div class="section-title">
+            Robôs de Relatório em Tempo Real
+            <span class="section-badge">AUTOMAÇÃO ATIVA</span>
+        </div>
+        <div class="robos-section">
+            <div class="robo-card">
+                <div class="robo-header">
+                    <div class="robo-avatar">🤖</div>
+                    <div class="robo-info">
+                        <h3>Robô Desenvolvimento</h3>
+                        <span>Projetos &amp; Evolução</span>
+                    </div>
+                </div>
+                <div class="robo-data">
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Projetos Ativos</span>
+                        <span class="robo-metric-value" id="projetosAtivos">24</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Conclusão Média</span>
+                        <span class="robo-metric-value">87%</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Investimento</span>
+                        <span class="robo-metric-value">R$ 28.5M</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="robo-card">
+                <div class="robo-header">
+                    <div class="robo-avatar">🤖</div>
+                    <div class="robo-info">
+                        <h3>Robô Serviços</h3>
+                        <span>Atendimento &amp; Suporte</span>
+                    </div>
+                </div>
+                <div class="robo-data">
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Atendimentos</span>
+                        <span class="robo-metric-value" id="atendimentos">2.247</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Satisfação</span>
+                        <span class="robo-metric-value">96%</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Tempo Resposta</span>
+                        <span class="robo-metric-value">4min</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="robo-card">
+                <div class="robo-header">
+                    <div class="robo-avatar">🤖</div>
+                    <div class="robo-info">
+                        <h3>Robô Transações</h3>
+                        <span>Fluxo Financeiro</span>
+                    </div>
+                </div>
+                <div class="robo-data">
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Volume 24h</span>
+                        <span class="robo-metric-value" id="volume24h">R$ 90.4M</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Operações</span>
+                        <span class="robo-metric-value">18.459</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Taxa Sucesso</span>
+                        <span class="robo-metric-value">99.8%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="robo-card">
+                <div class="robo-header">
+                    <div class="robo-avatar">🤖</div>
+                    <div class="robo-info">
+                        <h3>Robô Recebimentos</h3>
+                        <span>Entrada de Capital</span>
+                    </div>
+                </div>
+                <div class="robo-data">
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Entrada Hoje</span>
+                        <span class="robo-metric-value" id="entradaHoje">R$ 8.8M</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Produtos Pagos</span>
+                        <span class="robo-metric-value">3.256</span>
+                    </div>
+                    <div class="robo-metric">
+                        <span class="robo-metric-label">Inadimplência</span>
+                        <span class="robo-metric-value">1.2%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONSÓRCIO AUTOMÁTICO -->
+        <div class="consorcio-section">
+            <div class="consorcio-header">
+                <h2 class="consorcio-title">Carteira de Consórcio Automático</h2>
+                <span class="consorcio-badge">IA GERENCIADA</span>
+            </div>
+            <div class="consorcio-grid">
+                
+                <div class="consorcio-card">
+                    <div class="consorcio-icon">🏠</div>
+                    <div class="consorcio-name">Imóveis</div>
+                    <div class="consorcio-stats">
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Cotas Ativas</span>
+                            <span class="consorcio-stat-value">1250</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Valor Médio</span>
+                            <span class="consorcio-stat-value">R$ 350K</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Contemplados/Mês</span>
+                            <span class="consorcio-stat-value">45</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="consorcio-card">
+                    <div class="consorcio-icon">🚗</div>
+                    <div class="consorcio-name">Veículos</div>
+                    <div class="consorcio-stats">
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Cotas Ativas</span>
+                            <span class="consorcio-stat-value">3400</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Valor Médio</span>
+                            <span class="consorcio-stat-value">R$ 85K</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Contemplados/Mês</span>
+                            <span class="consorcio-stat-value">120</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="consorcio-card">
+                    <div class="consorcio-icon">🏗️</div>
+                    <div class="consorcio-name">Máquinas</div>
+                    <div class="consorcio-stats">
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Cotas Ativas</span>
+                            <span class="consorcio-stat-value">890</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Valor Médio</span>
+                            <span class="consorcio-stat-value">R$ 250K</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Contemplados/Mês</span>
+                            <span class="consorcio-stat-value">28</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="consorcio-card">
+                    <div class="consorcio-icon">💼</div>
+                    <div class="consorcio-name">Serviços</div>
+                    <div class="consorcio-stats">
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Cotas Ativas</span>
+                            <span class="consorcio-stat-value">2100</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Valor Médio</span>
+                            <span class="consorcio-stat-value">R$ 45K</span>
+                        </div>
+                        <div class="consorcio-stat">
+                            <span class="consorcio-stat-label">Contemplados/Mês</span>
+                            <span class="consorcio-stat-value">85</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- IA TERMINAL -->
+        <div class="ia-terminal">
+            <div class="terminal-header">
+                <div class="terminal-title">
+                    <div class="terminal-dot"></div>
+                    IA Bancária de Elite — Log de Atividades
+                </div>
+            </div>
+            <div class="terminal-body" id="terminalBody">
+                <div class="terminal-line">
+                    <span class="prompt">IA&gt;</span>
+                    <span class="success">Sistema CASA TURCA inicializado com sucesso</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">IA&gt;</span>
+                    <span class="info">10 setores econômicos conectados e monitorados</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">IA&gt;</span>
+                    <span class="info">4 robôs de relatório ativos e coletando dados</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">IA&gt;</span>
+                    <span class="success">Carteira de consórcio automático sincronizada</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">IA&gt;</span>
+                    <span class="warning">Análise de risco em tempo real: BAIXO</span>
+                </div>
+            <div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Relatório de performance gerado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Relatório de performance gerado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Otimização de cache executada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Relatório de performance gerado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Análise de tendências concluída</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Relatório de performance gerado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Verificando integridade dos dados...</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Backup incremental realizado</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="info">Sincronizando com servidores regionais</span></div></div>
+        </div>
+    </main>
+
+    <script>
+        // Clock
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').textContent = now.toLocaleTimeString('pt-BR');
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Toggle Setor
+        function toggleSetor(el, key) {
+            el.classList.toggle('expanded');
+            addLog('Setor ' + key.toUpperCase() + ' acessado');
+        }
+
+        // Live metrics
+        function updateMetrics() {
+            document.getElementById('transacoesHoje').textContent = (Math.floor(Math.random() * 5000) + 10000).toLocaleString('pt-BR');
+            document.getElementById('projetosAtivos').textContent = Math.floor(Math.random() * 15) + 20;
+            document.getElementById('atendimentos').textContent = (Math.floor(Math.random() * 1000) + 2000).toLocaleString('pt-BR');
+            document.getElementById('volume24h').textContent = 'R$ ' + (Math.floor(Math.random() * 50) + 60) + '.' + Math.floor(Math.random() * 9) + 'M';
+            document.getElementById('entradaHoje').textContent = 'R$ ' + (Math.floor(Math.random() * 15) + 8) + '.' + Math.floor(Math.random() * 9) + 'M';
+        }
+        setInterval(updateMetrics, 5000);
+
+        // Add log
+        function addLog(msg) {
+            const terminal = document.getElementById('terminalBody');
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            line.innerHTML = '<span class="prompt">IA></span><span class="info">' + msg + '</span>';
+            terminal.appendChild(line);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        // Auto logs
+        const autoLogs = [
+            'Verificando integridade dos dados...',
+            'Backup incremental realizado',
+            'Análise de tendências concluída',
+            'Sincronizando com servidores regionais',
+            'Otimização de cache executada',
+            'Relatório de performance gerado'
+        ];
+
+        setInterval(() => {
+            const msg = autoLogs[Math.floor(Math.random() * autoLogs.length)];
+            addLog(msg);
+        }, 8000);
+    </script>
+
+
+</body></html>

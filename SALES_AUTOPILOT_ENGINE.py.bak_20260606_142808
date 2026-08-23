@@ -1,0 +1,205 @@
+# SALES_AUTOPILOT_ENGINE.py
+#
+# CONSULTORA IA
+# ↓
+# LEAD SCORE
+# ↓
+# OPPORTUNITY
+# ↓
+# PROPOSTA
+# ↓
+# PIPELINE
+#
+# AUTOPILOTO COMERCIAL IOTEC
+
+import sqlite3
+from datetime import datetime
+
+DB = r"C:\IOTEC_OMEGA_X\backend\iotec.db"
+
+conn = sqlite3.connect(DB)
+cur = conn.cursor()
+
+# ============================================================
+# TABELAS
+# ============================================================
+
+cur.execute("""
+
+CREATE TABLE IF NOT EXISTS sales_autopilot_log(
+
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+    company TEXT,
+
+    score INTEGER,
+
+    opportunity_id INTEGER,
+
+    proposal_value REAL,
+
+    created_at TEXT
+
+)
+
+""")
+
+conn.commit()
+
+# ============================================================
+# SESSÕES DA CONSULTORA
+# ============================================================
+
+try:
+
+    sessions = cur.execute("""
+
+    SELECT
+
+    company,
+    email,
+    sector,
+    lead_score,
+    recommendation,
+    estimated_value
+
+    FROM sales_consultant_sessions
+
+    WHERE status='NOVO_LEAD'
+
+    """).fetchall()
+
+except:
+
+    print("")
+    print("sales_consultant_sessions nao encontrada")
+    print("")
+    conn.close()
+    exit()
+
+# ============================================================
+# AUTOPILOTO
+# ============================================================
+
+gerados = 0
+
+for row in sessions:
+
+    empresa = row[0]
+    email = row[1]
+    setor = row[2]
+    score = row[3]
+    produto = row[4]
+    valor = row[5]
+
+    # somente leads qualificados
+
+    if score < 15:
+        continue
+
+    # --------------------------------------------------------
+    # OPPORTUNITY
+    # --------------------------------------------------------
+
+    cur.execute("""
+
+    INSERT INTO pipeline(
+
+        company,
+        email,
+        sector,
+        opportunity_description,
+        status,
+        proposal_value,
+        created_at
+
+    )
+
+    VALUES(
+
+        ?,?,?,?,?,?,?
+
+    )
+
+    """,(
+
+        empresa,
+        email,
+        setor,
+        produto,
+        'PROPOSTA_ENVIADA',
+        valor,
+        datetime.now().strftime(
+            "%d/%m/%Y %H:%M:%S"
+        )
+
+    ))
+
+    op_id = cur.lastrowid
+
+    # --------------------------------------------------------
+    # LOG
+    # --------------------------------------------------------
+
+    cur.execute("""
+
+    INSERT INTO sales_autopilot_log(
+
+        company,
+        score,
+        opportunity_id,
+        proposal_value,
+        created_at
+
+    )
+
+    VALUES(
+
+        ?,?,?,?,?
+
+    )
+
+    """,(
+
+        empresa,
+        score,
+        op_id,
+        valor,
+        datetime.now().strftime(
+            "%d/%m/%Y %H:%M:%S"
+        )
+
+    ))
+
+    # --------------------------------------------------------
+    # MARCAR PROCESSADO
+    # --------------------------------------------------------
+
+    cur.execute("""
+
+    UPDATE sales_consultant_sessions
+
+    SET status='PROCESSADO'
+
+    WHERE company=?
+    AND email=?
+
+    """,(
+
+        empresa,
+        email
+
+    ))
+
+    gerados += 1
+
+conn.commit()
+conn.close()
+
+print("")
+print("===================================================")
+print("SALES AUTOPILOT ENGINE")
+print("===================================================")
+print("")
+print("OPORTUNIDADES GERADAS:", gerados)
+print("")

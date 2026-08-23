@@ -1,0 +1,68 @@
+# ==========================================================
+# SINCRONIZAÇÃO
+# ==========================================================
+
+matched = 0
+
+for company in companies:
+
+    city = company.get("city","").strip().lower()
+
+    segmento = company.get("segmento","").strip().upper()
+
+    # -------------------------
+    # MAPEAMENTO DOS SEGMENTOS
+    # -------------------------
+
+    if "ENGENHARIA" in segmento:
+
+        sector = "Engenharia"
+
+    elif "ARQUITETURA" in segmento:
+
+        sector = "Arquitetura"
+
+    elif "CONSTRU" in segmento:
+
+        sector = "Construção"
+
+    elif "EDUCA" in segmento:
+
+        sector = "Educação"
+
+    elif "SAÚDE" in segmento or "SAUDE" in segmento:
+
+        sector = "Saúde"
+
+    elif "TECNOLOGIA" in segmento:
+
+        sector = "Tecnologia"
+
+    elif "INDÚSTRIA" in segmento or "INDUSTRIA" in segmento:
+
+        sector = "Indústria"
+
+    elif "AGRO" in segmento:
+
+        sector = "Agronegócio"
+
+    else:
+
+        continue
+
+    # -------------------------
+    # PROCURA O NÓ
+    # -------------------------
+
+    for node in world:
+
+        if (
+            node["city"].strip().lower() == city
+            and node["sector"] == sector
+        ):
+
+            node["companies"] += 1
+
+            matched += 1
+
+            break

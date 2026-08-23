@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NÚCLEO IOTEC</title>
+<style>
+body{background:#0b0f1a;color:#fff;font-family:Arial;padding:20px}
+.card{background:#111;border:1px solid #333;padding:15px;margin:10px;border-radius:10px}
+button{padding:8px;background:gold;border:none}
+</style>
+</head>
+<body>
+
+<h1>PAINEL CENTRAL IOTEC</h1>
+
+<p>Total: {{total}} | Hoje: {{hoje}}</p>
+
+<form method="post" action="/novo">
+<input name="cliente" placeholder="cliente">
+<input name="valor" placeholder="valor">
+<button>Adicionar</button>
+</form>
+
+{% for x in data %}
+<div class="card">
+ID: {{x.id}}<br>
+Cliente: {{x.cliente}}<br>
+Valor: {{x.valor}}<br>
+Status: {{x.status}}<br>
+<a href="/avancar/{{x.id}}"><button>Avançar</button></a>
+</div>
+{% endfor %}
+
+</body>
+</html>
+

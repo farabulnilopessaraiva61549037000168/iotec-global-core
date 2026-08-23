@@ -1,0 +1,10 @@
+﻿venv/
+__pycache__/
+_SANITIZER_BACKUP/
+NUCLEO_CONSOLIDADO/
+static/
+*.mp4
+*.txt
+*.json
+*.pyc
+.env

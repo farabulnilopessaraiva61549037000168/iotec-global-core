@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 Dashboard de Missões - Sistema Omega</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .status-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .status-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .status-card h3 {
+            color: #00ffff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .arquetipo-item {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .status-online {
+            color: #00ff00;
+            font-weight: bold;
+        }
+
+        .status-offline {
+            color: #ff4444;
+            font-weight: bold;
+        }
+
+        .missoes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .categoria-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .categoria-header {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .missao-item {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .missao-item:hover {
+            border-color: #00ffff;
+            transform: scale(1.02);
+        }
+
+        .missao-nivel {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .nivel-1 { background: #4caf50; }
+        .nivel-2 { background: #ff9800; }
+        .nivel-3 { background: #f44336; }
+
+        .btn-iniciar {
+            background: linear-gradient(45deg, #00ffff, #ff00ff);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            float: right;
+        }
+
+        .btn-iniciar:hover {
+            transform: scale(1.1);
+        }
+
+        .missoes-ativas {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .missao-ativa {
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ffff, #ff00ff);
+            transition: width 0.3s ease;
+        }
+
+        .timestamp {
+            color: #888;
+            font-size: 0.9em;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .alert {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .alert-success {
+            background: rgba(76, 175, 80, 0.2);
+            border: 1px solid #4caf50;
+            color: #4caf50;
+        }
+
+        .alert-error {
+            background: rgba(244, 67, 54, 0.2);
+            border: 1px solid #f44336;
+            color: #f44336;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .status-grid,
+            .missoes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 CENTRAL DE MISSÕES OMEGA</h1>
+            <p>Controle estratégico de todas as operações do sistema</p>
+        </div>
+
+        <!-- Status dos Arquétipos -->
+        <div class="status-grid">
+            <div class="status-card">
+                <h3>🤖 ESQUADRÃO DE ROBÔS</h3>
+                
+                    
+                    <div class="arquetipo-item">
+                        <span>R2C1 COMMANDER</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>R3X7 SCANNER</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>A4L9 ASSAULT</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>M7D2 MEDIC</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>G8K5 GUARDIAN</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>T6N1 TECH</span>
+                        <span class="status-offline">
+                            OFFLINE
+                        </span>
+                    </div>
+                    
+                
+            </div>
+
+            <div class="status-card">
+                <h3>🏘️ ALDEIAS OPERACIONAIS</h3>
+                
+                    
+                    <div class="arquetipo-item">
+                        <span>🏘️ Aldeia dos Dados</span>
+                        <span class="status-online">247 hab</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>🎨 Aldeia Criativa</span>
+                        <span class="status-online">189 hab</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>🤖 Aldeia Autônoma</span>
+                        <span class="status-online">156 hab</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>🛡️ Aldeia da Segurança</span>
+                        <span class="status-online">134 hab</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>💰 Aldeia Comercial</span>
+                        <span class="status-online">203 hab</span>
+                    </div>
+                    
+                
+            </div>
+
+            <div class="status-card">
+                <h3>🏛️ CASAS ARQUETÍPICAS</h3>
+                
+                    
+                    <div class="arquetipo-item">
+                        <span>🏛️ Casa do Comando</span>
+                        <span class="status-online">12 ocup</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>📚 Casa da Sabedoria</span>
+                        <span class="status-online">8 ocup</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>⚡ Casa da Criação</span>
+                        <span class="status-online">15 ocup</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>💎 Casa da Prosperidade</span>
+                        <span class="status-online">10 ocup</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>🌸 Casa da Harmonia</span>
+                        <span class="status-online">6 ocup</span>
+                    </div>
+                    
+                    <div class="arquetipo-item">
+                        <span>🔍 Casa da Exploração</span>
+                        <span class="status-online">11 ocup</span>
+                    </div>
+                    
+                
+            </div>
+        </div>
+
+        <!-- Missões Ativas -->
+        
+
+        <!-- Catálogo de Missões -->
+        <h2 style="color: #00ffff; margin-bottom: 20px; text-align: center;">📋 CATÁLOGO DE MISSÕES DISPONÍVEIS</h2>
+        
+        <div class="missoes-grid">
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #2196f3;">
+                    🔍 Reconhecimento e Inteligência
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('reconhecimento', 'varredura_rapida')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Varredura Rápida de Perímetro</h4>
+                    <p><strong>Objetivo:</strong> Escaneamento completo de área com análise básica</p>
+                    <p><strong>Duração:</strong> 5-10 min</p>
+                    <p><strong>Equipe:</strong> R3X7, Casa da Exploração, Aldeia dos Dados</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('reconhecimento', 'varredura_rapida')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('reconhecimento', 'deteccao_anomalias')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Detecção de Anomalias Multi-Fonte</h4>
+                    <p><strong>Objetivo:</strong> Detecção avançada de padrões suspeitos</p>
+                    <p><strong>Duração:</strong> 15-30 min</p>
+                    <p><strong>Equipe:</strong> R3X7, T6N1, Aldeia da Segurança, Casa da Sabedoria</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('reconhecimento', 'deteccao_anomalias')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('reconhecimento', 'vigilancia_persistente')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Vigilância Persistente 24/7</h4>
+                    <p><strong>Objetivo:</strong> Monitoramento contínuo com modelos preditivos</p>
+                    <p><strong>Duração:</strong> Contínuo</p>
+                    <p><strong>Equipe:</strong> R3X7, Aldeia Autônoma, Casa da Sabedoria, Aldeia dos Dados</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('reconhecimento', 'vigilancia_persistente')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #4caf50;">
+                    🛡️ Segurança e Defesa
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('seguranca', 'patrulhamento')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Patrulhamento de Perímetro</h4>
+                    <p><strong>Objetivo:</strong> Verificação de pontos de controle</p>
+                    <p><strong>Duração:</strong> 10-15 min</p>
+                    <p><strong>Equipe:</strong> G8K5</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('seguranca', 'patrulhamento')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('seguranca', 'resposta_incidentes')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Resposta a Incidentes</h4>
+                    <p><strong>Objetivo:</strong> Contenção e recuperação de incidentes</p>
+                    <p><strong>Duração:</strong> 20-45 min</p>
+                    <p><strong>Equipe:</strong> G8K5, T6N1, M7D2</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('seguranca', 'resposta_incidentes')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('seguranca', 'exercicio_redblue')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Exercício Red/Blue Team</h4>
+                    <p><strong>Objetivo:</strong> Simulação e hardening completo</p>
+                    <p><strong>Duração:</strong> 1-3 horas</p>
+                    <p><strong>Equipe:</strong> Aldeia da Segurança, T6N1, Casa do Comando</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('seguranca', 'exercicio_redblue')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #f44336;">
+                    ⚔️ Intervenção e Remediação
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('intervencao', 'neutralizacao')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Neutralização Direcionada</h4>
+                    <p><strong>Objetivo:</strong> Eliminação de processos maliciosos</p>
+                    <p><strong>Duração:</strong> 5-15 min</p>
+                    <p><strong>Equipe:</strong> A4L9, T6N1</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('intervencao', 'neutralizacao')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('intervencao', 'contencao_simulada')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Contenção Simulada</h4>
+                    <p><strong>Objetivo:</strong> Treinamento de contenção crítica</p>
+                    <p><strong>Duração:</strong> 30-60 min</p>
+                    <p><strong>Equipe:</strong> A4L9, G8K5, M7D2</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('intervencao', 'contencao_simulada')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('intervencao', 'remediacao_critica')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Remediação Crítica</h4>
+                    <p><strong>Objetivo:</strong> Operações críticas com C2 total</p>
+                    <p><strong>Duração:</strong> 1-4 horas</p>
+                    <p><strong>Equipe:</strong> Todas as unidades, Casa do Comando</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('intervencao', 'remediacao_critica')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #9c27b0;">
+                    💻 Engenharia e TechOps
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('engenharia', 'deploy_hotfix')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Deploy de Hotfix</h4>
+                    <p><strong>Objetivo:</strong> Implementação rápida de correções</p>
+                    <p><strong>Duração:</strong> 10-20 min</p>
+                    <p><strong>Equipe:</strong> T6N1</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('engenharia', 'deploy_hotfix')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('engenharia', 'rollout_integracao')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Rollout de Integração</h4>
+                    <p><strong>Objetivo:</strong> Implementação gradual de features</p>
+                    <p><strong>Duração:</strong> 45-90 min</p>
+                    <p><strong>Equipe:</strong> T6N1, Aldeia Autônoma, Casa da Criação</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('engenharia', 'rollout_integracao')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('engenharia', 'upgrade_plataforma')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Upgrade de Plataforma</h4>
+                    <p><strong>Objetivo:</strong> Modernização completa do sistema</p>
+                    <p><strong>Duração:</strong> 2-6 horas</p>
+                    <p><strong>Equipe:</strong> Casa do Comando, Todas as casas</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('engenharia', 'upgrade_plataforma')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #ff9800;">
+                    💰 Comercial e Crescimento
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('comercial', 'scan_leads')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Scan e Pontuação de Leads</h4>
+                    <p><strong>Objetivo:</strong> Identificação de oportunidades</p>
+                    <p><strong>Duração:</strong> 15-30 min</p>
+                    <p><strong>Equipe:</strong> Aldeia Comercial, Aldeia dos Dados</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('comercial', 'scan_leads')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('comercial', 'campanha_marketing')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Lançamento de Campanha</h4>
+                    <p><strong>Objetivo:</strong> Execução de campanhas completas</p>
+                    <p><strong>Duração:</strong> 1-3 horas</p>
+                    <p><strong>Equipe:</strong> Aldeia Criativa, Aldeia Comercial, Casa da Prosperidade</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('comercial', 'campanha_marketing')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('comercial', 'expansao_mercado')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Expansão de Mercado</h4>
+                    <p><strong>Objetivo:</strong> Entrada em novos mercados</p>
+                    <p><strong>Duração:</strong> 4-12 horas</p>
+                    <p><strong>Equipe:</strong> Todas as unidades de apoio</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('comercial', 'expansao_mercado')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #673ab7;">
+                    🎨 Inovação e Criação
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('inovacao', 'prototipagem')">
+                    <div class="missao-nivel nivel-1">NÍVEL I</div>
+                    <h4>Prototipagem de Conceito</h4>
+                    <p><strong>Objetivo:</strong> Desenvolvimento de protótipos</p>
+                    <p><strong>Duração:</strong> 30-60 min</p>
+                    <p><strong>Equipe:</strong> Aldeia Criativa, Casa da Criação</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('inovacao', 'prototipagem')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('inovacao', 'design_sprint')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Design Sprint + Testes</h4>
+                    <p><strong>Objetivo:</strong> Validação de usabilidade</p>
+                    <p><strong>Duração:</strong> 2-4 horas</p>
+                    <p><strong>Equipe:</strong> Casa da Sabedoria, Aldeia Criativa</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('inovacao', 'design_sprint')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('inovacao', 'novo_produto')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>Iniciativa de Novo Produto</h4>
+                    <p><strong>Objetivo:</strong> Desenvolvimento completo</p>
+                    <p><strong>Duração:</strong> 6-24 horas</p>
+                    <p><strong>Equipe:</strong> Casa do Comando, Todas as casas</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('inovacao', 'novo_produto')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+            <div class="categoria-card">
+                <div class="categoria-header" style="background-color: #e91e63;">
+                    🌟 Missões Especiais
+                </div>
+                
+                
+                <div class="missao-item" onclick="iniciarMissao('especiais', 'evento_seguro')">
+                    <div class="missao-nivel nivel-2">NÍVEL II</div>
+                    <h4>Evento de Lançamento Seguro</h4>
+                    <p><strong>Objetivo:</strong> Lançamentos públicos protegidos</p>
+                    <p><strong>Duração:</strong> 3-6 horas</p>
+                    <p><strong>Equipe:</strong> Segurança, Reconhecimento, Comercial</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('especiais', 'evento_seguro')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="missao-item" onclick="iniciarMissao('especiais', 'operacao_omega')">
+                    <div class="missao-nivel nivel-3">NÍVEL III</div>
+                    <h4>OPERAÇÃO OMEGA</h4>
+                    <p><strong>Objetivo:</strong> Operação completa integrada</p>
+                    <p><strong>Duração:</strong> 12-48 horas</p>
+                    <p><strong>Equipe:</strong> TODOS OS ARQUÉTIPOS</p>
+                    <button class="btn-iniciar" onclick="event.stopPropagation(); iniciarMissao('especiais', 'operacao_omega')">
+                        🚀 INICIAR
+                    </button>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="timestamp">
+            🕒 Última atualização: 16:32:09
+        </div>
+    </div>
+
+    <!-- Alert Container -->
+    <div id="alertContainer" style="position: fixed; top: 20px; right: 20px; z-index: 1000;"></div>
+
+    <script>
+        function mostrarAlert(mensagem, tipo = 'success') {
+            const container = document.getElementById('alertContainer');
+            const alert = document.createElement('div');
+            alert.className = `alert alert-${tipo}`;
+            alert.textContent = mensagem;
+            
+            container.appendChild(alert);
+            
+            setTimeout(() => {
+                alert.remove();
+            }, 5000);
+        }
+
+        function iniciarMissao(categoria, missaoId) {
+            fetch('/api/iniciar-missao', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    categoria: categoria,
+                    missao_id: missaoId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.sucesso) {
+                    mostrarAlert(`✅ ${data.mensagem}`, 'success');
+                    setTimeout(() => {
+                        location.reload();
+                    }, 2000);
+                } else {
+                    mostrarAlert(`❌ Erro: ${data.mensagem}`, 'error');
+                }
+            })
+            .catch(error => {
+                mostrarAlert(`❌ Erro de comunicação: ${error}`, 'error');
+            });
+        }
+
+        // Auto-refresh a cada 30 segundos
+        setInterval(() => {
+            location.reload();
+        }, 30000);
+    </script>
+
+</body></html>

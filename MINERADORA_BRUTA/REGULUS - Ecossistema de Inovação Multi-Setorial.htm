@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS - Ecossistema de Inovação Multi-Setorial</title>
+    <script src="REGULUS%20-%20Ecossistema%20de%20Inova%C3%A7%C3%A3o%20Multi-Setorial_arquivos/three.min.js"></script>
+    <link href="REGULUS%20-%20Ecossistema%20de%20Inova%C3%A7%C3%A3o%20Multi-Setorial_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #c9a962;
+            --gold-light: #e8d5a3;
+            --gold-dark: #8b6f47;
+            --bg-dark: #0a0a0c;
+            --bg-mid: #1a1a1f;
+            --bg-light: #f8f6f2;
+            --text-dark: #0a0a0c;
+            --text-light: #ffffff;
+            --accent-blue: #1a5f7a;
+            --accent-green: #2d5016;
+            --phi: 1.618;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        body.theme-light {
+            background: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        body.theme-mid {
+            background: linear-gradient(180deg, #1a1a1f 0%, #2a2a35 100%);
+        }
+
+        .prismatic-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            background: 
+                radial-gradient(ellipse at 20% 30%, rgba(201, 169, 98, 0.03) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 70%, rgba(26, 95, 122, 0.03) 0%, transparent 50%);
+            animation: prismaticShift 20s ease-in-out infinite;
+        }
+
+        @keyframes prismaticShift {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        .prism-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .prism {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: linear-gradient(135deg, rgba(201, 169, 98, 0.6), rgba(232, 213, 163, 0.3));
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+            animation: floatPrism 15s ease-in-out infinite;
+        }
+
+        @keyframes floatPrism {
+            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
+            50% { transform: translateY(-30px) rotate(180deg); opacity: 0.7; }
+        }
+
+        .globe-section {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            overflow: hidden;
+        }
+
+        #globeCanvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .globe-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            background: linear-gradient(transparent, rgba(10, 10, 12, 0.95));
+            z-index: 10;
+        }
+
+        .brand-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .brand-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .theme-switcher {
+            display: flex;
+            gap: 8px;
+        }
+
+        .theme-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 2px solid var(--gold);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .theme-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(201, 169, 98, 0.4);
+        }
+
+        .theme-btn.dark { background: #0a0a0c; }
+        .theme-btn.mid { background: linear-gradient(135deg, #1a1a1f, #2a2a35); }
+        .theme-btn.light { background: #f8f6f2; }
+
+        .metrics-bar {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .metric-item {
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--gold);
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .body.theme-light .metric-label {
+            color: rgba(10, 10, 12, 0.5);
+        }
+
+        .main-content {
+            position: relative;
+            z-index: 5;
+            padding: 0 40px 60px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--gold);
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin: 50px 0 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        .tv-channels {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 20px 0;
+            scrollbar-width: none;
+        }
+
+        .tv-channels::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tv-channel {
+            flex-shrink: 0;
+            width: 280px;
+            min-height: 200px;
+            background: linear-gradient(135deg, rgba(26, 26, 31, 0.95), rgba(42, 42, 53, 0.9));
+            border: 1px solid rgba(201, 169, 98, 0.25);
+            border-radius: 14px;
+            padding: 18px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .tv-channel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+        }
+
+        .tv-channel:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: var(--gold);
+            box-shadow: 0 15px 40px rgba(201, 169, 98, 0.2);
+        }
+
+        .tv-channel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tv-channel-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .tv-channel-status {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.6rem;
+            color: #4ade80;
+            background: rgba(74, 222, 128, 0.1);
+            padding: 3px 8px;
+            border-radius: 10px;
+        }
+
+        .tv-channel-status::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            background: #4ade80;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .tv-programa-atual {
+            background: rgba(201, 169, 98, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid var(--gold);
+        }
+
+        .tv-programa-label {
+            font-size: 0.55rem;
+            color: var(--gold);
+            letter-spacing: 0.15em;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .tv-programa-nome {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .tv-apresentador {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .tv-apresentador-label {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .tv-apresentador-nome {
+            color: var(--gold-light);
+            font-weight: 500;
+        }
+
+        .tv-horario {
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: monospace;
+        }
+
+        .tv-proximos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 5px;
+        }
+
+        .tv-proximos-label {
+            font-size: 0.55rem;
+            color: rgba(255, 255, 255, 0.4);
+            width: 100%;
+            margin-bottom: 2px;
+        }
+
+        .tv-proximo-item {
+            font-size: 0.6rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .sectors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 25px;
+        }
+
+        .sector-card {
+            position: relative;
+            height: 280px;
+            border-radius: 16px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .sector-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .sector-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.4) saturate(0.8);
+            transition: all 0.5s ease;
+        }
+
+        .sector-card:hover .sector-bg {
+            filter: brightness(0.5) saturate(1);
+            transform: scale(1.05);
+        }
+
+        .sector-gradient {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, transparent 0%, rgba(10, 10, 12, 0.7) 60%, rgba(10, 10, 12, 0.95) 100%);
+        }
+
+        .sector-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 25px;
+            z-index: 5;
+        }
+
+        .sector-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .sector-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 6px;
+        }
+
+        .sector-desc {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .sector-metrics {
+            display: flex;
+            gap: 20px;
+        }
+
+        .sector-metric {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sector-metric-value {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--gold);
+        }
+
+        .sector-metric-label {
+            font-size: 0.6rem;
+            color: rgba(255, 255, 255, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .sector-action {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(201, 169, 98, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 98, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: translateX(20px);
+            transition: all 0.4s ease;
+        }
+
+        .sector-card:hover .sector-action {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .sector-action::after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid var(--gold);
+            border-top: 2px solid var(--gold);
+            transform: rotate(45deg);
+            margin-left: -3px;
+        }
+
+        .nature-showcase {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .nature-card {
+            position: relative;
+            height: 200px;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .nature-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+            filter: brightness(0.8);
+        }
+
+        .nature-card:hover img {
+            transform: scale(1.1);
+            filter: brightness(1);
+        }
+
+        .nature-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background: linear-gradient(transparent, rgba(10, 10, 12, 0.9));
+        }
+
+        .nature-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        .footer-bar {
+            background: rgba(10, 10, 12, 0.95);
+            border-top: 1px solid rgba(201, 169, 98, 0.15);
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: var(--gold);
+        }
+
+        .footer-info {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .ai-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(201, 169, 98, 0.1);
+            border: 1px solid rgba(201, 169, 98, 0.2);
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: var(--gold);
+        }
+
+        .ai-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--gold);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .brand-title { font-size: 1.8rem; }
+            .metrics-bar { gap: 30px; }
+            .sectors-grid { grid-template-columns: 1fr; }
+            .nature-showcase { grid-template-columns: 1fr; }
+            .main-content { padding: 0 20px 40px; }
+        }
+
+        /* STANDERES LUMINOSOS - CANAIS TV */
+        .tv-channel {
+            position: relative;
+            background: linear-gradient(145deg, rgba(20, 20, 25, 0.95), rgba(10, 10, 15, 0.98));
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(201, 169, 98, 0.15);
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .tv-channel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--channel-color, #c9a962), transparent);
+            opacity: 0.8;
+        }
+
+        .tv-channel::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top left, var(--channel-color, #c9a962) 0%, transparent 50%);
+            opacity: 0.05;
+            pointer-events: none;
+        }
+
+        .tv-channel:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), 0 0 30px rgba(201, 169, 98, 0.1);
+            border-color: rgba(201, 169, 98, 0.3);
+        }
+
+        .tv-watch-btn {
+            width: 100%;
+            margin-top: 18px;
+            padding: 14px;
+            background: linear-gradient(135deg, var(--channel-color, #c9a962), rgba(201, 169, 98, 0.7));
+            border: none;
+            border-radius: 10px;
+            color: #0a0a0c;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tv-watch-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .tv-watch-btn:hover::before {
+            left: 100%;
+        }
+
+        .tv-watch-btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 25px rgba(201, 169, 98, 0.3);
+        }
+
+        /* MODAL VIDEO PLAYER */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-video-player {
+            width: 95%;
+            max-width: 1400px;
+            height: 85vh;
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 0;
+            background: #0a0a0c;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(201, 169, 98, 0.2);
+            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            padding: 12px 24px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .modal-close-btn:hover {
+            background: var(--gold);
+            color: #0a0a0c;
+            border-color: var(--gold);
+        }
+
+        .modal-video-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #000;
+        }
+
+        .modal-video-element {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-overlay-info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .channel-badge {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: #fff;
+        }
+
+        .live-indicator {
+            padding: 8px 16px;
+            background: #e53935;
+            border-radius: 6px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: #fff;
+            animation: livePulse 2s infinite;
+        }
+
+        @keyframes livePulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .video-bottom-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .program-label {
+            font-size: 0.65rem;
+            color: var(--gold);
+            letter-spacing: 0.15em;
+            margin-bottom: 6px;
+        }
+
+        .program-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+
+        .program-presenter {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .program-controls {
+            display: flex;
+            gap: 12px;
+        }
+
+        .ctrl-btn {
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .ctrl-btn:hover {
+            background: var(--gold);
+            color: #0a0a0c;
+            border-color: var(--gold);
+        }
+
+        .modal-sidebar {
+            background: rgba(15, 15, 20, 0.98);
+            border-left: 1px solid rgba(201, 169, 98, 0.15);
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-title {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            color: var(--gold);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+        }
+
+        .schedule-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .schedule-item {
+            display: flex;
+            gap: 15px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .schedule-time {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--gold);
+            min-width: 50px;
+        }
+
+        .schedule-name {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .sidebar-desc {
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .lang-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .lang-btn {
+            padding: 8px 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.7rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            background: var(--gold);
+            color: #0a0a0c;
+            border-color: var(--gold);
+        }
+
+        @media (max-width: 1024px) {
+            .modal-video-player {
+                grid-template-columns: 1fr;
+                height: 90vh;
+            }
+            .modal-sidebar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="theme-light">
+    <div class="prismatic-overlay"></div>
+    <div class="prism-particles" id="prismParticles"><div class="prism" style="left: 9.30071%; top: 65.2923%; animation-delay: 7.18251s; animation-duration: 12.3825s;"></div><div class="prism" style="left: 46.0482%; top: 4.57691%; animation-delay: 12.6319s; animation-duration: 16.6105s;"></div><div class="prism" style="left: 2.2594%; top: 0.553451%; animation-delay: 0.111462s; animation-duration: 11.9779s;"></div><div class="prism" style="left: 21.0684%; top: 77.877%; animation-delay: 9.44712s; animation-duration: 15.5469s;"></div><div class="prism" style="left: 29.2376%; top: 17.4229%; animation-delay: 2.28861s; animation-duration: 13.559s;"></div><div class="prism" style="left: 14.2692%; top: 15.7375%; animation-delay: 13.0793s; animation-duration: 12.9124s;"></div><div class="prism" style="left: 5.60171%; top: 23.693%; animation-delay: 6.19149s; animation-duration: 13.3999s;"></div><div class="prism" style="left: 78.0968%; top: 90.2012%; animation-delay: 6.62277s; animation-duration: 17.1233s;"></div><div class="prism" style="left: 3.93517%; top: 9.74181%; animation-delay: 14.6698s; animation-duration: 17.1788s;"></div><div class="prism" style="left: 9.75977%; top: 1.01764%; animation-delay: 8.11994s; animation-duration: 14.152s;"></div><div class="prism" style="left: 85.5271%; top: 61.8197%; animation-delay: 7.35746s; animation-duration: 11.0455s;"></div><div class="prism" style="left: 25.5332%; top: 58.894%; animation-delay: 11.6244s; animation-duration: 10.2732s;"></div><div class="prism" style="left: 39.9038%; top: 32.6041%; animation-delay: 11.4446s; animation-duration: 12.466s;"></div><div class="prism" style="left: 20.5724%; top: 92.246%; animation-delay: 3.01702s; animation-duration: 10.6699s;"></div><div class="prism" style="left: 6.34994%; top: 64.209%; animation-delay: 5.17727s; animation-duration: 14.2831s;"></div><div class="prism" style="left: 96.9917%; top: 98.3792%; animation-delay: 12.9483s; animation-duration: 13.0767s;"></div><div class="prism" style="left: 11.2588%; top: 85.6542%; animation-delay: 11.9567s; animation-duration: 17.5056s;"></div><div class="prism" style="left: 61.7792%; top: 15.5215%; animation-delay: 5.01935s; animation-duration: 12.4383s;"></div><div class="prism" style="left: 51.1805%; top: 15.3751%; animation-delay: 1.78705s; animation-duration: 16.783s;"></div><div class="prism" style="left: 29.4055%; top: 19.9185%; animation-delay: 1.85744s; animation-duration: 15.5824s;"></div><div class="prism" style="left: 51.7667%; top: 44.118%; animation-delay: 0.809295s; animation-duration: 12.8672s;"></div><div class="prism" style="left: 0.508055%; top: 2.47462%; animation-delay: 4.58209s; animation-duration: 16.2064s;"></div><div class="prism" style="left: 83.7612%; top: 74.4303%; animation-delay: 11.8224s; animation-duration: 18.6954s;"></div><div class="prism" style="left: 12.3495%; top: 4.79843%; animation-delay: 10.0061s; animation-duration: 16.373s;"></div><div class="prism" style="left: 95.0241%; top: 71.714%; animation-delay: 1.48085s; animation-duration: 13.4205s;"></div><div class="prism" style="left: 42.7921%; top: 53.0694%; animation-delay: 3.05907s; animation-duration: 11.7766s;"></div><div class="prism" style="left: 52.1665%; top: 77.1747%; animation-delay: 6.38936s; animation-duration: 11.9568s;"></div><div class="prism" style="left: 29.3812%; top: 11.5226%; animation-delay: 9.32043s; animation-duration: 19.7236s;"></div><div class="prism" style="left: 3.84733%; top: 46.1819%; animation-delay: 14.8034s; animation-duration: 14.7224s;"></div><div class="prism" style="left: 43.7406%; top: 19.1477%; animation-delay: 10.113s; animation-duration: 16.0594s;"></div></div>
+
+    <section class="globe-section">
+        <canvas id="globeCanvas" width="1366" height="304"></canvas>
+        <div class="globe-overlay">
+            <div class="brand-header">
+                <h1 class="brand-title">REGULUS</h1>
+                <div class="theme-switcher">
+                    <button class="theme-btn dark" onclick="setTheme('dark')" title="Tema Escuro"></button>
+                    <button class="theme-btn mid" onclick="setTheme('mid')" title="Tema Intermediário"></button>
+                    <button class="theme-btn light" onclick="setTheme('light')" title="Tema Claro"></button>
+                </div>
+            </div>
+            <div class="metrics-bar">
+                <div class="metric-item">
+                    <div class="metric-value">R$ 5.4 Bi</div>
+                    <div class="metric-label">Patrimônio Gerenciado</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">70.169</div>
+                    <div class="metric-label">Membros Ativos</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">196</div>
+                    <div class="metric-label">Países Conectados</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">99.7%</div>
+                    <div class="metric-label">Satisfação</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Automação IA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <h2 class="section-title">Canais REGULUS TV — Operação Autônoma IA</h2>
+        <div class="tv-channels" id="tvChannels"><div class="tv-channel" style="--channel-color: #c9a962;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS EXECUTIVE</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Conhecimento &amp; Poder</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Magnus</span></div><div class="tv-horario">14:00 - 16:00</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Liderança Estratégica</span><span class="tv-proximo-item">Negociação Elite</span><span class="tv-proximo-item">Visão de Mercado</span></div><button class="tv-watch-btn" onclick="openChannel(0)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #ff6b9d;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS BEAUTY</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Skincare Premium 2025</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Sophia</span></div><div class="tv-horario">14:00 - 15:00</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Maquiagem Artística</span><span class="tv-proximo-item">Tendências Paris</span><span class="tv-proximo-item">Anti-Aging</span></div><button class="tv-watch-btn" onclick="openChannel(1)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #4ecdc4;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS WELLNESS</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Meditação Guiada</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Zen</span></div><div class="tv-horario">14:00 - 14:30</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Yoga Premium</span><span class="tv-proximo-item">Nutrição Funcional</span><span class="tv-proximo-item">Mindfulness</span></div><button class="tv-watch-btn" onclick="openChannel(2)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #2d5016;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS NATURE</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Amazônia Preservada</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Gaia</span></div><div class="tv-horario">14:00 - 15:00</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Fauna Global</span><span class="tv-proximo-item">Oceanos 2050</span><span class="tv-proximo-item">Agrofloresta</span></div><button class="tv-watch-btn" onclick="openChannel(3)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #ff6b6b;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS FITNESS</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Performance Elite</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Atlas</span></div><div class="tv-horario">14:00 - 14:45</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Pilates Premium</span><span class="tv-proximo-item">CrossFit Elite</span><span class="tv-proximo-item">Recovery Pro</span></div><button class="tv-watch-btn" onclick="openChannel(4)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #a855f7;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS TECH</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Futuro Digital 4.0</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Nexus</span></div><div class="tv-horario">14:00 - 14:30</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">IA Generativa</span><span class="tv-proximo-item">Quantum Computing</span><span class="tv-proximo-item">Automação</span></div><button class="tv-watch-btn" onclick="openChannel(5)">ASSISTIR AO VIVO</button></div><div class="tv-channel" style="--channel-color: #8b6f47;"><div class="tv-channel-header"><div class="tv-channel-name">REGULUS LUXURY</div><div class="tv-channel-status">AO VIVO</div></div><div class="tv-programa-atual"><div class="tv-programa-label">AGORA</div><div class="tv-programa-nome">Design de Interiores</div></div><div class="tv-apresentador"><span class="tv-apresentador-label">Apresentador:</span> <span class="tv-apresentador-nome">IA Muse</span></div><div class="tv-horario">14:00 - 15:30</div><div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span><span class="tv-proximo-item">Moda Sustentável</span><span class="tv-proximo-item">Joalheria</span><span class="tv-proximo-item">Arquitetura</span></div><button class="tv-watch-btn" onclick="openChannel(6)">ASSISTIR AO VIVO</button></div></div>
+
+        <h2 class="section-title">Ecossistema Multi-Setorial</h2>
+        <div class="sectors-grid" id="sectorsGrid"><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/modern_luxury_corpor_94bf639a.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #1a5f7a40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">CC</div>
+                        <h3 class="sector-name">Construção Civil</h3>
+                        <p class="sector-desc">Infraestrutura, edificações e desenvolvimento urbano</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">2.847</span>
+                            <span class="sector-metric-label">projetos</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">R$ 890M</span>
+                            <span class="sector-metric-label">investimento</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">+23.4%</span>
+                            <span class="sector-metric-label">crescimento</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/futuristic_city_skyl_0d358300.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #0d4c6e40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">PT</div>
+                        <h3 class="sector-name">Tecnologia Portuária</h3>
+                        <p class="sector-desc">Automação, logística e operações marítimas</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">48</span>
+                            <span class="sector-metric-label">terminais</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">1.2M TEU</span>
+                            <span class="sector-metric-label">containers</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">99.2%</span>
+                            <span class="sector-metric-label">eficiencia</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/digital_technology_n_604ee61e.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #2c3e5040; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">SC</div>
+                        <h3 class="sector-name">Segurança Corporativa</h3>
+                        <p class="sector-desc">Proteção patrimonial, cybersecurity e monitoramento</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">15.000+</span>
+                            <span class="sector-metric-label">cameras</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">24/7</span>
+                            <span class="sector-metric-label">alertas</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">3min</span>
+                            <span class="sector-metric-label">resposta</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/financial_data_analy_74bb26da.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #8b6f4740; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">IP</div>
+                        <h3 class="sector-name">Investimentos Premium</h3>
+                        <p class="sector-desc">Gestão de patrimônio, fundos e consultoria financeira</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">R$ 5.4Bi</span>
+                            <span class="sector-metric-label">patrimonio</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">+17.8%</span>
+                            <span class="sector-metric-label">roi</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">70.169</span>
+                            <span class="sector-metric-label">clientes</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/sustainable_agricult_df3688fe.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #2d501640; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">AS</div>
+                        <h3 class="sector-name">Agronegócio Sustentável</h3>
+                        <p class="sector-desc">Agricultura de precisão, ecologia e sustentabilidade</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">890.000</span>
+                            <span class="sector-metric-label">hectares</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">4.2M ton</span>
+                            <span class="sector-metric-label">producao</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">100% IA</span>
+                            <span class="sector-metric-label">tech</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/robotic_arm_industri_7feba970.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #4a1a6b40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">IT</div>
+                        <h3 class="sector-name">Inovação Tecnológica</h3>
+                        <p class="sector-desc">Robótica, automação industrial e IA avançada</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">127</span>
+                            <span class="sector-metric-label">patentes</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">8</span>
+                            <span class="sector-metric-label">labs</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">99.7%</span>
+                            <span class="sector-metric-label">precisao</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/modern_art_sculpture_70627dee.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #6b1a4a40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">AC</div>
+                        <h3 class="sector-name">Arte &amp; Cultura</h3>
+                        <p class="sector-desc">Produção audiovisual, moda e design contemporâneo</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">340+</span>
+                            <span class="sector-metric-label">producoes</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">52/ano</span>
+                            <span class="sector-metric-label">eventos</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">Global</span>
+                            <span class="sector-metric-label">alcance</span>
+                        </div>
+                    </div>
+                    </div>
+                </div><div class="sector-card">
+                    <div class="sector-bg" style="background-image: url('/static/stock_images/luxury_business_exec_56aaf260.jpg')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: #1a4a6b40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">EB</div>
+                        <h3 class="sector-name">Educação &amp; Bibliotecas</h3>
+                        <p class="sector-desc">Recursos para professores, pesquisa e conhecimento</p>
+                        <div class="sector-metrics">
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">1.200+</span>
+                            <span class="sector-metric-label">cursos</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">8.500</span>
+                            <span class="sector-metric-label">professores</span>
+                        </div>
+                    
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">45.000</span>
+                            <span class="sector-metric-label">certificados</span>
+                        </div>
+                    </div>
+                    </div>
+                </div></div>
+
+        <h2 class="section-title">Preservação &amp; Natureza — Imersão Visual</h2>
+        <div class="nature-showcase" id="natureShowcase"><div class="nature-card">
+                    <img src="REGULUS%20-%20Ecossistema%20de%20Inova%C3%A7%C3%A3o%20Multi-Setorial_arquivos/endangered_species_w_d871535d.jpg" alt="Preservação da Vida Selvagem">
+                    <div class="nature-overlay">
+                        <div class="nature-title">Preservação da Vida Selvagem</div>
+                    </div>
+                </div><div class="nature-card">
+                    <img src="REGULUS%20-%20Ecossistema%20de%20Inova%C3%A7%C3%A3o%20Multi-Setorial_arquivos/breathtaking_landsca_459e2eee.jpg" alt="Paisagens Naturais">
+                    <div class="nature-overlay">
+                        <div class="nature-title">Paisagens Naturais</div>
+                    </div>
+                </div><div class="nature-card">
+                    <img src="REGULUS%20-%20Ecossistema%20de%20Inova%C3%A7%C3%A3o%20Multi-Setorial_arquivos/ecology_nature_conse_023a19e0.jpg" alt="Ecologia Sustentável">
+                    <div class="nature-overlay">
+                        <div class="nature-title">Ecologia Sustentável</div>
+                    </div>
+                </div></div>
+    </main>
+
+    <footer class="footer-bar">
+        <div class="footer-brand">REGULUS_SYSTEM_LTDA</div>
+        <div class="footer-info">CNPJ: 61.549.037/0001-68 — Versão 5.0 Enterprise — 100% Automatizado por IA</div>
+        <div class="ai-badge">IA Operacional 24/7</div>
+    </footer>
+
+    <script>
+        const setores = {"setores": [{"id": "construcao", "nome": "Constru\u00e7\u00e3o Civil", "descricao": "Infraestrutura, edifica\u00e7\u00f5es e desenvolvimento urbano", "cor": "#1a5f7a", "imagem": "modern_luxury_corpor_94bf639a.jpg", "metricas": {"projetos": "2.847", "investimento": "R$ 890M", "crescimento": "+23.4%"}}, {"id": "portos", "nome": "Tecnologia Portu\u00e1ria", "descricao": "Automa\u00e7\u00e3o, log\u00edstica e opera\u00e7\u00f5es mar\u00edtimas", "cor": "#0d4c6e", "imagem": "futuristic_city_skyl_0d358300.jpg", "metricas": {"terminais": "48", "containers": "1.2M TEU", "eficiencia": "99.2%"}}, {"id": "seguranca", "nome": "Seguran\u00e7a Corporativa", "descricao": "Prote\u00e7\u00e3o patrimonial, cybersecurity e monitoramento", "cor": "#2c3e50", "imagem": "digital_technology_n_604ee61e.jpg", "metricas": {"cameras": "15.000+", "alertas": "24/7", "resposta": "3min"}}, {"id": "investimentos", "nome": "Investimentos Premium", "descricao": "Gest\u00e3o de patrim\u00f4nio, fundos e consultoria financeira", "cor": "#8b6f47", "imagem": "financial_data_analy_74bb26da.jpg", "metricas": {"patrimonio": "R$ 5.4Bi", "roi": "+17.8%", "clientes": "70.169"}}, {"id": "agronegocio", "nome": "Agroneg\u00f3cio Sustent\u00e1vel", "descricao": "Agricultura de precis\u00e3o, ecologia e sustentabilidade", "cor": "#2d5016", "imagem": "sustainable_agricult_df3688fe.jpg", "metricas": {"hectares": "890.000", "producao": "4.2M ton", "tech": "100% IA"}}, {"id": "tecnologia", "nome": "Inova\u00e7\u00e3o Tecnol\u00f3gica", "descricao": "Rob\u00f3tica, automa\u00e7\u00e3o industrial e IA avan\u00e7ada", "cor": "#4a1a6b", "imagem": "robotic_arm_industri_7feba970.jpg", "metricas": {"patentes": "127", "labs": "8", "precisao": "99.7%"}}, {"id": "cultura", "nome": "Arte & Cultura", "descricao": "Produ\u00e7\u00e3o audiovisual, moda e design contempor\u00e2neo", "cor": "#6b1a4a", "imagem": "modern_art_sculpture_70627dee.jpg", "metricas": {"producoes": "340+", "eventos": "52/ano", "alcance": "Global"}}, {"id": "educacao", "nome": "Educa\u00e7\u00e3o & Bibliotecas", "descricao": "Recursos para professores, pesquisa e conhecimento", "cor": "#1a4a6b", "imagem": "luxury_business_exec_56aaf260.jpg", "metricas": {"cursos": "1.200+", "professores": "8.500", "certificados": "45.000"}}], "canais_tv": [{"nome": "REGULUS EXECUTIVE", "tipo": "Treinamento de Alto N\u00edvel", "status": "AO VIVO", "programa_atual": "Conhecimento & Poder", "apresentador": "IA Magnus", "horario": "14:00 - 16:00", "proximos": ["Lideran\u00e7a Estrat\u00e9gica", "Negocia\u00e7\u00e3o Elite", "Vis\u00e3o de Mercado"], "video": "https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4", "cor": "#c9a962", "destaque": true}, {"nome": "REGULUS BEAUTY", "tipo": "Est\u00e9tica & Beleza", "status": "AO VIVO", "programa_atual": "Skincare Premium 2025", "apresentador": "IA Sophia", "horario": "14:00 - 15:00", "proximos": ["Maquiagem Art\u00edstica", "Tend\u00eancias Paris", "Anti-Aging"], "video": "https://videos.pexels.com/video-files/4612159/4612159-uhd_2732_1440_25fps.mp4", "cor": "#ff6b9d"}, {"nome": "REGULUS WELLNESS", "tipo": "Sa\u00fade & Bem-Estar", "status": "AO VIVO", "programa_atual": "Medita\u00e7\u00e3o Guiada", "apresentador": "IA Zen", "horario": "14:00 - 14:30", "proximos": ["Yoga Premium", "Nutri\u00e7\u00e3o Funcional", "Mindfulness"], "video": "https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4", "cor": "#4ecdc4"}, {"nome": "REGULUS NATURE", "tipo": "Natureza & Preserva\u00e7\u00e3o", "status": "AO VIVO", "programa_atual": "Amaz\u00f4nia Preservada", "apresentador": "IA Gaia", "horario": "14:00 - 15:00", "proximos": ["Fauna Global", "Oceanos 2050", "Agrofloresta"], "video": "https://videos.pexels.com/video-files/857045/857045-hd_1920_1080_30fps.mp4", "cor": "#2d5016"}, {"nome": "REGULUS FITNESS", "tipo": "Corpo & Performance", "status": "AO VIVO", "programa_atual": "Performance Elite", "apresentador": "IA Atlas", "horario": "14:00 - 14:45", "proximos": ["Pilates Premium", "CrossFit Elite", "Recovery Pro"], "video": "https://videos.pexels.com/video-files/4761671/4761671-uhd_2732_1440_25fps.mp4", "cor": "#ff6b6b"}, {"nome": "REGULUS TECH", "tipo": "Inova\u00e7\u00e3o & IA", "status": "AO VIVO", "programa_atual": "Futuro Digital 4.0", "apresentador": "IA Nexus", "horario": "14:00 - 14:30", "proximos": ["IA Generativa", "Quantum Computing", "Automa\u00e7\u00e3o"], "video": "https://videos.pexels.com/video-files/3141210/3141210-uhd_2560_1440_25fps.mp4", "cor": "#a855f7"}, {"nome": "REGULUS LUXURY", "tipo": "Lifestyle Premium", "status": "AO VIVO", "programa_atual": "Design de Interiores", "apresentador": "IA Muse", "horario": "14:00 - 15:30", "proximos": ["Moda Sustent\u00e1vel", "Joalheria", "Arquitetura"], "video": "https://videos.pexels.com/video-files/3773486/3773486-uhd_2560_1440_30fps.mp4", "cor": "#8b6f47"}]};
+        const imagePath = '/static/stock_images/';
+
+        function setTheme(theme) {
+            document.body.className = 'theme-' + theme;
+        }
+
+        function createPrisms() {
+            const container = document.getElementById('prismParticles');
+            for (let i = 0; i < 30; i++) {
+                const prism = document.createElement('div');
+                prism.className = 'prism';
+                prism.style.left = Math.random() * 100 + '%';
+                prism.style.top = Math.random() * 100 + '%';
+                prism.style.animationDelay = Math.random() * 15 + 's';
+                prism.style.animationDuration = (10 + Math.random() * 10) + 's';
+                container.appendChild(prism);
+            }
+        }
+
+        function renderTVChannels() {
+            const container = document.getElementById('tvChannels');
+            setores.canais_tv.forEach((canal, index) => {
+                const card = document.createElement('div');
+                card.className = 'tv-channel';
+                card.style.setProperty('--channel-color', canal.cor || '#c9a962');
+                
+                let proximosHTML = '';
+                if (canal.proximos) {
+                    proximosHTML = canal.proximos.map(p => 
+                        '<span class="tv-proximo-item">' + p + '</span>'
+                    ).join('');
+                }
+                
+                card.innerHTML = 
+                    '<div class="tv-channel-header">' +
+                        '<div class="tv-channel-name">' + canal.nome + '</div>' +
+                        '<div class="tv-channel-status">' + canal.status + '</div>' +
+                    '</div>' +
+                    '<div class="tv-programa-atual">' +
+                        '<div class="tv-programa-label">AGORA</div>' +
+                        '<div class="tv-programa-nome">' + (canal.programa_atual || canal.tipo) + '</div>' +
+                    '</div>' +
+                    '<div class="tv-apresentador">' +
+                        '<span class="tv-apresentador-label">Apresentador:</span> ' +
+                        '<span class="tv-apresentador-nome">' + (canal.apresentador || 'IA Host') + '</span>' +
+                    '</div>' +
+                    '<div class="tv-horario">' + (canal.horario || '24h') + '</div>' +
+                    (proximosHTML ? '<div class="tv-proximos"><span class="tv-proximos-label">A seguir:</span>' + proximosHTML + '</div>' : '') +
+                    '<button class="tv-watch-btn" onclick="openChannel(' + index + ')">ASSISTIR AO VIVO</button>';
+                
+                container.appendChild(card);
+            });
+        }
+        
+        function openChannel(index) {
+            const canal = setores.canais_tv[index];
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.onclick = function(e) { if(e.target === modal) modal.remove(); };
+            
+            const scheduleHTML = canal.proximos.map((p, i) => 
+                '<div class="schedule-item"><span class="schedule-time">' + (15 + i) + ':00</span><span class="schedule-name">' + p + '</span></div>'
+            ).join('');
+            
+            modal.innerHTML = 
+                '<div class="modal-content modal-video-player">' +
+                    '<button class="modal-close-btn" onclick="this.closest(\'.modal-overlay\').remove()">FECHAR</button>' +
+                    '<div class="modal-video-container">' +
+                        '<video autoplay loop muted playsinline class="modal-video-element">' +
+                            '<source src="' + canal.video + '" type="video/mp4">' +
+                        '</video>' +
+                        '<div class="video-overlay-info">' +
+                            '<div class="channel-badge" style="background:' + canal.cor + '">' + canal.nome + '</div>' +
+                            '<div class="live-indicator">AO VIVO</div>' +
+                        '</div>' +
+                        '<div class="video-bottom-bar">' +
+                            '<div class="current-program">' +
+                                '<div class="program-label">AGORA</div>' +
+                                '<div class="program-title">' + canal.programa_atual + '</div>' +
+                                '<div class="program-presenter">Apresentador: ' + canal.apresentador + '</div>' +
+                            '</div>' +
+                            '<div class="program-controls">' +
+                                '<button class="ctrl-btn" onclick="toggleMute(this)">ATIVAR SOM</button>' +
+                                '<button class="ctrl-btn" onclick="toggleFullscreen()">TELA CHEIA</button>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="modal-sidebar">' +
+                        '<div class="sidebar-section">' +
+                            '<h3 class="sidebar-title">PROGRAMAÇÃO</h3>' +
+                            '<div class="schedule-list">' + scheduleHTML + '</div>' +
+                        '</div>' +
+                        '<div class="sidebar-section">' +
+                            '<h3 class="sidebar-title">SOBRE O CANAL</h3>' +
+                            '<p class="sidebar-desc">' + canal.tipo + ' - Conteúdo premium produzido 100% por Inteligência Artificial REGULUS. Transmissão 24 horas, 7 dias por semana.</p>' +
+                        '</div>' +
+                        '<div class="sidebar-section">' +
+                            '<h3 class="sidebar-title">IDIOMAS DISPONÍVEIS</h3>' +
+                            '<div class="lang-buttons">' +
+                                '<button class="lang-btn active">PT</button>' +
+                                '<button class="lang-btn">EN</button>' +
+                                '<button class="lang-btn">ES</button>' +
+                                '<button class="lang-btn">FR</button>' +
+                                '<button class="lang-btn">DE</button>' +
+                                '<button class="lang-btn">ZH</button>' +
+                                '<button class="lang-btn">JA</button>' +
+                                '<button class="lang-btn">AR</button>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                '</div>';
+            
+            document.body.appendChild(modal);
+        }
+        
+        function toggleMute(btn) {
+            const video = document.querySelector('.modal-video-element');
+            if (video) {
+                video.muted = !video.muted;
+                btn.textContent = video.muted ? 'ATIVAR SOM' : 'SILENCIAR';
+            }
+        }
+        
+        function toggleFullscreen() {
+            const container = document.querySelector('.modal-video-container');
+            if (container) {
+                if (document.fullscreenElement) {
+                    document.exitFullscreen();
+                } else {
+                    container.requestFullscreen();
+                }
+            }
+        }
+
+        function renderSectors() {
+            const container = document.getElementById('sectorsGrid');
+            const sectorCodes = ['CC', 'PT', 'SC', 'IP', 'AS', 'IT', 'AC', 'EB'];
+            
+            setores.setores.forEach((setor, i) => {
+                const card = document.createElement('div');
+                card.className = 'sector-card';
+                
+                const metricsKeys = Object.keys(setor.metricas);
+                let metricsHTML = '';
+                metricsKeys.forEach(key => {
+                    metricsHTML += `
+                        <div class="sector-metric">
+                            <span class="sector-metric-value">${setor.metricas[key]}</span>
+                            <span class="sector-metric-label">${key}</span>
+                        </div>
+                    `;
+                });
+                
+                card.innerHTML = `
+                    <div class="sector-bg" style="background-image: url('${imagePath}${setor.imagem}')"></div>
+                    <div class="sector-gradient"></div>
+                    <div class="sector-action"></div>
+                    <div class="sector-content">
+                        <div class="sector-icon" style="background: ${setor.cor}40; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em;">${sectorCodes[i]}</div>
+                        <h3 class="sector-name">${setor.nome}</h3>
+                        <p class="sector-desc">${setor.descricao}</p>
+                        <div class="sector-metrics">${metricsHTML}</div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function renderNature() {
+            const container = document.getElementById('natureShowcase');
+            const natureImages = [
+                { img: 'endangered_species_w_d871535d.jpg', title: 'Preservação da Vida Selvagem' },
+                { img: 'breathtaking_landsca_459e2eee.jpg', title: 'Paisagens Naturais' },
+                { img: 'ecology_nature_conse_023a19e0.jpg', title: 'Ecologia Sustentável' }
+            ];
+            
+            natureImages.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'nature-card';
+                card.innerHTML = `
+                    <img src="${imagePath}${item.img}" alt="${item.title}">
+                    <div class="nature-overlay">
+                        <div class="nature-title">${item.title}</div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Advanced Canvas 2D Globe - Fiber Optic Style
+        const canvas = document.getElementById('globeCanvas');
+        const ctx = canvas.getContext('2d');
+        let rotation = 0;
+        let time = 0;
+        let pulsePhase = 0;
+        
+        const cities = [
+            { lat: -23.55, lng: -46.63, name: 'São Paulo', color: '#00ff88' },
+            { lat: 35.68, lng: 139.65, name: 'Tokyo', color: '#ff6b6b' },
+            { lat: 51.51, lng: -0.13, name: 'London', color: '#4ecdc4' },
+            { lat: 40.71, lng: -74.01, name: 'NYC', color: '#ffe66d' },
+            { lat: 1.35, lng: 103.82, name: 'Singapore', color: '#c9a962' },
+            { lat: 55.76, lng: 37.62, name: 'Moscow', color: '#a8e6cf' },
+            { lat: -33.87, lng: 151.21, name: 'Sydney', color: '#ff8b94' },
+            { lat: 31.23, lng: 121.47, name: 'Shanghai', color: '#dda0dd' }
+        ];
+        
+        // Fiber optic data packets
+        const dataPackets = [];
+        for (let i = 0; i < 20; i++) {
+            dataPackets.push({
+                from: Math.floor(Math.random() * cities.length),
+                to: Math.floor(Math.random() * cities.length),
+                progress: Math.random(),
+                speed: 0.005 + Math.random() * 0.01
+            });
+        }
+        
+        function resizeCanvas() {
+            const container = canvas.parentElement;
+            canvas.width = container.clientWidth;
+            canvas.height = container.clientHeight;
+        }
+        
+        function latLngTo3D(lat, lng, radius) {
+            const phi = (90 - lat) * Math.PI / 180;
+            const theta = (lng + 180) * Math.PI / 180;
+            return {
+                x: radius * Math.sin(phi) * Math.cos(theta),
+                y: radius * Math.cos(phi),
+                z: radius * Math.sin(phi) * Math.sin(theta)
+            };
+        }
+        
+        function project(x, y, z, rot) {
+            const cos = Math.cos(rot), sin = Math.sin(rot);
+            const xr = x * cos - z * sin;
+            const zr = x * sin + z * cos;
+            const scale = 450 / (450 + zr);
+            return { x: xr * scale, y: y * scale, z: zr, scale };
+        }
+        
+        function drawGlobe() {
+            const w = canvas.width, h = canvas.height;
+            const cx = w / 2, cy = h / 2;
+            const radius = Math.min(w, h) * 0.32;
+            time += 0.016;
+            pulsePhase += 0.03;
+            
+            // Deep space background
+            const bgGrad = ctx.createRadialGradient(cx, cy, 0, cx, cy, Math.max(w, h));
+            bgGrad.addColorStop(0, '#050510');
+            bgGrad.addColorStop(0.3, '#0a0a18');
+            bgGrad.addColorStop(0.7, '#050508');
+            bgGrad.addColorStop(1, '#000003');
+            ctx.fillStyle = bgGrad;
+            ctx.fillRect(0, 0, w, h);
+            
+            // Animated stars with twinkle
+            for (let i = 0; i < 150; i++) {
+                const sx = (Math.sin(i * 127.1) * w + w) % w;
+                const sy = (Math.cos(i * 311.7) * h + h) % h;
+                const twinkle = 0.3 + 0.7 * Math.abs(Math.sin(time * 2 + i * 0.5));
+                const starSize = 0.5 + Math.random() * 1.2;
+                ctx.fillStyle = 'rgba(255, 255, 255, ' + (twinkle * 0.6) + ')';
+                ctx.beginPath();
+                ctx.arc(sx, sy, starSize, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            
+            // Outer atmosphere glow (multiple layers)
+            for (let layer = 3; layer >= 0; layer--) {
+                const glowRadius = radius + 25 + layer * 15;
+                const glowGrad = ctx.createRadialGradient(cx, cy, radius, cx, cy, glowRadius);
+                glowGrad.addColorStop(0, 'rgba(100, 180, 255, ' + (0.15 - layer * 0.03) + ')');
+                glowGrad.addColorStop(0.5, 'rgba(70, 130, 220, ' + (0.08 - layer * 0.02) + ')');
+                glowGrad.addColorStop(1, 'rgba(50, 100, 180, 0)');
+                ctx.fillStyle = glowGrad;
+                ctx.beginPath();
+                ctx.arc(cx, cy, glowRadius, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            
+            // Planet base with realistic lighting
+            const sunAngle = time * 0.1;
+            const lightX = cx + Math.cos(sunAngle) * radius * 0.4;
+            const lightY = cy - radius * 0.3;
+            
+            // Ocean layer
+            const oceanGrad = ctx.createRadialGradient(lightX, lightY, 0, cx, cy, radius);
+            oceanGrad.addColorStop(0, '#1a4a7a');
+            oceanGrad.addColorStop(0.3, '#0d3a5c');
+            oceanGrad.addColorStop(0.6, '#082a4a');
+            oceanGrad.addColorStop(1, '#041525');
+            ctx.fillStyle = oceanGrad;
+            ctx.beginPath();
+            ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Continental hints (subtle land masses)
+            ctx.globalAlpha = 0.15;
+            for (let i = 0; i < 8; i++) {
+                const angle = rotation + i * 0.8;
+                const landX = cx + Math.cos(angle) * radius * 0.5;
+                const landY = cy + Math.sin(angle * 0.7) * radius * 0.4;
+                const landGrad = ctx.createRadialGradient(landX, landY, 0, landX, landY, radius * 0.4);
+                landGrad.addColorStop(0, '#2a5a3a');
+                landGrad.addColorStop(0.5, '#1a4a2a');
+                landGrad.addColorStop(1, 'transparent');
+                ctx.fillStyle = landGrad;
+                ctx.beginPath();
+                ctx.arc(landX, landY, radius * 0.4, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            ctx.globalAlpha = 1;
+            
+            // Fiber optic grid (latitude lines)
+            ctx.strokeStyle = 'rgba(0, 200, 255, 0.08)';
+            ctx.lineWidth = 0.8;
+            for (let lat = -60; lat <= 60; lat += 20) {
+                ctx.beginPath();
+                let first = true;
+                for (let lng = -180; lng <= 180; lng += 5) {
+                    const p3d = latLngTo3D(lat, lng, radius);
+                    const p2d = project(p3d.x, p3d.y, p3d.z, rotation);
+                    if (p2d.z > -radius * 0.3) {
+                        if (first) { ctx.moveTo(cx + p2d.x, cy + p2d.y); first = false; }
+                        else ctx.lineTo(cx + p2d.x, cy + p2d.y);
+                    }
+                }
+                ctx.stroke();
+            }
+            
+            // Fiber optic grid (longitude lines)
+            for (let lng = 0; lng < 360; lng += 30) {
+                ctx.beginPath();
+                let first = true;
+                for (let lat = -80; lat <= 80; lat += 3) {
+                    const p3d = latLngTo3D(lat, lng, radius);
+                    const p2d = project(p3d.x, p3d.y, p3d.z, rotation);
+                    if (p2d.z > -radius * 0.3) {
+                        if (first) { ctx.moveTo(cx + p2d.x, cy + p2d.y); first = false; }
+                        else ctx.lineTo(cx + p2d.x, cy + p2d.y);
+                    }
+                }
+                ctx.stroke();
+            }
+            
+            // Project cities
+            const visibleCities = cities.map(c => {
+                const p3d = latLngTo3D(c.lat, c.lng, radius);
+                const p2d = project(p3d.x, p3d.y, p3d.z, rotation);
+                return { ...c, ...p2d, x2d: cx + p2d.x, y2d: cy + p2d.y };
+            }).filter(c => c.z > -radius * 0.3).sort((a, b) => a.z - b.z);
+            
+            // City connections
+            ctx.strokeStyle = 'rgba(201, 169, 98, 0.15)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < visibleCities.length - 1; i++) {
+                ctx.beginPath();
+                ctx.moveTo(visibleCities[i].x2d, visibleCities[i].y2d);
+                ctx.lineTo(visibleCities[i + 1].x2d, visibleCities[i + 1].y2d);
+                ctx.stroke();
+            }
+            
+            // City points with glow
+            visibleCities.forEach(c => {
+                const size = 4 + c.scale * 3;
+                ctx.shadowColor = 'rgba(201, 169, 98, 0.8)';
+                ctx.shadowBlur = 12;
+                ctx.fillStyle = '#c9a962';
+                ctx.beginPath();
+                ctx.arc(c.x2d, c.y2d, size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            });
+            
+            // Atmosphere glow
+            const atmoGrad = ctx.createRadialGradient(cx, cy, radius * 0.95, cx, cy, radius * 1.15);
+            atmoGrad.addColorStop(0, 'rgba(74, 144, 217, 0)');
+            atmoGrad.addColorStop(0.5, 'rgba(74, 144, 217, 0.08)');
+            atmoGrad.addColorStop(1, 'rgba(74, 144, 217, 0)');
+            ctx.fillStyle = atmoGrad;
+            ctx.beginPath();
+            ctx.arc(cx, cy, radius * 1.15, 0, Math.PI * 2);
+            ctx.fill();
+            
+            rotation += 0.002;
+            requestAnimationFrame(drawGlobe);
+        }
+        
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+        drawGlobe();
+        
+        // Initialize
+        createPrisms();
+        renderTVChannels();
+        renderSectors();
+        renderNature();
+    </script>
+
+</body></html>

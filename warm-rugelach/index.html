@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOTEC MAIN HUB — IOTEC BL Sovereign Ecosystem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg-dark: #05080e; --card-bg: rgba(12, 17, 29, 0.70); --card-border: rgba(201, 162, 77, 0.25); --accent-gold: #c9a24d; --text-main: #f8fafc; --text-muted: #94a3b8; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body, html { width: 100%; height: 100%; background-color: var(--bg-dark); color: var(--text-main); overflow-x: hidden; }
+    .bg-video-container { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -2; overflow: hidden; }
+    .bg-video-container video { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.3) contrast(1.15); }
+    .bg-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; background: radial-gradient(circle at center, rgba(5,8,14,0.3) 0%, rgba(5,8,14,0.96) 100%); }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 24px 48px; backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.08); position: fixed; top: 0; width: 100%; z-index: 100; }
+    .logo { font-family: 'Cinzel', serif; font-size: 1.3rem; font-weight: 700; color: #fff; letter-spacing: 2px; }
+    .logo span { color: var(--accent-gold); }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 140px 48px 60px 48px; max-width: 1200px; margin: 0 auto; }
+    .badge { display: inline-block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2.5px; color: var(--accent-gold); border: 1px solid var(--accent-gold); padding: 6px 16px; border-radius: 50px; margin-bottom: 24px; background: rgba(201, 162, 77, 0.05); width: fit-content; }
+    h1 { font-family: 'Cinzel', serif; font-size: 3.8rem; font-weight: 700; line-height: 1.1; margin-bottom: 24px; }
+    h1 span { background: linear-gradient(135deg, #fff 40%, var(--accent-gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    p.subtitle { font-size: 1.15rem; color: var(--text-muted); max-width: 650px; line-height: 1.6; margin-bottom: 48px; }
+    .grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; margin-bottom: 60px; }
+    .card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 16px; padding: 36px; backdrop-filter: blur(16px); transition: 0.4s; }
+    .card:hover { transform: translateY(-6px); border-color: var(--accent-gold); box-shadow: 0 15px 30px rgba(0,0,0,0.8); }
+    .card img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.08); }
+    .contact-box { background: rgba(10, 14, 24, 0.85); border: 1px solid var(--card-border); border-radius: 20px; padding: 48px; margin: 40px auto; max-width: 800px; backdrop-filter: blur(20px); }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-size: 0.8rem; text-transform: uppercase; color: var(--accent-gold); letter-spacing: 1px; margin-bottom: 8px; }
+    .form-group input, .form-group textarea { width: 100%; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 16px; border-radius: 8px; color: #fff; outline: none; }
+    .btn-submit { width: 100%; background: linear-gradient(135deg, var(--accent-gold), #8a6820); color: #000; font-weight: 700; text-transform: uppercase; padding: 18px; border: none; border-radius: 8px; cursor: pointer; letter-spacing: 1.5px; }
+    footer { text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.05); }
+  </style>
+</head>
+<body>
+  <div class="bg-video-container"><video autoplay loop muted playsinline><source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-network-connections-background-27922-large.mp4" type="video/mp4"></video></div>
+  <div class="bg-overlay"></div>
+  <nav><div class="logo">IOTEC MAIN HUB <span>// IOTEC BL</span></div></nav>
+  <div class="hero">
+    <div class="badge">NÚCLEO OPERACIONAL DE ALTA TECNOLOGIA</div>
+    <h1>Tecnologia Sob Medida &<br><span>Consultoria de Alto Padrão</span></h1>
+    <p class="subtitle">Conectando inteligência artificial proprietária, infraestruturas bancárias e perícia corporativa em um ecossistema integrado e resiliente.</p>
+    <div class="grid-cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Modulo 1">
+        <h3 style="color:#fff; margin-bottom:10px;">Arquitetura Preditiva</h3>
+        <p style="color:var(--text-muted); font-size:0.88rem;">Desenvolvimento de sistemas corporativos de alta velocidade com monitoramento preditivo.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800&auto=format&fit=crop" alt="Modulo 2">
+        <h3 style="color:#fff; margin-bottom:10px;">Perícia Corporativa</h3>
+        <p style="color:var(--text-muted); font-size:0.88rem;">Diagnósticos profundos de infraestrutura digital e auditoria de integridade.</p>
+      </div>
+    </div>
+    <div class="contact-box">
+      <h2 style="font-family:'Cinzel'; color:#fff; margin-bottom:20px;">Transmitir ao Núcleo IOTEC BL</h2>
+      <form id="form-portal">
+        <div class="form-group"><label>Nome / Instituição</label><input type="text" name="nome" placeholder="Digite seu nome ou empresa" required></div>
+        <div class="form-group"><label>E-mail Corporativo</label><input type="email" name="email" placeholder="seuemail@empresa.com" required></div>
+        <div class="form-group"><label>Mensagem / Demanda</label><textarea name="mensagem" rows="4" placeholder="Descreva os requisitos operacionais..." required></textarea></div>
+        <button type="submit" class="btn-submit">TRANSMITIR AO NÚCLEO IOTEC BL</button>
+      </form>
+    </div>
+  </div>
+  <footer>© 2026 IOTEC MAIN HUB // IOTEC BL — iotec.bl@proton.me</footer>
+  <script>
+    document.getElementById('form-portal').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button'); btn.innerText = "TRANSMITINDO...";
+      const data = Object.fromEntries(new FormData(this).entries());
+      data.portal_origem = "IOTEC MAIN HUB (warm-rugelach)";
+      try {
+        const resp = await fetch('https://iotec-platform-1.onrender.com/api/pedidos', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+        if(resp.ok) { alert("✅ Solicitação transmitida ao Núcleo IOTEC BL!"); this.reset(); } else { throw new Error(); }
+      } catch(err) { window.location.href = mailto:iotec.bl@proton.me?subject=Solicitacao IOTEC MAIN HUB&body= + encodeURIComponent(JSON.stringify(data, null, 2)); }
+      finally { btn.innerText = "TRANSMITIR AO NÚCLEO IOTEC BL"; }
+    });
+  </script>
+</body>
+</html>

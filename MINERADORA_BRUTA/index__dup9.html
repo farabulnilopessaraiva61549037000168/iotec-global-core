@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Núcleo de Conexão Universal</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial,sans-serif;
+      background:#07111f;
+      color:#f1f7ff;
+      padding:24px;
+    }
+    .wrap{max-width:1280px;margin:0 auto}
+    .card{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:16px;
+      padding:18px;
+      margin-bottom:18px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+    .big{font-size:28px;font-weight:bold}
+    .small{color:#a9bdd3}
+    table{
+      width:100%;
+      border-collapse:collapse;
+    }
+    th,td{
+      padding:10px;
+      border-bottom:1px solid rgba(255,255,255,.08);
+      text-align:left;
+      vertical-align:top;
+    }
+    th{color:#f0d77b}
+    pre{
+      white-space:pre-wrap;
+      word-break:break-word;
+      margin:0;
+      font-size:12px;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Núcleo de Conexão Universal</h1>
+    <div class="small">Barramento central de eventos das interfaces</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="small">Status</div>
+      <div class="big">{{ estado.nucleo }}</div>
+    </div>
+    <div class="card">
+      <div class="small">Total de eventos</div>
+      <div class="big">{{ estado.total_eventos }}</div>
+    </div>
+    <div class="card">
+      <div class="small">Última ação</div>
+      <div class="big">{{ estado.ultima_acao }}</div>
+    </div>
+    <div class="card">
+      <div class="small">Última interface</div>
+      <div class="big">{{ estado.ultima_interface }}</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Últimos eventos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Quando</th>
+          <th>ID</th>
+          <th>Interface</th>
+          <th>Ação</th>
+          <th>Origem</th>
+          <th>Dados</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in eventos %}
+        <tr>
+          <td>{{ e.gerado_em }}</td>
+          <td>{{ e.id_evento }}</td>
+          <td>{{ e.interface }}</td>
+          <td>{{ e.acao }}</td>
+          <td>{{ e.origem }}</td>
+          <td><pre>{{ e.dados }}</pre></td>
+        </tr>
+        {% endfor %}
+        {% if not eventos %}
+        <tr><td colspan="6">Nenhum evento registrado ainda.</td></tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

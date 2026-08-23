@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRIÔSCA | Bradesco Corporate Suite</title>
+    <link href="MATRI%C3%94SCA%20_%20Bradesco%20Corporate%20Suite05_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --bradesco-red: #CC092F;
+            --bradesco-dark: #8C0621;
+            --bradesco-light: #F5E6E9;
+            --charcoal: #1a1a1a;
+            --graphite: #2d2d2d;
+            --silver: #f8f9fa;
+            --platinum: #e9ecef;
+            --gold: #B8860B;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: #fff;
+            color: var(--charcoal);
+            min-height: 100vh;
+        }
+
+        /* === PRISMA ROTATIVO FIXO === */
+        .prism-container {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .prism {
+            width: 70px;
+            height: 70px;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotatePrism 8s linear infinite;
+        }
+
+        .prism-face {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 35px solid transparent;
+            border-right: 35px solid transparent;
+            border-bottom: 60px solid var(--bradesco-red);
+            opacity: 0.9;
+        }
+
+        .prism-face:nth-child(1) {
+            transform: rotateY(0deg) translateZ(20px);
+        }
+        .prism-face:nth-child(2) {
+            transform: rotateY(120deg) translateZ(20px);
+            border-bottom-color: var(--bradesco-dark);
+        }
+        .prism-face:nth-child(3) {
+            transform: rotateY(240deg) translateZ(20px);
+            border-bottom-color: #a00820;
+        }
+
+        @keyframes rotatePrism {
+            from { transform: rotateY(0deg); }
+            to { transform: rotateY(360deg); }
+        }
+
+        .prism-label {
+            margin-top: 15px;
+            font-size: 0.5rem;
+            letter-spacing: 0.3rem;
+            color: rgba(0,0,0,0.3);
+            text-transform: uppercase;
+        }
+
+        /* === HEADER === */
+        .header {
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(0,0,0,0.04);
+            margin-top: 100px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .brand-icon {
+            width: 8px;
+            height: 8px;
+            background: var(--bradesco-red);
+            border-radius: 50%;
+        }
+
+        .brand-name {
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.25rem;
+            color: var(--charcoal);
+        }
+
+        .brand-sub {
+            font-size: 0.55rem;
+            color: rgba(0,0,0,0.35);
+            letter-spacing: 0.1rem;
+            margin-left: 15px;
+            padding-left: 15px;
+            border-left: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .user-info {
+            text-align: right;
+        }
+
+        .user-name {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+
+        .user-role {
+            font-size: 0.55rem;
+            color: var(--bradesco-red);
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+            margin-top: 3px;
+        }
+
+        /* === WELCOME === */
+        .welcome {
+            padding: 60px 50px 40px;
+            max-width: 600px;
+        }
+
+        .welcome-time {
+            font-size: 0.55rem;
+            color: rgba(0,0,0,0.35);
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .welcome-title {
+            font-size: 2rem;
+            font-weight: 300;
+            color: var(--charcoal);
+            line-height: 1.3;
+        }
+
+        .welcome-title span {
+            color: var(--bradesco-red);
+            font-weight: 400;
+        }
+
+        /* === STATS ROW === */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: rgba(0,0,0,0.04);
+            margin: 0 50px 50px;
+        }
+
+        .stat-card {
+            background: #fff;
+            padding: 30px 25px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: var(--charcoal);
+            margin-bottom: 8px;
+        }
+
+        .stat-value.highlight {
+            color: var(--bradesco-red);
+        }
+
+        .stat-label {
+            font-size: 0.55rem;
+            color: rgba(0,0,0,0.4);
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+        }
+
+        /* === MÓDULOS === */
+        .modules-section {
+            padding: 0 50px 60px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.25rem;
+            color: rgba(0,0,0,0.4);
+            text-transform: uppercase;
+        }
+
+        .section-line {
+            flex: 1;
+            height: 1px;
+            background: rgba(0,0,0,0.06);
+            margin-left: 30px;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .module-card {
+            border: 1px solid rgba(0,0,0,0.06);
+            padding: 35px 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .module-card:hover {
+            border-color: var(--bradesco-red);
+            background: rgba(204, 9, 47, 0.02);
+        }
+
+        .module-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 0;
+            background: var(--bradesco-red);
+            transition: height 0.3s;
+        }
+
+        .module-card:hover::before {
+            height: 100%;
+        }
+
+        .module-icon {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--bradesco-red);
+            opacity: 0.7;
+        }
+
+        .module-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--charcoal);
+        }
+
+        .module-desc {
+            font-size: 0.7rem;
+            color: rgba(0,0,0,0.4);
+            line-height: 1.6;
+        }
+
+        /* === CALCULADORA === */
+        .calculator-section {
+            background: var(--silver);
+            padding: 60px 50px;
+        }
+
+        .calc-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 50px;
+            max-width: 1100px;
+        }
+
+        .calc-form {
+            background: #fff;
+            padding: 40px;
+            border: 1px solid rgba(0,0,0,0.06);
+        }
+
+        .calc-title {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: var(--charcoal);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.6rem;
+            letter-spacing: 0.15rem;
+            color: rgba(0,0,0,0.4);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 15px 20px;
+            border: 1px solid rgba(0,0,0,0.08);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: var(--charcoal);
+            transition: border-color 0.3s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--bradesco-red);
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 15px 20px;
+            border: 1px solid rgba(0,0,0,0.08);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: var(--charcoal);
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .calc-btn {
+            width: 100%;
+            padding: 18px;
+            background: var(--bradesco-red);
+            color: #fff;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .calc-btn:hover {
+            background: var(--bradesco-dark);
+        }
+
+        .calc-results {
+            background: #fff;
+            padding: 40px;
+            border: 1px solid rgba(0,0,0,0.06);
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+
+        .result-title {
+            font-size: 0.6rem;
+            letter-spacing: 0.2rem;
+            color: rgba(0,0,0,0.4);
+            text-transform: uppercase;
+        }
+
+        .result-date {
+            font-size: 0.6rem;
+            color: rgba(0,0,0,0.3);
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.04);
+        }
+
+        .result-label {
+            font-size: 0.75rem;
+            color: rgba(0,0,0,0.5);
+        }
+
+        .result-value {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+
+        .result-value.primary {
+            color: var(--bradesco-red);
+            font-size: 1.3rem;
+        }
+
+        .result-total {
+            margin-top: 25px;
+            padding: 25px;
+            background: var(--silver);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .total-label {
+            font-size: 0.65rem;
+            letter-spacing: 0.15rem;
+            color: rgba(0,0,0,0.5);
+            text-transform: uppercase;
+        }
+
+        .total-value {
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: var(--bradesco-red);
+        }
+
+        /* === FERRAMENTAS RÁPIDAS === */
+        .tools-section {
+            padding: 60px 50px;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .tool-item {
+            padding: 25px 20px;
+            text-align: center;
+            border: 1px solid rgba(0,0,0,0.06);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .tool-item:hover {
+            border-color: var(--bradesco-red);
+            transform: translateY(-3px);
+        }
+
+        .tool-icon {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: var(--bradesco-red);
+            opacity: 0.6;
+        }
+
+        .tool-name {
+            font-size: 0.65rem;
+            color: var(--charcoal);
+            letter-spacing: 0.05rem;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 40px 50px;
+            background: var(--charcoal);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .footer-icon {
+            width: 6px;
+            height: 6px;
+            background: var(--bradesco-red);
+            border-radius: 50%;
+        }
+
+        .footer-name {
+            font-size: 0.6rem;
+            letter-spacing: 0.2rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer-info {
+            font-size: 0.55rem;
+            color: rgba(255,255,255,0.3);
+        }
+
+        /* === MODAL === */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0.98);
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        .modal.active { display: block; }
+
+        .modal-close {
+            position: fixed;
+            top: 30px;
+            right: 40px;
+            width: 45px;
+            height: 45px;
+            border: 1px solid rgba(0,0,0,0.1);
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3rem;
+            cursor: pointer;
+            z-index: 2001;
+        }
+
+        .modal-close:hover {
+            border-color: var(--bradesco-red);
+            color: var(--bradesco-red);
+        }
+
+        .modal-content {
+            max-width: 700px;
+            margin: 100px auto;
+            padding: 0 40px;
+        }
+
+        .modal-label {
+            font-size: 0.55rem;
+            letter-spacing: 0.3rem;
+            color: var(--bradesco-red);
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .modal-title {
+            font-size: 1.8rem;
+            font-weight: 300;
+            margin-bottom: 25px;
+        }
+
+        .modal-desc {
+            font-size: 0.85rem;
+            color: rgba(0,0,0,0.5);
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .modal-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .modal-feature {
+            padding: 25px;
+            background: var(--silver);
+        }
+
+        .modal-feature-title {
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .modal-feature-desc {
+            font-size: 0.7rem;
+            color: rgba(0,0,0,0.5);
+            line-height: 1.6;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1024px) {
+            .modules-grid { grid-template-columns: repeat(2, 1fr); }
+            .calc-container { grid-template-columns: 1fr; }
+            .tools-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .header { padding: 20px 30px; margin-top: 90px; }
+            .welcome { padding: 40px 30px; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); margin: 0 30px 40px; }
+            .modules-section { padding: 0 30px 40px; }
+            .modules-grid { grid-template-columns: 1fr; }
+            .calculator-section { padding: 40px 30px; }
+            .tools-section { padding: 40px 30px; }
+            .tools-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer { padding: 30px; flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+<body style="overflow: auto;">
+
+    <!-- PRISMA ROTATIVO FIXO -->
+    <div class="prism-container">
+        <div class="prism">
+            <div class="prism-face"></div>
+            <div class="prism-face"></div>
+            <div class="prism-face"></div>
+        </div>
+        <div class="prism-label">Matriôsca</div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="brand">
+            <div class="brand-icon"></div>
+            <span class="brand-name">MATRIÔSCA</span>
+            <span class="brand-sub">Corporate Banking Suite</span>
+        </div>
+        <div class="user-info">
+            <div class="user-name">Jardeson Oliveira</div>
+            <div class="user-role">Gerente Corporate | Bradesco</div>
+        </div>
+    </header>
+
+    <!-- WELCOME -->
+    <section class="welcome">
+        <div class="welcome-time" id="datetime">sexta-feira, 5 de dezembro de 2025</div>
+        <h1 class="welcome-title">
+            Bom dia, <span>Jardeson</span>.<br>
+            Sua central de operações está pronta.
+        </h1>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="stat-value highlight">247</div>
+            <div class="stat-label">Clientes Ativos</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">R$ 18.4M</div>
+            <div class="stat-label">Carteira Total</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">12</div>
+            <div class="stat-label">Operações Hoje</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">98.7%</div>
+            <div class="stat-label">Taxa Aprovação</div>
+        </div>
+    </div>
+
+    <!-- MÓDULOS -->
+    <section class="modules-section">
+        <div class="section-header">
+            <span class="section-title">Módulos Operacionais</span>
+            <div class="section-line"></div>
+        </div>
+        <div class="modules-grid">
+            <div class="module-card" onclick="openModal('credito')">
+                <div class="module-icon">◈</div>
+                <div class="module-name">Análise de Crédito</div>
+                <div class="module-desc">Score avançado e simulação de limites com IA preditiva</div>
+            </div>
+            <div class="module-card" onclick="openModal('carteira')">
+                <div class="module-icon">◇</div>
+                <div class="module-name">Gestão de Carteira</div>
+                <div class="module-desc">Segmentação inteligente e acompanhamento de clientes</div>
+            </div>
+            <div class="module-card" onclick="openModal('operacoes')">
+                <div class="module-icon">◆</div>
+                <div class="module-name">Operações Bancárias</div>
+                <div class="module-desc">Processamento de transações e movimentações</div>
+            </div>
+            <div class="module-card" onclick="openModal('compliance')">
+                <div class="module-icon">★</div>
+                <div class="module-name">Compliance &amp; KYC</div>
+                <div class="module-desc">Verificação documental e conformidade regulatória</div>
+            </div>
+            <div class="module-card" onclick="openModal('relatorios')">
+                <div class="module-icon">▣</div>
+                <div class="module-name">Relatórios Executivos</div>
+                <div class="module-desc">Dashboards em tempo real e exportação de dados</div>
+            </div>
+            <div class="module-card" onclick="openModal('produtos')">
+                <div class="module-icon">⬡</div>
+                <div class="module-name">Catálogo de Produtos</div>
+                <div class="module-desc">Linhas de crédito, investimentos e seguros</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALCULADORA BANCÁRIA -->
+    <section class="calculator-section">
+        <div class="section-header" style="margin-bottom:40px">
+            <span class="section-title">Calculadora de Operações</span>
+            <div class="section-line"></div>
+        </div>
+        <div class="calc-container">
+            <div class="calc-form">
+                <h3 class="calc-title">Simulação de Crédito</h3>
+                <div class="form-group">
+                    <label class="form-label">Valor Principal (R$)</label>
+                    <input type="number" class="form-input" id="valor" value="100000" placeholder="0,00">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Taxa de Juros (% a.m.)</label>
+                    <input type="number" class="form-input" id="taxa" value="1.45" step="0.01" placeholder="0,00">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Prazo (meses)</label>
+                    <input type="number" class="form-input" id="prazo" value="29" placeholder="0">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Sistema de Amortização</label>
+                    <select class="form-select" id="sistema">
+                        <option value="price" selected="selected">PRICE (Parcelas Fixas)</option>
+                        <option value="sac">SAC (Amortização Constante)</option>
+                    </select>
+                </div>
+                <button class="calc-btn" onclick="calcular()">Calcular Operação</button>
+            </div>
+            <div class="calc-results">
+                <div class="result-header">
+                    <span class="result-title">Resultado da Simulação</span>
+                    <span class="result-date" id="result-date">05/12/2025</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Valor Financiado</span>
+                    <span class="result-value" id="res-principal">R$ 100.000,00</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Parcela Mensal</span>
+                    <span class="result-value primary" id="res-parcela">R$ 3.609,22</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Taxa Efetiva (a.a.)</span>
+                    <span class="result-value" id="res-taxa-aa">19.42%</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Total de Juros</span>
+                    <span class="result-value" id="res-juros">R$ 29.932,01</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">CET Estimado</span>
+                    <span class="result-value" id="res-cet">21.75%</span>
+                </div>
+                <div class="result-total">
+                    <span class="total-label">Valor Total a Pagar</span>
+                    <span class="total-value" id="res-total">R$ 129.932,01</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FERRAMENTAS RÁPIDAS -->
+    <section class="tools-section">
+        <div class="section-header">
+            <span class="section-title">Acesso Rápido</span>
+            <div class="section-line"></div>
+        </div>
+        <div class="tools-grid">
+            <div class="tool-item" onclick="openModal('consulta')">
+                <div class="tool-icon">◎</div>
+                <div class="tool-name">Consulta CPF/CNPJ</div>
+            </div>
+            <div class="tool-item" onclick="openModal('saldo')">
+                <div class="tool-icon">◉</div>
+                <div class="tool-name">Extrato Cliente</div>
+            </div>
+            <div class="tool-item" onclick="openModal('limite')">
+                <div class="tool-icon">◈</div>
+                <div class="tool-name">Ajuste Limite</div>
+            </div>
+            <div class="tool-item" onclick="openModal('ted')">
+                <div class="tool-icon">◇</div>
+                <div class="tool-name">TED/PIX</div>
+            </div>
+            <div class="tool-item" onclick="openModal('boleto')">
+                <div class="tool-icon">▤</div>
+                <div class="tool-name">Emitir Boleto</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <div class="footer-icon"></div>
+            <span class="footer-name">MATRIÔSCA</span>
+        </div>
+        <div class="footer-info">
+            Bradesco Corporate Suite | Versão 2.1.0 | Sessão Segura
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-close" onclick="closeModal()">×</div>
+        <div class="modal-content" id="modal-body">
+                <div class="modal-label">Gestão de Carteira</div>
+                <h2 class="modal-title">Segmentação Inteligente</h2>
+                <p class="modal-desc">Ferramenta de gestão e acompanhamento de clientes com segmentação automática e alertas de oportunidade.</p>
+                <div class="modal-features">
+                    
+                        <div class="modal-feature">
+                            <div class="modal-feature-title">Clusterização</div>
+                            <div class="modal-feature-desc">Agrupamento por perfil e potencial</div>
+                        </div>
+                    
+                        <div class="modal-feature">
+                            <div class="modal-feature-title">Alertas Proativos</div>
+                            <div class="modal-feature-desc">Oportunidades de cross-sell</div>
+                        </div>
+                    
+                        <div class="modal-feature">
+                            <div class="modal-feature-title">Régua de Cobrança</div>
+                            <div class="modal-feature-desc">Automação de acionamentos</div>
+                        </div>
+                    
+                        <div class="modal-feature">
+                            <div class="modal-feature-title">NPS Integrado</div>
+                            <div class="modal-feature-desc">Satisfação por cliente</div>
+                        </div>
+                    
+                </div>
+            </div>
+    </div>
+
+    <script>
+        const modalData = {
+            credito: {
+                label: 'Análise de Crédito',
+                title: 'Motor de Score Avançado',
+                desc: 'Sistema de análise creditícia com inteligência artificial que processa múltiplas variáveis para determinar risco e capacidade de pagamento.',
+                features: [
+                    {title: 'Score Proprietário', desc: 'Modelo de ML com 340+ variáveis'},
+                    {title: 'Análise Documental', desc: 'OCR e validação automática'},
+                    {title: 'Histórico Comportamental', desc: 'Padrões de consumo e pagamento'},
+                    {title: 'Decisão em Segundos', desc: 'Resposta instantânea ao cliente'}
+                ]
+            },
+            carteira: {
+                label: 'Gestão de Carteira',
+                title: 'Segmentação Inteligente',
+                desc: 'Ferramenta de gestão e acompanhamento de clientes com segmentação automática e alertas de oportunidade.',
+                features: [
+                    {title: 'Clusterização', desc: 'Agrupamento por perfil e potencial'},
+                    {title: 'Alertas Proativos', desc: 'Oportunidades de cross-sell'},
+                    {title: 'Régua de Cobrança', desc: 'Automação de acionamentos'},
+                    {title: 'NPS Integrado', desc: 'Satisfação por cliente'}
+                ]
+            },
+            operacoes: {
+                label: 'Operações',
+                title: 'Central de Transações',
+                desc: 'Hub unificado para processamento de todas as operações bancárias do dia a dia.',
+                features: [
+                    {title: 'TED/DOC/PIX', desc: 'Transferências em tempo real'},
+                    {title: 'Pagamentos', desc: 'Boletos, concessionárias, tributos'},
+                    {title: 'Câmbio', desc: 'Operações em moeda estrangeira'},
+                    {title: 'Investimentos', desc: 'Aplicações e resgates'}
+                ]
+            },
+            compliance: {
+                label: 'Compliance',
+                title: 'KYC & Regulatório',
+                desc: 'Sistema de conformidade com verificações automáticas e trilha de auditoria completa.',
+                features: [
+                    {title: 'Verificação PEP', desc: 'Pessoa politicamente exposta'},
+                    {title: 'Listas Restritivas', desc: 'OFAC, ONU, Bacen'},
+                    {title: 'AML/CFT', desc: 'Prevenção à lavagem'},
+                    {title: 'Auditoria', desc: 'Logs completos de operação'}
+                ]
+            },
+            relatorios: {
+                label: 'Relatórios',
+                title: 'Business Intelligence',
+                desc: 'Dashboards executivos com métricas em tempo real e exportação em múltiplos formatos.',
+                features: [
+                    {title: 'KPIs da Carteira', desc: 'Performance consolidada'},
+                    {title: 'Metas vs Realizado', desc: 'Acompanhamento de objetivos'},
+                    {title: 'Exportação', desc: 'PDF, Excel, API'},
+                    {title: 'Agendamento', desc: 'Envio automático por email'}
+                ]
+            },
+            produtos: {
+                label: 'Produtos',
+                title: 'Catálogo Bradesco',
+                desc: 'Portfólio completo de produtos bancários disponíveis para oferta ao cliente.',
+                features: [
+                    {title: 'Crédito PJ', desc: 'Capital de giro, BNDES, ACC'},
+                    {title: 'Investimentos', desc: 'CDB, Fundos, Previdência'},
+                    {title: 'Seguros', desc: 'Empresarial, Vida, Saúde'},
+                    {title: 'Câmbio', desc: 'Remessas, hedge, importação'}
+                ]
+            }
+        };
+
+        function formatMoney(valor) {
+            return 'R$ ' + valor.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+        }
+
+        function calcular() {
+            const valor = parseFloat(document.getElementById('valor').value) || 0;
+            const taxa = parseFloat(document.getElementById('taxa').value) / 100 || 0;
+            const prazo = parseInt(document.getElementById('prazo').value) || 1;
+            const sistema = document.getElementById('sistema').value;
+
+            let parcela, totalPago, totalJuros;
+
+            if (sistema === 'price') {
+                parcela = valor * (taxa * Math.pow(1 + taxa, prazo)) / (Math.pow(1 + taxa, prazo) - 1);
+                totalPago = parcela * prazo;
+                totalJuros = totalPago - valor;
+            } else {
+                const amortizacao = valor / prazo;
+                parcela = amortizacao + (valor * taxa);
+                totalJuros = 0;
+                let saldo = valor;
+                for (let i = 0; i < prazo; i++) {
+                    totalJuros += saldo * taxa;
+                    saldo -= amortizacao;
+                }
+                totalPago = valor + totalJuros;
+            }
+
+            const taxaAA = (Math.pow(1 + taxa, 12) - 1) * 100;
+            const cet = taxaAA * 1.12;
+
+            document.getElementById('res-principal').textContent = formatMoney(valor);
+            document.getElementById('res-parcela').textContent = formatMoney(parcela);
+            document.getElementById('res-taxa-aa').textContent = taxaAA.toFixed(2) + '%';
+            document.getElementById('res-juros').textContent = formatMoney(totalJuros);
+            document.getElementById('res-cet').textContent = cet.toFixed(2) + '%';
+            document.getElementById('res-total').textContent = formatMoney(totalPago);
+            document.getElementById('result-date').textContent = new Date().toLocaleDateString('pt-BR');
+        }
+
+        function openModal(type) {
+            const data = modalData[type];
+            if (!data) return;
+            
+            const body = document.getElementById('modal-body');
+            body.innerHTML = `
+                <div class="modal-label">${data.label}</div>
+                <h2 class="modal-title">${data.title}</h2>
+                <p class="modal-desc">${data.desc}</p>
+                <div class="modal-features">
+                    ${data.features.map(f => `
+                        <div class="modal-feature">
+                            <div class="modal-feature-title">${f.title}</div>
+                            <div class="modal-feature-desc">${f.desc}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            
+            document.getElementById('modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+
+        function updateDateTime() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('datetime').textContent = now.toLocaleDateString('pt-BR', options);
+        }
+
+        updateDateTime();
+        calcular();
+        setInterval(updateDateTime, 60000);
+    </script>
+
+
+
+</body></html>

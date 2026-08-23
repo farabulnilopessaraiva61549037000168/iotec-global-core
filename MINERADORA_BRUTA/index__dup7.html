@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Disparo WhatsApp Inteligente · REGULUS</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <strong>REGULUS IOTEC</strong><br>
+          <span class="small">Disparo WhatsApp Inteligente</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero">
+      <h1>Centro de disparo semi-automático</h1>
+      <p>
+        Aqui o navegador abre o WhatsApp com a mensagem pronta, e o operador confirma se o envio foi realizado ou falhou.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card"><h3>Total</h3><div class="big">{{ resumo.total }}</div></div>
+      <div class="card"><h3>Prontos</h3><div class="big">{{ resumo.prontos }}</div></div>
+      <div class="card"><h3>Enviados</h3><div class="big">{{ resumo.enviados }}</div></div>
+      <div class="card"><h3>Falhas</h3><div class="big">{{ resumo.falhas }}</div></div>
+      <div class="card"><h3>Sem número</h3><div class="big">{{ resumo.sem_numero }}</div></div>
+    </section>
+
+    <div class="panel">
+      <h3>Eventos de WhatsApp</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID envio</th>
+              <th>Cliente</th>
+              <th>WhatsApp</th>
+              <th>Tipo</th>
+              <th>Status mensalidade</th>
+              <th>Situação</th>
+              <th>Mensagem</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for e in eventos %}
+            <tr>
+              <td>{{ e.id_envio }}</td>
+              <td>
+                <strong>{{ e.cliente }}</strong><br>
+                <span class="small">{{ e.id_contrato }}</span>
+              </td>
+              <td>{{ e._whatsapp or 'não informado' }}</td>
+              <td>{{ e.tipo_envio }}</td>
+              <td>{{ e.status_mensalidade }}</td>
+              <td>{{ e.situacao_envio }}</td>
+              <td><div class="code">{{ e.corpo }}</div></td>
+              <td>
+                {% if e._wa_link %}
+                <a class="btn btn-blue" href="{{ e._wa_link }}" target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+                {% else %}
+                <span class="small">Sem número</span>
+                {% endif %}
+                <a class="btn btn-green" href="{{ url_for('marcar_enviado', id_envio=e.id_envio) }}">Marcar enviado</a>
+                <a class="btn btn-red" href="{{ url_for('marcar_falha', id_envio=e.id_envio) }}">Marcar falha</a>
+              </td>
+            </tr>
+            {% endfor %}
+            {% if not eventos %}
+            <tr>
+              <td colspan="8">Nenhum evento encontrado.</td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

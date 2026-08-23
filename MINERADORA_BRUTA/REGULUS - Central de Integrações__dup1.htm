@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS - Central de Integrações</title>
+    <link href="REGULUS%20-%20Central%20de%20Integra%C3%A7%C3%B5es_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --bg-card: #fafafa;
+            --bg-elevated: #f5f5f5;
+            --border: rgba(0,0,0,0.08);
+            --border-hover: rgba(0,0,0,0.15);
+            --text: #0a0a0a;
+            --text-secondary: rgba(0,0,0,0.6);
+            --text-muted: rgba(0,0,0,0.4);
+            --gold: #996515;
+            --success: #16a34a;
+            --warning: #d97706;
+            --error: #dc2626;
+            --primary: #2563eb;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* === HEADER === */
+        .header {
+            padding: 20px 40px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gold);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .logo-text {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .logo-sub {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .header-stats {
+            display: flex;
+            gap: 30px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* === MAIN === */
+        .main {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            min-height: calc(100vh - 81px);
+        }
+
+        /* === SIDEBAR === */
+        .sidebar {
+            background: var(--bg-card);
+            border-right: 1px solid var(--border);
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .sidebar-title {
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        .categoria-group {
+            margin-bottom: 24px;
+        }
+
+        .categoria-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            padding-left: 4px;
+        }
+
+        .integracao-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .integracao-item:hover {
+            border-color: var(--gold);
+            transform: translateX(4px);
+        }
+
+        .integracao-item.selected {
+            border-color: var(--gold);
+            background: rgba(153, 101, 21, 0.05);
+        }
+
+        .integracao-logo {
+            font-size: 1.4rem;
+        }
+
+        .integracao-info {
+            flex: 1;
+        }
+
+        .integracao-nome {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .integracao-tipo {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        .integracao-status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--border);
+        }
+
+        .integracao-status.conectado {
+            background: var(--success);
+            box-shadow: 0 0 8px var(--success);
+        }
+
+        /* === CONTENT === */
+        .content {
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .content-header {
+            margin-bottom: 30px;
+        }
+
+        .content-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .content-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* === FORMULÁRIO === */
+        .form-container {
+            max-width: 600px;
+        }
+
+        .form-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+
+        .form-section-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-section-title span {
+            font-size: 1.2rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .form-label .required {
+            color: var(--error);
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            transition: all 0.2s;
+            background: var(--bg);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(153, 101, 21, 0.1);
+        }
+
+        .form-input[type="file"] {
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            background: var(--bg);
+            cursor: pointer;
+        }
+
+        .form-hint {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+
+        /* === BOTÕES === */
+        .form-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #7a5012;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(153, 101, 21, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text-muted);
+        }
+
+        .btn-test {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* === STATUS CARD === */
+        .status-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .status-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .status-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .status-badge {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .status-badge.success {
+            background: rgba(22, 163, 74, 0.1);
+            color: var(--success);
+        }
+
+        .status-badge.pending {
+            background: rgba(217, 119, 6, 0.1);
+            color: var(--warning);
+        }
+
+        .status-badge.error {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--error);
+        }
+
+        .status-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .status-item {
+            padding: 12px;
+            background: var(--bg);
+            border-radius: 8px;
+        }
+
+        .status-item-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .status-item-value {
+            font-size: 0.85rem;
+            font-weight: 500;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === EMPTY STATE === */
+        .empty-state {
+            text-align: center;
+            padding: 60px 40px;
+            background: var(--bg-card);
+            border: 2px dashed var(--border);
+            border-radius: 14px;
+        }
+
+        .empty-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .empty-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .empty-text {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* === DOC LINK === */
+        .doc-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+            padding: 10px 16px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .doc-link:hover {
+            border-color: var(--primary);
+        }
+
+        /* === LOGS === */
+        .logs-container {
+            margin-top: 30px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .logs-header {
+            padding: 12px 16px;
+            background: #252525;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logs-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .logs-dot.red { background: #ef4444; }
+        .logs-dot.yellow { background: #f59e0b; }
+        .logs-dot.green { background: #22c55e; }
+
+        .logs-title {
+            margin-left: 8px;
+            font-size: 0.7rem;
+            color: #888;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .logs-body {
+            padding: 16px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .log-line {
+            margin-bottom: 6px;
+            color: #888;
+        }
+
+        .log-success { color: #22c55e; }
+        .log-error { color: #ef4444; }
+        .log-info { color: #3b82f6; }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 900px) {
+            .main { grid-template-columns: 1fr; }
+            .sidebar { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">R</div>
+            <div>
+                <div class="logo-text">REGULUS</div>
+                <div class="logo-sub">Central de Integrações</div>
+            </div>
+        </div>
+        <div class="header-stats">
+            <div class="stat">
+                <div class="stat-value">12</div>
+                <div class="stat-label">Disponíveis</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Conectadas</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-title">Integrações Disponíveis</div>
+
+            <div class="categoria-group">
+                <div class="categoria-label">🏦 Bancos</div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('bradesco')">
+                    <span class="integracao-logo">🏦</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Bradesco</div>
+                        <div class="integracao-tipo">Banco Comercial</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('itau')">
+                    <span class="integracao-logo">🏦</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Itaú Unibanco</div>
+                        <div class="integracao-tipo">Banco Comercial</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('santander')">
+                    <span class="integracao-logo">🏦</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Santander</div>
+                        <div class="integracao-tipo">Banco Comercial</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('bb')">
+                    <span class="integracao-logo">🏛️</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Banco do Brasil</div>
+                        <div class="integracao-tipo">Banco Público</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('caixa')">
+                    <span class="integracao-logo">🏛️</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Caixa Econômica</div>
+                        <div class="integracao-tipo">Banco Público</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+            </div>
+
+            <div class="categoria-group">
+                <div class="categoria-label">🏛️ Órgãos Públicos</div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('bacen')">
+                    <span class="integracao-logo">🏛️</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Banco Central</div>
+                        <div class="integracao-tipo">Órgão Regulador</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('receita')">
+                    <span class="integracao-logo">📋</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Receita Federal</div>
+                        <div class="integracao-tipo">Órgão Público</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('serpro')">
+                    <span class="integracao-logo">🔗</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">SERPRO</div>
+                        <div class="integracao-tipo">API Governo</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+            </div>
+
+            <div class="categoria-group">
+                <div class="categoria-label">📊 Bureaus de Crédito</div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('serasa')">
+                    <span class="integracao-logo">📊</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Serasa Experian</div>
+                        <div class="integracao-tipo">Bureau de Crédito</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('spc')">
+                    <span class="integracao-logo">📊</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">SPC Brasil</div>
+                        <div class="integracao-tipo">Bureau de Crédito</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+            </div>
+
+            <div class="categoria-group">
+                <div class="categoria-label">💸 Pagamentos</div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('pix')">
+                    <span class="integracao-logo">💸</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">PIX (PSP)</div>
+                        <div class="integracao-tipo">Sistema de Pagamentos</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+                <div class="integracao-item" onclick="selectIntegracao('boleto')">
+                    <span class="integracao-logo">📄</span>
+                    <div class="integracao-info">
+                        <div class="integracao-nome">Boleto Bancário</div>
+                        <div class="integracao-tipo">Sistema de Pagamentos</div>
+                    </div>
+                    <span class="integracao-status"></span>
+                </div>
+                
+            </div>
+        </aside>
+
+        <!-- CONTENT -->
+        <section class="content">
+            <div id="content-area">
+                <div class="empty-state">
+                    <div class="empty-icon">🔗</div>
+                    <h3 class="empty-title">Selecione uma Integração</h3>
+                    <p class="empty-text">Escolha uma integração na lista ao lado para configurar as credenciais e conectar automaticamente.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const integracoes = [{"id": "bradesco", "nome": "Bradesco", "tipo": "Banco Comercial", "categoria": "bancos", "logo": "\ud83c\udfe6", "campos": [{"nome": "client_id", "label": "Client ID", "tipo": "text", "obrigatorio": true}, {"nome": "client_secret", "label": "Client Secret", "tipo": "password", "obrigatorio": true}, {"nome": "certificado", "label": "Certificado Digital (.pem)", "tipo": "file", "obrigatorio": true}, {"nome": "ambiente", "label": "Ambiente", "tipo": "select", "opcoes": ["Sandbox", "Produ\u00e7\u00e3o"], "obrigatorio": true}], "documentacao": "https://developers.bradesco.com.br", "status": "disponivel"}, {"id": "itau", "nome": "Ita\u00fa Unibanco", "tipo": "Banco Comercial", "categoria": "bancos", "logo": "\ud83c\udfe6", "campos": [{"nome": "api_key", "label": "API Key", "tipo": "text", "obrigatorio": true}, {"nome": "api_secret", "label": "API Secret", "tipo": "password", "obrigatorio": true}, {"nome": "conta", "label": "N\u00famero da Conta", "tipo": "text", "obrigatorio": true}, {"nome": "agencia", "label": "Ag\u00eancia", "tipo": "text", "obrigatorio": true}], "documentacao": "https://developer.itau.com.br", "status": "disponivel"}, {"id": "santander", "nome": "Santander", "tipo": "Banco Comercial", "categoria": "bancos", "logo": "\ud83c\udfe6", "campos": [{"nome": "client_id", "label": "Client ID", "tipo": "text", "obrigatorio": true}, {"nome": "client_secret", "label": "Client Secret", "tipo": "password", "obrigatorio": true}, {"nome": "workspace_id", "label": "Workspace ID", "tipo": "text", "obrigatorio": true}], "documentacao": "https://developer.santander.com.br", "status": "disponivel"}, {"id": "bb", "nome": "Banco do Brasil", "tipo": "Banco P\u00fablico", "categoria": "bancos", "logo": "\ud83c\udfdb\ufe0f", "campos": [{"nome": "developer_key", "label": "Developer Application Key", "tipo": "text", "obrigatorio": true}, {"nome": "basic_auth", "label": "Basic Authorization", "tipo": "password", "obrigatorio": true}, {"nome": "gw_dev_app_key", "label": "GW Dev App Key", "tipo": "text", "obrigatorio": true}], "documentacao": "https://developers.bb.com.br", "status": "disponivel"}, {"id": "caixa", "nome": "Caixa Econ\u00f4mica", "tipo": "Banco P\u00fablico", "categoria": "bancos", "logo": "\ud83c\udfdb\ufe0f", "campos": [{"nome": "usuario", "label": "Usu\u00e1rio CNAB", "tipo": "text", "obrigatorio": true}, {"nome": "senha", "label": "Senha CNAB", "tipo": "password", "obrigatorio": true}, {"nome": "codigo_beneficiario", "label": "C\u00f3digo do Benefici\u00e1rio", "tipo": "text", "obrigatorio": true}, {"nome": "certificado", "label": "Certificado A1 (.pfx)", "tipo": "file", "obrigatorio": true}], "documentacao": "https://www.caixa.gov.br/empresa", "status": "disponivel"}, {"id": "bacen", "nome": "Banco Central", "tipo": "\u00d3rg\u00e3o Regulador", "categoria": "orgaos", "logo": "\ud83c\udfdb\ufe0f", "campos": [{"nome": "cnpj", "label": "CNPJ da Institui\u00e7\u00e3o", "tipo": "text", "obrigatorio": true}, {"nome": "certificado_bacen", "label": "Certificado BACEN", "tipo": "file", "obrigatorio": true}, {"nome": "senha_certificado", "label": "Senha do Certificado", "tipo": "password", "obrigatorio": true}], "documentacao": "https://www.bcb.gov.br/estabilidadefinanceira/scr", "status": "disponivel"}, {"id": "receita", "nome": "Receita Federal", "tipo": "\u00d3rg\u00e3o P\u00fablico", "categoria": "orgaos", "logo": "\ud83d\udccb", "campos": [{"nome": "certificado_ecpf", "label": "e-CPF ou e-CNPJ", "tipo": "file", "obrigatorio": true}, {"nome": "senha_certificado", "label": "Senha do Certificado", "tipo": "password", "obrigatorio": true}, {"nome": "codigo_acesso", "label": "C\u00f3digo de Acesso (opcional)", "tipo": "text", "obrigatorio": false}], "documentacao": "https://www.gov.br/receitafederal", "status": "disponivel"}, {"id": "serpro", "nome": "SERPRO", "tipo": "API Governo", "categoria": "orgaos", "logo": "\ud83d\udd17", "campos": [{"nome": "consumer_key", "label": "Consumer Key", "tipo": "text", "obrigatorio": true}, {"nome": "consumer_secret", "label": "Consumer Secret", "tipo": "password", "obrigatorio": true}], "documentacao": "https://servicos.serpro.gov.br", "status": "disponivel"}, {"id": "serasa", "nome": "Serasa Experian", "tipo": "Bureau de Cr\u00e9dito", "categoria": "credito", "logo": "\ud83d\udcca", "campos": [{"nome": "usuario", "label": "Usu\u00e1rio", "tipo": "text", "obrigatorio": true}, {"nome": "senha", "label": "Senha", "tipo": "password", "obrigatorio": true}, {"nome": "codigo_cliente", "label": "C\u00f3digo do Cliente", "tipo": "text", "obrigatorio": true}], "documentacao": "https://developer.serasaexperian.com.br", "status": "disponivel"}, {"id": "spc", "nome": "SPC Brasil", "tipo": "Bureau de Cr\u00e9dito", "categoria": "credito", "logo": "\ud83d\udcca", "campos": [{"nome": "token_acesso", "label": "Token de Acesso", "tipo": "password", "obrigatorio": true}, {"nome": "codigo_associado", "label": "C\u00f3digo do Associado", "tipo": "text", "obrigatorio": true}], "documentacao": "https://www.spcbrasil.org.br", "status": "disponivel"}, {"id": "pix", "nome": "PIX (PSP)", "tipo": "Sistema de Pagamentos", "categoria": "pagamentos", "logo": "\ud83d\udcb8", "campos": [{"nome": "client_id", "label": "Client ID PIX", "tipo": "text", "obrigatorio": true}, {"nome": "client_secret", "label": "Client Secret PIX", "tipo": "password", "obrigatorio": true}, {"nome": "chave_pix", "label": "Chave PIX (CNPJ)", "tipo": "text", "obrigatorio": true}, {"nome": "certificado_mtls", "label": "Certificado mTLS", "tipo": "file", "obrigatorio": true}], "documentacao": "https://www.bcb.gov.br/estabilidadefinanceira/pix", "status": "disponivel"}, {"id": "boleto", "nome": "Boleto Banc\u00e1rio", "tipo": "Sistema de Pagamentos", "categoria": "pagamentos", "logo": "\ud83d\udcc4", "campos": [{"nome": "banco", "label": "Banco Emissor", "tipo": "select", "opcoes": ["Bradesco", "Ita\u00fa", "Santander", "BB", "Caixa"], "obrigatorio": true}, {"nome": "convenio", "label": "N\u00famero do Conv\u00eanio", "tipo": "text", "obrigatorio": true}, {"nome": "carteira", "label": "Carteira", "tipo": "text", "obrigatorio": true}, {"nome": "cedente", "label": "C\u00f3digo do Cedente", "tipo": "text", "obrigatorio": true}], "documentacao": "https://febraban.org.br", "status": "disponivel"}];
+
+        function selectIntegracao(id) {
+            const integ = integracoes.find(i => i.id === id);
+            if (!integ) return;
+
+            document.querySelectorAll('.integracao-item').forEach(el => el.classList.remove('selected'));
+            event.currentTarget.classList.add('selected');
+
+            let camposHtml = '';
+            integ.campos.forEach(campo => {
+                if (campo.tipo === 'select') {
+                    const opcoes = campo.opcoes.map(op => `<option value="${op}">${op}</option>`).join('');
+                    camposHtml += `
+                        <div class="form-group">
+                            <label class="form-label">${campo.label} ${campo.obrigatorio ? '<span class="required">*</span>' : ''}</label>
+                            <select class="form-select" name="${campo.nome}" ${campo.obrigatorio ? 'required' : ''}>
+                                <option value="">Selecione...</option>
+                                ${opcoes}
+                            </select>
+                        </div>
+                    `;
+                } else {
+                    camposHtml += `
+                        <div class="form-group">
+                            <label class="form-label">${campo.label} ${campo.obrigatorio ? '<span class="required">*</span>' : ''}</label>
+                            <input type="${campo.tipo}" class="form-input" name="${campo.nome}" ${campo.obrigatorio ? 'required' : ''} placeholder="Insira ${campo.label.toLowerCase()}">
+                            ${campo.tipo === 'file' ? '<p class="form-hint">Formatos aceitos: .pem, .pfx, .p12, .crt</p>' : ''}
+                        </div>
+                    `;
+                }
+            });
+
+            const html = `
+                <div class="content-header">
+                    <h1 class="content-title">${integ.logo} ${integ.nome}</h1>
+                    <p class="content-subtitle">${integ.tipo} • Configurar credenciais de integração</p>
+                </div>
+
+                <div class="form-container">
+                    <div class="form-section">
+                        <h3 class="form-section-title"><span>🔐</span> Credenciais de Acesso</h3>
+                        <form id="form-integracao">
+                            ${camposHtml}
+                        </form>
+                        <a href="${integ.documentacao}" target="_blank" class="doc-link">
+                            📖 Ver Documentação Oficial
+                        </a>
+                    </div>
+
+                    <div class="form-actions">
+                        <button class="btn btn-test" onclick="testarConexao('${integ.id}')">
+                            ⚡ Testar Conexão
+                        </button>
+                        <button class="btn btn-primary" onclick="salvarIntegracao('${integ.id}')">
+                            ✓ Salvar e Conectar
+                        </button>
+                    </div>
+
+                    <div class="logs-container" id="logs-container" style="display: none;">
+                        <div class="logs-header">
+                            <span class="logs-dot red"></span>
+                            <span class="logs-dot yellow"></span>
+                            <span class="logs-dot green"></span>
+                            <span class="logs-title">connection.log</span>
+                        </div>
+                        <div class="logs-body" id="logs-body"></div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        function addLog(msg, type = '') {
+            const logs = document.getElementById('logs-body');
+            const time = new Date().toLocaleTimeString('pt-BR');
+            logs.innerHTML += `<div class="log-line ${type}">[${time}] ${msg}</div>`;
+            logs.scrollTop = logs.scrollHeight;
+        }
+
+        function testarConexao(id) {
+            const integ = integracoes.find(i => i.id === id);
+            const logsContainer = document.getElementById('logs-container');
+            const logsBody = document.getElementById('logs-body');
+            
+            logsContainer.style.display = 'block';
+            logsBody.innerHTML = '';
+
+            addLog(`Iniciando teste de conexão com ${integ.nome}...`, 'log-info');
+            
+            setTimeout(() => addLog('Verificando credenciais...'), 500);
+            setTimeout(() => addLog('Validando certificados...'), 1000);
+            setTimeout(() => addLog('Estabelecendo conexão segura (TLS 1.3)...'), 1500);
+            setTimeout(() => addLog('Autenticando com servidor...'), 2000);
+            setTimeout(() => addLog(`Conexão com ${integ.nome} estabelecida com sucesso!`, 'log-success'), 2500);
+            setTimeout(() => addLog('Teste concluído. Sistema pronto para integração.', 'log-success'), 3000);
+        }
+
+        function salvarIntegracao(id) {
+            const integ = integracoes.find(i => i.id === id);
+            const logsContainer = document.getElementById('logs-container');
+            const logsBody = document.getElementById('logs-body');
+            
+            logsContainer.style.display = 'block';
+            logsBody.innerHTML = '';
+
+            addLog(`Salvando credenciais de ${integ.nome}...`, 'log-info');
+            setTimeout(() => addLog('Criptografando dados sensíveis (AES-256)...'), 400);
+            setTimeout(() => addLog('Armazenando no cofre seguro...'), 800);
+            setTimeout(() => addLog('Configurando webhooks...'), 1200);
+            setTimeout(() => addLog('Ativando monitoramento de conexão...'), 1600);
+            setTimeout(() => addLog('Registrando integração no sistema...'), 2000);
+            setTimeout(() => {
+                addLog(`${integ.nome} integrado com sucesso!`, 'log-success');
+                addLog('Sistema REGULUS atualizado.', 'log-success');
+            }, 2400);
+        }
+    </script>
+
+
+</body></html>

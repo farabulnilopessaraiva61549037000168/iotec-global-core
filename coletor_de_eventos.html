@@ -1,0 +1,20 @@
+<script>
+(function(){
+  const KEY = "iotec_eventos";
+
+  function salvar(ev){
+    const arr = JSON.parse(localStorage.getItem(KEY) || "[]");
+    arr.push({t: Date.now(), ...ev});
+    localStorage.setItem(KEY, JSON.stringify(arr));
+  }
+
+  document.addEventListener("click", (e)=>{
+    const txt = (e.target.innerText||"").trim().slice(0,60);
+    salvar({tipo:"clique", alvo: txt});
+  });
+
+  window.iotecGetEventos = function(){
+    return JSON.parse(localStorage.getItem(KEY) || "[]");
+  }
+})();
+</script>

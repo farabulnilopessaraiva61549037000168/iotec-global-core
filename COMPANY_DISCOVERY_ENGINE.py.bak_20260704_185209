@@ -1,0 +1,190 @@
+﻿"""
+==============================================================
+
+IOTEC COMPANY DISCOVERY ENGINE
+STAGE 002
+
+==============================================================
+"""
+
+import sqlite3
+from datetime import datetime
+
+DB = r"C:\IOTEC\IOTEC_OPPORTUNITY.db"
+
+conn = sqlite3.connect(DB)
+conn.row_factory = sqlite3.Row
+
+cur = conn.cursor()
+
+cur.execute("""
+
+CREATE TABLE IF NOT EXISTS companies(
+
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+    created_at TEXT,
+
+    company_name TEXT,
+
+    segment TEXT,
+
+    city TEXT,
+
+    state TEXT,
+
+    country TEXT,
+
+    website TEXT,
+
+    linkedin TEXT,
+
+    phone TEXT,
+
+    email TEXT,
+
+    status TEXT,
+
+    opportunity_score INTEGER,
+
+    notes TEXT
+
+)
+
+""")
+
+conn.commit()
+
+
+class CompanyDiscovery:
+
+    def cadastrar(
+        self,
+        empresa,
+        segmento,
+        cidade,
+        estado,
+        pais="Brasil",
+        website="",
+        linkedin="",
+        telefone="",
+        email="",
+        status="NOVA",
+        score=50,
+        notas=""
+    ):
+
+        cur.execute("""
+
+        INSERT INTO companies(
+
+            created_at,
+            company_name,
+            segment,
+            city,
+            state,
+            country,
+            website,
+            linkedin,
+            phone,
+            email,
+            status,
+            opportunity_score,
+            notes
+
+        )
+
+        VALUES(
+
+            ?,?,?,?,?,?,?,?,?,?,?,?
+
+        )
+
+        """,(
+
+            str(datetime.now()),
+            empresa,
+            segmento,
+            cidade,
+            estado,
+            pais,
+            website,
+            linkedin,
+            telefone,
+            email,
+            status,
+            score,
+            notas
+
+        ))
+
+        conn.commit()
+
+    def listar(self):
+
+        print()
+
+        print("="*80)
+        print("EMPRESAS CADASTRADAS")
+        print("="*80)
+
+        cur.execute("""
+
+        SELECT
+
+            company_name,
+
+            segment,
+
+            city,
+
+            state,
+
+            opportunity_score,
+
+            status
+
+        FROM companies
+
+        ORDER BY opportunity_score DESC
+
+        """)
+
+        for row in cur.fetchall():
+
+            print(
+
+                f"{row['company_name']} | "
+
+                f"{row['segment']} | "
+
+                f"{row['city']}/{row['state']} | "
+
+                f"Score {row['opportunity_score']} | "
+
+                f"{row['status']}"
+
+            )
+
+
+if __name__ == "__main__":
+
+    engine = CompanyDiscovery()
+
+    engine.cadastrar(
+
+        empresa="Empresa Exemplo",
+
+        segmento="Tecnologia",
+
+        cidade="Fortaleza",
+
+        estado="CE",
+
+        score=90
+
+    )
+
+    engine.listar()
+
+    conn.close()

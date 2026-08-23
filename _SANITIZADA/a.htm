@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="a_data/injected.js" onerror="parent.postMessage({event:'error',payload:'script.onerror: Failed to load '+event.target.src},'https://replit.com')"></script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perícia de Valor — REGULUS SYSTEM LTDA</title>
+    <link href="a_data/css2.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --border: #e0e0e0;
+            --text: #1a1a1a;
+            --text-dim: #666666;
+            --accent: #0066cc;
+            --gold: #8b6914;
+        }
+        
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px;
+            border: 2px solid var(--text);
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .header .title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 12px;
+            color: var(--text-dim);
+            letter-spacing: 2px;
+        }
+        
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        th {
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+        
+        td.number {
+            text-align: right;
+            font-weight: 500;
+        }
+        
+        .total-row {
+            background: #f5f5f5;
+            font-weight: 600;
+        }
+        
+        .total-row td {
+            border-top: 2px solid var(--text);
+            border-bottom: 2px solid var(--text);
+        }
+        
+        .valuation-box {
+            text-align: center;
+            padding: 50px;
+            border: 3px solid var(--text);
+            margin: 40px 0;
+        }
+        
+        .valuation-label {
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 15px;
+        }
+        
+        .valuation-amount {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -2px;
+        }
+        
+        .valuation-note {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-top: 15px;
+        }
+        
+        .methodology {
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        
+        .methodology h4 {
+            font-size: 12px;
+            font-weight: 600;
+            margin: 20px 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .methodology p {
+            margin-bottom: 15px;
+            color: var(--text-dim);
+        }
+        
+        .formula {
+            font-family: 'IBM Plex Mono', monospace;
+            background: #f5f5f5;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-left: 3px solid var(--text);
+            font-size: 12px;
+        }
+        
+        .signature {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .signature-block {
+            text-align: center;
+            width: 45%;
+        }
+        
+        .signature-line {
+            border-top: 1px solid var(--text);
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+        
+        .signature-name {
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .signature-title {
+            font-size: 10px;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 10px;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+        }
+        
+        .dual-currency {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 20px;
+        }
+        
+        .currency-block {
+            text-align: center;
+        }
+        
+        .currency-label {
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: var(--text-dim);
+            margin-bottom: 5px;
+        }
+        
+        .currency-value {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        @media print {
+            body { padding: 20px; }
+            .section { break-inside: avoid; }
+        }
+    </style>
+<script type="text/javascript" src="a_data/beacon.js"></script></head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Laudo Pericial de Avaliacao Patrimonial</h1>
+            <div class="title">REGULUS SYSTEM LTDA</div>
+            <div class="subtitle">CNPJ 61.549.037/0001-68 — DATA BASE: 24/12/2025</div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">1. Inventario de Ativos de Software</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modulo</th>
+                        <th style="text-align:right">SLOC</th>
+                        <th style="text-align:right">Funcao</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>regulus_elite_index.py</td>
+                        <td class="number">1,740</td>
+                        <td>Portal Principal + API</td>
+                    </tr>
+                    <tr>
+                        <td>casa_oasis_regulus.py</td>
+                        <td class="number">1,168</td>
+                        <td>Modulo Arquitetura</td>
+                    </tr>
+                    <tr>
+                        <td>documentario_regulus.py</td>
+                        <td class="number">899</td>
+                        <td>Producao Institucional</td>
+                    </tr>
+                    <tr>
+                        <td>sala_operacoes_regulus.py</td>
+                        <td class="number">773</td>
+                        <td>Centro de Operacoes</td>
+                    </tr>
+                    <tr>
+                        <td>central_comando_regulus.py</td>
+                        <td class="number">770</td>
+                        <td>Dashboard Executivo</td>
+                    </tr>
+                    <tr>
+                        <td>analise_credito_regulus.py</td>
+                        <td class="number">729</td>
+                        <td>Analise de Credito</td>
+                    </tr>
+                    <tr>
+                        <td>retrospectiva_regulus.py</td>
+                        <td class="number">691</td>
+                        <td>Historico Corporativo</td>
+                    </tr>
+                    <tr>
+                        <td>proposta_comercial.py</td>
+                        <td class="number">675</td>
+                        <td>Proposta Comercial</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>TOTAL</strong></td>
+                        <td class="number"><strong>7,445</strong></td>
+                        <td><strong>8 Modulos</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">2. Metodologia de Avaliacao</div>
+            <div class="methodology">
+                <h4>2.1 COCOMO II — Constructive Cost Model</h4>
+                <p>Modelo parametrico desenvolvido pela University of 
+Southern California para estimativa de custo de desenvolvimento de 
+software. Utiliza SLOC (Source Lines of Code) como metrica base.</p>
+                
+                <div class="formula">
+                    Effort (PM) = A × Size^B × EM<br>
+                    A = 2.94 (calibracao padrao)<br>
+                    B = 1.0997 (projeto organico)<br>
+                    Size = KSLOC = 7.445
+                </div>
+                
+                <h4>2.2 Custo de Desenvolvimento por Linha</h4>
+                <p>Baseado em benchmarks internacionais para desenvolvimento fintech:</p>
+                
+                <div class="formula">
+                    Custo Base: USD 15.00/SLOC (mercado medio EUA)<br>
+                    Fator Fintech: 2.0x (complexidade regulatoria)<br>
+                    Fator Brasil: 0.65x (ajuste paridade)<br>
+                    Custo Ajustado: USD 15 × 2.0 × 0.65 = USD 19.50/SLOC
+                </div>
+                
+                <h4>2.3 Replacement Cost Method</h4>
+                <p>Custo estimado para recriar o software do zero com 
+equipe qualificada, considerando especificacoes funcionais, design, 
+desenvolvimento, testes e documentacao.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">3. Calculo do Valor</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Componente</th>
+                        <th style="text-align:right">Base</th>
+                        <th style="text-align:right">Fator</th>
+                        <th style="text-align:right">Valor USD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Codigo Fonte (7,445 SLOC)</td>
+                        <td class="number">$15.00/ln</td>
+                        <td class="number">1.0x</td>
+                        <td class="number">$111,675</td>
+                    </tr>
+                    <tr>
+                        <td>Complexidade Fintech</td>
+                        <td class="number">—</td>
+                        <td class="number">2.0x</td>
+                        <td class="number">$111,675</td>
+                    </tr>
+                    <tr>
+                        <td>Design UI/UX Premium</td>
+                        <td class="number">8 interfaces</td>
+                        <td class="number">$3,500/ui</td>
+                        <td class="number">$28,000</td>
+                    </tr>
+                    <tr>
+                        <td>Arquitetura de Sistema</td>
+                        <td class="number">Flask/Python</td>
+                        <td class="number">flat</td>
+                        <td class="number">$15,000</td>
+                    </tr>
+                    <tr>
+                        <td>Documentacao Tecnica</td>
+                        <td class="number">replit.md</td>
+                        <td class="number">flat</td>
+                        <td class="number">$5,000</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>SUBTOTAL</strong></td>
+                        <td class="number"></td>
+                        <td class="number"></td>
+                        <td class="number"><strong>$271,350</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="valuation-box">
+            <div class="valuation-label">Valor Pericial do Ativo de Software</div>
+            <div class="valuation-amount">USD 271,350</div>
+            <div class="valuation-note">Duzentos e setenta e um mil, trezentos e cinquenta dolares americanos</div>
+            
+            <div class="dual-currency">
+                <div class="currency-block">
+                    <div class="currency-label">EQUIVALENTE BRL (1 USD = R$ 5.52)</div>
+                    <div class="currency-value">R$ 1,497,852</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">4. Patrimonio Total da Empresa</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ativo</th>
+                        <th style="text-align:right">Valor USD</th>
+                        <th style="text-align:right">Valor BRL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Capital Social Integralizado</td>
+                        <td class="number">$7,246</td>
+                        <td class="number">R$ 40,000</td>
+                    </tr>
+                    <tr>
+                        <td>Limite de Credito Disponivel (Diamond)</td>
+                        <td class="number">$6,703</td>
+                        <td class="number">R$ 37,000</td>
+                    </tr>
+                    <tr>
+                        <td>Ativo de Software (Periciado)</td>
+                        <td class="number">$271,350</td>
+                        <td class="number">R$ 1,497,852</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>PATRIMONIO TOTAL</strong></td>
+                        <td class="number"><strong>$285,299</strong></td>
+                        <td class="number"><strong>R$ 1,574,852</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">5. Premissas e Limitacoes</div>
+            <div class="methodology">
+                <p>1. Valores baseados em custo de reposicao (replacement cost), nao valor de mercado.</p>
+                <p>2. SLOC contado via ferramentas automatizadas, excluindo linhas em branco e comentarios.</p>
+                <p>3. Cambio referencia: USD 1 = BRL 6.18 (data base do laudo).</p>
+                <p>4. Nao considera valor de marca, carteira de clientes ou goodwill.</p>
+                <p>5. Avaliacao restrita aos ativos de software identificados no inventario.</p>
+            </div>
+        </div>
+        
+        <div class="signature">
+            <div class="signature-block">
+                <div class="signature-line">Perito Avaliador</div>
+                <div class="signature-name">Sistema Autonomo REGULUS</div>
+                <div class="signature-title">Metodologia COCOMO II</div>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line">Responsavel Tecnico</div>
+                <div class="signature-name">REGULUS SYSTEM LTDA</div>
+                <div class="signature-title">CNPJ 61.549.037/0001-68</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            LAUDO PERICIAL DE AVALIACAO PATRIMONIAL — 24/12/2025 18:52 — DOCUMENTO GERADO AUTOMATICAMENTE
+        </div>
+    </div>
+
+
+</body></html>

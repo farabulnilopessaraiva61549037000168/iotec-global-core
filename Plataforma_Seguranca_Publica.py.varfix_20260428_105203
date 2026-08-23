@@ -1,0 +1,158 @@
+﻿# ==============================
+# IOTEC SENTINEL - NÃVEL APRESENTAÃ‡ÃƒO
+# Dashboard + Email + IA AnalÃ­tica
+# ==============================
+
+import sys
+import os
+import random
+import time
+import smtplib
+from collections import Counter
+from email.mime.text import MIMEText
+
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
+    QLabel, QPushButton, QTextEdit, QFrame, QScrollArea
+)
+from PyQt5.QtCore import Qt, QTimer, QUrl
+from PyQt5.QtGui import QFont
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+
+import folium
+from folium.plugins import HeatMap
+
+APP_NAME = "IOTEC SENTINEL"
+CNPJ = "61.549.037/0001-68"
+DIRETORIO = "C:/IOTEC"
+MAP_FILE = os.path.join(DIRETORIO, "mapa.html")
+
+EMAIL_DESTINO = "seuemail@email.com"  # alterar
+
+REGIAO = {
+    "Vale do Jaguaribe": {
+        "Limoeiro do Norte": {"Centro": (-5.145, -38.085)},
+        "SÃ£o JoÃ£o do Jaguaribe": {"Centro": (-5.146, -38.100)}
+    },
+    "SertÃ£o Central": {
+        "QuixadÃ¡": {"Centro": (-4.970, -39.015)},
+        "Quixeramobim": {"Centro": (-5.199, -39.290)}
+    }
+}
+
+class Sistema(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("IOTEC SENTINEL - ApresentaÃ§Ã£o")
+        self.setGeometry(100, 100, 1400, 900)
+
+        self.dados = []
+        self.init_ui()
+        self.timer()
+
+    def init_ui(self):
+        central = QWidget()
+        self.setCentralWidget(central)
+
+        layout = QVBoxLayout()
+
+        self.mapa = QWebEngineView()
+        layout.addWidget(self.mapa)
+
+        self.alertas = QTextEdit()
+        self.alertas.setReadOnly(True)
+
+        self.dashboard = QTextEdit()
+        self.dashboard.setReadOnly(True)
+
+        self.ia = QTextEdit()
+        self.ia.setReadOnly(True)
+
+        layout.addWidget(self.alertas)
+        layout.addWidget(self.dashboard)
+        layout.addWidget(self.ia)
+
+        central.setLayout(layout)
+
+    def timer(self):
+        self.t = QTimer()
+        self.t.timeout.connect(self.atualizar)
+        self.t.start(3000)
+
+    def gerar(self):
+        regiao = random.choice(list(REGIAO.keys()))
+        cidade = random.choice(list(REGIAO[regiao].keys()))
+        bairro = list(REGIAO[regiao][cidade].keys())[0]
+
+        dado = {
+            "regiao": regiao,
+            "cidade": cidade,
+            "bairro": bairro,
+            "coords": REGIAO[regiao][cidade][bairro],
+            "tipo": random.choice(["Roubo", "Furto"]),
+            "hora": time.strftime("%H:%M:%S")
+        }
+
+        self.dados.append(dado)
+        return dado
+
+    def atualizar_mapa(self):
+        mapa = folium.Map(location=[-5.2, -38.7], zoom_start=8, tiles="CartoDB positron")
+        HeatMap(
+            [d["coords"] for d in self.dados],
+            radius=12,
+            blur=15,
+            min_opacity=0.3
+        ).add_to(mapa)
+        mapa.save(MAP_FILE)
+        self.mapa_view.load(QUrl.fromLocalFile(MAP_FILE))
+        self.mapa_view.load(QUrl.fromLocalFile(MAP_FILE))
+        self.mapa.load(QUrl.fromLocalFile(MAP_FILE))
+
+    def analisar(self):
+        cont = Counter([d["cidade"] for d in self.dados])
+        return cont.most_common(1)[0]
+
+    def gerar_ia(self, top):
+        cidade, qtd = top
+        return f"AnÃ¡lise: {cidade} concentra {qtd} ocorrÃªncias. TendÃªncia de aumento detectada."
+
+    def enviar_email(self, msg):
+        try:
+            mensagem = MIMEText(msg)
+            mensagem['Subject'] = 'Alerta IOTEC'
+            mensagem['From'] = EMAIL_DESTINO
+            mensagem['To'] = EMAIL_DESTINO
+
+            with smtplib.SMTP('smtp.gmail.com', 587) as server:
+                server.starttls()
+                # colocar email real e senha de app
+                # server.login("email", "senha")
+                # server.send_message(mensagem)
+
+        except:
+            pass
+
+    def atualizar(self):
+        d = self.gerar()
+
+        self.alertas.append(f"{d['tipo']} em {d['cidade']}")
+
+        top = self.analisar()
+
+        self.dashboard.setText(f"Top cidade: {top[0]} ({top[1]})")
+
+        analise = self.gerar_ia(top)
+        self.ia.append(analise)
+
+        if top[1] > 5:
+            self.enviar_email(analise)
+
+        self.atualizar_mapa()
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    s = Sistema()
+    s.show()
+    sys.exit(app.exec_())
+

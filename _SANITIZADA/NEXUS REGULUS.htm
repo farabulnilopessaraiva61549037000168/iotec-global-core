@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS REGULUS</title>
+<link href="NEXUS%20REGULUS_arquivos/css2.css" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(180deg, #000, #0a0a0a);
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        min-height: 100vh;
+    }
+
+    .gold {
+        color: #d3af37;
+    }
+
+    .topbar {
+        padding: 25px 20px;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 6px;
+        border-bottom: 1px solid rgba(211, 175, 55, 0.3);
+        font-weight: 300;
+        background: rgba(0,0,0,0.5);
+        position: relative;
+        z-index: 10;
+    }
+
+    .city {
+        width: 100%;
+        height: 70vh;
+        background: url('https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?w=1920') center/cover no-repeat;
+        filter: brightness(35%);
+        position: relative;
+    }
+
+    .city::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        background: linear-gradient(transparent, #0a0a0a);
+    }
+
+    .panel {
+        margin-top: -220px;
+        padding: 50px;
+        width: 65%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(15, 15, 15, 0.92);
+        border-radius: 20px;
+        border: 1px solid rgba(211, 175, 55, 0.25);
+        position: relative;
+        z-index: 20;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 25px 80px rgba(0,0,0,0.6);
+    }
+
+    .panel h1 {
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+
+    .panel > p {
+        color: rgba(255,255,255,0.6);
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+
+    .modules-list {
+        list-style: none;
+        display: grid;
+        gap: 12px;
+    }
+
+    .modules-list li {
+        background: rgba(211, 175, 55, 0.08);
+        border: 1px solid rgba(211, 175, 55, 0.2);
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .modules-list li:hover {
+        background: rgba(211, 175, 55, 0.15);
+        border-color: rgba(211, 175, 55, 0.4);
+        transform: translateX(10px);
+    }
+
+    .modules-list a {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 18px 25px;
+        text-decoration: none;
+        color: #d3af37;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .modules-list a::before {
+        content: '◈';
+        font-size: 1.2rem;
+        opacity: 0.7;
+    }
+
+    .footer-note {
+        margin-top: 45px;
+        padding-top: 30px;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        color: rgba(255,255,255,0.5);
+        font-size: 0.85rem;
+        line-height: 1.7;
+        font-weight: 300;
+    }
+
+    .footer-note b {
+        color: #d3af37;
+        font-weight: 500;
+    }
+
+    .prism {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 20px solid #d3af37;
+        margin-right: 15px;
+        animation: rotate 4s linear infinite;
+    }
+
+    @keyframes rotate {
+        from { transform: rotateY(0deg); }
+        to { transform: rotateY(360deg); }
+    }
+
+    @media (max-width: 768px) {
+        .panel {
+            width: 90%;
+            padding: 30px;
+            margin-top: -150px;
+        }
+        .topbar {
+            font-size: 16px;
+            letter-spacing: 3px;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="topbar">
+        <span class="prism"></span>
+        <span class="gold">NEXUS REGULUS</span> — ULTRALUXO FUTURISTA
+    </div>
+
+    <div class="city"></div>
+
+    <div class="panel">
+        <h1 class="gold">Bem-vindo ao Ecossistema Regulus</h1>
+        <p>Escolha um módulo para acessar:</p>
+        
+        <ul class="modules-list">
+            <li><a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/modulo/financeiro">Financeiro</a></li>
+            <li><a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/modulo/engenharia">Engenharia</a></li>
+            <li><a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/modulo/medicina">Medicina</a></li>
+            <li><a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/modulo/advocacia">Advocacia</a></li>
+            <li><a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/modulo/publicidade">Publicidade</a></li>
+        </ul>
+
+        <p class="footer-note">
+            Este é apenas o início.<br>
+            <b>A IA do Replit pode evoluir tudo a partir daqui.</b>
+        </p>
+    </div>
+
+
+</body></html>

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS - Painel Operacional Master</title>
+    <link href="REGULUS%20-%20Painel%20Operacional%20Master_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --white: #ffffff;
+            --off-white: #f8f9fa;
+            --gray-50: #f0f2f5;
+            --gray-100: #e4e6eb;
+            --gray-200: #d0d2d7;
+            --gray-400: #8a8d91;
+            --gray-600: #50596b;
+            --gray-800: #2d2e33;
+            --gray-900: #0a0a0a;
+            --gold: #8b6f47;
+            --gold-light: #b8a892;
+            --blue: #0052cc;
+            --blue-dark: #003d99;
+            --success: #0a6e0a;
+            --danger: #ae0014;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: var(--white);
+            color: var(--gray-900);
+            min-height: 100vh;
+        }
+
+        /* === HEADER === */
+        .header {
+            padding: 16px 32px;
+            border-bottom: 1px solid var(--gray-100);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--white);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--gold);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .logo-text {
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.01em;
+        }
+
+        .logo-tag {
+            font-size: 0.65rem;
+            color: var(--gray-400);
+        }
+
+        .search-container {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 12px;
+            border: 1px solid var(--gray-200);
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-family: 'IBM Plex Sans', sans-serif;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--blue);
+            box-shadow: 0 0 0 3px rgba(0, 82, 204, 0.08);
+        }
+
+        .search-input::placeholder {
+            color: var(--gray-400);
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: var(--off-white);
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--success);
+            border-radius: 50%;
+        }
+
+        .time {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--gray-600);
+        }
+
+        /* === MAIN CONTENT === */
+        .main {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: calc(100vh - 65px);
+        }
+
+        /* === SIDEBAR === */
+        .sidebar {
+            background: var(--off-white);
+            border-right: 1px solid var(--gray-100);
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .sidebar-section {
+            margin-bottom: 24px;
+        }
+
+        .sidebar-title {
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: var(--gray-400);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 12px;
+            padding-left: 4px;
+        }
+
+        .categoria-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 12px;
+            background: transparent;
+            border: 1px solid var(--gray-100);
+            border-radius: 6px;
+            text-align: left;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--gray-600);
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 8px;
+        }
+
+        .categoria-btn:hover {
+            background: var(--white);
+            border-color: var(--gold);
+            color: var(--gray-900);
+        }
+
+        .categoria-btn.active {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--white);
+        }
+
+        /* === CONTENT AREA === */
+        .content {
+            padding: 32px;
+            overflow-y: auto;
+        }
+
+        .content-header {
+            margin-bottom: 28px;
+        }
+
+        .content-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .content-subtitle {
+            font-size: 0.8rem;
+            color: var(--gray-600);
+        }
+
+        /* === MÓDULOS GRID === */
+        .modulos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+
+        .modulo-card {
+            padding: 20px;
+            background: var(--white);
+            border: 1px solid var(--gray-100);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .modulo-card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+
+        .modulo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .modulo-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        .modulo-status {
+            padding: 2px 8px;
+            background: var(--off-white);
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: 600;
+            color: var(--gray-600);
+            text-transform: uppercase;
+        }
+
+        .modulo-status.ativo {
+            background: #d4f1d4;
+            color: var(--success);
+        }
+
+        .modulo-status.pendente {
+            background: #fff4d4;
+            color: #8b5c00;
+        }
+
+        .modulo-description {
+            font-size: 0.75rem;
+            color: var(--gray-600);
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .modulo-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid var(--gray-100);
+        }
+
+        .modulo-shortcut {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--gray-400);
+            padding: 4px 8px;
+            background: var(--off-white);
+            border-radius: 3px;
+        }
+
+        .modulo-arrow {
+            color: var(--gold);
+            font-size: 1rem;
+        }
+
+        /* === EMPTY STATE === */
+        .empty-state {
+            text-align: center;
+            padding: 60px 40px;
+            color: var(--gray-600);
+        }
+
+        .empty-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .empty-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        /* === SHORTCUTS PANEL === */
+        .shortcuts-panel {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 16px;
+            background: var(--gray-900);
+            border-radius: 8px;
+            color: var(--white);
+            max-width: 300px;
+            z-index: 50;
+        }
+
+        .shortcuts-title {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            opacity: 0.7;
+        }
+
+        .shortcuts-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 0.7rem;
+        }
+
+        .shortcut-item {
+            padding: 8px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 4px;
+        }
+
+        .shortcut-key {
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 600;
+            color: var(--gold);
+            margin-right: 4px;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 20px 32px;
+            background: var(--off-white);
+            border-top: 1px solid var(--gray-100);
+            text-align: center;
+            font-size: 0.7rem;
+            color: var(--gray-400);
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 900px) {
+            .main { grid-template-columns: 1fr; }
+            .sidebar { display: none; }
+            .shortcuts-panel { display: none; }
+        }
+
+        /* === KEYBOARD SHORTCUTS === */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 32px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .modal-section {
+            margin-bottom: 24px;
+        }
+
+        .modal-section-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--gold);
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .modal-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--gray-100);
+            font-size: 0.85rem;
+        }
+
+        .modal-item:last-child {
+            border-bottom: none;
+        }
+
+        .modal-key {
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 600;
+            color: var(--blue);
+            padding: 2px 8px;
+            background: var(--off-white);
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <div class="logo-icon">R</div>
+                <div>
+                    <div class="logo-text">REGULUS</div>
+                    <div class="logo-tag">Painel Operacional Master</div>
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" id="searchInput" placeholder="Buscar módulo... (⌘K)">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>Sistema Online</span>
+            </div>
+            <div class="time" id="time">08:42</div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-title">Navegação</div>
+                
+                <button class="categoria-btn" onclick="filtrarCategoria(this, 'INTEGRAÇÕES')">
+                    INTEGRAÇÕES
+                </button>
+                
+                <button class="categoria-btn" onclick="filtrarCategoria(this, 'CONSÓRCIOS')">
+                    CONSÓRCIOS
+                </button>
+                
+                <button class="categoria-btn active" onclick="filtrarCategoria(this, 'OPERAÇÕES FINANCEIRAS')">
+                    OPERAÇÕES FINANCEIRAS
+                </button>
+                
+                <button class="categoria-btn" onclick="filtrarCategoria(this, 'COMUNICAÇÃO &amp; APRESENTAÇÃO')">
+                    COMUNICAÇÃO &amp; APRESENTAÇÃO
+                </button>
+                
+                <button class="categoria-btn" onclick="filtrarCategoria(this, 'GESTÃO')">
+                    GESTÃO
+                </button>
+                
+                <button class="categoria-btn" onclick="filtrarCategoria(this, 'INVESTIDORES &amp; COMERCIAL')">
+                    INVESTIDORES &amp; COMERCIAL
+                </button>
+                
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Útil</div>
+                <button class="categoria-btn" onclick="mostrarAtalhos()">
+                    ⌨️ Atalhos de Teclado
+                </button>
+                <button class="categoria-btn" onclick="exportarRelatorio()">
+                    📊 Exportar Relatório
+                </button>
+            </div>
+        </aside>
+
+        <!-- CONTENT -->
+        <section class="content">
+            <div class="content-header">
+                <h1 class="content-title" id="contentTitle">OPERAÇÕES FINANCEIRAS</h1>
+                <p class="content-subtitle" id="contentSubtitle">4 módulos disponíveis</p>
+            </div>
+
+            <div class="modulos-grid" id="modulosGrid">
+                <div class="modulo-card" onclick="abrirModulo('/operacoes/setores')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">Setores Econômicos</div>
+                        <span class="modulo-status ativo">ativo</span>
+                    </div>
+                    <p class="modulo-description">Análise de setores interligados</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘S</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            
+                <div class="modulo-card" onclick="abrirModulo('/operacoes/rotas')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">Rotas Compradores</div>
+                        <span class="modulo-status ativo">ativo</span>
+                    </div>
+                    <p class="modulo-description">Sistema de logística comercial</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘T</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            
+                <div class="modulo-card" onclick="abrirModulo('/operacoes/produtora')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">Produtora Tech</div>
+                        <span class="modulo-status ativo">ativo</span>
+                    </div>
+                    <p class="modulo-description">Casa de produção de tecnologia</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘D</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            
+                <div class="modulo-card" onclick="abrirModulo('/operacoes/importacao')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">Importação Global</div>
+                        <span class="modulo-status ativo">ativo</span>
+                    </div>
+                    <p class="modulo-description">Gestão de importação internacional</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘I</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- SHORTCUTS PANEL -->
+    <div class="shortcuts-panel">
+        <div class="shortcuts-title">Atalhos Rápidos (⌘?)</div>
+        <div class="shortcuts-list" id="shortcutsList"><div class="shortcut-item"><span class="shortcut-key">⌘S</span>Setores Econômicos</div><div class="shortcut-item"><span class="shortcut-key">⌘T</span>Rotas Compradores</div><div class="shortcut-item"><span class="shortcut-key">⌘D</span>Produtora Tech</div><div class="shortcut-item"><span class="shortcut-key">⌘I</span>Importação Global</div></div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        REGULUS © 2025 | Casa Turca CNPJ 61.549.037/0001-68 | Todos os direitos reservados
+    </footer>
+
+    <script>
+        const modulos = {"INTEGRA\u00c7\u00d5ES": [{"nome": "Mapa de Integra\u00e7\u00f5es", "descricao": "Visualiza\u00e7\u00e3o gr\u00e1fica do ecossistema de conex\u00f5es", "camada": 1, "status": "ativo", "url": "/integracao/mapa", "shortcut": "M"}, {"nome": "Central de Integra\u00e7\u00f5es", "descricao": "Configura\u00e7\u00e3o de credenciais e APIs", "camada": 1, "status": "ativo", "url": "/integracao/central", "shortcut": "C"}, {"nome": "BACEN", "descricao": "Integra\u00e7\u00e3o Banco Central", "camada": 1, "status": "pendente", "url": "/integracao/bacen", "shortcut": "B"}, {"nome": "Receita Federal", "descricao": "Integra\u00e7\u00e3o com \u00f3rg\u00e3o p\u00fablico", "camada": 1, "status": "pendente", "url": "/integracao/receita", "shortcut": "R"}], "CONS\u00d3RCIOS": [{"nome": "Cons\u00f3rcio Premium", "descricao": "Plataforma premium com portf\u00f3lios", "camada": 2, "status": "ativo", "url": "/consorcio/premium", "shortcut": "P"}, {"nome": "Cons\u00f3rcio IA Elite", "descricao": "Sistema com 48 tipos de cons\u00f3rcio", "camada": 2, "status": "ativo", "url": "/consorcio/elite", "shortcut": "E"}, {"nome": "Gest\u00e3o Autom\u00e1tica", "descricao": "Administra\u00e7\u00e3o 100% por IA", "camada": 2, "status": "ativo", "url": "/consorcio/auto", "shortcut": "A"}], "OPERA\u00c7\u00d5ES FINANCEIRAS": [{"nome": "Setores Econ\u00f4micos", "descricao": "An\u00e1lise de setores interligados", "camada": 3, "status": "ativo", "url": "/operacoes/setores", "shortcut": "S"}, {"nome": "Rotas Compradores", "descricao": "Sistema de log\u00edstica comercial", "camada": 3, "status": "ativo", "url": "/operacoes/rotas", "shortcut": "T"}, {"nome": "Produtora Tech", "descricao": "Casa de produ\u00e7\u00e3o de tecnologia", "camada": 3, "status": "ativo", "url": "/operacoes/produtora", "shortcut": "D"}, {"nome": "Importa\u00e7\u00e3o Global", "descricao": "Gest\u00e3o de importa\u00e7\u00e3o internacional", "camada": 3, "status": "ativo", "url": "/operacoes/importacao", "shortcut": "I"}], "COMUNICA\u00c7\u00c3O & APRESENTA\u00c7\u00c3O": [{"nome": "Entretenimento", "descricao": "Portal de entretenimento geolocalizado", "camada": 3, "status": "ativo", "url": "/comunicacao/entretenimento", "shortcut": "N"}, {"nome": "Apresenta\u00e7\u00e3o", "descricao": "Deck apresent\u00e1vel para stakeholders", "camada": 3, "status": "ativo", "url": "/comunicacao/apresentacao", "shortcut": "V"}, {"nome": "Portal V\u00eddeo", "descricao": "Hub de conte\u00fado audiovisual", "camada": 3, "status": "ativo", "url": "/comunicacao/video", "shortcut": "Z"}], "GEST\u00c3O": [{"nome": "Imperial Screen Oriental", "descricao": "Interface de controle minimalista", "camada": 4, "status": "ativo", "url": "/gestao/imperial", "shortcut": "O"}, {"nome": "Painel Universal", "descricao": "Hub central com indicadores em tempo real", "camada": 4, "status": "ativo", "url": "/gestao/universal", "shortcut": "U"}, {"nome": "Guardian IA", "descricao": "Sistema de prote\u00e7\u00e3o inteligente", "camada": 4, "status": "ativo", "url": "/gestao/guardian", "shortcut": "G"}], "INVESTIDORES & COMERCIAL": [{"nome": "Portal Investidores", "descricao": "\u00c1rea para investidores qualificados", "camada": 3, "status": "ativo", "url": "/comercial/investidores", "shortcut": "X"}, {"nome": "Apresenta\u00e7\u00e3o Comercial", "descricao": "Deck para prospec\u00e7\u00e3o", "camada": 3, "status": "ativo", "url": "/comercial/pitch", "shortcut": "Q"}]};
+        let modulosFiltrados = Object.keys(modulos)[0];
+
+        // Atualizar hora
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Renderizar módulos
+        function renderizar(categoria) {
+            const grid = document.getElementById('modulosGrid');
+            const mods = modulos[categoria] || [];
+
+            if (mods.length === 0) {
+                grid.innerHTML = '<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-title">Nenhum módulo encontrado</div></div>';
+                return;
+            }
+
+            grid.innerHTML = mods.map(m => `
+                <div class="modulo-card" onclick="abrirModulo('${m.url}')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">${m.nome}</div>
+                        <span class="modulo-status ${m.status}">${m.status}</span>
+                    </div>
+                    <p class="modulo-description">${m.descricao}</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘${m.shortcut}</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            `).join('');
+
+            // Popuplar atalhos
+            const shortcuts = mods.slice(0, 8).map(m => `<div class="shortcut-item"><span class="shortcut-key">⌘${m.shortcut}</span>${m.nome}</div>`).join('');
+            document.getElementById('shortcutsList').innerHTML = shortcuts;
+        }
+
+        // Filtrar por categoria
+        function filtrarCategoria(btn, categoria) {
+            document.querySelectorAll('.categoria-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            modulosFiltrados = categoria;
+            document.getElementById('contentTitle').textContent = categoria;
+            const mods = modulos[categoria];
+            document.getElementById('contentSubtitle').textContent = `${mods.length} módulos disponíveis`;
+            renderizar(categoria);
+        }
+
+        // Busca
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const grid = document.getElementById('modulosGrid');
+            
+            if (!query) {
+                renderizar(modulosFiltrados);
+                return;
+            }
+
+            let resultados = [];
+            Object.values(modulos).forEach(mods => {
+                resultados = resultados.concat(mods.filter(m => 
+                    m.nome.toLowerCase().includes(query) || 
+                    m.descricao.toLowerCase().includes(query)
+                ));
+            });
+
+            if (resultados.length === 0) {
+                grid.innerHTML = '<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-title">Nenhum resultado encontrado</div></div>';
+                return;
+            }
+
+            grid.innerHTML = resultados.map(m => `
+                <div class="modulo-card" onclick="abrirModulo('${m.url}')">
+                    <div class="modulo-header">
+                        <div class="modulo-title">${m.nome}</div>
+                        <span class="modulo-status ${m.status}">${m.status}</span>
+                    </div>
+                    <p class="modulo-description">${m.descricao}</p>
+                    <div class="modulo-footer">
+                        <span class="modulo-shortcut">⌘${m.shortcut}</span>
+                        <span class="modulo-arrow">→</span>
+                    </div>
+                </div>
+            `).join('');
+        });
+
+        // Atalhos de teclado
+        function mostrarAtalhos() {
+            const html = `
+                <div class="modal-title">Atalhos de Teclado</div>
+                <div class="modal-section">
+                    <div class="modal-section-title">Navegação</div>
+                    ${Object.keys(modulos).map((cat, idx) => `
+                        <div class="modal-item">
+                            <span>${cat}</span>
+                            <span class="modal-key">${idx + 1}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="modal-section">
+                    <div class="modal-section-title">Módulos</div>
+                    ${Object.values(modulos).flat().map(m => `
+                        <div class="modal-item">
+                            <span>${m.nome}</span>
+                            <span class="modal-key">⌘${m.shortcut}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="modal-section">
+                    <div class="modal-section-title">Geral</div>
+                    <div class="modal-item">
+                        <span>Buscar</span>
+                        <span class="modal-key">⌘K</span>
+                    </div>
+                    <div class="modal-item">
+                        <span>Atalhos</span>
+                        <span class="modal-key">⌘?</span>
+                    </div>
+                </div>
+            `;
+            document.getElementById('modal').innerHTML = html;
+            document.getElementById('modalOverlay').classList.add('active');
+        }
+
+        function exportarRelatorio() {
+            alert('Funcionalidade em desenvolvimento');
+        }
+
+        function abrirModulo(url) {
+            alert('Navegação: ' + url);
+        }
+
+        // Atalhos globais
+        document.addEventListener('keydown', (e) => {
+            if (e.metaKey || e.ctrlKey) {
+                if (e.key === 'k') {
+                    e.preventDefault();
+                    document.getElementById('searchInput').focus();
+                } else if (e.key === '?') {
+                    e.preventDefault();
+                    mostrarAtalhos();
+                } else if (e.key === 'Escape') {
+                    document.getElementById('modalOverlay').classList.remove('active');
+                }
+            }
+        });
+
+        // Renderizar inicial
+        renderizar(Object.keys(modulos)[0]);
+    </script>
+
+
+</body></html>

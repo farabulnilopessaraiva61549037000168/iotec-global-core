@@ -1,0 +1,202 @@
+# VERSÃO PROFISSIONAL IOTEC SENTINEL
+# Melhorias: correção de português, IA contextual, visual refinado, base para integração futura (email/API)
+
+import sys
+import os
+import random
+import time
+from collections import Counter
+
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
+    QLabel, QPushButton, QTextEdit, QFrame, QScrollArea
+)
+from PyQt5.QtCore import Qt, QTimer, QUrl
+from PyQt5.QtGui import QFont
+
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+import folium
+
+APP_NAME = "IOTEC SENTINEL"
+CNPJ = "61.549.037/0001-68"
+DIRETORIO = "C:/IOTEC"
+MAP_FILE = os.path.join(DIRETORIO, "mapa.html")
+
+class PainelPrincipal(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"{APP_NAME} - Plataforma de Inteligência Operacional")
+        self.setGeometry(100, 100, 1400, 900)
+
+        self.setStyleSheet("""
+            QMainWindow { background-color: #0a0f1a; }
+            QLabel { color: #e6f1ff; }
+            QPushButton {
+                background-color: #112240;
+                color: #64ffda;
+                border: 1px solid #64ffda;
+                padding: 8px;
+                border-radius: 6px;
+            }
+            QPushButton:hover { background-color: #1f4068; }
+        """)
+
+        self.dados = []
+        self.init_ui()
+        self.simular_dados()
+
+    def init_ui(self):
+        central = QWidget()
+        self.setCentralWidget(central)
+
+        layout_principal = QHBoxLayout()
+
+        # Sidebar
+        sidebar = QVBoxLayout()
+        sidebar_label = QLabel("MENU OPERACIONAL")
+        sidebar_label.setFont(QFont("Arial", 12, QFont.Bold))
+
+        btn_simular = QPushButton("INICIAR OCORRÊNCIA")
+        btn_simular.clicked.connect(self.iniciar_ocorrencia)
+
+        sidebar.addWidget(sidebar_label)
+        sidebar.addWidget(btn_simular)
+        sidebar.addStretch()
+
+        # Conteúdo
+        conteudo = QVBoxLayout()
+
+        header = QHBoxLayout()
+        titulo = QLabel(f"{APP_NAME} | CNPJ: {CNPJ}")
+        titulo.setFont(QFont("Arial", 16, QFont.Bold))
+
+        self.status = QLabel("STATUS: ONLINE | IA ATIVA | LATÊNCIA: NORMAL")
+
+        header.addWidget(titulo)
+        header.addStretch()
+        header.addWidget(self.status)
+
+        conteudo.addLayout(header)
+
+        # MAPA
+        self.mapa_view = QWebEngineView()
+        conteudo.addWidget(self.mapa_view, 2)
+
+        # SCROLL
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+
+        container = QWidget()
+        self.layout_conteudo = QVBoxLayout(container)
+
+        self.alertas = self.criar_modulo("ALERTAS EM TEMPO REAL")
+        self.risco = self.criar_modulo("ANÁLISE DE RISCO")
+        self.ia = self.criar_modulo("ASSISTENTE INTELIGENTE")
+        self.dashboard = self.criar_modulo("DASHBOARD OPERACIONAL")
+
+        self.layout_conteudo.addWidget(self.alertas)
+        self.layout_conteudo.addWidget(self.risco)
+        self.layout_conteudo.addWidget(self.ia)
+        self.layout_conteudo.addWidget(self.dashboard)
+
+        scroll.setWidget(container)
+        conteudo.addWidget(scroll, 3)
+
+        layout_principal.addLayout(sidebar, 1)
+        layout_principal.addLayout(conteudo, 4)
+
+        central.setLayout(layout_principal)
+
+    def criar_modulo(self, titulo_texto):
+        frame = QFrame()
+        frame.setStyleSheet("background-color: #112240; border-radius: 8px;")
+        layout = QVBoxLayout()
+
+        titulo = QLabel(titulo_texto)
+        titulo.setFont(QFont("Arial", 12, QFont.Bold))
+
+        conteudo = QTextEdit()
+        conteudo.setReadOnly(True)
+        conteudo.setStyleSheet("background-color: #0a192f; color: #ccd6f6;")
+
+        layout.addWidget(titulo)
+        layout.addWidget(conteudo)
+        frame.setLayout(layout)
+
+        frame.texto = conteudo
+        return frame
+
+    def simular_dados(self):
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.atualizar_dados)
+        self.timer.start(2000)
+
+    def gerar_ocorrencia(self):
+        bairros = {
+            "Centro": (-5.146, -38.100),
+            "Zona Norte": (-5.130, -38.110),
+            "Lagoa": (-5.155, -38.120),
+            "Alto": (-5.140, -38.090)
+        }
+
+        tipos = ["Roubo", "Furto", "Suspeita"]
+
+        bairro = random.choice(list(bairros.keys()))
+
+        ocorrencia = {
+            "bairro": bairro,
+            "tipo": random.choice(tipos),
+            "coords": bairros[bairro],
+            "hora": time.strftime("%H:%M:%S")
+        }
+
+        self.dados.append(ocorrencia)
+        return ocorrencia
+
+    def atualizar_mapa(self):
+        mapa = folium.Map(location=[-5.145, -38.105], zoom_start=13)
+
+        for d in self.dados[-20:]:
+            cor = "red" if d["tipo"] == "Roubo" else "blue"
+            folium.CircleMarker(
+                location=d["coords"],
+                radius=6,
+                color=cor,
+                fill=True,
+                popup=f"{d['tipo']} - {d['bairro']}"
+            ).add_to(mapa)
+
+        if not os.path.exists(DIRETORIO):
+            os.makedirs(DIRETORIO)
+
+        mapa.save(MAP_FILE)
+        self.mapa_view.load(QUrl.fromLocalFile(MAP_FILE))
+
+    def calcular_risco(self):
+        contagem = Counter([d["bairro"] for d in self.dados])
+        resultado = []
+
+        for bairro, qtd in contagem.items():
+            if qtd >= 6:
+                nivel = "ALTO"
+            elif qtd >= 3:
+                nivel = "MÉDIO"
+            else:
+                nivel = "BAIXO"
+
+            resultado.append((bairro, nivel, qtd))
+
+        return resultado
+
+    def atualizar_dados(self):
+        ocorrencia = self.gerar_ocorrencia()
+
+        self.alertas.texto.append(
+            f"[{ocorrencia['hora']}] {ocorrencia['tipo']} registrado em {ocorrencia['bairro']}"
+        )
+
+        riscos = self.calcular_risco()
+        self.risco.texto.clear()
+
+        for bairro, nivel, qtd in riscos:
+            simbolo = "🔴" if nivel == "ALTO" else "🟡" if nivel == "MÉDIO" else "

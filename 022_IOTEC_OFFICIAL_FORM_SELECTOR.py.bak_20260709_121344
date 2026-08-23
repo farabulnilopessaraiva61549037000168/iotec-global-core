@@ -1,0 +1,209 @@
+from pathlib import Path
+import json
+
+ROOT = Path(r"C:\IOTEC")
+
+print("="*70)
+print("IOTEC OFFICIAL FORM SELECTOR")
+print("="*70)
+
+IGNORAR = [
+    "BACKUP",
+    "LABORATORIO",
+    "DUPLICADOS",
+    "ENCODING_BACKUP",
+    "__pycache__",
+    "venv",
+    "node_modules"
+]
+
+PALAVRAS = {
+    "payment":10,
+    "paypal":10,
+    "pix":10,
+    "checkout":10,
+    "form":6,
+    "email":6,
+    "whatsapp":6,
+    "api":6,
+    "database":6,
+    "sql":5,
+    "json":4,
+    "lead":5,
+    "cliente":5,
+    "cpf":3,
+    "cnpj":3,
+    "telefone":3,
+    "empresa":3,
+    "produto":4
+}
+
+formularios=[]
+
+print()
+print("LOCALIZANDO FORMULÁRIOS...")
+print()
+
+for arquivo in ROOT.rglob("*"):
+
+    if arquivo.suffix.lower() not in [".html",".htm",".py"]:
+        continue
+
+    caminho=str(arquivo).upper()
+
+    if any(i in caminho for i in IGNORAR):
+        continue
+
+    nome=arquivo.name.lower()
+
+    if not any(x in nome for x in [
+        "form",
+        "lead",
+        "checkout",
+        "cliente",
+        "cadastro",
+        "landing"
+    ]):
+        continue
+
+    score=0
+
+    try:
+        texto=arquivo.read_text(
+            encoding="utf-8",
+            errors="ignore"
+        ).lower()
+    except:
+        texto=""
+
+    for palavra,pontos in PALAVRAS.items():
+
+        if palavra in texto:
+            score+=pontos
+
+    if "paypal" in texto:
+        score+=15
+
+    if "checkout" in texto:
+        score+=15
+
+    if "button" in texto or "<button" in texto:
+        score+=5
+
+    if "<form" in texto:
+        score+=10
+
+    formularios.append({
+
+        "arquivo":str(arquivo),
+        "score":score
+
+    })
+
+formularios.sort(
+    key=lambda x:x["score"],
+    reverse=True
+)
+
+print("="*70)
+print("RANKING")
+print("="*70)
+print()
+
+for i,item in enumerate(formularios[:20],1):
+
+    print(f"{i:02d}  Score {item['score']:03d}")
+
+    print(item["arquivo"])
+
+    print()
+
+if not formularios:
+
+    print("Nenhum formulário localizado.")
+    exit()
+
+escolhido=formularios[0]
+
+print("="*70)
+print("FORMULÁRIO OFICIAL")
+print("="*70)
+print()
+
+print(escolhido["arquivo"])
+print()
+
+print("Score :",escolhido["score"])
+print()
+
+print("="*70)
+print("JUSTIFICATIVA")
+print("="*70)
+print()
+
+print("O núcleo analisou automaticamente todos")
+print("os formulários encontrados.")
+
+print()
+
+print("O formulário escolhido apresentou")
+print("o maior score operacional.")
+
+print()
+
+print("A decisão considerou:")
+
+print("✓ Estrutura HTML")
+print("✓ Presença de Checkout")
+print("✓ Integração PayPal")
+print("✓ APIs")
+print("✓ Email")
+print("✓ Banco")
+print("✓ Componentes comerciais")
+
+print()
+
+print("Os demais permanecerão")
+print("como patrimônio técnico.")
+
+print()
+
+relatorio={
+
+    "formulario_oficial":escolhido,
+
+    "top20":formularios[:20]
+
+}
+
+with open(
+
+    "IOTEC_FORMULARIO_OFICIAL.json",
+
+    "w",
+
+    encoding="utf-8"
+
+) as f:
+
+    json.dump(
+
+        relatorio,
+
+        f,
+
+        indent=4,
+
+        ensure_ascii=False
+
+    )
+
+print("="*70)
+print("MISSÃO CONCLUÍDA")
+print("="*70)
+
+print()
+
+print("Arquivo salvo:")
+
+print("IOTEC_FORMULARIO_OFICIAL.json")

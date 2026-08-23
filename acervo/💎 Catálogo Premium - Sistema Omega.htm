@@ -1,0 +1,2553 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💎 Catálogo Premium - Sistema Omega</title>
+    <link href="%F0%9F%92%8E%20Cat%C3%A1logo%20Premium%20-%20Sistema%20Omega_arquivos/css2.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        
+        .hero-premium {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d1810 50%, #1a1a1a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-premium::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212,175,55,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+        }
+        
+        .logo-premium {
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            font-weight: 900;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 3s linear infinite;
+            margin-bottom: 20px;
+        }
+        
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+        
+        .tagline {
+            font-size: 28px;
+            color: #d4af37;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+        
+        .hero-descricao {
+            font-size: 22px;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 60px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-explorar {
+            display: inline-block;
+            padding: 20px 60px;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #000;
+            font-size: 20px;
+            font-weight: 800;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 20px 60px rgba(255,215,0,0.4);
+        }
+        
+        .cta-explorar:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 30px 80px rgba(255,215,0,0.6);
+        }
+        
+        .section {
+            padding: 120px 20px;
+            background: linear-gradient(180deg, #000 0%, #1a1a1a 100%);
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .section-label {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #000;
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 900;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+        
+        .section-subtitle {
+            font-size: 20px;
+            color: rgba(255,255,255,0.6);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .servicos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .servico-card {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+            border: 2px solid rgba(212,175,55,0.3);
+            border-radius: 30px;
+            padding: 50px;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .servico-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+        
+        .servico-card:hover::before {
+            opacity: 1;
+        }
+        
+        .servico-card:hover {
+            transform: translateY(-10px);
+            border-color: #FFD700;
+            box-shadow: 0 30px 80px rgba(255,215,0,0.3);
+        }
+        
+        .servico-card.destaque {
+            border: 3px solid #FFD700;
+            background: linear-gradient(135deg, #2a1f0a 0%, #3a2f1a 100%);
+        }
+        
+        .badge-destaque {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #FFD700;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        
+        .servico-icone {
+            font-size: 60px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .servico-categoria {
+            font-size: 12px;
+            color: #d4af37;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .servico-titulo {
+            font-size: 32px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        
+        .servico-subtitulo {
+            font-size: 16px;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 30px;
+        }
+        
+        .servico-preco {
+            font-size: 52px;
+            font-weight: 900;
+            color: #FFD700;
+            margin: 30px 0;
+        }
+        
+        .servico-preco small {
+            font-size: 18px;
+            color: rgba(255,255,255,0.5);
+            font-weight: 400;
+        }
+        
+        .servico-economia {
+            display: inline-block;
+            background: rgba(72,187,120,0.2);
+            color: #48bb78;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .servico-descricao {
+            font-size: 16px;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .inclusos-titulo {
+            font-size: 16px;
+            font-weight: 700;
+            color: #FFD700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .inclusos-lista {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        
+        .inclusos-lista li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: rgba(255,255,255,0.8);
+            font-size: 15px;
+        }
+        
+        .inclusos-lista li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #FFD700;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        .servico-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-item {
+            background: rgba(255,255,255,0.05);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 13px;
+        }
+        
+        .meta-label {
+            color: #d4af37;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .meta-value {
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .btn-comprar {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #000;
+            border: none;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .btn-comprar:hover {
+            transform: scale(1.03);
+            box-shadow: 0 20px 50px rgba(255,215,0,0.5);
+        }
+        
+        .garantia-section {
+            background: linear-gradient(135deg, #1a4d2e 0%, #2d5f3f 100%);
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .garantia-titulo {
+            font-size: 42px;
+            font-weight: 900;
+            color: #48bb78;
+            margin-bottom: 20px;
+        }
+        
+        .garantia-texto {
+            font-size: 20px;
+            color: rgba(255,255,255,0.9);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        .stats-bar {
+            background: rgba(255,215,0,0.1);
+            padding: 40px 20px;
+            border-top: 2px solid rgba(255,215,0,0.3);
+            border-bottom: 2px solid rgba(255,215,0,0.3);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .stat-numero {
+            font-size: 48px;
+            font-weight: 900;
+            color: #FFD700;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 16px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        @media (max-width: 768px) {
+            .logo-premium { font-size: 48px; }
+            .section-title { font-size: 36px; }
+            .servicos-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-premium">
+        <div class="hero-content">
+            <div class="logo-premium">💎 SISTEMA OMEGA</div>
+            <div class="tagline">Premium Catalog</div>
+            <p class="hero-descricao">
+                Catálogo exclusivo de soluções em dados verificados, automação comercial e inteligência artificial. 
+                Transforme seu negócio com tecnologia de ponta certificada SHA-256.
+            </p>
+            <a href="#servicos" class="cta-explorar">EXPLORAR CATÁLOGO →</a>
+        </div>
+    </div>
+    
+    <div class="stats-bar">
+        <div class="stats-grid">
+            <div>
+                <span class="stat-numero">5</span>
+                <div class="stat-label">Dados Verificados</div>
+            </div>
+            <div>
+                <span class="stat-numero">6</span>
+                <div class="stat-label">Robôs Autônomos</div>
+            </div>
+            <div>
+                <span class="stat-numero">100%</span>
+                <div class="stat-label">Certificados</div>
+            </div>
+            <div>
+                <span class="stat-numero">24/7</span>
+                <div class="stat-label">Suporte Premium</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">SERVIÇOS ATIVOS</div>
+                <h2 class="section-title">Transformação Empresarial</h2>
+                <p class="section-subtitle">
+                    Serviços customizados para levar sua empresa ao próximo nível com IA, automação e consultoria especializada
+                </p>
+            </div>
+            
+            <div class="servicos-grid">
+                
+                <div class="servico-card">
+                    <span class="servico-icone">🧠</span>
+                    <div class="servico-categoria">Serviço Ativo</div>
+                    <h3 class="servico-titulo">Consultoria em IA Premium</h3>
+                    <p class="servico-subtitulo">Transforme seu negócio com Inteligência Artificial</p>
+                    
+                    <div class="servico-preco">
+                        R$ 4,997
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Consultoria completa para implementar IA e automação no seu negócio</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Análise completa de processos atuais</li>
+                        
+                        <li>Plano estratégico de automação personalizado</li>
+                        
+                        <li>Implementação supervisionada por especialistas</li>
+                        
+                        <li>Treinamento completo da sua equipe</li>
+                        
+                        <li>Suporte dedicado por 90 dias</li>
+                        
+                        <li>Relatórios mensais de performance</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">30 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">Presencial ou Remoto</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Médias e grandes empresas que querem escalar</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/consultoria_ia" class="btn-comprar">CONTRATAR AGORA →</a>
+                </div>
+                
+                <div class="servico-card">
+                    <span class="servico-icone">🤖</span>
+                    <div class="servico-categoria">Serviço Ativo</div>
+                    <h3 class="servico-titulo">Sistema de Automação Comercial</h3>
+                    <p class="servico-subtitulo">6 Robôs Autônomos para Vendas</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,997
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Esquadrão completo de robôs para automatizar seu processo comercial</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>R2C1 COMMANDER - Coordenação de vendas</li>
+                        
+                        <li>R3X7 SCANNER - Prospecção inteligente</li>
+                        
+                        <li>A4L9 ASSAULT - Fechamento agressivo</li>
+                        
+                        <li>M7D2 MEDIC - Suporte ao cliente</li>
+                        
+                        <li>G8K5 GUARDIAN - Proteção de receita</li>
+                        
+                        <li>T6N1 TECH - Automação de marketing</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">14 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">Software + Treinamento</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Equipes de vendas B2B que querem 10x resultados</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/automacao_comercial" class="btn-comprar">CONTRATAR AGORA →</a>
+                </div>
+                
+                <div class="servico-card">
+                    <span class="servico-icone">📊</span>
+                    <div class="servico-categoria">Serviço Ativo</div>
+                    <h3 class="servico-titulo">Dashboards Executivos Personalizados</h3>
+                    <p class="servico-subtitulo">Painéis Premium com Seus Dados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,497
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Visualize seus dados em dashboards executivos de alto nível</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Design premium 100% personalizado</li>
+                        
+                        <li>Gráficos interativos em tempo real</li>
+                        
+                        <li>Integração com suas fontes de dados</li>
+                        
+                        <li>Hospedagem premium incluída por 1 ano</li>
+                        
+                        <li>Updates e manutenção mensal gratuita</li>
+                        
+                        <li>Suporte técnico prioritário</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">7 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">Web App Responsivo</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Executivos e empresas data-driven</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dashboards_custom" class="btn-comprar">CONTRATAR AGORA →</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" style="background: #0a0a0a;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">SERVIÇOS PASSIVOS</div>
+                <h2 class="section-title">Dados &amp; APIs Premium</h2>
+                <p class="section-subtitle">
+                    Acesso contínuo a dados verificados, APIs empresariais e monitoramento automatizado 24/7
+                </p>
+            </div>
+            
+            <div class="servicos-grid">
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">⚡</span>
+                    <div class="servico-categoria">Serviço Passivo</div>
+                    <h3 class="servico-titulo">API Enterprise - Acesso Ilimitado</h3>
+                    <p class="servico-subtitulo">Integração Completa com Dados em Tempo Real</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Acesso ilimitado à nossa API com todos os dados disponíveis</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Requisições ilimitadas 24/7</li>
+                        
+                        <li>Todos os dados: Cripto, Câmbio, Meteorologia</li>
+                        
+                        <li>SLA 99.9% de uptime garantido</li>
+                        
+                        <li>Suporte dedicado 24/7 via Slack</li>
+                        
+                        <li>Documentação técnica completa</li>
+                        
+                        <li>Webhooks personalizados</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + GraphQL</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Developers, startups tech, fintechs</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/api_enterprise" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">💎</span>
+                    <div class="servico-categoria">Serviço Passivo</div>
+                    <h3 class="servico-titulo">Pacote Completo Executivo</h3>
+                    <p class="servico-subtitulo">TODOS os Dados + Análises Premium</p>
+                    
+                    <div class="servico-preco">
+                        R$ 797
+                        
+                    </div>
+                    
+                    
+                    <div class="servico-economia">Economize R$ 194 (20% OFF)</div>
+                    
+                    
+                    <p class="servico-descricao">O pacote mais completo: todos os dados verificados em um só lugar</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>3 Criptomoedas (BTC, ETH, ADA)</li>
+                        
+                        <li>Câmbio Oficial Brasil (USD/BRL)</li>
+                        
+                        <li>Meteorologia São Paulo completa</li>
+                        
+                        <li>Dashboard executivo personalizado</li>
+                        
+                        <li>Relatórios semanais automatizados</li>
+                        
+                        <li>Suporte prioritário 24/7</li>
+                        
+                        <li>API com 10.000 requisições/mês</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Acesso imediato</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">API + Dashboard + PDF + Excel</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Empresas, fundos, traders profissionais</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/pacote_executivo" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">₿</span>
+                    <div class="servico-categoria">Serviço Passivo</div>
+                    <h3 class="servico-titulo">Pacote Criptomoedas Premium</h3>
+                    <p class="servico-subtitulo">Bitcoin, Ethereum e Cardano Verificados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 497
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Cotações em tempo real das principais criptomoedas</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Bitcoin (BTC) - USD e BRL</li>
+                        
+                        <li>Ethereum (ETH) - USD e BRL</li>
+                        
+                        <li>Cardano (ADA) - USD e BRL</li>
+                        
+                        <li>Hash SHA-256 de autenticidade</li>
+                        
+                        <li>Laudo técnico forense completo</li>
+                        
+                        <li>Auditoria independente</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Acesso imediato</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">JSON, CSV, API REST</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Traders, investidores, exchanges</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_cripto" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">💵</span>
+                    <div class="servico-categoria">Serviço Passivo</div>
+                    <h3 class="servico-titulo">Pacote Câmbio Oficial Brasil</h3>
+                    <p class="servico-subtitulo">USD/BRL Direto do Banco Central</p>
+                    
+                    <div class="servico-preco">
+                        R$ 297
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Cotação oficial do dólar direto da fonte governamental</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Cotação USD/BRL oficial diária</li>
+                        
+                        <li>Histórico de 30 dias incluído</li>
+                        
+                        <li>Certificado do Banco Central</li>
+                        
+                        <li>Hash SHA-256 de verificação</li>
+                        
+                        <li>Laudo técnico de autenticidade</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Acesso imediato</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">JSON, CSV, API REST</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Importadores, exportadores, câmbio</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_cambio" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">✈️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Tráfego Aéreo Global - Aviation Data</h3>
+                    <p class="servico-subtitulo">2.800+ Aeroportos em 196 Países - Dados Reais</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados completos de tráfego aéreo global com ADS-B tracking em tempo real</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>FlightAware AeroAPI - 100K requisições/mês</li>
+                        
+                        <li>2.800+ aeroportos em 196 países</li>
+                        
+                        <li>40K+ estações ADS-B terrestres</li>
+                        
+                        <li>Tracking em tempo real + histórico</li>
+                        
+                        <li>Previsões de ETA preditivas</li>
+                        
+                        <li>Status de voos, atrasos, rotas</li>
+                        
+                        <li>Dados de passageiros e carga (ACI World)</li>
+                        
+                        <li>Relatórios analíticos mensais</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + JSON + CSV + Dashboards</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Companhias aéreas, aeroportos, agências de viagem, logistics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/trafego_aereo" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🚢</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Tráfego Marítimo e Portos - Marine Traffic</h3>
+                    <p class="servico-subtitulo">AIS Global + Tracking de Navios em Tempo Real</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Sistema completo de rastreamento de navios e análise de tráfego portuário global</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>MarineTraffic AIS Data (Kpler)</li>
+                        
+                        <li>Rastreamento global em tempo real</li>
+                        
+                        <li>Histórico de viagens e rotas</li>
+                        
+                        <li>Monitoramento de frotas completas</li>
+                        
+                        <li>Dados de contêineres e carga</li>
+                        
+                        <li>Análise de fluxos comerciais</li>
+                        
+                        <li>Cobertura de satélite para áreas remotas</li>
+                        
+                        <li>Alertas de chegadas e partidas</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + CSV + Dashboards</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Portos, armadores, logistics, commodities traders</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/trafego_maritimo" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🚂</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Dados Ferroviários e Logística Multimodal</h3>
+                    <p class="servico-subtitulo">Rail Traffic + ITS (Intelligent Transportation)</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados completos de tráfego ferroviário e sistemas de transporte inteligente</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>FreightWaves Rail Traffic Data</li>
+                        
+                        <li>Dados multimodais (rail, road, air, maritime)</li>
+                        
+                        <li>Sistemas ITS (Intelligent Transportation)</li>
+                        
+                        <li>Horários, rotas e capacidade</li>
+                        
+                        <li>Análise de fluxo de carga</li>
+                        
+                        <li>Otimização de rotas ferroviárias</li>
+                        
+                        <li>Integração com outros modais</li>
+                        
+                        <li>Previsões de demanda</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + CSV + Analytics Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Operadoras ferroviárias, logistics, commodities, supply chain</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_ferroviarios" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🌪️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Clima Extremo &amp; Desastres Naturais - Global</h3>
+                    <p class="servico-subtitulo">Monitoramento 24/7 de Eventos Climáticos Extremos</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Sistema completo de monitoramento e alerta de eventos climáticos extremos globais</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Frio intenso e ondas de calor (180+ países)</li>
+                        
+                        <li>Deslizamentos e risco geológico</li>
+                        
+                        <li>Furacões, tornados, tempestades severas</li>
+                        
+                        <li>Enchentes e inundações em tempo real</li>
+                        
+                        <li>Nevascas e tempestades de gelo</li>
+                        
+                        <li>Secas e queimadas florestais</li>
+                        
+                        <li>Alertas preditivos 48-72h antecipados</li>
+                        
+                        <li>APIs: NOAA, ECMWF, NASA EOSDIS, USGS</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + Alertas SMS/Email</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Seguros, defesa civil, logistics, agronegócio, utilities</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/clima_extremo_global" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🚗</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Tráfego Rodoviário Global - Real-Time Traffic</h3>
+                    <p class="servico-subtitulo">500+ Cidades, 2M+ km de Estradas Monitoradas</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados em tempo real de tráfego rodoviário, acidentes, congestionamentos e condições de estradas</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Tráfego em tempo real 500+ cidades</li>
+                        
+                        <li>Acidentes e bloqueios de estradas</li>
+                        
+                        <li>Tempo de viagem preditivo (ETA)</li>
+                        
+                        <li>Condições climáticas nas rodovias</li>
+                        
+                        <li>Obras e manutenções planejadas</li>
+                        
+                        <li>Fluxo de veículos e velocidade média</li>
+                        
+                        <li>Integração com Waze, Google Maps, HERE</li>
+                        
+                        <li>Alertas de congestionamento crítico</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + GeoJSON + Dashboards</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps navegação, logistics, frotas, delivery, ridesharing</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/trafego_rodoviario_global" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🏙️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Smart Cities &amp; Grandes Metrópoles - Urban Data</h3>
+                    <p class="servico-subtitulo">200+ Metrópoles Globais com Dados em Tempo Real</p>
+                    
+                    <div class="servico-preco">
+                        R$ 3,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Ecossistema completo de dados urbanos de grandes centros metropolitanos mundiais</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>200+ metrópoles globais (NY, Londres, Tóquio, SP, etc)</li>
+                        
+                        <li>Qualidade do ar em tempo real (PM2.5, CO2, NOx)</li>
+                        
+                        <li>Tráfego urbano e mobilidade</li>
+                        
+                        <li>Transporte público (metrô, ônibus, trem)</li>
+                        
+                        <li>Energia e utilities (consumo, distribuição)</li>
+                        
+                        <li>Segurança pública e crime stats</li>
+                        
+                        <li>Dados demográficos e econômicos</li>
+                        
+                        <li>IoT sensors urbanos (50K+ sensores)</li>
+                        
+                        <li>Smart parking e bike sharing</li>
+                        
+                        <li>Open Data de prefeituras</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + GraphQL + WebSocket + Dashboards</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Prefeituras, urban planning, proptechs, consulting, research</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/smart_cities_metropoles" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🤖</span>
+                    <div class="servico-categoria">Serviço Ativo Premium</div>
+                    <h3 class="servico-titulo">Suite Completa de IA - Tudo que IA Pode Fazer</h3>
+                    <p class="servico-subtitulo">Plataforma All-in-One de Inteligência Artificial</p>
+                    
+                    <div class="servico-preco">
+                        R$ 4,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Suite empresarial completa com TODOS os serviços de IA disponíveis no mercado</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>GPT-4o, Claude Sonnet 3.5, Gemini Pro API</li>
+                        
+                        <li>Análise preditiva e forecasting ML</li>
+                        
+                        <li>Computer Vision (OCR, face, object detection)</li>
+                        
+                        <li>Natural Language Processing (NLP) completo</li>
+                        
+                        <li>Speech-to-Text e Text-to-Speech</li>
+                        
+                        <li>Geração de imagens (DALL-E, Midjourney API)</li>
+                        
+                        <li>Automação de processos com IA (RPA)</li>
+                        
+                        <li>Chatbots e assistentes virtuais custom</li>
+                        
+                        <li>Análise de sentimento e social listening</li>
+                        
+                        <li>Recomendação e personalização engines</li>
+                        
+                        <li>Detecção de fraude e anomalias</li>
+                        
+                        <li>Data science as a service</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Implementação 30 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">APIs + SDKs (Python, JS, Go) + Dashboards + Consultoria</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Empresas que querem usar IA sem time interno, scale-ups, corporações</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/suite_ia_completa" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🌐</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Dados Urbanos Integrados - Ecosystem</h3>
+                    <p class="servico-subtitulo">Tudo sobre Cidades em Uma Plataforma</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Ecossistema integrado reunindo clima, tráfego, transporte e dados urbanos</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Clima urbano em tempo real</li>
+                        
+                        <li>Tráfego rodoviário integrado</li>
+                        
+                        <li>Transporte público (horários, rotas)</li>
+                        
+                        <li>Dados demográficos e censo</li>
+                        
+                        <li>Economia local e PIB municipal</li>
+                        
+                        <li>Infraestrutura (água, energia, saneamento)</li>
+                        
+                        <li>Educação e saúde pública</li>
+                        
+                        <li>Segurança e criminalidade</li>
+                        
+                        <li>Dados imobiliários e preços</li>
+                        
+                        <li>Dashboard unificado personalizável</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">API Unificada + Dashboard + Relatórios PDF</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Governos, prefeituras, consultorias urbanas, investidores</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_urbanos_integrados" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🛣️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Pedágios &amp; Estradas Privatizadas - Brasil</h3>
+                    <p class="servico-subtitulo">Sistema Completo de Rodovias Concessionadas</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,297
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados completos de pedágios, concessões rodoviárias e estradas privatizadas no Brasil</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>40+ concessionárias de rodovias brasileiras</li>
+                        
+                        <li>Preços de pedágios em tempo real</li>
+                        
+                        <li>Tarifas diferenciadas (dia/noite, eixos, categorias)</li>
+                        
+                        <li>Trechos concessionados e condições das pistas</li>
+                        
+                        <li>Obras e interdições programadas</li>
+                        
+                        <li>Tempo de viagem entre praças de pedágio</li>
+                        
+                        <li>Rotas alternativas sem pedágio</li>
+                        
+                        <li>Histórico de reajustes tarifários</li>
+                        
+                        <li>Qualidade de pavimento (índice IRI)</li>
+                        
+                        <li>Dados ANTT (Agência Nacional)</li>
+                        
+                        <li>Alertas de mudanças tarifárias</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + JSON + CSV + Dashboard interativo</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Frotas, logistics, transportadoras, apps navegação, planejamento rotas</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/pedagios_estradas_privatizadas" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🚖</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Dados Ridesharing &amp; Apps Transporte</h3>
+                    <p class="servico-subtitulo">Uber, 99, Cabify, InDrive - Mobilidade Urbana</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados agregados de aplicativos de transporte urbano, ridesharing e mobilidade</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Preços dinâmicos (surge pricing) em tempo real</li>
+                        
+                        <li>Tempos de espera por região/horário</li>
+                        
+                        <li>Zonas de alta demanda (heat maps)</li>
+                        
+                        <li>Comparativo de tarifas entre apps</li>
+                        
+                        <li>Disponibilidade de motoristas por área</li>
+                        
+                        <li>Padrões de demanda (horários pico)</li>
+                        
+                        <li>Dados de compartilhamento de viagens</li>
+                        
+                        <li>Integração com transporte público</li>
+                        
+                        <li>Análise de rotas mais solicitadas</li>
+                        
+                        <li>Dados de bike/patinete sharing</li>
+                        
+                        <li>APIs agregadas: Uber Movement, 99 Data, Mobility Data</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + Dashboard Analytics + Heat Maps</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Urban planning, consultorias mobilidade, prefeituras, apps transporte</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_ridesharing_apps" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🏜️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Clima Desértico &amp; Regiões Áridas - Global</h3>
+                    <p class="servico-subtitulo">Monitoramento Especializado para Ambientes Extremos</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,797
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Sistema especializado para monitoramento de regiões desérticas e áridas globais</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Temperaturas extremas (50°C+ diurnas, 0°C noturnas)</li>
+                        
+                        <li>Índice de aridez e evapotranspiração</li>
+                        
+                        <li>Tempestades de areia e visibilidade</li>
+                        
+                        <li>Radiação solar e UV extremos</li>
+                        
+                        <li>Umidade relativa crítica (&lt;20%)</li>
+                        
+                        <li>Previsão de secas e desertificação</li>
+                        
+                        <li>Dados de oásis e fontes de água</li>
+                        
+                        <li>Imagens satélite específicas para desertos</li>
+                        
+                        <li>Ventos de superfície (dunas móveis)</li>
+                        
+                        <li>Alertas para agricultura em zonas áridas</li>
+                        
+                        <li>Cobertura: Sahara, Atacama, Gobi, Kalahari, Outback</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Satélite + Alertas SMS + Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Mineração, petróleo, agricultura árida, expedições, military, solar farms</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/locais_aridos_deserticos" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🌆</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Tráfego Metrópoles Premium - Top 50 Cidades</h3>
+                    <p class="servico-subtitulo">Dados Ultra-Detalhados das Maiores Cidades do Mundo</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,797
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Monitoramento premium de tráfego nas 50 maiores metrópoles globais com precisão de rua</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Top 50 metrópoles: NY, Londres, Tóquio, SP, México, etc</li>
+                        
+                        <li>Tráfego ao vivo com precisão de rua (cada quarteirão)</li>
+                        
+                        <li>Acidentes e incidentes em tempo real</li>
+                        
+                        <li>Semáforos inteligentes e timing</li>
+                        
+                        <li>Fluxo de pedestres em áreas comerciais</li>
+                        
+                        <li>Dados de estacionamento (ocupação/preços)</li>
+                        
+                        <li>Eventos que impactam tráfego</li>
+                        
+                        <li>Construções e obras viárias</li>
+                        
+                        <li>Padrões históricos (2+ anos de dados)</li>
+                        
+                        <li>Previsão de congestionamento (ML)</li>
+                        
+                        <li>Integração Waze + Google Maps + Apple Maps</li>
+                        
+                        <li>Dashboard 3D interativo por cidade</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + WebSocket + GeoJSON + 3D Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps navegação premium, logistics enterprise, smart cities, consulting</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/trafego_metropoles_premium" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🏪</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">POI Estabelecimentos - 500+ Cidades Globais</h3>
+                    <p class="servico-subtitulo">Todos os Estabelecimentos Comerciais Mapeados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 3,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de TODOS os estabelecimentos comerciais e serviços em 500+ cidades globais</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>200M+ estabelecimentos mapeados globalmente</li>
+                        
+                        <li>Restaurantes (40M+): cardápios, preços, reviews, fotos</li>
+                        
+                        <li>Hotéis e Pousadas (5M+): tarifas, disponibilidade, amenities</li>
+                        
+                        <li>Cinemas e Teatros (500K+): programação, ingressos, eventos</li>
+                        
+                        <li>Clínicas e Hospitais (2M+): especialidades, horários, planos</li>
+                        
+                        <li>Consultórios Médicos (10M+): especialidades por médico</li>
+                        
+                        <li>Farmácias e Drogarias (1M+): produtos, preços, delivery</li>
+                        
+                        <li>Shoppings e Varejo (5M+): lojas, promoções, horários</li>
+                        
+                        <li>Academias e Fitness (800K+): planos, equipamentos, aulas</li>
+                        
+                        <li>Escolas e Cursos (3M+): currículos, vagas, mensalidades</li>
+                        
+                        <li>APIs: Google Places, Yelp, Foursquare, TripAdvisor</li>
+                        
+                        <li>Atualização diária + reviews em tempo real</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + GraphQL + CSV + Dashboard Analytics</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps delivery, travel, saúde, marketplaces, guias urbanos, analytics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/poi_estabelecimentos_completo" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🍽️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Gastronomia &amp; Restaurantes - Database Premium</h3>
+                    <p class="servico-subtitulo">40M+ Restaurantes com Cardápios e Preços</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database especializada em restaurantes, bares, cafeterias e food service</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>40M+ restaurantes globalmente</li>
+                        
+                        <li>Cardápios completos com preços</li>
+                        
+                        <li>Reviews e avaliações (Yelp, Google, TripAdvisor)</li>
+                        
+                        <li>Fotos de pratos e ambientes</li>
+                        
+                        <li>Horários de funcionamento e reservas</li>
+                        
+                        <li>Tipos de cozinha e especialidades</li>
+                        
+                        <li>Delivery disponível (iFood, Rappi, Uber Eats)</li>
+                        
+                        <li>Faixa de preço e métodos de pagamento</li>
+                        
+                        <li>Dados nutricionais dos pratos</li>
+                        
+                        <li>Promoções e eventos especiais</li>
+                        
+                        <li>Dashboard comparativo de preços</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + JSON + Dashboard + Imagens</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps delivery, guias gastronômicos, turismo, reviews, analytics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/gastronomia_restaurantes" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🏨</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Hotéis &amp; Hospedagem - Global Database</h3>
+                    <p class="servico-subtitulo">5M+ Hotéis, Pousadas, Hostels, Airbnb</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,797
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de hospedagem global com preços e disponibilidade</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>5M+ acomodações globalmente</li>
+                        
+                        <li>Hotéis, pousadas, hostels, Airbnb, resorts</li>
+                        
+                        <li>Tarifas em tempo real e disponibilidade</li>
+                        
+                        <li>Amenities completos (Wi-Fi, piscina, café, etc)</li>
+                        
+                        <li>Reviews e ratings agregados</li>
+                        
+                        <li>Fotos de quartos e instalações</li>
+                        
+                        <li>Localização e proximidade de atrações</li>
+                        
+                        <li>Políticas de cancelamento</li>
+                        
+                        <li>Comparativo de preços entre OTAs</li>
+                        
+                        <li>Dados de ocupação sazonal</li>
+                        
+                        <li>API integrada Booking, Expedia, Hotels.com</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + JSON + Price Comparison Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">OTAs, agências viagem, metasearch, turismo, analytics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/hoteis_hospedagem" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🎭</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Entretenimento &amp; Cultura - Cinemas, Teatros, Eventos</h3>
+                    <p class="servico-subtitulo">500K+ Locais de Entretenimento Globais</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,297
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database de cinemas, teatros, shows, eventos culturais e entretenimento</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>200K+ cinemas: programação, horários, ingressos</li>
+                        
+                        <li>150K+ teatros: peças, espetáculos, datas</li>
+                        
+                        <li>100K+ casas de show: agenda, artistas, preços</li>
+                        
+                        <li>50K+ museus: exposições, horários, ingressos</li>
+                        
+                        <li>Eventos culturais e festivais</li>
+                        
+                        <li>Parques temáticos e atrações</li>
+                        
+                        <li>Preços de ingressos em tempo real</li>
+                        
+                        <li>Disponibilidade de assentos</li>
+                        
+                        <li>Reviews e ratings</li>
+                        
+                        <li>Calendário de eventos por cidade</li>
+                        
+                        <li>Integração Ingresso.com, Fandango, Ticketmaster</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Calendário + Ticketing Integration</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps eventos, turismo, guias culturais, ticketing, entertainment</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/entretenimento_cultura" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">⚕️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Saúde - Clínicas, Médicos e Especialidades</h3>
+                    <p class="servico-subtitulo">12M+ Profissionais de Saúde Mapeados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de profissionais de saúde, clínicas e especialidades médicas</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>10M+ médicos e especialistas</li>
+                        
+                        <li>2M+ clínicas e consultórios</li>
+                        
+                        <li>500K+ hospitais e maternidades</li>
+                        
+                        <li>Todas as especialidades médicas</li>
+                        
+                        <li>Horários de atendimento</li>
+                        
+                        <li>Planos de saúde aceitos</li>
+                        
+                        <li>Preços de consultas particulares</li>
+                        
+                        <li>Tempo médio de espera</li>
+                        
+                        <li>Reviews e avaliações de pacientes</li>
+                        
+                        <li>Agendamento online integrado</li>
+                        
+                        <li>Localização e telefones</li>
+                        
+                        <li>Compliance LGPD/HIPAA total</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Agendamento + Telemedicina Integration</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Healthtechs, planos saúde, agendamento, telemedicina, analytics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/saude_clinicas_medicos" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🚦</span>
+                    <div class="servico-categoria">Serviço Ativo Premium</div>
+                    <h3 class="servico-titulo">Congestionamentos &amp; Soluções - Powered by IA</h3>
+                    <p class="servico-subtitulo">Mapeamento + Soluções Inteligentes para Gargalos Urbanos</p>
+                    
+                    <div class="servico-preco">
+                        R$ 3,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Sistema IA que mapeia congestionamentos e gargalos em tempo real, oferecendo soluções práticas</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Mapeamento em tempo real de congestionamentos</li>
+                        
+                        <li>Identificação automática de gargalos estruturais</li>
+                        
+                        <li>IA identifica causas raiz (semáforos, obras, acidentes)</li>
+                        
+                        <li>Soluções práticas sugeridas por ML</li>
+                        
+                        <li>Rotas alternativas otimizadas</li>
+                        
+                        <li>Previsão de congestionamentos (48h antecipado)</li>
+                        
+                        <li>Simulação de cenários 'what-if'</li>
+                        
+                        <li>Análise de impacto de obras viárias</li>
+                        
+                        <li>Otimização de timing de semáforos</li>
+                        
+                        <li>Sugestão de corredores prioritários</li>
+                        
+                        <li>Dashboard executivo com métricas</li>
+                        
+                        <li>Relatórios de melhorias implementáveis</li>
+                        
+                        <li>Integração com Waze, Google, TomTom</li>
+                        
+                        <li>Machine Learning preditivo</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Implementação 30 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">API + Dashboard IA + Relatórios + Consultoria</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Prefeituras, secretarias transporte, smart cities, urban planning, logistics</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/congestionamentos_solucoes_ia" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🔍</span>
+                    <div class="servico-categoria">Serviço Ativo Premium</div>
+                    <h3 class="servico-titulo">Gargalos Urbanos - Analytics &amp; Root Cause</h3>
+                    <p class="servico-subtitulo">Análise Profunda de Problemas de Mobilidade</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,297
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Análise detalhada de gargalos urbanos com identificação de causas raiz</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Identificação automática de gargalos</li>
+                        
+                        <li>Análise de causas raiz (root cause analysis)</li>
+                        
+                        <li>Gargalos estruturais vs temporários</li>
+                        
+                        <li>Impacto de eventos e obras</li>
+                        
+                        <li>Padrões históricos de congestionamento</li>
+                        
+                        <li>Análise de fluxo de veículos</li>
+                        
+                        <li>Gargalos em transporte público</li>
+                        
+                        <li>Pontos críticos de acidentes</li>
+                        
+                        <li>Áreas de estacionamento irregular</li>
+                        
+                        <li>Interseções problemáticas</li>
+                        
+                        <li>Priorização de intervenções</li>
+                        
+                        <li>ROI estimado de melhorias</li>
+                        
+                        <li>Heat maps de problemas</li>
+                        
+                        <li>Relatórios técnicos detalhados</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Análise inicial 15 dias</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">Dashboard Analytics + Relatórios PDF + Mapas</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Engenharia de tráfego, consultoria urbana, prefeituras, DOTs</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/gargalos_urbanos_analytics" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🗺️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Otimização de Rotas - Multi-Objetivo IA</h3>
+                    <p class="servico-subtitulo">Rotas Inteligentes Evitando Congestionamentos</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,797
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Sistema de otimização de rotas usando IA para evitar gargalos e congestionamentos</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Otimização multi-objetivo (tempo, custo, CO2)</li>
+                        
+                        <li>Evita congestionamentos em tempo real</li>
+                        
+                        <li>Considera pedágios e custos</li>
+                        
+                        <li>Rotas para frotas comerciais</li>
+                        
+                        <li>Reotimização dinâmica durante viagem</li>
+                        
+                        <li>Previsão de tempo de chegada (ETA) preciso</li>
+                        
+                        <li>Considera horários de pico</li>
+                        
+                        <li>Rotas alternativas automáticas</li>
+                        
+                        <li>Integração com gestão de frotas</li>
+                        
+                        <li>API para apps de navegação</li>
+                        
+                        <li>Machine Learning preditivo</li>
+                        
+                        <li>Dashboard de economia gerada</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + SDK + Dashboard + Mobile SDK</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Frotas, delivery, logistics, apps navegação, transportation</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/otimizacao_rotas_ia" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">🎵</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Streaming Música - Spotify, Apple Music, Deezer</h3>
+                    <p class="servico-subtitulo">100M+ Músicas, Artistas, Playlists, Charts</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de streaming de música com dados de Spotify, Apple Music, Deezer, YouTube Music</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>100M+ músicas catalogadas</li>
+                        
+                        <li>5M+ artistas e bandas</li>
+                        
+                        <li>50M+ playlists públicas</li>
+                        
+                        <li>Charts globais e por país (Top 200)</li>
+                        
+                        <li>Metadados completos (gênero, BPM, key, mood)</li>
+                        
+                        <li>Dados de popularidade e streams</li>
+                        
+                        <li>Análise de tendências musicais</li>
+                        
+                        <li>Recomendações por similaridade</li>
+                        
+                        <li>Lyrics e letras sincronizadas</li>
+                        
+                        <li>Releases e lançamentos semanais</li>
+                        
+                        <li>Podcast data (10M+ episódios)</li>
+                        
+                        <li>API Spotify + Apple Music + Deezer</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + GraphQL + JSON + Analytics Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Apps música, analytics, labels, artistas, marketing musical, research</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/streaming_musica_dados" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card destaque">
+                    
+                    <div class="badge-destaque">MAIS POPULAR</div>
+                    
+                    
+                    <span class="servico-icone">📱</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Apps Móveis - Analytics &amp; Market Intelligence</h3>
+                    <p class="servico-subtitulo">5M+ Apps iOS/Android Mapeados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de aplicativos móveis com analytics, downloads, receitas e competidores</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>5M+ apps iOS (App Store)</li>
+                        
+                        <li>3M+ apps Android (Google Play)</li>
+                        
+                        <li>Downloads estimados por app</li>
+                        
+                        <li>Receita e modelo de monetização</li>
+                        
+                        <li>Reviews e ratings completos</li>
+                        
+                        <li>Screenshots e descrições</li>
+                        
+                        <li>Histórico de updates e versões</li>
+                        
+                        <li>Rankings por categoria e país</li>
+                        
+                        <li>Análise de competidores</li>
+                        
+                        <li>Keywords e ASO data</li>
+                        
+                        <li>Tecnologias usadas (SDKs)</li>
+                        
+                        <li>Publishers e desenvolvedores</li>
+                        
+                        <li>Dados de retenção e engagement</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Dashboard Analytics + Reports PDF</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Desenvolvedores, publishers, VCs, market research, ASO, competitive intelligence</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/apps_mobile_analytics" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🛍️</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Varejo &amp; Lojas - Database Completa</h3>
+                    <p class="servico-subtitulo">20M+ Lojas Físicas + E-commerce Globais</p>
+                    
+                    <div class="servico-preco">
+                        R$ 2,297
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database massiva de varejo: lojas físicas, e-commerce, produtos, preços, promoções</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>20M+ lojas físicas globalmente</li>
+                        
+                        <li>500K+ e-commerces ativos</li>
+                        
+                        <li>100M+ produtos catalogados</li>
+                        
+                        <li>Preços em tempo real e histórico</li>
+                        
+                        <li>Promoções e descontos ativos</li>
+                        
+                        <li>Horários de funcionamento</li>
+                        
+                        <li>Dados de estoque (disponibilidade)</li>
+                        
+                        <li>Categorias de produtos completas</li>
+                        
+                        <li>Reviews e ratings de lojas</li>
+                        
+                        <li>Comparativo de preços</li>
+                        
+                        <li>Dados de Black Friday e datas sazonais</li>
+                        
+                        <li>Integração marketplaces (Amazon, ML, Shopee)</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Price Comparison + Analytics Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">E-commerce, marketplaces, price comparison, retail analytics, consulting</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/varejo_lojas_comercio" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🏬</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">Marketplaces &amp; E-commerce - Dados Vendedores</h3>
+                    <p class="servico-subtitulo">Amazon, Mercado Livre, Shopee, AliExpress</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,997
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Dados completos de vendedores, produtos e vendas nos principais marketplaces</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Amazon: 2M+ vendedores, 350M+ produtos</li>
+                        
+                        <li>Mercado Livre: 500K+ vendedores BR/LATAM</li>
+                        
+                        <li>Shopee: 1M+ vendedores Asia/LATAM</li>
+                        
+                        <li>AliExpress: 300K+ vendedores China</li>
+                        
+                        <li>Rankings de vendedores por categoria</li>
+                        
+                        <li>Performance de vendas estimada</li>
+                        
+                        <li>Reviews e ratings</li>
+                        
+                        <li>Produtos mais vendidos (best sellers)</li>
+                        
+                        <li>Preços e variações</li>
+                        
+                        <li>Frete e condições de entrega</li>
+                        
+                        <li>Análise de competidores</li>
+                        
+                        <li>Oportunidades de produtos (gaps)</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Seller Analytics + Product Research Tools</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Sellers, arbitragem, dropshipping, product research, market intelligence</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/marketplaces_ecommerce" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">📺</span>
+                    <div class="servico-categoria">Serviço Passivo Premium</div>
+                    <h3 class="servico-titulo">YouTube &amp; Creators - Channel Analytics</h3>
+                    <p class="servico-subtitulo">100M+ Canais e Creators Mapeados</p>
+                    
+                    <div class="servico-preco">
+                        R$ 1,497
+                        
+                        <small>/mês</small>
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Database completa de canais YouTube, creators, vídeos, views, receitas estimadas</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>100M+ canais YouTube ativos</li>
+                        
+                        <li>1B+ vídeos catalogados</li>
+                        
+                        <li>Subscribers e views por canal</li>
+                        
+                        <li>Receita estimada (AdSense + sponsors)</li>
+                        
+                        <li>Engagement rate (likes, comments)</li>
+                        
+                        <li>Crescimento de canal (trends)</li>
+                        
+                        <li>Nicho e categorias</li>
+                        
+                        <li>Frequência de uploads</li>
+                        
+                        <li>Melhores horários de publicação</li>
+                        
+                        <li>Análise de concorrentes</li>
+                        
+                        <li>Influencer marketing data</li>
+                        
+                        <li>Brand deals e parcerias</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Ativação imediata</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">REST API + Creator Analytics + Influencer Database</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Agencies, brands, influencer marketing, MCNs, creators, research</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/canais_youtube_creators" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+                <div class="servico-card ">
+                    
+                    
+                    <span class="servico-icone">🌤️</span>
+                    <div class="servico-categoria">Serviço Passivo</div>
+                    <h3 class="servico-titulo">Pacote Meteorologia São Paulo</h3>
+                    <p class="servico-subtitulo">Dados Climáticos em Tempo Real</p>
+                    
+                    <div class="servico-preco">
+                        R$ 197
+                        
+                    </div>
+                    
+                    
+                    
+                    <p class="servico-descricao">Monitoramento meteorológico completo de São Paulo</p>
+                    
+                    <div class="inclusos-titulo">✓ O que está incluído:</div>
+                    <ul class="inclusos-lista">
+                        
+                        <li>Temperatura e sensação térmica</li>
+                        
+                        <li>Umidade relativa do ar</li>
+                        
+                        <li>Velocidade e direção do vento</li>
+                        
+                        <li>Pressão atmosférica</li>
+                        
+                        <li>Previsão 7 dias</li>
+                        
+                        <li>Atualizações horárias</li>
+                        
+                    </ul>
+                    
+                    <div class="servico-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Prazo</span>
+                            <span class="meta-value">Acesso imediato</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Formato</span>
+                            <span class="meta-value">JSON, CSV, API REST</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <strong style="color: #FFD700;">Ideal para:</strong><br>
+                        <span style="color: rgba(255,255,255,0.8);">Logística, turismo, eventos outdoor</span>
+                    </div>
+                    
+                    <a href="https://fd3928ae-3452-4b2c-8125-84ecdd592fc1-00-1j8m7qp4ug1tb.janeway.replit.dev/checkout/dados_meteo" class="btn-comprar">ADQUIRIR AGORA →</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="garantia-section">
+        <div class="garantia-titulo">✓ Garantia Premium de 30 Dias</div>
+        <p class="garantia-texto">
+            Todos os dados são verificados e certificados com Hash 
+SHA-256. Todos os serviços possuem garantia incondicional de satisfação.
+ 
+            Se não ficar completamente satisfeito, devolvemos 100% do 
+seu investimento, sem perguntas.
+        </p>
+    </div>
+    
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body></html>

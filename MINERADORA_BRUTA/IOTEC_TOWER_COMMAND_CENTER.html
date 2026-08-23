@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>IOTEC TOWER - COMMAND CENTER</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:#020617;
+    color:#e5e7eb;
+}
+
+/* HEADER */
+.header{
+    padding:15px 25px;
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.title{
+    font-size:18px;
+    letter-spacing:1px;
+}
+
+.status{
+    color:#22c55e;
+}
+
+/* GRID PRINCIPAL */
+.grid{
+    display:grid;
+    grid-template-columns: 250px 1fr;
+    height:calc(100vh - 60px);
+}
+
+/* MENU */
+.menu{
+    border-right:1px solid rgba(255,255,255,0.05);
+    padding:20px;
+}
+
+.menu h3{
+    font-weight:300;
+    margin-bottom:20px;
+}
+
+.menu-item{
+    padding:10px;
+    margin-bottom:8px;
+    border:1px solid rgba(255,255,255,0.05);
+    cursor:pointer;
+}
+
+.menu-item:hover{
+    background:rgba(0,212,255,0.1);
+}
+
+/* PAINEL */
+.panel{
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+}
+
+/* CARDS */
+.card{
+    background:rgba(255,255,255,0.03);
+    padding:15px;
+    border:1px solid rgba(255,255,255,0.05);
+    min-height:120px;
+}
+
+.card h4{
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+/* STATUS CORES */
+.ok{color:#22c55e;}
+.warn{color:#facc15;}
+.crit{color:#ef4444;}
+.info{color:#38bdf8;}
+
+/* PAINEL INFERIOR */
+.bottom{
+    grid-column: span 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+}
+
+.block{
+    background:rgba(255,255,255,0.03);
+    padding:15px;
+    border:1px solid rgba(255,255,255,0.05);
+    height:200px;
+    overflow:auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="title">IOTEC TOWER — COMMAND CENTER</div>
+    <div class="status">● Sistema Ativo</div>
+</div>
+
+<div class="grid">
+
+<div class="menu">
+    <h3>TORRE</h3>
+
+    <div class="menu-item">ANDAR 1 — SHOPPING</div>
+    <div class="menu-item">ANDAR 2 — PAGAMENTOS</div>
+    <div class="menu-item">ANDAR 3 — PRATELEIRA</div>
+    <div class="menu-item">ANDAR 4 — FACTORY</div>
+    <div class="menu-item">ANDAR 5 — COPILOT</div>
+    <div class="menu-item">ANDAR 6 — DASHBOARD</div>
+    <div class="menu-item">ANDAR 7 — GOVERNO</div>
+    <div class="menu-item">ANDAR 8 — AUTOMAÇÃO</div>
+    <div class="menu-item">ANDAR 9 — LAB</div>
+    <div class="menu-item">ANDAR 10 — EXPANSÃO</div>
+
+</div>
+
+<div class="panel">
+
+<div class="card">
+    <h4>Status Comercial</h4>
+    <p class="ok">ATIVO</p>
+</div>
+
+<div class="card">
+    <h4>Fluxo Financeiro</h4>
+    <p class="warn">MODERADO</p>
+</div>
+
+<div class="card">
+    <h4>Demanda</h4>
+    <p class="crit">ALTA</p>
+</div>
+
+<div class="card">
+    <h4>Operações</h4>
+    <p class="info">ESTÁVEL</p>
+</div>
+
+<div class="card">
+    <h4>Produção</h4>
+    <p class="ok">FUNCIONANDO</p>
+</div>
+
+<div class="card">
+    <h4>Inteligência</h4>
+    <p class="info">ANALISANDO</p>
+</div>
+
+<div class="bottom">
+
+<div class="block">
+    <h4>Leitura Executiva</h4>
+    <p>
+    O sistema está operando em nível estável com crescimento de demanda comercial.
+    O módulo de pagamentos apresenta variações controladas e o fluxo de produção
+    mantém consistência operacional.
+    </p>
+</div>
+
+<div class="block">
+    <h4>Alertas Prioritários</h4>
+    <p>• Aumento de carga na prateleira</p>
+    <p>• Latência em módulo financeiro</p>
+    <p>• Oportunidade de expansão ativa</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

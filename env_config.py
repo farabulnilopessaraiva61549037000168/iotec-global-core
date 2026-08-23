@@ -1,0 +1,7 @@
+﻿import os
+
+MERCADO_PAGO_TOKEN = os.getenv(
+    "MERCADO_PAGO_TOKEN", 
+    "APP_USR-6181905353270296-072908-78bbbbe69e0e9d7df828a6037067be76-1263677665"
+)
+PORT = int(os.getenv("PORT", 5000))

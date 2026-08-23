@@ -1,0 +1,128 @@
+﻿#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from kernel import Kernel
+from scanner import Scanner
+from database import Database
+from validator import Validator
+from report import Report
+from compiler import Compiler
+from logger import BuilderLogger
+from configuration import ConfigurationManager
+from module_registry import ModuleRegistry
+from dependency_analyzer import DependencyAnalyzer
+from platform_graph import PlatformGraphEngine
+from module_generator import ModuleGenerator
+from auto_loader import AutoLoader
+from module_inspector import ModuleInspector
+from plugin_manager import PluginManager
+
+
+class EnterpriseBuilder:
+
+    def __init__(self):
+
+        self.logger = BuilderLogger()
+
+        self.configuration = ConfigurationManager()
+
+        self.kernel = Kernel()
+
+        self.scanner = Scanner()
+
+        self.database = Database()
+
+        self.validator = Validator()
+
+        self.compiler = Compiler()
+
+        self.report = Report()
+
+        self.registry = ModuleRegistry()
+
+        self.dependencies = DependencyAnalyzer()
+
+        self.graph = PlatformGraphEngine()
+
+        self.generator = ModuleGenerator()
+
+        self.loader = AutoLoader()
+
+        self.inspector = ModuleInspector()
+
+        self.plugins = PluginManager()
+
+        self.modules = [
+
+            "001_IOTEC_ENTERPRISE_COMMAND_CENTER.py",
+            "002_X27_CORE.py",
+            "003_KATSUYO_ENGINE.py",
+            "004_EVENT_BUS.py",
+            "005_REVENUE_RADAR.py",
+            "006_MARKET_HUNTER.py",
+            "007_COMMERCIAL_AGENT.py",
+            "008_CONTRACT_CENTER.py",
+            "009_FINANCIAL_CENTER.py",
+            "010_BUDGET_HUNTER.py",
+            "011_CRM_CENTER.py",
+            "012_CONNECTOR_MANAGER.py",
+            "013_API_GATEWAY.py",
+            "014_SECURITY_CENTER.py",
+            "015_AUDIT_ENGINE.py",
+            "016_ENTERPRISE_KERNEL.py"
+
+        ]
+
+    # ----------------------------------------------------------
+
+    def execute(self):
+
+        print()
+        print("="*80)
+        print("IOTEC ENTERPRISE BUILDER")
+        print("="*80)
+
+        self.logger.info("Builder iniciado.")
+
+        self.configuration.load()
+
+        self.configuration.show()
+
+        self.kernel.status()
+
+        self.scanner.scan(self.modules)
+
+        self.registry.execute()
+
+        self.dependencies.execute()
+
+        self.graph.execute()
+
+        self.generator.create_examples()
+
+        self.loader.execute()
+
+        self.inspector.execute()
+
+        self.plugins.execute()
+
+        self.database.build()
+
+        self.validator.validate()
+
+        self.compiler.compile()
+
+        self.report.generate()
+
+        self.logger.info("Build concluido.")
+
+        print()
+        print("="*80)
+        print("BUILD FINALIZADO")
+        print("="*80)
+
+
+if __name__ == "__main__":
+
+    EnterpriseBuilder().execute()
+

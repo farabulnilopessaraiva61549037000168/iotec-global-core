@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesouraria de Elite | Projeto REGULUS</title>
+    <link href="Tesouraria%20de%20Elite%20_%20Projeto%20REGULUS_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9A227;
+            --gold-light: #E8D48B;
+            --gold-dark: #8B7355;
+            --platinum: #E5E4E2;
+            --obsidian: #050505;
+            --surface: #0a0a0a;
+            --surface-2: #0f0f0f;
+            --surface-3: #141414;
+            --border: rgba(201, 162, 39, 0.15);
+            --border-light: rgba(255,255,255,0.06);
+            --text: #ffffff;
+            --text-dim: rgba(255,255,255,0.65);
+            --text-muted: rgba(255,255,255,0.35);
+            --success: #00D26A;
+            --warning: #FFB800;
+            --danger: #FF4757;
+            --blue: #4A90D9;
+            --purple: #9B59B6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--obsidian);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* === MARCA D'ÁGUA - r minúsculo Projeto REGULUS === */
+        .watermark-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .watermark-r {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 70vh;
+            font-weight: 300;
+            color: rgba(201, 162, 39, 0.025);
+            position: absolute;
+            line-height: 1;
+            user-select: none;
+        }
+
+        .watermark-text {
+            position: absolute;
+            bottom: 35%;
+            font-family: 'Inter', sans-serif;
+            font-size: 2.5vw;
+            letter-spacing: 1.5vw;
+            color: rgba(201, 162, 39, 0.03);
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+
+        /* === HEADER ELITE === */
+        .header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(180deg, rgba(5, 5, 5, 0.98) 0%, rgba(5, 5, 5, 0.95) 100%);
+            backdrop-filter: blur(30px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 40px;
+            z-index: 100;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .brand-group {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .brand-icon {
+            width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            border-radius: 14px;
+            position: relative;
+            background: linear-gradient(135deg, rgba(201, 162, 39, 0.1) 0%, transparent 100%);
+        }
+
+        .brand-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            font-weight: 400;
+            letter-spacing: 0.4rem;
+            color: var(--gold);
+            text-transform: uppercase;
+        }
+
+        .brand-text span {
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 4px;
+        }
+
+        .brand-divider {
+            width: 1px;
+            height: 40px;
+            background: var(--border);
+        }
+
+        .casa-turca {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1rem;
+            letter-spacing: 0.3rem;
+            color: var(--platinum);
+            opacity: 0.7;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .live-indicator {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, rgba(0, 210, 106, 0.15) 0%, rgba(0, 210, 106, 0.05) 100%);
+            border: 1px solid rgba(0, 210, 106, 0.3);
+            border-radius: 30px;
+        }
+
+        .live-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: livePulse 1.5s infinite;
+        }
+
+        @keyframes livePulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0, 210, 106, 0.4); }
+            50% { opacity: 0.8; box-shadow: 0 0 0 8px rgba(0, 210, 106, 0); }
+        }
+
+        .live-text {
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.1rem;
+            color: var(--success);
+        }
+
+        .clock-elite {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: var(--gold);
+            letter-spacing: 0.1rem;
+        }
+
+        .clock-date {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            text-align: right;
+            margin-top: 3px;
+        }
+
+        /* === HEADER STATS === */
+        .header-stats {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1px;
+            background: var(--border-light);
+            padding: 1px 0;
+        }
+
+        .header-stat {
+            background: var(--obsidian);
+            padding: 18px 25px;
+            text-align: center;
+        }
+
+        .header-stat-label {
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+            margin-bottom: 8px;
+        }
+
+        .header-stat-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--gold);
+        }
+
+        .header-stat-change {
+            font-size: 0.6rem;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .header-stat-change.up { color: var(--success); }
+        .header-stat-change.down { color: var(--danger); }
+
+        /* === MAIN LAYOUT === */
+        .main {
+            position: relative;
+            z-index: 1;
+            padding: 30px 40px;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 30px;
+        }
+
+        /* === SECTION STYLING === */
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 25px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 25px;
+            border-bottom: 1px solid var(--border-light);
+            background: linear-gradient(180deg, var(--surface-2) 0%, var(--surface) 100%);
+        }
+
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+        }
+
+        .section-badge {
+            font-size: 0.55rem;
+            padding: 6px 15px;
+            background: var(--gold);
+            color: var(--obsidian);
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.08rem;
+        }
+
+        .section-body {
+            padding: 25px;
+        }
+
+        /* === FLUXO DE CAIXA === */
+        .fluxo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .fluxo-card {
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 16px;
+            padding: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .fluxo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .fluxo-card.entrada::before { background: var(--success); }
+        .fluxo-card.saida::before { background: var(--danger); }
+        .fluxo-card.saldo::before { background: var(--gold); }
+        .fluxo-card.liquidez::before { background: var(--blue); }
+
+        .fluxo-icon {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .fluxo-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            margin-bottom: 10px;
+        }
+
+        .fluxo-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+
+        .fluxo-card.entrada .fluxo-value { color: var(--success); }
+        .fluxo-card.saida .fluxo-value { color: var(--danger); }
+        .fluxo-card.saldo .fluxo-value { color: var(--gold); }
+        .fluxo-card.liquidez .fluxo-value { color: var(--blue); }
+
+        /* === OPERAÇÕES DE MERCADO === */
+        .operacoes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .operacao-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 20px;
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+        .operacao-item:hover {
+            border-color: var(--gold);
+            transform: translateX(5px);
+        }
+
+        .operacao-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .operacao-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .operacao-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .operacao-desc {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+
+        .operacao-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            color: var(--gold);
+        }
+
+        /* === BANCOS PARCEIROS === */
+        .bancos-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .banco-card {
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .banco-card:hover {
+            border-color: var(--gold);
+        }
+
+        .banco-card.publico { border-left: 3px solid var(--blue); }
+        .banco-card.privado { border-left: 3px solid var(--purple); }
+
+        .banco-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .banco-nome {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .banco-tipo {
+            font-size: 0.55rem;
+            padding: 4px 10px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+        }
+
+        .banco-tipo.publico {
+            background: rgba(74, 144, 217, 0.15);
+            color: var(--blue);
+        }
+
+        .banco-tipo.privado {
+            background: rgba(155, 89, 182, 0.15);
+            color: var(--purple);
+        }
+
+        .banco-limite {
+            margin-bottom: 10px;
+        }
+
+        .limite-bar {
+            height: 6px;
+            background: var(--surface-3);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .limite-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light));
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
+
+        .limite-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-size: 0.65rem;
+        }
+
+        .limite-usado {
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .limite-total {
+            color: var(--text-muted);
+        }
+
+        /* === SIDEBAR === */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /* === CONEXÕES INSTITUCIONAIS === */
+        .conexoes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .conexao-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 18px 20px;
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+        .conexao-item:hover {
+            border-color: var(--success);
+        }
+
+        .conexao-status {
+            width: 10px;
+            height: 10px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: livePulse 2s infinite;
+        }
+
+        .conexao-info {
+            flex: 1;
+        }
+
+        .conexao-nome {
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 3px;
+        }
+
+        .conexao-sync {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+        }
+
+        .conexao-sigla {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--gold);
+            padding: 5px 12px;
+            background: rgba(201, 162, 39, 0.1);
+            border-radius: 8px;
+        }
+
+        /* === AUTOMAÇÃO === */
+        .automacao-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .auto-stat {
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .auto-stat-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .auto-stat-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08rem;
+        }
+
+        .conversas-live {
+            margin-top: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(0, 210, 106, 0.1) 0%, rgba(0, 210, 106, 0.02) 100%);
+            border: 1px solid rgba(0, 210, 106, 0.2);
+            border-radius: 14px;
+        }
+
+        .conversas-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .conversas-title {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--success);
+        }
+
+        .conversas-live-dot {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.6rem;
+            color: var(--success);
+        }
+
+        .conversas-counter {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: var(--success);
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .conversas-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* === CÂMBIO === */
+        .cambio-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .cambio-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 18px;
+            background: var(--surface-2);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+        }
+
+        .cambio-moeda {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .cambio-flag {
+            font-size: 1.3rem;
+        }
+
+        .cambio-code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .cambio-valores {
+            text-align: right;
+        }
+
+        .cambio-cotacao {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--gold);
+        }
+
+        .cambio-posicao {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+
+        /* === TERMINAL === */
+        .terminal-elite {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: var(--surface-2);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .terminal-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .terminal-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--gold);
+            border-radius: 50%;
+            animation: livePulse 1.5s infinite;
+        }
+
+        .terminal-body {
+            padding: 15px 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            max-height: 180px;
+            overflow-y: auto;
+        }
+
+        .terminal-line {
+            padding: 6px 0;
+            display: flex;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.02);
+        }
+
+        .prompt { color: var(--gold); }
+        .success { color: var(--success); }
+        .warning { color: var(--warning); }
+        .info { color: var(--text-dim); }
+        .value { color: var(--gold-light); }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1200px) {
+            .main { grid-template-columns: 1fr; }
+            .sidebar { order: -1; }
+            .header-stats { grid-template-columns: repeat(3, 1fr); }
+            .fluxo-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .header-top { flex-direction: column; gap: 15px; }
+            .brand-group { flex-direction: column; gap: 10px; }
+            .header-stats { grid-template-columns: 1fr 1fr; }
+            .fluxo-grid { grid-template-columns: 1fr; }
+            .bancos-grid { grid-template-columns: 1fr; }
+            .main { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MARCA D'ÁGUA - r minúsculo Projeto REGULUS -->
+    <div class="watermark-container">
+        <span class="watermark-r">r</span>
+        <span class="watermark-text">Projeto REGULUS</span>
+    </div>
+
+    <!-- HEADER ELITE -->
+    <header class="header">
+        <div class="header-top">
+            <div class="brand-group">
+                <div class="brand">
+                    <div class="brand-icon">r</div>
+                    <div class="brand-text">
+                        <h1>Tesouraria de Elite</h1>
+                        <span>Projeto REGULUS</span>
+                    </div>
+                </div>
+                <div class="brand-divider"></div>
+                <span class="casa-turca">CASA TURCA</span>
+            </div>
+            <div class="header-right">
+                <div class="live-indicator">
+                    <div class="live-dot"></div>
+                    <span class="live-text">SISTEMA ATIVO</span>
+                </div>
+                <div>
+                    <div class="clock-elite" id="clock">13:37:25</div>
+                    <div class="clock-date" id="clockDate">sábado, 6 de dez.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-stats">
+            <div class="header-stat">
+                <div class="header-stat-label">Patrimônio Gerido</div>
+                <div class="header-stat-value">R$ 2.84B</div>
+                <div class="header-stat-change up">↑ +3.2% mês</div>
+            </div>
+            <div class="header-stat">
+                <div class="header-stat-label">Operações 24h</div>
+                <div class="header-stat-value" id="operacoes24h">52.476</div>
+                <div class="header-stat-change up">↑ +12.4%</div>
+            </div>
+            <div class="header-stat">
+                <div class="header-stat-label">Clientes Ativos</div>
+                <div class="header-stat-value">847.532</div>
+                <div class="header-stat-change up">↑ +1.847 hoje</div>
+            </div>
+            <div class="header-stat">
+                <div class="header-stat-label">Volume Transacionado</div>
+                <div class="header-stat-value" id="volumeTotal">R$ 484M</div>
+                <div class="header-stat-change up">↑ +8.7%</div>
+            </div>
+            <div class="header-stat">
+                <div class="header-stat-label">Taxa de Sucesso</div>
+                <div class="header-stat-value">99.97%</div>
+                <div class="header-stat-change up">SLA garantido</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="content">
+            <!-- FLUXO DE CAIXA -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Fluxo de Caixa em Tempo Real</h2>
+                    <span class="section-badge">MONITORAMENTO 24/7</span>
+                </div>
+                <div class="section-body">
+                    <div class="fluxo-grid">
+                        <div class="fluxo-card entrada">
+                            <div class="fluxo-icon">📥</div>
+                            <div class="fluxo-label">Entradas do Dia</div>
+                            <div class="fluxo-value" id="entradasDia">R$ 104.3M</div>
+                        </div>
+                        <div class="fluxo-card saida">
+                            <div class="fluxo-icon">📤</div>
+                            <div class="fluxo-label">Saídas do Dia</div>
+                            <div class="fluxo-value" id="saidasDia">R$ 74.6M</div>
+                        </div>
+                        <div class="fluxo-card saldo">
+                            <div class="fluxo-icon">💰</div>
+                            <div class="fluxo-label">Saldo Projetado</div>
+                            <div class="fluxo-value" id="saldoProjetado">R$ 2.88B</div>
+                        </div>
+                        <div class="fluxo-card liquidez">
+                            <div class="fluxo-icon">💎</div>
+                            <div class="fluxo-label">Liquidez Imediata</div>
+                            <div class="fluxo-value" id="liquidez">R$ 542M</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OPERAÇÕES DE MERCADO -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Operações de Mercado</h2>
+                    <span class="section-badge">TESOURO &amp; RENDA FIXA</span>
+                </div>
+                <div class="section-body">
+                    <div class="operacoes-list">
+                        <div class="operacao-item">
+                            <div class="operacao-info">
+                                <div class="operacao-icon">🏛️</div>
+                                <div>
+                                    <div class="operacao-name">Títulos Públicos Federais</div>
+                                    <div class="operacao-desc">LFT, LTN, NTN-B, NTN-F</div>
+                                </div>
+                            </div>
+                            <div class="operacao-value">R$ 1.02B</div>
+                        </div>
+                        <div class="operacao-item">
+                            <div class="operacao-info">
+                                <div class="operacao-icon">🏦</div>
+                                <div>
+                                    <div class="operacao-name">CDB / LCI / LCA</div>
+                                    <div class="operacao-desc">Certificados de Depósito</div>
+                                </div>
+                            </div>
+                            <div class="operacao-value">R$ 428M</div>
+                        </div>
+                        <div class="operacao-item">
+                            <div class="operacao-info">
+                                <div class="operacao-icon">📊</div>
+                                <div>
+                                    <div class="operacao-name">Fundos de Investimento</div>
+                                    <div class="operacao-desc">RF, Multimercado, Ações</div>
+                                </div>
+                            </div>
+                            <div class="operacao-value">R$ 312M</div>
+                        </div>
+                        <div class="operacao-item">
+                            <div class="operacao-info">
+                                <div class="operacao-icon">🔄</div>
+                                <div>
+                                    <div class="operacao-name">Operações Compromissadas</div>
+                                    <div class="operacao-desc">Repos e Reverse Repos</div>
+                                </div>
+                            </div>
+                            <div class="operacao-value">R$ 187M</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BANCOS PARCEIROS -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Bancos Parceiros</h2>
+                    <span class="section-badge">PÚBLICOS &amp; PRIVADOS</span>
+                </div>
+                <div class="section-body">
+                    <div class="bancos-grid">
+                        
+                        <div class="banco-card público">
+                            <div class="banco-header">
+                                <span class="banco-nome">Banco do Brasil</span>
+                                <span class="banco-tipo público">público</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 44%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 222M</span>
+                                    <span class="limite-total">de R$ 500M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card público">
+                            <div class="banco-header">
+                                <span class="banco-nome">Caixa Econômica</span>
+                                <span class="banco-tipo público">público</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 48%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 195M</span>
+                                    <span class="limite-total">de R$ 400M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card público">
+                            <div class="banco-header">
+                                <span class="banco-nome">BNDES</span>
+                                <span class="banco-tipo público">público</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 42%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 342M</span>
+                                    <span class="limite-total">de R$ 800M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card privado">
+                            <div class="banco-header">
+                                <span class="banco-nome">Itaú Unibanco</span>
+                                <span class="banco-tipo privado">privado</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 50%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 303M</span>
+                                    <span class="limite-total">de R$ 600M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card privado">
+                            <div class="banco-header">
+                                <span class="banco-nome">Bradesco</span>
+                                <span class="banco-tipo privado">privado</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 48%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 266M</span>
+                                    <span class="limite-total">de R$ 550M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card privado">
+                            <div class="banco-header">
+                                <span class="banco-nome">Santander</span>
+                                <span class="banco-tipo privado">privado</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 48%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 220M</span>
+                                    <span class="limite-total">de R$ 450M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card privado">
+                            <div class="banco-header">
+                                <span class="banco-nome">BTG Pactual</span>
+                                <span class="banco-tipo privado">privado</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 58%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 206M</span>
+                                    <span class="limite-total">de R$ 350M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="banco-card privado">
+                            <div class="banco-header">
+                                <span class="banco-nome">Safra</span>
+                                <span class="banco-tipo privado">privado</span>
+                            </div>
+                            <div class="banco-limite">
+                                <div class="limite-bar">
+                                    <div class="limite-fill" style="width: 32%"></div>
+                                </div>
+                                <div class="limite-info">
+                                    <span class="limite-usado">R$ 96M</span>
+                                    <span class="limite-total">de R$ 300M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <!-- CONEXÕES INSTITUCIONAIS -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Conexões Institucionais</h2>
+                </div>
+                <div class="section-body">
+                    <div class="conexoes-list">
+                        
+                        <div class="conexao-item">
+                            <div class="conexao-status"></div>
+                            <div class="conexao-info">
+                                <div class="conexao-nome">Banco Central do Brasil</div>
+                                <div class="conexao-sync">Sync há 5min</div>
+                            </div>
+                            <span class="conexao-sigla">BCB</span>
+                        </div>
+                        
+                        <div class="conexao-item">
+                            <div class="conexao-status"></div>
+                            <div class="conexao-info">
+                                <div class="conexao-nome">Tesouro Nacional</div>
+                                <div class="conexao-sync">Sync há 6min</div>
+                            </div>
+                            <span class="conexao-sigla">STN</span>
+                        </div>
+                        
+                        <div class="conexao-item">
+                            <div class="conexao-status"></div>
+                            <div class="conexao-info">
+                                <div class="conexao-nome">Ministério da Fazenda</div>
+                                <div class="conexao-sync">Sync há 9min</div>
+                            </div>
+                            <span class="conexao-sigla">MF</span>
+                        </div>
+                        
+                        <div class="conexao-item">
+                            <div class="conexao-status"></div>
+                            <div class="conexao-info">
+                                <div class="conexao-nome">CVM</div>
+                                <div class="conexao-sync">Sync há 6min</div>
+                            </div>
+                            <span class="conexao-sigla">CVM</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- AUTOMAÇÃO BANCÁRIA -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Automação Bancária</h2>
+                </div>
+                <div class="section-body">
+                    <div class="automacao-stats">
+                        <div class="auto-stat">
+                            <div class="auto-stat-value">847K</div>
+                            <div class="auto-stat-label">Clientes</div>
+                        </div>
+                        <div class="auto-stat">
+                            <div class="auto-stat-value">99.9%</div>
+                            <div class="auto-stat-label">Uptime</div>
+                        </div>
+                    </div>
+                    <div class="conversas-live">
+                        <div class="conversas-header">
+                            <span class="conversas-title">Conversas Automáticas</span>
+                            <span class="conversas-live-dot"><span class="live-dot"></span> AO VIVO</span>
+                        </div>
+                        <div class="conversas-counter" id="conversasMin">53</div>
+                        <div class="conversas-label">conversas por minuto</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSIÇÃO CÂMBIO -->
+            <div class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Posição Cambial</h2>
+                </div>
+                <div class="section-body">
+                    <div class="cambio-grid">
+                        <div class="cambio-item">
+                            <div class="cambio-moeda">
+                                <span class="cambio-flag">🇺🇸</span>
+                                <span class="cambio-code">USD/BRL</span>
+                            </div>
+                            <div class="cambio-valores">
+                                <div class="cambio-cotacao" id="usdCotacao">R$ 4.91</div>
+                                <div class="cambio-posicao">Posição: R$ 78M</div>
+                            </div>
+                        </div>
+                        <div class="cambio-item">
+                            <div class="cambio-moeda">
+                                <span class="cambio-flag">🇪🇺</span>
+                                <span class="cambio-code">EUR/BRL</span>
+                            </div>
+                            <div class="cambio-valores">
+                                <div class="cambio-cotacao" id="eurCotacao">R$ 5.45</div>
+                                <div class="cambio-posicao">Posição: R$ 35M</div>
+                            </div>
+                        </div>
+                        <div class="cambio-item">
+                            <div class="cambio-moeda">
+                                <span class="cambio-flag">🇬🇧</span>
+                                <span class="cambio-code">GBP/BRL</span>
+                            </div>
+                            <div class="cambio-valores">
+                                <div class="cambio-cotacao" id="gbpCotacao">R$ 6.29</div>
+                                <div class="cambio-posicao">Posição: R$ 18M</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TERMINAL -->
+            <div class="terminal-elite">
+                <div class="terminal-header">
+                    <div class="terminal-title">
+                        <div class="terminal-dot"></div>
+                        Log de Operações
+                    </div>
+                </div>
+                <div class="terminal-body" id="terminal">
+                    <div class="terminal-line"><span class="prompt">SYS&gt;</span><span class="success">Tesouraria Elite inicializada</span></div>
+                    <div class="terminal-line"><span class="prompt">BCB&gt;</span><span class="info">Conectado ao Banco Central</span></div>
+                    <div class="terminal-line"><span class="prompt">STN&gt;</span><span class="info">Tesouro Nacional sincronizado</span></div>
+                    <div class="terminal-line"><span class="prompt">IA&gt;</span><span class="value">R$ 127.4M em entradas processadas</span></div>
+                <div class="terminal-line"><span class="prompt">SYS&gt;</span><span class="success">Backup automático realizado</span></div><div class="terminal-line"><span class="prompt">BCB&gt;</span><span class="info">SELIC atualizada: 10.50% a.a.</span></div><div class="terminal-line"><span class="prompt">TRS&gt;</span><span class="value">Transferência R$ 2.5M processada</span></div><div class="terminal-line"><span class="prompt">TRS&gt;</span><span class="value">Transferência R$ 2.5M processada</span></div><div class="terminal-line"><span class="prompt">STN&gt;</span><span class="value">Títulos públicos atualizados</span></div><div class="terminal-line"><span class="prompt">TRS&gt;</span><span class="value">Transferência R$ 2.5M processada</span></div><div class="terminal-line"><span class="prompt">TRS&gt;</span><span class="value">Transferência R$ 2.5M processada</span></div><div class="terminal-line"><span class="prompt">SYS&gt;</span><span class="success">Backup automático realizado</span></div><div class="terminal-line"><span class="prompt">STN&gt;</span><span class="value">Títulos públicos atualizados</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="success">Análise de risco concluída</span></div><div class="terminal-line"><span class="prompt">TRS&gt;</span><span class="value">Transferência R$ 2.5M processada</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="success">Análise de risco concluída</span></div><div class="terminal-line"><span class="prompt">SYS&gt;</span><span class="success">Backup automático realizado</span></div><div class="terminal-line"><span class="prompt">BCB&gt;</span><span class="info">SELIC atualizada: 10.50% a.a.</span></div><div class="terminal-line"><span class="prompt">IA&gt;</span><span class="success">Análise de risco concluída</span></div></div>
+            </div>
+        </aside>
+    </main>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').textContent = now.toLocaleTimeString('pt-BR');
+            document.getElementById('clockDate').textContent = now.toLocaleDateString('pt-BR', {weekday: 'long', day: 'numeric', month: 'short'});
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        function updateMetrics() {
+            document.getElementById('operacoes24h').textContent = (Math.floor(Math.random() * 10000) + 45000).toLocaleString('pt-BR');
+            document.getElementById('volumeTotal').textContent = 'R$ ' + (Math.floor(Math.random() * 100) + 450) + 'M';
+            document.getElementById('entradasDia').textContent = 'R$ ' + (Math.floor(Math.random() * 50) + 100) + '.' + Math.floor(Math.random() * 9) + 'M';
+            document.getElementById('saidasDia').textContent = 'R$ ' + (Math.floor(Math.random() * 30) + 70) + '.' + Math.floor(Math.random() * 9) + 'M';
+            document.getElementById('conversasMin').textContent = Math.floor(Math.random() * 20) + 50;
+            
+            const usd = (4.90 + Math.random() * 0.15).toFixed(2);
+            const eur = (5.35 + Math.random() * 0.15).toFixed(2);
+            const gbp = (6.20 + Math.random() * 0.15).toFixed(2);
+            document.getElementById('usdCotacao').textContent = 'R$ ' + usd;
+            document.getElementById('eurCotacao').textContent = 'R$ ' + eur;
+            document.getElementById('gbpCotacao').textContent = 'R$ ' + gbp;
+        }
+        setInterval(updateMetrics, 4000);
+
+        const logs = [
+            ['BCB>', 'info', 'SELIC atualizada: 10.50% a.a.'],
+            ['TRS>', 'value', 'Transferência R$ 2.5M processada'],
+            ['IA>', 'success', 'Análise de risco concluída'],
+            ['CVM>', 'info', 'Compliance verificado'],
+            ['STN>', 'value', 'Títulos públicos atualizados'],
+            ['SYS>', 'success', 'Backup automático realizado'],
+        ];
+
+        function addLog() {
+            const log = logs[Math.floor(Math.random() * logs.length)];
+            const terminal = document.getElementById('terminal');
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            line.innerHTML = '<span class="prompt">' + log[0] + '</span><span class="' + log[1] + '">' + log[2] + '</span>';
+            terminal.appendChild(line);
+            terminal.scrollTop = terminal.scrollHeight;
+            if (terminal.children.length > 20) terminal.removeChild(terminal.children[0]);
+        }
+        setInterval(addLog, 6000);
+    </script>
+
+
+</body></html>

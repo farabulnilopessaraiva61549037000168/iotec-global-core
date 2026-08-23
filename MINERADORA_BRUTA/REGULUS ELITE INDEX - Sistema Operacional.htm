@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS ELITE INDEX - Sistema Operacional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #0f0a1a 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
+        }
+
+        .globo-container {
+            position: relative;
+            width: 100%;
+            height: 45%;
+            z-index: 1;
+            opacity: 0.98;
+        }
+
+        canvas {
+            width: 100% !important;
+            height: 100% !important;
+            display: block;
+        }
+
+        .indice-operacional {
+            position: relative;
+            height: 55%;
+            background: linear-gradient(180deg, rgba(10, 10, 10, 0.85) 0%, rgba(26, 10, 46, 0.95) 100%);
+            overflow-y: auto;
+            z-index: 2;
+            border-top: 2px solid rgba(139, 111, 71, 0.3);
+            backdrop-filter: blur(5px);
+        }
+
+        .header-elite {
+            padding: 30px 40px;
+            text-align: center;
+            border-bottom: 1px solid rgba(139, 111, 71, 0.2);
+        }
+
+        .header-elite h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #8b6f47 0%, #d4af37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.15em;
+            margin-bottom: 8px;
+        }
+
+        .header-elite p {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0.1em;
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.4);
+            border-bottom: 1px solid rgba(139, 111, 71, 0.15);
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .status-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .status-label {
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 0.08em;
+            font-weight: 500;
+        }
+
+        .status-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #d4af37;
+            font-family: 'Courier New', monospace;
+        }
+
+        .divisoes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 18px;
+            padding: 35px;
+        }
+
+        .divisao-card {
+            background: linear-gradient(135deg, rgba(50, 50, 80, 0.4) 0%, rgba(30, 30, 60, 0.3) 100%);
+            border: 1px solid rgba(139, 111, 71, 0.25);
+            border-radius: 10px;
+            padding: 22px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .divisao-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--cor);
+        }
+
+        .divisao-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 175, 55, 0.5);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.12);
+        }
+
+        .divisao-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .divisao-icone {
+            font-size: 2.2rem;
+        }
+
+        .divisao-titulo {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .divisao-nome {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .divisao-desc {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .divisao-modulos {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .modulo-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 9px;
+            border-radius: 5px;
+            border-left: 2.5px solid var(--cor);
+            font-size: 0.75rem;
+        }
+
+        .modulo-nome {
+            color: #ffffff;
+            font-weight: 500;
+            margin-bottom: 3px;
+        }
+
+        .modulo-metrica {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.65rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        .indice-operacional::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .indice-operacional::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .indice-operacional::-webkit-scrollbar-thumb {
+            background: rgba(139, 111, 71, 0.3);
+            border-radius: 4px;
+        }
+
+        .indice-operacional::-webkit-scrollbar-thumb:hover {
+            background: rgba(139, 111, 71, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .divisoes-grid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .header-elite h1 {
+                font-size: 1.6rem;
+            }
+
+            .status-bar {
+                gap: 10px;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="globo-container">
+            <canvas id="globoCanvas" width="1366" height="273"></canvas>
+        </div>
+
+        <div class="indice-operacional">
+            <div class="header-elite">
+                <h1>ÍNDICE OPERACIONAL ELITE</h1>
+                <p>REGULUS_SYSTEM_LTDA • CNPJ: 61.549.037/0001-68</p>
+                <p style="margin-top: 8px; font-size: 0.75rem; color: #d4af37;">Versão 4.2.1 Enterprise • Status: OPERACIONAL ✓</p>
+            </div>
+
+            <div class="status-bar">
+                <div class="status-item">
+                    <span class="status-label">PATRIMÔNIO</span>
+                    <span class="status-value">R$ 5.4 Bi</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">MEMBROS</span>
+                    <span class="status-value">70.169</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">SATISFAÇÃO</span>
+                    <span class="status-value">99.7%</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">ROI</span>
+                    <span class="status-value">+17.8%</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">GLOBAL</span>
+                    <span class="status-value">196 Países</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">UPTIME</span>
+                    <span class="status-value">99.99%</span>
+                </div>
+            </div>
+
+            <div class="divisoes-grid" id="divisoesGrid"><div class="divisao-card" style="--cor: #FF6B6B;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">📹</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Produção Visual</div>
+                            <div class="divisao-desc">Estúdio de produção de conteúdo digital premium</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Studio de Cinematografia</div>
+                            <div class="modulo-metrica">4K/8K</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Produção de Curtas</div>
+                            <div class="modulo-metrica">HD/4K</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Edição Avançada</div>
+                            <div class="modulo-metrica">AI-Enhanced</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Renderização em Nuvem</div>
+                            <div class="modulo-metrica">GPU 4x</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #4ECDC4;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">🧠</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Inteligência de Dados</div>
+                            <div class="divisao-desc">Análise, mineração e processamento inteligente de dados</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Neural Credit Score IA</div>
+                            <div class="modulo-metrica">99.7%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Predictive Contemplation</div>
+                            <div class="modulo-metrica">94.2%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Fraud Shield AI</div>
+                            <div class="modulo-metrica">99.9%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Smart Collections</div>
+                            <div class="modulo-metrica">97.8%</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #FFE66D;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">🔬</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Perícia Digital &amp; Análise Forense</div>
+                            <div class="divisao-desc">Serviços especializados de análise digital e verificação</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Document Vision OCR</div>
+                            <div class="modulo-metrica">98.5%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Autenticação Biométrica</div>
+                            <div class="modulo-metrica">99.1%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Análise de Risco</div>
+                            <div class="modulo-metrica">96.3%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Verificação em Tempo Real</div>
+                            <div class="modulo-metrica">12ms</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #95E1D3;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">💳</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Consórcios Financeiros</div>
+                            <div class="divisao-desc">Gestão automática de consórcios premium e elite</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Consórcio Premium</div>
+                            <div class="modulo-metrica">4 portfólios</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Consórcio IA Elite</div>
+                            <div class="modulo-metrica">48 tipos</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Gestão Automática</div>
+                            <div class="modulo-metrica">100% IA</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Carteira Inteligente</div>
+                            <div class="modulo-metrica">R$ 5.4B</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #F38181;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">🌍</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Integrações &amp; Ecossistema</div>
+                            <div class="divisao-desc">Conexão com 196 países e 12 integrações principais</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ 5 Bancos Integrados</div>
+                            <div class="modulo-metrica">24/7</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ 3 Órgãos Públicos</div>
+                            <div class="modulo-metrica">Real-time</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ 2 Bureaus de Crédito</div>
+                            <div class="modulo-metrica">Sync</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ 2 Sistemas de Pagamento</div>
+                            <div class="modulo-metrica">Instant</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #AA96DA;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">📊</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Operações Financeiras</div>
+                            <div class="divisao-desc">Processamento de transações, setores econômicos e rotas comerciais</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Setores Econômicos</div>
+                            <div class="modulo-metrica">12 setores</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Rotas Compradores</div>
+                            <div class="modulo-metrica">Global</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Produtora Tech</div>
+                            <div class="modulo-metrica">SaaS</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Importação Global</div>
+                            <div class="modulo-metrica">196 países</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #FCBAD3;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">📢</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Comunicação Corporativa</div>
+                            <div class="divisao-desc">Conteúdo, apresentações e engajamento institucional</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Portal de Entretenimento</div>
+                            <div class="modulo-metrica">20+ categorias</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Apresentações Executivas</div>
+                            <div class="modulo-metrica">Deck Pro</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Hub de Conteúdo</div>
+                            <div class="modulo-metrica">Video 4K</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Publicações Diárias</div>
+                            <div class="modulo-metrica">Real-time</div>
+                        </div>
+                    
+                    </div>
+                </div><div class="divisao-card" style="--cor: #A8D8EA;">
+                    <div class="divisao-header">
+                        <div class="divisao-icone">💼</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">Divisão de Investidores &amp; Comercial</div>
+                            <div class="divisao-desc">Relacionamento com stakeholders e oportunidades de negócio</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Portal Investidores</div>
+                            <div class="modulo-metrica">Exclusive</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Prospecção Comercial</div>
+                            <div class="modulo-metrica">B2B</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Análise de ROI</div>
+                            <div class="modulo-metrica">+17.8%</div>
+                        </div>
+                    
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ Dashboard Executivo</div>
+                            <div class="modulo-metrica">Real-time</div>
+                        </div>
+                    
+                    </div>
+                </div></div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('globoCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight * 0.45;
+
+        const globoConfig = {
+            rotacao: 0,
+            velocidade: 0.0002,
+            raio: Math.min(canvas.width, canvas.height) * 0.25,
+            centerX: canvas.width / 2,
+            centerY: canvas.height / 2
+        };
+
+        const cidades = [
+            { lat: -23.5505, lng: -46.6333, nome: 'São Paulo' },
+            { lat: 35.6762, lng: 139.6503, nome: 'Tóquio' },
+            { lat: 51.5074, lng: -0.1278, nome: 'Londres' },
+            { lat: 40.7128, lng: -74.0060, nome: 'NYC' },
+            { lat: -33.8688, lng: 151.2093, nome: 'Sydney' },
+            { lat: 1.3521, lng: 103.8198, nome: 'Singapura' },
+            { lat: 31.2304, lng: 121.4737, nome: 'Xangai' },
+            { lat: 55.7558, lng: 37.6173, nome: 'Moscou' }
+        ];
+
+        function latLngPara3D(lat, lng) {
+            const phi = (90 - lat) * Math.PI / 180;
+            const theta = (lng + 180) * Math.PI / 180;
+            return {
+                x: globoConfig.raio * Math.sin(phi) * Math.cos(theta),
+                y: globoConfig.raio * Math.cos(phi),
+                z: globoConfig.raio * Math.sin(phi) * Math.sin(theta)
+            };
+        }
+
+        function projeto3D(x, y, z, rotacao) {
+            const cosR = Math.cos(rotacao);
+            const sinR = Math.sin(rotacao);
+            const xRot = x * cosR - z * sinR;
+            const zRot = x * sinR + z * cosR;
+            const escala = 500 / (500 + zRot);
+            return {
+                x: globoConfig.centerX + xRot * escala,
+                y: globoConfig.centerY + y * escala,
+                escala,
+                z: zRot
+            };
+        }
+
+        function desenharGlobo() {
+            const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            grad.addColorStop(0, '#000000');
+            grad.addColorStop(0.5, '#0a0033');
+            grad.addColorStop(1, '#000000');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+            for (let i = 0; i < 150; i++) {
+                const x = (Math.sin(i * 123.456) * canvas.width + canvas.width) % canvas.width;
+                const y = (Math.cos(i * 234.567) * canvas.height + canvas.height) % canvas.height;
+                ctx.beginPath();
+                ctx.arc(x, y, 0.5, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            ctx.fillStyle = 'rgba(20, 80, 150, 0.15)';
+            ctx.strokeStyle = 'rgba(139, 111, 71, 0.3)';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(globoConfig.centerX, globoConfig.centerY, globoConfig.raio, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.strokeStyle = 'rgba(139, 111, 71, 0.1)';
+            ctx.lineWidth = 0.5;
+            for (let lat = -60; lat <= 60; lat += 30) {
+                const pontos = [];
+                for (let lng = -180; lng <= 180; lng += 10) {
+                    const p3d = latLngPara3D(lat, lng);
+                    const p2d = projeto3D(p3d.x, p3d.y, p3d.z, globoConfig.rotacao);
+                    if (p2d.z > -globoConfig.raio) pontos.push(p2d);
+                }
+                if (pontos.length > 1) {
+                    ctx.beginPath();
+                    ctx.moveTo(pontos[0].x, pontos[0].y);
+                    for (let i = 1; i < pontos.length; i++) ctx.lineTo(pontos[i].x, pontos[i].y);
+                    ctx.stroke();
+                }
+            }
+
+            const cidadesProjetadas = cidades
+                .map(c => {
+                    const p3d = latLngPara3D(c.lat, c.lng);
+                    const p2d = projeto3D(p3d.x, p3d.y, p3d.z, globoConfig.rotacao);
+                    return { ...c, ...p2d };
+                })
+                .filter(c => c.z > -globoConfig.raio * 0.7)
+                .sort((a, b) => a.z - b.z);
+
+            for (const cidade of cidadesProjetadas) {
+                const tamanho = Math.max(4, 6 * cidade.escala);
+                ctx.fillStyle = '#d4af37';
+                ctx.shadowColor = 'rgba(212, 175, 55, 0.8)';
+                ctx.shadowBlur = 8;
+                ctx.beginPath();
+                ctx.arc(cidade.x, cidade.y, tamanho, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            ctx.strokeStyle = 'rgba(212, 175, 55, 0.15)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < cidadesProjetadas.length; i++) {
+                const p1 = cidadesProjetadas[i];
+                const p2 = cidadesProjetadas[(i + 1) % cidadesProjetadas.length];
+                ctx.beginPath();
+                ctx.moveTo(p1.x, p1.y);
+                ctx.lineTo(p2.x, p2.y);
+                ctx.stroke();
+            }
+
+            const atmosfera = ctx.createRadialGradient(globoConfig.centerX, globoConfig.centerY, globoConfig.raio, globoConfig.centerX, globoConfig.centerY, globoConfig.raio + 15);
+            atmosfera.addColorStop(0, 'rgba(100, 150, 255, 0)');
+            atmosfera.addColorStop(1, 'rgba(100, 150, 255, 0.15)');
+            ctx.fillStyle = atmosfera;
+            ctx.beginPath();
+            ctx.arc(globoConfig.centerX, globoConfig.centerY, globoConfig.raio + 15, 0, Math.PI * 2);
+            ctx.fill();
+
+            globoConfig.rotacao += globoConfig.velocidade;
+        }
+
+        function animarGlobo() {
+            desenharGlobo();
+            requestAnimationFrame(animarGlobo);
+        }
+
+        // Dados da plataforma
+        const plataforma = {"divisoes": [{"id": "producao", "nome": "Divis\u00e3o de Produ\u00e7\u00e3o Visual", "descricao": "Est\u00fadio de produ\u00e7\u00e3o de conte\u00fado digital premium", "cor": "#FF6B6B", "icone": "\ud83d\udcf9", "modulos": [{"nome": "Studio de Cinematografia", "metricas": "4K/8K"}, {"nome": "Produ\u00e7\u00e3o de Curtas", "metricas": "HD/4K"}, {"nome": "Edi\u00e7\u00e3o Avan\u00e7ada", "metricas": "AI-Enhanced"}, {"nome": "Renderiza\u00e7\u00e3o em Nuvem", "metricas": "GPU 4x"}]}, {"id": "inteligencia", "nome": "Divis\u00e3o de Intelig\u00eancia de Dados", "descricao": "An\u00e1lise, minera\u00e7\u00e3o e processamento inteligente de dados", "cor": "#4ECDC4", "icone": "\ud83e\udde0", "modulos": [{"nome": "Neural Credit Score IA", "metricas": "99.7%"}, {"nome": "Predictive Contemplation", "metricas": "94.2%"}, {"nome": "Fraud Shield AI", "metricas": "99.9%"}, {"nome": "Smart Collections", "metricas": "97.8%"}]}, {"id": "pericias", "nome": "Divis\u00e3o de Per\u00edcia Digital & An\u00e1lise Forense", "descricao": "Servi\u00e7os especializados de an\u00e1lise digital e verifica\u00e7\u00e3o", "cor": "#FFE66D", "icone": "\ud83d\udd2c", "modulos": [{"nome": "Document Vision OCR", "metricas": "98.5%"}, {"nome": "Autentica\u00e7\u00e3o Biom\u00e9trica", "metricas": "99.1%"}, {"nome": "An\u00e1lise de Risco", "metricas": "96.3%"}, {"nome": "Verifica\u00e7\u00e3o em Tempo Real", "metricas": "12ms"}]}, {"id": "consorcio", "nome": "Divis\u00e3o de Cons\u00f3rcios Financeiros", "descricao": "Gest\u00e3o autom\u00e1tica de cons\u00f3rcios premium e elite", "cor": "#95E1D3", "icone": "\ud83d\udcb3", "modulos": [{"nome": "Cons\u00f3rcio Premium", "metricas": "4 portf\u00f3lios"}, {"nome": "Cons\u00f3rcio IA Elite", "metricas": "48 tipos"}, {"nome": "Gest\u00e3o Autom\u00e1tica", "metricas": "100% IA"}, {"nome": "Carteira Inteligente", "metricas": "R$ 5.4B"}]}, {"id": "integracao", "nome": "Divis\u00e3o de Integra\u00e7\u00f5es & Ecossistema", "descricao": "Conex\u00e3o com 196 pa\u00edses e 12 integra\u00e7\u00f5es principais", "cor": "#F38181", "icone": "\ud83c\udf0d", "modulos": [{"nome": "5 Bancos Integrados", "metricas": "24/7"}, {"nome": "3 \u00d3rg\u00e3os P\u00fablicos", "metricas": "Real-time"}, {"nome": "2 Bureaus de Cr\u00e9dito", "metricas": "Sync"}, {"nome": "2 Sistemas de Pagamento", "metricas": "Instant"}]}, {"id": "operacoes", "nome": "Divis\u00e3o de Opera\u00e7\u00f5es Financeiras", "descricao": "Processamento de transa\u00e7\u00f5es, setores econ\u00f4micos e rotas comerciais", "cor": "#AA96DA", "icone": "\ud83d\udcca", "modulos": [{"nome": "Setores Econ\u00f4micos", "metricas": "12 setores"}, {"nome": "Rotas Compradores", "metricas": "Global"}, {"nome": "Produtora Tech", "metricas": "SaaS"}, {"nome": "Importa\u00e7\u00e3o Global", "metricas": "196 pa\u00edses"}]}, {"id": "comunicacao", "nome": "Divis\u00e3o de Comunica\u00e7\u00e3o Corporativa", "descricao": "Conte\u00fado, apresenta\u00e7\u00f5es e engajamento institucional", "cor": "#FCBAD3", "icone": "\ud83d\udce2", "modulos": [{"nome": "Portal de Entretenimento", "metricas": "20+ categorias"}, {"nome": "Apresenta\u00e7\u00f5es Executivas", "metricas": "Deck Pro"}, {"nome": "Hub de Conte\u00fado", "metricas": "Video 4K"}, {"nome": "Publica\u00e7\u00f5es Di\u00e1rias", "metricas": "Real-time"}]}, {"id": "investidores", "nome": "Divis\u00e3o de Investidores & Comercial", "descricao": "Relacionamento com stakeholders e oportunidades de neg\u00f3cio", "cor": "#A8D8EA", "icone": "\ud83d\udcbc", "modulos": [{"nome": "Portal Investidores", "metricas": "Exclusive"}, {"nome": "Prospec\u00e7\u00e3o Comercial", "metricas": "B2B"}, {"nome": "An\u00e1lise de ROI", "metricas": "+17.8%"}, {"nome": "Dashboard Executivo", "metricas": "Real-time"}]}]};
+
+        function renderizarDivisoes() {
+            const grid = document.getElementById('divisoesGrid');
+            grid.innerHTML = '';
+
+            for (const divisao of plataforma.divisoes) {
+                const card = document.createElement('div');
+                card.className = 'divisao-card';
+                card.style.setProperty('--cor', divisao.cor);
+
+                let modulosHTML = '';
+                for (const mod of divisao.modulos) {
+                    modulosHTML += `
+                        <div class="modulo-item">
+                            <div class="modulo-nome">✓ ${mod.nome}</div>
+                            <div class="modulo-metrica">${mod.metricas}</div>
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="divisao-header">
+                        <div class="divisao-icone">${divisao.icone}</div>
+                        <div class="divisao-titulo">
+                            <div class="divisao-nome">${divisao.nome}</div>
+                            <div class="divisao-desc">${divisao.descricao}</div>
+                        </div>
+                    </div>
+                    <div class="divisao-modulos">
+                        ${modulosHTML}
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            }
+        }
+
+        animarGlobo();
+        renderizarDivisoes();
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight * 0.45;
+            globoConfig.centerX = canvas.width / 2;
+            globoConfig.centerY = canvas.height / 2;
+            globoConfig.raio = Math.min(canvas.width, canvas.height) * 0.25;
+        });
+    </script>
+
+
+</body></html>

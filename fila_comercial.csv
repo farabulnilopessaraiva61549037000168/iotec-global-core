@@ -1,0 +1,9 @@
+empresa,setor,funcionarios,cidade,lead_score
+ALFA INDUSTRIAL,Industria,180,Fortaleza,50
+DELTA INDUSTRIAL,Industria,350,Fortaleza,50
+SIGMA INDUSTRIAL,Industria,220,Fortaleza,50
+HOSPITAL VIDA,Saude,300,Quixada,45
+BETA CLINICA,Saude,60,Quixada,25
+GAMA CONTABIL,Contabilidade,25,Sobral,20
+CONTMAX,Contabilidade,45,Sobral,20
+OMEGA SERVICOS,Servicos,15,Quixada,0

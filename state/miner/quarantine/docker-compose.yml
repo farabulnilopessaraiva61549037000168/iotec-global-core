@@ -1,0 +1,11 @@
+docker-compose.yml
+
+version: '3.9'
+
+services:
+  regulus_core:
+    build: .
+    container_name: regulus_core
+    volumes:
+      - .:/app
+    restart: always

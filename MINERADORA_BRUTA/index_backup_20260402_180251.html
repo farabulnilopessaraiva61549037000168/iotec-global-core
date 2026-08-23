@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>IOTEC | Sistema Global</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background: radial-gradient(circle at center,#0b1728,#02050a);
+    color:#e6f1ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    text-align:center;
+}
+
+.title{
+    font-size:34px;
+    letter-spacing:2px;
+    color:#62d8ff;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#a9bdd3;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:18px;
+    padding:25px;
+}
+
+.button{
+    margin-top:30px;
+    padding:12px 25px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg,#62d8ff,#7ef0c7);
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">IOTEC SYSTEM</div>
+<div class="subtitle">Plataforma Inteligente de OperaÃ§Ã£o Global</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Financeiro</h3>
+<p id="valor">Carregando...</p>
+</div>
+
+<div class="card">
+<h3>Status Operacional</h3>
+<p id="status">Carregando...</p>
+</div>
+
+<div class="card">
+<h3>Performance</h3>
+<p id="performance">Carregando...</p>
+</div>
+
+</div>
+
+<button class="button">ACESSAR SISTEMA</button>
+
+</div>
+
+<script>
+function carregar(){
+fetch("https://iotec-platform.onrender.com/api/status")
+.then(r=>r.json())
+.then(d=>{
+document.getElementById("valor").innerText = "R$ " + d.financeiro.entrada_total;
+document.getElementById("status").innerText = d.status;
+document.getElementById("performance").innerText = d.financeiro.crescimento;
+}).catch(()=>{
+document.getElementById("status").innerText = "Conectando...";
+});
+}
+
+setInterval(carregar,3000);
+carregar();
+</script>
+
+</body>
+</html>

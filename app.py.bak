@@ -1,0 +1,69 @@
+﻿import os
+from flask import Flask, render_template, request, jsonify
+import mercadopago
+from dotenv import load_dotenv
+
+load_dotenv()
+
+app = Flask(__name__)
+
+SDK = mercadopago.SDK(os.getenv("MERCADOPAGO_ACCESS_TOKEN", "SEU_ACCESS_TOKEN_AQUI"))
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/criar-pagamento-pix", methods=["POST"])
+def criar_pagamento_pix():
+    try:
+        dados = request.json or {}
+        email_cliente = dados.get("email", "cliente@email.com")
+        valor = float(dados.get("valor", 29.90))
+
+        payment_data = {
+            "transaction_amount": valor,
+            "description": "Acesso Premium / Relatorio Monetizado",
+            "payment_method_id": "pix",
+            "payer": {
+                "email": email_cliente,
+            }
+        }
+
+        payment_response = SDK.payment().create(payment_data)
+        pagamento = payment_response["response"]
+
+        pix_copia_e_cola = pagamento["point_of_interaction"]["transaction_data"]["qr_code"]
+        qr_code_base64 = pagamento["point_of_interaction"]["transaction_data"]["qr_code_base64"]
+        id_pagamento = pagamento["id"]
+
+        return jsonify({
+            "status": "sucesso",
+            "id_pagamento": id_pagamento,
+            "pix_copia_e_cola": pix_copia_e_cola,
+            "qr_code_base64": qr_code_base64
+        }), 200
+
+    except Exception as e:
+        return jsonify({"status": "erro", "mensagem": str(e)}), 400
+
+@app.route("/webhook/mercadopago", methods=["POST"])
+def webhook():
+    data = request.args
+    topic = data.get("type") or data.get("topic")
+
+    if topic == "payment":
+        payment_id = data.get("data.id") or data.get("id")
+        payment_info = SDK.payment().get(payment_id)["response"]
+        status = payment_info.get("status")
+
+        if status == "approved":
+            email_usuario = payment_info["payer"]["email"]
+            print(f"✅ Pagamento APROVADO para: {email_usuario}")
+            
+        elif status == "cancelled" or status == "rejected":
+            print(f"❌ Pagamento recusado ou cancelado.")
+
+    return jsonify({"status": "ok"}), 200
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)

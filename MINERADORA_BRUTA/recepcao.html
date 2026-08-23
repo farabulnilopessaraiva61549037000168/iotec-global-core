@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Recepção · REGULUS</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="badge">Recepção Central</div>
+      <a class="small" href="{{ url_for('home') }}">Voltar ao saguão</a>
+    </div>
+
+    <section class="hero">
+      <h1>Atendimento por setores</h1>
+      <p>
+        Escolha o setor econômico correto ou informe manualmente o seu setor para abrir a ficha técnica universal.
+      </p>
+    </section>
+
+    <section class="grid">
+      {% for s in setores %}
+      <a class="card" href="{{ url_for('ficha') }}?setor={{ s }}">
+        <h3>{{ s }}</h3>
+        <p class="small">Abrir ficha técnica para {{ s }}.</p>
+      </a>
+      {% endfor %}
+    </section>
+
+    <div class="panel" style="margin-top:24px;">
+      <h3>Outro setor da economia</h3>
+      <p class="small">
+        Se o seu setor não estiver listado, informe manualmente e siga para a recepção técnica.
+      </p>
+
+      <form method="get" action="{{ url_for('ficha') }}">
+        <label>Digite seu setor</label>
+        <input name="setor" placeholder="Ex.: mineração, hotelaria, esportes, relações internacionais" required>
+        <button class="btn" type="submit">Abrir ficha técnica</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

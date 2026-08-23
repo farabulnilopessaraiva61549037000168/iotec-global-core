@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>IOTEC | Cockpit Pleno de Operação V2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root{
+      --bg-1:#060b13;
+      --bg-2:#0a1320;
+      --bg-3:#101c2d;
+      --card:#111b2aee;
+      --line:rgba(255,255,255,.08);
+      --text:#edf4ff;
+      --muted:#9fb4cb;
+      --blue:#5cb8ff;
+      --cyan:#58f2ff;
+      --violet:#8a7dff;
+      --green:#6df7b1;
+      --yellow:#ffd76e;
+      --red:#ff9090;
+      --shadow:0 12px 40px rgba(0,0,0,.28);
+      --glow-soft:0 0 0 1px rgba(124,190,255,.08), 0 0 22px rgba(64,121,255,.09);
+      --glow-strong:0 0 0 1px rgba(124,190,255,.18), 0 0 35px rgba(64,121,255,.16), 0 14px 38px rgba(0,0,0,.34);
+    }
+
+    * { box-sizing:border-box; }
+    html, body { height:100%; }
+    body{
+      margin:0;
+      color:var(--text);
+      font-family:Arial, sans-serif;
+      background:
+        radial-gradient(circle at 12% 10%, rgba(59,118,255,.18), transparent 20%),
+        radial-gradient(circle at 88% 12%, rgba(0,255,240,.10), transparent 18%),
+        radial-gradient(circle at 50% 100%, rgba(112,80,255,.12), transparent 32%),
+        linear-gradient(180deg, var(--bg-1), var(--bg-2) 45%, var(--bg-3));
+      overflow-y:auto;
+    }
+
+    ::-webkit-scrollbar{ width:12px; height:12px; }
+    ::-webkit-scrollbar-track{ background:#09111b; }
+    ::-webkit-scrollbar-thumb{
+      background:linear-gradient(180deg, #20466f, #16314f);
+      border-radius:999px;
+      border:2px solid #09111b;
+    }
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:50;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
+      flex-wrap:wrap;
+      padding:18px 24px;
+      backdrop-filter:blur(10px);
+      background:linear-gradient(90deg, rgba(8,13,22,.92), rgba(12,22,36,.90));
+      border-bottom:1px solid var(--line);
+      box-shadow:0 10px 28px rgba(0,0,0,.20);
+    }
+
+    .title-wrap{ max-width:980px; }
+    .title{
+      font-size:28px;
+      font-weight:800;
+      letter-spacing:.3px;
+      margin-bottom:4px;
+    }
+    .subtitle{
+      color:var(--muted);
+      line-height:1.45;
+      font-size:14px;
+    }
+
+    .actions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      border:none;
+      color:#fff;
+      font-weight:800;
+      letter-spacing:.2px;
+      padding:11px 18px;
+      border-radius:14px;
+      cursor:pointer;
+      background:linear-gradient(180deg, #1f4f86, #163a63);
+      box-shadow:var(--glow-soft), var(--shadow);
+      transition:.22s ease;
+    }
+    .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:var(--glow-strong);
+    }
+
+    .wrap{
+      width:min(1700px, calc(100% - 24px));
+      margin:16px auto 28px auto;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:1.35fr .8fr;
+      gap:16px;
+      margin-bottom:16px;
+    }
+
+    .card{
+      background:linear-gradient(180deg, rgba(16,27,42,.94), rgba(12,21,34,.94));
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:18px;
+      box-shadow:var(--glow-soft), var(--shadow);
+      position:relative;
+      overflow:hidden;
+      min-height:150px;
+      transition:.24s ease;
+    }
+    .card:hover{
+      transform:translateY(-2px);
+      box-shadow:var(--glow-strong);
+      border-color:rgba(140,194,255,.18);
+    }
+    .card::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(135deg, rgba(92,184,255,.08), transparent 28%, transparent 72%, rgba(88,242,255,.04));
+      pointer-events:none;
+    }
+
+    .card h3{
+      margin:0 0 12px 0;
+      font-size:18px;
+      position:relative;
+      z-index:1;
+    }
+
+    .card-scroll{
+      max-height:360px;
+      overflow:auto;
+      padding-right:6px;
+    }
+
+    .kpi-line{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:10px 0;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      line-height:1.4;
+      position:relative;
+      z-index:1;
+    }
+    .kpi-line:last-child{ border-bottom:none; }
+
+    .big-status{
+      font-size:38px;
+      font-weight:900;
+      line-height:1.08;
+      margin:8px 0 10px 0;
+      position:relative;
+      z-index:1;
+      word-break:break-word;
+    }
+
+    .meta{
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.45;
+      position:relative;
+      z-index:1;
+    }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:6px 11px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:800;
+      margin-top:8px;
+      position:relative;
+      z-index:1;
+      white-space:nowrap;
+    }
+    .ok{ background:rgba(27,88,55,.22); color:var(--green); }
+    .warn{ background:rgba(110,82,21,.24); color:var(--yellow); }
+    .err{ background:rgba(110,28,28,.24); color:var(--red); }
+    .info{ background:rgba(38,84,143,.24); color:#96ccff; }
+
+    .progress-shell{
+      width:100%;
+      height:16px;
+      background:rgba(255,255,255,.06);
+      border-radius:999px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.06);
+      box-shadow: inset 0 0 12px rgba(0,0,0,.16);
+      position:relative;
+      z-index:1;
+      margin-top:14px;
+    }
+    .progress-bar{
+      height:100%;
+      width:{{ progresso }}%;
+      background:linear-gradient(90deg, #3a6dff, #54d2ff, #7bf5c1);
+      box-shadow:0 0 16px rgba(84,210,255,.45);
+      transition:width .4s ease;
+    }
+    .progress-legend{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:13px;
+      position:relative;
+      z-index:1;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(280px, 1fr));
+      gap:16px;
+    }
+
+    .span-2{ grid-column:span 2; }
+    .span-3{ grid-column:span 3; }
+
+    .list-item{
+      padding:12px 0;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      line-height:1.48;
+      position:relative;
+      z-index:1;
+      overflow-wrap:anywhere;
+      word-break:break-word;
+    }
+    .list-item:last-child{ border-bottom:none; }
+
+    .id{
+      color:#8ec7ff;
+      font-weight:800;
+      letter-spacing:.2px;
+    }
+
+    .mono{
+      font-family:Consolas, monospace;
+      font-size:13px;
+      white-space:pre-wrap;
+      word-break:break-word;
+      overflow-wrap:anywhere;
+    }
+
+    .mini-grid{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
+      gap:12px;
+      position:relative;
+      z-index:1;
+    }
+
+    .mini-box{
+      padding:14px;
+      border-radius:16px;
+      background:linear-gradient(180deg, rgba(19,30,46,.88), rgba(14,24,38,.88));
+      border:1px solid rgba(255,255,255,.06);
+      min-height:118px;
+      overflow-wrap:anywhere;
+      word-break:break-word;
+      transition:.22s ease;
+    }
+    .mini-box:hover{
+      box-shadow:0 0 24px rgba(80,144,255,.14);
+      border-color:rgba(130,190,255,.16);
+    }
+
+    .mini-title{
+      font-size:13px;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    .mini-value{
+      font-size:24px;
+      font-weight:900;
+      line-height:1.15;
+    }
+
+    .footer{
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+      padding:18px 0 8px 0;
+      line-height:1.5;
+    }
+
+    @media (max-width: 1200px){
+      .hero{ grid-template-columns:1fr; }
+      .grid{ grid-template-columns:repeat(2, minmax(280px, 1fr)); }
+      .span-2,.span-3{ grid-column:span 2; }
+    }
+
+    @media (max-width: 780px){
+      .wrap{ width:min(100% - 12px, 1700px); }
+      .grid{ grid-template-columns:1fr; }
+      .span-2,.span-3{ grid-column:span 1; }
+      .mini-grid{ grid-template-columns:1fr; }
+      .title{ font-size:23px; }
+      .big-status{ font-size:31px; }
+    }
+  </style>
+
+  <script>
+    async function acao(url){
+      const resp = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" }
+      });
+      const data = await resp.json();
+      alert(JSON.stringify(data, null, 2));
+      location.reload();
+    }
+
+    function copiarAtalhoDesktop(){
+      const texto = "Abra na Area de Trabalho: IOTEC_COCKPIT_PLENO_V2.cmd ou IOTEC Cockpit Pleno V2.lnk";
+      navigator.clipboard.writeText(texto).then(() => {
+        alert("Instrucao copiada para a area de transferencia.");
+      }).catch(() => {
+        alert(texto);
+      });
+    }
+
+    setTimeout(() => location.reload(), 12000);
+  </script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="title-wrap">
+      <div class="title">IOTEC | Cockpit Pleno de Operação V2</div>
+      <div class="subtitle">
+        Centro vivo de observação, maturação, regulagem e operação plena do núcleo.
+        Os blocos acompanham o amadurecimento interno do sistema e refletem a promoção
+        de produtos vindos da área de regulagem para o cockpit central.
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn" onclick="acao('/api/start')">START</button>
+      <button class="btn" onclick="acao('/api/stop')">STOP</button>
+      <button class="btn" onclick="copiarAtalhoDesktop()">COPIAR INSTRUÇÃO DO DESKTOP</button>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero">
+      <div class="card">
+        <h3>Vida do Núcleo</h3>
+        <div class="big-status">{{ traduzir(dados.nucleo.status_geral) }}</div>
+        <div class="badge {% if dados.nucleo.operacao_plena %}ok{% else %}warn{% endif %}">
+          Operação plena = {{ dados.nucleo.operacao_plena }}
+        </div>
+        <div class="kpi-line"><span>Maturidade</span><strong>{{ traduzir(dados.nucleo.maturidade) }}</strong></div>
+        <div class="kpi-line"><span>Identidade visual</span><strong>{{ dados.nucleo.identidade_visual }}</strong></div>
+        <div class="kpi-line"><span>Última atualização</span><strong>{{ dados.nucleo.ultima_atualizacao }}</strong></div>
+
+        <div class="progress-shell">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="progress-legend">
+          Evolução visual do núcleo: <strong>{{ progresso }}%</strong> | Nível atual: <strong>{{ nivel_visual }}</strong>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Leitura Rápida da Central</h3>
+        <div class="mini-grid">
+          <div class="mini-box">
+            <div class="mini-title">Produtos totais</div>
+            <div class="mini-value">{{ dados.produtos|length }}</div>
+          </div>
+          <div class="mini-box">
+            <div class="mini-title">Produtos ativos</div>
+            <div class="mini-value">{{ dados.produtos|selectattr('ativo')|list|length }}</div>
+          </div>
+          <div class="mini-box">
+            <div class="mini-title">Incidentes abertos</div>
+            <div class="mini-value">{{ dados.incidentes|length }}</div>
+          </div>
+          <div class="mini-box">
+            <div class="mini-title">Eventos recentes</div>
+            <div class="mini-value">{{ dados.eventos_recentes|length }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Performance</h3>
+        <div class="card-scroll">
+          <div class="kpi-line"><span>Saúde</span><strong>{{ traduzir(dados.performance.saude) }}</strong></div>
+          <div class="kpi-line"><span>Latência</span><strong>{{ dados.performance.latencia_ms }} ms</strong></div>
+          <div class="kpi-line"><span>Eventos ao vivo</span><strong>{{ dados.performance.eventos_ao_vivo }}</strong></div>
+          <div class="kpi-line"><span>Módulos online</span><strong>{{ dados.performance.modulos_online }}</strong></div>
+          <div class="kpi-line"><span>Módulos degradados</span><strong>{{ dados.performance.modulos_degradados }}</strong></div>
+          <div class="kpi-line"><span>Módulos offline</span><strong>{{ dados.performance.modulos_offline }}</strong></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Checkpoint e Retomada</h3>
+        <div class="card-scroll">
+          <div class="kpi-line"><span>Status</span><strong>{{ traduzir(checkpoint.migracao.status) }}</strong></div>
+          <div class="kpi-line"><span>Última etapa</span><strong>{{ traduzir(checkpoint.migracao.ultima_etapa) }}</strong></div>
+          <div class="kpi-line"><span>Retomada habilitada</span><strong>{{ checkpoint.migracao.retomada_habilitada }}</strong></div>
+          <div class="kpi-line"><span>Último checkpoint</span><strong>{{ checkpoint.migracao.ultimo_checkpoint_em }}</strong></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Gateways e Receita</h3>
+        <div class="card-scroll">
+          <div class="list-item">
+            <span class="id">PAYPAL</span><br>
+            Status: <strong>{{ traduzir(dados.gateways.paypal.status) }}</strong><br>
+            Aceitando pagamentos:
+            <strong>{{ dados.gateways.paypal.aceitando_pagamentos }}</strong><br>
+            Travamento detectado:
+            <strong>{{ dados.gateways.paypal.travamento_detectado }}</strong><br>
+            <span class="badge {% if dados.gateways.paypal.aceitando_pagamentos %}ok{% else %}err{% endif %}">Canal financeiro principal</span>
+          </div>
+
+          <div class="list-item">
+            <span class="id">PICPAY</span><br>
+            Status: <strong>{{ traduzir(dados.gateways.picpay.status) }}</strong><br>
+            Aceitando pagamentos:
+            <strong>{{ dados.gateways.picpay.aceitando_pagamentos }}</strong><br>
+            Travamento detectado:
+            <strong>{{ dados.gateways.picpay.travamento_detectado }}</strong><br>
+            <span class="badge {% if dados.gateways.picpay.aceitando_pagamentos %}ok{% else %}warn{% endif %}">Canal de apoio operacional</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card span-2">
+        <h3>Fila de Regulagem e Maturação</h3>
+        <div class="card-scroll">
+          {% for item in dados.fila_regulagem %}
+          <div class="list-item">
+            <span class="id">{{ item.produto_id }}</span> — <strong>{{ item.nome }}</strong><br>
+            Status: {{ traduzir(item.status) }}<br>
+            Problemas detectados: {{ item.problemas_detectados }}<br>
+            Prioridade: {{ item.prioridade }}<br>
+            Apto para operação plena: {{ item.apto_operacao_plena }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Produtos no Cockpit</h3>
+        <div class="card-scroll">
+          {% for produto in dados.produtos %}
+          <div class="list-item">
+            <span class="id">{{ produto.produto_id }}</span> — <strong>{{ produto.nome }}</strong><br>
+            Camada: {{ traduzir(produto.camada) }}<br>
+            Setor: {{ traduzir(produto.setor) }}<br>
+            Vínculo de gateway: {{ traduzir(produto.vinculo_gateway) }}<br>
+            Pronto para subir: {{ produto.pronto_para_subir }}<br>
+            Ativo: {{ produto.ativo }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card span-3">
+        <h3>Incidentes Catalogados</h3>
+        <div class="card-scroll">
+          {% for erro in dados.incidentes %}
+          <div class="list-item">
+            <span class="id">{{ erro.erro_id }}</span> — <strong>{{ erro.titulo }}</strong><br>
+            Módulo: {{ erro.modulo }} | Produto: {{ erro.produto_id }}<br>
+            Criticidade: {{ traduzir(erro.criticidade) }} | Prioridade: {{ erro.prioridade }}<br>
+            Status: {{ traduzir(erro.status) }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="card span-3">
+        <h3>Eventos Recentes do Núcleo</h3>
+        <div class="card-scroll">
+          {% for evento in dados.eventos_recentes %}
+          <div class="list-item mono">[{{ evento.gerado_em if evento.gerado_em else "-" }}] {{ evento.evento_id }} | {{ traduzir(evento.tipo) }} | {{ traduzir(evento.nivel) }} | {{ evento.mensagem }}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      O que acontece no interior do núcleo não fica invisível. Tudo é percebido, classificado, regulado e apresentado.
+      O cockpit amadurece conforme a central do núcleo promove produtos da regulagem para a operação plena.
+    </div>
+  </div>
+</body>
+</html>

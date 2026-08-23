@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriôsca - Sistema Bancário Premium</title>
+    <link href="Matri%C3%B4sca%20-%20Sistema%20Banc%C3%A1rio%20Premium_01_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9A962;
+            --gold-light: #E8D5A3;
+            --emerald: #2E8B57;
+            --emerald-dark: #1a5235;
+            --emerald-glow: rgba(46, 139, 87, 0.4);
+            --obsidian: #0a0a0a;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: var(--obsidian);
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* === SPLASH SCREEN === */
+        .splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--obsidian);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            animation: splashFade 4s ease-in-out forwards;
+            animation-delay: 3s;
+        }
+        
+        @keyframes splashFade {
+            0% { opacity: 1; }
+            100% { opacity: 0; pointer-events: none; }
+        }
+
+        .splash-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 4.5rem;
+            font-weight: 300;
+            letter-spacing: 1.2rem;
+            color: var(--emerald);
+            opacity: 0;
+            animation: titleEmerge 2.5s ease-out forwards;
+            text-transform: uppercase;
+        }
+        
+        @keyframes titleEmerge {
+            0% { opacity: 0; transform: translateY(30px); letter-spacing: 2rem; }
+            60% { opacity: 1; transform: translateY(0); letter-spacing: 1.2rem; }
+            100% { opacity: 1; }
+        }
+
+        .splash-line {
+            width: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            margin-top: 20px;
+            animation: lineExpand 1.5s ease-out forwards;
+            animation-delay: 1s;
+        }
+        
+        @keyframes lineExpand {
+            0% { width: 0; }
+            100% { width: 300px; }
+        }
+
+        .splash-subtitle {
+            font-size: 0.75rem;
+            letter-spacing: 0.5rem;
+            color: var(--gold);
+            margin-top: 25px;
+            opacity: 0;
+            animation: subtitleFade 1s ease-out forwards;
+            animation-delay: 2s;
+            text-transform: uppercase;
+        }
+        
+        @keyframes subtitleFade {
+            0% { opacity: 0; }
+            100% { opacity: 0.7; }
+        }
+
+        /* === TRIÂNGULO ÚNICO GIRANDO === */
+        .triangle-container {
+            position: fixed;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 22px solid transparent;
+            border-right: 22px solid transparent;
+            border-bottom: 40px solid var(--emerald);
+            filter: drop-shadow(0 0 15px var(--emerald-glow));
+            animation: triangleRotate 4s linear infinite;
+            transform-origin: center 60%;
+        }
+        
+        @keyframes triangleRotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* === MAIN CONTAINER === */
+        .main-container {
+            opacity: 0;
+            animation: mainAppear 1s ease-out forwards;
+            animation-delay: 6s;
+            padding-top: 100px;
+        }
+        
+        @keyframes mainAppear {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* === HEADER === */
+        .header {
+            text-align: center;
+            padding: 20px 20px 30px;
+        }
+
+        .header-brand {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 300;
+            letter-spacing: 0.6rem;
+            color: var(--emerald);
+            text-transform: uppercase;
+        }
+
+        .header-tagline {
+            font-size: 0.6rem;
+            letter-spacing: 0.3rem;
+            color: rgba(255,255,255,0.35);
+            margin-top: 6px;
+            text-transform: uppercase;
+        }
+
+        /* === GOLDEN RATIO DIVIDER === */
+        .phi-divider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin: 25px 0;
+            padding: 0 40px;
+        }
+
+        .phi-line {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold-light) 50%, transparent);
+            flex: 1;
+            max-width: 150px;
+            opacity: 0.25;
+        }
+
+        .phi-gem {
+            width: 5px;
+            height: 5px;
+            background: var(--emerald);
+            transform: rotate(45deg);
+            box-shadow: 0 0 8px var(--emerald-glow);
+        }
+
+        /* === AMBIENTE GERENCIAL === */
+        .ambiente-gerencial {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            font-size: 0.6rem;
+            letter-spacing: 0.35rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 25px;
+            opacity: 0.6;
+        }
+
+        /* === PAINEL PRINCIPAL === */
+        .painel-principal {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: rgba(255,255,255,0.02);
+            margin-bottom: 30px;
+        }
+
+        .funcao-card {
+            background: var(--obsidian);
+            padding: 25px 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .funcao-card:hover {
+            background: rgba(46, 139, 87, 0.08);
+            border-color: rgba(46, 139, 87, 0.15);
+        }
+
+        .funcao-icon {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            opacity: 0.7;
+        }
+
+        .funcao-nome {
+            font-size: 0.6rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.6);
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+
+        .funcao-vantagem {
+            font-size: 0.5rem;
+            color: var(--emerald);
+            opacity: 0.7;
+        }
+
+        /* === MÓDULOS AVANÇADOS === */
+        .modulos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .modulo-card {
+            background: rgba(255,255,255,0.015);
+            border: 1px solid rgba(255,255,255,0.04);
+            padding: 25px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .modulo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .modulo-card:hover {
+            background: rgba(46, 139, 87, 0.05);
+            border-color: rgba(46, 139, 87, 0.2);
+        }
+
+        .modulo-card:hover::before {
+            opacity: 0.5;
+        }
+
+        .modulo-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .modulo-gem {
+            width: 4px;
+            height: 4px;
+            background: var(--emerald);
+            transform: rotate(45deg);
+            margin-right: 12px;
+        }
+
+        .modulo-titulo {
+            font-size: 0.7rem;
+            letter-spacing: 0.1rem;
+            color: rgba(255,255,255,0.75);
+            font-weight: 400;
+        }
+
+        .modulo-desc {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.4);
+            line-height: 1.7;
+            font-weight: 200;
+            margin-bottom: 12px;
+        }
+
+        .modulo-beneficio {
+            font-size: 0.55rem;
+            color: var(--gold);
+            opacity: 0.6;
+            display: flex;
+            align-items: center;
+        }
+
+        .modulo-beneficio::before {
+            content: '↑';
+            margin-right: 6px;
+            color: var(--emerald);
+        }
+
+        /* === MÉTRICAS DE PERFORMANCE === */
+        .metricas-row {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            padding: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .metrica-item {
+            text-align: center;
+        }
+
+        .metrica-valor {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2rem;
+            font-weight: 300;
+            color: var(--emerald);
+        }
+
+        .metrica-label {
+            font-size: 0.55rem;
+            letter-spacing: 0.15rem;
+            color: rgba(255,255,255,0.35);
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+
+        /* === FERRAMENTAS DO DIA A DIA === */
+        .ferramentas-list {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .ferramenta-item {
+            display: flex;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.025);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .ferramenta-item:hover {
+            padding-left: 12px;
+        }
+
+        .ferramenta-gem {
+            width: 3px;
+            height: 3px;
+            background: var(--gold);
+            transform: rotate(45deg);
+            margin-right: 15px;
+            opacity: 0.5;
+        }
+
+        .ferramenta-info {
+            flex: 1;
+        }
+
+        .ferramenta-nome {
+            font-size: 0.7rem;
+            letter-spacing: 0.1rem;
+            color: rgba(255,255,255,0.6);
+            font-weight: 300;
+        }
+
+        .ferramenta-plus {
+            font-size: 0.5rem;
+            color: var(--emerald);
+            margin-top: 3px;
+            opacity: 0.7;
+        }
+
+        .ferramenta-arrow {
+            font-size: 0.65rem;
+            color: rgba(255,255,255,0.15);
+            transition: all 0.3s;
+        }
+
+        .ferramenta-item:hover .ferramenta-arrow {
+            color: var(--emerald);
+            transform: translateX(4px);
+        }
+
+        /* === DIFERENCIAIS === */
+        .diferenciais-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .diferencial-card {
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.025);
+            position: relative;
+        }
+
+        .diferencial-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 25px;
+            right: 25px;
+            height: 1px;
+            background: linear-gradient(90deg, var(--emerald), var(--gold));
+            opacity: 0.2;
+        }
+
+        .diferencial-num {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+            opacity: 0.3;
+            margin-bottom: 10px;
+        }
+
+        .diferencial-titulo {
+            font-size: 0.7rem;
+            letter-spacing: 0.08rem;
+            color: rgba(255,255,255,0.75);
+            margin-bottom: 8px;
+        }
+
+        .diferencial-desc {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.35);
+            line-height: 1.7;
+            font-weight: 200;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .footer-brand {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1rem;
+            letter-spacing: 0.5rem;
+            color: var(--emerald);
+            opacity: 0.5;
+        }
+
+        .footer-line {
+            width: 50px;
+            height: 1px;
+            background: var(--gold);
+            margin: 15px auto;
+            opacity: 0.25;
+        }
+
+        .footer-text {
+            font-size: 0.5rem;
+            letter-spacing: 0.25rem;
+            color: rgba(255,255,255,0.2);
+            text-transform: uppercase;
+        }
+
+        /* === MODAL === */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            overflow-y: auto;
+            padding: 40px 20px;
+        }
+
+        .modal-content {
+            background: var(--obsidian);
+            border: 1px solid rgba(46, 139, 87, 0.2);
+            max-width: 550px;
+            width: 100%;
+            padding: 40px;
+            position: relative;
+        }
+
+        .modal-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 40px;
+            right: 40px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+
+        .modal-gem {
+            width: 6px;
+            height: 6px;
+            background: var(--emerald);
+            transform: rotate(45deg);
+            margin: 0 auto 25px;
+            box-shadow: 0 0 15px var(--emerald-glow);
+        }
+
+        .modal-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.3rem;
+            letter-spacing: 0.2rem;
+            color: var(--emerald);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .modal-desc {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.5);
+            line-height: 1.8;
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 200;
+        }
+
+        .modal-section {
+            margin-bottom: 20px;
+        }
+
+        .modal-section-title {
+            font-size: 0.55rem;
+            letter-spacing: 0.2rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            opacity: 0.6;
+        }
+
+        .modal-features {
+            display: grid;
+            gap: 8px;
+        }
+
+        .modal-feature {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.02);
+        }
+
+        .modal-feature-gem {
+            width: 3px;
+            height: 3px;
+            background: var(--emerald);
+            transform: rotate(45deg);
+            margin-right: 12px;
+        }
+
+        .modal-feature-text {
+            font-size: 0.65rem;
+            color: rgba(255,255,255,0.55);
+            letter-spacing: 0.05rem;
+        }
+
+        .modal-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+            padding: 20px 0;
+            border-top: 1px solid rgba(255,255,255,0.03);
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .modal-stat {
+            text-align: center;
+        }
+
+        .modal-stat-value {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2rem;
+            color: var(--emerald);
+        }
+
+        .modal-stat-label {
+            font-size: 0.5rem;
+            color: rgba(255,255,255,0.35);
+            margin-top: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .modal-close {
+            display: block;
+            width: 100%;
+            background: transparent;
+            border: 1px solid rgba(46, 139, 87, 0.25);
+            color: var(--emerald);
+            padding: 12px;
+            font-size: 0.6rem;
+            letter-spacing: 0.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        .modal-close:hover {
+            background: var(--emerald);
+            color: var(--obsidian);
+        }
+
+        @media (max-width: 900px) {
+            .painel-principal { grid-template-columns: repeat(2, 1fr); }
+            .modulos-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 600px) {
+            .splash-title { font-size: 2.2rem; letter-spacing: 0.5rem; }
+            .painel-principal { grid-template-columns: 1fr; }
+            .metricas-row { gap: 30px; }
+            .diferenciais-grid { grid-template-columns: 1fr; }
+            .modal-stats { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SPLASH SCREEN -->
+    <div class="splash-screen">
+        <h1 class="splash-title">Matriôsca</h1>
+        <div class="splash-line"></div>
+        <p class="splash-subtitle">Sistema Bancário Premium</p>
+    </div>
+
+    <!-- TRIÂNGULO ÚNICO GIRANDO -->
+    <div class="triangle-container">
+        <div class="triangle"></div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="main-container">
+
+        <!-- HEADER -->
+        <header class="header">
+            <h1 class="header-brand">Matriôsca</h1>
+            <p class="header-tagline">Ambiente Gerencial de Elite</p>
+        </header>
+
+        <div class="phi-divider">
+            <div class="phi-line"></div>
+            <div class="phi-gem"></div>
+            <div class="phi-line"></div>
+        </div>
+
+        <div class="ambiente-gerencial">
+
+            <!-- FUNÇÕES DO DIA A DIA -->
+            <h3 class="section-title">Operações Diárias</h3>
+            <div class="painel-principal">
+                <div class="funcao-card" onclick="openModal('abertura_conta')">
+                    <div class="funcao-icon">◇</div>
+                    <div class="funcao-nome">Abertura de Conta</div>
+                    <div class="funcao-vantagem">-70% tempo</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('consulta_cliente')">
+                    <div class="funcao-icon">◈</div>
+                    <div class="funcao-nome">Consulta 360°</div>
+                    <div class="funcao-vantagem">Visão completa</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('proposta_credito')">
+                    <div class="funcao-icon">◆</div>
+                    <div class="funcao-nome">Proposta de Crédito</div>
+                    <div class="funcao-vantagem">Aprovação 2min</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('simulador')">
+                    <div class="funcao-icon">⬡</div>
+                    <div class="funcao-nome">Simulador Universal</div>
+                    <div class="funcao-vantagem">Todos produtos</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('renovacao')">
+                    <div class="funcao-icon">⬢</div>
+                    <div class="funcao-nome">Renovação Automática</div>
+                    <div class="funcao-vantagem">1 clique</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('portabilidade')">
+                    <div class="funcao-icon">⎔</div>
+                    <div class="funcao-nome">Portabilidade</div>
+                    <div class="funcao-vantagem">+40% captação</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('investimentos')">
+                    <div class="funcao-icon">◇</div>
+                    <div class="funcao-nome">Mesa Investimentos</div>
+                    <div class="funcao-vantagem">Recomendação IA</div>
+                </div>
+                <div class="funcao-card" onclick="openModal('seguros')">
+                    <div class="funcao-icon">◈</div>
+                    <div class="funcao-nome">Seguros &amp; Previdência</div>
+                    <div class="funcao-vantagem">Cross-sell ativo</div>
+                </div>
+            </div>
+
+            <div class="phi-divider">
+                <div class="phi-line"></div>
+                <div class="phi-gem"></div>
+                <div class="phi-line"></div>
+            </div>
+
+            <!-- MÓDULOS AVANÇADOS -->
+            <h3 class="section-title">Módulos de Alta Performance</h3>
+            <div class="modulos-grid">
+                <div class="modulo-card" onclick="openModal('gestao_carteira')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">Gestão de Carteira Premium</div>
+                    </div>
+                    <div class="modulo-desc">Segmentação inteligente com IA que identifica oportunidades de negócio em tempo real.</div>
+                    <div class="modulo-beneficio">+35% conversão de ofertas</div>
+                </div>
+                <div class="modulo-card" onclick="openModal('score_preditivo')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">Score Preditivo Avançado</div>
+                    </div>
+                    <div class="modulo-desc">Análise comportamental que antecipa inadimplência e sugere ações preventivas.</div>
+                    <div class="modulo-beneficio">-45% inadimplência</div>
+                </div>
+                <div class="modulo-card" onclick="openModal('metas_tempo_real')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">Metas em Tempo Real</div>
+                    </div>
+                    <div class="modulo-desc">Dashboard executivo com projeções e alertas de oportunidades de fechamento.</div>
+                    <div class="modulo-beneficio">+28% atingimento</div>
+                </div>
+                <div class="modulo-card" onclick="openModal('atendimento_ia')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">Assistente IA do Gerente</div>
+                    </div>
+                    <div class="modulo-desc">Copiloto inteligente que prepara briefings e sugere próximas ações por cliente.</div>
+                    <div class="modulo-beneficio">-60% tempo preparação</div>
+                </div>
+                <div class="modulo-card" onclick="openModal('crm_inteligente')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">CRM Bancário Integrado</div>
+                    </div>
+                    <div class="modulo-desc">Histórico completo de relacionamento com timeline e insights automáticos.</div>
+                    <div class="modulo-beneficio">+50% retenção</div>
+                </div>
+                <div class="modulo-card" onclick="openModal('pipeline_negocios')">
+                    <div class="modulo-header">
+                        <div class="modulo-gem"></div>
+                        <div class="modulo-titulo">Pipeline de Negócios</div>
+                    </div>
+                    <div class="modulo-desc">Funil visual de oportunidades com probabilidade de fechamento calculada.</div>
+                    <div class="modulo-beneficio">+40% previsibilidade</div>
+                </div>
+            </div>
+
+            <div class="phi-divider">
+                <div class="phi-line"></div>
+                <div class="phi-gem"></div>
+                <div class="phi-line"></div>
+            </div>
+
+            <!-- MÉTRICAS -->
+            <div class="metricas-row">
+                <div class="metrica-item">
+                    <div class="metrica-valor">99.7%</div>
+                    <div class="metrica-label">Precisão Analítica</div>
+                </div>
+                <div class="metrica-item">
+                    <div class="metrica-valor">2.4s</div>
+                    <div class="metrica-label">Tempo Resposta</div>
+                </div>
+                <div class="metrica-item">
+                    <div class="metrica-valor">+47%</div>
+                    <div class="metrica-label">Produtividade</div>
+                </div>
+                <div class="metrica-item">
+                    <div class="metrica-valor">-38%</div>
+                    <div class="metrica-label">Tempo Operacional</div>
+                </div>
+            </div>
+
+            <div class="phi-divider">
+                <div class="phi-line"></div>
+                <div class="phi-gem"></div>
+                <div class="phi-line"></div>
+            </div>
+
+            <!-- FERRAMENTAS AVANÇADAS -->
+            <h3 class="section-title">Ferramentas de Retorno ao Banco</h3>
+            <div class="ferramentas-list">
+                <div class="ferramenta-item" onclick="openModal('captacao_recursos')">
+                    <div class="ferramenta-gem"></div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">Motor de Captação Inteligente</div>
+                        <div class="ferramenta-plus">Identifica clientes com recursos em outros bancos</div>
+                    </div>
+                    <span class="ferramenta-arrow">→</span>
+                </div>
+                <div class="ferramenta-item" onclick="openModal('rentabilizacao')">
+                    <div class="ferramenta-gem"></div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">Rentabilização de Carteira</div>
+                        <div class="ferramenta-plus">Maximiza spread e receita por cliente</div>
+                    </div>
+                    <span class="ferramenta-arrow">→</span>
+                </div>
+                <div class="ferramenta-item" onclick="openModal('cross_selling')">
+                    <div class="ferramenta-gem"></div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">Cross-Selling Automatizado</div>
+                        <div class="ferramenta-plus">Ofertas personalizadas por momento de vida</div>
+                    </div>
+                    <span class="ferramenta-arrow">→</span>
+                </div>
+                <div class="ferramenta-item" onclick="openModal('prevencao_churn')">
+                    <div class="ferramenta-gem"></div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">Prevenção de Churn</div>
+                        <div class="ferramenta-plus">Alerta 30 dias antes da saída do cliente</div>
+                    </div>
+                    <span class="ferramenta-arrow">→</span>
+                </div>
+                <div class="ferramenta-item" onclick="openModal('recuperacao')">
+                    <div class="ferramenta-gem"></div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">Recuperação de Crédito</div>
+                        <div class="ferramenta-plus">Negociação inteligente com proposta ideal</div>
+                    </div>
+                    <span class="ferramenta-arrow">→</span>
+                </div>
+            </div>
+
+            <div class="phi-divider">
+                <div class="phi-line"></div>
+                <div class="phi-gem"></div>
+                <div class="phi-line"></div>
+            </div>
+
+            <!-- DIFERENCIAIS -->
+            <h3 class="section-title">Diferenciais Premium</h3>
+            <div class="diferenciais-grid">
+                <div class="diferencial-card">
+                    <div class="diferencial-num">01</div>
+                    <div class="diferencial-titulo">Compliance Automatizado</div>
+                    <div class="diferencial-desc">100% das operações validadas em tempo real. Zero retrabalho regulatório.</div>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-num">02</div>
+                    <div class="diferencial-titulo">Integração Total</div>
+                    <div class="diferencial-desc">Conectado ao core bancário, CRM, bureaus e open banking em uma única tela.</div>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-num">03</div>
+                    <div class="diferencial-titulo">Mobile First</div>
+                    <div class="diferencial-desc">Atenda clientes de qualquer lugar com aprovação em tempo real no celular.</div>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-num">04</div>
+                    <div class="diferencial-titulo">Suporte Especializado</div>
+                    <div class="diferencial-desc">Mesa de operações dedicada 24/7 para casos complexos e alta renda.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="phi-divider">
+            <div class="phi-line"></div>
+            <div class="phi-gem"></div>
+            <div class="phi-line"></div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-brand">Matriôsca</div>
+            <div class="footer-line"></div>
+            <p class="footer-text">Tecnologia Bancária de Nova Geração</p>
+        </footer>
+
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <div class="modal-gem"></div>
+            <h2 class="modal-title" id="modal-title">Módulo</h2>
+            <p class="modal-desc" id="modal-desc">Descrição do módulo.</p>
+            <div class="modal-stats" id="modal-stats"></div>
+            <div class="modal-section">
+                <div class="modal-section-title">Funcionalidades</div>
+                <div class="modal-features" id="modal-features"></div>
+            </div>
+            <button class="modal-close" onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        const modules = {
+            abertura_conta: {
+                title: 'Abertura de Conta Digital',
+                desc: 'Processo simplificado de onboarding com validação automática de documentos e compliance em tempo real.',
+                stats: [{v: '3min', l: 'Tempo Médio'}, {v: '-70%', l: 'Redução'}, {v: '99%', l: 'Aprovação'}],
+                features: ['OCR inteligente de documentos', 'Validação facial biométrica', 'Consulta automática a bureaus', 'Assinatura digital integrada', 'Envio automático ao BACEN']
+            },
+            consulta_cliente: {
+                title: 'Consulta Cliente 360°',
+                desc: 'Visão unificada de todo o relacionamento: produtos, movimentação, comportamento e oportunidades.',
+                stats: [{v: '1 tela', l: 'Tudo Visível'}, {v: '100%', l: 'Histórico'}, {v: 'Real-time', l: 'Atualização'}],
+                features: ['Perfil comportamental completo', 'Histórico de interações', 'Produtos contratados e uso', 'Score e limite disponível', 'Oportunidades identificadas']
+            },
+            proposta_credito: {
+                title: 'Proposta de Crédito Expressa',
+                desc: 'Análise e aprovação automatizada com decisão em segundos para crédito pessoal, consignado e imobiliário.',
+                stats: [{v: '2min', l: 'Aprovação'}, {v: '95%', l: 'Automático'}, {v: '+30%', l: 'Conversão'}],
+                features: ['Simulação multi-produto', 'Score proprietário + bureaus', 'Precificação dinâmica por risco', 'Aprovação escalonada automática', 'Contrato digital imediato']
+            },
+            simulador: {
+                title: 'Simulador Universal',
+                desc: 'Todos os produtos do banco em um único simulador comparativo para oferecer a melhor solução.',
+                stats: [{v: '15+', l: 'Produtos'}, {v: '< 1s', l: 'Cálculo'}, {v: '100%', l: 'Precisão'}],
+                features: ['Crédito pessoal e consignado', 'Financiamento veículos e imóveis', 'Capital de giro empresarial', 'Investimentos e previdência', 'Comparativo lado a lado']
+            },
+            renovacao: {
+                title: 'Renovação Automática',
+                desc: 'Sistema identifica contratos elegíveis e prepara proposta de renovação com melhores condições.',
+                stats: [{v: '1 clique', l: 'Renovar'}, {v: '+25%', l: 'Retenção'}, {v: 'Auto', l: 'Preparação'}],
+                features: ['Detecção de contratos renovávéis', 'Cálculo de novo limite', 'Proposta pré-aprovada', 'Condições especiais de fidelidade', 'Quitação e renovação simultânea']
+            },
+            portabilidade: {
+                title: 'Portabilidade Inteligente',
+                desc: 'Capture clientes de outros bancos com propostas competitivas calculadas automaticamente.',
+                stats: [{v: '+40%', l: 'Captação'}, {v: '24h', l: 'Conclusão'}, {v: 'Auto', l: 'Proposta'}],
+                features: ['Consulta saldo devedor online', 'Cálculo de economia para cliente', 'Proposta competitiva automática', 'Acompanhamento de status', 'Integração CIP/BACEN']
+            },
+            investimentos: {
+                title: 'Mesa de Investimentos',
+                desc: 'Assessoria completa com recomendações personalizadas baseadas em perfil e objetivos do cliente.',
+                stats: [{v: 'IA', l: 'Recomenda'}, {v: '100+', l: 'Produtos'}, {v: '+22%', l: 'Captação'}],
+                features: ['Suitability automatizado', 'Portfólio recomendado por perfil', 'Rebalanceamento sugerido', 'Comparativo com mercado', 'Relatórios para cliente']
+            },
+            seguros: {
+                title: 'Seguros & Previdência',
+                desc: 'Cross-sell inteligente que identifica momentos ideais para oferta de proteção e acumulação.',
+                stats: [{v: '+35%', l: 'Cross-sell'}, {v: 'Auto', l: 'Cotação'}, {v: '3min', l: 'Contratação'}],
+                features: ['Cotação instantânea multi-seguradora', 'Identificação de gaps de cobertura', 'Simulador de previdência', 'Proposta vinculada a crédito', 'Renovação automática']
+            },
+            gestao_carteira: {
+                title: 'Gestão de Carteira Premium',
+                desc: 'Painel completo de gerenciamento com segmentação automática e priorização de atendimento.',
+                stats: [{v: '+35%', l: 'Conversão'}, {v: 'IA', l: 'Prioriza'}, {v: '360°', l: 'Visão'}],
+                features: ['Segmentação por valor e potencial', 'Lista priorizada de contatos', 'Alertas de oportunidade', 'Indicadores de satisfação', 'Meta individual e equipe']
+            },
+            score_preditivo: {
+                title: 'Score Preditivo Avançado',
+                desc: 'Modelo proprietário que combina dados internos e externos para previsão de comportamento.',
+                stats: [{v: '-45%', l: 'Inadimplência'}, {v: '99.7%', l: 'Precisão'}, {v: '30d', l: 'Antecipação'}],
+                features: ['Score de propensão a atraso', 'Score de potencial de consumo', 'Score de risco de saída', 'Variáveis comportamentais', 'Atualização diária automática']
+            },
+            metas_tempo_real: {
+                title: 'Metas em Tempo Real',
+                desc: 'Dashboard executivo com acompanhamento minuto a minuto e projeções de fechamento.',
+                stats: [{v: '+28%', l: 'Atingimento'}, {v: 'Live', l: 'Atualiza'}, {v: 'IA', l: 'Projeta'}],
+                features: ['Painel individual e equipe', 'Ranking e gamificação', 'Projeção de fechamento', 'Alertas de risco de meta', 'Histórico e tendências']
+            },
+            atendimento_ia: {
+                title: 'Assistente IA do Gerente',
+                desc: 'Copiloto inteligente que prepara reuniões, sugere abordagens e automatiza tarefas repetitivas.',
+                stats: [{v: '-60%', l: 'Preparação'}, {v: 'GPT-4', l: 'Motor'}, {v: '24/7', l: 'Disponível'}],
+                features: ['Briefing automático pré-reunião', 'Sugestão de produtos ideal', 'Geração de propostas', 'Resumo de interações', 'Próximos passos sugeridos']
+            },
+            crm_inteligente: {
+                title: 'CRM Bancário Integrado',
+                desc: 'Sistema de relacionamento desenhado para operações bancárias com histórico completo.',
+                stats: [{v: '+50%', l: 'Retenção'}, {v: '100%', l: 'Histórico'}, {v: 'Auto', l: 'Registro'}],
+                features: ['Timeline de relacionamento', 'Registro automático de contatos', 'Tarefas e lembretes', 'Integração com canais digitais', 'NPS e satisfação integrados']
+            },
+            pipeline_negocios: {
+                title: 'Pipeline de Negócios',
+                desc: 'Funil visual de oportunidades com probabilidade de fechamento calculada por IA.',
+                stats: [{v: '+40%', l: 'Previsibilidade'}, {v: 'Kanban', l: 'Visual'}, {v: 'IA', l: 'Probabilidade'}],
+                features: ['Etapas customizáveis', 'Valor potencial por fase', 'Probabilidade de fechamento', 'Aging de oportunidades', 'Forecast automático']
+            },
+            captacao_recursos: {
+                title: 'Motor de Captação',
+                desc: 'Identifica clientes com recursos em outros bancos e sugere abordagem de captação.',
+                stats: [{v: '+R$2M', l: 'Captação/Mês'}, {v: 'IA', l: 'Identifica'}, {v: '85%', l: 'Precisão'}],
+                features: ['Análise de fluxo financeiro', 'Identificação de recursos externos', 'Proposta de captação gerada', 'Simulador de rentabilidade', 'Tracking de conversão']
+            },
+            rentabilizacao: {
+                title: 'Rentabilização de Carteira',
+                desc: 'Maximiza receita por cliente identificando oportunidades de upsell e reprecificação.',
+                stats: [{v: '+18%', l: 'Receita'}, {v: 'Cliente', l: 'Por Cliente'}, {v: 'Auto', l: 'Sugestões'}],
+                features: ['Análise de rentabilidade individual', 'Oportunidades de upsell', 'Reprecificação sugerida', 'Migração de segmento', 'Produtos complementares']
+            },
+            cross_selling: {
+                title: 'Cross-Selling Automatizado',
+                desc: 'Motor de recomendação que identifica o produto certo, para o cliente certo, na hora certa.',
+                stats: [{v: '+45%', l: 'Vendas'}, {v: 'ML', l: 'Motor'}, {v: 'Real-time', l: 'Ofertas'}],
+                features: ['Análise de momento de vida', 'Propensão por produto', 'Oferta contextualizada', 'Teste A/B automático', 'Mensuração de resultado']
+            },
+            prevencao_churn: {
+                title: 'Prevenção de Churn',
+                desc: 'Sistema alerta sobre clientes em risco de saída com 30 dias de antecedência.',
+                stats: [{v: '30d', l: 'Antecedência'}, {v: '-40%', l: 'Churn'}, {v: 'IA', l: 'Detecta'}],
+                features: ['Score de risco de saída', 'Sinais de insatisfação', 'Ações de retenção sugeridas', 'Ofertas de fidelização', 'Acompanhamento de resultado']
+            },
+            recuperacao: {
+                title: 'Recuperação de Crédito',
+                desc: 'Sistema inteligente de negociação com proposta ideal calculada por perfil.',
+                stats: [{v: '+35%', l: 'Recuperação'}, {v: 'Auto', l: 'Proposta'}, {v: 'Perfil', l: 'Por Perfil'}],
+                features: ['Segmentação de inadimplentes', 'Proposta ideal por perfil', 'Simulador de negociação', 'Acordo digital assinado', 'Acompanhamento de pagamentos']
+            }
+        };
+
+        function openModal(type) {
+            const data = modules[type];
+            document.getElementById('modal-title').textContent = data.title;
+            document.getElementById('modal-desc').textContent = data.desc;
+            
+            const statsHtml = data.stats.map(s => 
+                `<div class="modal-stat"><div class="modal-stat-value">${s.v}</div><div class="modal-stat-label">${s.l}</div></div>`
+            ).join('');
+            document.getElementById('modal-stats').innerHTML = statsHtml;
+            
+            const featuresHtml = data.features.map(f => 
+                `<div class="modal-feature"><div class="modal-feature-gem"></div><span class="modal-feature-text">${f}</span></div>`
+            ).join('');
+            document.getElementById('modal-features').innerHTML = featuresHtml;
+            
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+    </script>
+
+
+
+</body></html>

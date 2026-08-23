@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IOTEC TOWER</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:#020617;
+    color:white;
+}
+
+.header{
+    padding:20px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.btn{
+    margin:10px;
+    padding:15px;
+    border:1px solid #00d4ff;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:#00d4ff;
+    color:black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h2>IOTEC TOWER</h2>
+</div>
+
+<div style="padding:40px">
+
+    <div class="btn" onclick="abrir('SHOPPING')">ANDAR 1 - SHOPPING</div>
+    <div class="btn" onclick="abrir('PAY')">ANDAR 2 - PAGAMENTOS</div>
+    <div class="btn" onclick="abrir('PRAT')">ANDAR 3 - PRATELEIRA</div>
+
+</div>
+
+<script>
+function abrir(tipo){
+
+    let url = "";
+
+    if(tipo === "SHOPPING"){
+        url = "COLE_AQUI_SEU_LINK_RENDER";
+    }
+
+    if(tipo === "PAY"){
+        url = "COLE_AQUI_LINK_PAGAMENTO";
+    }
+
+    if(tipo === "PRAT"){
+        url = "COLE_AQUI_LINK_PRATELEIRA";
+    }
+
+    if(url !== ""){
+        window.open(url, "_blank");
+    } else {
+        alert("Link não configurado");
+    }
+}
+</script>
+
+</body>
+</html>

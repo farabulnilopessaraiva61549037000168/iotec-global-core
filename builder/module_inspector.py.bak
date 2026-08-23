@@ -1,0 +1,125 @@
+﻿import json
+import traceback
+import importlib.util
+
+from pathlib import Path
+from datetime import datetime
+
+class ModuleInspector:
+
+    def __init__(self):
+
+        self.errors=[]
+
+        self.loaded=[]
+
+    # --------------------------------------------------------
+
+    def inspect(self,file):
+
+        try:
+
+            spec=importlib.util.spec_from_file_location(
+
+                file.stem,
+
+                file
+
+            )
+
+            module=importlib.util.module_from_spec(spec)
+
+            spec.loader.exec_module(module)
+
+            self.loaded.append({
+
+                "module":file.name,
+
+                "status":"OK"
+
+            })
+
+            print("[ OK ]",file.name)
+
+        except Exception as e:
+
+            self.errors.append({
+
+                "module":file.name,
+
+                "exception":type(e).__name__,
+
+                "message":str(e),
+
+                "traceback":traceback.format_exc()
+
+            })
+
+            print("[FAIL]",file.name)
+
+    # --------------------------------------------------------
+
+    def execute(self):
+
+        print()
+
+        print("="*70)
+
+        print("MODULE INSPECTOR")
+
+        print("="*70)
+
+        print()
+
+        for file in sorted(
+
+            Path(".").glob("[0-9][0-9][0-9]_*.py")
+
+        ):
+
+            self.inspect(file)
+
+        Path("reports").mkdir(
+
+            exist_ok=True
+
+        )
+
+        report={
+
+            "generated_at":str(datetime.now()),
+
+            "loaded":self.loaded,
+
+            "errors":self.errors
+
+        }
+
+        with open(
+
+            "reports/module_errors.json",
+
+            "w",
+
+            encoding="utf-8"
+
+        ) as f:
+
+            json.dump(
+
+                report,
+
+                f,
+
+                indent=4,
+
+                ensure_ascii=False
+
+            )
+
+        print()
+
+        print("[ OK ] reports/module_errors.json")
+
+        print()
+

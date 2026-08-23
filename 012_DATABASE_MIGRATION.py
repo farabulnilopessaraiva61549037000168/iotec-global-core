@@ -1,0 +1,6 @@
+﻿# ==============================================================================# 012_DATABASE_MIGRATION.py# Corrige automaticamente a tabela missions# ==============================================================================import sqlite3from pathlib import PathROOT = Path(__file__).resolve().parentDB = ROOT / "MISSION_CONTROL" / "database" / "mission_control.db"conn = sqlite3.connect(DB, timeout=30)cur = conn.cursor()
+
+cur.execute("PRAGMA journal_mode=WAL")
+cur.execute("PRAGMA synchronous=NORMAL")
+cur.execute("PRAGMA busy_timeout=30000")cur.execute("PRAGMA table_info(missions)")cols = [x[1] for x in cur.fetchall()]novas = {    "description": "TEXT",    "owner": "TEXT"}for coluna, tipo in novas.items():    if coluna not in cols:        print(f"[ADD] {coluna}")        cur.execute(f"ALTER TABLE missions ADD COLUMN {coluna} {tipo}")if "status" not in cols:    cur.execute("ALTER TABLE missions ADD COLUMN status TEXT")if "priority" not in cols:    cur.execute("ALTER TABLE missions ADD COLUMN priority TEXT")conn.commit()cur.execute("PRAGMA table_info(missions)")print("\nCOLUNAS:")for c in cur.fetchall():    print(c[1])conn.close()print("\nDATABASE MIGRATION OK")
+

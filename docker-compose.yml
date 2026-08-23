@@ -1,0 +1,14 @@
+﻿version: '3.8'
+
+services:
+  iotec-engine:
+    build: .
+    container_name: iotec_engine
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - MERCADO_PAGO_TOKEN=APP_USR-6181905353270296-072908-78bbbbe69e0e9d7df828a6037067be76-1263677665
+      - PORT=5000
+    volumes:
+      - .:/app

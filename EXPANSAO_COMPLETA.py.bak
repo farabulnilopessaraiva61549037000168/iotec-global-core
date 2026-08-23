@@ -1,0 +1,167 @@
+# ============================================================
+# IOTEC CORE - EXPANSÃO COMPLETA (OFICINA + IA + INTERNET)
+# ============================================================
+
+import os, shutil, json, difflib, requests
+from datetime import datetime
+
+BASE = "C:\\IoTec"
+ORIGEM = os.path.join(BASE, "origem")
+OFICINA = os.path.join(BASE, "oficina")
+VERSOES = os.path.join(BASE, "versoes")
+LOG = os.path.join(BASE, "log.txt")
+
+for p in [ORIGEM, OFICINA, VERSOES]:
+    os.makedirs(p, exist_ok=True)
+
+# ============================================================
+# LOG
+# ============================================================
+
+def log(msg):
+    linha = f"[{datetime.now()}] {msg}"
+    print(linha)
+    with open(LOG, "a", encoding="utf-8") as f:
+        f.write(linha + "\n")
+
+# ============================================================
+# CONEXÃO (CONTROLADA)
+# ============================================================
+
+def verificar_internet():
+    try:
+        requests.get("https://www.google.com", timeout=3)
+        log("Internet: OK")
+        return True
+    except:
+        log("Internet: OFFLINE")
+        return False
+
+# ============================================================
+# BUSCA DE INTERFACES
+# ============================================================
+
+def listar_interfaces():
+    arquivos = []
+    for root, _, files in os.walk(ORIGEM):
+        for f in files:
+            if f.endswith(".html"):
+                arquivos.append(os.path.join(root, f))
+    return arquivos
+
+# ============================================================
+# CÓPIA SEGURA
+# ============================================================
+
+def copiar(arq):
+    nome = os.path.basename(arq)
+    destino = os.path.join(OFICINA, nome)
+    shutil.copy2(arq, destino)
+    return destino
+
+# ============================================================
+# IA DE ANÁLISE (simples, evolutiva)
+# ============================================================
+
+def analisar_interface(conteudo):
+    ajustes = []
+
+    if "button" in conteudo:
+        ajustes.append("Adicionar hover")
+
+    if "background" not in conteudo:
+        ajustes.append("Aplicar tema padrão")
+
+    return ajustes
+
+# ============================================================
+# DESIGN SYSTEM
+# ============================================================
+
+def aplicar_design(conteudo):
+    estilo = """
+<style>
+body {background:#0D0D0D;color:#F5F5F5;font-family:Inter;}
+button {transition:0.3s;}
+button:hover {transform:translateY(-2px);}
+</style>
+"""
+    if "<head>" in conteudo:
+        conteudo = conteudo.replace("<head>", "<head>" + estilo)
+
+    return conteudo
+
+# ============================================================
+# COMPARAÇÃO (tipo Git visual)
+# ============================================================
+
+def comparar(original, novo, nome):
+    diff = difflib.unified_diff(
+        original.splitlines(),
+        novo.splitlines(),
+        lineterm=""
+    )
+
+    arquivo = os.path.join(VERSOES, f"{nome}_diff.txt")
+    with open(arquivo, "w", encoding="utf-8") as f:
+        f.write("\n".join(diff))
+
+# ============================================================
+# PROCESSAMENTO COMPLETO
+# ============================================================
+
+def processar_interface(arq):
+
+    nome = os.path.basename(arq)
+
+    with open(arq, "r", encoding="utf-8") as f:
+        original = f.read()
+
+    copia = copiar(arq)
+
+    ajustes = analisar_interface(original)
+    log(f"{nome} ajustes: {ajustes}")
+
+    novo = aplicar_design(original)
+
+    with open(copia, "w", encoding="utf-8") as f:
+        f.write(novo)
+
+    comparar(original, novo, nome)
+
+# ============================================================
+# ORQUESTRAÇÃO (tipo Netflix)
+# ============================================================
+
+def escolher_interface():
+    arquivos = os.listdir(OFICINA)
+    if arquivos:
+        return arquivos[0]
+    return None
+
+# ============================================================
+# EXECUÇÃO
+# ============================================================
+
+def executar():
+
+    online = verificar_internet()
+
+    interfaces = listar_interfaces()
+
+    for i in interfaces:
+        processar_interface(i)
+
+    ativa = escolher_interface()
+
+    if ativa:
+        log(f"Interface ativa: {ativa}")
+    else:
+        log("Nenhuma interface disponível")
+
+# ============================================================
+# START
+# ============================================================
+
+if __name__ == "__main__":
+    executar()

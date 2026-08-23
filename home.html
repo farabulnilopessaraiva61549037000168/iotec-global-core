@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IOTEC CORE</title>
+
+<style>
+body {
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#0B0B0F;
+    color:#EAEAF0;
+    display:flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width:220px;
+    height:100vh;
+    background:#111117;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.logo {
+    font-size:18px;
+    margin-bottom:30px;
+    color:#4FD1C5;
+}
+
+.menu {
+    cursor:pointer;
+    padding:12px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.menu:hover {
+    background:#1A1A22;
+    color:#7C3AED;
+}
+
+/* MAIN */
+.main {
+    flex:1;
+    padding:30px;
+}
+
+.card {
+    background:#111117;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.card:hover {
+    border:1px solid #4FD1C5;
+}
+
+/* CHAT */
+.chat {
+    position:fixed;
+    bottom:0;
+    left:220px;
+    right:0;
+    background:#0B0B0F;
+    border-top:1px solid #222;
+    display:flex;
+}
+
+.chat input {
+    flex:1;
+    padding:12px;
+    background:#0B0B0F;
+    border:none;
+    color:#EAEAF0;
+}
+
+.chat button {
+    padding:12px;
+    background:#4FD1C5;
+    border:none;
+    color:#000;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="logo">IOTEC CORE</div>
+
+    <div class="menu" onclick="carregar('core')">Core</div>
+    <div class="menu" onclick="carregar('financeiro')">Financeiro</div>
+    <div class="menu" onclick="carregar('pedidos')">Pedidos</div>
+    <div class="menu" onclick="carregar('entregas')">Entregas</div>
+    <div class="menu" onclick="carregar('modulos')">Módulos</div>
+</div>
+
+<div class="main" id="conteudo">
+    <h2>Painel Central</h2>
+    <div class="card">Sistema ativo</div>
+</div>
+
+<div class="chat">
+    <input id="cmd" placeholder="Digite um comando..." />
+    <button onclick="enviar()">OK</button>
+</div>
+
+<script>
+function carregar(area){
+    let c = document.getElementById("conteudo");
+
+    if(area === "financeiro"){
+        c.innerHTML = "<h2>Financeiro</h2><div class='card'>Pagamentos registrados</div>";
+    }
+    if(area === "pedidos"){
+        c.innerHTML = "<h2>Pedidos</h2><div class='card'>Pedidos ativos</div>";
+    }
+    if(area === "entregas"){
+        c.innerHTML = "<h2>Entregas</h2><div class='card'>Arquivos enviados</div>";
+    }
+    if(area === "modulos"){
+        c.innerHTML = "<h2>Módulos</h2><div class='card'>Execução do núcleo</div>";
+    }
+    if(area === "core"){
+        c.innerHTML = "<h2>Core</h2><div class='card'>Sistema operacional</div>";
+    }
+}
+
+function enviar(){
+    let cmd = document.getElementById("cmd").value;
+    alert("Comando enviado: " + cmd);
+}
+</script>
+
+</body>
+</html>

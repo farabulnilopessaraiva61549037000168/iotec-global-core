@@ -1,0 +1,14 @@
+produto_digital:
+  pasta_raiz: "CiberJustica_Kit_Digital"
+  estrutura:
+    - "01_GUIA/guia_principal.pdf"
+    - "02_PLANILHAS/planilhas_modelo.xlsx"
+    - "02_PLANILHAS/graficos_base.xlsx"
+    - "03_MODELOS/modelo_relatorio.docx"
+    - "03_MODELOS/estrutura_tcc.docx"
+    - "04_REFERENCIAS/referencias_basicas.pdf"
+    - "04_REFERENCIAS/artigos_apoio.pdf"
+    - "05_BONUS/bonus_metodologia.pdf"
+    - "06_CAPA/capa_produto.png"
+    - "07_COPY/pagina_venda.txt"
+    - "08_ADMIN/metadados_produto.json"

@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS CONSÓRCIO IA | Sistema de Administração</title>
+    <link href="REGULUS%20CONS%C3%93RCIO%20IA%20_%20Sistema%20de%20Administra%C3%A7%C3%A3o_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #09090b;
+            --bg-secondary: #18181b;
+            --bg-tertiary: #27272a;
+            --border: #3f3f46;
+            --border-light: #52525b;
+            --text: #fafafa;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --accent: #3b82f6;
+            --accent-light: #60a5fa;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --error: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            min-height: 100vh;
+        }
+
+        /* === SCROLLBAR === */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        /* === HEADER === */
+        .header {
+            padding: 16px 32px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--accent);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .logo-text {
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.02em;
+        }
+
+        .logo-tag {
+            padding: 3px 8px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .header-status {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        /* === MAIN LAYOUT === */
+        .main {
+            display: grid;
+            grid-template-columns: 280px 1fr 320px;
+            min-height: calc(100vh - 65px);
+        }
+
+        /* === SIDEBAR ESQUERDA === */
+        .sidebar-left {
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            padding: 20px 0;
+            overflow-y: auto;
+        }
+
+        .sidebar-section {
+            margin-bottom: 24px;
+        }
+
+        .sidebar-title {
+            padding: 0 20px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 12px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s;
+            border-left: 2px solid transparent;
+        }
+
+        .nav-item:hover {
+            background: var(--bg-tertiary);
+            color: var(--text);
+        }
+
+        .nav-item.active {
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--accent-light);
+            border-left-color: var(--accent);
+        }
+
+        .nav-icon { font-size: 1rem; }
+
+        .nav-count {
+            margin-left: auto;
+            padding: 2px 8px;
+            background: var(--bg-tertiary);
+            border-radius: 10px;
+            font-size: 0.65rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === CONTEÚDO CENTRAL === */
+        .content {
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .content-header {
+            margin-bottom: 24px;
+        }
+
+        .content-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 4px;
+        }
+
+        .content-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* === GRID DE CATEGORIAS === */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .category-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .category-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .category-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .category-icon {
+            font-size: 1.4rem;
+        }
+
+        .category-name {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .category-count {
+            margin-left: auto;
+            padding: 3px 10px;
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+        }
+
+        .category-tipos {
+            padding: 12px;
+        }
+
+        .tipo-item {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 12px;
+            padding: 10px 12px;
+            background: var(--bg);
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            align-items: center;
+        }
+
+        .tipo-item:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .tipo-item:last-child { margin-bottom: 0; }
+
+        .tipo-nome {
+            font-weight: 500;
+        }
+
+        .tipo-cod {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 0.65rem;
+        }
+
+        .tipo-credito {
+            color: var(--text-secondary);
+            font-size: 0.7rem;
+        }
+
+        .tipo-prazo {
+            color: var(--text-muted);
+            font-size: 0.65rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === SIDEBAR DIREITA === */
+        .sidebar-right {
+            background: var(--bg-secondary);
+            border-left: 1px solid var(--border);
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .panel {
+            margin-bottom: 24px;
+        }
+
+        .panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .panel-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .panel-badge {
+            padding: 3px 8px;
+            background: rgba(34, 197, 94, 0.15);
+            border-radius: 4px;
+            font-size: 0.6rem;
+            color: var(--success);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === FERRAMENTAS IA === */
+        .tool-item {
+            padding: 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: all 0.15s;
+        }
+
+        .tool-item:hover {
+            border-color: var(--accent);
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .tool-name {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .tool-status {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+        }
+
+        .tool-cod {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+
+        .tool-desc {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* === BANCOS === */
+        .banco-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px;
+            background: var(--bg);
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+
+        .banco-nome {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .banco-tipo {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        /* === MÉTRICAS === */
+        .metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .metric {
+            padding: 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .metric-value {
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-light);
+            margin-bottom: 4px;
+        }
+
+        .metric-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        /* === TERMINAL LOG === */
+        .terminal {
+            background: #0c0c0c;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .terminal-header {
+            padding: 10px 14px;
+            background: var(--bg-tertiary);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .terminal-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .terminal-dot.red { background: #ef4444; }
+        .terminal-dot.yellow { background: #f59e0b; }
+        .terminal-dot.green { background: #22c55e; }
+
+        .terminal-title {
+            margin-left: 8px;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .terminal-body {
+            padding: 14px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--success);
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .terminal-line {
+            margin-bottom: 6px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .terminal-prompt {
+            color: var(--accent);
+        }
+
+        .terminal-text {
+            color: var(--text-secondary);
+        }
+
+        .terminal-success { color: var(--success); }
+        .terminal-warning { color: var(--warning); }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1200px) {
+            .main { grid-template-columns: 250px 1fr; }
+            .sidebar-right { display: none; }
+        }
+
+        @media (max-width: 800px) {
+            .main { grid-template-columns: 1fr; }
+            .sidebar-left { display: none; }
+            .categories-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">R</div>
+            <span class="logo-text">REGULUS CONSÓRCIO</span>
+            <span class="logo-tag">v4.2.1</span>
+        </div>
+        <div class="header-status">
+            <div class="status-item">
+                <span class="status-dot"></span>
+                <span>IA ATIVA</span>
+            </div>
+            <div class="status-item">
+                <span>48 tipos</span>
+            </div>
+            <div class="status-item">
+                <span>17:52:09</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        
+        <!-- SIDEBAR ESQUERDA -->
+        <aside class="sidebar-left">
+            <div class="sidebar-section">
+                <div class="sidebar-title">Módulos</div>
+                <div class="nav-item active">
+                    <span class="nav-icon">📋</span>
+                    <span>Tipos de Consórcio</span>
+                    <span class="nav-count">48</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">🤖</span>
+                    <span>Ferramentas IA</span>
+                    <span class="nav-count">8</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">🏦</span>
+                    <span>Bancos Integrados</span>
+                    <span class="nav-count">8</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Categorias</div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">🏛️</span>
+                    <span>BENS IMÓVEIS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">🚗</span>
+                    <span>VEÍCULOS LEVES</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">🚛</span>
+                    <span>VEÍCULOS PESADOS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">🚜</span>
+                    <span>MÁQUINAS AGRÍCOLAS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">✈️</span>
+                    <span>NÁUTICOS &amp; AÉREOS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">💼</span>
+                    <span>SERVIÇOS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">⚙️</span>
+                    <span>EQUIPAMENTOS</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+                <div class="nav-item">
+                    <span class="nav-icon">📊</span>
+                    <span>INVESTIMENTO</span>
+                    <span class="nav-count">6</span>
+                </div>
+                
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Automações</div>
+                <div class="nav-item">
+                    <span class="nav-icon">⚙️</span>
+                    <span>Configurações</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">📊</span>
+                    <span>Relatórios</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">🔄</span>
+                    <span>Sincronização</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <section class="content">
+            <div class="content-header">
+                <h1 class="content-title">Tipos de Consórcio</h1>
+                <p class="content-subtitle">8 categorias • 48 modalidades disponíveis</p>
+            </div>
+
+            <div class="categories-grid">
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">🏛️</span>
+                        <span class="category-name">BENS IMÓVEIS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Residencial</div>
+                                <div class="tipo-cod">IMO-RES</div>
+                            </div>
+                            <div class="tipo-credito">150K - 2M</div>
+                            <div class="tipo-prazo">240 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Comercial</div>
+                                <div class="tipo-cod">IMO-COM</div>
+                            </div>
+                            <div class="tipo-credito">300K - 5M</div>
+                            <div class="tipo-prazo">200 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Industrial</div>
+                                <div class="tipo-cod">IMO-IND</div>
+                            </div>
+                            <div class="tipo-credito">500K - 10M</div>
+                            <div class="tipo-prazo">180 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Rural</div>
+                                <div class="tipo-cod">IMO-RUR</div>
+                            </div>
+                            <div class="tipo-credito">200K - 3M</div>
+                            <div class="tipo-prazo">200 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Terreno</div>
+                                <div class="tipo-cod">IMO-TER</div>
+                            </div>
+                            <div class="tipo-credito">50K - 500K</div>
+                            <div class="tipo-prazo">150 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Construção</div>
+                                <div class="tipo-cod">IMO-CON</div>
+                            </div>
+                            <div class="tipo-credito">100K - 1M</div>
+                            <div class="tipo-prazo">180 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">🚗</span>
+                        <span class="category-name">VEÍCULOS LEVES</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Automóvel Novo</div>
+                                <div class="tipo-cod">VEI-NOV</div>
+                            </div>
+                            <div class="tipo-credito">50K - 300K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Automóvel Semi</div>
+                                <div class="tipo-cod">VEI-SEM</div>
+                            </div>
+                            <div class="tipo-credito">30K - 150K</div>
+                            <div class="tipo-prazo">80 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Motocicleta</div>
+                                <div class="tipo-cod">VEI-MOT</div>
+                            </div>
+                            <div class="tipo-credito">8K - 80K</div>
+                            <div class="tipo-prazo">72 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Utilitário</div>
+                                <div class="tipo-cod">VEI-UTI</div>
+                            </div>
+                            <div class="tipo-credito">80K - 200K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Elétrico</div>
+                                <div class="tipo-cod">VEI-ELE</div>
+                            </div>
+                            <div class="tipo-credito">100K - 500K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Híbrido</div>
+                                <div class="tipo-cod">VEI-HIB</div>
+                            </div>
+                            <div class="tipo-credito">80K - 400K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">🚛</span>
+                        <span class="category-name">VEÍCULOS PESADOS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Caminhão Leve</div>
+                                <div class="tipo-cod">PES-LEV</div>
+                            </div>
+                            <div class="tipo-credito">150K - 400K</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Caminhão Pesado</div>
+                                <div class="tipo-cod">PES-PES</div>
+                            </div>
+                            <div class="tipo-credito">300K - 800K</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Carreta</div>
+                                <div class="tipo-cod">PES-CAR</div>
+                            </div>
+                            <div class="tipo-credito">200K - 600K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Ônibus</div>
+                                <div class="tipo-cod">PES-ONI</div>
+                            </div>
+                            <div class="tipo-credito">400K - 1.2M</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Van</div>
+                                <div class="tipo-cod">PES-VAN</div>
+                            </div>
+                            <div class="tipo-credito">100K - 300K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Micro-ônibus</div>
+                                <div class="tipo-cod">PES-MIC</div>
+                            </div>
+                            <div class="tipo-credito">150K - 400K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">🚜</span>
+                        <span class="category-name">MÁQUINAS AGRÍCOLAS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Trator</div>
+                                <div class="tipo-cod">AGR-TRA</div>
+                            </div>
+                            <div class="tipo-credito">200K - 1M</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Colheitadeira</div>
+                                <div class="tipo-cod">AGR-COL</div>
+                            </div>
+                            <div class="tipo-credito">500K - 2M</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Plantadeira</div>
+                                <div class="tipo-cod">AGR-PLA</div>
+                            </div>
+                            <div class="tipo-credito">100K - 500K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Pulverizador</div>
+                                <div class="tipo-cod">AGR-PUL</div>
+                            </div>
+                            <div class="tipo-credito">150K - 800K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Implementos</div>
+                                <div class="tipo-cod">AGR-IMP</div>
+                            </div>
+                            <div class="tipo-credito">50K - 300K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Irrigação</div>
+                                <div class="tipo-cod">AGR-IRR</div>
+                            </div>
+                            <div class="tipo-credito">80K - 400K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">✈️</span>
+                        <span class="category-name">NÁUTICOS &amp; AÉREOS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Lancha</div>
+                                <div class="tipo-cod">NAU-LAN</div>
+                            </div>
+                            <div class="tipo-credito">200K - 2M</div>
+                            <div class="tipo-prazo">180 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Iate</div>
+                                <div class="tipo-cod">NAU-IAT</div>
+                            </div>
+                            <div class="tipo-credito">1M - 10M</div>
+                            <div class="tipo-prazo">200 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Jet Ski</div>
+                                <div class="tipo-cod">NAU-JET</div>
+                            </div>
+                            <div class="tipo-credito">50K - 200K</div>
+                            <div class="tipo-prazo">72 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Barco Pesca</div>
+                                <div class="tipo-cod">NAU-PES</div>
+                            </div>
+                            <div class="tipo-credito">80K - 500K</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Aeronave</div>
+                                <div class="tipo-cod">AER-AVE</div>
+                            </div>
+                            <div class="tipo-credito">500K - 5M</div>
+                            <div class="tipo-prazo">180 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Helicóptero</div>
+                                <div class="tipo-cod">AER-HEL</div>
+                            </div>
+                            <div class="tipo-credito">2M - 15M</div>
+                            <div class="tipo-prazo">200 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">💼</span>
+                        <span class="category-name">SERVIÇOS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Reforma</div>
+                                <div class="tipo-cod">SER-REF</div>
+                            </div>
+                            <div class="tipo-credito">20K - 150K</div>
+                            <div class="tipo-prazo">72 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Viagem</div>
+                                <div class="tipo-cod">SER-VIA</div>
+                            </div>
+                            <div class="tipo-credito">10K - 80K</div>
+                            <div class="tipo-prazo">48 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Educação</div>
+                                <div class="tipo-cod">SER-EDU</div>
+                            </div>
+                            <div class="tipo-credito">15K - 200K</div>
+                            <div class="tipo-prazo">60 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Saúde</div>
+                                <div class="tipo-cod">SER-SAU</div>
+                            </div>
+                            <div class="tipo-credito">10K - 100K</div>
+                            <div class="tipo-prazo">48 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Estética</div>
+                                <div class="tipo-cod">SER-EST</div>
+                            </div>
+                            <div class="tipo-credito">5K - 50K</div>
+                            <div class="tipo-prazo">36 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Eventos</div>
+                                <div class="tipo-cod">SER-EVE</div>
+                            </div>
+                            <div class="tipo-credito">10K - 100K</div>
+                            <div class="tipo-prazo">36 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">⚙️</span>
+                        <span class="category-name">EQUIPAMENTOS</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Industrial</div>
+                                <div class="tipo-cod">EQP-IND</div>
+                            </div>
+                            <div class="tipo-credito">100K - 1M</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Hospitalar</div>
+                                <div class="tipo-cod">EQP-HOS</div>
+                            </div>
+                            <div class="tipo-credito">50K - 500K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Tecnologia</div>
+                                <div class="tipo-cod">EQP-TEC</div>
+                            </div>
+                            <div class="tipo-credito">30K - 300K</div>
+                            <div class="tipo-prazo">60 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Construção</div>
+                                <div class="tipo-cod">EQP-CON</div>
+                            </div>
+                            <div class="tipo-credito">80K - 600K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Energia Solar</div>
+                                <div class="tipo-cod">EQP-SOL</div>
+                            </div>
+                            <div class="tipo-credito">20K - 200K</div>
+                            <div class="tipo-prazo">72 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Refrigeração</div>
+                                <div class="tipo-cod">EQP-REF</div>
+                            </div>
+                            <div class="tipo-credito">15K - 150K</div>
+                            <div class="tipo-prazo">60 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <span class="category-icon">📊</span>
+                        <span class="category-name">INVESTIMENTO</span>
+                        <span class="category-count">6 tipos</span>
+                    </div>
+                    <div class="category-tipos">
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Franquia</div>
+                                <div class="tipo-cod">INV-FRA</div>
+                            </div>
+                            <div class="tipo-credito">100K - 1M</div>
+                            <div class="tipo-prazo">120 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Startup</div>
+                                <div class="tipo-cod">INV-STA</div>
+                            </div>
+                            <div class="tipo-credito">50K - 500K</div>
+                            <div class="tipo-prazo">84 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Capital Giro</div>
+                                <div class="tipo-cod">INV-CAP</div>
+                            </div>
+                            <div class="tipo-credito">30K - 300K</div>
+                            <div class="tipo-prazo">60 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Expansão</div>
+                                <div class="tipo-cod">INV-EXP</div>
+                            </div>
+                            <div class="tipo-credito">100K - 800K</div>
+                            <div class="tipo-prazo">100 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Estoque</div>
+                                <div class="tipo-cod">INV-EST</div>
+                            </div>
+                            <div class="tipo-credito">20K - 200K</div>
+                            <div class="tipo-prazo">48 meses</div>
+                        </div>
+                        
+                        <div class="tipo-item">
+                            <div>
+                                <div class="tipo-nome">Marketing</div>
+                                <div class="tipo-cod">INV-MKT</div>
+                            </div>
+                            <div class="tipo-credito">10K - 100K</div>
+                            <div class="tipo-prazo">36 meses</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- SIDEBAR DIREITA -->
+        <aside class="sidebar-right">
+            
+            <!-- MÉTRICAS -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">MÉTRICAS</span>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-value">48</div>
+                        <div class="metric-label">Tipos Ativos</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">8</div>
+                        <div class="metric-label">Ferramentas IA</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">8</div>
+                        <div class="metric-label">Bancos</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">100%</div>
+                        <div class="metric-label">Automação</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FERRAMENTAS IA -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">FERRAMENTAS IA</span>
+                    <span class="panel-badge">ONLINE</span>
+                </div>
+                
+                <div class="tool-item">
+                    <div class="tool-header">
+                        <span class="tool-name">Análise de Crédito</span>
+                        <span class="tool-status"></span>
+                    </div>
+                    <div class="tool-cod">AI-CRED</div>
+                    <div class="tool-desc">Scoring automático em tempo real</div>
+                </div>
+                
+                <div class="tool-item">
+                    <div class="tool-header">
+                        <span class="tool-name">Gestão de Grupos</span>
+                        <span class="tool-status"></span>
+                    </div>
+                    <div class="tool-cod">AI-GRUP</div>
+                    <div class="tool-desc">Formação e balanceamento inteligente</div>
+                </div>
+                
+                <div class="tool-item">
+                    <div class="tool-header">
+                        <span class="tool-name">Contemplação Preditiva</span>
+                        <span class="tool-status"></span>
+                    </div>
+                    <div class="tool-cod">AI-PRED</div>
+                    <div class="tool-desc">Algoritmos de probabilidade de sorteio</div>
+                </div>
+                
+                <div class="tool-item">
+                    <div class="tool-header">
+                        <span class="tool-name">Detecção de Fraude</span>
+                        <span class="tool-status"></span>
+                    </div>
+                    <div class="tool-cod">AI-FRAD</div>
+                    <div class="tool-desc">Monitoramento anti-fraude 24/7</div>
+                </div>
+                
+            </div>
+
+            <!-- BANCOS -->
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">BANCOS INTEGRADOS</span>
+                </div>
+                
+                <div class="banco-item">
+                    <span class="banco-nome">Bradesco</span>
+                    <span class="banco-tipo">Banco Comercial</span>
+                </div>
+                
+                <div class="banco-item">
+                    <span class="banco-nome">Itaú Unibanco</span>
+                    <span class="banco-tipo">Banco Comercial</span>
+                </div>
+                
+                <div class="banco-item">
+                    <span class="banco-nome">Santander</span>
+                    <span class="banco-tipo">Banco Comercial</span>
+                </div>
+                
+                <div class="banco-item">
+                    <span class="banco-nome">Banco do Brasil</span>
+                    <span class="banco-tipo">Banco Público</span>
+                </div>
+                
+                <div class="banco-item">
+                    <span class="banco-nome">Caixa Econômica</span>
+                    <span class="banco-tipo">Banco Público</span>
+                </div>
+                
+            </div>
+
+            <!-- TERMINAL -->
+            <div class="panel">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">system.log</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">&gt;</span>
+                            <span class="terminal-success">IA inicializada</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">&gt;</span>
+                            <span class="terminal-text">Carregando 48 tipos...</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">&gt;</span>
+                            <span class="terminal-success">Bancos sincronizados</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">&gt;</span>
+                            <span class="terminal-text">Automações ativas</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">&gt;</span>
+                            <span class="terminal-success">Sistema operacional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </main>
+
+
+</body></html>

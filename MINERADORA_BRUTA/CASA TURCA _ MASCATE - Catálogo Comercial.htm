@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASA TURCA | MASCATE - Catálogo Comercial</title>
+    <link href="CASA%20TURCA%20_%20MASCATE%20-%20Cat%C3%A1logo%20Comercial_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9A227;
+            --gold-light: #E8D48B;
+            --gold-dark: #8B7355;
+            --silver: #C0C0C0;
+            --silver-light: #E8E8E8;
+            --obsidian: #030303;
+            --surface: #080808;
+            --surface-2: #0c0c0c;
+            --surface-3: #101010;
+            --border: rgba(201, 162, 39, 0.12);
+            --border-light: rgba(255,255,255,0.04);
+            --text: #ffffff;
+            --text-dim: rgba(255,255,255,0.65);
+            --text-muted: rgba(255,255,255,0.35);
+            --success: #00D26A;
+            --cyan: #00CED1;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--obsidian);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* === MARCA D'ÁGUA REGULUS === */
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Cinzel', serif;
+            font-size: 20vw;
+            font-weight: 700;
+            letter-spacing: 1vw;
+            color: rgba(201, 162, 39, 0.015);
+            pointer-events: none;
+            z-index: 0;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        /* === HEADER COMERCIAL === */
+        .header {
+            position: sticky;
+            top: 0;
+            background: rgba(3, 3, 3, 0.98);
+            backdrop-filter: blur(40px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 20px 50px;
+        }
+
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* === LOGO CASA TURCA + PRISMA + MASCATE === */
+        .brand-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* CRISTAL PRISMA NO TOPO */
+        .crystal-prism {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            animation: crystalRotate 8s linear infinite;
+        }
+
+        .crystal-prism::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-bottom: 20px solid var(--silver);
+            filter: drop-shadow(0 0 8px rgba(192, 192, 192, 0.6));
+        }
+
+        .crystal-prism::after {
+            content: '';
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 14px solid rgba(255,255,255,0.3);
+        }
+
+        @keyframes crystalRotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Brilho do cristal */
+        .crystal-glow {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 4px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 0 10px white, 0 0 20px var(--silver-light), 0 0 30px var(--silver);
+            animation: sparkle 2s ease-in-out infinite;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { opacity: 0.4; transform: translateX(-50%) scale(0.8); }
+            50% { opacity: 1; transform: translateX(-50%) scale(1.2); }
+        }
+
+        /* CASA TURCA - COROA */
+        .casa-turca-crown {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            position: relative;
+        }
+
+        .crown-icon {
+            font-size: 1.4rem;
+            color: var(--gold);
+            filter: drop-shadow(0 0 5px rgba(201, 162, 39, 0.5));
+        }
+
+        .casa-turca-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 500;
+            letter-spacing: 0.5rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* MASCATE - PRODUTO */
+        .mascate-brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        .mascate-text {
+            font-family: 'Cinzel', serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.6rem;
+            color: var(--text-dim);
+            position: relative;
+        }
+
+        .mascate-text::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+
+        /* CNPJ E INFO */
+        .company-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 5px;
+        }
+
+        .cnpj-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05rem;
+        }
+
+        .countries-badge {
+            font-size: 0.55rem;
+            padding: 6px 15px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: var(--obsidian);
+            border-radius: 20px;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
+        }
+
+        /* LANGUAGE SELECTOR */
+        .lang-selector {
+            position: relative;
+        }
+
+        .lang-current {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 18px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.75rem;
+        }
+
+        .lang-current:hover {
+            border-color: var(--gold);
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 10px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 10px;
+            display: none;
+            flex-wrap: wrap;
+            gap: 8px;
+            width: 350px;
+            z-index: 200;
+        }
+
+        .lang-selector:hover .lang-dropdown {
+            display: flex;
+        }
+
+        .lang-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.65rem;
+        }
+
+        .lang-option:hover {
+            background: var(--surface-2);
+        }
+
+        /* === COTAÇÃO BAR === */
+        .cotacao-bar {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 50px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .cotacao-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cotacao-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            letter-spacing: 0.1rem;
+        }
+
+        .cotacao-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--gold);
+            font-weight: 500;
+        }
+
+        /* === HERO SECTION === */
+        .hero {
+            position: relative;
+            padding: 80px 50px;
+            text-align: center;
+            background: radial-gradient(ellipse at center, rgba(201, 162, 39, 0.02) 0%, transparent 70%);
+        }
+
+        .hero-badge {
+            display: inline-block;
+            font-size: 0.55rem;
+            letter-spacing: 0.4rem;
+            color: var(--gold);
+            padding: 10px 25px;
+            border: 1px solid var(--border);
+            border-radius: 25px;
+            margin-bottom: 30px;
+        }
+
+        .hero-title {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            letter-spacing: 0.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-title span {
+            color: var(--gold);
+        }
+
+        .hero-desc {
+            font-size: 1rem;
+            color: var(--text-dim);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .hero-stat-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+        }
+
+        /* === SETORES ECONÔMICOS === */
+        .setores-section {
+            padding: 60px 50px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.6rem;
+            letter-spacing: 0.25rem;
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            letter-spacing: 0.1rem;
+        }
+
+        .setores-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+
+        .setor-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.4s;
+        }
+
+        .setor-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        }
+
+        .setor-card.active {
+            border-color: var(--gold);
+            background: rgba(201, 162, 39, 0.05);
+        }
+
+        .setor-icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        .setor-nome {
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.05rem;
+            margin-bottom: 8px;
+        }
+
+        .setor-base {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--gold);
+        }
+
+        /* === PRODUTOS GRID === */
+        .produtos-section {
+            padding: 60px 50px;
+            background: linear-gradient(180deg, var(--surface) 0%, var(--obsidian) 100%);
+        }
+
+        .produtos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .produto-card {
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.5s;
+            position: relative;
+        }
+
+        .produto-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .produto-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+        }
+
+        .produto-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .produto-header {
+            padding: 25px 20px 18px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .produto-id {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.55rem;
+            color: var(--gold);
+            letter-spacing: 0.08rem;
+            margin-bottom: 10px;
+        }
+
+        .produto-nome {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        .produto-categoria {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            letter-spacing: 0.08rem;
+            text-transform: uppercase;
+        }
+
+        .produto-body {
+            padding: 18px 20px;
+        }
+
+        .produto-desc {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 18px;
+        }
+
+        .produto-preco {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: var(--surface-3);
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .preco-label {
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05rem;
+        }
+
+        .preco-valor {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            color: var(--gold);
+            font-weight: 500;
+        }
+
+        .preco-brl {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            margin-top: 3px;
+        }
+
+        .produto-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+
+        .feature-tag {
+            font-size: 0.55rem;
+            padding: 5px 10px;
+            background: rgba(201, 162, 39, 0.1);
+            color: var(--gold);
+            border-radius: 15px;
+        }
+
+        .produto-footer {
+            padding: 15px 20px;
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-comanda {
+            flex: 1;
+            padding: 12px;
+            background: var(--gold);
+            border: none;
+            color: var(--obsidian);
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+
+        .btn-comanda:hover {
+            background: var(--gold-light);
+            transform: scale(1.02);
+        }
+
+        .btn-simular {
+            flex: 1;
+            padding: 12px;
+            background: transparent;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+
+        .btn-simular:hover {
+            background: rgba(201, 162, 39, 0.1);
+        }
+
+        /* === SIMULADOR MODAL === */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--surface);
+            border: 1px solid var(--gold);
+            border-radius: 24px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            padding: 25px 30px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            letter-spacing: 0.15rem;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            letter-spacing: 0.1rem;
+            margin-bottom: 8px;
+        }
+
+        .form-select, .form-input {
+            width: 100%;
+            padding: 14px 18px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 0.85rem;
+            font-family: inherit;
+        }
+
+        .form-select:focus, .form-input:focus {
+            outline: none;
+            border-color: var(--gold);
+        }
+
+        /* === ORÇAMENTO RESULTADO === */
+        .orcamento-resultado {
+            background: var(--surface-2);
+            border: 1px solid var(--gold);
+            border-radius: 16px;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .orcamento-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .orcamento-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            letter-spacing: 0.15rem;
+            color: var(--gold);
+        }
+
+        .orcamento-linha {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-light);
+            font-size: 0.8rem;
+        }
+
+        .orcamento-linha:last-child {
+            border-bottom: none;
+        }
+
+        .orcamento-linha.total {
+            font-weight: 600;
+            color: var(--gold);
+            font-size: 1rem;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 1px solid var(--gold);
+        }
+
+        .orcamento-impostos {
+            margin-top: 15px;
+            padding: 15px;
+            background: var(--surface-3);
+            border-radius: 10px;
+        }
+
+        .imposto-title {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            letter-spacing: 0.1rem;
+            margin-bottom: 10px;
+        }
+
+        .imposto-linha {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            padding: 5px 0;
+        }
+
+        /* === COMANDA === */
+        .comanda-section {
+            padding: 60px 50px;
+        }
+
+        .comanda-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        .comanda-header {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            padding: 25px 30px;
+            text-align: center;
+        }
+
+        .comanda-header h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3rem;
+            letter-spacing: 0.2rem;
+            color: var(--obsidian);
+        }
+
+        .comanda-body {
+            padding: 30px;
+        }
+
+        .comanda-empty {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+
+        .comanda-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: var(--surface-2);
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+
+        .comanda-item-info h4 {
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+        }
+
+        .comanda-item-info span {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        .comanda-item-preco {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--gold);
+        }
+
+        .comanda-total {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: var(--surface-3);
+            border-radius: 12px;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .comanda-total span:last-child {
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .btn-finalizar {
+            width: 100%;
+            padding: 18px;
+            background: var(--gold);
+            border: none;
+            color: var(--obsidian);
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.15rem;
+            border-radius: 12px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+
+        .btn-finalizar:hover {
+            background: var(--gold-light);
+            transform: scale(1.02);
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 40px 50px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .footer-logo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1rem;
+            letter-spacing: 0.3rem;
+            color: var(--gold);
+        }
+
+        .footer-cnpj {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+        }
+
+        .footer-legal {
+            text-align: right;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1200px) {
+            .setores-grid { grid-template-columns: repeat(3, 1fr); }
+            .produtos-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .header-main { flex-direction: column; gap: 20px; }
+            .setores-grid { grid-template-columns: repeat(2, 1fr); }
+            .produtos-grid { grid-template-columns: 1fr; }
+            .hero { padding: 50px 25px; }
+            .hero-stats { flex-direction: column; gap: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MARCA D'ÁGUA -->
+    <div class="watermark">REGULUS</div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-main">
+            <!-- LOGO: CRISTAL + CASA TURCA + MASCATE -->
+            <div class="brand-container">
+                <div class="crystal-prism">
+                    <div class="crystal-glow"></div>
+                </div>
+                <div class="casa-turca-crown">
+                    <span class="crown-icon">♛</span>
+                    <span class="casa-turca-text">CASA TURCA</span>
+                    <span class="crown-icon">♛</span>
+                </div>
+                <div class="mascate-brand">
+                    <span class="mascate-text">MASCATE</span>
+                </div>
+            </div>
+
+            <!-- INFO COMERCIAL -->
+            <div class="company-info">
+                <span class="cnpj-badge">CNPJ: 61.549.037/0001-68</span>
+                <span class="countries-badge">196 PAÍSES</span>
+                <div class="lang-selector">
+                    <div class="lang-current">
+                        <span>🇧🇷</span>
+                        <span id="currentLang">Português</span>
+                    </div>
+                    <div class="lang-dropdown">
+                        
+                        <div class="lang-option" onclick="changeLang('pt')">
+                            <span>🇧🇷</span>
+                            <span>Português</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('en')">
+                            <span>🇺🇸</span>
+                            <span>English</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('es')">
+                            <span>🇪🇸</span>
+                            <span>Español</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('fr')">
+                            <span>🇫🇷</span>
+                            <span>Français</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('de')">
+                            <span>🇩🇪</span>
+                            <span>Deutsch</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('it')">
+                            <span>🇮🇹</span>
+                            <span>Italiano</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('zh')">
+                            <span>🇨🇳</span>
+                            <span>中文</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('ja')">
+                            <span>🇯🇵</span>
+                            <span>日本語</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('ko')">
+                            <span>🇰🇷</span>
+                            <span>한국어</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('ar')">
+                            <span>🇸🇦</span>
+                            <span>العربية</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('ru')">
+                            <span>🇷🇺</span>
+                            <span>Русский</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('hi')">
+                            <span>🇮🇳</span>
+                            <span>हिंदी</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('tr')">
+                            <span>🇹🇷</span>
+                            <span>Türkçe</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('nl')">
+                            <span>🇳🇱</span>
+                            <span>Nederlands</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('pl')">
+                            <span>🇵🇱</span>
+                            <span>Polski</span>
+                        </div>
+                        
+                        <div class="lang-option" onclick="changeLang('he')">
+                            <span>🇮🇱</span>
+                            <span>עברית</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- COTAÇÃO BAR -->
+    <div class="cotacao-bar">
+        <div class="cotacao-item">
+            <span class="cotacao-label">USD/BRL</span>
+            <span class="cotacao-value">R$ 6.15</span>
+        </div>
+        <div class="cotacao-item">
+            <span class="cotacao-label">EUR/BRL</span>
+            <span class="cotacao-value">R$ 6.45</span>
+        </div>
+        <div class="cotacao-item">
+            <span class="cotacao-label">ATUALIZAÇÃO</span>
+            <span class="cotacao-value">06/12/2025 18:38</span>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-badge">CATÁLOGO COMERCIAL REGULUS</div>
+        <h1 class="hero-title">
+            Dados de <span>Precisão</span> Absoluta<br>
+            Valor <span>Exclusivo</span> Global
+        </h1>
+        <p class="hero-desc">
+            Produtos de dados de altíssimo valor monetário. Informações que só quem possui 
+            REGULUS consegue acessar. Precisão, exclusividade e performance em 196 países.
+        </p>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-value">196</div>
+                <div class="hero-stat-label">Países</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">99.97%</div>
+                <div class="hero-stat-label">Precisão</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">$ 660,000</div>
+                <div class="hero-stat-label">Portfolio Total</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SETORES ECONÔMICOS -->
+    <section class="setores-section">
+        <div class="section-header">
+            <h2 class="section-title">Setores Econômicos</h2>
+            <p class="section-subtitle">Selecione seu setor para simulação de orçamento personalizado</p>
+        </div>
+        <div class="setores-grid">
+            
+            <div class="setor-card" onclick="selectSetor('varejo')" id="setor-varejo">
+                <div class="setor-icon">🏪</div>
+                <div class="setor-nome">Varejo &amp; Comércio</div>
+                <div class="setor-base">Base: $ 12,500</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('industria')" id="setor-industria">
+                <div class="setor-icon">🏭</div>
+                <div class="setor-nome">Indústria &amp; Manufatura</div>
+                <div class="setor-base">Base: $ 18,500</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('tecnologia')" id="setor-tecnologia">
+                <div class="setor-icon">💻</div>
+                <div class="setor-nome">Tecnologia &amp; Software</div>
+                <div class="setor-base">Base: $ 22,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('agronegocio')" id="setor-agronegocio">
+                <div class="setor-icon">🌾</div>
+                <div class="setor-nome">Agronegócio &amp; Commodities</div>
+                <div class="setor-base">Base: $ 15,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('energia')" id="setor-energia">
+                <div class="setor-icon">⚡</div>
+                <div class="setor-nome">Energia &amp; Utilities</div>
+                <div class="setor-base">Base: $ 28,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('saude')" id="setor-saude">
+                <div class="setor-icon">🏥</div>
+                <div class="setor-nome">Saúde &amp; Pharma</div>
+                <div class="setor-base">Base: $ 25,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('financeiro')" id="setor-financeiro">
+                <div class="setor-icon">🏦</div>
+                <div class="setor-nome">Financeiro &amp; Banking</div>
+                <div class="setor-base">Base: $ 35,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('imobiliario')" id="setor-imobiliario">
+                <div class="setor-icon">🏗️</div>
+                <div class="setor-nome">Imobiliário &amp; Construção</div>
+                <div class="setor-base">Base: $ 16,500</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('logistica')" id="setor-logistica">
+                <div class="setor-icon">🚚</div>
+                <div class="setor-nome">Logística &amp; Transporte</div>
+                <div class="setor-base">Base: $ 14,000</div>
+            </div>
+            
+            <div class="setor-card" onclick="selectSetor('educacao')" id="setor-educacao">
+                <div class="setor-icon">🎓</div>
+                <div class="setor-nome">Educação &amp; EdTech</div>
+                <div class="setor-base">Base: $ 9,500</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="produtos-section">
+        <div class="section-header">
+            <h2 class="section-title">Produtos &amp; Serviços REGULUS</h2>
+            <p class="section-subtitle">Clique para adicionar à comanda ou simular orçamento</p>
+        </div>
+        <div class="produtos-grid">
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-INT-001</div>
+                    <h3 class="produto-nome">REGULUS Intelligence Suite</h3>
+                    <div class="produto-categoria">Data Analytics Premium</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Plataforma completa de inteligência de dados com IA preditiva para decisões estratégicas de altíssimo valor</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 47,500</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 292,125.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Real-time Analytics</span>
+                        
+                        <span class="feature-tag">AI Predictions</span>
+                        
+                        <span class="feature-tag">Custom Reports</span>
+                        
+                        <span class="feature-tag">API Enterprise</span>
+                        
+                        <span class="feature-tag">24/7 Support</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-INT-001', 'REGULUS Intelligence Suite', 47500)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-INT-001', 'REGULUS Intelligence Suite', 47500)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-TRS-002</div>
+                    <h3 class="produto-nome">REGULUS Treasury Control</h3>
+                    <div class="produto-categoria">Gestão de Tesouraria</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Gestão de tesouraria institucional com controle total de fluxos financeiros e compliance BCB</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 62,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 381,300.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Cash Flow Elite</span>
+                        
+                        <span class="feature-tag">Risk Management</span>
+                        
+                        <span class="feature-tag">Multi-Currency</span>
+                        
+                        <span class="feature-tag">BCB Compliance</span>
+                        
+                        <span class="feature-tag">Hedge Automation</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-TRS-002', 'REGULUS Treasury Control', 62000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-TRS-002', 'REGULUS Treasury Control', 62000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-MKT-003</div>
+                    <h3 class="produto-nome">REGULUS Market Intelligence</h3>
+                    <div class="produto-categoria">Inteligência de Mercado</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Dados de mercado exclusivos de 196 países com análise competitiva e tendências em tempo real</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 38,500</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 236,775.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">196 Countries Data</span>
+                        
+                        <span class="feature-tag">Competitor Intel</span>
+                        
+                        <span class="feature-tag">Trend Analysis</span>
+                        
+                        <span class="feature-tag">M&amp;A Intelligence</span>
+                        
+                        <span class="feature-tag">Due Diligence</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-MKT-003', 'REGULUS Market Intelligence', 38500)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-MKT-003', 'REGULUS Market Intelligence', 38500)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-AUT-004</div>
+                    <h3 class="produto-nome">REGULUS Automation Hub</h3>
+                    <div class="produto-categoria">Automação Bancária</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Hub de automação para processos bancários com robôs inteligentes e audit trail completo</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 55,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 338,250.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">RPA Banking</span>
+                        
+                        <span class="feature-tag">Smart Triggers</span>
+                        
+                        <span class="feature-tag">Audit Trail</span>
+                        
+                        <span class="feature-tag">Compliance Auto</span>
+                        
+                        <span class="feature-tag">Bot Integration</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-AUT-004', 'REGULUS Automation Hub', 55000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-AUT-004', 'REGULUS Automation Hub', 55000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-CMP-005</div>
+                    <h3 class="produto-nome">REGULUS Compliance Shield</h3>
+                    <div class="produto-categoria">Compliance &amp; Regulatório</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Proteção completa de compliance com monitoramento regulatório para 196 jurisdições</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 42,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 258,300.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Global Regulations</span>
+                        
+                        <span class="feature-tag">Auto Updates</span>
+                        
+                        <span class="feature-tag">Risk Alerts</span>
+                        
+                        <span class="feature-tag">Documentation</span>
+                        
+                        <span class="feature-tag">Legal Support</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-CMP-005', 'REGULUS Compliance Shield', 42000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-CMP-005', 'REGULUS Compliance Shield', 42000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-TRD-006</div>
+                    <h3 class="produto-nome">REGULUS Universal Translator</h3>
+                    <div class="produto-categoria">IA &amp; Comunicação</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Tradutor universal com IA contextual para comunicação empresarial em 196 países</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 28,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 172,200.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">196 Languages</span>
+                        
+                        <span class="feature-tag">Context AI</span>
+                        
+                        <span class="feature-tag">Real-time</span>
+                        
+                        <span class="feature-tag">Cultural Adaptation</span>
+                        
+                        <span class="feature-tag">Legal Terms</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-TRD-006', 'REGULUS Universal Translator', 28000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-TRD-006', 'REGULUS Universal Translator', 28000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-AVA-007</div>
+                    <h3 class="produto-nome">REGULUS Aviation Data</h3>
+                    <div class="produto-categoria">Transporte Aéreo</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Dados de aviação global em tempo real com tracking de frotas e análise de rotas</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 85,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 522,750.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Global Fleet Track</span>
+                        
+                        <span class="feature-tag">Route Analytics</span>
+                        
+                        <span class="feature-tag">Fuel Optimization</span>
+                        
+                        <span class="feature-tag">Cargo Intel</span>
+                        
+                        <span class="feature-tag">IATA Integration</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-AVA-007', 'REGULUS Aviation Data', 85000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-AVA-007', 'REGULUS Aviation Data', 85000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-MAR-008</div>
+                    <h3 class="produto-nome">REGULUS Maritime Intelligence</h3>
+                    <div class="produto-categoria">Transporte Marítimo</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Inteligência marítima com tracking de navios, portos e rotas comerciais globais</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 72,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 442,800.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Ship Tracking</span>
+                        
+                        <span class="feature-tag">Port Analytics</span>
+                        
+                        <span class="feature-tag">Trade Routes</span>
+                        
+                        <span class="feature-tag">Cargo Manifest</span>
+                        
+                        <span class="feature-tag">IMO Compliance</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-MAR-008', 'REGULUS Maritime Intelligence', 72000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-MAR-008', 'REGULUS Maritime Intelligence', 72000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-POI-009</div>
+                    <h3 class="produto-nome">REGULUS POI Premium</h3>
+                    <div class="produto-categoria">Geolocalização</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Dados de pontos de interesse de altíssima precisão para 196 países</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 45,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 276,750.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Global POI</span>
+                        
+                        <span class="feature-tag">Business Data</span>
+                        
+                        <span class="feature-tag">Consumer Insights</span>
+                        
+                        <span class="feature-tag">Foot Traffic</span>
+                        
+                        <span class="feature-tag">Location Analytics</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-POI-009', 'REGULUS POI Premium', 45000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-POI-009', 'REGULUS POI Premium', 45000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-FIN-010</div>
+                    <h3 class="produto-nome">REGULUS Financial Data</h3>
+                    <div class="produto-categoria">Dados Financeiros</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Dados financeiros institucionais com feeds de mercado em tempo real</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 95,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 584,250.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Market Feeds</span>
+                        
+                        <span class="feature-tag">Credit Data</span>
+                        
+                        <span class="feature-tag">Risk Scores</span>
+                        
+                        <span class="feature-tag">Portfolio Analytics</span>
+                        
+                        <span class="feature-tag">Bloomberg Integration</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-FIN-010', 'REGULUS Financial Data', 95000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-FIN-010', 'REGULUS Financial Data', 95000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-ESG-011</div>
+                    <h3 class="produto-nome">REGULUS ESG Analytics</h3>
+                    <div class="produto-categoria">Sustentabilidade</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Análise ESG completa para compliance ambiental, social e governança corporativa</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 38,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 233,700.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">Carbon Footprint</span>
+                        
+                        <span class="feature-tag">Social Impact</span>
+                        
+                        <span class="feature-tag">Governance Score</span>
+                        
+                        <span class="feature-tag">UN SDG Alignment</span>
+                        
+                        <span class="feature-tag">ESG Reports</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-ESG-011', 'REGULUS ESG Analytics', 38000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-ESG-011', 'REGULUS ESG Analytics', 38000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+            <div class="produto-card">
+                <div class="produto-header">
+                    <div class="produto-id">REG-CRY-012</div>
+                    <h3 class="produto-nome">REGULUS Crypto Intelligence</h3>
+                    <div class="produto-categoria">Criptoativos</div>
+                </div>
+                <div class="produto-body">
+                    <p class="produto-desc">Inteligência de criptoativos com análise on-chain e compliance AML</p>
+                    <div class="produto-preco">
+                        <div>
+                            <div class="preco-label">PREÇO USD</div>
+                            <div class="preco-valor">$ 52,000</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="preco-label">EM REAIS</div>
+                            <div class="preco-brl">R$ 319,800.00</div>
+                        </div>
+                    </div>
+                    <div class="produto-features">
+                        
+                        <span class="feature-tag">On-Chain Analytics</span>
+                        
+                        <span class="feature-tag">Wallet Tracking</span>
+                        
+                        <span class="feature-tag">AML Compliance</span>
+                        
+                        <span class="feature-tag">DeFi Insights</span>
+                        
+                        <span class="feature-tag">NFT Valuation</span>
+                        
+                    </div>
+                </div>
+                <div class="produto-footer">
+                    <button class="btn-comanda" onclick="addComanda('REG-CRY-012', 'REGULUS Crypto Intelligence', 52000)">
+                        + COMANDA
+                    </button>
+                    <button class="btn-simular" onclick="openSimulador('REG-CRY-012', 'REGULUS Crypto Intelligence', 52000)">
+                        SIMULAR
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- COMANDA -->
+    <section class="comanda-section" id="comandaSection">
+        <div class="comanda-container">
+            <div class="comanda-header">
+                <h3>COMANDA DE SERVIÇOS</h3>
+            </div>
+            <div class="comanda-body" id="comandaBody">
+                <div class="comanda-empty" id="comandaEmpty">
+                    Nenhum item adicionado. Clique em "+ COMANDA" nos produtos acima.
+                </div>
+                <div id="comandaItems"></div>
+                <div class="comanda-total" id="comandaTotal" style="display: none;">
+                    <span>TOTAL</span>
+                    <span id="comandaTotalValue">$ 0</span>
+                </div>
+                <button class="btn-finalizar" id="btnFinalizar" style="display: none;" onclick="finalizarComanda()">
+                    ENVIAR PARA CONTRATAÇÃO →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL SIMULADOR -->
+    <div class="modal-overlay" id="simuladorModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">SIMULADOR DE ORÇAMENTO</h3>
+                <button class="modal-close" onclick="closeSimulador()">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">PRODUTO SELECIONADO</label>
+                    <input type="text" class="form-input" id="simProduto" readonly="readonly">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">SETOR ECONÔMICO</label>
+                    <select class="form-select" id="simSetor" onchange="calcularOrcamento()">
+                        <option value="" selected="selected">Selecione seu setor</option>
+                        
+                        <option value="12500">Varejo &amp; Comércio</option>
+                        
+                        <option value="18500">Indústria &amp; Manufatura</option>
+                        
+                        <option value="22000">Tecnologia &amp; Software</option>
+                        
+                        <option value="15000">Agronegócio &amp; Commodities</option>
+                        
+                        <option value="28000">Energia &amp; Utilities</option>
+                        
+                        <option value="25000">Saúde &amp; Pharma</option>
+                        
+                        <option value="35000">Financeiro &amp; Banking</option>
+                        
+                        <option value="16500">Imobiliário &amp; Construção</option>
+                        
+                        <option value="14000">Logística &amp; Transporte</option>
+                        
+                        <option value="9500">Educação &amp; EdTech</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">LICENÇAS / USUÁRIOS</label>
+                    <select class="form-select" id="simLicencas" onchange="calcularOrcamento()">
+                        <option value="1" selected="selected">1 Licença</option>
+                        <option value="5">5 Licenças</option>
+                        <option value="10">10 Licenças</option>
+                        <option value="25">25 Licenças (Enterprise)</option>
+                        <option value="50">50 Licenças (Enterprise+)</option>
+                        <option value="100">100 Licenças (Global)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">PERÍODO</label>
+                    <select class="form-select" id="simPeriodo" onchange="calcularOrcamento()">
+                        <option value="1" selected="selected">Mensal</option>
+                        <option value="6">Semestral (-5%)</option>
+                        <option value="12">Anual (-10%)</option>
+                        <option value="24">Bienal (-15%)</option>
+                    </select>
+                </div>
+
+                <div class="orcamento-resultado" id="orcamentoResultado" style="display: none;">
+                    <div class="orcamento-header">
+                        <h4 class="orcamento-title">ORÇAMENTO REAL</h4>
+                    </div>
+                    <div class="orcamento-linha">
+                        <span>Valor Base (USD)</span>
+                        <span id="orcBase">$ 0</span>
+                    </div>
+                    <div class="orcamento-linha">
+                        <span>Ajuste Setorial</span>
+                        <span id="orcSetor">$ 0</span>
+                    </div>
+                    <div class="orcamento-linha">
+                        <span>Licenças</span>
+                        <span id="orcLicencas">x1</span>
+                    </div>
+                    <div class="orcamento-linha">
+                        <span>Desconto Período</span>
+                        <span id="orcDesconto">0%</span>
+                    </div>
+                    <div class="orcamento-linha total">
+                        <span>TOTAL USD</span>
+                        <span id="orcTotalUSD">$ 0</span>
+                    </div>
+                    <div class="orcamento-linha total">
+                        <span>TOTAL BRL (Cotação R$ 6.15)</span>
+                        <span id="orcTotalBRL">R$ 0</span>
+                    </div>
+
+                    <div class="orcamento-impostos">
+                        <div class="imposto-title">IMPOSTOS PARA DECLARAÇÃO</div>
+                        <div class="imposto-linha">
+                            <span>PIS (1.65%)</span>
+                            <span id="impPIS">R$ 0</span>
+                        </div>
+                        <div class="imposto-linha">
+                            <span>COFINS (7.6%)</span>
+                            <span id="impCOFINS">R$ 0</span>
+                        </div>
+                        <div class="imposto-linha">
+                            <span>IRPJ (15%)</span>
+                            <span id="impIRPJ">R$ 0</span>
+                        </div>
+                        <div class="imposto-linha">
+                            <span>CSLL (9%)</span>
+                            <span id="impCSLL">R$ 0</span>
+                        </div>
+                        <div class="imposto-linha">
+                            <span>ISS (5%)</span>
+                            <span id="impISS">R$ 0</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-finalizar" onclick="addComandaFromSim()">
+                        ADICIONAR À COMANDA →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <span class="footer-logo">CASA TURCA | MASCATE</span>
+            <span class="footer-cnpj">CNPJ: 61.549.037/0001-68</span>
+        </div>
+        <div class="footer-legal">
+            Todos os valores em USD com conversão automática<br>
+            Impostos calculados conforme legislação brasileira vigente<br>
+            Cotação atualizada: 06/12/2025 18:38
+        </div>
+    </footer>
+
+    <script>
+        const COTACAO_DOLAR = 6.15;
+        const IMPOSTOS = {
+            pis: 0.0165,
+            cofins: 0.076,
+            irpj: 0.15,
+            csll: 0.09,
+            iss: 0.05
+        };
+
+        let comanda = [];
+        let currentProduct = { id: '', nome: '', preco: 0 };
+
+        function selectSetor(id) {
+            document.querySelectorAll('.setor-card').forEach(c => c.classList.remove('active'));
+            document.getElementById('setor-' + id).classList.add('active');
+        }
+
+        function addComanda(id, nome, preco) {
+            comanda.push({ id, nome, preco });
+            updateComanda();
+        }
+
+        function updateComanda() {
+            const itemsDiv = document.getElementById('comandaItems');
+            const emptyDiv = document.getElementById('comandaEmpty');
+            const totalDiv = document.getElementById('comandaTotal');
+            const btnFinalizar = document.getElementById('btnFinalizar');
+
+            if (comanda.length === 0) {
+                emptyDiv.style.display = 'block';
+                totalDiv.style.display = 'none';
+                btnFinalizar.style.display = 'none';
+                itemsDiv.innerHTML = '';
+                return;
+            }
+
+            emptyDiv.style.display = 'none';
+            totalDiv.style.display = 'flex';
+            btnFinalizar.style.display = 'block';
+
+            let html = '';
+            let total = 0;
+            comanda.forEach((item, idx) => {
+                total += item.preco;
+                html += `
+                    <div class="comanda-item">
+                        <div class="comanda-item-info">
+                            <h4>${item.nome}</h4>
+                            <span>${item.id}</span>
+                        </div>
+                        <div class="comanda-item-preco">$ ${item.preco.toLocaleString()}</div>
+                    </div>
+                `;
+            });
+            itemsDiv.innerHTML = html;
+            document.getElementById('comandaTotalValue').textContent = '$ ' + total.toLocaleString();
+        }
+
+        function openSimulador(id, nome, preco) {
+            currentProduct = { id, nome, preco };
+            document.getElementById('simProduto').value = nome;
+            document.getElementById('simuladorModal').classList.add('active');
+            document.getElementById('orcamentoResultado').style.display = 'none';
+        }
+
+        function closeSimulador() {
+            document.getElementById('simuladorModal').classList.remove('active');
+        }
+
+        function calcularOrcamento() {
+            const setor = parseFloat(document.getElementById('simSetor').value) || 0;
+            const licencas = parseInt(document.getElementById('simLicencas').value) || 1;
+            const periodo = parseInt(document.getElementById('simPeriodo').value) || 1;
+
+            if (setor === 0) return;
+
+            let desconto = 0;
+            if (periodo === 6) desconto = 0.05;
+            else if (periodo === 12) desconto = 0.10;
+            else if (periodo === 24) desconto = 0.15;
+
+            const baseUSD = currentProduct.preco;
+            const ajusteSetor = setor * 0.1;
+            const subtotal = (baseUSD + ajusteSetor) * licencas * periodo;
+            const totalUSD = subtotal * (1 - desconto);
+            const totalBRL = totalUSD * COTACAO_DOLAR;
+
+            document.getElementById('orcBase').textContent = '$ ' + baseUSD.toLocaleString();
+            document.getElementById('orcSetor').textContent = '+ $ ' + ajusteSetor.toLocaleString();
+            document.getElementById('orcLicencas').textContent = 'x' + licencas + ' x ' + periodo + ' meses';
+            document.getElementById('orcDesconto').textContent = '-' + (desconto * 100) + '%';
+            document.getElementById('orcTotalUSD').textContent = '$ ' + totalUSD.toLocaleString(undefined, {maximumFractionDigits: 2});
+            document.getElementById('orcTotalBRL').textContent = 'R$ ' + totalBRL.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+
+            document.getElementById('impPIS').textContent = 'R$ ' + (totalBRL * IMPOSTOS.pis).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+            document.getElementById('impCOFINS').textContent = 'R$ ' + (totalBRL * IMPOSTOS.cofins).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+            document.getElementById('impIRPJ').textContent = 'R$ ' + (totalBRL * IMPOSTOS.irpj).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+            document.getElementById('impCSLL').textContent = 'R$ ' + (totalBRL * IMPOSTOS.csll).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+            document.getElementById('impISS').textContent = 'R$ ' + (totalBRL * IMPOSTOS.iss).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+
+            document.getElementById('orcamentoResultado').style.display = 'block';
+        }
+
+        function addComandaFromSim() {
+            const totalText = document.getElementById('orcTotalUSD').textContent;
+            const total = parseFloat(totalText.replace(/[^0-9.-]+/g, ''));
+            addComanda(currentProduct.id, currentProduct.nome + ' (Personalizado)', total);
+            closeSimulador();
+        }
+
+        function finalizarComanda() {
+            alert('Comanda enviada para contratação!\n\nTotal: $ ' + comanda.reduce((a,b) => a + b.preco, 0).toLocaleString() + '\n\nUm consultor entrará em contato em até 24h.');
+        }
+
+        function changeLang(code) {
+            document.getElementById('currentLang').textContent = code.toUpperCase();
+        }
+    </script>
+
+
+</body></html>

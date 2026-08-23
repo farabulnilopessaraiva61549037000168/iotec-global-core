@@ -1,0 +1,461 @@
+﻿import sys
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+import json
+from pathlib import Path
+from datetime import datetime
+
+ROOT = Path(r"C:\IOTEC")
+
+META_MENSAL = 100000.0
+DIAS_CICLO = 30
+ARQ_RECEITA = (
+
+    ROOT /
+
+    "IOTEC_REVENUE_TRACKER_REPORT.json"
+
+)
+
+
+
+if not ARQ_RECEITA.exists():
+    pass
+
+
+
+    print(
+
+        "REVENUE TRACKER NAO ENCONTRADO"
+
+    )
+
+
+
+    raise SystemExit
+
+
+
+with open(
+
+    ARQ_RECEITA,
+
+    "r",
+
+    encoding="utf-8"
+
+) as f:
+
+
+
+    receita = json.load(f)
+
+
+
+receita_realizada = receita.get(
+
+    "receita_realizada",
+
+    0
+
+)
+
+
+
+print(
+
+    "\nGOAL DEVIATION ENGINE\n"
+
+)
+
+
+
+dia_atual = int(
+
+    input(
+
+        "DIA ATUAL DO CICLO (1-30): "
+
+    )
+
+)
+
+
+
+dia_atual = max(
+
+    1,
+
+    min(
+
+        DIAS_CICLO,
+
+        dia_atual
+
+    )
+
+)
+
+
+
+percentual_esperado = (
+
+    dia_atual /
+
+    DIAS_CICLO
+
+)
+
+
+
+receita_esperada = round(
+
+
+
+    META_MENSAL *
+
+    percentual_esperado,
+
+
+
+    2
+
+)
+
+
+
+desvio = round(
+
+
+
+    receita_realizada -
+
+    receita_esperada,
+
+
+
+    2
+
+)
+
+
+
+dias_restantes = max(
+
+    1,
+
+    DIAS_CICLO - dia_atual
+
+)
+
+
+
+faltante = max(
+
+
+
+    0,
+
+
+
+    META_MENSAL -
+
+    receita_realizada
+
+)
+
+
+
+nova_media_diaria = round(
+
+
+
+    faltante /
+
+    dias_restantes,
+
+
+
+    2
+
+)
+
+
+
+if desvio >= 0:
+    pass
+
+
+
+    situacao = "ADIANTADO"
+
+
+
+else:
+    pass
+
+
+
+    situacao = "ATRASADO"
+
+
+
+atingimento = round(
+
+
+
+    (
+
+        receita_realizada /
+
+        META_MENSAL
+
+    ) * 100,
+
+
+
+    2
+
+)
+
+
+
+resultado = {
+
+
+
+    "gerado_em":
+
+        str(datetime.now()),
+
+
+
+    "meta":
+
+        META_MENSAL,
+
+
+
+    "dia_atual":
+
+        dia_atual,
+
+
+
+    "receita_esperada":
+
+        receita_esperada,
+
+
+
+    "receita_realizada":
+
+        receita_realizada,
+
+
+
+    "desvio":
+
+        desvio,
+
+
+
+    "situacao":
+
+        situacao,
+
+
+
+    "atingimento":
+
+        atingimento,
+
+
+
+    "dias_restantes":
+
+        dias_restantes,
+
+
+
+    "faltante":
+
+        faltante,
+
+
+
+    "nova_media_diaria":
+
+        nova_media_diaria
+
+}
+
+
+
+ARQUIVO_SAIDA = (
+
+    ROOT /
+
+    "IOTEC_GOAL_DEVIATION_REPORT.json"
+
+)
+
+
+
+with open(
+
+    ARQUIVO_SAIDA,
+
+    "w",
+
+    encoding="utf-8"
+
+) as f:
+
+
+
+    json.dump(
+
+        resultado,
+
+        f,
+
+        indent=4,
+
+        ensure_ascii=False
+
+    )
+
+
+
+print(
+
+    "\nRESULTADO\n"
+
+)
+
+
+
+print(
+
+    "META:",
+
+    f"R$ {META_MENSAL:,.2f}"
+
+)
+
+
+
+print(
+
+    "DIA:",
+
+    dia_atual
+
+)
+
+
+
+print(
+
+    "RECEITA ESPERADA:",
+
+    f"R$ {receita_esperada:,.2f}"
+
+)
+
+
+
+print(
+
+    "RECEITA REALIZADA:",
+
+    f"R$ {receita_realizada:,.2f}"
+
+)
+
+
+
+print(
+
+    "DESVIO:",
+
+    f"R$ {desvio:,.2f}"
+
+)
+
+
+
+print(
+
+    "SITUACAO:",
+
+    situacao
+
+)
+
+
+
+print(
+
+    "ATINGIMENTO:",
+
+    f"{atingimento}%"
+
+)
+
+
+
+print(
+
+    "FALTANTE:",
+
+    f"R$ {faltante:,.2f}"
+
+)
+
+
+
+print(
+
+    "DIAS RESTANTES:",
+
+    dias_restantes
+
+)
+
+
+
+print(
+
+    "NOVA MEDIA DIARIA NECESSARIA:",
+
+    f"R$ {nova_media_diaria:,.2f}"
+
+)
+
+
+
+print(
+
+    "\nARQUIVO:"
+
+)
+
+
+
+print(
+
+    ARQUIVO_SAIDA
+
+)
+
+
+
+
+
+

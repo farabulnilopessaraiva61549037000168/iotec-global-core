@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>IOTEC | Cockpit Pleno de Operacoes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1017;
+      color: #e7eef8;
+    }
+    .topo {
+      padding: 18px 24px;
+      background: linear-gradient(90deg, #0f1723, #121d2b);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .titulo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .sub {
+      color: #9fb2c9;
+      margin-top: 4px;
+      font-size: 14px;
+    }
+    .acoes {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      background: #1d3350;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: 16px;
+      padding: 18px;
+    }
+    .card {
+      background: #121925;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+      min-height: 150px;
+    }
+    .card h3 {
+      margin: 0 0 12px 0;
+      color: #dce8f6;
+      font-size: 17px;
+    }
+    .valor {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .linha {
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .linha:last-child { border-bottom: none; }
+    .tag {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #1d2937;
+      color: #c8d7e7;
+    }
+    .ok { background: #173926; color: #81f3ae; }
+    .warn { background: #443717; color: #ffd86c; }
+    .err { background: #481a1a; color: #ff9b9b; }
+    .span-2 { grid-column: span 2; }
+    .span-3 { grid-column: span 3; }
+    .mono { font-family: Consolas, monospace; font-size: 13px; }
+    .rodape {
+      text-align: center;
+      color: #7e8fa3;
+      padding: 18px;
+      font-size: 13px;
+    }
+  </style>
+  <script>
+    async function acao(url) {
+      const resp = await fetch(url, {method: "POST", headers: {"Content-Type": "application/json"}});
+      const data = await resp.json();
+      alert(JSON.stringify(data, null, 2));
+      location.reload();
+    }
+    setTimeout(() => location.reload(), 12000);
+  </script>
+</head>
+<body>
+  <div class="topo">
+    <div>
+      <div class="titulo">IOTEC | Cockpit Pleno de Operacoes</div>
+      <div class="sub">Centro vivo de observacao, regulagem, receita e consciencia operacional do nucleo</div>
+    </div>
+    <div class="acoes">
+      <button onclick="acao('/api/start')">START</button>
+      <button onclick="acao('/api/stop')">STOP</button>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Vida do Nucleo</h3>
+      <div class="valor">{{ dados.nucleo.status_geral }}</div>
+      <div class="tag {% if dados.nucleo.operacao_plena %}ok{% else %}warn{% endif %}">
+        operacao_plena = {{ dados.nucleo.operacao_plena }}
+      </div>
+      <div class="linha">Maturidade: <strong>{{ dados.nucleo.maturidade }}</strong></div>
+      <div class="linha">Identidade visual: <strong>{{ dados.nucleo.identidade_visual }}</strong></div>
+    </div>
+
+    <div class="card">
+      <h3>Performance</h3>
+      <div class="linha">Saude: <strong>{{ dados.performance.saude }}</strong></div>
+      <div class="linha">Eventos ao vivo: <strong>{{ dados.performance.eventos_ao_vivo }}</strong></div>
+      <div class="linha">Modulos online: <strong>{{ dados.performance.modulos_online }}</strong></div>
+      <div class="linha">Modulos degradados: <strong>{{ dados.performance.modulos_degradados }}</strong></div>
+      <div class="linha">Modulos offline: <strong>{{ dados.performance.modulos_offline }}</strong></div>
+    </div>
+
+    <div class="card">
+      <h3>Checkpoint / Retomada</h3>
+      <div class="linha">Status: <strong>{{ checkpoint.migracao.status }}</strong></div>
+      <div class="linha">Ultima etapa: <strong>{{ checkpoint.migracao.ultima_etapa }}</strong></div>
+      <div class="linha">Retomada: <strong>{{ checkpoint.migracao.retomada_habilitada }}</strong></div>
+      <div class="linha">Checkpoint em: <strong>{{ checkpoint.migracao.ultimo_checkpoint_em }}</strong></div>
+    </div>
+
+    <div class="card span-2">
+      <h3>Gateways e Receita</h3>
+      <div class="linha">
+        PayPal — <strong>{{ dados.gateways.paypal.status }}</strong>
+        <div class="tag {% if dados.gateways.paypal.aceitando_pagamentos %}ok{% else %}err{% endif %}">
+          aceitando_pagamentos = {{ dados.gateways.paypal.aceitando_pagamentos }}
+        </div>
+      </div>
+      <div class="linha">
+        PicPay — <strong>{{ dados.gateways.picpay.status }}</strong>
+        <div class="tag {% if dados.gateways.picpay.aceitando_pagamentos %}ok{% else %}warn{% endif %}">
+          aceitando_pagamentos = {{ dados.gateways.picpay.aceitando_pagamentos }}
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Fila de Regulagem</h3>
+      {% for item in dados.fila_regulagem %}
+        <div class="linha">
+          <strong>{{ item.produto_id }}</strong> — {{ item.nome }}<br>
+          Status: {{ item.status }}<br>
+          Problemas: {{ item.problemas_detectados }}<br>
+          Apto: {{ item.apto_operacao_plena }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="card">
+      <h3>Produtos</h3>
+      {% for produto in dados.produtos %}
+        <div class="linha">
+          <strong>{{ produto.produto_id }}</strong> — {{ produto.nome }}<br>
+          Camada: {{ produto.camada }} | Setor: {{ produto.setor }}<br>
+          Gateway: {{ produto.vinculo_gateway }}<br>
+          Ativo: {{ produto.ativo }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="card span-2">
+      <h3>Incidentes Catalogados</h3>
+      {% for erro in dados.incidentes %}
+        <div class="linha">
+          <strong>{{ erro.erro_id }}</strong> — {{ erro.titulo }}<br>
+          Modulo: {{ erro.modulo }} | Produto: {{ erro.produto_id }}<br>
+          Criticidade: {{ erro.criticidade }} | Prioridade: {{ erro.prioridade }}<br>
+          Status: {{ erro.status }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="card span-3">
+      <h3>Eventos Recentes do Nucleo</h3>
+      {% for evento in dados.eventos_recentes %}
+        <div class="linha mono">
+          [{{ evento.gerado_em if evento.gerado_em else "-" }}] {{ evento.evento_id }} | {{ evento.tipo }} | {{ evento.nivel }} | {{ evento.mensagem }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="rodape">
+    O que acontece no interior do nucleo nao fica invisivel. Tudo e percebido, classificado, regulado e apresentado.
+  </div>
+</body>
+</html>

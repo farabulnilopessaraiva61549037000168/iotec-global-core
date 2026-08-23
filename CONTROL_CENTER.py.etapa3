@@ -1,0 +1,224 @@
+﻿import os
+import sqlite3
+import requests
+from datetime import datetime
+
+DB = r"C:\IOTEC_OMEGA_X\backend\iotec.db"
+PAYPAL = "http://127.0.0.1:5001/health"
+
+def status(ok):
+    return "[OK]" if ok else "[ERRO]"
+
+print("=" * 70)
+print("                 IOTEC CONTROL CENTER")
+print("=" * 70)
+print()
+
+# Data
+print("DATA:", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+print()
+
+# Banco
+db_ok = os.path.exists(DB)
+print(f"{status(db_ok)} Banco SQLite")
+
+# Pipeline
+if db_ok:
+    try:
+        conn = sqlite3.connect(DB)
+        cur = conn.cursor()
+
+        total = cur.execute("SELECT COUNT(*) FROM pipeline").fetchone()[0]
+
+        pendentes = cur.execute("""
+            SELECT COUNT(*)
+            FROM pipeline
+            WHERE payment_status='AGUARDANDO_PAGAMENTO'
+        """).fetchone()[0]
+
+        ativos = cur.execute("""
+            SELECT COUNT(*)
+            FROM pipeline
+            WHERE status='CLIENTE_ATIVO'
+        """).fetchone()[0]
+
+        conn.close()
+
+        print(f"{status(True)} Pipeline")
+        print(f"     Registros : {total}")
+        print(f"     Pendentes : {pendentes}")
+        print(f"     Ativos    : {ativos}")
+
+    except Exception as e:
+        print(f"{status(False)} Pipeline")
+        print("     ", e)
+
+print()
+
+# PayPal
+try:
+    r = requests.get(PAYPAL, timeout=5)
+
+    if r.status_code == 200:
+        print(f"{status(True)} PayPal Server")
+    else:
+        print(f"{status(False)} PayPal Server")
+
+except:
+    print(f"{status(False)} PayPal Server")
+
+print()
+
+# Integrações
+print("INTEGRAÇÕES")
+print("---------------------------------------------")
+print("[OK] PayPal")
+print("[EM DESENVOLVIMENTO] Google Maps")
+print("[PENDENTE] LinkedIn")
+print("[PENDENTE] Instagram")
+print("[PENDENTE] YouTube")
+print("[PENDENTE] WhatsApp Business")
+
+print()
+
+print("META DO MÊS")
+print("---------------------------------------------")
+print("Receita.............R$ 50.000")
+print("Empresas............5.000")
+print("Contratos...........15")
+
+print()
+
+print("FUNDO ESTRATÉGICO")
+print("---------------------------------------------")
+print("Saldo...............R$ 200,00")
+
+print()
+print("=" * 70)
+print("CONTROL CENTER OPERACIONAL")
+print("=" * 70)
+
+
+print()
+print("=" * 70)
+print("HEALTH CHECK")
+print("=" * 70)
+
+modulos = [
+    ("PAYMENT_ENGINE.py", r"C:\IOTEC\PAYMENT_ENGINE.py"),
+    ("paypal_server.py", r"C:\IOTEC\paypal_server.py"),
+    ("CORE_PHILOSOPHY.py", r"C:\IOTEC\CORE_PHILOSOPHY.py"),
+    ("CONFIRM_PAYMENT.py", r"C:\IOTEC\CONFIRM_PAYMENT.py"),
+    ("PAYPAL_CONFIRM_ENGINE.py", r"C:\IOTEC\PAYPAL_CONFIRM_ENGINE.py")
+]
+
+for nome, caminho in modulos:
+
+    if os.path.exists(caminho):
+        print(f"[OK] {nome}")
+    else:
+        print(f"[ERRO] {nome}")
+
+print()
+print("=" * 70)
+print("SERVIÇOS")
+print("=" * 70)
+
+servicos = [
+    ("PayPal Local", "http://127.0.0.1:5001/health"),
+]
+
+for nome, url in servicos:
+
+    try:
+        r = requests.get(url, timeout=3)
+
+        if r.status_code == 200:
+            print(f"[ONLINE] {nome}")
+        else:
+            print(f"[OFFLINE] {nome}")
+
+    except Exception:
+        print(f"[OFFLINE] {nome}")
+
+print()
+print("=" * 70)
+print("FIM DA VERIFICAÇÃO")
+print("=" * 70)
+
+print()
+print("=" * 70)
+print("MISSION CONTROL")
+print("=" * 70)
+
+META = 50000.00
+
+try:
+
+    conn = sqlite3.connect(DB)
+    cur = conn.cursor()
+
+    receita = cur.execute("""
+
+        SELECT IFNULL(SUM(proposal_value),0)
+
+        FROM pipeline
+
+        WHERE status='CLIENTE_ATIVO'
+
+    """).fetchone()[0]
+
+    oportunidades = cur.execute("""
+
+        SELECT COUNT(*)
+
+        FROM pipeline
+
+    """).fetchone()[0]
+
+    pendentes = cur.execute("""
+
+        SELECT COUNT(*)
+
+        FROM pipeline
+
+        WHERE payment_status='AGUARDANDO_PAGAMENTO'
+
+    """).fetchone()[0]
+
+    conn.close()
+
+    falta = META - float(receita)
+
+    if falta < 0:
+        falta = 0
+
+    print(f"Receita realizada.... R$ {receita:,.2f}")
+    print(f"Meta do mês.......... R$ {META:,.2f}")
+    print(f"Falta................ R$ {falta:,.2f}")
+    print()
+    print(f"Oportunidades........ {oportunidades}")
+    print(f"Pagamentos pendentes. {pendentes}")
+
+except Exception as erro:
+
+    print("[ERRO]", erro)
+
+print()
+print("=" * 70)
+print("PRÓXIMA MISSÃO")
+print("=" * 70)
+
+print("1 - Finalizar Google Maps")
+print("2 - Integrar LinkedIn")
+print("3 - Integrar Proton Mail")
+print("4 - Integrar Instagram")
+print("5 - Criar Discovery Engine")
+print("6 - Automatizar Follow-up")
+print("7 - Iniciar captação de clientes")
+
+print()
+print("=" * 70)
+print("NÚCLEO EM EVOLUÇÃO")
+print("=" * 70)
+

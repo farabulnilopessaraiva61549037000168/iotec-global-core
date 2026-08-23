@@ -1,0 +1,78 @@
+﻿import sys
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+import sqlite3
+from datetime import datetime
+
+DB = r"C:\IOTEC_OMEGA_X\backend\iotec.db"
+
+conn = sqlite3.connect(DB, timeout=30)
+cur = conn.cursor()
+
+cur.execute("PRAGMA journal_mode=WAL")
+cur.execute("PRAGMA synchronous=NORMAL")
+cur.execute("PRAGMA busy_timeout=30000")
+
+try:
+    pass
+
+    cur.execute("""
+    ALTER TABLE pipeline
+    ADD COLUMN approved INTEGER DEFAULT 0
+    """)
+
+except:
+    pass
+
+try:
+    pass
+
+    cur.execute("""
+    ALTER TABLE pipeline
+    ADD COLUMN negotiation_notes TEXT
+    """)
+
+except:
+    pass
+
+conn.commit()
+
+propostas = cur.execute("""
+
+SELECT
+opportunity_id,
+status,
+proposal_value
+
+FROM pipeline
+
+WHERE status='PROPOSTA_ENVIADA'
+
+""").fetchall()
+
+print("")
+print("==========================================")
+print("NEGOTIATION ENGINE")
+print("==========================================")
+print("")
+
+for p in propostas:
+    pass
+
+    print(
+        f"OPPORTUNITY={p[0]} | STATUS={p[1]} | VALOR={p[2]}"
+    )
+
+print("")
+print("TOTAL:", len(propostas))
+print("")
+
+conn.close()
+
+
+
+

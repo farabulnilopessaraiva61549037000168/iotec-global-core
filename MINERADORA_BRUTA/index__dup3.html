@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>REGULUS · Recepção Central Global</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <strong>REGULUS IOTEC</strong><br>
+          <span class="small">Recepção Central Global</span>
+        </div>
+      </div>
+
+      <div class="langbar">
+        <span class="badge">Global</span>
+        {% for i in idiomas %}
+        <span class="langpill">{{ i }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <section class="hero">
+      <h1>Recepção Central Global de Soluções Tecnológicas</h1>
+      <p>
+        Nesta plataforma, você pode solicitar o desenvolvimento de softwares, sistemas,
+        plataformas, hubs corporativos, estruturas enterprise e ecossistemas digitais completos.
+        A recepção existe para captar sua necessidade, organizar sua demanda e encaminhar seu pedido
+        para a camada especializada de análise, prototipagem, produção e entrega.
+      </p>
+      <p>
+        Os setores abaixo são apenas um mostruário inicial. Se o seu setor não estiver entre os descritos,
+        informe manualmente e uma ficha técnica universal será aberta para o seu segmento.
+      </p>
+    </section>
+
+    <section class="grid">
+      {% for s in setores %}
+      <a class="card" href="{{ url_for('ficha') }}?setor={{ s }}">
+        <h3>{{ s }}</h3>
+        <p class="small">Abrir ficha técnica para {{ s }}.</p>
+      </a>
+      {% endfor %}
+    </section>
+
+    <div class="notice">
+      Estas recepções atendem qualquer setor da economia. Os blocos em destaque são referências visuais de entrada.
+    </div>
+
+    <div class="panel" style="margin-top:24px;">
+      <h3>Não encontrou seu setor?</h3>
+      <p class="small">
+        Digite abaixo o seu setor da economia, pressione continuar e o sistema abrirá a ficha técnica universal do seu segmento.
+      </p>
+
+      <form method="get" action="{{ url_for('ficha') }}">
+        <label>Seu setor da economia</label>
+        <input name="setor" placeholder="Ex.: mineração, hotelaria, diplomacia, logística portuária, varejo" required>
+        <button class="btn" type="submit">Abrir ficha técnica do meu setor</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

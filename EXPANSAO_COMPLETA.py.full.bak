@@ -1,0 +1,294 @@
+﻿import os
+import time
+import random
+import time
+def modo_rotacao():
+    print("\n🎬 Modo rotação ativado\n")
+
+    while True:
+        interfaces = listar_interfaces()
+
+        if not interfaces:
+            print("⚠️ Nenhuma interface disponível")
+            time.sleep(5)
+            continue
+
+        escolhida = random.choice(interfaces)
+
+        print(f"🎯 Interface ativa: {os.path.basename(escolhida)}")
+
+        processar_interface(escolhida)
+
+        time.sleep(10)
+
+def listar_interfaces():
+    locais = [
+        "C:\\IoTec\\interfaces_origem",
+        os.path.join(os.environ["USERPROFILE"], "Desktop", "OFICINA_IOTEC")
+    ]
+
+    arquivos = []
+    nomes_vistos = set()
+
+    for local in locais:
+        if os.path.exists(local):
+            for root, dirs, files in os.walk(local):
+                for file in files:
+                    if file.endswith((".html", ".htm")):
+                        if file not in nomes_vistos:
+                            caminho = os.path.join(root, file)
+                            arquivos.append(caminho)
+                            nomes_vistos.add(file)
+
+    print(f"{len(arquivos)} interfaces disponíveis")
+    return arquivos
+# ============================================================
+# IOTEC CORE - EXPANSÃƒO COMPLETA (OFICINA + IA + INTERNET)
+# ============================================================
+
+import os, shutil, json, difflib, requests
+import time
+import random
+import time
+def modo_rotacao():
+    print("\n🎬 Modo rotação ativado\n")
+
+    while True:
+        interfaces = listar_interfaces()
+
+        if not interfaces:
+            print("⚠️ Nenhuma interface disponível")
+            time.sleep(5)
+            continue
+
+        escolhida = random.choice(interfaces)
+
+        print(f"🎯 Interface ativa: {os.path.basename(escolhida)}")
+
+        processar_interface(escolhida)
+
+        time.sleep(10)
+from datetime import datetime
+import time
+import random
+import time
+def modo_rotacao():
+    print("\n🎬 Modo rotação ativado\n")
+
+    while True:
+        interfaces = listar_interfaces()
+
+        if not interfaces:
+            print("⚠️ Nenhuma interface disponível")
+            time.sleep(5)
+            continue
+
+        escolhida = random.choice(interfaces)
+
+        print(f"🎯 Interface ativa: {os.path.basename(escolhida)}")
+
+        processar_interface(escolhida)
+
+        time.sleep(10)
+
+BASE = "C:\\IoTec"
+ORIGEM = os.path.join(BASE, "origem")
+OFICINA = os.path.join(BASE, "oficina")
+VERSOES = os.path.join(BASE, "versoes")
+LOG = os.path.join(BASE, "log.txt")
+
+for p in [ORIGEM, OFICINA, VERSOES]:
+    os.makedirs(p, exist_ok=True)
+
+# ============================================================
+# LOG
+# ============================================================
+
+def log(msg):
+    linha = f"[{datetime.now()}] {msg}"
+    print(linha)
+    with open(LOG, "a", encoding="utf-8") as f:
+        f.write(linha + "\n")
+
+# ============================================================
+# CONEXÃƒO (CONTROLADA)
+# ============================================================
+
+def verificar_internet():
+    try:
+        requests.get("https://www.google.com", timeout=3)
+        log("Internet: OK")
+        return True
+    except:
+        log("Internet: OFFLINE")
+        return False
+
+# ============================================================
+# BUSCA DE INTERFACES
+# ============================================================
+
+
+
+# ============================================================
+# CÃ“PIA SEGURA
+# ============================================================
+
+def copiar(arq):
+    nome = os.path.basename(arq)
+    destino = os.path.join(OFICINA, nome)
+    shutil.copy2(arq, destino)
+    return destino
+
+# ============================================================
+# IA DE ANÃLISE (simples, evolutiva)
+# ============================================================
+
+def analisar_interface(conteudo):
+    ajustes = []
+
+    if "button" in conteudo:
+        ajustes.append("Adicionar hover")
+
+    if "background" not in conteudo:
+        ajustes.append("Aplicar tema padrÃ£o")
+
+    return ajustes
+
+# ============================================================
+# DESIGN SYSTEM
+# ============================================================
+
+def aplicar_design(conteudo):
+    estilo = """
+<style>
+body {background:#0D0D0D;color:#F5F5F5;font-family:Inter;}
+button {transition:0.3s;}
+button:hover {transform:translateY(-2px);}
+</style>
+"""
+    if "<head>" in conteudo:
+        conteudo = conteudo.replace("<head>", "<head>" + estilo)
+
+    return conteudo
+
+# ============================================================
+# COMPARAÃ‡ÃƒO (tipo Git visual)
+# ============================================================
+
+def comparar(original, novo, nome):
+    diff = difflib.unified_diff(
+        original.splitlines(),
+        novo.splitlines(),
+        lineterm=""
+    )
+
+    arquivo = os.path.join(VERSOES, f"{nome}_diff.txt")
+    with open(arquivo, "w", encoding="utf-8") as f:
+        f.write("\n".join(diff))
+
+# ============================================================
+# PROCESSAMENTO COMPLETO
+# ============================================================
+
+def processar_interface(arq):
+
+    nome = os.path.basename(arq)
+
+    with open(arq, "r", encoding="utf-8") as f:
+        original = f.read()
+
+    copia = copiar(arq)
+
+    ajustes = analisar_interface(original)
+    log(f"{nome} ajustes: {ajustes}")
+
+    novo = aplicar_design(original)
+
+    with open(copia, "w", encoding="utf-8") as f:
+        f.write(novo)
+
+    comparar(original, novo, nome)
+
+# ============================================================
+# ORQUESTRAÃ‡ÃƒO (tipo Netflix)
+# ============================================================
+
+def escolher_interface():
+    arquivos = os.listdir(OFICINA)
+    if arquivos:
+        return arquivos[0]
+    return None
+
+# ============================================================
+# EXECUÃ‡ÃƒO
+# ============================================================
+
+def executar():
+
+    online = verificar_internet()
+
+    interfaces = listar_interfaces()
+
+    for i in interfaces:
+        processar_interface(i)
+
+    ativa = escolher_interface()
+
+    if ativa:
+        log(f"Interface ativa: {ativa}")
+    else:
+        log("Nenhuma interface disponÃ­vel")
+
+# ============================================================
+# START
+# ============================================================
+
+if __name__ == '__main__':
+    modo_rotacao()
+# antigo:
+    executar()
+
+
+import random
+import time
+def modo_rotacao():
+    print("\n🎬 Modo rotação ativado\n")
+
+    while True:
+        interfaces = listar_interfaces()
+
+        if not interfaces:
+            print("⚠️ Nenhuma interface disponível")
+            time.sleep(5)
+            continue
+
+        escolhida = random.choice(interfaces)
+
+        print(f"🎯 Interface ativa: {os.path.basename(escolhida)}")
+
+        processar_interface(escolhida)
+
+        time.sleep(10)
+def modo_rotacao():
+    print("\n🎬 Modo rotação ativado\n")
+
+    while True:
+        interfaces = listar_interfaces()
+
+        if not interfaces:
+            print("⚠️ Nenhuma interface disponível")
+            time.sleep(5)
+            continue
+
+        escolhida = random.choice(interfaces)
+
+        print(f"🎯 Interface ativa: {os.path.basename(escolhida)}")
+
+        processar_interface(escolhida)
+
+        time.sleep(10)
+
+
+
+
+

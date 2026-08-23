@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ficha Técnica · REGULUS</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="badge">Ficha Técnica Multissetorial</div>
+      <a class="small" href="{{ url_for('recepcao') }}">Voltar à recepção</a>
+    </div>
+
+    <section class="hero">
+      <h1>Por favor, preencha a ficha corretamente</h1>
+      <p>
+        As informações abaixo permitem preparar o setor especializado antes do atendimento técnico-comercial.
+      </p>
+    </section>
+
+    <div class="panel">
+      <form method="post" action="{{ url_for('enviar_ficha') }}">
+        <label>Nome completo</label>
+        <input name="nome" required>
+
+        <label>Empresa / organização</label>
+        <input name="empresa" required>
+
+        <label>E-mail</label>
+        <input name="email" type="email" required>
+
+        <label>País</label>
+        <input name="pais" required>
+
+        <label>Idioma preferido</label>
+        <select name="idioma" required>
+          <option value="">Selecione</option>
+          <option>Português</option>
+          <option>English</option>
+          <option>Español</option>
+          <option>Français</option>
+          <option>Deutsch</option>
+          <option>Italiano</option>
+        </select>
+
+        <label>Setor econômico</label>
+        <input name="setor" value="{{ setor_preselecionado }}" placeholder="Ex.: Financeiro, Engenharia, Mineração, Hotelaria" required>
+
+        <label>Segmento detalhado</label>
+        <input name="segmento" placeholder="Ex.: hospital privado, banco digital, fazenda leiteira">
+
+        <label>Tipo de cliente</label>
+        <select name="tipo_cliente" required>
+          <option value="">Selecione</option>
+          <option>Privado</option>
+          <option>Público</option>
+          <option>Misto</option>
+        </select>
+
+        <label>Urgência</label>
+        <select name="urgencia" required>
+          <option value="">Selecione</option>
+          <option>Baixa</option>
+          <option>Média</option>
+          <option>Alta</option>
+          <option>Crítica</option>
+        </select>
+
+        <label>Faixa de orçamento</label>
+        <select name="orcamento">
+          <option value="">Não informado</option>
+          <option>Até R$ 5 mil</option>
+          <option>R$ 5 mil a R$ 15 mil</option>
+          <option>R$ 15 mil a R$ 50 mil</option>
+          <option>Acima de R$ 50 mil</option>
+        </select>
+
+        <label>Descreva a necessidade</label>
+        <textarea name="necessidade" required placeholder="Explique a dor, o problema e o que o sistema precisa resolver."></textarea>
+
+        <label>Integrações / ferramentas que já usa</label>
+        <textarea name="integracoes" placeholder="Ex.: planilhas, ERP, CRM, Power BI, sensores, WhatsApp, e-mail, banco de dados."></textarea>
+
+        <label>Observações adicionais</label>
+        <textarea name="observacoes" placeholder="Personalização, idioma, prazo, visual, restrições, regras internas."></textarea>
+
+        <button class="btn" type="submit">Enviar ficha técnica</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

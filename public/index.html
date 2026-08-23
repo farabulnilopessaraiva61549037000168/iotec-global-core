@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout PayPal - IOTEC</title>
+</head>
+<body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #f4f6f8;">
+  <div style="background: white; padding: 2rem; border-radius: 12px; text-align: center; max-width: 400px; width: 100%;">
+    <h2>Finalizar Compra</h2>
+    <p>Valor: <strong>$ 15.00 USD</strong></p>
+    <div id="paypal-button-container" style="margin-top: 20px;"></div>
+  </div>
+  <script>
+    fetch('/api/config/paypal')
+      .then(res => res.json())
+      .then(data => {
+        // Remove qualquer espaço residual do Client ID antes de chamar o SDK
+        const cleanClientId = data.clientId.replace(/\s+/g, '');
+        const script = document.createElement('script');
+        script.src = `https://www.paypal.com/sdk/js?client-id=${cleanClientId}&currency=USD`;
+        script.onload = () => {
+          paypal.Buttons({
+            createOrder: (data, actions) => actions.order.create({ purchase_units: [{ amount: { value: '15.00' } }] }),
+            onApprove: (data, actions) => actions.order.capture().then(d => alert('Sucesso: ' + d.payer.name.given_name)),
+            onError: (err) => console.error(err)
+          }).render('#paypal-button-container');
+        };
+        document.head.appendChild(script);
+      });
+  </script>
+</body>
+</html>

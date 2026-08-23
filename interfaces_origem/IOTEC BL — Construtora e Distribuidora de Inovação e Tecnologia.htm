@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOTEC BL — Construtora e Distribuidora de Inovação e Tecnologia</title>
+  <meta name="description" content="Análise técnica, desenvolvimento, cibersegurança, automação, BI e consultoria estratégica. Entre em contato e transforme sua operação.">
+
+  <!-- Google Fonts: Inter + Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="IOTEC%20BL%20%E2%80%94%20Construtora%20e%20Distribuidora%20de%20Inova%C3%A7%C3%A3o%20e%20Tecnologia_files/css2.css" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:    #C9A44C;
+      --gold-lt: #E8C97A;
+      --dark:    #080A0F;
+      --dark2:   #0D1017;
+      --dark3:   #131720;
+      --line:    rgba(201,164,76,.18);
+      --text:    #F0F0F0;
+      --muted:   #8A8FA8;
+      --white:   #FFFFFF;
+      --r:       6px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--dark);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* ── HERO ─────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px 80px;
+      overflow: hidden;
+    }
+
+    /* animated tech grid */
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(201,164,76,.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,164,76,.06) 1px, transparent 1px);
+      background-size: 60px 60px;
+      animation: gridDrift 30s linear infinite;
+    }
+    @keyframes gridDrift {
+      from { transform: translate(0,0); }
+      to   { transform: translate(60px, 60px); }
+    }
+
+    /* radial glow center */
+    .hero-glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 55% at 50% 44%,
+        rgba(201,164,76,.13) 0%,
+        rgba(30,58,138,.10) 40%,
+        transparent 72%);
+      pointer-events: none;
+    }
+
+    /* corner glows */
+    .hero::before, .hero::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero::before {
+      width: 540px; height: 540px;
+      background: radial-gradient(circle, rgba(201,164,76,.09) 0%, transparent 65%);
+      top: -120px; right: -100px;
+    }
+    .hero::after {
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(30,58,138,.15) 0%, transparent 65%);
+      bottom: -80px; left: -80px;
+    }
+
+    .hero-content { position: relative; z-index: 2; max-width: 820px; }
+
+    .badge-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 100px;
+      padding: 6px 18px;
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 32px;
+      background: rgba(201,164,76,.06);
+    }
+    .badge-label span { width: 6px; height: 6px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.7)} }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2.4rem, 6vw, 4.4rem);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+      color: var(--white);
+      margin-bottom: 20px;
+    }
+    .hero-title em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--gold-lt), var(--gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 40px;
+      font-weight: 300;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--gold);
+      color: var(--dark);
+      font-weight: 600;
+      font-size: .95rem;
+      padding: 14px 34px;
+      border-radius: var(--r);
+      text-decoration: none;
+      letter-spacing: .01em;
+      transition: background .2s, transform .15s;
+    }
+    .hero-cta:hover { background: var(--gold-lt); transform: translateY(-2px); }
+    .hero-cta svg { width: 16px; height: 16px; }
+
+    .hero-stat-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      border-top: 1px solid var(--line);
+      z-index: 2;
+    }
+    .hero-stat {
+      flex: 1;
+      max-width: 200px;
+      padding: 22px 16px;
+      text-align: center;
+      border-right: 1px solid var(--line);
+    }
+    .hero-stat:last-child { border-right: none; }
+    .hero-stat strong {
+      display: block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: -.03em;
+    }
+    .hero-stat span { font-size: .72rem; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+
+    /* ── SECTION ──────────────────────────────────────── */
+    section { padding: 90px 24px; }
+    .container { max-width: 1020px; margin: 0 auto; }
+
+    .section-label {
+      font-size: .7rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+    .section-desc {
+      color: var(--muted);
+      font-size: .97rem;
+      max-width: 560px;
+      margin-bottom: 54px;
+    }
+
+    /* ── SERVICES GRID ────────────────────────────────── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 1px;
+      border: 1px solid var(--line);
+      border-radius: var(--r);
+      overflow: hidden;
+    }
+
+    .service-card {
+      background: var(--dark2);
+      padding: 34px 30px;
+      position: relative;
+      transition: background .2s;
+    }
+    .service-card:hover { background: var(--dark3); }
+    .service-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity .3s;
+    }
+    .service-card:hover::after { opacity: 1; }
+
+    .service-icon {
+      width: 44px; height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 22px;
+      background: rgba(201,164,76,.05);
+    }
+    .service-icon svg { width: 20px; height: 20px; stroke: var(--gold); fill: none; stroke-width: 1.5; }
+
+    .service-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .service-card p {
+      font-size: .87rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .service-tag {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: .68rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 3px 9px;
+    }
+
+    /* ── DIVIDER ──────────────────────────────────────── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--line) 30%, var(--line) 70%, transparent);
+    }
+
+    /* ── IMAGE BAND ───────────────────────────────────── */
+    .image-band {
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      height: 420px;
+    }
+    .image-band img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: brightness(.45) saturate(.6);
+    }
+    .image-band-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        rgba(8,10,15,.95) 0%,
+        rgba(8,10,15,.55) 50%,
+        rgba(8,10,15,.15) 100%
+      );
+      display: flex;
+      align-items: center;
+      padding: 0 10%;
+    }
+    .image-band-text { max-width: 500px; }
+    .image-band-text h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .image-band-text p {
+      font-size: .97rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .gold-line {
+      width: 48px; height: 2px;
+      background: var(--gold);
+      margin-bottom: 22px;
+    }
+
+    /* ── PROCESS ──────────────────────────────────────── */
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 32px;
+      counter-reset: step;
+    }
+    .process-step { counter-increment: step; }
+    .step-num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: rgba(201,164,76,.15);
+      line-height: 1;
+      margin-bottom: 14px;
+    }
+    .step-num::before { content: "0" counter(step); }
+    .process-step h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .process-step p { font-size: .86rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── FORM ─────────────────────────────────────────── */
+    .form-section { background: var(--dark2); }
+
+    .form-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+    }
+    @media (max-width: 700px) { .form-wrap { grid-template-columns: 1fr; gap: 40px; } }
+
+    .form-info h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+    .form-info p { font-size: .93rem; color: var(--muted); line-height: 1.7; margin-bottom: 32px; }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: .9rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    .contact-item svg { width: 18px; height: 18px; stroke: var(--gold); fill: none; stroke-width: 1.5; flex-shrink: 0; }
+    .contact-item a { color: var(--gold); text-decoration: none; }
+
+    form { display: flex; flex-direction: column; gap: 14px; }
+
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 500px) { .field-row { grid-template-columns: 1fr; } }
+
+    label { display: block; font-size: .75rem; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 6px; }
+
+    input, select, textarea {
+      width: 100%;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: var(--r);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: .9rem;
+      padding: 12px 14px;
+      outline: none;
+      transition: border-color .2s, background .2s;
+      appearance: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: rgba(201,164,76,.5);
+      background: rgba(255,255,255,.06);
+    }
+    textarea { resize: vertical; min-height: 110px; }
+    select option { background: var(--dark2); }
+
+    .submit-btn {
+      background: var(--gold);
+      color: var(--dark);
+      font-weight: 600;
+      font-size: .95rem;
+      padding: 14px 28px;
+      border: none;
+      border-radius: var(--r);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background .2s, transform .15s;
+      letter-spacing: .01em;
+      margin-top: 4px;
+    }
+    .submit-btn:hover { background: var(--gold-lt); transform: translateY(-1px); }
+    .submit-btn svg { width: 16px; height: 16px; }
+
+    /* flash messages */
+    .flash-msg {
+      padding: 14px 18px;
+      border-radius: var(--r);
+      font-size: .9rem;
+      margin-bottom: 6px;
+    }
+    .flash-sucesso { background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.3); color: #4ade80; }
+    .flash-erro    { background: rgba(239,68,68,.1);  border: 1px solid rgba(239,68,68,.3);  color: #f87171; }
+
+    /* ── FOOTER ───────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .footer-brand {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: .92rem;
+      color: var(--white);
+      letter-spacing: .03em;
+    }
+    .footer-brand span { color: var(--gold); }
+    .footer-copy { font-size: .8rem; color: var(--muted); }
+
+    /* ── UTILITIES ────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .hero-stat-bar { display: none; }
+      .image-band { height: 280px; }
+      .image-band-overlay { padding: 0 6%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+
+    <div class="badge-label">
+      <span></span>
+      Inovação &amp; Tecnologia Aplicada
+    </div>
+
+    <h1 class="hero-title">
+      Análise técnica e<br>
+      <em>soluções sob medida</em><br>
+      para sua empresa
+    </h1>
+
+    <p class="hero-sub">
+      Auditoria, desenvolvimento, cibersegurança, BI, automação e
+      consultoria estratégica — do diagnóstico à entrega, em um único parceiro.
+    </p>
+
+    <a href="#recepcao" class="hero-cta">
+      Iniciar Diagnóstico Gratuito
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </a>
+
+  </div>
+
+  <div class="hero-stat-bar">
+    <div class="hero-stat">
+      <strong>8+</strong>
+      <span>Especialidades</span>
+    </div>
+    <div class="hero-stat">
+      <strong>48h</strong>
+      <span>Resposta Técnica</span>
+    </div>
+    <div class="hero-stat">
+      <strong>100%</strong>
+      <span>Proposta Personalizada</span>
+    </div>
+    <div class="hero-stat">
+      <strong>NDA</strong>
+      <span>Confidencialidade</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SERVIÇOS
+══════════════════════════════════════════ -->
+<section style="background:var(--dark);padding-top:80px;padding-bottom:80px;padding-left:24px;padding-right:24px;">
+  <div class="container">
+    <p class="section-label">O que entregamos</p>
+    <h2 class="section-title">Especialidades &amp;<br>Serviços Técnicos</h2>
+    <p class="section-desc">
+      Cada projeto começa com escuta. Mapeamos sua operação e entregamos
+      uma solução precisa — sem excesso, sem atalhos.
+    </p>
+
+    <div class="services-grid">
+
+      <!-- 1 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        </div>
+        <h3>Auditoria &amp; Análise Técnica</h3>
+        <p>Levantamento completo da infraestrutura, processos e sistemas. Relatório detalhado com lacunas e plano de ação.</p>
+        <span class="service-tag">Diagnóstico</span>
+      </div>
+
+      <!-- 2 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        </div>
+        <h3>Desenvolvimento de Sistemas</h3>
+        <p>Aplicações web, APIs, integrações e automações desenvolvidas com arquitetura sólida e escalável.</p>
+        <span class="service-tag">Desenvolvimento</span>
+      </div>
+
+      <!-- 3 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h3>Cibersegurança</h3>
+        <p>Avaliação de vulnerabilidades, políticas de acesso, proteção de dados e resposta a incidentes.</p>
+        <span class="service-tag">Segurança</span>
+      </div>
+
+      <!-- 4 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+        </div>
+        <h3>Business Intelligence</h3>
+        <p>Dashboards executivos, modelagem de dados e KPIs que transformam números em decisões estratégicas.</p>
+        <span class="service-tag">BI &amp; Analytics</span>
+      </div>
+
+      <!-- 5 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10"></path><path d="M12 6v6l4 2"></path><circle cx="19" cy="5" r="3"></circle></svg>
+        </div>
+        <h3>Automação de Processos</h3>
+        <p>RPA, integrações entre sistemas, eliminação de retrabalho e ganho de escala operacional.</p>
+        <span class="service-tag">Automação</span>
+      </div>
+
+      <!-- 6 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <h3>Consultoria Estratégica</h3>
+        <p>Roadmap tecnológico, terceirização de expertise e acompanhamento contínuo para crescimento sustentável.</p>
+        <span class="service-tag">Consultoria</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     IMAGE BAND
+══════════════════════════════════════════ -->
+<div class="image-band">
+  <img src="IOTEC%20BL%20%E2%80%94%20Construtora%20e%20Distribuidora%20de%20Inova%C3%A7%C3%A3o%20e%20Tecnologia_files/digital_technology_n_604ee61e.jpg" alt="Tecnologia Digital">
+  <div class="image-band-overlay">
+    <div class="image-band-text">
+      <div class="gold-line"></div>
+      <h2>Inovação distribuída.<br>Tecnologia que conecta o mundo.</h2>
+      <p>
+        Da análise ao deploy — operamos em toda a cadeia tecnológica.
+        Parceiro técnico para empresas que precisam crescer com solidez.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     PROCESSO
+══════════════════════════════════════════ -->
+<section style="background:var(--dark);padding-top:80px;padding-bottom:80px;padding-left:24px;padding-right:24px;">
+  <div class="container">
+    <p class="section-label">Como funciona</p>
+    <h2 class="section-title" style="margin-bottom:48px;">Do contato à entrega</h2>
+
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num"></div>
+        <h4>Diagnóstico Gratuito</h4>
+        <p>Preencha o formulário e descreva sua necessidade em qualquer área — técnica ou estratégica.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num"></div>
+        <h4>Análise Técnica</h4>
+        <p>Em até 48 horas nosso time avalia e prepara uma proposta detalhada com escopo e investimento.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num"></div>
+        <h4>Proposta Personalizada</h4>
+        <p>Apresentamos a solução completa, com cronograma, tecnologias e entregáveis definidos.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num"></div>
+        <h4>Execução &amp; Suporte</h4>
+        <p>Desenvolvemos, entregamos e permanecemos como parceiro técnico contínuo do seu negócio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     RECEPÇÃO / FORMULÁRIO
+══════════════════════════════════════════ -->
+<section class="form-section" id="recepcao" style="padding-top:80px;padding-bottom:80px;padding-left:24px;padding-right:24px;">
+  <div class="container">
+    <div class="form-wrap">
+
+      <!-- Info lado esquerdo -->
+      <div class="form-info">
+        <p class="section-label">Recepção Técnica</p>
+        <h2>Fale com<br>nosso time</h2>
+        <p>
+          Este formulário atende todos os setores: análise de sistemas,
+          desenvolvimento, cibersegurança, BI, automação e consultoria.
+          Descreva sua necessidade — nossa equipe retorna em até 48 horas
+          com uma avaliação inicial gratuita.
+        </p>
+
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:iotec.bl@proton.me">iotec.bl@proton.me</a>
+        </div>
+
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>Confidencialidade garantida — NDA disponível</span>
+        </div>
+
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>Resposta técnica em até 48 horas úteis</span>
+        </div>
+      </div>
+
+      <!-- Formulário lado direito -->
+      <div>
+        
+          
+        
+
+        <form method="POST" action="/contato" name="recepcao-iotec" data-netlify="true">
+          <input type="hidden" name="form-name" value="recepcao-iotec">
+
+          <div class="field-row">
+            <div>
+              <label>Nome *</label>
+              <input type="text" name="nome" placeholder="Seu nome completo" required="">
+            </div>
+            <div>
+              <label>Empresa</label>
+              <input type="text" name="empresa" placeholder="Nome da empresa">
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div>
+              <label>E-mail *</label>
+              <input type="email" name="email" placeholder="seu@email.com" required="">
+            </div>
+            <div>
+              <label>Telefone / WhatsApp</label>
+              <input type="text" name="telefone" placeholder="+55 (11) 99999-9999">
+            </div>
+          </div>
+
+          <div>
+            <label>Área de interesse *</label>
+            <select name="setor" required="">
+              <option value="" disabled="disabled" selected="selected">Selecione o setor</option>
+              <option value="Auditoria &amp; Análise">Auditoria &amp; Análise Técnica</option>
+              <option value="Desenvolvimento">Desenvolvimento de Sistemas</option>
+              <option value="Cibersegurança">Cibersegurança</option>
+              <option value="Business Intelligence">Business Intelligence &amp; Analytics</option>
+              <option value="Automação">Automação de Processos</option>
+              <option value="Consultoria">Consultoria Estratégica</option>
+              <option value="Terceirização">Terceirização de Expertise</option>
+              <option value="Outro">Outro / Não sei definir</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Descreva sua necessidade *</label>
+            <textarea name="necessidade" placeholder="Conte brevemente o desafio ou projeto que você precisa resolver..." required=""></textarea>
+          </div>
+
+          <div>
+            <label>Orçamento estimado</label>
+            <select name="orcamento">
+              <option value="" disabled="disabled" selected="selected">Faixa de investimento (opcional)</option>
+              <option value="Até R$ 5k">Até R$ 5.000</option>
+              <option value="R$ 5k–15k">R$ 5.000 — R$ 15.000</option>
+              <option value="R$ 15k–50k">R$ 15.000 — R$ 50.000</option>
+              <option value="Acima de R$ 50k">Acima de R$ 50.000</option>
+              <option value="A definir">A definir / Não sei</option>
+            </select>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            Enviar para Análise
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer style="background:var(--dark);padding-left:24px;padding-right:24px;max-width:1020px;margin:0 auto;">
+  <div class="footer-brand">IOTEC <span>BL</span></div>
+  <div class="footer-copy">Construtora e Distribuidora de Inovação e Tecnologia · iotec.bl@proton.me</div>
+  <div class="footer-copy" style="color:rgba(138,143,168,.5);">© 2025 IOTEC BL — Todos os direitos reservados</div>
+</footer>
+
+
+</body></html>

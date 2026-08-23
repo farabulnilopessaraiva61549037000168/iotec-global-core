@@ -1,0 +1,138 @@
+import csv
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+
+DB = r"C:\IOTEC_OMEGA_X\backend\iotec.db"
+CSV_FILE = r"C:\IOTEC\empresas.csv"
+
+conn = sqlite3.connect(DB)
+cur = conn.cursor()
+
+print("")
+print("==================================================")
+print("IOTEC CSV CONNECTOR")
+print("==================================================")
+print("")
+
+if not Path(CSV_FILE).exists():
+
+    print("ARQUIVO NAO ENCONTRADO")
+    print(CSV_FILE)
+
+    conn.close()
+    raise SystemExit
+
+total_lidas = 0
+novas = 0
+duplicadas = 0
+
+with open(
+    CSV_FILE,
+    "r",
+    encoding="utf-8",
+    newline=""
+) as f:
+
+    reader = csv.DictReader(f)
+
+    for row in reader:
+
+        total_lidas += 1
+
+        empresa = row.get(
+            "company",
+            ""
+        ).strip()
+
+        setor = row.get(
+            "sector",
+            "GERAL"
+        ).strip()
+
+        score = int(
+            row.get(
+                "lead_score",
+                50
+            )
+        )
+
+        valor = float(
+            row.get(
+                "estimated_value",
+                0
+            )
+        )
+
+        origem = row.get(
+            "source",
+            "CSV"
+        ).strip()
+
+        if not empresa:
+            continue
+
+        existe = cur.execute("""
+
+        SELECT id
+
+        FROM commercial_opportunities
+
+        WHERE UPPER(company)=UPPER(?)
+
+        """,(empresa,)).fetchone()
+
+        if existe:
+
+            duplicadas += 1
+            continue
+
+        cur.execute("""
+
+        INSERT INTO commercial_opportunities(
+
+            company,
+            sector,
+            lead_score,
+            recommended_service,
+            estimated_value,
+            status,
+            created_at
+
+        )
+
+        VALUES(
+
+            ?,?,?,?,?,?,?
+
+        )
+
+        """,(
+
+            empresa,
+            setor,
+            score,
+            "ANALISE_COMERCIAL",
+            valor,
+            "NOVA",
+            datetime.now().strftime(
+                "%d/%m/%Y %H:%M:%S"
+            )
+
+        ))
+
+        novas += 1
+
+conn.commit()
+
+print("EMPRESAS LIDAS:", total_lidas)
+print("NOVAS:", novas)
+print("DUPLICADAS:", duplicadas)
+
+print("")
+print("==================================================")
+print("IMPORTACAO FINALIZADA")
+print("==================================================")
+print("")
+
+conn.close()

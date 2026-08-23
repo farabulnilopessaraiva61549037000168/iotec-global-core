@@ -1,0 +1,68 @@
+from datetime import datetime
+
+from database import CompanyDB
+from database import PipelineDB
+
+ETAPAS = [
+    "NOVO_LEAD",
+    "QUALIFICACAO",
+    "PRIMEIRO_CONTATO",
+    "DIAGNOSTICO",
+    "PROPOSTA",
+    "NEGOCIACAO",
+    "CONTRATO",
+    "CLIENTE"
+]
+
+companies = CompanyDB.load()
+pipeline = PipelineDB.load()
+
+existentes = {
+    item["company_name"]
+    for item in pipeline
+}
+
+novos = 0
+
+for company in companies:
+
+    nome = company.get("company_name")
+
+    if not nome:
+        continue
+
+    if nome in existentes:
+        continue
+
+    registro = {
+
+        "company_name": nome,
+
+        "pipeline": ETAPAS[0],
+
+        "history": [
+            {
+                "stage": ETAPAS[0],
+                "date": str(datetime.now())
+            }
+        ],
+
+        "created_at": str(datetime.now()),
+
+        "updated_at": str(datetime.now())
+
+    }
+
+    pipeline.append(registro)
+
+    novos += 1
+
+PipelineDB.save(pipeline)
+
+print("=" * 70)
+print("IOTEC PIPELINE INITIALIZER")
+print("=" * 70)
+print()
+print("Empresas........:", len(companies))
+print("Pipeline........:", len(pipeline))
+print("Novos Registros.:", novos)

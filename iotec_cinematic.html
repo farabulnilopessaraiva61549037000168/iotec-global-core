@@ -1,0 +1,586 @@
+<!-- =====================================================
+ARQUIVO:
+dashboard/iotec_cinematic.html
+===================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+/>
+
+<title>IOTEC GLOBAL EXPERIENCE</title>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+rel="stylesheet"
+/>
+
+<style>
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Inter', sans-serif;
+
+    background:
+    radial-gradient(
+        circle at top right,
+        rgba(255,180,60,0.12),
+        transparent 25%
+    ),
+
+    radial-gradient(
+        circle at bottom left,
+        rgba(255,120,0,0.08),
+        transparent 25%
+    ),
+
+    #06080d;
+
+    color: white;
+
+    overflow-x: hidden;
+}
+
+.container {
+
+    display: flex;
+
+    min-height: 100vh;
+}
+
+/* =====================================================
+SIDEBAR
+===================================================== */
+
+.sidebar {
+
+    width: 280px;
+
+    background:
+    rgba(10,12,18,0.92);
+
+    border-right:
+    1px solid rgba(255,180,60,0.08);
+
+    backdrop-filter: blur(18px);
+
+    padding: 30px;
+}
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: #ffcc70;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+
+    color: rgba(255,255,255,0.55);
+
+    margin-bottom: 40px;
+}
+
+.menu {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.menu-item {
+
+    padding: 16px;
+
+    border-radius: 18px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+    border:
+    1px solid rgba(255,255,255,0.03);
+}
+
+.menu-item:hover {
+
+    transform: translateX(6px);
+
+    background:
+    rgba(255,180,60,0.08);
+
+    border:
+    1px solid rgba(255,180,60,0.15);
+}
+
+/* =====================================================
+MAIN
+===================================================== */
+
+.main {
+
+    flex: 1;
+
+    padding: 35px;
+}
+
+/* =====================================================
+HEADER
+===================================================== */
+
+.hero {
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,0.06),
+        rgba(255,255,255,0.02)
+    );
+
+    border-radius: 28px;
+
+    padding: 35px;
+
+    border:
+    1px solid rgba(255,255,255,0.06);
+
+    backdrop-filter: blur(18px);
+
+    box-shadow:
+    0 0 40px rgba(255,180,60,0.08);
+}
+
+.hero-title {
+
+    font-size: 44px;
+
+    font-weight: 700;
+
+    color: #ffcc70;
+}
+
+.hero-subtitle {
+
+    margin-top: 12px;
+
+    color: rgba(255,255,255,0.65);
+
+    font-size: 18px;
+}
+
+/* =====================================================
+METRICS
+===================================================== */
+
+.metrics {
+
+    margin-top: 28px;
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+}
+
+.metric-card {
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.02)
+    );
+
+    border-radius: 24px;
+
+    padding: 24px;
+
+    border:
+    1px solid rgba(255,255,255,0.05);
+
+    transition: 0.3s;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.metric-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+    0 0 30px rgba(255,180,60,0.12);
+}
+
+.metric-label {
+
+    color: rgba(255,255,255,0.55);
+
+    font-size: 14px;
+}
+
+.metric-value {
+
+    margin-top: 12px;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+    color: #ffcc70;
+}
+
+/* =====================================================
+GRID
+===================================================== */
+
+.grid {
+
+    margin-top: 28px;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    gap: 22px;
+}
+
+.panel {
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.02)
+    );
+
+    border-radius: 26px;
+
+    padding: 28px;
+
+    border:
+    1px solid rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(18px);
+}
+
+.panel-title {
+
+    font-size: 22px;
+
+    color: #ffcc70;
+
+    margin-bottom: 18px;
+}
+
+/* =====================================================
+LIVE MODULES
+===================================================== */
+
+.live-module {
+
+    padding: 16px;
+
+    border-radius: 18px;
+
+    margin-bottom: 14px;
+
+    background:
+    rgba(255,255,255,0.03);
+
+    border:
+    1px solid rgba(255,255,255,0.03);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.status {
+
+    color: #6dff8b;
+
+    font-weight: bold;
+}
+
+/* =====================================================
+AI
+===================================================== */
+
+.ai-box {
+
+    line-height: 1.9;
+
+    color: rgba(255,255,255,0.72);
+}
+
+/* =====================================================
+FOOTER
+===================================================== */
+
+.footer {
+
+    margin-top: 28px;
+
+    text-align: center;
+
+    color: rgba(255,255,255,0.35);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+        ◆ IOTEC
+        </div>
+
+        <div class="subtitle">
+        GLOBAL EXPERIENCE
+        </div>
+
+        <div class="menu">
+
+            <div class="menu-item">
+            Command Center
+            </div>
+
+            <div class="menu-item">
+            Revenue
+            </div>
+
+            <div class="menu-item">
+            AI Concierge
+            </div>
+
+            <div class="menu-item">
+            Marketplace
+            </div>
+
+            <div class="menu-item">
+            Governance
+            </div>
+
+            <div class="menu-item">
+            Modules
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-title">
+            IOTEC GLOBAL EXPERIENCE
+            </div>
+
+            <div class="hero-subtitle">
+            Cinematic Executive Operational Environment
+            </div>
+
+        </section>
+
+        <!-- METRICS -->
+
+        <section class="metrics">
+
+            <div class="metric-card">
+
+                <div class="metric-label">
+                ACTIVE MODULES
+                </div>
+
+                <div class="metric-value">
+                12
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-label">
+                MONTHLY REVENUE
+                </div>
+
+                <div class="metric-value">
+                $37K
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-label">
+                CLIENTS
+                </div>
+
+                <div class="metric-value">
+                128
+                </div>
+
+            </div>
+
+            <div class="metric-card">
+
+                <div class="metric-label">
+                CORE STATUS
+                </div>
+
+                <div class="metric-value">
+                STABLE
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- GRID -->
+
+        <section class="grid">
+
+            <!-- LEFT -->
+
+            <div class="panel">
+
+                <div class="panel-title">
+                LIVE MODULES
+                </div>
+
+                <div class="live-module">
+
+                    Commercial Intelligence
+
+                    <span class="status">
+                    ACTIVE
+                    </span>
+
+                </div>
+
+                <div class="live-module">
+
+                    Automation Spine
+
+                    <span class="status">
+                    ACTIVE
+                    </span>
+
+                </div>
+
+                <div class="live-module">
+
+                    Luxury Media Engine
+
+                    <span class="status">
+                    ACTIVE
+                    </span>
+
+                </div>
+
+                <div class="live-module">
+
+                    Technical Advisor
+
+                    <span class="status">
+                    ACTIVE
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="panel">
+
+                <div class="panel-title">
+                AI CONCIERGE
+                </div>
+
+                <div class="ai-box">
+
+                    AURELION ONLINE
+
+                    <br><br>
+
+                    • Ecosystem stable
+
+                    <br>
+
+                    • Governance operational
+
+                    <br>
+
+                    • Revenue systems active
+
+                    <br>
+
+                    • Expansion available
+
+                    <br>
+
+                    • Premium infrastructure ready
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+
+            IOTEC GLOBAL EXPERIENCE
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>

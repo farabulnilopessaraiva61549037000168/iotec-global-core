@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS | Bancos e Investidores</title>
+    <link href="REGULUS%20_%20Bancos%20e%20Investidores_arquivos/css2.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9A227;
+            --gold-light: #E8D48B;
+            --gold-dark: #8B7355;
+            --obsidian: #020202;
+            --surface: #060606;
+            --surface-2: #0a0a0a;
+            --border: rgba(201, 162, 39, 0.1);
+            --text: #ffffff;
+            --text-dim: rgba(255,255,255,0.65);
+            --text-muted: rgba(255,255,255,0.35);
+            --phi: 1.618;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--obsidian);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* === PEIXE VOADOR MINIMALISTA === */
+        .flying-fish-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            pointer-events: none;
+            z-index: 1000;
+            overflow: hidden;
+        }
+
+        .flying-fish {
+            position: absolute;
+            width: 20px;
+            height: 8px;
+            top: 30px;
+            animation: fishFlight 12s ease-in-out infinite;
+        }
+
+        .fish-body {
+            position: absolute;
+            width: 16px;
+            height: 6px;
+            background: linear-gradient(90deg, var(--gold-light), var(--gold));
+            border-radius: 50% 30% 30% 50%;
+            box-shadow: 0 0 10px rgba(201, 162, 39, 0.5);
+        }
+
+        .fish-tail {
+            position: absolute;
+            right: -4px;
+            top: 1px;
+            width: 0;
+            height: 0;
+            border-left: 6px solid var(--gold);
+            border-top: 3px solid transparent;
+            border-bottom: 3px solid transparent;
+        }
+
+        .fish-fin {
+            position: absolute;
+            top: -4px;
+            left: 4px;
+            width: 8px;
+            height: 6px;
+            background: linear-gradient(180deg, rgba(201, 162, 39, 0.8), transparent);
+            border-radius: 50% 50% 0 0;
+            transform-origin: bottom center;
+            animation: finFlap 0.3s ease-in-out infinite;
+        }
+
+        .fish-eye {
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            width: 2px;
+            height: 2px;
+            background: var(--obsidian);
+            border-radius: 50%;
+        }
+
+        @keyframes fishFlight {
+            0% { left: -30px; top: 35px; transform: rotate(0deg); }
+            10% { left: 15%; top: 20px; transform: rotate(-15deg); }
+            20% { left: 30%; top: 40px; transform: rotate(10deg); }
+            30% { left: 45%; top: 15px; transform: rotate(-20deg); }
+            40% { left: 55%; top: 45px; transform: rotate(15deg); }
+            50% { left: 65%; top: 25px; transform: rotate(-10deg); }
+            60% { left: 75%; top: 50px; transform: rotate(20deg); }
+            70% { left: 85%; top: 20px; transform: rotate(-15deg); }
+            80% { left: 95%; top: 35px; transform: rotate(5deg); }
+            90% { left: 105%; top: 30px; transform: rotate(0deg); }
+            100% { left: 110%; top: 35px; transform: rotate(0deg); }
+        }
+
+        @keyframes finFlap {
+            0%, 100% { transform: rotate(-20deg); }
+            50% { transform: rotate(20deg); }
+        }
+
+        /* Padrões Fibonacci/Áurea no fundo */
+        .fibonacci-pattern {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.03;
+        }
+
+        .golden-spiral {
+            position: absolute;
+            border: 1px solid var(--gold);
+            border-radius: 0 0 100% 0;
+            animation: spiralPulse 20s ease-in-out infinite;
+        }
+
+        .spiral-1 { width: 610px; height: 377px; top: 10%; left: 5%; }
+        .spiral-2 { width: 377px; height: 233px; top: 30%; right: 10%; transform: rotate(90deg); }
+        .spiral-3 { width: 233px; height: 144px; bottom: 20%; left: 20%; transform: rotate(180deg); }
+        .spiral-4 { width: 144px; height: 89px; bottom: 40%; right: 30%; transform: rotate(270deg); }
+
+        @keyframes spiralPulse {
+            0%, 100% { opacity: 0.03; }
+            50% { opacity: 0.06; }
+        }
+
+        /* Linhas áureas */
+        .golden-line {
+            position: absolute;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: 0.05;
+        }
+
+        .golden-line-1 { top: 38.2%; left: 0; width: 100%; }
+        .golden-line-2 { top: 61.8%; left: 0; width: 100%; }
+
+        /* === HEADER MINIMALISTA === */
+        .header {
+            position: relative;
+            z-index: 10;
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            background: rgba(2, 2, 2, 0.95);
+            backdrop-filter: blur(30px);
+        }
+
+        .logo-minimal {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .logo-text {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            font-weight: 500;
+            letter-spacing: 0.6rem;
+            color: var(--gold);
+        }
+
+        .logo-sub {
+            font-size: 0.5rem;
+            letter-spacing: 0.25rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .cotacao-mini {
+            display: flex;
+            gap: 20px;
+        }
+
+        .cotacao-item {
+            text-align: center;
+        }
+
+        .cotacao-pair {
+            font-size: 0.5rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05rem;
+        }
+
+        .cotacao-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--gold);
+        }
+
+        .lang-select {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.7rem;
+        }
+
+        .lang-select:hover {
+            border-color: var(--gold);
+        }
+
+        /* === HERO ULTRA MINIMALISTA === */
+        .hero {
+            position: relative;
+            z-index: 5;
+            padding: 100px 50px 80px;
+            text-align: center;
+        }
+
+        .hero-pre {
+            font-size: 0.6rem;
+            letter-spacing: 0.5rem;
+            color: var(--gold);
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+
+        .hero-title span {
+            color: var(--gold);
+            font-weight: 400;
+        }
+
+        .hero-desc {
+            font-size: 0.95rem;
+            color: var(--text-dim);
+            max-width: 700px;
+            margin: 0 auto 50px;
+            line-height: 1.9;
+            font-weight: 300;
+        }
+
+        /* Métricas em linha */
+        .metrics-line {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+
+        .metric-mini {
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            color: var(--gold);
+            font-weight: 300;
+        }
+
+        .metric-label {
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            letter-spacing: 0.15rem;
+            margin-top: 8px;
+            text-transform: uppercase;
+        }
+
+        /* === SHOPPING GRID === */
+        .shopping-section {
+            position: relative;
+            z-index: 5;
+            padding: 80px 50px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-line {
+            width: 60px;
+            height: 1px;
+            background: var(--gold);
+            margin: 0 auto 25px;
+        }
+
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            letter-spacing: 0.2rem;
+        }
+
+        .modulos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .modulo-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 35px 30px;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+
+        .modulo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 2px;
+            background: var(--gold);
+            opacity: 0;
+            transition: all 0.4s;
+        }
+
+        .modulo-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(201, 162, 39, 0.3);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+        }
+
+        .modulo-card:hover::before {
+            opacity: 1;
+            width: 80px;
+        }
+
+        .modulo-icon {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .modulo-nome {
+            font-family: 'Cinzel', serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.12rem;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .modulo-desc {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .modulo-preco {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 15px 0;
+            border-top: 1px solid var(--border);
+            margin-bottom: 15px;
+        }
+
+        .preco-usd {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            color: var(--gold);
+        }
+
+        .preco-brl {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+        }
+
+        .modulo-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            font-size: 0.55rem;
+            padding: 5px 10px;
+            background: rgba(201, 162, 39, 0.08);
+            color: var(--text-dim);
+            border-radius: 12px;
+            letter-spacing: 0.02rem;
+        }
+
+        .modulo-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+        }
+
+        .stat-value {
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* === VALOR SECTION === */
+        .valor-section {
+            position: relative;
+            z-index: 5;
+            padding: 100px 50px;
+            text-align: center;
+        }
+
+        .valor-box {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px;
+            border: 1px solid var(--gold);
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .valor-box::before,
+        .valor-box::after {
+            content: '◆';
+            position: absolute;
+            font-size: 0.6rem;
+            color: var(--gold);
+        }
+
+        .valor-box::before { top: -8px; left: 50%; transform: translateX(-50%); }
+        .valor-box::after { bottom: -8px; left: 50%; transform: translateX(-50%); }
+
+        .valor-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 0.15rem;
+            margin-bottom: 25px;
+        }
+
+        .valor-text {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            line-height: 2;
+            margin-bottom: 35px;
+        }
+
+        .valor-cta {
+            display: inline-block;
+            padding: 15px 45px;
+            background: transparent;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .valor-cta:hover {
+            background: var(--gold);
+            color: var(--obsidian);
+        }
+
+        /* === FOOTER === */
+        .footer {
+            position: relative;
+            z-index: 5;
+            padding: 35px 50px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: 'Cinzel', serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.25rem;
+            color: var(--gold);
+        }
+
+        .footer-info {
+            font-size: 0.55rem;
+            color: var(--text-muted);
+            text-align: right;
+            line-height: 1.8;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 1200px) {
+            .modulos-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .header { flex-direction: column; gap: 20px; padding: 20px 25px; }
+            .hero { padding: 60px 25px; }
+            .hero-title { font-size: 2rem; }
+            .metrics-line { flex-direction: column; gap: 30px; }
+            .modulos-grid { grid-template-columns: 1fr; }
+            .shopping-section { padding: 50px 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PEIXE VOADOR -->
+    <div class="flying-fish-container">
+        <div class="flying-fish">
+            <div class="fish-body"></div>
+            <div class="fish-tail"></div>
+            <div class="fish-fin"></div>
+            <div class="fish-eye"></div>
+        </div>
+    </div>
+
+    <!-- PADRÕES FIBONACCI/ÁUREA -->
+    <div class="fibonacci-pattern">
+        <div class="golden-spiral spiral-1"></div>
+        <div class="golden-spiral spiral-2"></div>
+        <div class="golden-spiral spiral-3"></div>
+        <div class="golden-spiral spiral-4"></div>
+        <div class="golden-line golden-line-1"></div>
+        <div class="golden-line golden-line-2"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo-minimal">
+            <span class="logo-text">REGULUS</span>
+            <span class="logo-sub">CASA TURCA • MASCATE</span>
+        </div>
+        <div class="header-right">
+            <div class="cotacao-mini">
+                <div class="cotacao-item">
+                    <div class="cotacao-pair">USD/BRL</div>
+                    <div class="cotacao-value">6.15</div>
+                </div>
+                <div class="cotacao-item">
+                    <div class="cotacao-pair">EUR/BRL</div>
+                    <div class="cotacao-value">6.45</div>
+                </div>
+                <div class="cotacao-item">
+                    <div class="cotacao-pair">GBP/BRL</div>
+                    <div class="cotacao-value">7.82</div>
+                </div>
+            </div>
+            <div class="lang-select">
+                <span>🇧🇷</span>
+                <span>196 Países</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-pre">Plataforma Premium para Bancos e Investidores</div>
+        <h1 class="hero-title">
+            <span>Shopping</span> de Tecnologia Financeira<br>
+            O Infinito das <span>Possibilidades</span>
+        </h1>
+        <p class="hero-desc">
+            Simulador de viabilidade. Calculadora de margem. Ajuste piso/teto. 
+            Gerador de contratos. Divisão de pagamentos. Cada módulo é uma loja 
+            especializada em transformar operações em resultados mensuráveis.
+        </p>
+        <div class="metrics-line">
+            <div class="metric-mini">
+                <div class="metric-value">R$ 12.8B</div>
+                <div class="metric-label">Volume Processado</div>
+            </div>
+            <div class="metric-mini">
+                <div class="metric-value">28.492</div>
+                <div class="metric-label">Clientes Ativos</div>
+            </div>
+            <div class="metric-mini">
+                <div class="metric-value">196</div>
+                <div class="metric-label">Países</div>
+            </div>
+            <div class="metric-mini">
+                <div class="metric-value">99.99%</div>
+                <div class="metric-label">Uptime</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOPPING -->
+    <section class="shopping-section">
+        <div class="section-header">
+            <div class="section-line"></div>
+            <h2 class="section-title">Lojas de Serviços</h2>
+        </div>
+        <div class="modulos-grid">
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">📊</span>
+                <h3 class="modulo-nome">SIMULADOR DE VIABILIDADE</h3>
+                <p class="modulo-desc">Análise preditiva de viabilidade financeira com IA</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 47,500</div>
+                    </div>
+                    <div class="preco-brl">R$ 292,125.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Análise ROI</span>
+                    
+                    <span class="tag">Projeção Fluxo</span>
+                    
+                    <span class="tag">Stress Test</span>
+                    
+                    <span class="tag">Monte Carlo</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 847M</span></span>
+                    <span>Clientes: <span class="stat-value">2.340</span></span>
+                </div>
+            </div>
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">💹</span>
+                <h3 class="modulo-nome">CALCULADORA DE MARGEM</h3>
+                <p class="modulo-desc">Cálculos de margem bruta, líquida e EBITDA em tempo real</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 38,500</div>
+                    </div>
+                    <div class="preco-brl">R$ 236,775.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Margem Bruta</span>
+                    
+                    <span class="tag">Margem Líquida</span>
+                    
+                    <span class="tag">EBITDA</span>
+                    
+                    <span class="tag">Markup</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 1.2B</span></span>
+                    <span>Clientes: <span class="stat-value">4.128</span></span>
+                </div>
+            </div>
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">📈</span>
+                <h3 class="modulo-nome">AJUSTE PISO/TETO</h3>
+                <p class="modulo-desc">Sistema inteligente de precificação com limites dinâmicos</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 32,000</div>
+                    </div>
+                    <div class="preco-brl">R$ 196,800.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Price Floor</span>
+                    
+                    <span class="tag">Price Ceiling</span>
+                    
+                    <span class="tag">Elasticidade</span>
+                    
+                    <span class="tag">Tracking</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 523M</span></span>
+                    <span>Clientes: <span class="stat-value">1.847</span></span>
+                </div>
+            </div>
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">📜</span>
+                <h3 class="modulo-nome">GERADOR DE CONTRATOS</h3>
+                <p class="modulo-desc">Contratos personalizados com IA e compliance automático</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 55,000</div>
+                    </div>
+                    <div class="preco-brl">R$ 338,250.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Contratos SaaS</span>
+                    
+                    <span class="tag">B2B</span>
+                    
+                    <span class="tag">Due Diligence</span>
+                    
+                    <span class="tag">Legal AI</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 312M</span></span>
+                    <span>Clientes: <span class="stat-value">8.492</span></span>
+                </div>
+            </div>
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">💳</span>
+                <h3 class="modulo-nome">DIVISÃO DE PAGAMENTOS</h3>
+                <p class="modulo-desc">Split de pagamentos com múltiplos beneficiários</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 42,000</div>
+                    </div>
+                    <div class="preco-brl">R$ 258,300.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Split Pay</span>
+                    
+                    <span class="tag">Escrow</span>
+                    
+                    <span class="tag">Milestone</span>
+                    
+                    <span class="tag">Multi-Currency</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 2.1B</span></span>
+                    <span>Clientes: <span class="stat-value">12.847</span></span>
+                </div>
+            </div>
+            
+            <div class="modulo-card">
+                <span class="modulo-icon">🎬</span>
+                <h3 class="modulo-nome">PRODUTORA DE PROPAGANDA</h3>
+                <p class="modulo-desc">Publicidade e propaganda com tecnologia de ponta</p>
+                <div class="modulo-preco">
+                    <div>
+                        <div class="preco-usd">$ 28,000</div>
+                    </div>
+                    <div class="preco-brl">R$ 172,200.00</div>
+                </div>
+                <div class="modulo-tags">
+                    
+                    <span class="tag">Video Ads</span>
+                    
+                    <span class="tag">Digital Mkt</span>
+                    
+                    <span class="tag">Brand Strategy</span>
+                    
+                    <span class="tag">Media</span>
+                    
+                </div>
+                <div class="modulo-stats">
+                    <span>Gerado: <span class="stat-value">R$ 89M</span></span>
+                    <span>Clientes: <span class="stat-value">3.241</span></span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- PROPOSTA DE VALOR -->
+    <section class="valor-section">
+        <div class="valor-box">
+            <h2 class="valor-title">Por que Investir no REGULUS?</h2>
+            <p class="valor-text">
+                O REGULUS é um ecossistema de geração de valor. Simuladores que preveem resultados, 
+                calculadoras que otimizam lucros, geradores que aceleram negócios e sistemas que 
+                dividem receitas automaticamente. Bancos e investidores reportam aumento médio 
+                de <strong>340%</strong> em eficiência operacional.
+            </p>
+            <a href="#" class="valor-cta">AGENDAR DEMONSTRAÇÃO</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">REGULUS • CASA TURCA • MASCATE</div>
+        <div class="footer-info">
+            CNPJ: 61.549.037/0001-68<br>
+            Cotação: 07/12/2025 11:48
+        </div>
+    </footer>
+
+
+</body></html>

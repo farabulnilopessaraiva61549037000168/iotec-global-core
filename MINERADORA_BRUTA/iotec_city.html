@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>IOTEC CITY</title>
+
+<style>
+body {
+    margin:0;
+    background: radial-gradient(circle at center, #0b1a2a, #02060d);
+    font-family: Arial, sans-serif;
+    color:white;
+    overflow:hidden;
+}
+
+/* TÍTULO */
+#title {
+    position:absolute;
+    top:20px;
+    width:100%;
+    text-align:center;
+    font-size:26px;
+    letter-spacing:2px;
+}
+
+/* TORRES */
+.torre {
+    position:absolute;
+    width:120px;
+    height:200px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    padding-bottom:10px;
+    font-size:12px;
+    text-align:center;
+}
+
+.torre:hover {
+    transform:scale(1.08);
+}
+
+/* CORES DAS TORRES */
+.financeira { background: linear-gradient(to top, #0a0a0a, #1f6feb); box-shadow:0 0 25px #1f6feb; }
+.saude { background: linear-gradient(to top, #0a0a0a, #00c853); box-shadow:0 0 25px #00c853; }
+.educacao { background: linear-gradient(to top, #0a0a0a, #ffab00); box-shadow:0 0 25px #ffab00; }
+.governo { background: linear-gradient(to top, #0a0a0a, #d50000); box-shadow:0 0 25px #d50000; }
+
+/* POSIÇÕES */
+#financeira { left:15%; bottom:20%; }
+#saude { left:35%; bottom:25%; }
+#educacao { left:55%; bottom:22%; }
+#governo { left:75%; bottom:28%; }
+
+/* NÚCLEO */
+#nucleo {
+    position:absolute;
+    left:45%;
+    top:30%;
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background: radial-gradient(circle, #00ffff, #003333);
+    box-shadow:0 0 60px #00ffff;
+    text-align:center;
+    line-height:160px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* AVENIDAS */
+.linha {
+    position:absolute;
+    height:2px;
+    background:rgba(0,255,255,0.4);
+}
+
+/* LINHAS POSICIONADAS */
+#l1 { left:20%; top:40%; width:30%; }
+#l2 { left:50%; top:45%; width:25%; }
+#l3 { left:30%; top:55%; width:40%; }
+
+/* MENU */
+#menu {
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+
+.botao {
+    padding:12px 25px;
+    margin:10px;
+    border-radius:25px;
+    background:#0f2f4f;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.botao:hover {
+    background:#1f6feb;
+}
+
+/* PAINEL */
+#painel {
+    position:absolute;
+    right:0;
+    top:0;
+    width:300px;
+    height:100%;
+    background:#050a12;
+    border-left:1px solid rgba(255,255,255,0.1);
+    padding:15px;
+    display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div id="title">IOTEC DIGITAL CITY</div>
+
+<!-- AVENIDAS -->
+<div id="l1" class="linha"></div>
+<div id="l2" class="linha"></div>
+<div id="l3" class="linha"></div>
+
+<!-- TORRES -->
+<div id="financeira" class="torre financeira" onclick="abrir('Financeiro')">FINANCEIRO</div>
+<div id="saude" class="torre saude" onclick="abrir('Saúde')">SAÚDE</div>
+<div id="educacao" class="torre educacao" onclick="abrir('Educação')">EDUCAÇÃO</div>
+<div id="governo" class="torre governo" onclick="abrir('Governo')">GOVERNO</div>
+
+<!-- NÚCLEO -->
+<div id="nucleo" onclick="abrir('Núcleo')">CORE</div>
+
+<!-- MENU -->
+<div id="menu">
+    <span class="botao" onclick="abrir('Corporate City')">??? Corporate</span>
+    <span class="botao" onclick="abrir('Experience City')">?? Experience</span>
+</div>
+
+<!-- PAINEL LATERAL -->
+<div id="painel">
+    <h3 id="titulo"></h3>
+    <p id="conteudo"></p>
+</div>
+
+<script>
+function abrir(nome){
+    document.getElementById("painel").style.display = "block";
+    document.getElementById("titulo").innerText = nome;
+
+    let texto = "";
+
+    if(nome === "Financeiro"){
+        texto = "Controle financeiro, pagamentos, monetização e relatórios.";
+    }
+    else if(nome === "Saúde"){
+        texto = "Gestão hospitalar, dados clínicos e monitoramento.";
+    }
+    else if(nome === "Educação"){
+        texto = "Plataformas educacionais e gestão escolar.";
+    }
+    else if(nome === "Governo"){
+        texto = "Gestão pública e análise estratégica.";
+    }
+    else if(nome === "Núcleo"){
+        texto = "Centro de decisão, análise e governança do sistema.";
+    }
+    else if(nome === "Corporate City"){
+        texto = "Ambiente de resolução de problemas empresariais.";
+    }
+    else if(nome === "Experience City"){
+        texto = "Ambiente visual, marketing e exposição de produtos.";
+    }
+
+    document.getElementById("conteudo").innerText = texto;
+}
+</script>
+
+</body>
+</html>

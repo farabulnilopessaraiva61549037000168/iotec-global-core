@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOTEC - Portal Integrado de Serviços & Impressão Documental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body, html { width: 100%; height: 100%; background-color: #060911; color: #f8fafc; overflow: hidden; }
+
+        /* VÍDEO DE FUNDO */
+        #bg-video { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -2; filter: brightness(0.25) contrast(1.15); }
+        .overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: radial-gradient(circle at center, rgba(15, 23, 42, 0.5) 0%, rgba(6, 9, 17, 0.95) 100%); z-index: -1; }
+
+        /* LAYOUT PERIMETRAL (GRID 3 COLUNAS COM HEADER E FOOTER) */
+        .perimetral-container {
+            display: grid;
+            grid-template-rows: 70px 1fr 50px;
+            grid-template-columns: 280px 1fr 260px;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* PERÍMETRO SUPERIOR (TOPO) */
+        header {
+            grid-column: 1 / -1;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0 30px; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(56, 189, 248, 0.25);
+        }
+        .brand { display: flex; align-items: center; gap: 14px; }
+        .brand-logo { width: 44px; height: 44px; background: linear-gradient(135deg, #0284c7, #0369a1); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.3rem; color: #fff; box-shadow: 0 0 15px rgba(2, 132, 199, 0.4); }
+        .brand-title h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: 1.5px; color: #ffffff; }
+        .brand-title span { font-size: 0.72rem; color: #38bdf8; text-transform: uppercase; letter-spacing: 2px; display: block; }
+        
+        .system-status { display: flex; align-items: center; gap: 8px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; color: #4ade80; font-weight: 600; }
+        .dot { width: 8px; height: 8px; background: #22c55e; border-radius: 50%; box-shadow: 0 0 8px #22c55e; }
+
+        /* PERÍMETRO ESQUERDO (DADOS EMPRESARIAIS FIXOS) */
+        aside.perimetro-esquerdo {
+            grid-column: 1;
+            background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(10px);
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 24px 20px; display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .info-group { margin-bottom: 20px; }
+        .info-label { font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+        .info-value { font-size: 0.9rem; color: #f1f5f9; font-weight: 600; }
+        .info-highlight { color: #38bdf8; }
+
+        /* CENTRO (MATRIZ DE CERTIDÕES E DOCUMENTOS) */
+        main.centro-conteudo {
+            grid-column: 2;
+            padding: 24px 30px; overflow-y: auto;
+        }
+        .main-header { margin-bottom: 20px; text-align: center; }
+        .main-header h2 { font-size: 1.5rem; font-weight: 700; color: #f8fafc; background: linear-gradient(90deg, #fff, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .main-header p { font-size: 0.88rem; color: #94a3b8; margin-top: 4px; }
+
+        .category-block { margin-bottom: 28px; }
+        .category-title { font-size: 0.95rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid rgba(56, 189, 248, 0.2); padding-bottom: 6px; }
+
+        .grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+        .card-item {
+            background: rgba(15, 23, 42, 0.65); border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;
+            transition: all 0.25s ease;
+        }
+        .card-item:hover { border-color: #0284c7; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(2, 132, 199, 0.25); }
+        .doc-name { font-size: 0.9rem; font-weight: 600; color: #f1f5f9; margin-bottom: 4px; }
+        .doc-orgao { font-size: 0.78rem; color: #64748b; margin-bottom: 14px; }
+
+        .btn-imprimir {
+            display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+            padding: 8px 12px; background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: #ffffff; text-decoration: none; font-size: 0.8rem; font-weight: 600;
+            border-radius: 6px; transition: background 0.2s;
+        }
+        .btn-imprimir:hover { background: linear-gradient(135deg, #0369a1, #075985); }
+
+        /* PERÍMETRO DIREITO (SUPORTE E PAINEL TÉCNICO) */
+        aside.perimetro-direito {
+            grid-column: 3;
+            background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(10px);
+            border-left: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 24px 20px; display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .box-suporte { background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(255, 255, 255, 0.05); padding: 16px; border-radius: 10px; margin-bottom: 16px; }
+        .box-suporte h4 { font-size: 0.85rem; color: #38bdf8; margin-bottom: 8px; }
+        .box-suporte p { font-size: 0.78rem; color: #94a3b8; line-height: 1.4; }
+
+        /* PERÍMETRO INFERIOR (RODAPÉ) */
+        footer {
+            grid-column: 1 / -1;
+            background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex; justify-content: space-between; align-items: center; padding: 0 30px;
+            font-size: 0.78rem; color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <video id="bg-video" autoplay muted loop playsinline>
+        <source src="/static/fundo_corporativo_escritorio.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <div class="perimetral-container">
+        
+        <!-- PERÍMETRO SUPERIOR -->
+        <header>
+            <div class="brand">
+                <div class="brand-logo">IO</div>
+                <div class="brand-title">
+                    <h1>IOTEC</h1>
+                    <span>Informática Comércio e Serviços LTDA</span>
+                </div>
+            </div>
+            <div class="system-status">
+                <div class="dot"></div>
+                <span>Plataforma de Impressão Ativa</span>
+            </div>
+        </header>
+
+        <!-- PERÍMETRO ESQUERDO: DADOS EMPRESARIAIS -->
+        <aside class="perimetro-esquerdo">
+            <div>
+                <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; margin-bottom: 18px; letter-spacing: 1px;">IDENTIFICAÇÃO</div>
+                
+                <div class="info-group">
+                    <div class="info-label">Razão Social</div>
+                    <div class="info-value">IOTEC Informática Comércio e Serviços LTDA</div>
+                </div>
+
+                <div class="info-group">
+                    <div class="info-label">CNPJ Matriz</div>
+                    <div class="info-value info-highlight">61.549.037/0001-68</div>
+                </div>
+
+                <div class="info-group">
+                    <div class="info-label">Inscrição Estadual (SP)</div>
+                    <div class="info-value">111.400.813.110</div>
+                </div>
+
+                <div class="info-group">
+                    <div class="info-label">E-mail Comercial</div>
+                    <div class="info-value">IOTEC.BL@proton.me</div>
+                </div>
+
+                <div class="info-group">
+                    <div class="info-label">WhatsApp Corporativo</div>
+                    <div class="info-value">(88) 99306-4168</div>
+                </div>
+            </div>
+
+            <div style="font-size: 0.72rem; color: #475569; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px;">
+                São Paulo - SP | Vila Clementino
+            </div>
+        </aside>
+
+        <!-- CENTRO: GRADE DE CERTIDÕES MULTIMODAIS -->
+        <main class="centro-conteudo">
+            <div class="main-header">
+                <h2>CENTRAL DE EMISSÃO DOCUMENTAL MULTIMODAL</h2>
+                <p>Acesse e imprima documentos oficiais de transporte, aduana e regularidade corporativa</p>
+            </div>
+
+            <!-- ADUANEIRO E COMEX -->
+            <div class="category-block">
+                <div class="category-title">🚢 1. Aduaneiro & Comércio Exterior</div>
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">DTA / DTC - Trânsito Aduaneiro</div>
+                            <div class="doc-orgao">Receita Federal / Siscomex</div>
+                        </div>
+                        <a href="https://www4.receita.fazenda.gov.br/" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">DUIMP / Extrato de Importação</div>
+                            <div class="doc-orgao">Portal Único Siscomex</div>
+                        </div>
+                        <a href="https://valida.fazenda.gov.br/" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">Certificado OEA - Segurança Logística</div>
+                            <div class="doc-orgao">Receita Federal do Brasil</div>
+                        </div>
+                        <a href="https://www.gov.br/receitafederal" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRANSPORTE MULTIMODAL -->
+            <div class="category-block">
+                <div class="category-title">🚚 2. Transporte Multimodal (Caminhões, Navios, Aviões, Trens)</div>
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">RNTRC - Rodoviário de Cargas</div>
+                            <div class="doc-orgao">ANTT</div>
+                        </div>
+                        <a href="https://consultapublica.antt.gov.br/" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">Declaração de Adimplência Aquaviária</div>
+                            <div class="doc-orgao">ANTAQ (Marítimo / Fluvial)</div>
+                        </div>
+                        <a href="https://www.gov.br/antaq" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">CE Mercante / Liberação AFRMM</div>
+                            <div class="doc-orgao">Siscomex Carga</div>
+                        </div>
+                        <a href="https://www.gov.br/receitafederal" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">CCT Aéreo / Manifestos AWB</div>
+                            <div class="doc-orgao">ANAC / Receita Federal</div>
+                        </div>
+                        <a href="https://www.gov.br/anac" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">TIF / Manifesto Ferroviário</div>
+                            <div class="doc-orgao">ANTT / Malha Ferroviária</div>
+                        </div>
+                        <a href="https://www.gov.br/antt" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REGULARIDADE CORPORATIVA -->
+            <div class="category-block">
+                <div class="category-title">🏢 3. Regularidade Fiscal & Institucional</div>
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">CND Federal e Dívida Ativa</div>
+                            <div class="doc-orgao">Receita Federal / PGFN</div>
+                        </div>
+                        <a href="https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">CRF - Regularidade FGTS</div>
+                            <div class="doc-orgao">Caixa Econômica Federal</div>
+                        </div>
+                        <a href="https://consulta-crf.caixa.gov.br/" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">CNDT - Certidão Trabalhista</div>
+                            <div class="doc-orgao">Tribunal Superior do Trabalho</div>
+                        </div>
+                        <a href="https://www.tst.jus.br/certidao" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                    <div class="card-item">
+                        <div>
+                            <div class="doc-name">Ficha Cadastral / Certidão JUCESP</div>
+                            <div class="doc-orgao">JUCESP SP</div>
+                        </div>
+                        <a href="https://www.jucesp.sp.gov.br/" target="_blank" class="btn-imprimir">🖨️ Imprima aqui sua Certidão</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- PERÍMETRO DIREITO: PAINEL DE COMUNICAÇÃO -->
+        <aside class="perimetro-direito">
+            <div>
+                <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; margin-bottom: 18px; letter-spacing: 1px;">PAINEL TÉCNICO</div>
+
+                <div class="box-suporte">
+                    <h4>Outsourcing IOTEC</h4>
+                    <p>Gestão centralizada de bilhetagem, cópias e impressão segura com carimbo de tempo ICP-Brasil.</p>
+                </div>
+
+                <div class="box-suporte">
+                    <h4>Atendimento Direto</h4>
+                    <p>Envie suas solicitações de cópias autenticadas ou certidões para <strong>IOTEC.BL@proton.me</strong>.</p>
+                </div>
+            </div>
+
+            <div style="font-size: 0.72rem; color: #64748b; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 6px;">
+                Servidor Local: 192.168.0.102<br>
+                Porta: 5000 (HTTP)
+            </div>
+        </aside>
+
+        <!-- PERÍMETRO INFERIOR -->
+        <footer>
+            <div>© IOTEC Informática Comércio e Serviços LTDA. Todos os direitos reservados.</div>
+            <div>Suporte Comercial: (88) 99306-4168 | IOTEC.BL@proton.me</div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

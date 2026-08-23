@@ -1,0 +1,23 @@
+function atualizarFeed(){
+  fetch("log.json?nocache=" + new Date().getTime())
+  .then(r => r.json())
+  .then(data => {
+
+    const feed = document.getElementById("feed");
+    feed.innerHTML = "";
+
+    data.slice().reverse().forEach(item => {
+      const div = document.createElement("div");
+      div.className = "msg";
+      div.innerText = "[" + item.hora + "] " + item.msg;
+      feed.appendChild(div);
+    });
+
+  });
+}
+
+// atualiza a cada 2 segundos
+setInterval(atualizarFeed, 2000);
+
+// primeira carga
+atualizarFeed();

@@ -1,0 +1,105 @@
+# ==========================================================
+# IOTEC SOURCE ENGINE
+# ==========================================================
+
+import requests
+import urllib.parse
+
+from WEBSITE_FINDER import search as find_website
+
+HEADERS = {
+
+    "User-Agent": "IOTEC Source Engine"
+
+}
+
+
+class SourceEngine:
+
+    # ======================================================
+
+    @staticmethod
+    def clean_name(company):
+
+        remover = [
+
+            "Região Nordeste",
+            "Brasil",
+            "Ceará",
+            "Fortaleza",
+            "Centro",
+            "Pici",
+            "Paupina"
+
+        ]
+
+        nome = company
+
+        for item in remover:
+
+            nome = nome.replace(item, "")
+
+        return nome.split(",")[0].strip()
+
+    # ======================================================
+
+    @staticmethod
+    def openstreetmap(company):
+
+        nome = SourceEngine.clean_name(company)
+
+        try:
+
+            r = requests.get(
+
+                "https://nominatim.openstreetmap.org/search",
+
+                params={
+
+                    "q": nome,
+
+                    "format": "jsonv2",
+
+                    "limit": 1,
+
+                    "addressdetails": 1
+
+                },
+
+                headers=HEADERS,
+
+                timeout=20
+
+            )
+
+            if r.status_code != 200:
+
+                return {}
+
+            dados = r.json()
+
+            if not dados:
+
+                return {}
+
+            d = dados[0]
+
+            return {
+
+                "source": "OpenStreetMap",
+
+                "display_name": d.get("display_name",""),
+
+                "latitude": d.get("lat",""),
+
+                "longitude": d.get("lon",""),
+
+                "osm_class": d.get("class",""),
+
+                "osm_type": d.get("type","")
+
+            }
+
+        except Exception:
+
+            return {}

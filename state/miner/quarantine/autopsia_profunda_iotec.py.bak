@@ -1,0 +1,414 @@
+﻿# ============================================================
+# AUTOPSIA PROFUNDA DO SISTEMA IOTEC
+# ============================================================
+
+import os
+import re
+import ast
+import json
+from pathlib import Path
+from collections import defaultdict, Counter
+
+IGNORE_DIRS = {
+    "__pycache__", ".git", ".venv", "venv", "node_modules",
+    ".idea", ".vscode", "dist", "build"
+}
+
+KEYWORDS = {
+    "web_flask": ["flask", "Flask", "@app.route", "render_template", "jsonify"],
+    "tkinter_ui": ["tkinter", "ttk", "Tk(", "ttk.", "ScrolledText"],
+    "database": ["sqlite3", "sqlalchemy", "connect(", "cursor(", "CREATE TABLE", "INSERT INTO"],
+    "api": ["requests", "httpx", "fastapi", "aiohttp", "api_key", "bearer", "Authorization"],
+    "payment": ["stripe", "mercadopago", "pagamento", "payment", "pix", "checkout"],
+    "auth": ["login", "senha", "password", "usuario", "user", "token", "session"],
+    "automation": ["subprocess", "schedule", "threading", "automation", "bot", "auto"],
+    "reports": ["report", "relatorio", "pdf", "docx", "xlsx", "export"],
+    "public_sector": [
+        "secretaria", "prefeito", "mandato", "gabinete", "educacao",
+        "saude", "municipio", "prefeitura", "licitacao", "governo"
+    ],
+}
+
+ENTRYPOINT_HINTS = [
+    "if __name__ == '__main__':",
+    'if __name__ == "__main__":',
+    "app.run(",
+    ".mainloop(",
+    "Flask(",
+    "Tk(",
+]
+
+IMPORTANT_NAME_HINTS = [
+    "main", "app", "server", "portal", "command_center", "plataforma",
+    "secretaria", "mandato", "core", "engine", "deploy", "showroom"
+]
+
+
+def safe_read_text(path: Path) -> str:
+    encodings = ["utf-8", "latin-1", "cp1252"]
+    for enc in encodings:
+        try:
+            return path.read_text(encoding=enc, errors="ignore")
+        except Exception:
+            continue
+    return ""
+
+
+def is_python_file(path: Path) -> bool:
+    return path.is_file() and path.suffix.lower() == ".py"
+
+
+def walk_python_files(base_dir: Path):
+    for root, dirs, files in os.walk(base_dir):
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
+        for file in files:
+            p = Path(root) / file
+            if is_python_file(p):
+                yield p
+
+
+def extract_ast_info(path: Path, text: str) -> dict:
+    info = {
+        "imports": [],
+        "classes": [],
+        "functions": [],
+        "syntax_error": None,
+    }
+    try:
+        tree = ast.parse(text)
+    except SyntaxError as e:
+        info["syntax_error"] = str(e)
+        return info
+
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            for alias in node.names:
+                info["imports"].append(alias.name)
+        elif isinstance(node, ast.ImportFrom):
+            module = node.module or ""
+            for alias in node.names:
+                name = f"{module}.{alias.name}" if module else alias.name
+                info["imports"].append(name)
+        elif isinstance(node, ast.ClassDef):
+            info["classes"].append(node.name)
+        elif isinstance(node, ast.FunctionDef):
+            info["functions"].append(node.name)
+
+    return info
+
+
+def score_file(path: Path, text: str, ast_info: dict) -> int:
+    score = 0
+    name = path.name.lower()
+
+    for hint in IMPORTANT_NAME_HINTS:
+        if hint in name:
+            score += 4
+
+    for marker in ENTRYPOINT_HINTS:
+        if marker in text:
+            score += 8
+
+    if "Flask(" in text:
+        score += 10
+    if ".mainloop(" in text or "Tk(" in text:
+        score += 8
+    if "sqlite3" in text:
+        score += 6
+    if "@app.route" in text:
+        score += 12
+    if "render_template" in text or "render_template_string" in text:
+        score += 6
+    if "jsonify" in text:
+        score += 4
+
+    score += min(len(ast_info["classes"]), 10)
+    score += min(len(ast_info["functions"]), 10)
+
+    return score
+
+
+def detect_categories(text: str) -> dict:
+    found = {}
+    text_lower = text.lower()
+
+    for category, patterns in KEYWORDS.items():
+        hits = []
+        for pattern in patterns:
+            if pattern.lower() in text_lower:
+                hits.append(pattern)
+        found[category] = hits
+
+    return found
+
+
+def extract_flask_routes(text: str):
+    routes = re.findall(r"@app\.route\((.*?)\)", text, flags=re.DOTALL)
+    return [r.strip().replace("\n", " ") for r in routes[:20]]
+
+
+def build_report(base_dir: Path) -> dict:
+    report = {
+        "base_dir": str(base_dir),
+        "total_python_files": 0,
+        "folders": Counter(),
+        "categories_summary": defaultdict(int),
+        "top_files": [],
+        "possible_entrypoints": [],
+        "files_with_routes": [],
+        "files_with_db": [],
+        "files_with_ui": [],
+        "files_with_auth": [],
+        "files_with_payment": [],
+        "files_with_api": [],
+        "files_with_public_sector_focus": [],
+        "import_summary": Counter(),
+        "class_summary": [],
+        "function_summary": [],
+        "file_reports": [],
+    }
+
+    for path in walk_python_files(base_dir):
+        report["total_python_files"] += 1
+        rel_path = path.relative_to(base_dir)
+        folder_name = rel_path.parts[0] if len(rel_path.parts) > 1 else "."
+        report["folders"][folder_name] += 1
+
+        text = safe_read_text(path)
+        ast_info = extract_ast_info(path, text)
+        categories = detect_categories(text)
+        routes = extract_flask_routes(text)
+        score = score_file(path, text, ast_info)
+
+        file_report = {
+            "file": str(rel_path),
+            "score": score,
+            "size_kb": round(path.stat().st_size / 1024, 2),
+            "syntax_error": ast_info["syntax_error"],
+            "imports": ast_info["imports"][:25],
+            "classes": ast_info["classes"][:20],
+            "functions": ast_info["functions"][:25],
+            "categories": {k: v for k, v in categories.items() if v},
+            "routes": routes,
+            "has_main_guard": (
+                "if __name__ == '__main__':" in text
+                or 'if __name__ == "__main__":' in text
+            ),
+        }
+        report["file_reports"].append(file_report)
+
+        for imp in ast_info["imports"]:
+            top_mod = imp.split(".")[0]
+            report["import_summary"][top_mod] += 1
+
+        for cls in ast_info["classes"][:5]:
+            report["class_summary"].append({"file": str(rel_path), "class": cls})
+
+        for fn in ast_info["functions"][:5]:
+            report["function_summary"].append({"file": str(rel_path), "function": fn})
+
+        for category, hits in categories.items():
+            if hits:
+                report["categories_summary"][category] += 1
+
+        if file_report["has_main_guard"] or routes or "Flask(" in text or ".mainloop(" in text:
+            report["possible_entrypoints"].append({
+                "file": str(rel_path),
+                "score": score,
+                "reason": (
+                    "main_guard" if file_report["has_main_guard"]
+                    else "flask_routes" if routes
+                    else "ui_or_web_init"
+                )
+            })
+
+        if routes:
+            report["files_with_routes"].append({
+                "file": str(rel_path),
+                "routes": routes
+            })
+
+        if categories["database"]:
+            report["files_with_db"].append(str(rel_path))
+
+        if categories["tkinter_ui"]:
+            report["files_with_ui"].append(str(rel_path))
+
+        if categories["auth"]:
+            report["files_with_auth"].append(str(rel_path))
+
+        if categories["payment"]:
+            report["files_with_payment"].append(str(rel_path))
+
+        if categories["api"]:
+            report["files_with_api"].append(str(rel_path))
+
+        if categories["public_sector"]:
+            report["files_with_public_sector_focus"].append(str(rel_path))
+
+    report["top_files"] = sorted(
+        [
+            {
+                "file": item["file"],
+                "score": item["score"],
+                "categories": list(item["categories"].keys()),
+                "classes_count": len(item["classes"]),
+                "functions_count": len(item["functions"]),
+                "has_main_guard": item["has_main_guard"],
+                "routes_count": len(item["routes"]),
+                "size_kb": item["size_kb"],
+            }
+            for item in report["file_reports"]
+        ],
+        key=lambda x: x["score"],
+        reverse=True
+    )[:20]
+
+    report["possible_entrypoints"] = sorted(
+        report["possible_entrypoints"],
+        key=lambda x: x["score"],
+        reverse=True
+    )[:20]
+
+    report["folders"] = dict(report["folders"])
+    report["categories_summary"] = dict(report["categories_summary"])
+    report["import_summary"] = dict(report["import_summary"].most_common(30))
+
+    return report
+
+
+def print_summary(report: dict):
+    print("\n" + "=" * 70)
+    print("AUTÃ“PSIA PROFUNDA DO SISTEMA")
+    print("=" * 70)
+
+    print(f"\nProjeto: {report['base_dir']}")
+    print(f"Arquivos Python: {report['total_python_files']}")
+
+    print("\n--- Pastas mais presentes ---")
+    for folder, count in sorted(report["folders"].items(), key=lambda x: x[1], reverse=True)[:15]:
+        print(f"{folder}: {count}")
+
+    print("\n--- Sinais detectados ---")
+    for cat, count in sorted(report["categories_summary"].items(), key=lambda x: x[1], reverse=True):
+        print(f"{cat}: {count} arquivo(s)")
+
+    print("\n--- Arquivos mais importantes ---")
+    for item in report["top_files"][:15]:
+        print(
+            f"{item['file']} | score={item['score']} | "
+            f"cats={item['categories']} | "
+            f"classes={item['classes_count']} | funcs={item['functions_count']} | "
+            f"main={item['has_main_guard']} | routes={item['routes_count']}"
+        )
+
+    print("\n--- PossÃ­veis pontos de entrada ---")
+    for item in report["possible_entrypoints"][:15]:
+        print(f"{item['file']} | score={item['score']} | motivo={item['reason']}")
+
+    print("\n--- Arquivos com Flask/routes ---")
+    if report["files_with_routes"]:
+        for item in report["files_with_routes"][:10]:
+            print(f"{item['file']} -> {item['routes']}")
+    else:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com interface Tkinter ---")
+    for file in report["files_with_ui"][:15]:
+        print(file)
+    if not report["files_with_ui"]:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com banco de dados ---")
+    for file in report["files_with_db"][:15]:
+        print(file)
+    if not report["files_with_db"]:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com autenticaÃ§Ã£o ---")
+    for file in report["files_with_auth"][:15]:
+        print(file)
+    if not report["files_with_auth"]:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com pagamento ---")
+    for file in report["files_with_payment"][:15]:
+        print(file)
+    if not report["files_with_payment"]:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com API/integraÃ§Ã£o ---")
+    for file in report["files_with_api"][:15]:
+        print(file)
+    if not report["files_with_api"]:
+        print("Nenhum detectado")
+
+    print("\n--- Arquivos com foco em gestÃ£o pÃºblica ---")
+    for file in report["files_with_public_sector_focus"][:20]:
+        print(file)
+    if not report["files_with_public_sector_focus"]:
+        print("Nenhum detectado")
+
+    print("\n--- Imports mais usados ---")
+    for mod, count in report["import_summary"].items():
+        print(f"{mod}: {count}")
+
+    print("\n" + "=" * 70)
+    print("FIM DA AUTÃ“PSIA")
+    print("=" * 70 + "\n")
+
+
+def save_outputs(report: dict, base_dir: Path):
+    out_dir = base_dir / "_AUTOPSIA_PROFUNDA"
+    out_dir.mkdir(exist_ok=True)
+
+    json_path = out_dir / "autopsia_profunda.json"
+    txt_path = out_dir / "autopsia_profunda_resumo.txt"
+
+    with json_path.open("w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+
+    lines = []
+    lines.append("AUTÃ“PSIA PROFUNDA DO SISTEMA\n")
+    lines.append(f"Projeto: {report['base_dir']}\n")
+    lines.append(f"Arquivos Python: {report['total_python_files']}\n\n")
+
+    lines.append("ARQUIVOS MAIS IMPORTANTES\n")
+    for item in report["top_files"]:
+        lines.append(
+            f"- {item['file']} | score={item['score']} | "
+            f"cats={item['categories']} | main={item['has_main_guard']} | "
+            f"routes={item['routes_count']}\n"
+        )
+
+    lines.append("\nPOSSÃVEIS PONTOS DE ENTRADA\n")
+    for item in report["possible_entrypoints"]:
+        lines.append(f"- {item['file']} | score={item['score']} | motivo={item['reason']}\n")
+
+    lines.append("\nARQUIVOS COM FOCO EM GESTÃƒO PÃšBLICA\n")
+    for file in report["files_with_public_sector_focus"]:
+        lines.append(f"- {file}\n")
+
+    txt_path.write_text("".join(lines), encoding="utf-8")
+
+    return json_path, txt_path
+
+
+if __name__ == "__main__":
+    caminho = input("Digite o caminho do projeto: ").strip()
+
+    if caminho == ".":
+        base_dir = Path.cwd()
+    else:
+        base_dir = Path(caminho).resolve()
+
+    if not base_dir.exists():
+        print(f"ERRO: caminho nÃ£o encontrado -> {base_dir}")
+        raise SystemExit(1)
+
+    report = build_report(base_dir)
+    print_summary(report)
+    json_path, txt_path = save_outputs(report, base_dir)
+
+    print(f"Resumo salvo em: {txt_path}")
+    print(f"JSON salvo em:   {json_path}")

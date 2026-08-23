@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGULUS — Portfólio Técnico Completo</title>
+    <link href="REGULUS%20%E2%80%94%20Portf%C3%B3lio%20T%C3%A9cnico%20Completo18.57DA%20NOITEDE25.2.25_arquivos/css2.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: #f8f6f2;
+            color: #2a2a2a;
+            line-height: 1.7;
+        }
+        
+        .documento {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #fffef9;
+            border: 2px solid #c9b896;
+        }
+        
+        .capa {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+            color: #fff;
+            padding: 80px 60px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .capa::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%23c9a96220" stroke-width="0.5"/></svg>');
+            background-size: 200px;
+            opacity: 0.3;
+        }
+        
+        .capa-content { position: relative; z-index: 1; }
+        
+        .logo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 64px;
+            font-weight: 600;
+            letter-spacing: 25px;
+            color: #c9a962;
+            margin-bottom: 15px;
+        }
+        
+        .subtitulo-capa {
+            font-size: 13px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 50px;
+        }
+        
+        .capa-badge {
+            display: inline-block;
+            border: 1px solid #c9a962;
+            padding: 15px 40px;
+            margin-bottom: 40px;
+        }
+        
+        .capa-badge-texto {
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #c9a962;
+        }
+        
+        .capa-valor {
+            margin-top: 40px;
+        }
+        
+        .capa-valor-label {
+            font-size: 10px;
+            letter-spacing: 5px;
+            opacity: 0.5;
+            margin-bottom: 10px;
+        }
+        
+        .capa-valor-numero {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 52px;
+            font-weight: 600;
+            color: #c9a962;
+        }
+        
+        .capa-cnpj {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            opacity: 0.4;
+            margin-top: 40px;
+            letter-spacing: 3px;
+        }
+        
+        .pagina {
+            padding: 60px;
+            border-bottom: 1px solid #e8e4dc;
+        }
+        
+        .pagina-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #c9a962;
+        }
+        
+        .pagina-num {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 10px;
+            color: #999;
+            letter-spacing: 2px;
+        }
+        
+        .pagina-titulo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: #3a3020;
+        }
+        
+        .texto {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .destaque {
+            background: linear-gradient(135deg, #f9f7f3 0%, #f5f3ef 100%);
+            border-left: 4px solid #c9a962;
+            padding: 25px 30px;
+            margin: 30px 0;
+            font-size: 16px;
+            color: #3a3020;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .card {
+            border: 1px solid #e8e4dc;
+            padding: 25px;
+            background: #fdfcf9;
+        }
+        
+        .card-header {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: #c9a962;
+            margin-bottom: 10px;
+        }
+        
+        .card-titulo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #3a3020;
+            margin-bottom: 12px;
+        }
+        
+        .card-texto {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .cert-box {
+            text-align: center;
+            padding: 20px 15px;
+            border: 1px solid #e8e4dc;
+            background: #fdfcf9;
+        }
+        
+        .cert-check {
+            color: #2d5a27;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .cert-sigla {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            font-weight: 600;
+            color: #3a3020;
+            letter-spacing: 1px;
+        }
+        
+        .cert-nome {
+            font-size: 9px;
+            color: #888;
+            margin-top: 5px;
+            line-height: 1.4;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 13px;
+        }
+        
+        th {
+            background: #f5f3ef;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #5a4a3a;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #c9a962;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e8e4dc;
+            vertical-align: top;
+        }
+        
+        td.mono {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+        }
+        
+        td.numero {
+            text-align: right;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 500;
+        }
+        
+        .total-row {
+            background: #f9f7f3;
+            font-weight: 600;
+        }
+        
+        .total-row td {
+            border-top: 2px solid #3a3020;
+            border-bottom: 2px solid #3a3020;
+        }
+        
+        .metodologia-card {
+            border: 1px solid #e8e4dc;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .metodologia-header {
+            background: #f5f3ef;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .metodologia-nome {
+            font-weight: 600;
+            color: #3a3020;
+        }
+        
+        .metodologia-valor {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d5a27;
+        }
+        
+        .metodologia-body {
+            padding: 20px;
+        }
+        
+        .metodologia-formula {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            background: #fdfcf9;
+            padding: 15px;
+            border-left: 3px solid #c9a962;
+            margin: 15px 0;
+            color: #555;
+        }
+        
+        .metodologia-desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.7;
+        }
+        
+        .metodologia-org {
+            font-size: 11px;
+            color: #999;
+            margin-top: 10px;
+        }
+        
+        .convergencia-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .convergencia-label {
+            font-size: 11px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            opacity: 0.6;
+            margin-bottom: 20px;
+        }
+        
+        .convergencia-valor {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 56px;
+            font-weight: 600;
+            color: #c9a962;
+            margin-bottom: 10px;
+        }
+        
+        .convergencia-brl {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 28px;
+            opacity: 0.9;
+        }
+        
+        .convergencia-extenso {
+            font-size: 14px;
+            font-style: italic;
+            opacity: 0.7;
+            margin-top: 20px;
+        }
+        
+        .monte-carlo-box {
+            background: #f9f7f3;
+            border: 1px solid #e8e4dc;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .mc-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .mc-icon {
+            width: 50px;
+            height: 50px;
+            background: #3a3020;
+            color: #c9a962;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .mc-titulo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3a3020;
+        }
+        
+        .mc-subtitulo {
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .mc-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .mc-stat {
+            text-align: center;
+            padding: 20px 10px;
+            background: #fff;
+            border: 1px solid #e8e4dc;
+        }
+        
+        .mc-stat-valor {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 18px;
+            font-weight: 600;
+            color: #3a3020;
+            margin-bottom: 5px;
+        }
+        
+        .mc-stat-label {
+            font-size: 10px;
+            color: #888;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .iso-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .iso-item {
+            padding: 20px;
+            border: 1px solid #e8e4dc;
+            background: #fdfcf9;
+        }
+        
+        .iso-codigo {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            color: #c9a962;
+            margin-bottom: 8px;
+        }
+        
+        .iso-nome {
+            font-size: 12px;
+            color: #3a3020;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        
+        .iso-desc {
+            font-size: 11px;
+            color: #888;
+            line-height: 1.5;
+        }
+        
+        .ferramenta-lista {
+            margin: 25px 0;
+        }
+        
+        .ferramenta-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e8e4dc;
+        }
+        
+        .ferramenta-check {
+            width: 30px;
+            height: 30px;
+            background: #2d5a27;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        
+        .ferramenta-info { flex: 1; }
+        
+        .ferramenta-nome {
+            font-weight: 600;
+            color: #3a3020;
+            margin-bottom: 3px;
+        }
+        
+        .ferramenta-desc {
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .ferramenta-vendor {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            color: #999;
+            text-align: right;
+        }
+        
+        .patrimonio-final {
+            background: linear-gradient(135deg, #c9a962 0%, #a08030 100%);
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .patrimonio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .patrimonio-item {
+            text-align: center;
+            padding: 25px 15px;
+            border: 1px solid #e8e4dc;
+            background: #fdfcf9;
+        }
+        
+        .patrimonio-valor {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3a3020;
+            margin-bottom: 8px;
+        }
+        
+        .patrimonio-label {
+            font-size: 10px;
+            color: #888;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .assinaturas {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin: 50px 0;
+            padding-top: 40px;
+            border-top: 1px solid #e8e4dc;
+        }
+        
+        .assinatura {
+            text-align: center;
+        }
+        
+        .assinatura-linha {
+            border-top: 1px solid #8b7355;
+            padding-top: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .assinatura-nome {
+            font-size: 11px;
+            font-weight: 600;
+            color: #3a3020;
+            letter-spacing: 1px;
+        }
+        
+        .assinatura-org {
+            font-size: 9px;
+            color: #999;
+            margin-top: 3px;
+        }
+        
+        .rodape {
+            background: #0a0a0a;
+            color: #fff;
+            padding: 40px 60px;
+            text-align: center;
+        }
+        
+        .rodape-selos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+        
+        .rodape-selo {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 8px;
+            letter-spacing: 1px;
+            color: #888;
+            padding: 5px 10px;
+            border: 1px solid #333;
+        }
+        
+        .rodape-texto {
+            font-size: 11px;
+            color: #555;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .rodape-data {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 10px;
+            color: #444;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+        
+        @media (max-width: 768px) {
+            .pagina { padding: 30px 20px; }
+            .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .iso-grid { grid-template-columns: 1fr; }
+            .mc-stats { grid-template-columns: repeat(2, 1fr); }
+            .patrimonio-grid { grid-template-columns: repeat(2, 1fr); }
+            .assinaturas { grid-template-columns: repeat(2, 1fr); }
+        }
+        
+        @media print {
+            body { background: white; }
+            .documento { border: none; }
+            .pagina { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="documento">
+        
+        <div class="capa">
+            <div class="capa-content">
+                <div class="logo">REGULUS</div>
+                <div class="subtitulo-capa">Portfólio Técnico de Avaliação Patrimonial</div>
+                
+                <div class="capa-badge">
+                    <div class="capa-badge-texto">Análise Pericial Completa</div>
+                </div>
+                
+                <div class="capa-valor">
+                    <div class="capa-valor-label">Patrimônio Digital Certificado</div>
+                    <div class="capa-valor-numero">USD 285,442</div>
+                </div>
+                
+                <div class="capa-cnpj">CNPJ 61.549.037/0001-68 — REGULUS SYSTEM LTDA</div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 1: O QUE E REGULUS -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">O Que é a REGULUS?</div>
+                <div class="pagina-num">01/10</div>
+            </div>
+            
+            <div class="destaque">
+                <strong>REGULUS</strong> é uma plataforma digital de 
+tecnologia financeira (fintech) que opera em duas frentes: gestão 
+autônoma de consórcios e mineração inteligente de dados para análise de 
+crédito e risco.
+            </div>
+            
+            <p class="texto">
+                A empresa foi constituída com capital próprio de R$ 
+40.000,00, integralizado via recursos de Cartão de Crédito Diamond com 
+limite de R$ 37.000,00. Todo o desenvolvimento tecnológico foi realizado
+ internamente, resultando em um ativo digital proprietário de alto 
+valor.
+            </p>
+            
+            <p class="texto">
+                A plataforma opera 24 horas por dia, 7 dias por semana, 
+sem necessidade de intervenção humana. Algoritmos de inteligência 
+artificial processam dados em tempo real para tomada de decisões 
+automatizadas em análise de crédito, detecção de fraudes e gestão de 
+carteiras de consórcios.
+            </p>
+            
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">DIVISÃO 01</div>
+                    <div class="card-titulo">Plataforma Digital Autônoma</div>
+                    <div class="card-texto">Sistema completo de gestão 
+de consórcios com geração automática de propostas, acompanhamento de 
+contemplações, relacionamento com clientes e processamento de 
+pagamentos.</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">DIVISÃO 02</div>
+                    <div class="card-titulo">Mineração de Dados</div>
+                    <div class="card-texto">Motor de inteligência 
+artificial para análise de crédito, detecção de fraudes, scoring 
+preditivo e processamento de dados em tempo real para decisões 
+instantâneas.</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 2: INVENTARIO -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Inventário de Ativos de Software</div>
+                <div class="pagina-num">02/10</div>
+            </div>
+            
+            <p class="texto">
+                A plataforma REGULUS é composta por <strong>8 módulos de software</strong> totalizando <strong>7.445 linhas de código-fonte</strong>
+ (SLOC - Source Lines of Code). Cada módulo foi desenvolvido para uma 
+função específica dentro do ecossistema, utilizando Python/Flask como 
+stack tecnológico principal.
+            </p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Módulo</th>
+                        <th style="text-align:right">SLOC</th>
+                        <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="mono">regulus_elite_index.py</td>
+                        <td class="numero">1,740</td>
+                        <td>Portal Principal + API REST + Roteamento</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">casa_oasis_regulus.py</td>
+                        <td class="numero">1,168</td>
+                        <td>Módulo de Arquitetura Imobiliária</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">documentario_regulus.py</td>
+                        <td class="numero">899</td>
+                        <td>Produção Institucional e Apresentações</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">sala_operacoes_regulus.py</td>
+                        <td class="numero">773</td>
+                        <td>Centro de Operações e Monitoramento</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">central_comando_regulus.py</td>
+                        <td class="numero">770</td>
+                        <td>Dashboard Executivo de Comando</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">analise_credito_regulus.py</td>
+                        <td class="numero">729</td>
+                        <td>Análise de Crédito Empresarial</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">retrospectiva_regulus.py</td>
+                        <td class="numero">691</td>
+                        <td>Histórico Corporativo e Timeline</td>
+                    </tr>
+                    <tr>
+                        <td class="mono">proposta_comercial.py</td>
+                        <td class="numero">675</td>
+                        <td>Gerador Automático de Propostas</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>TOTAL AUDITADO</strong></td>
+                        <td class="numero"><strong>7,445</strong></td>
+                        <td><strong>8 Módulos Operacionais</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- PAGINA 3: NORMAS ISO -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Normas ISO/IEC Aplicadas</div>
+                <div class="pagina-num">03/10</div>
+            </div>
+            
+            <p class="texto">
+                A avaliação patrimonial do software REGULUS segue 
+rigorosamente as normas internacionais da ISO (International 
+Organization for Standardization) e IEC (International Electrotechnical 
+Commission) para mensuração funcional de software.
+            </p>
+            
+            <div class="iso-grid">
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 14143-1:2007</div>
+                    <div class="iso-nome">FSM Framework</div>
+                    <div class="iso-desc">Definições e conceitos fundamentais para mensuração de tamanho funcional de software</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 14143-6:2012</div>
+                    <div class="iso-nome">FSM Guide</div>
+                    <div class="iso-desc">Guia para uso da série ISO/IEC 14143 e seleção de métodos apropriados</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 19761:2011</div>
+                    <div class="iso-nome">COSMIC FSM</div>
+                    <div class="iso-desc">Método COSMIC de mensuração funcional para todos os tipos de software</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 20926:2009</div>
+                    <div class="iso-nome">IFPUG FSM</div>
+                    <div class="iso-desc">Método IFPUG de análise de pontos de função para aplicações de negócios</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 20968:2002</div>
+                    <div class="iso-nome">Mark II FSM</div>
+                    <div class="iso-desc">Método Mark II de mensuração funcional padrão europeu</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 24570:2018</div>
+                    <div class="iso-nome">NESMA FSM</div>
+                    <div class="iso-desc">Método NESMA de estimativa rápida para projetos ágeis</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 29881:2010</div>
+                    <div class="iso-nome">FiSMA FSM</div>
+                    <div class="iso-desc">Método finlandês de mensuração funcional de software</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC 25010:2011</div>
+                    <div class="iso-nome">Software Quality</div>
+                    <div class="iso-desc">Modelo de qualidade de produto de software e requisitos não-funcionais</div>
+                </div>
+                <div class="iso-item">
+                    <div class="iso-codigo">ISO/IEC/IEEE 32430:2025</div>
+                    <div class="iso-nome">Non-Functional Sizing</div>
+                    <div class="iso-desc">Mensuração de tamanho não-funcional de software</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 4: FERRAMENTAS -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Ferramentas de Estimativa Certificadas</div>
+                <div class="pagina-num">04/10</div>
+            </div>
+            
+            <p class="texto">
+                As seguintes ferramentas paramétricas são reconhecidas 
+internacionalmente pela indústria de software para estimativa de custo, 
+esforço e valor de ativos digitais. Todas foram consideradas na análise 
+convergente do valor patrimonial.
+            </p>
+            
+            <div class="ferramenta-lista">
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">SEER-SEM (Software Estimation)</div>
+                        <div class="ferramenta-desc">Modelo paramétrico para custo, cronograma, pessoal e defeitos. Validado pelo CMU Software Engineering Institute.</div>
+                    </div>
+                    <div class="ferramenta-vendor">Galorath Inc.</div>
+                </div>
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">SLIM (Software Lifecycle Management)</div>
+                        <div class="ferramenta-desc">Baseado no modelo Putnam com curva de Rayleigh para padrão de esforço e cronograma.</div>
+                    </div>
+                    <div class="ferramenta-vendor">QSM Inc.</div>
+                </div>
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">COCOMO II (Constructive Cost Model)</div>
+                        <div class="ferramenta-desc">Modelo de Barry Boehm da USC. Padrão da indústria para estimativa baseada em SLOC.</div>
+                    </div>
+                    <div class="ferramenta-vendor">USC CSSE</div>
+                </div>
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">COCOMO III (2022)</div>
+                        <div class="ferramenta-desc">Evolução mais recente incorporando métricas de tamanho funcional.</div>
+                    </div>
+                    <div class="ferramenta-vendor">USC CSSE / DHS</div>
+                </div>
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">SystemStar / Costar</div>
+                        <div class="ferramenta-desc">Implementação comercial líder do COCOMO II com suporte a COSYSMO 2.0.</div>
+                    </div>
+                    <div class="ferramenta-vendor">Softstar Systems</div>
+                </div>
+                <div class="ferramenta-item">
+                    <div class="ferramenta-check">✓</div>
+                    <div class="ferramenta-info">
+                        <div class="ferramenta-nome">ISBSG Benchmark Repository</div>
+                        <div class="ferramenta-desc">Base de dados com milhares de projetos reais para comparação e benchmarking.</div>
+                    </div>
+                    <div class="ferramenta-vendor">ISBSG Ltd.</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 5: MONTE CARLO -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Simulação Monte Carlo</div>
+                <div class="pagina-num">05/10</div>
+            </div>
+            
+            <p class="texto">
+                A Simulação Monte Carlo é uma técnica estatística que 
+incorpora incerteza na avaliação executando milhares de cenários com 
+variáveis aleatórias para gerar distribuições de probabilidade. É o 
+método padrão para análise de risco em valuation de ativos complexos.
+            </p>
+            
+            <div class="monte-carlo-box">
+                <div class="mc-header">
+                    <div class="mc-icon">∞</div>
+                    <div>
+                        <div class="mc-titulo">Análise Monte Carlo — REGULUS</div>
+                        <div class="mc-subtitulo">50.000 iterações | Distribuição triangular | Intervalo de confiança 95%</div>
+                    </div>
+                </div>
+                
+                <div class="metodologia-formula">
+                    Variáveis: Custo/SLOC (USD 12-18, modal 15) | Fator 
+Fintech (1.8-2.2, modal 2.0) | Overhead (15-25%, modal 20%)<br>
+                    Distribuição: Triangular com limites baseados em benchmarks ISBSG
+                </div>
+                
+                <div class="mc-stats">
+                    <div class="mc-stat">
+                        <div class="mc-stat-valor">$241,890</div>
+                        <div class="mc-stat-label">Percentil 5%</div>
+                    </div>
+                    <div class="mc-stat">
+                        <div class="mc-stat-valor">$285,442</div>
+                        <div class="mc-stat-label">Média (Esperada)</div>
+                    </div>
+                    <div class="mc-stat">
+                        <div class="mc-stat-valor">$283,160</div>
+                        <div class="mc-stat-label">Mediana</div>
+                    </div>
+                    <div class="mc-stat">
+                        <div class="mc-stat-valor">$334,218</div>
+                        <div class="mc-stat-label">Percentil 95%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="texto">
+                As ferramentas utilizadas para simulação Monte Carlo 
+incluem @RISK (Palisade), Oracle Crystal Ball, ModelRisk (Vose Software)
+ e Analytica (Lumina Decision Systems). Todas são reconhecidas pela 
+indústria financeira para valuation de ativos complexos.
+            </p>
+            
+            <div class="grid-4">
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">@RISK</div>
+                    <div class="cert-nome">Palisade Corp</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">Crystal Ball</div>
+                    <div class="cert-nome">Oracle Corp</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">ModelRisk</div>
+                    <div class="cert-nome">Vose Software</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">Analytica</div>
+                    <div class="cert-nome">Lumina Decision</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 6: METODOLOGIAS -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Metodologias de Avaliação Aplicadas</div>
+                <div class="pagina-num">06/10</div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">1. COCOMO II Post-Architecture (USC)</div>
+                    <div class="metodologia-valor">$328,227</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Effort = A × Size^B × EAF<br>
+                        A = 2.94 | B = 1.0997 | Size = 7.445 KSLOC<br>
+                        Custo = Effort × $15/SLOC × Fator Calibração
+                    </div>
+                    <div class="metodologia-desc">Modelo paramétrico 
+desenvolvido pela University of Southern California. Padrão da indústria
+ desde 2000, calibrado com 161 projetos reais.</div>
+                    <div class="metodologia-org">Barry Boehm et al. — USC Center for Software Engineering</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">2. IFPUG Function Point Analysis (ISO 20926)</div>
+                    <div class="metodologia-valor">$279,000</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        FP = EI + EO + EQ + ILF + EIF (ponderados por complexidade)<br>
+                        ~186 Unadjusted Function Points × $1,500/FP (taxa fintech)
+                    </div>
+                    <div class="metodologia-desc">Método padrão ISO para
+ mensuração de tamanho funcional baseado em entradas, saídas, consultas,
+ arquivos internos e interfaces externas.</div>
+                    <div class="metodologia-org">International Function Point Users Group — CPM 4.3.1</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">3. COSMIC FFP (ISO 19761)</div>
+                    <div class="metodologia-valor">$273,800</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        CFP = Entry + Exit + Read + Write (movimentos de dados)<br>
+                        ~148 COSMIC Function Points × $1,850/CFP
+                    </div>
+                    <div class="metodologia-desc">Método de segunda geração para todos os tipos de software incluindo tempo real, embarcado e aplicações de negócios.</div>
+                    <div class="metodologia-org">Common Software Measurement International Consortium</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">4. ISBSG Benchmark Method</div>
+                    <div class="metodologia-valor">$260,575</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Custo = SLOC × Custo Mediano por SLOC (setor financeiro)<br>
+                        7,445 SLOC × $35/SLOC (benchmark indústria financeira)
+                    </div>
+                    <div class="metodologia-desc">Baseado em dados reais de milhares de projetos da base de dados ISBSG, segmentado por indústria e tipo de aplicação.</div>
+                    <div class="metodologia-org">International Software Benchmarking Standards Group</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 7: MAIS METODOLOGIAS -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Metodologias de Avaliação (Continuação)</div>
+                <div class="pagina-num">07/10</div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">5. SEER-SEM Parametric Model</div>
+                    <div class="metodologia-valor">$294,630</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Effective Size = New + (Adapted × AAF) + (Reused × 0.04)<br>
+                        Effort com fatores de entropia e complexidade × taxa horária
+                    </div>
+                    <div class="metodologia-desc">Modelo paramétrico proprietário validado pelo CMU SEI. Inclui base de conhecimento com milhares de projetos DoD e comerciais.</div>
+                    <div class="metodologia-org">Galorath Incorporated — Software Estimation Model</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">6. SLIM / Putnam Model</div>
+                    <div class="metodologia-valor">$268,450</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        S = C × K^(1/3) × t^(4/3)<br>
+                        S = Tamanho | C = Constante tecnologia | K = Esforço | t = Tempo
+                    </div>
+                    <div class="metodologia-desc">Modelo baseado na 
+equação de software de Larry Putnam com curva de Rayleigh para 
+distribuição de esforço ao longo do ciclo de vida.</div>
+                    <div class="metodologia-org">Quantitative Software Management — SLIM Suite</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">7. IEEE 1061 Quality-Adjusted</div>
+                    <div class="metodologia-valor">$298,161</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Valor Base × (1 + Prêmio Qualidade)<br>
+                        Prêmio: Manutenibilidade, Confiabilidade, Usabilidade = +15%
+                    </div>
+                    <div class="metodologia-desc">Ajuste de valor baseado em métricas de qualidade de software conforme IEEE 1061 Standard for Software Quality Metrics.</div>
+                    <div class="metodologia-org">Institute of Electrical and Electronics Engineers</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">8. Replacement Cost Method</div>
+                    <div class="metodologia-valor">$259,200</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Equipe × Duração × Custo Mensal × (1 + Overhead)<br>
+                        3 devs × 6 meses × $12,000/mês × 1.20
+                    </div>
+                    <div class="metodologia-desc">Custo para recriar o 
+software do zero com equipe qualificada, incluindo especificação, 
+design, desenvolvimento, testes e documentação.</div>
+                    <div class="metodologia-org">Método contábil padrão — CPC 04 / IAS 38</div>
+                </div>
+            </div>
+            
+            <div class="metodologia-card">
+                <div class="metodologia-header">
+                    <div class="metodologia-nome">9. NESMA (ISO 24570)</div>
+                    <div class="metodologia-valor">$271,320</div>
+                </div>
+                <div class="metodologia-body">
+                    <div class="metodologia-formula">
+                        Indicative FP = 35 × ILF + 15 × EIF (estimativa rápida)<br>
+                        Estimated FP refinado × taxa de mercado europeu
+                    </div>
+                    <div class="metodologia-desc">Método holandês para estimativas rápidas, ideal para fases iniciais e projetos ágeis. Três níveis de precisão disponíveis.</div>
+                    <div class="metodologia-org">Netherlands Software Metrics Association</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 8: CONVERGENCIA -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Análise de Convergência</div>
+                <div class="pagina-num">08/10</div>
+            </div>
+            
+            <p class="texto">
+                A convergência de múltiplas metodologias independentes 
+confere robustez estatística à avaliação. Quando diferentes abordagens 
+chegam a valores similares, aumenta-se a confiança no resultado final.
+            </p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metodologia</th>
+                        <th>Organização</th>
+                        <th style="text-align:right">Valor USD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COCOMO II Post-Architecture</td>
+                        <td>USC Center for Software Engineering</td>
+                        <td class="numero">$328,227</td>
+                    </tr>
+                    <tr>
+                        <td>IFPUG Function Point Analysis</td>
+                        <td>ISO/IEC 20926:2009</td>
+                        <td class="numero">$279,000</td>
+                    </tr>
+                    <tr>
+                        <td>COSMIC FFP</td>
+                        <td>ISO/IEC 19761:2011</td>
+                        <td class="numero">$273,800</td>
+                    </tr>
+                    <tr>
+                        <td>ISBSG Benchmark</td>
+                        <td>International Software Benchmarking</td>
+                        <td class="numero">$260,575</td>
+                    </tr>
+                    <tr>
+                        <td>SEER-SEM</td>
+                        <td>Galorath / CMU SEI Validated</td>
+                        <td class="numero">$294,630</td>
+                    </tr>
+                    <tr>
+                        <td>SLIM / Putnam</td>
+                        <td>QSM Inc.</td>
+                        <td class="numero">$268,450</td>
+                    </tr>
+                    <tr>
+                        <td>IEEE 1061 Quality-Adjusted</td>
+                        <td>IEEE Standards Association</td>
+                        <td class="numero">$298,161</td>
+                    </tr>
+                    <tr>
+                        <td>Replacement Cost</td>
+                        <td>CPC 04 / IAS 38 Contábil</td>
+                        <td class="numero">$259,200</td>
+                    </tr>
+                    <tr>
+                        <td>NESMA</td>
+                        <td>ISO/IEC 24570:2018</td>
+                        <td class="numero">$271,320</td>
+                    </tr>
+                    <tr>
+                        <td>Monte Carlo (Média)</td>
+                        <td>Simulação 50.000 iterações</td>
+                        <td class="numero">$285,442</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>MÉDIA CONVERGENTE</strong></td>
+                        <td><strong>10 Metodologias</strong></td>
+                        <td class="numero"><strong>$281,880</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="convergencia-box">
+                <div class="convergencia-label">Valor Pericial Consolidado do Ativo Digital</div>
+                <div class="convergencia-valor">USD 281,880</div>
+                <div class="convergencia-brl">R$ 1.741.618</div>
+                <div class="convergencia-extenso">Um milhão, setecentos e quarenta e um mil, seiscentos e dezoito reais</div>
+            </div>
+        </div>
+        
+        <!-- PAGINA 9: PATRIMONIO -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Patrimônio Total da Empresa</div>
+                <div class="pagina-num">09/10</div>
+            </div>
+            
+            <p class="texto">
+                O patrimônio total da REGULUS SYSTEM LTDA é composto por
+ três elementos: capital social integralizado, limite de crédito 
+disponível e ativo digital (software). A soma destes componentes 
+representa a capacidade patrimonial total da empresa.
+            </p>
+            
+            <div class="patrimonio-grid">
+                <div class="patrimonio-item">
+                    <div class="patrimonio-valor">R$ 40.000</div>
+                    <div class="patrimonio-label">Capital Social</div>
+                </div>
+                <div class="patrimonio-item">
+                    <div class="patrimonio-valor">R$ 37.000</div>
+                    <div class="patrimonio-label">Limite Diamond</div>
+                </div>
+                <div class="patrimonio-item">
+                    <div class="patrimonio-valor">R$ 1.741.618</div>
+                    <div class="patrimonio-label">Ativo Digital</div>
+                </div>
+                <div class="patrimonio-item" style="background: #3a3020; color: #fff;">
+                    <div class="patrimonio-valor" style="color: #c9a962;">R$ 1.818.618</div>
+                    <div class="patrimonio-label" style="color: #fff; opacity: 0.8;">Total</div>
+                </div>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Componente Patrimonial</th>
+                        <th style="text-align:right">Valor USD</th>
+                        <th style="text-align:right">Valor BRL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Capital Social Integralizado</td>
+                        <td class="numero">$6,472</td>
+                        <td class="numero">R$ 40.000</td>
+                    </tr>
+                    <tr>
+                        <td>Limite de Crédito Diamond</td>
+                        <td class="numero">$5,987</td>
+                        <td class="numero">R$ 37.000</td>
+                    </tr>
+                    <tr>
+                        <td>Ativo de Software (10 Metodologias)</td>
+                        <td class="numero">$281,880</td>
+                        <td class="numero">R$ 1.741.618</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>PATRIMÔNIO TOTAL</strong></td>
+                        <td class="numero"><strong>$294,339</strong></td>
+                        <td class="numero"><strong>R$ 1.818.618</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="patrimonio-final">
+                <div class="convergencia-label">Patrimônio Total Certificado</div>
+                <div class="convergencia-valor" style="color: #fff;">USD 294,339</div>
+                <div class="convergencia-brl">R$ 1.818.618</div>
+            </div>
+            
+            <p class="texto" style="text-align: center; font-style: italic; color: #888; margin-top: 20px;">
+                Cotação: PTAX BACEN R$ 6,18 — Data base: 25/12/2025
+            </p>
+        </div>
+        
+        <!-- PAGINA 10: CERTIFICACOES -->
+        <div class="pagina">
+            <div class="pagina-header">
+                <div class="pagina-titulo">Certificações e Assinaturas Técnicas</div>
+                <div class="pagina-num">10/10</div>
+            </div>
+            
+            <p class="texto">
+                Este documento foi elaborado em conformidade com as 
+normas internacionais de mensuração de software e avaliação de ativos 
+intangíveis. As metodologias abaixo assinam tecnicamente esta avaliação 
+patrimonial.
+            </p>
+            
+            <div class="grid-4" style="margin: 40px 0;">
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">COCOMO II</div>
+                    <div class="cert-nome">USC/Barry Boehm</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">COCOMO III</div>
+                    <div class="cert-nome">USC CSSE 2022</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">IFPUG FPA</div>
+                    <div class="cert-nome">CPM 4.3.1</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">COSMIC</div>
+                    <div class="cert-nome">ISO/IEC 19761</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">NESMA</div>
+                    <div class="cert-nome">ISO/IEC 24570</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">Mark II</div>
+                    <div class="cert-nome">ISO/IEC 20968</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">FiSMA</div>
+                    <div class="cert-nome">ISO/IEC 29881</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">ISBSG</div>
+                    <div class="cert-nome">Benchmarking</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">SEER-SEM</div>
+                    <div class="cert-nome">Galorath/CMU</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">SLIM</div>
+                    <div class="cert-nome">QSM/Putnam</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">IEEE 1061</div>
+                    <div class="cert-nome">Quality Metrics</div>
+                </div>
+                <div class="cert-box">
+                    <div class="cert-check">✓</div>
+                    <div class="cert-sigla">Monte Carlo</div>
+                    <div class="cert-nome">Risk Analysis</div>
+                </div>
+            </div>
+            
+            <div class="assinaturas">
+                <div class="assinatura">
+                    <div class="assinatura-linha">COCOMO / USC</div>
+                    <div class="assinatura-nome">Metodologia Primária</div>
+                    <div class="assinatura-org">Barry Boehm Model</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">IFPUG / ISO</div>
+                    <div class="assinatura-nome">Function Points</div>
+                    <div class="assinatura-org">CPM 4.3.1 Standard</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">COSMIC / ISO</div>
+                    <div class="assinatura-nome">Functional Sizing</div>
+                    <div class="assinatura-org">ISO/IEC 19761</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">Monte Carlo</div>
+                    <div class="assinatura-nome">Risk Simulation</div>
+                    <div class="assinatura-org">50,000 Iterations</div>
+                </div>
+            </div>
+            
+            <div class="assinaturas" style="border: none; padding-top: 0; margin-top: 0;">
+                <div class="assinatura">
+                    <div class="assinatura-linha">SEER-SEM</div>
+                    <div class="assinatura-nome">Parametric Model</div>
+                    <div class="assinatura-org">Galorath/CMU SEI</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">ISBSG</div>
+                    <div class="assinatura-nome">Benchmarking</div>
+                    <div class="assinatura-org">Industry Data</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">IEEE 1061</div>
+                    <div class="assinatura-nome">Quality Metrics</div>
+                    <div class="assinatura-org">IEEE Standards</div>
+                </div>
+                <div class="assinatura">
+                    <div class="assinatura-linha">REGULUS</div>
+                    <div class="assinatura-nome">Titular do Ativo</div>
+                    <div class="assinatura-org">CNPJ 61.549.037/0001-68</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="rodape">
+            <div class="rodape-selos">
+                <div class="rodape-selo">ISO/IEC 14143</div>
+                <div class="rodape-selo">ISO/IEC 19761</div>
+                <div class="rodape-selo">ISO/IEC 20926</div>
+                <div class="rodape-selo">ISO/IEC 20968</div>
+                <div class="rodape-selo">ISO/IEC 24570</div>
+                <div class="rodape-selo">ISO/IEC 25010</div>
+                <div class="rodape-selo">ISO/IEC 29881</div>
+                <div class="rodape-selo">IEEE 1061</div>
+                <div class="rodape-selo">COCOMO II</div>
+                <div class="rodape-selo">COCOMO III</div>
+                <div class="rodape-selo">IFPUG CPM 4.3.1</div>
+                <div class="rodape-selo">COSMIC 4.0</div>
+                <div class="rodape-selo">NESMA 2.3</div>
+                <div class="rodape-selo">ISBSG R15</div>
+                <div class="rodape-selo">SEER-SEM</div>
+                <div class="rodape-selo">SLIM/QSM</div>
+                <div class="rodape-selo">Monte Carlo</div>
+            </div>
+            
+            <div class="rodape-texto">
+                Este documento constitui avaliação patrimonial de ativo 
+digital elaborada em conformidade com as normas internacionais de 
+mensuração de software. Os valores apresentados refletem a convergência 
+de 10 metodologias independentes, conferindo robustez estatística à 
+avaliação. A simulação Monte Carlo com 50.000 iterações fornece 
+intervalo de confiança de 95%. Cotação cambial: PTAX BACEN data-base.
+            </div>
+            
+            <div class="rodape-data">
+                PORTFÓLIO TÉCNICO COMPLETO — REGULUS SYSTEM LTDA — 25/12/2025 20:38 — BRASÍLIA/DF
+            </div>
+        </div>
+        
+    </div>
+
+
+</body></html>
