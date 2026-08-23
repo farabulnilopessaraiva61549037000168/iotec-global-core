@@ -64,11 +64,7 @@ for lead in LEADS:
 
     )
 
-    VALUES (
-
-        ?,?,?,?,0
-
-    )
+    VALUES (?, ?, ?, ?, ?)
 
     """,
 
