@@ -187,9 +187,9 @@ class CommercialAutopilot:
 
         for codigo,empresa,status in clientes:
 
-            acao,
+            acao = "AUTOPILOT_ACTION"
 
-            prioridade,
+            prioridade = "ALTA"
 
             prazo=self.sugerir(status)
 
