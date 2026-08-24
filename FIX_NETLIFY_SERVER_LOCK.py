@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+﻿import sqlite3
+import datetime
+
+class NetlifyServerLockEngine:
+    def __init__(self):
+        self.html_file = "index.html"
+        self.db_path = "iotec.db"
+
+    def aplicar_trava_real_netlify(self):
+        print(" [NETLIFY LOCK] 🔒 Removendo geração local de PDF/TXT e vinculando à API local...")
+
+        # HTML e JS limpos: O botão NÃO gera mais o documento localmente.
+        # Ele obrigatoriamente faz uma requisição HTTP para checar o status de pagamento.
+        html_code = """<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -61,3 +74,24 @@
     </script>
 </body>
 </html>
+"""
+        with open(self.html_file, "w", encoding="utf-8") as f:
+            f.write(html_code)
+
+        # Atualiza status no iotec.db
+        now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT INTO integration_status (integration, configured, authenticated, last_sync_utc)
+            VALUES ('NETLIFY_FRONTEND_LOCK_HARDENED', 1, 1, ?)
+        ''', (now_utc,))
+        conn.commit()
+        conn.close()
+
+        print("  ✅ Código estático fraudulento removido do index.html.")
+        print("  ✅ O botão no Netlify agora EXIGE resposta positiva (HTTP 200) da API para liberar qualquer arquivo.")
+
+if __name__ == "__main__":
+    engine = NetlifyServerLockEngine()
+    engine.aplicar_trava_real_netlify()
