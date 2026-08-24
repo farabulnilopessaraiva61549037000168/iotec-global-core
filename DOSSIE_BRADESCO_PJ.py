@@ -5,6 +5,8 @@ import os
 class DossieBradescoPJ:
     def __init__(self):
         self.db_path = "iotec.db"
+        self.owner_name = "Farabulini Lopes Saraiva"
+        self.cnpj = "61.549.037/0001-68"
         self.target_mrr = 127678.57
         self.valuation_usd = 1950000.00
         self.valuation_brl = self.valuation_usd * 5.50
@@ -21,7 +23,9 @@ class DossieBradescoPJ:
         print("==========================================================================================")
         print(" 🏛️  IOTEC & BRADESCO PJ | DOSSIÊ EXECUTIVO DE ESTRUTURAÇÃO PATRIMONIAL                   ")
         print("==========================================================================================")
-        print(f" [DATA DE EMISSÃO: {now}] | [CANAL EXECUTIVO: IOTEC.BL@proton.me]                     ")
+        print(f" [TITULAR DA OPERAÇÃO : {self.owner_name.upper()}]                                     ")
+        print(f" [CNPJ INSTITUCIONAL   : {self.cnpj}]                                                   ")
+        print(f" [EMISSÃO E GOVERNANÇA : {now}] | [CANAL DIRECT: IOTEC.BL@proton.me]                   ")
         print("==========================================================================================\n")
 
         print(" ─── [ 1. RESUMO EXECUTIVO E MÉTRICAS FINANCEIRAS ] ────────────────────────────────────────")
