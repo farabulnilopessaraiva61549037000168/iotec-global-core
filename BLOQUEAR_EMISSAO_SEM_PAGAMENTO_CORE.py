@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+﻿import os
+import sqlite3
+import datetime
+
+class LockUnpaidCertificateEngine:
+    def __init__(self):
+        self.db_path = "iotec.db"
+        self.html_file = "index.html"
+
+    def aplicar_trava_de_seguranca(self):
+        print(" [SECURITY CORE] 🔒 Aplicando trava rígida: Proibido liberar certidão sem webhook de pagamento...")
+
+        # Código com validação real de webhook antes do download
+        html_code = """<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -53,3 +66,24 @@
     </script>
 </body>
 </html>
+"""
+        with open(self.html_file, "w", encoding="utf-8") as f:
+            f.write(html_code)
+
+        # Log de segurança no iotec.db
+        now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT INTO integration_status (integration, configured, authenticated, last_sync_utc)
+            VALUES ('TRAVA_SEGURANCA_CERTIDAO_UNPAID', 1, 1, ?)
+        ''', (now_utc,))
+        conn.commit()
+        conn.close()
+
+        print("  ✅ Trava ativada no index.html: O botão só habilita após o webhook retornar `PAID`.")
+        print("  ✅ Registro de segurança salvo no `iotec.db`.")
+
+if __name__ == "__main__":
+    engine = LockUnpaidCertificateEngine()
+    engine.aplicar_trava_de_seguranca()
