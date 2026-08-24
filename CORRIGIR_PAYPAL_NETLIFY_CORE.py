@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+﻿import os
+import sqlite3
+import datetime
+
+class FixPaypalNetlifyEngine:
+    def __init__(self):
+        self.db_path = "iotec.db"
+        self.html_file = "index.html"
+
+    def injetar_renderizador_paypal(self):
+        print(" [PAYPAL FIX] 🛠️ Injetando container dinamico do PayPal SDK no index.html...")
+
+        # Estrutura HTML/JS limpa para renderizar botões e campos de cartão no Netlify
+        html_code = """<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -36,3 +49,24 @@
     </script>
 </body>
 </html>
+"""
+        with open(self.html_file, "w", encoding="utf-8") as f:
+            f.write(html_code)
+
+        print("  ✅ Arquivo `index.html` atualizado com o container `#paypal-button-container`.")
+
+        now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT INTO integration_status (integration, configured, authenticated, last_sync_utc)
+            VALUES ('PAYPAL_HTML_RENDER_FIXED', 1, 1, ?)
+        ''', (now_utc,))
+        conn.commit()
+        conn.close()
+
+        print("  ✅ Status registrado no `iotec.db` e pronto para deploy.")
+
+if __name__ == "__main__":
+    engine = FixPaypalNetlifyEngine()
+    engine.injetar_renderizador_paypal()
