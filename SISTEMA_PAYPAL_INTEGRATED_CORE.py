@@ -4,7 +4,6 @@ import datetime
 class PaypalIntegrationEngine:
     def __init__(self):
         self.db_path = "iotec.db"
-        self.cnpj = "61.549.037/0001-68"
 
     def atualizar_status_paypal(self):
         conn = sqlite3.connect(self.db_path)
@@ -12,7 +11,13 @@ class PaypalIntegrationEngine:
 
         now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
-        # Atualiza a tabela de status de integração para o gateway Paypal Global
+        # Inspeciona colunas da tabela para evitar erro de schema
+        cursor.execute("PRAGMA table_info(integration_status);")
+        colunas = [col[1] for col in cursor.fetchall()]
+
+        if "last_sync_utc" not in colunas:
+            cursor.execute("ALTER TABLE integration_status ADD COLUMN last_sync_utc TEXT;")
+
         cursor.execute('''
             INSERT INTO integration_status (integration, configured, authenticated, last_sync_utc)
             VALUES ('PAYPAL_GLOBAL_SDK', 1, 1, ?)
@@ -22,13 +27,12 @@ class PaypalIntegrationEngine:
         conn.close()
 
         print("==========================================================================================")
-        print(" 💳 IOTEC PAYPAL CORE | INTEGRAÇÃO DE CHECKOUT DEDICADO REGISTRADA                      ")
+        print(" 💳 IOTEC PAYPAL CORE | INTEGRAÇÃO AJUSTADA E REGISTRADA NO IOTEC.DB                      ")
         print("==========================================================================================")
-        print(f" [RESPONSÁVEL OPERACIONAL : FARABULINI LOPES SARAIVA]")
-        print(f" [STAMP DE ATUALIZAÇÃO    : {now_utc}]")
+        print(f" [STAMP DE ATUALIZAÇÃO UTC : {now_utc}]")
         print("==========================================================================================\n")
-        print("  ✅ Interface do Netlify conectada à engine do PayPal Global Engine Active.")
-        print("  ✅ Status de integração `PAYPAL_GLOBAL_SDK` atualizado com sucesso no `iotec.db`.")
+        print("  ✅ Schema da tabela `integration_status` adequado com sucesso.")
+        print("  ✅ Status do PayPal registrado no banco de dados sem erros.")
         print("==========================================================================================")
 
 if __name__ == "__main__":
