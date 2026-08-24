@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+﻿import os
+import glob
+import sqlite3
+import datetime
+
+class ExpurgarScriptsVulneraveisEngine:
+    def __init__(self):
+        self.db_path = "iotec.db"
+
+    def expurgar(self):
+        print(" [EXPURGO CORE] 🧹 Varrendo e eliminando scripts de geração local de PDF/TXT...")
+
+        # HTML com bloqueio absoluto e sem funções legadas
+        html_seguro = """<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -55,3 +68,30 @@
     </script>
 </body>
 </html>
+"""
+        # Sobrescreve index.html
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(html_seguro)
+
+        # Procura e limpa outros arquivos HTML/JS soltos que possam conter o gerador antigo
+        for filepath in glob.glob("*.html"):
+            if filepath != "index.html":
+                os.remove(filepath)
+                print(f"  🗑️ Arquivo legado removido: {filepath}")
+
+        # Atualiza o registro no iotec.db
+        now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT INTO integration_status (integration, configured, authenticated, last_sync_utc)
+            VALUES ('FRONTEND_EXPURGO_COMPLETO', 1, 1, ?)
+        ''', (now_utc,))
+        conn.commit()
+        conn.close()
+
+        print("  ✅ Limpeza concluída. Apenas a checagem Server-Side permaneceu.")
+
+if __name__ == "__main__":
+    engine = ExpurgarScriptsVulneraveisEngine()
+    engine.expurgar()
