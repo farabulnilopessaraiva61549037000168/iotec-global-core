@@ -8,3 +8,6 @@ static/
 *.json
 *.pyc
 .env
+
+# Local Netlify folder
+.netlify

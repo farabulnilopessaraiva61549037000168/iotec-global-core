@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOTEC BL — Portal Corporativo & Shopping de Inovações</title>
+  <style>
+    :root {
+      --bg: #070a12;
+      --card-bg: rgba(15, 23, 42, 0.75);
+      --gold: #D4A843;
+      --border: rgba(212, 168, 67, 0.25);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    body { background: var(--bg); color: #fff; overflow-x: hidden; }
+
+    /* BACKGROUND VIDEO FULLSCREEN */
+    .hero {
+      position: relative;
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .hero-video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -2;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      filter: brightness(0.35) contrast(1.15);
+    }
+
+    .hero-overlay {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle, rgba(7,10,18,0.3) 0%, rgba(7,10,18,0.92) 85%);
+      z-index: -1;
+    }
+
+    /* HEADER */
+    header {
+      padding: 30px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(10px);
+    }
+    .brand { font-size: 1.6rem; font-weight: 800; color: #fff; text-decoration: none; letter-spacing: 1.5px; }
+    .brand span { color: var(--gold); font-weight: 400; }
+    .status-badge { font-size: 0.75rem; color: var(--gold); border: 1px solid var(--gold); padding: 6px 16px; border-radius: 20px; background: rgba(212,168,67,0.1); font-weight: 700; letter-spacing: 1px; }
+
+    /* HERO MAIN TEXT */
+    .hero-body {
+      text-align: center;
+      padding: 80px 20px 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .hero-body h1 { font-size: 3.8rem; font-weight: 300; line-height: 1.15; margin-bottom: 20px; }
+    .hero-body h1 em { color: var(--gold); font-style: normal; font-weight: 600; }
+    .hero-body p { font-size: 1.2rem; color: #cbd5e1; max-width: 750px; margin: 0 auto; line-height: 1.6; }
+
+    /* CANAIS & 3 PRODUTOS SIMULTÂNEOS */
+    .products-container {
+      max-width: 1300px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+    }
+    .section-title { text-align: center; margin-bottom: 50px; font-size: 2rem; font-weight: 300; }
+    .section-title em { color: var(--gold); font-style: normal; font-weight: 600; }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 35px;
+      backdrop-filter: blur(12px);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card:hover {
+      border-color: var(--gold);
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(212, 168, 67, 0.15);
+    }
+
+    .card-tag { font-size: 0.75rem; color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; }
+    .card h3 { font-size: 1.6rem; font-weight: 600; margin-bottom: 15px; }
+    .card p { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px; }
+
+    .price-box { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 20px; }
+    .price-box span { font-size: 0.85rem; color: #64748b; font-weight: 400; }
+
+    .btn-checkout {
+      width: 100%;
+      padding: 16px;
+      background: var(--gold);
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 0.2s;
+      text-align: center;
+      text-decoration: none;
+    }
+    .btn-checkout:hover { opacity: 0.9; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 35px;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- VÍDEO DE PLANO DE FUNDO EM UHD -->
+  <video class="hero-video" autoplay loop muted playsinline preload="auto">
+    <source src="hero.mp4" type="video/mp4">
+    <source src="videos/hero.mp4" type="video/mp4">
+    <source src="executive.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
+  <div class="hero">
+    <header>
+      <a href="#" class="brand">IOTEC <span>BL</span></a>
+      <div class="status-badge">⚡ ASAAS PIX DIRECT ATIVO</div>
+    </header>
+
+    <div class="hero-body">
+      <h1>Construtora de Software & <em>Sistemas Corporativos.</em></h1>
+      <p>Plataformas prontas e sob medida para clínicas, varejo e emissão de documentos com liquidação instantânea em menos de 2 segundos.</p>
+    </div>
+
+    <!-- OS 3 PRODUTOS SIMULTÂNEOS DE FATURAMENTO -->
+    <div class="products-container">
+      <div class="section-title">Soluções Prontas para <em>Ativação Imediata</em></div>
+
+      <div class="grid-3">
+        
+        <!-- PRODUTO 1: SAÚDE & CLÍNICAS -->
+        <div class="card">
+          <div>
+            <div class="card-tag">Médicos & Clínicas</div>
+            <h3>IOTEC MED CORE</h3>
+            <p>Prontuário eletrônico PWA, agendamento de consultas, telemedicina e laudos assinados digitalmente. Zero instalação em rede.</p>
+          </div>
+          <div>
+            <div class="price-box">R$ 1.500 <span>/ taxa de ativação</span></div>
+            <button class="btn-checkout" onclick="iniciarPix('IOTEC MED CORE', 1500)">Contratar & Liberar Agora</button>
+          </div>
+        </div>
+
+        <!-- PRODUTO 2: SUPERMERCADOS & VAREJO -->
+        <div class="card">
+          <div>
+            <div class="card-tag">Supermercados & Varejo</div>
+            <h3>IOTEC RETAIL POS</h3>
+            <p>Controle de estoque em tempo real, automação de caixa PDV e emissão fiscal integrada para múltiplos computadores da rede.</p>
+          </div>
+          <div>
+            <div class="price-box">R$ 2.500 <span>/ taxa de ativação</span></div>
+            <button class="btn-checkout" onclick="iniciarPix('IOTEC RETAIL POS', 2500)">Contratar & Liberar Agora</button>
+          </div>
+        </div>
+
+        <!-- PRODUTO 3: CERTIDÕES & LAUDOS AUTOMÁTICOS -->
+        <div class="card">
+          <div>
+            <div class="card-tag">Emissão Instantânea</div>
+            <h3>CERTIDÕES & AUDITORIA</h3>
+            <p>Validação e emissão de certidões operacionais, laudos técnicos e periciais com QR Code e selo digital com download imediato.</p>
+          </div>
+          <div>
+            <div class="price-box">R$ 350 <span>/ por certidão</span></div>
+            <button class="btn-checkout" onclick="iniciarPix('CERTIDAO TECNICA', 350)">Emitir Certidão via Pix</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 IOTEC BL — Construtora de Inovações e Tecnologia. Todos os direitos reservados. | CNPJ: 61.549.037/0001-68</p>
+    </footer>
+  </div>
+
+  <script>
+    // SIMULAÇÃO DO GERADOR PIX DIRETO DO ASAAS
+    function iniciarPix(produto, valor) {
+      alert("⚡ INICIANDO CHECKOUT PIX DIRETO\n\nProduto: " + produto + "\nValor: R$ " + valor + ",00\n\nGerando QR Code Asaas Direct ($aact_Ydac951d283)...");
+    }
+
+    // TRAVA DE SEGURANÇA PARA FORÇAR O VÍDEO SE O NAVEGADOR BLOQUEAR O AUTOPLAY
+    document.addEventListener('DOMContentLoaded', () => {
+      const vid = document.querySelector('video');
+      if (vid) {
+        vid.muted = true;
+        vid.play().catch(e => console.log("Aguardando interação para reproduzir vídeo de fundo."));
+      }
+    });
+  </script>
+
+</body>
+</html>
