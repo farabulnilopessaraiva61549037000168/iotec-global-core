@@ -11,3 +11,6 @@ static/
 
 # Local Netlify folder
 .netlify
+iotec.db
+iotec_database.db
+*.db
