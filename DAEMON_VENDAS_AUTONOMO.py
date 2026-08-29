@@ -1,38 +1,51 @@
-﻿import time
-import datetime
-import subprocess
-from SISTEMA_AUTONOMO_GLOBAL import SistemaAutonomoGlobal
+﻿import os
+import requests
 
-class DaemonVendasAutonomo:
-    def __init__(self):
-        self.sistema = SistemaAutonomoGlobal()
+# Lê o token direto do arquivo de texto sem interferência do PowerShell
+with open("C:\\IOTEC\\token.txt", "r", encoding="utf-8") as f:
+    ASAAS_TOKEN = f.read().strip()
 
-    def iniciar_loop_escala(self):
+headers = {
+    "access_token": ASAAS_TOKEN,
+    "Content-Type": "application/json",
+    "User-Agent": "IOTEC-Engine/1.0"
+}
+
+def criar_cobranca(nome, cnpj, valor):
+    # 1. Cadastra/Busca Cliente
+    res_cli = requests.post("https://www.asaas.com/api/v3/customers", json={"name": nome, "cpfCnpj": cnpj}, headers=headers)
+    cust_id = None
+    if res_cli.status_code == 200:
+        cust_id = res_cli.json()["id"]
+    else:
+        res_s = requests.get(f"https://www.asaas.com/api/v3/customers?cpfCnpj={cnpj}", headers=headers)
+        if res_s.status_code == 200 and res_s.json().get("data"):
+            cust_id = res_s.json()["data"][0]["id"]
+            
+    if not cust_id:
+        print(f"❌ Erro Cliente ({nome}): {res_cli.status_code} - {res_cli.text}")
+        return
+
+    # 2. Gera Pix
+    body = {"customer": cust_id, "billingType": "PIX", "value": valor, "dueDate": "2026-08-30", "description": f"Licença IOTEC - {nome}"}
+    res_cob = requests.post("https://www.asaas.com/api/v3/payments", json=body, headers=headers)
+    
+    if res_cob.status_code == 200:
+        pay = res_cob.json()
+        pay_id = pay["id"]
+        inv = pay.get("invoiceUrl", "")
+        res_qr = requests.get(f"https://www.asaas.com/api/v3/payments/{pay_id}/pixQrCode", headers=headers)
+        pix = res_qr.json().get("payload", "") if res_qr.status_code == 200 else ""
+        
         print("===============================================================================")
-        print(" 💰 IOTEC ENGINE — ESTEIRA AUTÔNOMA DE VENDAS B2B EM ESCALA GLOBAL")
-        print(" EMISSOR: Farabulini Lopes Saraiva | CNPJ: 61.549.037/0001-68")
-        print("===============================================================================\n")
+        print(f" 🟢 COBRANÇA REAL GERADA COM SUCESSO!")
+        print(f" ├─ Cliente: {nome}")
+        print(f" ├─ Fatura: {inv}")
+        print(f" └─ PIX Copia e Cola:\n\n{pix}\n")
+        print("===============================================================================")
+    else:
+        print(f"❌ Erro Cobrança ({nome}): {res_cob.status_code} - {res_cob.text}")
 
-        while True:
-            horario = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
-            print(f"[{horario}] 🔄 Rodando ciclo de mineração, oferta e verificação de acervo...")
-
-            # 1. Minera novos leads de alto ticket
-            self.sistema.minerar_leads_autonomos()
-
-            # 2. Exibe status do acervo no banco
-            self.sistema.exibir_relatorio_acervo()
-
-            # 3. Dispara o motor integrado de ofertas B2B
-            try:
-                subprocess.run(["python", "C:\\IOTEC\\MOTOR_INTEGRADO_GLOBAL.py"], check=True)
-            except Exception as e:
-                print(f" [!] Erro durante execução do Motor Integrado: {e}")
-
-            print("\n [✔] Ciclo executado com sucesso. Próxima rodada autônoma em 15 minutos.")
-            print("===============================================================================")
-            time.sleep(900) # Loop de 15 minutos
-
-if __name__ == "__main__":
-    daemon = DaemonVendasAutonomo()
-    daemon.iniciar_loop_escala()
+print("🚀 PROCESSANDO COBRANÇAS...")
+criar_cobranca("BANCO DO BRASIL SA", "00000000000191", 5000.00)
+criar_cobranca("SENDAS DISTRIBUIDORA S/A", "06057223000171", 3500.00)

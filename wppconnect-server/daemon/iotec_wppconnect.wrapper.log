@@ -1,0 +1,6 @@
+2026-08-29 07:43:01 - Starting C:\Program Files\nodejs\node.exe  C:\IOTEC\wppconnect-server\node_modules\node-windows\lib\wrapper.js --file C:\IOTEC\wppconnect-server\index.js --scriptoptions= --log "IOTEC_WPPConnect wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-08-29 07:43:01 - Started 76
+2026-08-29 12:34:11 - Starting C:\Program Files\nodejs\node.exe  C:\IOTEC\wppconnect-server\node_modules\node-windows\lib\wrapper.js --file C:\IOTEC\wppconnect-server\index.js --scriptoptions= --log "IOTEC_WPPConnect wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-08-29 12:34:11 - Started 5152
+2026-08-29 13:02:41 - Starting C:\Program Files\nodejs\node.exe  C:\IOTEC\wppconnect-server\node_modules\node-windows\lib\wrapper.js --file C:\IOTEC\wppconnect-server\index.js --scriptoptions= --log "IOTEC_WPPConnect wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-08-29 13:02:41 - Started 5336

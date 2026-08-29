@@ -1,0 +1,50 @@
+[32minfo[39m:     
+   _       ______  ____  ______                            __ 
+  | |     / / __ \/ __ \/ ____/___  ____  ____  ___  _____/ /_
+  | | /| / / /_/ / /_/ / /   / __ \/ __ \/ __ \/ _ \/ ___/ __/
+  | |/ |/ / ____/ ____/ /___/ /_/ / / / / / / /  __/ /__/ /_  
+  |__/|__/_/   /_/    \____/\____/_/ /_/_/ /_/\___/\___/\__/
+[32minfo[39m:     Checking for updates
+[32minfo[39m:     
+   _       ______  ____  ______                            __ 
+  | |     / / __ \/ __ \/ ____/___  ____  ____  ___  _____/ /_
+  | | /| / / /_/ / /_/ / /   / __ \/ __ \/ __ \/ _ \/ ___/ __/
+  | |/ |/ / ____/ ____/ /___/ /_/ / / / / / / /  __/ /__/ /_  
+  |__/|__/_/   /_/    \____/\____/_/ /_/_/ /_/\___/\___/\__/
+[32minfo[39m:     Checking for updates
+[32minfo[39m:     
+   _       ______  ____  ______                            __ 
+  | |     / / __ \/ __ \/ ____/___  ____  ____  ___  _____/ /_
+  | | /| / / /_/ / /_/ / /   / __ \/ __ \/ __ \/ _ \/ ___/ __/
+  | |/ |/ / ____/ ____/ /___/ /_/ / / / / / / /  __/ /__/ /_  
+  |__/|__/_/   /_/    \____/\____/_/ /_/_/ /_/\___/\___/\__/
+[32minfo[39m:     Checking for updates
+[32minfo[39m:     
+   _       ______  ____  ______                            __ 
+  | |     / / __ \/ __ \/ ____/___  ____  ____  ___  _____/ /_
+  | | /| / / /_/ / /_/ / /   / __ \/ __ \/ __ \/ _ \/ ___/ __/
+  | |/ |/ / ____/ ____/ /___/ /_/ / / / / / / /  __/ /__/ /_  
+  |__/|__/_/   /_/    \____/\____/_/ /_/_/ /_/\___/\___/\__/
+[32minfo[39m:     Checking for updates
+[🚀] API IOTEC WPPConnect rodando na porta 21465
+[32minfo[39m:     You're up to date
+[32minfo[39m:     [iotec-session:browser] Using browser folder 'C:\IOTEC\wppconnect-server\tokens\iotec-session'
+[32minfo[39m:     [iotec-session:browser] Initializing browser...
+[31merror[39m:    [iotec-session:browser] Error no open browser
+[31merror[39m:    [iotec-session:browser] Failed to launch the browser process:  Code: 0
+
+stderr:
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Erro ao inicializar WPPConnect: Error: Failed to launch the browser process:  Code: 0
+
+stderr:
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (C:\IOTEC\wppconnect-server\node_modules\@puppeteer\browsers\lib\cjs\launch.js:350:24)
+    at ChildProcess.emit (node:events:521:24)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
