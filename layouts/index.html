@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IOTEC | INSTITUCIONAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #2e2e2e; background: #1c1c1c; min-height: 100vh; overflow-x: hidden; display: flex; justify-content: center; align-items: center; -webkit-font-smoothing: antialiased; }
+        #video-bg { position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -2; object-fit: cover; filter: brightness(55%); }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.15); z-index: -1; }
+        
+        /* CARD COM TRANSLUCIDEZ MAIS LEVE PARA VER AS ONDAS PASSANDO NÍTIDAS */
+        .box-fachada { 
+            background: rgba(255, 255, 255, 0.58); 
+            border: 1px solid rgba(197, 160, 89, 0.65); 
+            border-radius: 8px; 
+            max-width: 780px; 
+            width: 90%; 
+            padding: 48px; 
+            text-align: center; 
+            backdrop-filter: blur(14px); 
+            -webkit-backdrop-filter: blur(14px); 
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25); 
+        }
+        
+        .title-main { 
+            font-family: 'Cinzel', serif; 
+            font-size: 32px; 
+            letter-spacing: 3px; 
+            color: #181818; 
+            font-weight: 700; 
+            margin-bottom: 6px; 
+            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6); 
+        }
+        
+        .subtitle { color: #9c7832; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px; }
+        .desc-text { color: #2e2e2e; font-size: 14px; line-height: 1.7; font-weight: 450; margin-bottom: 36px; letter-spacing: -0.01em; }
+        
+        .btn-action { display: block; width: 100%; max-width: 320px; margin: 0 auto 14px auto; padding: 14px 20px; border-radius: 4px; text-decoration: none; font-weight: 500; font-size: 12px; letter-spacing: 1px; transition: all 0.2s; }
+        .btn-primary { background: rgba(24, 24, 24, 0.92); color: #ffffff; border: 1px solid #1c1c1c; }
+        .btn-primary:hover { background: #1c1c1c; }
+        .btn-secondary { background: rgba(255, 255, 255, 0.85); color: #222222; border: 1px solid rgba(220, 214, 205, 0.9); }
+        
+        .footer-fachada { margin-top: 36px; padding-top: 24px; border-top: 1px solid rgba(200, 198, 188, 0.6); font-size: 11px; color: #2d2d2d; line-height: 1.6; font-weight: 500; }
+    </style>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&components=buttons,card-fields&currency=BRL"></script>
+</head>
+<body>
+    <video autoplay muted loop playsinline id="video-bg">
+        <source src="/static/executive.mp4" type="video/mp4">
+    </video>
+    <div class="bg-overlay"></div>
+
+    <div class="box-fachada">
+        <h1 class="title-main">IOTEC PLATFORM</h1>
+        <div class="subtitle">PORTAL DE INTELIGÊNCIA PREDITIVA B2B</div>
+        
+        <p class="desc-text">
+            Infraestrutura de alta performance para conciliação tributária, auditoria NCM, otimização Ex-Tarifário e monitoramento geoespacial multimodal em tempo real com certificação criptográfica SHA-256.
+        </p>
+
+        <a href="/ecossistema" class="btn-action btn-primary">ACESSAR ECOSSISTEMA</a>
+        <a href="https://wa.me/5588993064168?text=Olá,%20gostaria%20de%20falar%20com%20o%20Contato%20Executivo%20da%20IOTEC." target="_blank" class="btn-action btn-secondary">CONTATO EXECUTIVO</a>
+
+        <div class="footer-fachada">
+            <strong style="color:#1c1c1c;">FARABULINI LOPES SARAIVA • CNPJ: 61.549.037/0001-68</strong><br>
+            <strong style="color:#1c1c1c;">IOTEC - Construtora e Distribuidora de Tecnologias</strong><br>
+            Titularidade Fiscal & Operacional • Contato Oficial: <strong>IOTEC.BL@proton.me</strong> | IOTEC Platform &copy; 2026
+        </div>
+    </div>
+</body>
+</html>
