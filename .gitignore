@@ -10,3 +10,9 @@ NUCLEO_CONSOLIDADO/
 *.json
 lockfile
 faturas/
+
+wppconnect-server/tokens/
+wppconnect-server/daemon/
+ACERVO_MIDIAS/
+*.log
+
