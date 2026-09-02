@@ -1,0 +1,14 @@
+{
+    "gerado_em": "2026-06-14 02:47:42.541960",
+    "meta": 100000.0,
+    "portfolio_ativo": "ESCALAVEL",
+    "risco": "BAIXO",
+    "resiliencia": 90,
+    "receita_realista": 99900.0,
+    "atingimento_percentual": 99.9,
+    "receita_media_dia": 3330.0,
+    "produto_lider": "Plataforma Operacional",
+    "ticket_lider": 50000,
+    "vendas_meta": 2,
+    "status": "META_ATINGIVEL"
+}

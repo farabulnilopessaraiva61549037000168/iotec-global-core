@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "app_name": "Sonda de Integridade Interna",
+    "app_version": "1.0.0",
+    "hostname": "DESKTOP-8K2AK4E",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "utc_time": "2026-05-26T12:38:36.254936Z",
+    "cwd": "C:\\IOTEC"
+  },
+  "overall_status": "NOT_READY",
+  "summary": {
+    "PASS": 4,
+    "WARN": 3,
+    "FAIL": 6
+  },
+  "results": [
+    {
+      "name": "Arquivo obrigatório: app.py",
+      "status": "PASS",
+      "details": "Arquivo encontrado em C:\\IOTEC\\app.py",
+      "category": "files",
+      "timestamp": "2026-05-26T12:38:10.572058Z"
+    },
+    {
+      "name": "Arquivo obrigatório: .env",
+      "status": "FAIL",
+      "details": "Arquivo não encontrado",
+      "category": "files",
+      "timestamp": "2026-05-26T12:38:10.572058Z"
+    },
+    {
+      "name": "Arquivo obrigatório: requirements.txt",
+      "status": "PASS",
+      "details": "Arquivo encontrado em C:\\IOTEC\\requirements.txt",
+      "category": "files",
+      "timestamp": "2026-05-26T12:38:10.573056Z"
+    },
+    {
+      "name": "Diretório obrigatório: logs",
+      "status": "PASS",
+      "details": "Diretório encontrado em C:\\IOTEC\\logs",
+      "category": "directories",
+      "timestamp": "2026-05-26T12:38:10.574066Z"
+    },
+    {
+      "name": "Diretório obrigatório: data",
+      "status": "PASS",
+      "details": "Diretório encontrado em C:\\IOTEC\\data",
+      "category": "directories",
+      "timestamp": "2026-05-26T12:38:10.576206Z"
+    },
+    {
+      "name": "Variável de ambiente: APP_ENV",
+      "status": "FAIL",
+      "details": "Variável ausente ou vazia",
+      "category": "environment",
+      "timestamp": "2026-05-26T12:38:10.576206Z"
+    },
+    {
+      "name": "Variável de ambiente: APP_PORT",
+      "status": "FAIL",
+      "details": "Variável ausente ou vazia",
+      "category": "environment",
+      "timestamp": "2026-05-26T12:38:10.576206Z"
+    },
+    {
+      "name": "TCP: Banco PostgreSQL",
+      "status": "FAIL",
+      "details": "Falha ao conectar em 127.0.0.1:5432 -> [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente",
+      "category": "network",
+      "timestamp": "2026-05-26T12:38:12.598865Z"
+    },
+    {
+      "name": "TCP: Redis",
+      "status": "FAIL",
+      "details": "Falha ao conectar em 127.0.0.1:6379 -> [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente",
+      "category": "network",
+      "timestamp": "2026-05-26T12:38:14.633584Z"
+    },
+    {
+      "name": "HTTP: API Health",
+      "status": "FAIL",
+      "details": "Falha na requisição -> <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>",
+      "category": "http",
+      "timestamp": "2026-05-26T12:38:16.747607Z"
+    },
+    {
+      "name": "Uso de disco",
+      "status": "WARN",
+      "details": "Uso de disco alto: 98.06% (limite configurado: 90%)",
+      "category": "system",
+      "timestamp": "2026-05-26T12:38:16.749586Z"
+    },
+    {
+      "name": "Uso de memória",
+      "status": "WARN",
+      "details": "Uso de memória alto: 91.0% (limite configurado: 90%)",
+      "category": "system",
+      "timestamp": "2026-05-26T12:38:35.644681Z"
+    },
+    {
+      "name": "Hash de arquivos críticos",
+      "status": "WARN",
+      "details": "Nenhum arquivo crítico configurado para validação de hash",
+      "category": "integrity",
+      "timestamp": "2026-05-26T12:38:35.644681Z"
+    }
+  ]
+}

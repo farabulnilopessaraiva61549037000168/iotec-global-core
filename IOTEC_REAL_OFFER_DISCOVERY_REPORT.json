@@ -1,0 +1,34 @@
+{
+    "gerado_em": "2026-06-14 00:25:32.344422",
+    "arquivos_analisados": 18645,
+    "ofertas_detectadas": [
+        {
+            "oferta": "Analise de Dados",
+            "evidencias": 2506574
+        },
+        {
+            "oferta": "Agentes IA",
+            "evidencias": 2024159
+        },
+        {
+            "oferta": "Sistema Interno",
+            "evidencias": 1472001
+        },
+        {
+            "oferta": "Dashboard Executivo",
+            "evidencias": 148060
+        },
+        {
+            "oferta": "Captacao Comercial",
+            "evidencias": 56604
+        },
+        {
+            "oferta": "Automacao Educacional",
+            "evidencias": 47551
+        },
+        {
+            "oferta": "Geracao de Provas",
+            "evidencias": 3671
+        }
+    ]
+}

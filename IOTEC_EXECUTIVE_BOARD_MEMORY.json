@@ -1,0 +1,27 @@
+[
+    {
+        "data": "2026-07-08 08:09:42.574711",
+        "dados": {
+            "mercado": 66,
+            "clientes": 7,
+            "financeiro": 66,
+            "seguranca": 12,
+            "tecnologia": 47,
+            "operacao": 70,
+            "projetos": 25
+        },
+        "indices": {
+            "oportunidade": 42.2,
+            "risco": 51.3
+        },
+        "pareceres": {
+            "MARKET_AI": "Mercado exige análise",
+            "FINANCE_AI": "Controle financeiro necessário",
+            "SECURITY_AI": "ALERTA: reforçar segurança digital",
+            "TECHNOLOGY_AI": "Necessário acelerar inovação",
+            "OPERATIONS_AI": "Operação estável",
+            "PROJECTS_AI": "Pipeline moderado"
+        },
+        "decisao": "DECISÃO CEO AI: Otimizar estrutura antes de crescer."
+    }
+]

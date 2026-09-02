@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Economic Research Scientist",
+        "area": "Economia",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Pesquisar Economia Digital",
+            "Pesquisar Economia dos Dados",
+            "Pesquisar Plataformas Digitais"
+        ]
+    },
+    {
+        "name": "Market Research Scientist",
+        "area": "Mercado",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Pesquisar concorrência",
+            "Pesquisar posicionamento",
+            "Pesquisar precificação"
+        ]
+    },
+    {
+        "name": "Data Economy Scientist",
+        "area": "Economia dos Dados",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Monetização de Dados",
+            "Mercado Global de Dados"
+        ]
+    },
+    {
+        "name": "Artificial Intelligence Scientist",
+        "area": "IA",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Novos modelos de IA",
+            "Agentes Inteligentes"
+        ]
+    },
+    {
+        "name": "Engineering Scientist",
+        "area": "Engenharia",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Lean Manufacturing",
+            "Theory of Constraints"
+        ]
+    },
+    {
+        "name": "Commercial Scientist",
+        "area": "Comercial",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Funil Comercial",
+            "Conversão"
+        ]
+    },
+    {
+        "name": "Technology Scientist",
+        "area": "Tecnologia",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Tecnologias Emergentes",
+            "Computação em Nuvem"
+        ]
+    },
+    {
+        "name": "Innovation Scientist",
+        "area": "Inovação",
+        "status": "ONLINE",
+        "current_mission": "",
+        "daily_goal": 5,
+        "completed": 0,
+        "queue": [
+            "Criar novos produtos",
+            "Melhorar produtos existentes"
+        ]
+    }
+]

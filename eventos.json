@@ -1,0 +1,13 @@
+[
+  {
+    "cliente": "PayPal",
+    "produto": "SNIA Score",
+    "valor": 997,
+    "status": "pago",
+    "etapa": "processando",
+    "historico": [
+      "Pagamento recebido",
+      "Registrado no núcleo"
+    ]
+  }
+]

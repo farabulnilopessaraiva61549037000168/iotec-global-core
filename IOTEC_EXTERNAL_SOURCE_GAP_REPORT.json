@@ -1,0 +1,35 @@
+{
+    "gerado_em": "2026-06-13 12:37:59.573812",
+    "fontes_conectadas": [],
+    "fontes_ausentes": [
+        {
+            "categoria": "EMPRESAS",
+            "status": "SEM_FONTE_REAL"
+        },
+        {
+            "categoria": "ESCOLAS",
+            "status": "SEM_FONTE_REAL"
+        },
+        {
+            "categoria": "UNIVERSIDADES",
+            "status": "SEM_FONTE_REAL"
+        },
+        {
+            "categoria": "FORNECEDORES",
+            "status": "SEM_FONTE_REAL"
+        },
+        {
+            "categoria": "TERCEIRIZADAS",
+            "status": "SEM_FONTE_REAL"
+        },
+        {
+            "categoria": "PARCEIROS",
+            "status": "SEM_FONTE_REAL"
+        }
+    ],
+    "estatisticas": {
+        "dominios_detectados": 13,
+        "fontes_conectadas": 0,
+        "fontes_ausentes": 6
+    }
+}

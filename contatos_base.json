@@ -1,0 +1,29 @@
+﻿{
+  "CNPJ_MATRIZ": "61.549.037/0001-68",
+  "DOMINIO_OFICIAL": "https://deft-choux-097d84.netlify.app/",
+  "DIRECT_WHATSAPP": "https://wa.me/5588993064168",
+  "BASE_CONTATOS": {
+    "DESPACHANTES": [
+      {"nome": "Carlos Silva", "empresa": "Silva Despachos", "numero": "5511999990001"},
+      {"nome": "Mariana Costa", "empresa": "Costa Comex", "numero": "5513999990002"}
+    ],
+    "COMISSARIAS": [
+      {"nome": "Luciano Mendes", "empresa": "NVOCC Brasil Logistics", "numero": "5511999990003"}
+    ],
+    "TI_ERPS": [
+      {"nome": "Eduardo Tech", "empresa": "CargoSoft ERP", "numero": "5541999990004"}
+    ],
+    "LOGISTICA_CARGAS": [
+      {"nome": "Roberto Prado", "empresa": "TransPerigosas LTDA", "numero": "5519999990005"}
+    ],
+    "TRADING_COMPANIES": [
+      {"nome": "Fernanda Lima", "empresa": "Global Trading Corp", "numero": "5521999990006"}
+    ],
+    "INVESTIDORES_B2B": [
+      {"nome": "Dr. Arnaldo", "empresa": "Capital Partners", "numero": "5511999990007"}
+    ],
+    "FOLLOW_UP": [
+      {"nome": "Juliana", "empresa": "Importação Express", "numero": "5531999990008"}
+    ]
+  }
+}

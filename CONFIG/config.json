@@ -1,0 +1,5 @@
+{
+    "database":"database/iotec.db",
+    "logs":"logs",
+    "reports":"reports"
+}

@@ -1,0 +1,41 @@
+{
+    "gerado_em": "2026-06-14 02:40:07.983162",
+    "carteiras": [
+        {
+            "portfolio": "ESCALAVEL",
+            "receita": 111000,
+            "vendas": 27,
+            "risco": "BAIXO",
+            "resiliencia": 90,
+            "classificacao": "ESCALAVEL",
+            "receita_pessimista": 55500.0,
+            "receita_conservadora": 83250.0,
+            "receita_realista": 99900.0,
+            "receita_otimista": 122100.0
+        },
+        {
+            "portfolio": "ALTO_TICKET",
+            "receita": 110000,
+            "vendas": 3,
+            "risco": "ALTO",
+            "resiliencia": 20,
+            "classificacao": "ALTO_TICKET",
+            "receita_pessimista": 55000.0,
+            "receita_conservadora": 82500.0,
+            "receita_realista": 99000.0,
+            "receita_otimista": 121000.0
+        },
+        {
+            "portfolio": "EQUILIBRADO",
+            "receita": 96000,
+            "vendas": 10,
+            "risco": "MEDIO",
+            "resiliencia": 60,
+            "classificacao": "EQUILIBRADO",
+            "receita_pessimista": 48000.0,
+            "receita_conservadora": 72000.0,
+            "receita_realista": 86400.0,
+            "receita_otimista": 105600.0
+        }
+    ]
+}

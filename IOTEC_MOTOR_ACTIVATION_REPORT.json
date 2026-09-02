@@ -1,0 +1,121 @@
+{
+    "generated": "2026-06-07 15:52:23.211126",
+    "motors": [
+        {
+            "motor": "REVENUE_OPERATION_CENTER.py",
+            "status": "ACTIVE",
+            "score": 5,
+            "functions": 11,
+            "imports": 6,
+            "sqlite": true,
+            "json": true,
+            "path_exists": true
+        },
+        {
+            "motor": "CRM_ENGINE.py",
+            "status": "PARTIAL",
+            "score": 4,
+            "functions": 3,
+            "imports": 3,
+            "sqlite": true,
+            "json": false,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_CORE_MANAGER.py",
+            "status": "PARTIAL",
+            "score": 4,
+            "functions": 5,
+            "imports": 11,
+            "sqlite": false,
+            "json": true,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_MEMORY_ENGINE.py",
+            "status": "PARTIAL",
+            "score": 4,
+            "functions": 4,
+            "imports": 1,
+            "sqlite": false,
+            "json": true,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_UNIFIED_BRAIN.py",
+            "status": "PARTIAL",
+            "score": 4,
+            "functions": 8,
+            "imports": 6,
+            "sqlite": false,
+            "json": true,
+            "path_exists": true
+        },
+        {
+            "motor": "ORCHESTRATOR_ENGINE.py",
+            "status": "PARTIAL",
+            "score": 4,
+            "functions": 10,
+            "imports": 11,
+            "sqlite": false,
+            "json": true,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_CENTRAL_BRAIN.py",
+            "status": "PARTIAL",
+            "score": 3,
+            "functions": 6,
+            "imports": 3,
+            "sqlite": false,
+            "json": false,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "status": "PARTIAL",
+            "score": 3,
+            "functions": 8,
+            "imports": 5,
+            "sqlite": false,
+            "json": false,
+            "path_exists": true
+        },
+        {
+            "motor": "nucleus_orchestrator.py",
+            "status": "PARTIAL",
+            "score": 3,
+            "functions": 11,
+            "imports": 11,
+            "sqlite": false,
+            "json": false,
+            "path_exists": true
+        },
+        {
+            "motor": "SALES_BRAIN.py",
+            "status": "PARTIAL",
+            "score": 3,
+            "functions": 0,
+            "imports": 1,
+            "sqlite": true,
+            "json": false,
+            "path_exists": true
+        },
+        {
+            "motor": "IOTEC_CORE_RUNNER.py",
+            "status": "DORMANT",
+            "score": 2,
+            "functions": 0,
+            "imports": 3,
+            "sqlite": false,
+            "json": false,
+            "path_exists": true
+        }
+    ],
+    "summary": {
+        "ACTIVE": 1,
+        "PARTIAL": 9,
+        "DORMANT": 1,
+        "ORPHAN": 0
+    }
+}

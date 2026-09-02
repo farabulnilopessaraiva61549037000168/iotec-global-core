@@ -1,0 +1,19 @@
+{
+    "gerado_em": "2026-06-13 14:13:50.231800",
+    "oportunidades": [
+        {
+            "acao": "Construir primeiras fontes externas",
+            "impacto": "ALTO"
+        },
+        {
+            "acao": "Validar fontes futuras",
+            "impacto": "ALTO"
+        },
+        {
+            "acao": "Criar classificação por categoria",
+            "impacto": "MEDIO"
+        }
+    ],
+    "riscos": [],
+    "prioridade_maxima": "CATALOGACAO_DE_FONTES"
+}

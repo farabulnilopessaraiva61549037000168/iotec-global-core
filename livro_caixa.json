@@ -1,0 +1,12 @@
+[
+  {
+    "id": "001",
+    "tipo": "entrada",
+    "origem": "paypal",
+    "valor": 29.90,
+    "descricao": "Validação inicial do sistema",
+    "status": "confirmado",
+    "data": "2026-04-20",
+    "comprovante": "comprovante_001.png"
+  }
+]

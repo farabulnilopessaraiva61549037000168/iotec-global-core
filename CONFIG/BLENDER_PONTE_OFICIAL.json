@@ -1,0 +1,10 @@
+{
+    "data":  "2026-04-11 06:26:40",
+    "repositorio_oficial":  "C:\\IOTEC",
+    "area_visual_oficial":  "D:\\IOTEC_VISUAL",
+    "blender_dir_d":  "D:\\IOTEC_VISUAL\\BLENDER",
+    "blender_bridge_c":  "C:\\IOTEC\\VISUAL\\BLENDER",
+    "blender_installer":  "D:\\IOTEC_VISUAL\\BLENDER\\blender_installer.msi",
+    "blender_installer_existe":  false,
+    "regra":  "A parte visual pesada fica no Disco D; o núcleo IOTEC referencia e organiza a ponte pelo C:\\\\IOTEC."
+}

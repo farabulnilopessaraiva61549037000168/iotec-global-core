@@ -1,0 +1,14 @@
+[
+    {
+        "invoice_id": "IOTEC-INV-4ECC9438",
+        "date": "2026-07-27 12:40:14",
+        "amount_brl": 29.9,
+        "description": "Licença/Ativação Módulo Enterprise IOTEC - Primeira Venda",
+        "customer": "Cliente Validação IOTEC",
+        "status": "PENDING_PAYMENT",
+        "payment_methods": {
+            "picpay_pix": "CNPJ_OU_CHAVE_NAO_CONFIGURADA",
+            "paypal_status": "MANUAL_CHECKOUT"
+        }
+    }
+]

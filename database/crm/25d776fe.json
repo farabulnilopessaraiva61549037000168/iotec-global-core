@@ -1,0 +1,14 @@
+{
+    "id": "25d776fe",
+    "lead_id": "300b3be9",
+    "cliente": "Empresa XPTO",
+    "empresa": "XPTO LTDA",
+    "etapa": "CONTATO",
+    "valor": 15000,
+    "probabilidade": 20,
+    "responsavel": "IOTEC IA",
+    "ultima_acao": "Movido para CONTATO",
+    "proxima_acao": "Entrar em contato",
+    "criado": "2026-07-26T10:46:47.902492",
+    "atualizado": "2026-07-26T10:46:47.904472"
+}

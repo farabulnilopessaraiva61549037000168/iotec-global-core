@@ -1,0 +1,32 @@
+{
+    "generated": "2026-06-08 08:58:17.145877",
+    "accounts": 3,
+    "pipeline_value": 38000,
+    "accounts_ready_for_contact": 3,
+    "opportunities": [
+        {
+            "company": "Escola Alfa",
+            "segment": "EDUCACAO",
+            "status": "PROSPECCAO",
+            "priority": 10,
+            "product": "GovTech Analytics",
+            "estimated_value": 15000
+        },
+        {
+            "company": "Prefeitura Modelo",
+            "segment": "PREFEITURAS",
+            "status": "PROSPECCAO",
+            "priority": 10,
+            "product": "GovTech Analytics",
+            "estimated_value": 15000
+        },
+        {
+            "company": "Clinica Vida",
+            "segment": "SAUDE",
+            "status": "QUALIFICACAO",
+            "priority": 9,
+            "product": "Auditoria Inteligente",
+            "estimated_value": 8000
+        }
+    ]
+}

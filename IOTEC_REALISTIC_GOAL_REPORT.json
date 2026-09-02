@@ -1,0 +1,123 @@
+{
+    "gerado_em": "2026-06-14 02:26:06.498336",
+    "meta_mensal": 100000.0,
+    "cenarios": [
+        {
+            "produto": "Agente Comercial",
+            "oferta": "Agentes IA",
+            "ticket": 15000,
+            "vendas_necessarias": 7,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "MEDIO"
+        },
+        {
+            "produto": "Monitoramento Operacional",
+            "oferta": "Analise de Dados",
+            "ticket": 12000,
+            "vendas_necessarias": 8,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "MEDIO"
+        },
+        {
+            "produto": "Agente Atendimento",
+            "oferta": "Agentes IA",
+            "ticket": 12000,
+            "vendas_necessarias": 8,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "MEDIO"
+        },
+        {
+            "produto": "Agente Educacional",
+            "oferta": "Agentes IA",
+            "ticket": 10000,
+            "vendas_necessarias": 10,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Painel KPI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 10000,
+            "vendas_necessarias": 10,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Previsao de Indicadores",
+            "oferta": "Analise de Dados",
+            "ticket": 8000,
+            "vendas_necessarias": 12,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Dashboard Power BI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 8000,
+            "vendas_necessarias": 12,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Painel Executivo",
+            "oferta": "Analise de Dados",
+            "ticket": 5000,
+            "vendas_necessarias": 20,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Relatorio Gerencial",
+            "oferta": "Analise de Dados",
+            "ticket": 3000,
+            "vendas_necessarias": 33,
+            "probabilidade": 95,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "BAIXO"
+        },
+        {
+            "produto": "Sistema de Controle",
+            "oferta": "Sistema Interno",
+            "ticket": 30000,
+            "vendas_necessarias": 3,
+            "probabilidade": 82.0,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "ALTO"
+        },
+        {
+            "produto": "Agente Auditor",
+            "oferta": "Agentes IA",
+            "ticket": 25000,
+            "vendas_necessarias": 4,
+            "probabilidade": 82.0,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "ALTO"
+        },
+        {
+            "produto": "Painel Corporativo",
+            "oferta": "Sistema Interno",
+            "ticket": 25000,
+            "vendas_necessarias": 4,
+            "probabilidade": 82.0,
+            "cenario": "AGRESSIVO",
+            "risco_concentracao": "ALTO"
+        },
+        {
+            "produto": "Plataforma Operacional",
+            "oferta": "Sistema Interno",
+            "ticket": 50000,
+            "vendas_necessarias": 2,
+            "probabilidade": 44.0,
+            "cenario": "CONSERVADOR",
+            "risco_concentracao": "ALTO"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "LOT_EXECUTIVE_GOVTECH": {
+        "dominance": 95,
+        "priority": "MAXIMUM",
+        "broadcast": true,
+        "sector": "EXECUTIVE"
+    },
+    "LOT_MEDIA_ADVERTISEMENT": {
+        "dominance": 88,
+        "priority": "HIGH",
+        "broadcast": true,
+        "sector": "MEDIA"
+    },
+    "LOT_MARKET_SIGNALS": {
+        "dominance": 80,
+        "priority": "HIGH",
+        "broadcast": true,
+        "sector": "MARKET"
+    },
+    "LOT_AUTOMATION_AI": {
+        "dominance": 78,
+        "priority": "MEDIUM",
+        "broadcast": true,
+        "sector": "AUTOMATION"
+    },
+    "LOT_EXPERIMENTAL": {
+        "dominance": 20,
+        "priority": "LOW",
+        "broadcast": false,
+        "sector": "EXPERIMENTAL"
+    }
+}

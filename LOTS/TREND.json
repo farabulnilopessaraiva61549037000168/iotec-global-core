@@ -1,0 +1,14 @@
+{
+    "market_behavior": "ACTIVE",
+    "fashion_behavior": "ACTIVE",
+    "govtech_behavior": "ACTIVE",
+    "financial_behavior": "ACTIVE",
+    "priority_queue": [
+        "LOT_001_EXECUTIVE_GOVTECH",
+        "LOT_002_MEDIA_ADVERTISEMENT",
+        "LOT_004_AUTOMATION_AI",
+        "LOT_003_MARKET_SIGNALS"
+    ],
+    "adaptive_programming": true,
+    "continuous_rotation": true
+}

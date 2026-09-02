@@ -1,0 +1,40 @@
+{
+    "generated_at": "2026-07-26T18:20:33.519921",
+    "checks": [
+        {
+            "type": "FILE",
+            "name": "system.json",
+            "status": "ONLINE"
+        },
+        {
+            "type": "FILE",
+            "name": "maestro.json",
+            "status": "ONLINE"
+        },
+        {
+            "type": "FILE",
+            "name": "mission.json",
+            "status": "ONLINE"
+        },
+        {
+            "type": "FILE",
+            "name": "service_registry.json",
+            "status": "ONLINE"
+        },
+        {
+            "type": "FILE",
+            "name": "services_status.json",
+            "status": "ONLINE"
+        },
+        {
+            "type": "DATABASE",
+            "tables": 5,
+            "status": "ONLINE"
+        }
+    ],
+    "summary": {
+        "online": 6,
+        "offline": 0,
+        "health": 100.0
+    }
+}

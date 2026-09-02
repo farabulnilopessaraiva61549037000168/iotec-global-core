@@ -1,0 +1,29 @@
+{
+    "generated": "2026-06-07 16:36:24.035423",
+    "capacities": [
+        {
+            "capacity": "AUDITORIA_OPERACIONAL",
+            "assets": 31,
+            "maturity_score": 50,
+            "status": "EM_DESENVOLVIMENTO"
+        },
+        {
+            "capacity": "AUDITORIA_FINANCEIRA",
+            "assets": 7,
+            "maturity_score": 29,
+            "status": "EXPERIMENTAL"
+        },
+        {
+            "capacity": "IA_COMERCIAL",
+            "assets": 3,
+            "maturity_score": 21,
+            "status": "EXPERIMENTAL"
+        },
+        {
+            "capacity": "INTELIGENCIA_EXECUTIVA",
+            "assets": 1,
+            "maturity_score": 12,
+            "status": "EXPERIMENTAL"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "gerado_em": "2026-06-14 03:11:47.344810",
+    "meta": 100000.0,
+    "receita_realizada": 15000.0,
+    "faltante": 85000.0,
+    "atingimento": 15.0,
+    "status": "META_EM_ANDAMENTO",
+    "eventos": [
+        {
+            "data": "2026-06-14 03:11:47.343827",
+            "descricao": "AGENTE COMERCIAL",
+            "valor": 15000.0
+        }
+    ]
+}

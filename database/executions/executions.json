@@ -1,0 +1,17 @@
+{
+    "EXEC-3C30961B": {
+        "id": "EXEC-3C30961B",
+        "investigation": "INV-000001",
+        "process": "PROC-000001",
+        "module": "DNA_AUDITOR",
+        "inicio": "26/07/2026 11:45:13",
+        "fim": "26/07/2026 11:45:13",
+        "status": "FINALIZADA",
+        "arquivos": 742118,
+        "eventos": 1543,
+        "resultado": "Gargalos encontrados.",
+        "cpu": "38%",
+        "memoria": "2.1 GB",
+        "duracao": "0:00:00.512457"
+    }
+}

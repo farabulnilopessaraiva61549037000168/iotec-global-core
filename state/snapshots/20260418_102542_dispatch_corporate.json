@@ -1,0 +1,2024 @@
+{
+  "timestamp": "2026-04-18T10:25:42",
+  "envelope": {
+    "target_nucleus": "corporate",
+    "objective": "Encaminhar materiais formais à cidade corporativa",
+    "risk": 0.22,
+    "confidence_inputs": {
+      "source_integrity": 0.92,
+      "context_integrity": 0.95,
+      "formula_support": 0.94
+    },
+    "metadata": {
+      "selected_assets": [
+        {
+          "name": "chip.ps1",
+          "path": "C:\\IOTEC\\chip.ps1",
+          "size": 1031,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "iotec.ps1",
+          "path": "C:\\IOTEC\\iotec.ps1",
+          "size": 1005,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "iotec.py",
+          "path": "C:\\IOTEC\\iotec.py",
+          "size": 1204,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "IOTEC_API_INTEGRACAO.py",
+          "path": "C:\\IOTEC\\IOTEC_API_INTEGRACAO.py",
+          "size": 2045,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "IOTEC_ARTERIA_8787.py",
+          "path": "C:\\IOTEC\\IOTEC_ARTERIA_8787.py",
+          "size": 439,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "IOTEC_BAIXAR_VIDEO_NUCLEO.ps1",
+          "path": "C:\\IOTEC\\IOTEC_BAIXAR_VIDEO_NUCLEO.ps1",
+          "size": 1928,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "IOTEC_DEPLOY_NETLIFY.py",
+          "path": "C:\\IOTEC\\IOTEC_DEPLOY_NETLIFY.py",
+          "size": 748,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+          "path": "C:\\IOTEC\\IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+          "size": 11166,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "IOTEC_TRIAGEM_DOWNLOADS.ps1",
+          "path": "C:\\IOTEC\\IOTEC_TRIAGEM_DOWNLOADS.ps1",
+          "size": 1513,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "miner_nucleus.py",
+          "path": "C:\\IOTEC\\miner_nucleus.py",
+          "size": 227,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "nucleo.py",
+          "path": "C:\\IOTEC\\nucleo.py",
+          "size": 273,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "nucleo_iotec.py",
+          "path": "C:\\IOTEC\\nucleo_iotec.py",
+          "size": 1380,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "paypal_local_config.json",
+          "path": "C:\\IOTEC\\paypal_local_config.json",
+          "size": 388,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "paypal_server.py",
+          "path": "C:\\IOTEC\\paypal_server.py",
+          "size": 1589,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "README_IOTEC.txt",
+          "path": "C:\\IOTEC\\README_IOTEC.txt",
+          "size": 688,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "README_IOTEC_SUPERILUSAO.txt",
+          "path": "C:\\IOTEC\\README_IOTEC_SUPERILUSAO.txt",
+          "size": 1280,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "README_IOTEC_SUPERILUSAO_V2.txt",
+          "path": "C:\\IOTEC\\README_IOTEC_SUPERILUSAO_V2.txt",
+          "size": 644,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "seal_guard.py",
+          "path": "C:\\IOTEC\\seal_guard.py",
+          "size": 3150,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "].txt",
+          "path": "C:\\IOTEC\\].txt",
+          "size": 13,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "run_demo_cycle.ps1",
+          "path": "C:\\IOTEC\\BIN\\run_demo_cycle.ps1",
+          "size": 267,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "run_nucleus.ps1",
+          "path": "C:\\IOTEC\\BIN\\run_nucleus.ps1",
+          "size": 537,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "run_visible_core_api.ps1",
+          "path": "C:\\IOTEC\\BIN\\run_visible_core_api.ps1",
+          "size": 269,
+          "suffix": ".ps1",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "iotec_cockpit_pleno.py",
+          "path": "C:\\IOTEC\\COCKPIT\\iotec_cockpit_pleno.py",
+          "size": 9575,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "iotec_cockpit_pleno_v2.py",
+          "path": "C:\\IOTEC\\COCKPIT\\iotec_cockpit_pleno_v2.py",
+          "size": 12344,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "cockpit_iotec.html",
+          "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec.html",
+          "size": 7059,
+          "suffix": ".html",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "visual",
+          "score": 0.9
+        },
+        {
+          "name": "cockpit_iotec_v2.html",
+          "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec_v2.html",
+          "size": 16387,
+          "suffix": ".html",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "visual",
+          "score": 0.9
+        },
+        {
+          "name": "BLENDER_PONTE_OFICIAL.json",
+          "path": "C:\\IOTEC\\CONFIG\\BLENDER_PONTE_OFICIAL.json",
+          "size": 482,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "iotec_config.json",
+          "path": "C:\\IOTEC\\CONFIG\\iotec_config.json",
+          "size": 1551,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleus_config.json",
+          "path": "C:\\IOTEC\\CONFIG\\nucleus_config.json",
+          "size": 2060,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "checkpoint_migracao_20260407_030343.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_030343.json",
+          "size": 220,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260407_070231.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_070231.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260407_101342.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_101342.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260407_101930.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_101930.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260409_162115.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260409_162115.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260414_164316.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260414_164316.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "checkpoint_migracao_20260414_172457.json",
+          "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260414_172457.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "nucleo_estado_20260407_030343.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_030343.json",
+          "size": 2318,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260407_070231.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_070231.json",
+          "size": 2583,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260407_101342.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_101342.json",
+          "size": 2774,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260407_101930.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_101930.json",
+          "size": 2965,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260409_162115.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260409_162115.json",
+          "size": 3156,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260414_164316.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260414_164316.json",
+          "size": 3347,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado_20260414_172457.json",
+          "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260414_172457.json",
+          "size": 3538,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "checkpoint_migracao.json",
+          "path": "C:\\IOTEC\\core\\checkpoints\\checkpoint_migracao.json",
+          "size": 215,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "visible_core_api.py",
+          "path": "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+          "size": 2463,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "iotec_nucleus.py",
+          "path": "C:\\IOTEC\\core\\nucleus\\iotec_nucleus.py",
+          "size": 14983,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "modelo_relatorio_falhas.json",
+          "path": "C:\\IOTEC\\core\\relatorios\\modelo_relatorio_falhas.json",
+          "size": 2697,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "visible_core_router.py",
+          "path": "C:\\IOTEC\\core\\router\\visible_core_router.py",
+          "size": 10528,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "full_test.py",
+          "path": "C:\\IOTEC\\core\\runtime\\full_test.py",
+          "size": 443,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "run_demo_cycle.py",
+          "path": "C:\\IOTEC\\core\\runtime\\run_demo_cycle.py",
+          "size": 367,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "seal_guard.py",
+          "path": "C:\\IOTEC\\core\\security\\seal_guard.py",
+          "size": 2615,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "nucleo_estado.json",
+          "path": "C:\\IOTEC\\core\\state\\nucleo_estado.json",
+          "size": 3729,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "GUIA_INTEGRACAO.txt",
+          "path": "C:\\IOTEC\\DOCS\\GUIA_INTEGRACAO.txt",
+          "size": 573,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "GUIA_INTEGRACAO_EMPRESARIAL.txt",
+          "path": "C:\\IOTEC\\DOCS\\GUIA_INTEGRACAO_EMPRESARIAL.txt",
+          "size": 2690,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "MANIFESTO_SUPERILUSAO.md",
+          "path": "C:\\IOTEC\\DOCS\\MANIFESTO_SUPERILUSAO.md",
+          "size": 1088,
+          "suffix": ".md",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "MANIFESTO_TECNICO.md",
+          "path": "C:\\IOTEC\\DOCS\\MANIFESTO_TECNICO.md",
+          "size": 1367,
+          "suffix": ".md",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "README.txt",
+          "path": "C:\\IOTEC\\EXTERNAL\\enterprise_layer\\README.txt",
+          "size": 437,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "adapter_erp_cliente.py",
+          "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\adapters\\adapter_erp_cliente.py",
+          "size": 967,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "erp_cliente_contract.json",
+          "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\contracts\\erp_cliente_contract.json",
+          "size": 319,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "erp_cliente_mapping.json",
+          "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\mappings\\erp_cliente_mapping.json",
+          "size": 387,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "tendencias_feed.json",
+          "path": "C:\\IOTEC\\frontend\\tendencias_feed.json",
+          "size": 626,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "LOG_BLENDER_PONTE.txt",
+          "path": "C:\\IOTEC\\logs\\LOG_BLENDER_PONTE.txt",
+          "size": 562,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "orquestrador.txt",
+          "path": "C:\\IOTEC\\logs\\orquestrador.txt",
+          "size": 268,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "orquestrador_log.txt",
+          "path": "C:\\IOTEC\\logs\\orquestrador_log.txt",
+          "size": 84,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "repair_report.txt",
+          "path": "C:\\IOTEC\\logs\\repair_report.txt",
+          "size": 981,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "tendencias_log.txt",
+          "path": "C:\\IOTEC\\logs\\tendencias_log.txt",
+          "size": 84,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "helpers.py",
+          "path": "C:\\IOTEC\\MODULES\\common\\helpers.py",
+          "size": 4069,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "models.py",
+          "path": "C:\\IOTEC\\MODULES\\common\\models.py",
+          "size": 643,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "corporate_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\corporate\\corporate_nucleus.py",
+          "size": 1295,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "integration_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\integration\\integration_nucleus.py",
+          "size": 1586,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "miner_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\miner\\miner_nucleus.py",
+          "size": 3518,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "telemetry_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\telemetry\\telemetry_nucleus.py",
+          "size": 979,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "validation_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\validation\\validation_nucleus.py",
+          "size": 1182,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "visual_nucleus.py",
+          "path": "C:\\IOTEC\\MODULES\\visual\\visual_nucleus.py",
+          "size": 1585,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "paypal_local_config.json",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\CONFIG\\paypal_local_config.json",
+          "size": 412,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SAIDAS\\RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+          "size": 548,
+          "suffix": ".txt",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "AUDITORIA_FLUXO_PAYPAL.json",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\AUDITORIA_FLUXO_PAYPAL.json",
+          "size": 2966,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "HISTORICO_CORRECOES_PAYPAL.json",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\HISTORICO_CORRECOES_PAYPAL.json",
+          "size": 1788,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "IOTEC_AUDITOR_PAYPAL.py",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+          "size": 8119,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "STATUS_SANEAMENTO_PAYPAL.json",
+          "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\STATUS_SANEAMENTO_PAYPAL.json",
+          "size": 211,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "pedidos.json",
+          "path": "C:\\IOTEC\\state\\pedidos.json",
+          "size": 4,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "seal_registry.json",
+          "path": "C:\\IOTEC\\state\\seal_registry.json",
+          "size": 5691,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "status.json",
+          "path": "C:\\IOTEC\\state\\status.json",
+          "size": 102,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "tendencias.json",
+          "path": "C:\\IOTEC\\state\\tendencias.json",
+          "size": 626,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 2,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "corporate_output.json",
+          "path": "C:\\IOTEC\\state\\corporate\\corporate_output.json",
+          "size": 22209,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "integration_output.json",
+          "path": "C:\\IOTEC\\state\\integration\\integration_output.json",
+          "size": 512,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "handoff_package.json",
+          "path": "C:\\IOTEC\\state\\integration\\handoff\\handoff_package.json",
+          "size": 322,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "miner_output.json",
+          "path": "C:\\IOTEC\\state\\miner\\miner_output.json",
+          "size": 90863,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "asset_catalog.json",
+          "path": "C:\\IOTEC\\state\\miner\\catalog\\asset_catalog.json",
+          "size": 66615,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "asset_ranking.json",
+          "path": "C:\\IOTEC\\state\\miner\\ranking\\asset_ranking.json",
+          "size": 56083,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 4,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "sample_dispatch_visual.json",
+          "path": "C:\\IOTEC\\state\\queues\\sample_dispatch_visual.json",
+          "size": 319,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "validation_output.json",
+          "path": "C:\\IOTEC\\state\\results\\validation_output.json",
+          "size": 197,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095427_dispatch_miner.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095427_dispatch_miner.json",
+          "size": 506,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095436_completed_miner.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095436_completed_miner.json",
+          "size": 200527,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095436_dispatch_corporate.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095436_dispatch_corporate.json",
+          "size": 65048,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095437_completed_corporate.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_corporate.json",
+          "size": 49726,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095437_completed_integration.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_integration.json",
+          "size": 1520,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095437_completed_telemetry.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_telemetry.json",
+          "size": 1256,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095437_completed_validation.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_validation.json",
+          "size": 830,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095437_completed_visual.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_visual.json",
+          "size": 2826,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_095437_dispatch_integration.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_integration.json",
+          "size": 876,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095437_dispatch_telemetry.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_telemetry.json",
+          "size": 690,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095437_dispatch_validation.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_validation.json",
+          "size": 814,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "20260418_095437_dispatch_visual.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_visual.json",
+          "size": 65040,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "20260418_102538_dispatch_miner.json",
+          "path": "C:\\IOTEC\\state\\snapshots\\20260418_102538_dispatch_miner.json",
+          "size": 506,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "telemetry_output.json",
+          "path": "C:\\IOTEC\\state\\telemetry\\telemetry_output.json",
+          "size": 383,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "visual_output.json",
+          "path": "C:\\IOTEC\\state\\visual\\visual_output.json",
+          "size": 1086,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC",
+          "depth": 3,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\__init__.py",
+          "size": 355,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 5,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "__main__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\__main__.py",
+          "size": 854,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 5,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "__pip-runner__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\__pip-runner__.py",
+          "size": 1444,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 5,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "build_env.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\build_env.py",
+          "size": 10243,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "cache.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cache.py",
+          "size": 10370,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "configuration.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\configuration.py",
+          "size": 14006,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "exceptions.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\exceptions.py",
+          "size": 23634,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "main.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\main.py",
+          "size": 340,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "pyproject.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\pyproject.py",
+          "size": 7152,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "self_outdated_check.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\self_outdated_check.py",
+          "size": 8378,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "wheel_builder.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\wheel_builder.py",
+          "size": 11801,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\__init__.py",
+          "size": 515,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 6,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "autocompletion.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\autocompletion.py",
+          "size": 6690,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "base_command.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\base_command.py",
+          "size": 8733,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "cmdoptions.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\cmdoptions.py",
+          "size": 30064,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "command_context.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\command_context.py",
+          "size": 774,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "main.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\main.py",
+          "size": 2816,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "main_parser.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\main_parser.py",
+          "size": 4338,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "parser.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\parser.py",
+          "size": 10781,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "progress_bars.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\progress_bars.py",
+          "size": 1968,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "req_command.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\req_command.py",
+          "size": 18369,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "spinners.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\spinners.py",
+          "size": 5118,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "status_codes.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\status_codes.py",
+          "size": 116,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\__init__.py",
+          "size": 132,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "cache.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\cache.py",
+          "size": 7944,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "check.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\check.py",
+          "size": 1782,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "completion.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\completion.py",
+          "size": 4287,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "configuration.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\configuration.py",
+          "size": 9766,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "debug.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\debug.py",
+          "size": 6777,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "download.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\download.py",
+          "size": 5335,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "freeze.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\freeze.py",
+          "size": 3172,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "hash.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\hash.py",
+          "size": 1703,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "help.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\help.py",
+          "size": 1132,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "index.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\index.py",
+          "size": 4775,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "inspect.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\inspect.py",
+          "size": 3188,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "install.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\install.py",
+          "size": 28782,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "list.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\list.py",
+          "size": 12450,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "search.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\search.py",
+          "size": 5697,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "show.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\show.py",
+          "size": 6419,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "uninstall.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\uninstall.py",
+          "size": 3886,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "wheel.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\wheel.py",
+          "size": 6476,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\__init__.py",
+          "size": 3882,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "base.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\base.py",
+          "size": 1743,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "installed.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\installed.py",
+          "size": 842,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "sdist.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\sdist.py",
+          "size": 6709,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "wheel.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\wheel.py",
+          "size": 1277,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\distributions\\__init__.py",
+          "size": 858,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "collector.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\index\\collector.py",
+          "size": 16590,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "package_finder.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\index\\package_finder.py",
+          "size": 37843,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "sources.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\index\\sources.py",
+          "size": 8688,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\index\\__init__.py",
+          "size": 30,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "base.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\base.py",
+          "size": 2556,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_distutils.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\_distutils.py",
+          "size": 6009,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_sysconfig.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\_sysconfig.py",
+          "size": 7680,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\locations\\__init__.py",
+          "size": 15365,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "base.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\base.py",
+          "size": 25907,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "pkg_resources.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\pkg_resources.py",
+          "size": 10035,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_json.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\_json.py",
+          "size": 2627,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\__init__.py",
+          "size": 4339,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_compat.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib\\_compat.py",
+          "size": 1882,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 8,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_dists.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib\\_dists.py",
+          "size": 8297,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 8,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "_envs.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib\\_envs.py",
+          "size": 7456,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 8,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib\\__init__.py",
+          "size": 135,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 8,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "candidate.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\candidate.py",
+          "size": 931,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "direct_url.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\direct_url.py",
+          "size": 6889,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "format_control.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\format_control.py",
+          "size": 2486,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "index.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\index.py",
+          "size": 1030,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "installation_report.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\installation_report.py",
+          "size": 2818,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "link.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\link.py",
+          "size": 20777,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "scheme.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\scheme.py",
+          "size": 738,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "search_scope.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\search_scope.py",
+          "size": 4643,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "selection_prefs.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\selection_prefs.py",
+          "size": 1907,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "target_python.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\target_python.py",
+          "size": 4272,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "wheel.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\wheel.py",
+          "size": 3600,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.8
+        },
+        {
+          "name": "__init__.py",
+          "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\__init__.py",
+          "size": 63,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC",
+          "depth": 7,
+          "category": "corporate",
+          "score": 0.6
+        },
+        {
+          "name": "1_texto_patente_INPI.md",
+          "path": "C:\\IOTEC_PLATFORM\\1_texto_patente_INPI.md",
+          "size": 489,
+          "suffix": ".md",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "3_diagrama_arquitetura.md",
+          "path": "C:\\IOTEC_PLATFORM\\3_diagrama_arquitetura.md",
+          "size": 366,
+          "suffix": ".md",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "acropole_nordestina_y.py",
+          "path": "C:\\IOTEC_PLATFORM\\acropole_nordestina_y.py",
+          "size": 3517,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "AdaptacaoGerente.json",
+          "path": "C:\\IOTEC_PLATFORM\\AdaptacaoGerente.json",
+          "size": 60,
+          "suffix": ".json",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "ADAPTACAO_GLOBAL.py",
+          "path": "C:\\IOTEC_PLATFORM\\ADAPTACAO_GLOBAL.py",
+          "size": 238,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "ADMINISTRADOR_CENTRAL.py",
+          "path": "C:\\IOTEC_PLATFORM\\ADMINISTRADOR_CENTRAL.py",
+          "size": 4650,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "administrative_city.add_worker.py",
+          "path": "C:\\IOTEC_PLATFORM\\administrative_city.add_worker.py",
+          "size": 471,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "administrative_city.py",
+          "path": "C:\\IOTEC_PLATFORM\\administrative_city.py",
+          "size": 142,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "ADMINISTRATIVE_CLUSTER.py",
+          "path": "C:\\IOTEC_PLATFORM\\ADMINISTRATIVE_CLUSTER.py",
+          "size": 300,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "advisory_bot.py",
+          "path": "C:\\IOTEC_PLATFORM\\advisory_bot.py",
+          "size": 371,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "AIS_Interface_base_de_comunicacao.py",
+          "path": "C:\\IOTEC_PLATFORM\\AIS_Interface_base_de_comunicacao.py",
+          "size": 100,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "AIS_Nucleo_Central.py",
+          "path": "C:\\IOTEC_PLATFORM\\AIS_Nucleo_Central.py",
+          "size": 392,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "ALMANAQUE_ORACULAR_SYSTEM.py",
+          "path": "C:\\IOTEC_PLATFORM\\ALMANAQUE_ORACULAR_SYSTEM.py",
+          "size": 8776,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "analisador_estrutural.py",
+          "path": "C:\\IOTEC_PLATFORM\\analisador_estrutural.py",
+          "size": 2263,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "analisar_inventario.py",
+          "path": "C:\\IOTEC_PLATFORM\\analisar_inventario.py",
+          "size": 2317,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        },
+        {
+          "name": "api_main.py",
+          "path": "C:\\IOTEC_PLATFORM\\api_main.py",
+          "size": 211,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "api_main_1.py",
+          "path": "C:\\IOTEC_PLATFORM\\api_main_1.py",
+          "size": 751,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.7
+        },
+        {
+          "name": "app.py",
+          "path": "C:\\IOTEC_PLATFORM\\app.py",
+          "size": 3452,
+          "suffix": ".py",
+          "reservoir": "C:\\IOTEC_PLATFORM",
+          "depth": 1,
+          "category": "corporate",
+          "score": 0.9
+        }
+      ],
+      "complexity": 120,
+      "formula_trusted": true
+    }
+  },
+  "validation": {
+    "blocked": false,
+    "score": 0.9366666666666666,
+    "reasons": []
+  }
+}

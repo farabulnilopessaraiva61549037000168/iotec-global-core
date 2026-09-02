@@ -1,0 +1,81 @@
+{
+    "gerado_em": "2026-06-14 02:11:01.624443",
+    "catalogo": [
+        {
+            "oferta": "Analise de Dados",
+            "score": 1754601.8,
+            "produtos": [
+                {
+                    "produto": "Painel Executivo",
+                    "ticket": 5000
+                },
+                {
+                    "produto": "Relatorio Gerencial",
+                    "ticket": 3000
+                },
+                {
+                    "produto": "Previsao de Indicadores",
+                    "ticket": 8000
+                },
+                {
+                    "produto": "Monitoramento Operacional",
+                    "ticket": 12000
+                }
+            ]
+        },
+        {
+            "oferta": "Agentes IA",
+            "score": 1619327.2,
+            "produtos": [
+                {
+                    "produto": "Agente Comercial",
+                    "ticket": 15000
+                },
+                {
+                    "produto": "Agente Atendimento",
+                    "ticket": 12000
+                },
+                {
+                    "produto": "Agente Educacional",
+                    "ticket": 10000
+                },
+                {
+                    "produto": "Agente Auditor",
+                    "ticket": 25000
+                }
+            ]
+        },
+        {
+            "oferta": "Sistema Interno",
+            "score": 883200.6,
+            "produtos": [
+                {
+                    "produto": "Sistema de Controle",
+                    "ticket": 30000
+                },
+                {
+                    "produto": "Plataforma Operacional",
+                    "ticket": 50000
+                },
+                {
+                    "produto": "Painel Corporativo",
+                    "ticket": 25000
+                }
+            ]
+        },
+        {
+            "oferta": "Dashboard Executivo",
+            "score": 111045.0,
+            "produtos": [
+                {
+                    "produto": "Dashboard Power BI",
+                    "ticket": 8000
+                },
+                {
+                    "produto": "Painel KPI",
+                    "ticket": 10000
+                }
+            ]
+        }
+    ]
+}

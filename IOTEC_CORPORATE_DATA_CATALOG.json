@@ -1,0 +1,1300 @@
+{
+    "generated_at": "2026-07-14T08:45:08.722164",
+    "assets": [
+        {
+            "arquivo": "IOTEC_COMMERCIAL_ASSIMILATION_DIRECTIVE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 2065,
+            "path": "C:\\IOTEC\\IOTEC_COMMERCIAL_ASSIMILATION_DIRECTIVE.json"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 59,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.json"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 59,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_COMMERCIAL_INTELLIGENCE.json"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_OPERATION_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 2330,
+            "path": "C:\\IOTEC\\IOTEC_COMMERCIAL_OPERATION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_VIABILITY_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 3666,
+            "path": "C:\\IOTEC\\IOTEC_COMMERCIAL_VIABILITY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_PIPELINE_ARCHIVE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 425,
+            "path": "C:\\IOTEC\\IOTEC_PIPELINE_ARCHIVE.json"
+        },
+        {
+            "arquivo": "IOTEC_PIPELINE_DATABASE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 2925,
+            "path": "C:\\IOTEC\\IOTEC_PIPELINE_DATABASE.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUCTION_LEDGER.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 12466,
+            "path": "C:\\IOTEC\\IOTEC_PRODUCTION_LEDGER.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUCT_CATALOG.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 194440,
+            "path": "C:\\IOTEC\\IOTEC_PRODUCT_CATALOG.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUCT_CATALOG_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 2319,
+            "path": "C:\\IOTEC\\IOTEC_PRODUCT_CATALOG_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_PROPOSALS_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 110,
+            "path": "C:\\IOTEC\\IOTEC_PROPOSALS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REAL_REVENUE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 178,
+            "path": "C:\\IOTEC\\IOTEC_REAL_REVENUE.json"
+        },
+        {
+            "arquivo": "IOTEC_REAL_REVENUE_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 922,
+            "path": "C:\\IOTEC\\IOTEC_REAL_REVENUE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 320,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_COCKPIT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_FLOW_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 1803,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_FLOW_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_PROJECTION_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 302,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_PROJECTION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_READINESS_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 765,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_READINESS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_SCENARIO_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 9799,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_SCENARIO_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_TRACKER_REPORT.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 372,
+            "path": "C:\\IOTEC\\IOTEC_REVENUE_TRACKER_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_SALES_EXPERIENCE_CORE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 6180,
+            "path": "C:\\IOTEC\\IOTEC_SALES_EXPERIENCE_CORE.json"
+        },
+        {
+            "arquivo": "IOTEC_SALES_LANGUAGE.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 5976,
+            "path": "C:\\IOTEC\\IOTEC_SALES_LANGUAGE.json"
+        },
+        {
+            "arquivo": "IOTEC_SOURCE_CATALOG.json",
+            "categoria": "COMERCIAL",
+            "prioridade": 5,
+            "bytes": 854,
+            "path": "C:\\IOTEC\\IOTEC_SOURCE_CATALOG.json"
+        },
+        {
+            "arquivo": "IOTEC_DEEP_DISCOVERY_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 27196,
+            "path": "C:\\IOTEC\\IOTEC_DEEP_DISCOVERY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ENDPOINT_DISCOVERY_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 9602,
+            "path": "C:\\IOTEC\\IOTEC_ENDPOINT_DISCOVERY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_FLOW_DISCOVERY_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 478103,
+            "path": "C:\\IOTEC\\IOTEC_FLOW_DISCOVERY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_BRAIN_FINAL.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 21577,
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_FINAL.json"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_CLEAN.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 1094,
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_CLEAN.json"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 17388,
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 1399,
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OFFER_DISCOVERY_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 1029,
+            "path": "C:\\IOTEC\\IOTEC_OFFER_DISCOVERY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OPPORTUNITY_INTERCEPTOR_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 1667,
+            "path": "C:\\IOTEC\\IOTEC_OPPORTUNITY_INTERCEPTOR_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OPPORTUNITY_RADAR.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 482,
+            "path": "C:\\IOTEC\\IOTEC_OPPORTUNITY_RADAR.json"
+        },
+        {
+            "arquivo": "IOTEC_REAL_OFFER_DISCOVERY_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 825,
+            "path": "C:\\IOTEC\\IOTEC_REAL_OFFER_DISCOVERY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_UNIFIED_BRAIN_REPORT.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 181816,
+            "path": "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_REPORT.json"
+        },
+        {
+            "arquivo": "iotec_learning_output.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 426,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_learning_output.json"
+        },
+        {
+            "arquivo": "iotec_learning_output.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 426,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_learning_output.json"
+        },
+        {
+            "arquivo": "iotec_learning_output.json",
+            "categoria": "INTELIGENCIA",
+            "prioridade": 5,
+            "bytes": 426,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_learning_output.json"
+        },
+        {
+            "arquivo": "IOTEC_ACADEMIC_REVIEW.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 491256,
+            "path": "C:\\IOTEC\\IOTEC_ACADEMIC_REVIEW.json"
+        },
+        {
+            "arquivo": "IOTEC_CODE_LIBRARY.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 48499,
+            "path": "C:\\IOTEC\\IOTEC_CODE_LIBRARY.json"
+        },
+        {
+            "arquivo": "IOTEC_EXPERIENCE_WAREHOUSE.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 11120183,
+            "path": "C:\\IOTEC\\IOTEC_EXPERIENCE_WAREHOUSE.json"
+        },
+        {
+            "arquivo": "IOTEC_VISUAL_GENOME.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 19336729,
+            "path": "C:\\IOTEC\\IOTEC_VISUAL_GENOME.json"
+        },
+        {
+            "arquivo": "iotec_kernel_supercode.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_kernel_supercode.json"
+        },
+        {
+            "arquivo": "iotec_kernel_supercode.json",
+            "categoria": "CONHECIMENTO",
+            "prioridade": 4,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_kernel_supercode.json"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_BRAIN_REPORT.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 37008,
+            "path": "C:\\IOTEC\\IOTEC_EXECUTION_BRAIN_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_CAPACITY_REPORT.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 1897,
+            "path": "C:\\IOTEC\\IOTEC_EXECUTION_CAPACITY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_CORE.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 4585,
+            "path": "C:\\IOTEC\\IOTEC_EXECUTION_CORE.json"
+        },
+        {
+            "arquivo": "IOTEC_GOAL_EXECUTION_REPORT.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 7434,
+            "path": "C:\\IOTEC\\IOTEC_GOAL_EXECUTION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OPERATION_GRID.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 1504,
+            "path": "C:\\IOTEC\\IOTEC_OPERATION_GRID.json"
+        },
+        {
+            "arquivo": "IOTEC_OPERATION_STATUS.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 440,
+            "path": "C:\\IOTEC\\IOTEC_OPERATION_STATUS.json"
+        },
+        {
+            "arquivo": "IOTEC_REALITY_EXECUTION_ENGINE.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 7699,
+            "path": "C:\\IOTEC\\IOTEC_REALITY_EXECUTION_ENGINE.json"
+        },
+        {
+            "arquivo": "IOTEC_RUNTIME_STATE.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 550,
+            "path": "C:\\IOTEC\\IOTEC_RUNTIME_STATE.json"
+        },
+        {
+            "arquivo": "IOTEC_STRATEGY_EXECUTION.json",
+            "categoria": "INFRAESTRUTURA",
+            "prioridade": 4,
+            "bytes": 1792,
+            "path": "C:\\IOTEC\\IOTEC_STRATEGY_EXECUTION.json"
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "categoria": "FINANCEIRO",
+            "prioridade": 3,
+            "bytes": 2554,
+            "path": "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json"
+        },
+        {
+            "arquivo": "iotec_financial_output.json",
+            "categoria": "FINANCEIRO",
+            "prioridade": 3,
+            "bytes": 393,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_financial_output.json"
+        },
+        {
+            "arquivo": "iotec_financial_output.json",
+            "categoria": "FINANCEIRO",
+            "prioridade": 3,
+            "bytes": 393,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_financial_output.json"
+        },
+        {
+            "arquivo": "iotec_financial_output.json",
+            "categoria": "FINANCEIRO",
+            "prioridade": 3,
+            "bytes": 393,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_financial_output.json"
+        },
+        {
+            "arquivo": "IOTEC_ACCOUNT_REGISTRY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 71,
+            "path": "C:\\IOTEC\\IOTEC_ACCOUNT_REGISTRY.json"
+        },
+        {
+            "arquivo": "IOTEC_ACQUISITION_PLAN.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 1376,
+            "path": "C:\\IOTEC\\IOTEC_ACQUISITION_PLAN.json"
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 3462,
+            "path": "C:\\IOTEC\\IOTEC_ACROPOLE_CITY.json"
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2395,
+            "path": "C:\\IOTEC\\IOTEC_ACROPOLE_GLOBAL.json"
+        },
+        {
+            "arquivo": "IOTEC_ALGORITHM_REVIEW.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 350436,
+            "path": "C:\\IOTEC\\IOTEC_ALGORITHM_REVIEW.json"
+        },
+        {
+            "arquivo": "IOTEC_AUTONOMOUS_MEMORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 883,
+            "path": "C:\\IOTEC\\IOTEC_AUTONOMOUS_MEMORY.json"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_CLUSTERS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2818,
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITY_CLUSTERS.json"
+        },
+        {
+            "arquivo": "IOTEC_CAUSAL_MEMORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 935,
+            "path": "C:\\IOTEC\\IOTEC_CAUSAL_MEMORY.json"
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2002,
+            "path": "C:\\IOTEC\\IOTEC_CENTRAL_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2002,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_CENTRAL_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2002,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CENTRAL_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_CONSTITUTION.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 1182,
+            "path": "C:\\IOTEC\\IOTEC_CONSTITUTION.json"
+        },
+        {
+            "arquivo": "IOTEC_DATABASE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 9408,
+            "path": "C:\\IOTEC\\DB\\IOTEC_DATABASE.json"
+        },
+        {
+            "arquivo": "IOTEC_ECONOMIC_CALIBRATION.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 245,
+            "path": "C:\\IOTEC\\IOTEC_ECONOMIC_CALIBRATION.json"
+        },
+        {
+            "arquivo": "IOTEC_ENCADERNADO.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 161670,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_ENCADERNADO.json"
+        },
+        {
+            "arquivo": "IOTEC_ENCADERNADO.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 161670,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_ENCADERNADO.json"
+        },
+        {
+            "arquivo": "IOTEC_ENCADERNADO.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 161670,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ENCADERNADO.json"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_BOARD_MEMORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 847,
+            "path": "C:\\IOTEC\\IOTEC_EXECUTIVE_BOARD_MEMORY.json"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_COCKPIT.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 395,
+            "path": "C:\\IOTEC\\IOTEC_EXECUTIVE_COCKPIT.json"
+        },
+        {
+            "arquivo": "IOTEC_EXPERIENCE_ARCHAEOLOGY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 7987963,
+            "path": "C:\\IOTEC\\IOTEC_EXPERIENCE_ARCHAEOLOGY.json"
+        },
+        {
+            "arquivo": "IOTEC_EXTERNAL_ASSETS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 3257896,
+            "path": "C:\\IOTEC\\IOTEC_EXTERNAL_ASSETS.json"
+        },
+        {
+            "arquivo": "IOTEC_FORMULARIO_OFICIAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2777,
+            "path": "C:\\IOTEC\\IOTEC_FORMULARIO_OFICIAL.json"
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_COMMAND_CENTER.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 643,
+            "path": "C:\\IOTEC\\IOTEC_GROWTH_COMMAND_CENTER.json"
+        },
+        {
+            "arquivo": "IOTEC_JSON_MAP.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 217528512,
+            "path": "C:\\IOTEC\\IOTEC_JSON_MAP.json"
+        },
+        {
+            "arquivo": "IOTEC_LOJAS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 28737,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_LOJAS.json"
+        },
+        {
+            "arquivo": "IOTEC_LOJAS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 28737,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_LOJAS.json"
+        },
+        {
+            "arquivo": "IOTEC_LOJAS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 28737,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_LOJAS.json"
+        },
+        {
+            "arquivo": "IOTEC_MAPA_REAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 26240,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MAPA_REAL.json"
+        },
+        {
+            "arquivo": "IOTEC_MAPA_REAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 26240,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_MAPA_REAL.json"
+        },
+        {
+            "arquivo": "IOTEC_MAPA_REAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 26240,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAPA_REAL.json"
+        },
+        {
+            "arquivo": "IOTEC_MASTER_INVENTORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 30429870,
+            "path": "C:\\IOTEC\\IOTEC_MASTER_INVENTORY.json"
+        },
+        {
+            "arquivo": "IOTEC_MASTER_TOPOLOGY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 7301,
+            "path": "C:\\IOTEC\\IOTEC_MASTER_TOPOLOGY.json"
+        },
+        {
+            "arquivo": "IOTEC_MASTER_TOWER.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 495,
+            "path": "C:\\IOTEC\\IOTEC_MASTER_TOWER.json"
+        },
+        {
+            "arquivo": "IOTEC_META_CONSOLE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 59,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_META_CONSOLE.json"
+        },
+        {
+            "arquivo": "IOTEC_META_CONSOLE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 59,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_META_CONSOLE.json"
+        },
+        {
+            "arquivo": "IOTEC_META_STATE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 289,
+            "path": "C:\\IOTEC\\IOTEC_META_STATE.json"
+        },
+        {
+            "arquivo": "IOTEC_OFFICIAL_ASSETS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 8257095,
+            "path": "C:\\IOTEC\\IOTEC_OFFICIAL_ASSETS.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUTOS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 135244,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_PRODUTOS.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUTOS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 135244,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_PRODUTOS.json"
+        },
+        {
+            "arquivo": "IOTEC_PRODUTOS.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 135244,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_PRODUTOS.json"
+        },
+        {
+            "arquivo": "IOTEC_PROJECT_RANKING.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 65415,
+            "path": "C:\\IOTEC\\IOTEC_PROJECT_RANKING.json"
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2497,
+            "path": "C:\\IOTEC\\IOTEC_REALTY_CORE.json"
+        },
+        {
+            "arquivo": "IOTEC_REAL_DATA.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 225,
+            "path": "C:\\IOTEC\\IOTEC_REAL_DATA.json"
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 966,
+            "path": "C:\\IOTEC\\IOTEC_RELATORIO_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 966,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_RELATORIO_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 966,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_RELATORIO_OPERACIONAL.json"
+        },
+        {
+            "arquivo": "IOTEC_STANDARD_DATA.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 601,
+            "path": "C:\\IOTEC\\IOTEC_STANDARD_DATA.json"
+        },
+        {
+            "arquivo": "IOTEC_STORM_MEMORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 721,
+            "path": "C:\\IOTEC\\IOTEC_STORM_MEMORY.json"
+        },
+        {
+            "arquivo": "IOTEC_STRATEGIC_DIRECTIVE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2256,
+            "path": "C:\\IOTEC\\IOTEC_STRATEGIC_DIRECTIVE.json"
+        },
+        {
+            "arquivo": "IOTEC_STRATEGIC_MEMORY.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 894,
+            "path": "C:\\IOTEC\\IOTEC_STRATEGIC_MEMORY.json"
+        },
+        {
+            "arquivo": "IOTEC_SYSTEM_MAP.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 174980,
+            "path": "C:\\IOTEC\\IOTEC_SYSTEM_MAP.json"
+        },
+        {
+            "arquivo": "IOTEC_TESTE_META.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 218,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TESTE_META.json"
+        },
+        {
+            "arquivo": "IOTEC_TESTE_META.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 218,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_TESTE_META.json"
+        },
+        {
+            "arquivo": "IOTEC_TESTE_META.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 218,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_TESTE_META.json"
+        },
+        {
+            "arquivo": "IOTEC_TRAFFIC_LOG.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2873,
+            "path": "C:\\IOTEC\\IOTEC_TRAFFIC_LOG.json"
+        },
+        {
+            "arquivo": "IOTEC_WAR_ROOM_DATABASE.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 863,
+            "path": "C:\\IOTEC\\IOTEC_WAR_ROOM_DATABASE.json"
+        },
+        {
+            "arquivo": "iotec_boot.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_boot.json"
+        },
+        {
+            "arquivo": "iotec_boot.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_boot.json"
+        },
+        {
+            "arquivo": "iotec_capability_map.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 18303856,
+            "path": "C:\\IOTEC\\iotec_capability_map.json"
+        },
+        {
+            "arquivo": "iotec_config.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 1551,
+            "path": "C:\\IOTEC\\CONFIG\\iotec_config.json"
+        },
+        {
+            "arquivo": "iotec_config.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 1551,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_config.json"
+        },
+        {
+            "arquivo": "iotec_config.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 1551,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_config.json"
+        },
+        {
+            "arquivo": "iotec_core.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 435,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_core.json"
+        },
+        {
+            "arquivo": "iotec_core.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 435,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_core.json"
+        },
+        {
+            "arquivo": "iotec_core.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 435,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_core.json"
+        },
+        {
+            "arquivo": "iotec_governanca.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 650407,
+            "path": "C:\\IOTEC\\iotec_governanca.json"
+        },
+        {
+            "arquivo": "iotec_mapa_arquitetural.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 650127,
+            "path": "C:\\IOTEC\\iotec_mapa_arquitetural.json"
+        },
+        {
+            "arquivo": "iotec_master_state.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 4205,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_master_state.json"
+        },
+        {
+            "arquivo": "iotec_master_state.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 4205,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_master_state.json"
+        },
+        {
+            "arquivo": "iotec_master_state.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 4205,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_master_state.json"
+        },
+        {
+            "arquivo": "iotec_pricing_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 208,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_pricing_output.json"
+        },
+        {
+            "arquivo": "iotec_pricing_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 208,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_pricing_output.json"
+        },
+        {
+            "arquivo": "iotec_pricing_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 208,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_pricing_output.json"
+        },
+        {
+            "arquivo": "iotec_real_world_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 658,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_real_world_output.json"
+        },
+        {
+            "arquivo": "iotec_real_world_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 658,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_real_world_output.json"
+        },
+        {
+            "arquivo": "iotec_real_world_output.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 658,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_real_world_output.json"
+        },
+        {
+            "arquivo": "iotec_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 926,
+            "path": "C:\\IOTEC\\iotec_registry.json"
+        },
+        {
+            "arquivo": "iotec_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 926,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_registry.json"
+        },
+        {
+            "arquivo": "iotec_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 926,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_registry.json"
+        },
+        {
+            "arquivo": "iotec_shell_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2967,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_shell_registry.json"
+        },
+        {
+            "arquivo": "iotec_shell_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2967,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_shell_registry.json"
+        },
+        {
+            "arquivo": "iotec_shell_registry.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 2967,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_shell_registry.json"
+        },
+        {
+            "arquivo": "iotec_strategic_core.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_strategic_core.json"
+        },
+        {
+            "arquivo": "iotec_strategic_core.json",
+            "categoria": "GERAL",
+            "prioridade": 3,
+            "bytes": 60,
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_strategic_core.json"
+        },
+        {
+            "arquivo": "IOTEC_ACTIVE_ACQUISITION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 2027,
+            "path": "C:\\IOTEC\\IOTEC_ACTIVE_ACQUISITION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ARCHITECTURE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 71885,
+            "path": "C:\\IOTEC\\IOTEC_ARCHITECTURE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ASSET_VALUE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 14624,
+            "path": "C:\\IOTEC\\IOTEC_ASSET_VALUE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_BUSINESS_DATA_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 67882,
+            "path": "C:\\IOTEC\\IOTEC_BUSINESS_DATA_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITIES_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 11008710,
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_POWER_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 5356,
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITY_POWER_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_CONTRACT_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 97,
+            "path": "C:\\IOTEC\\IOTEC_CONTRACT_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 198365,
+            "path": "C:\\IOTEC\\IOTEC_CONTROL_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_CONVERSION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 701,
+            "path": "C:\\IOTEC\\IOTEC_CONVERSION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_DAILY_GROWTH_MISSION.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 249,
+            "path": "C:\\IOTEC\\IOTEC_DAILY_GROWTH_MISSION.json"
+        },
+        {
+            "arquivo": "IOTEC_DATA_HIGHWAY_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 40831,
+            "path": "C:\\IOTEC\\IOTEC_DATA_HIGHWAY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_DATA_NEEDS_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1123,
+            "path": "C:\\IOTEC\\IOTEC_DATA_NEEDS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_DATA_PRODUCER_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 14714,
+            "path": "C:\\IOTEC\\IOTEC_DATA_PRODUCER_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_DATA_QUALITY_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 16731,
+            "path": "C:\\IOTEC\\IOTEC_DATA_QUALITY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_DEPENDENCY_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 486274,
+            "path": "C:\\IOTEC\\IOTEC_DEPENDENCY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ECONOMIC_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1132,
+            "path": "C:\\IOTEC\\IOTEC_ECONOMIC_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ENGINE_FORENSICS_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 9784,
+            "path": "C:\\IOTEC\\IOTEC_ENGINE_FORENSICS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_ENGINE_INTEGRATION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1679,
+            "path": "C:\\IOTEC\\IOTEC_ENGINE_INTEGRATION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_EXTERNAL_ACQUISITION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 582743,
+            "path": "C:\\IOTEC\\IOTEC_EXTERNAL_ACQUISITION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_EXTERNAL_SOURCE_GAP_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 864,
+            "path": "C:\\IOTEC\\IOTEC_EXTERNAL_SOURCE_GAP_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_FUEL_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1073364,
+            "path": "C:\\IOTEC\\IOTEC_FUEL_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_GOAL_DEVIATION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 333,
+            "path": "C:\\IOTEC\\IOTEC_GOAL_DEVIATION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_GOAL_REQUIREMENTS_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 840,
+            "path": "C:\\IOTEC\\IOTEC_GOAL_REQUIREMENTS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 426,
+            "path": "C:\\IOTEC\\IOTEC_HYDROECONOMIC_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_FORECAST_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1010,
+            "path": "C:\\IOTEC\\IOTEC_HYDRO_FORECAST_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_LOSS_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 243,
+            "path": "C:\\IOTEC\\IOTEC_HYDRO_LOSS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 557,
+            "path": "C:\\IOTEC\\IOTEC_HYDRO_PRESSURE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_TRACE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 568,
+            "path": "C:\\IOTEC\\IOTEC_HYDRO_TRACE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_LIVE_CORE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 20899,
+            "path": "C:\\IOTEC\\IOTEC_LIVE_CORE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_MOTOR_ACTIVATION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 3227,
+            "path": "C:\\IOTEC\\IOTEC_MOTOR_ACTIVATION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OFFER_VALUATION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1386,
+            "path": "C:\\IOTEC\\IOTEC_OFFER_VALUATION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OPENING_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 2198,
+            "path": "C:\\IOTEC\\IOTEC_OPENING_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_OPERATIONAL_READINESS_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 14394,
+            "path": "C:\\IOTEC\\IOTEC_OPERATIONAL_READINESS_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_PORTFOLIO_COMPOSITION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 2175,
+            "path": "C:\\IOTEC\\IOTEC_PORTFOLIO_COMPOSITION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_PORTFOLIO_GOAL_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 640,
+            "path": "C:\\IOTEC\\IOTEC_PORTFOLIO_GOAL_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_PORTFOLIO_RISK_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1286,
+            "path": "C:\\IOTEC\\IOTEC_PORTFOLIO_RISK_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REALISTIC_GOAL_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 3918,
+            "path": "C:\\IOTEC\\IOTEC_REALISTIC_GOAL_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_REAL_CONNECTIVITY_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 69770,
+            "path": "C:\\IOTEC\\IOTEC_REAL_CONNECTIVITY_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_SOURCE_GOVERNANCE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1597,
+            "path": "C:\\IOTEC\\IOTEC_SOURCE_GOVERNANCE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_STRATEGIC_VALUE_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 1979,
+            "path": "C:\\IOTEC\\IOTEC_STRATEGIC_VALUE_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_SYSTEM_AUDIT_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 83845,
+            "path": "C:\\IOTEC\\IOTEC_SYSTEM_AUDIT_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_TOTAL_CAPABILITIES_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 257,
+            "path": "C:\\IOTEC\\IOTEC_TOTAL_CAPABILITIES_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_TRACTION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 300,
+            "path": "C:\\IOTEC\\IOTEC_TRACTION_REPORT.json"
+        },
+        {
+            "arquivo": "IOTEC_UTILIZATION_REPORT.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 308,
+            "path": "C:\\IOTEC\\IOTEC_UTILIZATION_REPORT.json"
+        },
+        {
+            "arquivo": "iotec_core_report.json",
+            "categoria": "OPERACIONAL",
+            "prioridade": 3,
+            "bytes": 150442,
+            "path": "C:\\IOTEC\\iotec_core_report.json"
+        }
+    ]
+}

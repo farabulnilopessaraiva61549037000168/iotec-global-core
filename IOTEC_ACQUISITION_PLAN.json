@@ -1,0 +1,50 @@
+{
+    "gerado_em": "2026-06-13 14:02:13.833691",
+    "missao": "Expandir catalogo de fontes externas",
+    "prioridades": [
+        "EMPRESAS",
+        "ESCOLAS",
+        "UNIVERSIDADES",
+        "FORNECEDORES",
+        "TERCEIRIZADAS",
+        "PARCEIROS"
+    ],
+    "tarefas": [
+        {
+            "categoria": "EMPRESAS",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        },
+        {
+            "categoria": "ESCOLAS",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        },
+        {
+            "categoria": "UNIVERSIDADES",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        },
+        {
+            "categoria": "FORNECEDORES",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        },
+        {
+            "categoria": "TERCEIRIZADAS",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        },
+        {
+            "categoria": "PARCEIROS",
+            "objetivo": "Cadastrar primeiras fontes",
+            "meta_minima": 5,
+            "meta_ideal": 20
+        }
+    ]
+}

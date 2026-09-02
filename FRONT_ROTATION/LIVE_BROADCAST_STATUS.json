@@ -1,0 +1,37 @@
+{
+    "status": "ONLINE",
+    "broadcast": "ACTIVE",
+    "main_front": {
+        "file": "contato.html",
+        "path": "C:\\IOTEC\\iotec_clone\\contato.html",
+        "score": 69,
+        "status": "HIGH_PRIORITY_FRONT",
+        "cinematic": true,
+        "dashboard": true,
+        "video": true,
+        "component": false,
+        "signals": [
+            "<video",
+            ".mp4",
+            "autoplay",
+            "<img",
+            ".jpg",
+            "dashboard",
+            "card",
+            "modal",
+            "grid",
+            "analytics",
+            "premium",
+            "onclick",
+            "ai",
+            "control",
+            "premium"
+        ],
+        "visual_impact": 194
+    },
+    "live_rotation": 50,
+    "cinematic": 72,
+    "video": 25,
+    "executive": 15,
+    "generated_at": "2026-05-30 19:33:57.031898"
+}

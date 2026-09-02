@@ -1,0 +1,12 @@
+{
+    "generated_at": "2026-07-14T14:03:02.438140",
+    "resumo": {
+        "missoes": 648,
+        "estados": 9,
+        "segmentos": 18,
+        "agentes": 9
+    },
+    "status": {
+        "AGUARDANDO": 648
+    }
+}

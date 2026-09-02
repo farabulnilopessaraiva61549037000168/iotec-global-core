@@ -1,0 +1,15 @@
+{
+    "generated": "2026-06-07 16:54:16.822660",
+    "current": {
+        "leads": 5,
+        "clients": 2,
+        "payments": 1,
+        "invoices": 0
+    },
+    "targets_30_days": {
+        "leads": 100,
+        "clients": 10,
+        "payments": 20
+    },
+    "traction_score": 30
+}

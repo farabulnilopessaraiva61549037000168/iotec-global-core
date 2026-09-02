@@ -1,0 +1,22 @@
+{
+    "generated_at": "2026-07-13T21:21:19.432701",
+    "statistics": {
+        "python_modules": 114,
+        "html_interfaces": 0,
+        "javascript_files": 0,
+        "css_files": 0,
+        "official_assets": 0,
+        "external_assets": 0,
+        "products": 0,
+        "apis": 0,
+        "campaigns": 0,
+        "customers": 0
+    },
+    "sources": {
+        "warehouse": "IOTEC_EXPERIENCE_WAREHOUSE.json",
+        "visual": "IOTEC_VISUAL_GENOME.json",
+        "assets": "IOTEC_OFFICIAL_ASSETS.json",
+        "code": "IOTEC_CODE_LIBRARY.json"
+    },
+    "warnings": []
+}

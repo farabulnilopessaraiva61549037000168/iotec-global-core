@@ -1,0 +1,30 @@
+{
+    "generated_at": "2026-07-14T16:37:05.257458",
+    "selected_connector": "OpenStreetMap",
+    "connectors": [
+        {
+            "name": "Google Maps",
+            "priority": 1,
+            "enabled": false,
+            "capability": "company_discovery"
+        },
+        {
+            "name": "OpenStreetMap",
+            "priority": 2,
+            "enabled": true,
+            "capability": "company_discovery"
+        },
+        {
+            "name": "Corporate CSV",
+            "priority": 3,
+            "enabled": true,
+            "capability": "company_discovery"
+        },
+        {
+            "name": "Corporate Excel",
+            "priority": 4,
+            "enabled": true,
+            "capability": "company_discovery"
+        }
+    ]
+}

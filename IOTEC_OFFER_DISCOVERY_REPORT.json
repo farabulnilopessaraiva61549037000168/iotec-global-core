@@ -1,0 +1,35 @@
+{
+    "gerado_em": "2026-06-13 19:28:09.744533",
+    "estado": "MAPEAMENTO",
+    "perguntas_criticas": [
+        "O que vendemos?",
+        "Quem compra?",
+        "Qual problema resolvemos?",
+        "Quanto cobramos?",
+        "Qual o custo?",
+        "Qual a margem?",
+        "Qual a capacidade mensal?",
+        "Qual o prazo de entrega?",
+        "Precisa de terceirizada?",
+        "Precisa de fornecedor?",
+        "Existe demanda conhecida?",
+        "Existe historico de vendas?"
+    ],
+    "frentes_identificadas": [
+        "Automacao Educacional",
+        "Geracao de Provas",
+        "Atividades Escolares",
+        "Painel de Indicadores",
+        "Analise de Dados",
+        "Dashboards",
+        "Sistemas Internos",
+        "Consultoria",
+        "Projetos Sob Demanda"
+    ],
+    "status": {
+        "catalogo_de_produtos": "PENDENTE",
+        "catalogo_de_precos": "PENDENTE",
+        "catalogo_de_clientes": "PENDENTE",
+        "catalogo_de_fornecedores": "PENDENTE"
+    }
+}

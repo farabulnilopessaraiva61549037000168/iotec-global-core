@@ -1,0 +1,13 @@
+{
+    "gerado_em": "2026-06-14 10:42:33.453430",
+    "meta": 100000.0,
+    "dia_atual": 15,
+    "receita_esperada": 50000.0,
+    "receita_realizada": 15000.0,
+    "desvio": -35000.0,
+    "situacao": "ATRASADO",
+    "atingimento": 15.0,
+    "dias_restantes": 15,
+    "faltante": 85000.0,
+    "nova_media_diaria": 5666.67
+}

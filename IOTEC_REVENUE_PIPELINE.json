@@ -1,0 +1,32 @@
+{
+    "generated_at": "2026-07-14T14:35:22.321434",
+    "pipeline": [
+        {
+            "id": 1,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "fase": "PROSPECÃ‡ÃƒO",
+            "responsÃ¡vel": "COMMERCIAL_AGENT",
+            "status": "AGUARDANDO",
+            "prÃ³xima_aÃ§Ã£o": "Pesquisar contato"
+        },
+        {
+            "id": 2,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "fase": "PROSPECÃ‡ÃƒO",
+            "responsÃ¡vel": "COMMERCIAL_AGENT",
+            "status": "AGUARDANDO",
+            "prÃ³xima_aÃ§Ã£o": "Pesquisar contato"
+        }
+    ],
+    "etapas": [
+        "PROSPECÃ‡ÃƒO",
+        "QUALIFICAÃ‡ÃƒO",
+        "CONTATO",
+        "APRESENTAÃ‡ÃƒO",
+        "PROPOSTA",
+        "NEGOCIAÃ‡ÃƒO",
+        "CONTRATO",
+        "IMPLANTAÃ‡ÃƒO",
+        "SUCESSO DO CLIENTE"
+    ]
+}

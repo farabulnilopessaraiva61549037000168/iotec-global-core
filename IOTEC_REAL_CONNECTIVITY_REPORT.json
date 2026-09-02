@@ -1,0 +1,2362 @@
+{
+    "motores": [
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REAL_CONNECTIVITY_AUDITOR.py",
+            "score": 14,
+            "conectores": [
+                "aiohttp",
+                "selenium",
+                "webdriver",
+                "beautifulsoup",
+                "scrapy",
+                "api_key",
+                "token",
+                "bearer",
+                "authorization",
+                "socket",
+                "websocket",
+                "urllib",
+                "ftp",
+                "graphql"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+            "score": 5,
+            "conectores": [
+                "requests_post",
+                "token",
+                "bearer",
+                "authorization",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+            "score": 5,
+            "conectores": [
+                "requests_post",
+                "token",
+                "bearer",
+                "authorization",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\paypal_server.py",
+            "score": 4,
+            "conectores": [
+                "requests_post",
+                "token",
+                "bearer",
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+            "score": 4,
+            "conectores": [
+                "requests_post",
+                "token",
+                "bearer",
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\paypal_server.py",
+            "score": 4,
+            "conectores": [
+                "requests_post",
+                "token",
+                "bearer",
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\seo..py",
+            "score": 4,
+            "conectores": [
+                "requests_post",
+                "api_key",
+                "bearer",
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\package_index.py",
+            "score": 4,
+            "conectores": [
+                "token",
+                "authorization",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+            "score": 3,
+            "conectores": [
+                "requests_get",
+                "beautifulsoup",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\SIGNAL_MAPPER.py",
+            "score": 3,
+            "conectores": [
+                "requests_get",
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\IOTEC_WEB_OBSERVER.py",
+            "score": 3,
+            "conectores": [
+                "requests_get",
+                "beautifulsoup",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WEB_OBSERVER.py",
+            "score": 3,
+            "conectores": [
+                "requests_get",
+                "beautifulsoup",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\six.py",
+            "score": 3,
+            "conectores": [
+                "socket",
+                "urllib",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\compat.py",
+            "score": 3,
+            "conectores": [
+                "token",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\adapters.py",
+            "score": 3,
+            "conectores": [
+                "authorization",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\sessions.py",
+            "score": 3,
+            "conectores": [
+                "authorization",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\utils.py",
+            "score": 3,
+            "conectores": [
+                "token",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\_init_.py",
+            "score": 3,
+            "conectores": [
+                "requests_get",
+                "requests_post",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\truststore\\_api.py",
+            "score": 3,
+            "conectores": [
+                "aiohttp",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\connection.py",
+            "score": 3,
+            "conectores": [
+                "token",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\ntlmpool.py",
+            "score": 3,
+            "conectores": [
+                "authorization",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\six.py",
+            "score": 3,
+            "conectores": [
+                "socket",
+                "urllib",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\command\\upload_docs.py",
+            "score": 3,
+            "conectores": [
+                "authorization",
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CERTIFIER_ENGINE.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CPU_SHIELD.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+            "score": 2,
+            "conectores": [
+                "api_key",
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\HYPERCORE_SHIELD.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\HYPERSCALE_LAB.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_EXTERNAL_ACQUISITION_AUDITOR.py",
+            "score": 2,
+            "conectores": [
+                "aiohttp",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\LIVE_OPERATING.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ORBITAL_EVOLUTION.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\QUANTUM_GOVERNANCE.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\sonda_interna_de_integridade.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\BACKUP_LIVE_SOCKET\\LIVE_SOCKET_TOWER_20260530_205639.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\BACKUP_SOCKET\\LIVE_SOCKET_TOWER_20260530_205219.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\api.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "bearer"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CREATIVE_EXPLORER.py",
+            "score": 2,
+            "conectores": [
+                "api_key",
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Arquitetura_sugerida.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "websocket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\BeautifulSoup.py",
+            "score": 2,
+            "conectores": [
+                "requests_get",
+                "beautifulsoup"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CREATIVE_EXPLORER.py",
+            "score": 2,
+            "conectores": [
+                "api_key",
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\import.requests.py",
+            "score": 2,
+            "conectores": [
+                "requests_get",
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Specter.Fortress.py",
+            "score": 2,
+            "conectores": [
+                "requests_get",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+            "score": 2,
+            "conectores": [
+                "requests_get",
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\req\\req_file.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\misc.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\vcs\\versioncontrol.py",
+            "score": 2,
+            "conectores": [
+                "urllib",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers\\_mapping.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\common.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\connectionpool.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\exceptions.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\poolmanager.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\response.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\appengine.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\pyopenssl.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\securetransport.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\socks.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\connection.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\request.py",
+            "score": 2,
+            "conectores": [
+                "authorization",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\retry.py",
+            "score": 2,
+            "conectores": [
+                "authorization",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\ssl_.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\timeout.py",
+            "score": 2,
+            "conectores": [
+                "socket",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\common.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\upload.py",
+            "score": 2,
+            "conectores": [
+                "authorization",
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\common.py",
+            "score": 2,
+            "conectores": [
+                "token",
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_COSMOS.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_GLOBAL.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_INFINITY.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_NEXUS.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_OMEGA.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_PRIME.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ACROPOLE_VISUAL.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\agente.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\app_cerebro_comercial.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\AUTO_PORT.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\broker.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CAPACIDADES_ECONÔMICAS.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CINEMATIC_OPERATIONS.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CONFIGURADOR_AUTOMATICO.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\DATA_REFINERY_SYSTEM.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\DIRECT_LEAD_TEST.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\DISPARAR_DEPLOY.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ECOSYSTEM_ACTIVATION.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\EXECUTIVE_COMMAND_ENTER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\EXECUTIVE_DASHBOARD.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\fix_heartbeat_server.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\fix_nodes_protocol.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\fix_orchestrator_v2.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\GLOBAL_CONTROL_TOWER.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\HIERARCHICA_ESCALATION.py",
+            "score": 1,
+            "conectores": [
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CAPABILITY_HUNTER.py",
+            "score": 1,
+            "conectores": [
+                "selenium"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DEPLOYMENT_DIAGNOSTIC.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_FULL_FLOW.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_GATEWAY_CORE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_TRAFFIC_CONTROLLER.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WHATSAPP_AUTOMATION.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WHATS_LINK.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\LIVE_EXECUTIVE_VISUAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\LOTE_OPERATIONAL.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MOTOR_SEMANTICO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NEXUS_CORE.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NEXUS_REALTIME.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\nodes_cluster.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\nodes_distribuido.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_REAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEU_ENTERPRISE.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\orchestrator_cluster.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ORCHESTRATOR_ENGINE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\orchestrator_fixed.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\orchestrator_fsm.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ORQUESTRADOR_COMPLETO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\port_scanner.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\PREMIUM_ASCENSION.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\python LIVE_SOCKET_TOWER.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REALTIME_EXECUTIVE.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REALTIME_SIGNAL.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_ECOSYSTEM.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\ROCKBOOST_LIVE.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\SUPERVISOR_DE_INTEGRIDADE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\TEST_ENTERPRISE.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\test_lead.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\TEST_OPERATION.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\VERIFICADOR_AUTOMATICO_DE_PORTAS.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\VERIFY_REAL_CORE.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\VISUAL_PROGRAMMING_CURATOR.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\core\\nucleus\\iotec_nucleus.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\core\\router\\visible_core_router.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\IOTEC_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\iotec_nucleus.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.AUTO_BACKUP.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.backup.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.PREPARSER_BACKUP.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.rebuild_backup.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.SAFE_BACKUP.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\FROZEN\\visible_core_router.STRUCTURE_BACKUP.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\LAB\\ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\demoserver.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\server.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\visible_core_api.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\agente.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CINEMATIC_OPERATIONS.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CONFIGURADOR_AUTOMATICO.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\DATA_REFINERY_SYSTEM.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\DISPARAR_DEPLOY.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\EXECUTIVE_COMMAND_ENTER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_DEPLOYMENT_DIAGNOSTIC.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_FULL_FLOW.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_GATEWAY_CORE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\iotec_nucleus.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_TRAFFIC_CONTROLLER.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WHATSAPP_AUTOMATION.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WHATS_LINK.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\LIVE_EXECUTIVE_VISUAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\MOTOR_SEMANTICO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\NUCLEO_REAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ORCHESTRATOR_ENGINE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ORQUESTRADOR_COMPLETO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\SUPERVISOR_DE_INTEGRIDADE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\VERIFICADOR_AUTOMATICO_DE_PORTAS.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\visible_core_api.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\visible_core_router.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\static_client.html.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\static_dashboard.html.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\agente.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Cdigo.001.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CINEMATIC_OPERATIONS.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\class.Omega.Permissao.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CONFIGURADOR_AUTOMATICO.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\DATA_REFINERY_SYSTEM.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\DISPARAR_DEPLOY.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\DOCTYPE.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\EXECUTIVE_COMMAND_ENTER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\from.core.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_MANAGER.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DEPLOYMENT_DIAGNOSTIC.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_FULL_FLOW.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GATEWAY_CORE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_nucleus.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_TRAFFIC_CONTROLLER.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_WHATSAPP_AUTOMATION.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_WHATS_LINK.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\jaguar.py.servidor.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\LIVE_EXECUTIVE_VISUAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\MOTOR_SEMANTICO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\NUCLEO_REAL.py",
+            "score": 1,
+            "conectores": [
+                "requests_post"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORCHESTRATOR_ENGINE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORQUESTRADOR_COMPLETO.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\platform.system.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\scraper.py",
+            "score": 1,
+            "conectores": [
+                "scrapy"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\SUPERVISOR_DE_INTEGRIDADE.py",
+            "score": 1,
+            "conectores": [
+                "requests_get"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\VERIFICADOR_AUTOMATICO_DE_PORTAS.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\visible_core_router.py",
+            "score": 1,
+            "conectores": [
+                "api_key"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli\\cmdoptions.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\index\\collector.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\direct_url.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\index.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\link.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\search_scope.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\network\\auth.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\network\\session.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\network\\utils.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\network\\xmlrpc.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\operations\\install\\wheel.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\compat.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\setuptools_build.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\urls.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\vcs\\bazaar.py",
+            "score": 1,
+            "conectores": [
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\vcs\\git.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\adapter.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\controller.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\filewrapper.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\heuristics.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\serialize.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\locators.py",
+            "score": 1,
+            "conectores": [
+                "ftp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\util.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\distro\\distro.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\msgpack\\fallback.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\packaging\\requirements.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\cmdline.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatter.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexer.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\style.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\filters\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\bbcode.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\groff.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\html.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\img.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\irc.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\latex.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\other.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\pangomarkup.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\rtf.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\svg.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\terminal.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\terminal256.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters\\_mapping.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers\\python.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\actions.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\helpers.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\results.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\testing.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\diagram\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\api.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\auth.py",
+            "score": 1,
+            "conectores": [
+                "authorization"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\compat.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\cookies.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\exceptions.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\help.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\models.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\packages.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\ansi.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\containers.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\pretty.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\syntax.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\text.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\traceback.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\fields.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\filepost.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\request.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport\\bindings.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport\\low_level.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports\\makefile.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\proxy.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\response.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\ssltransport.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\ssl_match_hostname.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\url.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\wait.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "socket"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\webencodings\\mklabels.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\actions.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\helpers.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\results.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\testing.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\diagram\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\build_meta.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\launch.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_scripts.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\register.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py",
+            "score": 1,
+            "conectores": [
+                "urllib"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\actions.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\core.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\helpers.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\results.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\testing.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\diagram\\_init_.py",
+            "score": 1,
+            "conectores": [
+                "token"
+            ]
+        }
+    ],
+    "estatisticas": {
+        "arquivos_python": 2287,
+        "motores_conectividade": 321
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "encontrados": [
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647
+        },
+        {
+            "arquivo": "C:\\IOTEC\\SIGNAL_MAPPER.py",
+            "bytes": 8859
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121
+        },
+        {
+            "arquivo": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121
+        },
+        {
+            "arquivo": "C:\\IOTEC\\paypal_server.py",
+            "bytes": 2144
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+            "bytes": 2144
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\paypal_server.py",
+            "bytes": 2144
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+            "bytes": 8080
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CREATIVE_EXPLORER.py",
+            "bytes": 8080
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CREATIVE_EXPLORER.py",
+            "bytes": 8080
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+            "bytes": 517
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+            "bytes": 6402
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Specter.Fortress.py",
+            "bytes": 2156
+        }
+    ],
+    "nao_encontrados": []
+}

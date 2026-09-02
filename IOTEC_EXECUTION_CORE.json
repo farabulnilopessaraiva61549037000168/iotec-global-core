@@ -1,0 +1,137 @@
+[
+    {
+        "sector": "Corporate Operations",
+        "product": "IOTEC AUTOMATION CORE",
+        "atmosphere": {
+            "style": "corporativo premium",
+            "human_presence": true,
+            "immersive_environment": true,
+            "cinematic_flow": true
+        },
+        "transmission": {
+            "videos": [
+                "executivos trabalhando",
+                "coworking",
+                "reunioes corporativas",
+                "empresas modernas",
+                "networking empresarial"
+            ],
+            "rotation": "automatic",
+            "narrative": "dynamic",
+            "overlay": "enabled"
+        },
+        "sales_experience": {
+            "messages": [
+                "Automatize processos empresariais.",
+                "Reduza gargalos operacionais.",
+                "Transforme tarefas em fluxos inteligentes.",
+                "Sua empresa pode operar continuamente."
+            ],
+            "call_to_action": [
+                "Solicitar demonstracao",
+                "Licenciar tecnologia",
+                "Falar com especialista",
+                "Ativar operacao"
+            ],
+            "proposal_generation": true,
+            "commercial_contact": "iotec.bl@proton.me"
+        },
+        "portal_behavior": {
+            "continuous_operation": true,
+            "live_rotation": true,
+            "immersive_storytelling": true,
+            "humanized_language": true,
+            "enterprise_visualization": true
+        }
+    },
+    {
+        "sector": "Technology & AI",
+        "product": "IOTEC ANALYTICS",
+        "atmosphere": {
+            "style": "corporativo premium",
+            "human_presence": true,
+            "immersive_environment": true,
+            "cinematic_flow": true
+        },
+        "transmission": {
+            "videos": [
+                "datacenter",
+                "analistas",
+                "painel operacional",
+                "ia",
+                "automacao"
+            ],
+            "rotation": "automatic",
+            "narrative": "dynamic",
+            "overlay": "enabled"
+        },
+        "sales_experience": {
+            "messages": [
+                "Visualize indicadores em tempo real.",
+                "Detecte gargalos ocultos.",
+                "Acompanhe operacoes estrategicas.",
+                "Transforme dados em inteligencia."
+            ],
+            "call_to_action": [
+                "Solicitar analytics",
+                "Ativar command center",
+                "Receber proposta",
+                "Implantar estrutura"
+            ],
+            "proposal_generation": true,
+            "commercial_contact": "iotec.bl@proton.me"
+        },
+        "portal_behavior": {
+            "continuous_operation": true,
+            "live_rotation": true,
+            "immersive_storytelling": true,
+            "humanized_language": true,
+            "enterprise_visualization": true
+        }
+    },
+    {
+        "sector": "Media Network",
+        "product": "IOTEC MEDIA NETWORK",
+        "atmosphere": {
+            "style": "corporativo premium",
+            "human_presence": true,
+            "immersive_environment": true,
+            "cinematic_flow": true
+        },
+        "transmission": {
+            "videos": [
+                "urbanismo premium",
+                "streaming",
+                "centros empresariais",
+                "eventos",
+                "painel audiovisual"
+            ],
+            "rotation": "automatic",
+            "narrative": "dynamic",
+            "overlay": "enabled"
+        },
+        "sales_experience": {
+            "messages": [
+                "Transforme sua marca em uma presenca viva.",
+                "Crie streaming corporativo premium.",
+                "Conecte sua empresa ao mundo.",
+                "Sua empresa operando como rede inteligente."
+            ],
+            "call_to_action": [
+                "Criar canal empresarial",
+                "Ativar transmissao",
+                "Contratar estrutura",
+                "Solicitar implantacao"
+            ],
+            "proposal_generation": true,
+            "commercial_contact": "iotec.bl@proton.me"
+        },
+        "portal_behavior": {
+            "continuous_operation": true,
+            "live_rotation": true,
+            "immersive_storytelling": true,
+            "humanized_language": true,
+            "enterprise_visualization": true
+        }
+    }
+]

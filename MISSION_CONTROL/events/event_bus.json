@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-07-26T18:14:34.027964",
+        "evento": "SYSTEM_START",
+        "origem": "003_EVENT_BUS",
+        "dados": {
+            "status": "ONLINE"
+        }
+    }
+]

@@ -1,0 +1,1888 @@
+{
+    "nucleo": {
+        "empresa": "IOTEC",
+        "cidade": "REGULUS_CITY",
+        "modo": "organizacao_estrategica",
+        "status": "online",
+        "timestamp": "2026-05-17 19:08:13.614391"
+    },
+    "ativos_total": 33115,
+    "setores": {
+        "laboratorio": {
+            "quantidade": 16890,
+            "ativos": [
+                {
+                    "nome": "abrir_Servico.py",
+                    "caminho": "C:\\IOTEC\\abrir_Servico.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.97
+                },
+                {
+                    "nome": "ADAPTADOR_DE_ROTAS.py",
+                    "caminho": "C:\\IOTEC\\ADAPTADOR_DE_ROTAS.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.46
+                },
+                {
+                    "nome": "agente.py",
+                    "caminho": "C:\\IOTEC\\agente.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.54
+                },
+                {
+                    "nome": "ajustar_zoom_inteligente.py",
+                    "caminho": "C:\\IOTEC\\ajustar_zoom_inteligente.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.87
+                },
+                {
+                    "nome": "analisar_cenario.py",
+                    "caminho": "C:\\IOTEC\\analisar_cenario.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.65
+                },
+                {
+                    "nome": "analise_nucleo.py",
+                    "caminho": "C:\\IOTEC\\analise_nucleo.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.25
+                },
+                {
+                    "nome": "app.py",
+                    "caminho": "C:\\IOTEC\\app.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 8.15
+                },
+                {
+                    "nome": "ARQUEOLOGIA_DIGITAL.py",
+                    "caminho": "C:\\IOTEC\\ARQUEOLOGIA_DIGITAL.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 9.41
+                },
+                {
+                    "nome": "ARQUITETURA_MODULAR_OPERACIONAL.py",
+                    "caminho": "C:\\IOTEC\\ARQUITETURA_MODULAR_OPERACIONAL.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 7.84
+                },
+                {
+                    "nome": "ATUALIZACAO_NO_NUCLEO.py",
+                    "caminho": "C:\\IOTEC\\ATUALIZACAO_NO_NUCLEO.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.81
+                },
+                {
+                    "nome": "auditoria_estrategica.py",
+                    "caminho": "C:\\IOTEC\\auditoria_estrategica.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 2.65
+                },
+                {
+                    "nome": "auditoria_nucleo.py",
+                    "caminho": "C:\\IOTEC\\auditoria_nucleo.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.3
+                },
+                {
+                    "nome": "auto_patch.py",
+                    "caminho": "C:\\IOTEC\\auto_patch.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.31
+                },
+                {
+                    "nome": "BACKEND _COM_FLUXO_COMPLETO.py",
+                    "caminho": "C:\\IOTEC\\BACKEND _COM_FLUXO_COMPLETO.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.48
+                },
+                {
+                    "nome": "BACKUP_20260511_185831.py",
+                    "caminho": "C:\\IOTEC\\BACKUP_20260511_185831.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 12.77
+                },
+                {
+                    "nome": "calcular_score.py",
+                    "caminho": "C:\\IOTEC\\calcular_score.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.55
+                },
+                {
+                    "nome": "CENTRAL_CORE.py",
+                    "caminho": "C:\\IOTEC\\CENTRAL_CORE.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 7.92
+                },
+                {
+                    "nome": "Central_Operacional.py",
+                    "caminho": "C:\\IOTEC\\Central_Operacional.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 8.82
+                },
+                {
+                    "nome": "CHAT_GLOBAL.py",
+                    "caminho": "C:\\IOTEC\\CHAT_GLOBAL.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.33
+                },
+                {
+                    "nome": "CINEMATIC_OPERATIONS.py",
+                    "caminho": "C:\\IOTEC\\CINEMATIC_OPERATIONS.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 11.71
+                },
+                {
+                    "nome": "CLIENTE_INTERNACIONAL.py",
+                    "caminho": "C:\\IOTEC\\CLIENTE_INTERNACIONAL.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.15
+                },
+                {
+                    "nome": "COMUNICAÇAO_NULEO.PY",
+                    "caminho": "C:\\IOTEC\\COMUNICAÇAO_NULEO.PY",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.93
+                },
+                {
+                    "nome": "conciencia_do_nucleo.py",
+                    "caminho": "C:\\IOTEC\\conciencia_do_nucleo.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.16
+                },
+                {
+                    "nome": "config.py",
+                    "caminho": "C:\\IOTEC\\config.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.02
+                },
+                {
+                    "nome": "CONFIGURADOR_AUTOMATICO.py",
+                    "caminho": "C:\\IOTEC\\CONFIGURADOR_AUTOMATICO.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 2.91
+                },
+                {
+                    "nome": "CONSOLIDATION_ENGINE.py",
+                    "caminho": "C:\\IOTEC\\CONSOLIDATION_ENGINE.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 8.46
+                },
+                {
+                    "nome": "CONTEUDO_REAL_DOS_SERVICOS.py",
+                    "caminho": "C:\\IOTEC\\CONTEUDO_REAL_DOS_SERVICOS.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.63
+                },
+                {
+                    "nome": "CONTROLE_DE_CUSTOS.py",
+                    "caminho": "C:\\IOTEC\\CONTROLE_DE_CUSTOS.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.57
+                },
+                {
+                    "nome": "Conversacional_Moderna.py",
+                    "caminho": "C:\\IOTEC\\Conversacional_Moderna.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 8.08
+                },
+                {
+                    "nome": "CORE_MASTER.py",
+                    "caminho": "C:\\IOTEC\\CORE_MASTER.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.79
+                },
+                {
+                    "nome": "CORE_VERSAO_CALIBRADA.py",
+                    "caminho": "C:\\IOTEC\\CORE_VERSAO_CALIBRADA.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 3.22
+                },
+                {
+                    "nome": "CREATIVE_EXPLORER.py",
+                    "caminho": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 7.88
+                },
+                {
+                    "nome": "criar_entrega.py",
+                    "caminho": "C:\\IOTEC\\criar_entrega.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.26
+                },
+                {
+                    "nome": "DATA_REFINERY_SYSTEM.py",
+                    "caminho": "C:\\IOTEC\\DATA_REFINERY_SYSTEM.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 10.58
+                },
+                {
+                    "nome": "DEEP_CORE_SCANNER.py",
+                    "caminho": "C:\\IOTEC\\DEEP_CORE_SCANNER.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 7.61
+                },
+                {
+                    "nome": "definir_plano.py",
+                    "caminho": "C:\\IOTEC\\definir_plano.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.58
+                },
+                {
+                    "nome": "DETECCAO_DE_ALTO_RETORNO.py",
+                    "caminho": "C:\\IOTEC\\DETECCAO_DE_ALTO_RETORNO.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.69
+                },
+                {
+                    "nome": "detectar_idioma.py",
+                    "caminho": "C:\\IOTEC\\detectar_idioma.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.2
+                },
+                {
+                    "nome": "diagnostico.py",
+                    "caminho": "C:\\IOTEC\\diagnostico.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.34
+                },
+                {
+                    "nome": "dialogo.py",
+                    "caminho": "C:\\IOTEC\\dialogo.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.78
+                },
+                {
+                    "nome": "DISPARAR_DEPLOY.py",
+                    "caminho": "C:\\IOTEC\\DISPARAR_DEPLOY.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.83
+                },
+                {
+                    "nome": "ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+                    "caminho": "C:\\IOTEC\\ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 14.21
+                },
+                {
+                    "nome": "email_bridge.py",
+                    "caminho": "C:\\IOTEC\\email_bridge.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.17
+                },
+                {
+                    "nome": "engine.py",
+                    "caminho": "C:\\IOTEC\\engine.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.02
+                },
+                {
+                    "nome": "entrada_principal_main.py",
+                    "caminho": "C:\\IOTEC\\entrada_principal_main.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.49
+                },
+                {
+                    "nome": "eventos.json",
+                    "caminho": "C:\\IOTEC\\eventos.json",
+                    "extensao": ".json",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.21
+                },
+                {
+                    "nome": "EXECUTIVE_COMMAND_ENTER.py",
+                    "caminho": "C:\\IOTEC\\EXECUTIVE_COMMAND_ENTER.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 6.53
+                },
+                {
+                    "nome": "EXPANSAO_COMPLETA.py",
+                    "caminho": "C:\\IOTEC\\EXPANSAO_COMPLETA.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.92
+                },
+                {
+                    "nome": "extrair_valor.py",
+                    "caminho": "C:\\IOTEC\\extrair_valor.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 0.16
+                },
+                {
+                    "nome": "FILA_DE_EXPERIMENTACAO.py",
+                    "caminho": "C:\\IOTEC\\FILA_DE_EXPERIMENTACAO.py",
+                    "extensao": ".py",
+                    "setor": "laboratorio",
+                    "tamanho_kb": 1.13
+                }
+            ]
+        },
+        "frontend": {
+            "quantidade": 15996,
+            "ativos": [
+                {
+                    "nome": "adaptador_interface.js",
+                    "caminho": "C:\\IOTEC\\adaptador_interface.js",
+                    "extensao": ".js",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.62
+                },
+                {
+                    "nome": "automacao.html",
+                    "caminho": "C:\\IOTEC\\automacao.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.27
+                },
+                {
+                    "nome": "CABO_UNIVERSAL.html",
+                    "caminho": "C:\\IOTEC\\CABO_UNIVERSAL.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.13
+                },
+                {
+                    "nome": "coletor_de_eventos.html",
+                    "caminho": "C:\\IOTEC\\coletor_de_eventos.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.51
+                },
+                {
+                    "nome": "colocar_na_pagina_principal.html",
+                    "caminho": "C:\\IOTEC\\colocar_na_pagina_principal.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.86
+                },
+                {
+                    "nome": "CONTEUDO_REAL_DOS_SERVICOS.html",
+                    "caminho": "C:\\IOTEC\\CONTEUDO_REAL_DOS_SERVICOS.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.63
+                },
+                {
+                    "nome": "DETECTAR_INTERFACES_EXTERNNAS.py",
+                    "caminho": "C:\\IOTEC\\DETECTAR_INTERFACES_EXTERNNAS.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.91
+                },
+                {
+                    "nome": "document.querySelectorAll.01.html",
+                    "caminho": "C:\\IOTEC\\document.querySelectorAll.01.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.12
+                },
+                {
+                    "nome": "document.querySelectorAll.html",
+                    "caminho": "C:\\IOTEC\\document.querySelectorAll.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.79
+                },
+                {
+                    "nome": "document.query_Selecto_rAll.html",
+                    "caminho": "C:\\IOTEC\\document.query_Selecto_rAll.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.38
+                },
+                {
+                    "nome": "FORMULÁRIO_UNIVERSAL.html",
+                    "caminho": "C:\\IOTEC\\FORMULÁRIO_UNIVERSAL.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.04
+                },
+                {
+                    "nome": "home.html",
+                    "caminho": "C:\\IOTEC\\home.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 2.75
+                },
+                {
+                    "nome": "index.html",
+                    "caminho": "C:\\IOTEC\\index.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.0
+                },
+                {
+                    "nome": "interfaces.json",
+                    "caminho": "C:\\IOTEC\\interfaces.json",
+                    "extensao": ".json",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.17
+                },
+                {
+                    "nome": "interface_profissional.html",
+                    "caminho": "C:\\IOTEC\\interface_profissional.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.68
+                },
+                {
+                    "nome": "Interface_Restoration.py",
+                    "caminho": "C:\\IOTEC\\Interface_Restoration.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 2.31
+                },
+                {
+                    "nome": "iotec_cinematic.html",
+                    "caminho": "C:\\IOTEC\\iotec_cinematic.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 9.34
+                },
+                {
+                    "nome": "IOTEC_DEPLOY_NETLIFY.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_DEPLOY_NETLIFY.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.73
+                },
+                {
+                    "nome": "IoTec_Plataforma.html",
+                    "caminho": "C:\\IOTEC\\IoTec_Plataforma.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.32
+                },
+                {
+                    "nome": "loader.html",
+                    "caminho": "C:\\IOTEC\\loader.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.75
+                },
+                {
+                    "nome": "mapa.html",
+                    "caminho": "C:\\IOTEC\\mapa.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 30.0
+                },
+                {
+                    "nome": "mapa_capital.html",
+                    "caminho": "C:\\IOTEC\\mapa_capital.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 3.79
+                },
+                {
+                    "nome": "mapa_interior.html",
+                    "caminho": "C:\\IOTEC\\mapa_interior.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 25.31
+                },
+                {
+                    "nome": "modulo_interface.py",
+                    "caminho": "C:\\IOTEC\\modulo_interface.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.42
+                },
+                {
+                    "nome": "OFICINA_DE_INTERFACES.py",
+                    "caminho": "C:\\IOTEC\\OFICINA_DE_INTERFACES.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 3.21
+                },
+                {
+                    "nome": "painel.html",
+                    "caminho": "C:\\IOTEC\\painel.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.62
+                },
+                {
+                    "nome": "painel_avancado.html",
+                    "caminho": "C:\\IOTEC\\painel_avancado.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 2.46
+                },
+                {
+                    "nome": "painel_full.html",
+                    "caminho": "C:\\IOTEC\\painel_full.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.51
+                },
+                {
+                    "nome": "painel_IOTEC.html",
+                    "caminho": "C:\\IOTEC\\painel_IOTEC.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.66
+                },
+                {
+                    "nome": "perfil_demo.html",
+                    "caminho": "C:\\IOTEC\\perfil_demo.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 2.04
+                },
+                {
+                    "nome": "processar_interface.py",
+                    "caminho": "C:\\IOTEC\\processar_interface.py",
+                    "extensao": ".py",
+                    "setor": "frontend",
+                    "tamanho_kb": 1.12
+                },
+                {
+                    "nome": "cockpit_iotec.html",
+                    "caminho": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 6.9
+                },
+                {
+                    "nome": "cockpit_iotec_v2.html",
+                    "caminho": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec_v2.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 16.0
+                },
+                {
+                    "nome": "index.html",
+                    "caminho": "C:\\IOTEC\\frontend\\index.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.34
+                },
+                {
+                    "nome": "style.css",
+                    "caminho": "C:\\IOTEC\\frontend\\style.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 0.19
+                },
+                {
+                    "nome": "css2.css",
+                    "caminho": "C:\\IOTEC\\interfaces_origem\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\css2.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 19.61
+                },
+                {
+                    "nome": "style.css",
+                    "caminho": "C:\\IOTEC\\interfaces_origem\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\style.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 27.7
+                },
+                {
+                    "nome": "css2.css",
+                    "caminho": "C:\\IOTEC\\interfaces_origem\\IOTEC BL — Construtora e Distribuidora de Inovação e Tecnologia_files\\css2.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 13.65
+                },
+                {
+                    "nome": "css2.css",
+                    "caminho": "C:\\IOTEC\\interfaces_origem\\ShopTec — Tecnologia e Inovação Digital · IOTEC BL_files\\css2.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 14.9
+                },
+                {
+                    "nome": "contato.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\contato.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 40.99
+                },
+                {
+                    "nome": "ecossistema.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\ecossistema.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 40.99
+                },
+                {
+                    "nome": "index.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\index.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 41.6
+                },
+                {
+                    "nome": "portfolio.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\portfolio.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 40.99
+                },
+                {
+                    "nome": "setores.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\setores.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 40.99
+                },
+                {
+                    "nome": "tecnologias.html",
+                    "caminho": "C:\\IOTEC\\iotec_clone\\tecnologias.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 40.99
+                },
+                {
+                    "nome": "index.html",
+                    "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\index.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 43.77
+                },
+                {
+                    "nome": "IOTEC BL — Construtora de Inovações e Tecnologia.html",
+                    "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\IOTEC BL — Construtora de Inovações e Tecnologia.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 27.04
+                },
+                {
+                    "nome": "IOTEC BL — Construtora e Distribuidora de Inovação e Tecnologia.html",
+                    "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\IOTEC BL — Construtora e Distribuidora de Inovação e Tecnologia.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 27.91
+                },
+                {
+                    "nome": "ShopTec — Tecnologia e Inovação Digital · IOTEC BL.html",
+                    "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\ShopTec — Tecnologia e Inovação Digital · IOTEC BL.html",
+                    "extensao": ".html",
+                    "setor": "frontend",
+                    "tamanho_kb": 43.77
+                },
+                {
+                    "nome": "css2.css",
+                    "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\css2.css",
+                    "extensao": ".css",
+                    "setor": "frontend",
+                    "tamanho_kb": 19.61
+                }
+            ]
+        },
+        "backend": {
+            "quantidade": 106,
+            "ativos": [
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\IOTEC\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 0.35
+                },
+                {
+                    "nome": "coletor_api.py",
+                    "caminho": "C:\\IOTEC\\coletor_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 0.81
+                },
+                {
+                    "nome": "IOTEC_API_INTEGRACAO.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_API_INTEGRACAO.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.0
+                },
+                {
+                    "nome": "IOTEC_WEB_OBSERVER.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 8.43
+                },
+                {
+                    "nome": "nucleo_api.py",
+                    "caminho": "C:\\IOTEC\\nucleo_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 1.61
+                },
+                {
+                    "nome": "visible_core_api.py",
+                    "caminho": "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.41
+                },
+                {
+                    "nome": "10_apis_detectadas.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\10_apis_detectadas.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.0
+                },
+                {
+                    "nome": "api.js",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\api.js",
+                    "extensao": ".js",
+                    "setor": "backend",
+                    "tamanho_kb": 268.79
+                },
+                {
+                    "nome": "API_X_Internacional_2025-10-27T20-06-00.469267.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\API_X_Internacional_2025-10-27T20-06-00.469267.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.22
+                },
+                {
+                    "nome": "API_X_Internacional_2025-10-28T09-31-21.150639.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\API_X_Internacional_2025-10-28T09-31-21.150639.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.22
+                },
+                {
+                    "nome": "API_X_Internacional_2025-10-28T10-24-57.491109.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\API_X_Internacional_2025-10-28T10-24-57.491109.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.22
+                },
+                {
+                    "nome": "flask-3.0.3-py312haa95532_0.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\flask-3.0.3-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 4.43
+                },
+                {
+                    "nome": "jupyter-lsp-jupyter-server.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter-lsp-jupyter-server.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.08
+                },
+                {
+                    "nome": "jupyterlab_server-2.27.3-py312haa95532_0.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyterlab_server-2.27.3-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 6.08
+                },
+                {
+                    "nome": "jupyter_server-2.14.1-py312haa95532_0.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_server-2.14.1-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 17.55
+                },
+                {
+                    "nome": "jupyter_server_terminals-0.4.4-py312haa95532_1.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_server_terminals-0.4.4-py312haa95532_1.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 3.0
+                },
+                {
+                    "nome": "jupyter_server_terminals.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_server_terminals.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.1
+                },
+                {
+                    "nome": "python-lsp-server-1.10.0-py312haa95532_0.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\python-lsp-server-1.10.0-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 7.12
+                },
+                {
+                    "nome": "qt6axserver_metatypes.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\qt6axserver_metatypes.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.01
+                },
+                {
+                    "nome": "reparado_server_log.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_server_log.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.17
+                },
+                {
+                    "nome": "server_log.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\server_log.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 0.54
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\platformdirs\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 6.96
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\requests\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 6.3
+                },
+                {
+                    "nome": "_api.py",
+                    "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\truststore\\_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 9.66
+                },
+                {
+                    "nome": "api.js",
+                    "caminho": "C:\\IOTEC\\_SANITIZADA\\api.js",
+                    "extensao": ".js",
+                    "setor": "backend",
+                    "tamanho_kb": 268.79
+                },
+                {
+                    "nome": "demoserver.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\PortableGit\\usr\\share\\vim\\vim91\\tools\\demoserver.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 3.26
+                },
+                {
+                    "nome": "api.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit (1)_files\\api.js",
+                    "extensao": ".js",
+                    "setor": "backend",
+                    "tamanho_kb": 298.99
+                },
+                {
+                    "nome": "api.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit- 123_files\\api.js",
+                    "extensao": ".js",
+                    "setor": "backend",
+                    "tamanho_kb": 298.99
+                },
+                {
+                    "nome": "api.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit_arquivos\\api.js",
+                    "extensao": ".js",
+                    "setor": "backend",
+                    "tamanho_kb": 268.78
+                },
+                {
+                    "nome": "server.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Avaliação Digital\\server.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 1.67
+                },
+                {
+                    "nome": "FastAPI.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\FastAPI.py\\FastAPI.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 1.08
+                },
+                {
+                    "nome": "flask.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\flask.py\\flask.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 0.29
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.47
+                },
+                {
+                    "nome": "flask-3.0.3-py312haa95532_0.json",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\conda-meta\\flask-3.0.3-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 4.43
+                },
+                {
+                    "nome": "jupyterlab_server-2.27.3-py312haa95532_0.json",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\conda-meta\\jupyterlab_server-2.27.3-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 6.08
+                },
+                {
+                    "nome": "jupyter_server-2.14.1-py312haa95532_0.json",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\conda-meta\\jupyter_server-2.14.1-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 17.55
+                },
+                {
+                    "nome": "jupyter_server_terminals-0.4.4-py312haa95532_1.json",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\conda-meta\\jupyter_server_terminals-0.4.4-py312haa95532_1.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 3.0
+                },
+                {
+                    "nome": "python-lsp-server-1.10.0-py312haa95532_0.json",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\conda-meta\\python-lsp-server-1.10.0-py312haa95532_0.json",
+                    "extensao": ".json",
+                    "setor": "backend",
+                    "tamanho_kb": 7.12
+                },
+                {
+                    "nome": "socketserver.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\socketserver.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 26.66
+                },
+                {
+                    "nome": "test_python_api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\ctypes\\test\\test_python_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.7
+                },
+                {
+                    "nome": "server.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\http\\server.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 47.1
+                },
+                {
+                    "nome": "forkserver.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\multiprocessing\\forkserver.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 11.86
+                },
+                {
+                    "nome": "popen_forkserver.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\multiprocessing\\popen_forkserver.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.18
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\site-packages\\pip\\_vendor\\platformdirs\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 9.06
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\site-packages\\pip\\_vendor\\requests\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 6.3
+                },
+                {
+                    "nome": "_api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\site-packages\\pip\\_vendor\\truststore\\_api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 10.98
+                },
+                {
+                    "nome": "server.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\site-packages\\setuptools\\tests\\server.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.34
+                },
+                {
+                    "nome": "api.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\api.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 8.79
+                },
+                {
+                    "nome": "dbapi2.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\sqlite3\\dbapi2.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 2.62
+                },
+                {
+                    "nome": "dbapi.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\envs\\meu_env\\Lib\\sqlite3\\test\\dbapi.py",
+                    "extensao": ".py",
+                    "setor": "backend",
+                    "tamanho_kb": 38.25
+                }
+            ]
+        },
+        "analytics": {
+            "quantidade": 41,
+            "ativos": [
+                {
+                    "nome": "DASHBOARD_AUTO_INSTALLER.py",
+                    "caminho": "C:\\IOTEC\\DASHBOARD_AUTO_INSTALLER.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 4.32
+                },
+                {
+                    "nome": "DASHBOARD_BACKUP_20260511_193717.py",
+                    "caminho": "C:\\IOTEC\\DASHBOARD_BACKUP_20260511_193717.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 3.81
+                },
+                {
+                    "nome": "DASHBOARD_INSTALLER.py",
+                    "caminho": "C:\\IOTEC\\DASHBOARD_INSTALLER.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 3.87
+                },
+                {
+                    "nome": "grafico_barras_premium.py",
+                    "caminho": "C:\\IOTEC\\grafico_barras_premium.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.49
+                },
+                {
+                    "nome": "grafico_gauge_risco.py",
+                    "caminho": "C:\\IOTEC\\grafico_gauge_risco.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.55
+                },
+                {
+                    "nome": "IOTEC_DASHBOARD.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_DASHBOARD.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.0
+                },
+                {
+                    "nome": "IOTEC_DUAL_MAIL_DASHBOARD.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 3.29
+                },
+                {
+                    "nome": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 3.45
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.09
+                },
+                {
+                    "nome": "dashboard_data.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_data.json",
+                    "extensao": ".json",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.12
+                },
+                {
+                    "nome": "dashboard_stub.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_stub.py.html",
+                    "extensao": ".html",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "dashboard_templates.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_templates.py.html",
+                    "extensao": ".html",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.31
+                },
+                {
+                    "nome": "gerador_graficos.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\gerador_graficos.py.html",
+                    "extensao": ".html",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "templates_dashboard.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\templates_dashboard.html",
+                    "extensao": ".html",
+                    "setor": "analytics",
+                    "tamanho_kb": 1.0
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "C:\\IOTEC\\_SANITIZADA\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.09
+                },
+                {
+                    "nome": "analytics.min.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\IoTec EDU - Executive Dashboard_files\\analytics.min.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 106.36
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit (1)_files\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit- 123_files\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\REGULUS_SYSTEM_LTDA (1) - Replit_arquivos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "static_dashboard.html.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Avaliação Digital\\static_dashboard.html.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 1.07
+                },
+                {
+                    "nome": "dashboard_engine.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\dashboard_engine.py",
+                    "extensao": ".py",
+                    "setor": "analytics",
+                    "tamanho_kb": 0.62
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\017_workspace-iframe\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\019_a\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\020_a-002\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\022_anchor\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\023_controller-with-preconnect-a5378c55d9526e4e82151e2f5258fe4f\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\025_m-outer-3437aaddcdf6922d623e172c2d6f9278\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\017_workspace-iframe\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\019_a\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\020_a-002\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\022_anchor\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\023_controller-with-preconnect-a5378c55d9526e4e82151e2f5258fe4f\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes\\025_m-outer-3437aaddcdf6922d623e172c2d6f9278\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\017_workspace-iframe\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\019_a\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\020_a-002\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\022_anchor\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\023_controller-with-preconnect-a5378c55d9526e4e82151e2f5258fe4f\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\frentes_ativas\\025_m-outer-3437aaddcdf6922d623e172c2d6f9278\\assets\\soltos\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "analytics.js",
+                    "caminho": "D:\\IOTEC\\_QUARENTENA\\analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                },
+                {
+                    "nome": "F7707E932A846EEAC5CB7F64004B9A5B_analytics.js",
+                    "caminho": "D:\\IOTEC\\_QUARENTENA\\Downloads\\F7707E932A846EEAC5CB7F64004B9A5B_analytics.js",
+                    "extensao": ".js",
+                    "setor": "analytics",
+                    "tamanho_kb": 51.08
+                }
+            ]
+        },
+        "financeiro": {
+            "quantidade": 60,
+            "ativos": [
+                {
+                    "nome": "eh_pagamento_paypal.py",
+                    "caminho": "C:\\IOTEC\\eh_pagamento_paypal.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "IOTEC_PAYPAL_MONITOR.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_PAYPAL_MONITOR.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.99
+                },
+                {
+                    "nome": "monitor_paypal.py",
+                    "caminho": "C:\\IOTEC\\monitor_paypal.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 1.62
+                },
+                {
+                    "nome": "nucleo_financeiro.py",
+                    "caminho": "C:\\IOTEC\\nucleo_financeiro.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 2.89
+                },
+                {
+                    "nome": "paypal_local_config.json",
+                    "caminho": "C:\\IOTEC\\paypal_local_config.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.38
+                },
+                {
+                    "nome": "paypal_server.py",
+                    "caminho": "C:\\IOTEC\\paypal_server.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 2.01
+                },
+                {
+                    "nome": "processar_pagamento.py",
+                    "caminho": "C:\\IOTEC\\processar_pagamento.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.18
+                },
+                {
+                    "nome": "pagamentos.py",
+                    "caminho": "C:\\IOTEC\\GOVTECH_FULL\\pagamentos.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.17
+                },
+                {
+                    "nome": "AUDITORIA_FLUXO_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\AUDITORIA_FLUXO_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.32
+                },
+                {
+                    "nome": "bolt_painel_financeiro.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\bolt_painel_financeiro.py.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.32
+                },
+                {
+                    "nome": "config_financeiro.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\config_financeiro.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.25
+                },
+                {
+                    "nome": "dados_financeiros.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\dados_financeiros.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.08
+                },
+                {
+                    "nome": "financeiro.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.29
+                },
+                {
+                    "nome": "financeiro.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "financeiro_empresa.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_empresa.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 3.92
+                },
+                {
+                    "nome": "financeiro_empresa.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_empresa.py.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.31
+                },
+                {
+                    "nome": "financeiro_empresa_BACKUP.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_empresa_BACKUP.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.57
+                },
+                {
+                    "nome": "financeiro_regulus_2026-03-29_11-42-17.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_regulus_2026-03-29_11-42-17.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 1.08
+                },
+                {
+                    "nome": "HISTORICO_CORRECOES_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\HISTORICO_CORRECOES_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.48
+                },
+                {
+                    "nome": "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.95
+                },
+                {
+                    "nome": "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.36
+                },
+                {
+                    "nome": "mapeamento_pagamentos.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\mapeamento_pagamentos.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.68
+                },
+                {
+                    "nome": "pagamento.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.89
+                },
+                {
+                    "nome": "pagamento.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.29
+                },
+                {
+                    "nome": "pagamentos_encontrados.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamentos_encontrados.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.0
+                },
+                {
+                    "nome": "pagamento__dup1.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento__dup1.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.89
+                },
+                {
+                    "nome": "pagamento__dup1.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento__dup1.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "pagamento__dup2.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento__dup2.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 1.09
+                },
+                {
+                    "nome": "pagamento__dup2.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pagamento__dup2.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "painel_financeiro.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.39
+                },
+                {
+                    "nome": "painel_financeiro.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.31
+                },
+                {
+                    "nome": "painel_financeiro.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.1
+                },
+                {
+                    "nome": "paypal_local_config.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\paypal_local_config.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.3
+                },
+                {
+                    "nome": "pixel.min.js",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\pixel.min.js",
+                    "extensao": ".js",
+                    "setor": "financeiro",
+                    "tamanho_kb": 4.3
+                },
+                {
+                    "nome": "PORTAL_QR_PAGAMENTOS_IOTEC_BL.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\PORTAL_QR_PAGAMENTOS_IOTEC_BL.py.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.94
+                },
+                {
+                    "nome": "PORTAL_QR_PAGAMENTOS_IOTEC_BL.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\PORTAL_QR_PAGAMENTOS_IOTEC_BL.py.html.html",
+                    "extensao": ".html",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.34
+                },
+                {
+                    "nome": "regulus_finance.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_finance.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.46
+                },
+                {
+                    "nome": "regulus_finance_BACKUP.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_finance_BACKUP.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.61
+                },
+                {
+                    "nome": "reparado_dados_financeiros.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_dados_financeiros.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.08
+                },
+                {
+                    "nome": "reparado_financeiro_empresa_BACKUP.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_financeiro_empresa_BACKUP.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.57
+                },
+                {
+                    "nome": "reparado_regulus_finance.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_regulus_finance.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.45
+                },
+                {
+                    "nome": "reparado_regulus_finance_BACKUP.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_regulus_finance_BACKUP.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.61
+                },
+                {
+                    "nome": "STATUS_SANEAMENTO_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\STATUS_SANEAMENTO_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.21
+                },
+                {
+                    "nome": "paypal_local_config.json",
+                    "caminho": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\CONFIG\\paypal_local_config.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.4
+                },
+                {
+                    "nome": "AUDITORIA_FLUXO_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\AUDITORIA_FLUXO_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 2.9
+                },
+                {
+                    "nome": "HISTORICO_CORRECOES_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\HISTORICO_CORRECOES_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 1.75
+                },
+                {
+                    "nome": "IOTEC_AUDITOR_PAYPAL.py",
+                    "caminho": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 7.93
+                },
+                {
+                    "nome": "STATUS_SANEAMENTO_PAYPAL.json",
+                    "caminho": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\STATUS_SANEAMENTO_PAYPAL.json",
+                    "extensao": ".json",
+                    "setor": "financeiro",
+                    "tamanho_kb": 0.21
+                },
+                {
+                    "nome": "pixel.min.js",
+                    "caminho": "C:\\IOTEC\\_SANITIZADA\\pixel.min.js",
+                    "extensao": ".js",
+                    "setor": "financeiro",
+                    "tamanho_kb": 4.3
+                },
+                {
+                    "nome": "financeiro_empresa.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Downloads\\financeiro_empresa.py",
+                    "extensao": ".py",
+                    "setor": "financeiro",
+                    "tamanho_kb": 1.58
+                }
+            ]
+        },
+        "govtech": {
+            "quantidade": 14,
+            "ativos": [
+                {
+                    "nome": "GOVERNANÇA_OPERACIONAL.py",
+                    "caminho": "C:\\IOTEC\\GOVERNANÇA_OPERACIONAL.py",
+                    "extensao": ".py",
+                    "setor": "govtech",
+                    "tamanho_kb": 8.57
+                },
+                {
+                    "nome": "GOVERNANÇA_OPERACIONAL_AUTOMATIZADA.py",
+                    "caminho": "C:\\IOTEC\\GOVERNANÇA_OPERACIONAL_AUTOMATIZADA.py",
+                    "extensao": ".py",
+                    "setor": "govtech",
+                    "tamanho_kb": 10.01
+                },
+                {
+                    "nome": "MASTER_GOVERNANCE.py",
+                    "caminho": "C:\\IOTEC\\MASTER_GOVERNANCE.py",
+                    "extensao": ".py",
+                    "setor": "govtech",
+                    "tamanho_kb": 8.88
+                },
+                {
+                    "nome": "governance.py",
+                    "caminho": "C:\\IOTEC\\core\\governance.py",
+                    "extensao": ".py",
+                    "setor": "govtech",
+                    "tamanho_kb": 1.05
+                },
+                {
+                    "nome": "01_IOTEC_SENTINEL_GOV_INTEGRADO.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\01_IOTEC_SENTINEL_GOV_INTEGRADO.py.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.94
+                },
+                {
+                    "nome": "01_IOTEC_SENTINEL_GOV_INTEGRADO.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\01_IOTEC_SENTINEL_GOV_INTEGRADO.py.html.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.34
+                },
+                {
+                    "nome": "fullscreen_governor.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\fullscreen_governor.py.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.31
+                },
+                {
+                    "nome": "governo.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\governo.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.59
+                },
+                {
+                    "nome": "IOTEC_CONCIERGE_GOV_V1.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CONCIERGE_GOV_V1.py.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.92
+                },
+                {
+                    "nome": "IOTEC_CONCIERGE_GOV_V1.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CONCIERGE_GOV_V1.py.html.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.32
+                },
+                {
+                    "nome": "IOTEC_WAR_ROOM_CONCIERGE_GOV_V3.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_WAR_ROOM_CONCIERGE_GOV_V3.py.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.94
+                },
+                {
+                    "nome": "IOTEC_WAR_ROOM_CONCIERGE_GOV_V3.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_WAR_ROOM_CONCIERGE_GOV_V3.py.html.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.34
+                },
+                {
+                    "nome": "IOTEC_WAR_ROOM_CONCIERGE_GOV_V4.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_WAR_ROOM_CONCIERGE_GOV_V4.py.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.94
+                },
+                {
+                    "nome": "IOTEC_WAR_ROOM_CONCIERGE_GOV_V4.py.html.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_WAR_ROOM_CONCIERGE_GOV_V4.py.html.html",
+                    "extensao": ".html",
+                    "setor": "govtech",
+                    "tamanho_kb": 0.34
+                }
+            ]
+        },
+        "juridico": {
+            "quantidade": 8,
+            "ativos": [
+                {
+                    "nome": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+                    "caminho": "C:\\IOTEC\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+                    "extensao": ".py",
+                    "setor": "juridico",
+                    "tamanho_kb": 7.13
+                },
+                {
+                    "nome": "Processo.py",
+                    "caminho": "C:\\IOTEC\\Processo.py",
+                    "extensao": ".py",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.47
+                },
+                {
+                    "nome": "advisor.py",
+                    "caminho": "C:\\IOTEC\\core\\advisor.py",
+                    "extensao": ".py",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.89
+                },
+                {
+                    "nome": "diagnostico_report_advanced.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report_advanced.json",
+                    "extensao": ".json",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.81
+                },
+                {
+                    "nome": "legal_tasks.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\legal_tasks.json",
+                    "extensao": ".json",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.71
+                },
+                {
+                    "nome": "processor.py.html",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\processor.py.html",
+                    "extensao": ".html",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.29
+                },
+                {
+                    "nome": "reparado_diagnostico_report_advanced.json",
+                    "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report_advanced.json",
+                    "extensao": ".json",
+                    "setor": "juridico",
+                    "tamanho_kb": 0.81
+                },
+                {
+                    "nome": "simple_advertisement.py",
+                    "caminho": "C:\\Users\\Bruno Lopes\\Desktop\\DIVERSOS\\Nova_pasta_(2)\\Para o figma\\Neo_System_Core\\anaconda3\\Lib\\site-packages\\anaconda_navigator\\utils\\attribution\\simple_advertisement.py",
+                    "extensao": ".py",
+                    "setor": "juridico",
+                    "tamanho_kb": 3.86
+                }
+            ]
+        }
+    }
+}

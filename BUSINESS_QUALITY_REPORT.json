@@ -1,0 +1,1504 @@
+{
+    "registros": 198,
+    "campos": {
+        "cliente": 75,
+        "empresa": 85,
+        "email": 95,
+        "cidade": 8,
+        "cnpj": 5,
+        "estado": 7,
+        "site": 2,
+        "whatsapp": 25,
+        "segmento": 4
+    },
+    "scores": {
+        "forte": 1,
+        "medio": 34,
+        "fraco": 163
+    },
+    "top_registros": [
+        {
+            "arquivo": "IOTEC_BUSINESS_DATA_REPORT.json",
+            "score": 9,
+            "campos": [
+                "cidade",
+                "cliente",
+                "cnpj",
+                "email",
+                "empresa",
+                "estado",
+                "segmento",
+                "site",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "score": 5,
+            "campos": [
+                "cidade",
+                "cnpj",
+                "email",
+                "empresa",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "score": 4,
+            "campos": [
+                "cidade",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "score": 4,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "score": 3,
+            "campos": [
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_DATA_QUALITY_REPORT.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "score": 3,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "score": 3,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "score": 3,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "score": 3,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "score": 3,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "score": 3,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "score": 3,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "IBEX_clients.json",
+            "score": 2,
+            "campos": [
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "mapa_estrategico.json",
+            "score": 2,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "score": 2,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "mapa_estrategico.json",
+            "score": 2,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "eventos.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "iotec_core_report.json",
+            "score": 1,
+            "campos": [
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "test.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "globals.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "ordens.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "brands.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "config_1052.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "issue.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "manifesto.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_dados_financeiros.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_regulus_finance_BACKUP.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "brands.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "config_1052.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "issue.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "manifesto.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "ordens.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_dados_financeiros.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_regulus_finance_BACKUP.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "brands.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "config_1052.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "score": 1,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "issue.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "manifesto.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "ordens.json",
+            "score": 1,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "score": 1,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "package.json",
+            "score": 1,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "COMMAND_TOWER_REPORT.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_DAILY_GROWTH_MISSION.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_ECONOMIC_REPORT.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_COMMAND_CENTER.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_REPORT.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "IOTEC_TRACTION_REPORT.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "REAL_TIME_TOWER.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "score": 0,
+            "campos": []
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "score": 0,
+            "campos": []
+        }
+    ]
+}

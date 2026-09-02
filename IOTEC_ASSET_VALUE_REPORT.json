@@ -1,0 +1,506 @@
+{
+    "generated": "2026-06-07 16:13:06.671171",
+    "assets_found": 336,
+    "top_assets": [
+        {
+            "file": "INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "REVENUE_INTELLIGENCE_MAP.json",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "REVENUE_READINESS_AUDIT.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "SALES_BRAIN.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "category": "ALTO_VALOR",
+            "score": 180
+        },
+        {
+            "file": "AUTONOMOUS_LEAD.py",
+            "category": "AUTOMACAO",
+            "score": 160
+        },
+        {
+            "file": "auditoria_estrategica.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_nucleo.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "ECONOMIC_AUDIT_ENGINE.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "ECONOMIC_AUDIT_REPORT.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "ECONOMIC_INTELLIGENCE.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_20251130_180545.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_controladoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_diagnostica.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "Auditoria_e_Sabatina_Inteligente.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_forense_iotec.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "Auditoria_Nucleo_20260216_225439.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac_v2.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251126_180505.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155731.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155732.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_sistema.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_total_iotec.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "NÚCLEO_DE_AUDITORIA_AVANÇADO_VERSÃO_ULTRA_SUPER.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "NÚCLEO_DE_AUDITORIA__VERSÃO_FINAL_DEFINITIVA.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "painel_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_regulus.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor_avancada.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_diagnostica.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_sistema.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_regulus.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_valor.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_valor_avancada.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_20251130_180545.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_controladoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_diagnostica.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_estrategica.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "Auditoria_e_Sabatina_Inteligente.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_forense_iotec.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_nucleo.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "Auditoria_Nucleo_20260216_225439.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac_v2.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251126_180505.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155731.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155732.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_sistema.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_total_iotec.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "NÚCLEO_DE_AUDITORIA_AVANÇADO_VERSÃO_ULTRA_SUPER.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "NÚCLEO_DE_AUDITORIA__VERSÃO_FINAL_DEFINITIVA.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "painel_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_regulus.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor_avancada.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_diagnostica.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_sistema.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_regulus.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_valor.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_relatorio_auditoria_valor_avancada.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_20251130_180545.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_controladoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_diagnostica.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_estrategica.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_nucleo.py",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "Auditoria_Nucleo_20260216_225439.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_projac_v2.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251126_180505.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155731.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_20251201_155732.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "auditoria_sistema.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "painel_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_regulus.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "relatorio_auditoria_valor_avancada.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reparado_auditoria_regulus_report.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "category": "CONSULTORIA",
+            "score": 150
+        },
+        {
+            "file": "APPROVE_PROPOSAL.py",
+            "category": "VENDA_IMEDIATA",
+            "score": 100
+        }
+    ]
+}

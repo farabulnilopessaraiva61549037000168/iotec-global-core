@@ -1,0 +1,45 @@
+{
+  "core": [
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\rich\\console.py",
+      45
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\compat.py",
+      41
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\req\\req_install.py",
+      35
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\dist.py",
+      34
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\command\\easy_install.py",
+      34
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\network\\session.py",
+      28
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pkg_resources\\__init__.py",
+      28
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\__init__.py",
+      28
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\commands\\install.py",
+      27
+    ],
+    [
+      "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\operations\\prepare.py",
+      26
+    ]
+  ],
+  "noise": {}
+}

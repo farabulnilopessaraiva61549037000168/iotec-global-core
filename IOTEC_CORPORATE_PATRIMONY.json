@@ -1,0 +1,39 @@
+{
+    "generated_at": "2026-07-16T20:02:50.093391",
+    "ativos": {
+        "Python Modules": 117,
+        "Frameworks": 6,
+        "Capacidades": 15,
+        "Agentes": 9,
+        "Centros EstratÃ©gicos": 12,
+        "FÃ¡bricas": 8,
+        "Estados": 9,
+        "Cidades Piloto": 36,
+        "Segmentos": 18,
+        "MissÃµes": 648,
+        "Empresas Descobertas": 2,
+        "Oportunidades": 2,
+        "Produtos": 61,
+        "APIs": 38,
+        "Campanhas": 19,
+        "Clientes": 0,
+        "Receita": 0
+    },
+    "indices": {
+        "Conhecimento": 96,
+        "Arquitetura": 98,
+        "OrganizaÃ§Ã£o": 97,
+        "AutomaÃ§Ã£o": 87,
+        "Territorial": 28,
+        "Comercial": 34,
+        "Receita": 2
+    },
+    "passivos": [
+        "Google Maps pendente",
+        "LinkedIn pendente",
+        "Clientes reais",
+        "Receita recorrente",
+        "ImplantaÃ§Ã£o OpenAI",
+        "WhatsApp Business"
+    ]
+}

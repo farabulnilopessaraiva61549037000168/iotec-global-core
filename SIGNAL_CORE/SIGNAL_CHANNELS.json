@@ -1,0 +1,16 @@
+﻿{
+    "target_tower": "http://127.0.0.1:8080",
+    "signal_channels": [
+        "PAYMENTS",
+        "LEADS",
+        "VIDEOS",
+        "IMAGES",
+        "ADVERTISEMENT",
+        "PRODUCTS",
+        "OBSERVABILITY",
+        "PROGRAMMING",
+        "AUTOMATION"
+    ],
+    "mode": "REALTIME",
+    "synchronization": "CONTINUOUS"
+}

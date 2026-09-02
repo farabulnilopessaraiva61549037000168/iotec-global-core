@@ -1,0 +1,38 @@
+﻿{
+    "NODES_INTERNACIONAIS":  [
+                                 {
+                                     "Função":  "Portal Interativo \u0026 Simulador A4",
+                                     "Status":  "ONLINE",
+                                     "URL":  "https://deft-choux-097d84.netlify.app/",
+                                     "Provedor":  "Netlify (Edge CDN)"
+                                 },
+                                 {
+                                     "Função":  "Espelho de Redundância Front-End",
+                                     "Status":  "PRONTO",
+                                     "URL":  "https://iotec-oficial.vercel.app/",
+                                     "Provedor":  "Vercel (Edge Network)"
+                                 },
+                                 {
+                                     "Função":  "Processador Flask \u0026 Webhooks Real",
+                                     "Status":  "ONLINE",
+                                     "URL":  "https://iotec-engine.onrender.com/",
+                                     "Provedor":  "Render (Cloud Service)"
+                                 },
+                                 {
+                                     "Função":  "Documentação da API \u0026 SDKs",
+                                     "Status":  "PRONTO",
+                                     "URL":  "https://iotec-oficial.github.io/docs",
+                                     "Provedor":  "GitHub Pages (Dev Hub)"
+                                 }
+                             ],
+    "CONTATO_DIRECT":  "https://wa.me/5588993064168",
+    "NODES_NACIONAIS":  [
+                            {
+                                "Função":  "APIs de Alta Velocidade BR",
+                                "Status":  "ONLINE",
+                                "URL":  "https://iotec-br.fly.dev/",
+                                "Provedor":  "Fly.io (São Paulo - GRU)"
+                            }
+                        ],
+    "CNPJ_MATRIZ":  "61.549.037/0001-68"
+}

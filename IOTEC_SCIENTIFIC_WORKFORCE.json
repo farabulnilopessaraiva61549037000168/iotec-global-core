@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Economic Research Scientist",
+        "specialty": "Economia",
+        "department": "Scientific Council",
+        "mission": "Estudar economia mundial e tendências.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Market Research Scientist",
+        "specialty": "Mercado",
+        "department": "Scientific Council",
+        "mission": "Estudar concorrência e posicionamento.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Data Economy Scientist",
+        "specialty": "Economia dos Dados",
+        "department": "Scientific Council",
+        "mission": "Pesquisar monetização de dados.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Artificial Intelligence Scientist",
+        "specialty": "Inteligência Artificial",
+        "department": "Scientific Council",
+        "mission": "Pesquisar novos modelos de IA.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Engineering Scientist",
+        "specialty": "Engenharia",
+        "department": "Scientific Council",
+        "mission": "Pesquisar melhorias estruturais.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Technology Observatory Scientist",
+        "specialty": "Tecnologia",
+        "department": "Scientific Council",
+        "mission": "Monitorar tecnologias emergentes.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Geoeconomic Scientist",
+        "specialty": "Geoeconomia",
+        "department": "Scientific Council",
+        "mission": "Observar movimentos econômicos globais.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Commercial Scientist",
+        "specialty": "Comercial",
+        "department": "Scientific Council",
+        "mission": "Pesquisar técnicas modernas de vendas.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    },
+    {
+        "name": "Innovation Scientist",
+        "specialty": "Inovação",
+        "department": "Scientific Council",
+        "mission": "Criar novos produtos digitais.",
+        "status": "ONLINE",
+        "daily_reports": 0,
+        "new_ideas": 0,
+        "new_products": 0,
+        "improvements": 0
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "area": "Economia",
+        "title": "Economia Digital",
+        "author": "Economic Research Scientist",
+        "summary": "Pesquisa sobre economia digital.",
+        "tags": [
+            "economia",
+            "digital"
+        ],
+        "status": "CATALOGADO"
+    },
+    {
+        "id": 2,
+        "area": "Mercado",
+        "title": "Posicionamento Competitivo",
+        "author": "Market Research Scientist",
+        "summary": "Estratégias de posicionamento.",
+        "tags": [
+            "mercado",
+            "concorrência"
+        ],
+        "status": "CATALOGADO"
+    },
+    {
+        "id": 3,
+        "area": "IA",
+        "title": "Agentes Inteligentes",
+        "author": "Artificial Intelligence Scientist",
+        "summary": "Arquiteturas modernas de agentes.",
+        "tags": [
+            "ia",
+            "llm",
+            "agentes"
+        ],
+        "status": "CATALOGADO"
+    },
+    {
+        "id": 4,
+        "area": "Engenharia",
+        "title": "Theory of Constraints",
+        "author": "Engineering Scientist",
+        "summary": "Eliminação de gargalos.",
+        "tags": [
+            "engenharia",
+            "pcp"
+        ],
+        "status": "CATALOGADO"
+    },
+    {
+        "id": 5,
+        "area": "Tecnologia",
+        "title": "Cloud Computing",
+        "author": "Technology Scientist",
+        "summary": "Infraestrutura em nuvem.",
+        "tags": [
+            "cloud",
+            "infraestrutura"
+        ],
+        "status": "CATALOGADO"
+    }
+]

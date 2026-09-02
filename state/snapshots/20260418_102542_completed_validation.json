@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-04-18T10:25:42",
+  "status": "completed",
+  "target_nucleus": "validation",
+  "objective": "Validar o ciclo sistêmico",
+  "validation": {
+    "blocked": false,
+    "score": 0.96,
+    "reasons": []
+  },
+  "execution_result": {
+    "status": "ok",
+    "kind": "validation",
+    "objective": "Validar o ciclo sistêmico",
+    "compressed_complexity": 1.851258,
+    "checks_count": 4,
+    "passed": true,
+    "failed_reasons": []
+  },
+  "return_to_visible_core": {
+    "returned_to_visible_core": true,
+    "nucleus_name": "validation",
+    "result": {
+      "status": "ok",
+      "kind": "validation",
+      "objective": "Validar o ciclo sistêmico",
+      "compressed_complexity": 1.851258,
+      "checks_count": 4,
+      "passed": true,
+      "failed_reasons": []
+    }
+  }
+}

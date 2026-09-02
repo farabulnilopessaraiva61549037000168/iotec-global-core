@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-04-18T10:25:42",
+  "envelope": {
+    "target_nucleus": "validation",
+    "objective": "Validar o ciclo sistêmico",
+    "risk": 0.1,
+    "confidence_inputs": {
+      "source_integrity": 0.96,
+      "context_integrity": 0.96,
+      "formula_support": 0.96
+    },
+    "metadata": {
+      "checks": [
+        {
+          "name": "miner_ok",
+          "ok": true
+        },
+        {
+          "name": "corporate_ok",
+          "ok": true
+        },
+        {
+          "name": "visual_ok",
+          "ok": true
+        },
+        {
+          "name": "integration_ok",
+          "ok": true
+        }
+      ],
+      "complexity": 70,
+      "formula_trusted": true
+    }
+  },
+  "validation": {
+    "blocked": false,
+    "score": 0.96,
+    "reasons": []
+  }
+}

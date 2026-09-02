@@ -1,0 +1,76 @@
+{
+    "empresa": {
+        "nome": "IOTEC GLOBAL REALTY",
+        "holding": "IOTEC",
+        "cnpj": "61.549.037/0001-68",
+        "email": "iotec.bl@proton.me",
+        "status": "ONLINE",
+        "fundacao": "2026-08-31 19:07:41.414532"
+    },
+    "clientes": [
+        {
+            "id": "IOT-5C29DD1E",
+            "nome": "Fagner Saraiva Realty",
+            "pais": "Estados Unidos",
+            "email": "fagner@realty.com",
+            "categoria": "LUXURY",
+            "timestamp": "2026-08-31 19:07:41.414532"
+        },
+        {
+            "id": "IOT-1F4D2844",
+            "nome": "North Port Logistics",
+            "pais": "Europa",
+            "email": "north@ports.com",
+            "categoria": "PORTOS",
+            "timestamp": "2026-08-31 19:07:41.414532"
+        }
+    ],
+    "servicos": [
+        {
+            "id": "SV-84227E1814",
+            "cliente": "Fagner Saraiva Realty",
+            "pais": "Estados Unidos",
+            "categoria": "LUXURY",
+            "descricao": "Sistema premium imobiliario",
+            "ticket_usd": 34020.0,
+            "moeda_local": "USD",
+            "ticket_local": 34020.0,
+            "status": "EM ANALISE",
+            "timestamp": "2026-08-31 19:07:41.414532"
+        },
+        {
+            "id": "SV-6FB80D67E6",
+            "cliente": "North Port Logistics",
+            "pais": "Europa",
+            "categoria": "PORTOS",
+            "descricao": "Analytics logistico portuario",
+            "ticket_usd": 129254.4,
+            "moeda_local": "EUR",
+            "ticket_local": 118914.05,
+            "status": "EM ANALISE",
+            "timestamp": "2026-08-31 19:07:41.414532"
+        }
+    ],
+    "logs": [
+        {
+            "id": "5f52038d-4a2c-4d98-b923-761b0541e928",
+            "timestamp": "2026-08-31 19:07:41.414532",
+            "evento": "CLIENTE CADASTRADO -> Fagner Saraiva Realty"
+        },
+        {
+            "id": "3f699f37-71fc-417b-ab9c-34852360a866",
+            "timestamp": "2026-08-31 19:07:41.414532",
+            "evento": "CLIENTE CADASTRADO -> North Port Logistics"
+        },
+        {
+            "id": "7f63ea23-d0b8-48e8-836b-6a03f2697ae0",
+            "timestamp": "2026-08-31 19:07:41.414532",
+            "evento": "SERVICO GERADO -> SV-84227E1814"
+        },
+        {
+            "id": "b14be855-dd68-4e9f-b120-019001ffb2c3",
+            "timestamp": "2026-08-31 19:07:41.414532",
+            "evento": "SERVICO GERADO -> SV-6FB80D67E6"
+        }
+    ]
+}

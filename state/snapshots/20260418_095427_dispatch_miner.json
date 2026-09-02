@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-18T09:54:27",
+  "envelope": {
+    "target_nucleus": "miner",
+    "objective": "Minerar reservatórios e classificar veios digitais",
+    "risk": 0.2,
+    "confidence_inputs": {
+      "source_integrity": 0.94,
+      "context_integrity": 0.93,
+      "formula_support": 0.95
+    },
+    "metadata": {
+      "complexity": 250,
+      "formula_trusted": true
+    }
+  },
+  "validation": {
+    "blocked": false,
+    "score": 0.9400000000000001,
+    "reasons": []
+  }
+}

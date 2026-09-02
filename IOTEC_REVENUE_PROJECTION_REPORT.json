@@ -1,0 +1,11 @@
+{
+    "generated": "2026-06-07 16:59:40.075994",
+    "average_ticket": 5000,
+    "current_clients": 2,
+    "target_clients": 10,
+    "current_revenue": 10000,
+    "revenue_projection_30_days": 50000,
+    "revenue_projection_90_days": 150000,
+    "gap_revenue": 40000,
+    "status": "ESCALA"
+}

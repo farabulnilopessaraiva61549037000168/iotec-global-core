@@ -1,0 +1,528 @@
+{
+    "generated": "2026-06-07 14:38:45.709897",
+    "active_motors": [
+        "C:\\IOTEC\\APOCALYPSE_ENGINE.py",
+        "C:\\IOTEC\\APPROVE_PROPOSAL.py",
+        "C:\\IOTEC\\auditoria_estrategica.py",
+        "C:\\IOTEC\\auditoria_nucleo.py",
+        "C:\\IOTEC\\AUDIT_VALUE_ENGINE.py",
+        "C:\\IOTEC\\AUTOMATION_HISTORY_ENGINE.py",
+        "C:\\IOTEC\\AUTONOMOUS_LEAD.py",
+        "C:\\IOTEC\\AUTO_MONETIZATION_ENGINE.py",
+        "C:\\IOTEC\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\BILLING_ORCHESTRATOR.py",
+        "C:\\IOTEC\\BRAIN.py",
+        "C:\\IOTEC\\calcular_score.py",
+        "C:\\IOTEC\\CENTRAL_CORE.py",
+        "C:\\IOTEC\\CERTIFIER_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_CONVERSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_FUNNEL_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_FUSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\CONFIRM_PAYMENT.py",
+        "C:\\IOTEC\\CONSOLIDATION_ENGINE.py",
+        "C:\\IOTEC\\CORE_BUSINESS.py",
+        "C:\\IOTEC\\CORE_MASTER.py",
+        "C:\\IOTEC\\CORE_STRESS_TEST.py",
+        "C:\\IOTEC\\CORE_VERSAO_CALIBRADA.py",
+        "C:\\IOTEC\\CRM_ENGINE.py",
+        "C:\\IOTEC\\DEEP_CORE_SCANNER.py",
+        "C:\\IOTEC\\DIRECT_LEAD_TEST.py",
+        "C:\\IOTEC\\ECONOMIC_AUDIT_ENGINE.py",
+        "C:\\IOTEC\\ECONOMIC_INTELLIGENCE.py",
+        "C:\\IOTEC\\engine.py",
+        "C:\\IOTEC\\ENGINE_ROUTER_CORE.py",
+        "C:\\IOTEC\\ENTERPRISE_ENGINE.py",
+        "C:\\IOTEC\\ENTERPRISE_WEB_CORE.py",
+        "C:\\IOTEC\\EXECUTION_CORE.py",
+        "C:\\IOTEC\\fix_orchestrator_v2.py",
+        "C:\\IOTEC\\FUNNEL_WIRING_AUDIT.py",
+        "C:\\IOTEC\\GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\HYPERCORE_SHIELD.py",
+        "C:\\IOTEC\\INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+        "C:\\IOTEC\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+        "C:\\IOTEC\\IOTEC_AI_CORE.py",
+        "C:\\IOTEC\\iotec_alma_core.py",
+        "C:\\IOTEC\\iotec_alma_core_v2.py",
+        "C:\\IOTEC\\iotec_alma_core_v3.py",
+        "C:\\IOTEC\\iotec_alma_core_v4_governador.py",
+        "C:\\IOTEC\\iotec_alma_core_v5_consolidador.py",
+        "C:\\IOTEC\\IOTEC_ARCHITECTURE_AUDITOR.py",
+        "C:\\IOTEC\\IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_CAPABILITY_HUNTER.py",
+        "C:\\IOTEC\\IOTEC_CENTRAL_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_CONTROL_TOWER_ENGINE.py",
+        "C:\\IOTEC\\iotec_core.py",
+        "C:\\IOTEC\\IOTEC_CORE_24H.py",
+        "C:\\IOTEC\\IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+        "C:\\IOTEC\\IOTEC_CORE_EMAIL_24H.py",
+        "C:\\IOTEC\\IOTEC_CORE_LIVE_QUEUE.py",
+        "C:\\IOTEC\\IOTEC_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_CORE_QUEUE_PANEL.py",
+        "C:\\IOTEC\\IOTEC_CORE_RUNNER.py",
+        "C:\\IOTEC\\IOTEC_CUSTOMER_SERVICE_CORE.py",
+        "C:\\IOTEC\\IOTEC_DATABASE_CORE.py",
+        "C:\\IOTEC\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_GATEWAY_CORE.py",
+        "C:\\IOTEC\\IOTEC_GLOBAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_HIDDEN_CAPABILITIES_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_LIVE_CORE_AUDITOR.py",
+        "C:\\IOTEC\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+        "C:\\IOTEC\\IOTEC_MAIL_TO_CORE.py",
+        "C:\\IOTEC\\IOTEC_MASTER_CORE.py",
+        "C:\\IOTEC\\IOTEC_MASTER_CORE_BACKUP.py",
+        "C:\\IOTEC\\IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+        "C:\\IOTEC\\IOTEC_MEMORY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_MINIMAL_REAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_MULTI_MAIL_CORE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_ORCHESTRATION_AUDITOR.py",
+        "C:\\IOTEC\\iotec_orchestrator_master.py",
+        "C:\\IOTEC\\iotec_orchestrator_master_v2.py",
+        "C:\\IOTEC\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_PROGRAMMING_GRID_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_IDENTITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\IOTEC_SALES_CONSULTANT_AI.py",
+        "C:\\IOTEC\\iotec_sonda_core.py",
+        "C:\\IOTEC\\Iotec_Spine_Core.py",
+        "C:\\IOTEC\\Iotec_Spine_Core_Architecture.py",
+        "C:\\IOTEC\\IOTEC_STABILITY_CORE.py",
+        "C:\\IOTEC\\IOTEC_STABILITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_STRUCTURE_RECOVERY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_ULTRACORE_ARCHITECTURE.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\LEAD_OPERATIONS_CENTER.py",
+        "C:\\IOTEC\\LEAD_SCORE_ENGINE.py",
+        "C:\\IOTEC\\LIVE_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\META_ENGINE.py",
+        "C:\\IOTEC\\MIGRATE_ENTERPRISE_LEADS.py",
+        "C:\\IOTEC\\MIGRATE_LEADS_TABLE.py",
+        "C:\\IOTEC\\MINING_ENGINE.py",
+        "C:\\IOTEC\\MISSION_01_CAPABILITY_CATALOG.py",
+        "C:\\IOTEC\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py",
+        "C:\\IOTEC\\NEXUS_CORE.py",
+        "C:\\IOTEC\\nucleus_orchestrator.py",
+        "C:\\IOTEC\\OCCUPY_CORE.py",
+        "C:\\IOTEC\\OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\orchestrator.py",
+        "C:\\IOTEC\\orchestrator_cluster.py",
+        "C:\\IOTEC\\ORCHESTRATOR_ENGINE.py",
+        "C:\\IOTEC\\orchestrator_fixed.py",
+        "C:\\IOTEC\\orchestrator_fsm.py",
+        "C:\\IOTEC\\PAYMENT_ENGINE.py",
+        "C:\\IOTEC\\PAYMENT_SCHEMA_UPGRADE.py",
+        "C:\\IOTEC\\PRICING_ENGINE.py",
+        "C:\\IOTEC\\PROMOTE_LEADS.py",
+        "C:\\IOTEC\\PROPOSAL_ENGINE.py",
+        "C:\\IOTEC\\PROPOSAL_GENERATOR.py",
+        "C:\\IOTEC\\REAL_LEAD_BRIDGE.py",
+        "C:\\IOTEC\\REBUILD_VISIBLE_CORE.py",
+        "C:\\IOTEC\\registry_core.py",
+        "C:\\IOTEC\\REPORT_ENGINE.py",
+        "C:\\IOTEC\\REVELATION_ENGINE.py",
+        "C:\\IOTEC\\REVELATION_ENGINE_01.py",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_ENGINE.py",
+        "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py",
+        "C:\\IOTEC\\REVENUE_READINESS_AUDIT.py",
+        "C:\\IOTEC\\ROCKBOOST_ORBITAL_ENGINE.py",
+        "C:\\IOTEC\\SAFE_REPAIR_ENGINE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py",
+        "C:\\IOTEC\\SALES_BRAIN.py",
+        "C:\\IOTEC\\SALES_COMMAND_CENTER.py",
+        "C:\\IOTEC\\SALES_EXPERIENCE.py",
+        "C:\\IOTEC\\SHOW_NEW_LEAD_FUNCTION.py",
+        "C:\\IOTEC\\single_core_test.py",
+        "C:\\IOTEC\\SMART_CORE_EXPORT.py",
+        "C:\\IOTEC\\SMART_PRICING.py",
+        "C:\\IOTEC\\stability_core.py",
+        "C:\\IOTEC\\STRATEGIC_CATALOG_ENGINE.py",
+        "C:\\IOTEC\\test_lead.py",
+        "C:\\IOTEC\\TITAN_ENGINE.py",
+        "C:\\IOTEC\\TOP_ASSETS_ENGINE.py",
+        "C:\\IOTEC\\UNIFY_COMMERCIAL_CORE.py",
+        "C:\\IOTEC\\UPGRADE_LEADS_360.py",
+        "C:\\IOTEC\\ValuationEngine.py",
+        "C:\\IOTEC\\VERIFY_REAL_CORE.py",
+        "C:\\IOTEC\\AGENTS\\orchestrator.py",
+        "C:\\IOTEC\\core\\orchestrator.py",
+        "C:\\IOTEC\\core\\revenue.py",
+        "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+        "C:\\IOTEC\\core\\router\\visible_core_router.py",
+        "C:\\IOTEC\\GOVTECH_FULL\\engine.py",
+        "C:\\IOTEC\\LAB\\CONSOLIDATION_ENGINE.py",
+        "C:\\IOTEC\\LAB\\DEEP_CORE_SCANNER.py",
+        "C:\\IOTEC\\LAB\\IOTEC_CORE_LIVE_QUEUE.py",
+        "C:\\IOTEC\\LAB\\IOTEC_CORE_QUEUE_PANEL.py",
+        "C:\\IOTEC\\LAB\\Iotec_Spine_Core_Architecture.py",
+        "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py"
+    ],
+    "commercial_chain": [
+        "C:\\IOTEC\\APPROVE_PROPOSAL.py",
+        "C:\\IOTEC\\AUTONOMOUS_LEAD.py",
+        "C:\\IOTEC\\COMMERCIAL_CONTROL_TOWER.py",
+        "C:\\IOTEC\\COMMERCIAL_CONVERSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_EXECUTIVE_REPORT.py",
+        "C:\\IOTEC\\COMMERCIAL_FUNNEL_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_FUSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_HEALTH_CHECK.py",
+        "C:\\IOTEC\\COMMERCIAL_OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_TOWER.py",
+        "C:\\IOTEC\\COMMERCIAL_TO_PIPELINE_SYNC.py",
+        "C:\\IOTEC\\CRM_ENGINE.py",
+        "C:\\IOTEC\\DAILY_COMMERCIAL_AUTOMATION.py",
+        "C:\\IOTEC\\DIRECT_LEAD_TEST.py",
+        "C:\\IOTEC\\INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+        "C:\\IOTEC\\IOTEC_SALES_CONSULTANT_AI.py",
+        "C:\\IOTEC\\LEAD_OPERATIONS_CENTER.py",
+        "C:\\IOTEC\\LEAD_SCORE_ENGINE.py",
+        "C:\\IOTEC\\MIGRATE_ENTERPRISE_LEADS.py",
+        "C:\\IOTEC\\MIGRATE_LEADS_TABLE.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py",
+        "C:\\IOTEC\\PRICING_ENGINE.py",
+        "C:\\IOTEC\\PROMOTE_LEADS.py",
+        "C:\\IOTEC\\PROPOSAL_ENGINE.py",
+        "C:\\IOTEC\\PROPOSAL_GENERATOR.py",
+        "C:\\IOTEC\\REAL_LEAD_BRIDGE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py",
+        "C:\\IOTEC\\SALES_BRAIN.py",
+        "C:\\IOTEC\\SALES_COMMAND_CENTER.py",
+        "C:\\IOTEC\\SALES_EXPERIENCE.py",
+        "C:\\IOTEC\\SHOW_NEW_LEAD_FUNCTION.py",
+        "C:\\IOTEC\\SMART_PRICING.py",
+        "C:\\IOTEC\\test_lead.py",
+        "C:\\IOTEC\\UNIFY_COMMERCIAL_CORE.py",
+        "C:\\IOTEC\\UPGRADE_LEADS_360.py"
+    ],
+    "revenue_chain": [
+        "C:\\IOTEC\\AUTO_MONETIZATION_ENGINE.py",
+        "C:\\IOTEC\\BILLING_ORCHESTRATOR.py",
+        "C:\\IOTEC\\COMMERCIAL_OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\CONFIRM_PAYMENT.py",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_IDENTITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\OPPORTUNITY_RADAR.py",
+        "C:\\IOTEC\\PAYMENT_ENGINE.py",
+        "C:\\IOTEC\\PAYMENT_SCHEMA_UPGRADE.py",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_ENGINE.py",
+        "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py",
+        "C:\\IOTEC\\REVENUE_READINESS_AUDIT.py",
+        "C:\\IOTEC\\SYNC_MONETIZATION_TO_TOWER.py",
+        "C:\\IOTEC\\core\\revenue.py"
+    ],
+    "brain_chain": [
+        "C:\\IOTEC\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\BRAIN.py",
+        "C:\\IOTEC\\ECONOMIC_INTELLIGENCE.py",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_CENTRAL_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_MEMORY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_AUTO_FIX.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\MEMORY_FORTRESS.py",
+        "C:\\IOTEC\\ROCKBOOST_MEMORY.py",
+        "C:\\IOTEC\\SALES_BRAIN.py"
+    ],
+    "orchestrators": [
+        "C:\\IOTEC\\BILLING_ORCHESTRATOR.py",
+        "C:\\IOTEC\\COMMERCIAL_CONTROL_TOWER.py",
+        "C:\\IOTEC\\fix_orchestrator_v2.py",
+        "C:\\IOTEC\\GLOBAL_CONTROL_TOWER.py",
+        "C:\\IOTEC\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+        "C:\\IOTEC\\IOTEC_CONTROL_TOWER_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_CORE_RUNNER.py",
+        "C:\\IOTEC\\IOTEC_MAIL_MANAGER.py",
+        "C:\\IOTEC\\iotec_orchestrator_master.py",
+        "C:\\IOTEC\\iotec_orchestrator_master_v2.py",
+        "C:\\IOTEC\\nucleus_orchestrator.py",
+        "C:\\IOTEC\\orchestrator.py",
+        "C:\\IOTEC\\orchestrator_cluster.py",
+        "C:\\IOTEC\\ORCHESTRATOR_ENGINE.py",
+        "C:\\IOTEC\\orchestrator_fixed.py",
+        "C:\\IOTEC\\orchestrator_fsm.py",
+        "C:\\IOTEC\\AGENTS\\orchestrator.py",
+        "C:\\IOTEC\\core\\orchestrator.py"
+    ],
+    "databases": [
+        "C:\\IOTEC\\enterprise.db",
+        "C:\\IOTEC\\iotec.db",
+        "C:\\IOTEC\\iotec_core.db",
+        "C:\\IOTEC\\iotec_global.db",
+        "C:\\IOTEC\\iotec_operational.db",
+        "C:\\IOTEC\\iotec_revenue.db",
+        "C:\\IOTEC\\opportunity_radar.db",
+        "C:\\IOTEC\\tower.db"
+    ],
+    "largest_files": [
+        {
+            "file": "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py"
+        },
+        {
+            "file": "HIERARCHICA_ESCALATION.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\HIERARCHICA_ESCALATION.py"
+        },
+        {
+            "file": "ACROPOLE_NEXUS.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\ACROPOLE_NEXUS.py"
+        },
+        {
+            "file": "OMEGA_CINEMATIC.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\OMEGA_CINEMATIC.py"
+        },
+        {
+            "file": "ACROPOLE_OMEGA.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\ACROPOLE_OMEGA.py"
+        },
+        {
+            "file": "Iotec_Spine_Core_Architecture.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\LAB\\Iotec_Spine_Core_Architecture.py"
+        },
+        {
+            "file": "Iotec_Spine_Core_Architecture.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\Iotec_Spine_Core_Architecture.py"
+        },
+        {
+            "file": "LIVE_OPERATIONAL_CORE.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\LIVE_OPERATIONAL_CORE.py"
+        },
+        {
+            "file": "ACROPOLE_GLOBAL.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\ACROPOLE_GLOBAL.py"
+        },
+        {
+            "file": "IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "size_mb": 0.02,
+            "path": "C:\\IOTEC\\IOTEC_ULTRACORE_ARCHITECTURE.py"
+        },
+        {
+            "file": "ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\LAB\\ECOSSISTEMA_DE_IA_ASSISTIVA.py"
+        },
+        {
+            "file": "ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ECOSSISTEMA_DE_IA_ASSISTIVA.py"
+        },
+        {
+            "file": "iotec_nucleus.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\core\\nucleus\\iotec_nucleus.py"
+        },
+        {
+            "file": "OMEGA_X.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\OMEGA_X.py"
+        },
+        {
+            "file": "OMEGA _X.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\OMEGA _X.py"
+        },
+        {
+            "file": "IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py"
+        },
+        {
+            "file": "ENTERPRISE_ENGINE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ENTERPRISE_ENGINE.py"
+        },
+        {
+            "file": "ENTERPRISE_WEB_CORE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ENTERPRISE_WEB_CORE.py"
+        },
+        {
+            "file": "PERSISTENCE_BACKUP_20260511_193031.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\PERSISTENCE_BACKUP_20260511_193031.py"
+        },
+        {
+            "file": "ACROPOLE_INFINITY.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ACROPOLE_INFINITY.py"
+        },
+        {
+            "file": "REALTIME_EXECUTIVE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\REALTIME_EXECUTIVE.py"
+        },
+        {
+            "file": "INIT_BACKUP_20260511_190622.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\INIT_BACKUP_20260511_190622.py"
+        },
+        {
+            "file": "IOTEC_GLOBAL_CORE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_GLOBAL_CORE.py"
+        },
+        {
+            "file": "ACROPOLE_PRIME.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ACROPOLE_PRIME.py"
+        },
+        {
+            "file": "MOTOR_SEMANTICO.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\MOTOR_SEMANTICO.py"
+        },
+        {
+            "file": "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py"
+        },
+        {
+            "file": "BACKUP_20260511_185831.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\BACKUP_20260511_185831.py"
+        },
+        {
+            "file": "LIVE_SOCKET_TOWER_20260530_205639.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\BACKUP_LIVE_SOCKET\\LIVE_SOCKET_TOWER_20260530_205639.py"
+        },
+        {
+            "file": "ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py"
+        },
+        {
+            "file": "ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py"
+        },
+        {
+            "file": "LIVE_SOCKET_TOWER_20260530_205219.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\BACKUP_SOCKET\\LIVE_SOCKET_TOWER_20260530_205219.py"
+        },
+        {
+            "file": "CINEMATIC_ENTERPRISE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\CINEMATIC_ENTERPRISE.py"
+        },
+        {
+            "file": "MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py"
+        },
+        {
+            "file": "CORE_BUSINESS.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\CORE_BUSINESS.py"
+        },
+        {
+            "file": "iotec_cockpit_pleno_v2.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\COCKPIT\\iotec_cockpit_pleno_v2.py"
+        },
+        {
+            "file": "ACROPOLE_VISUAL.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ACROPOLE_VISUAL.py"
+        },
+        {
+            "file": "CINEMATIC_OPERATIONS.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\CINEMATIC_OPERATIONS.py"
+        },
+        {
+            "file": "CERTIFIER_ENGINE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\CERTIFIER_ENGINE.py"
+        },
+        {
+            "file": "ACROPOLE_COSMOS.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\ACROPOLE_COSMOS.py"
+        },
+        {
+            "file": "GLOBAL_REALTY.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\GLOBAL_REALTY.py"
+        },
+        {
+            "file": "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py"
+        },
+        {
+            "file": "EXECUTIVE_DASHBOARD.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\EXECUTIVE_DASHBOARD.py"
+        },
+        {
+            "file": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py"
+        },
+        {
+            "file": "BROADCAST.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\BROADCAST.py"
+        },
+        {
+            "file": "sonda_interna_de_integridade.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\sonda_interna_de_integridade.py"
+        },
+        {
+            "file": "TOWER_LIVE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\TOWER_LIVE.py"
+        },
+        {
+            "file": "IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\IOTEC_CUSTOMER_SERVICE_CORE.py"
+        },
+        {
+            "file": "CONSOLIDADOR_E_FILTRO.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\CONSOLIDADOR_E_FILTRO.py"
+        },
+        {
+            "file": "DATA_REFINERY_SYSTEM.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\DATA_REFINERY_SYSTEM.py"
+        },
+        {
+            "file": "LIVE_OPERATING.py",
+            "size_mb": 0.01,
+            "path": "C:\\IOTEC\\LIVE_OPERATING.py"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+  "ecosystem_name": "IOTEC",
+  "version": "1.0.0",
+  "timezone": "America/Fortaleza",
+  "principles": {
+    "gravity_law": true,
+    "reliability_law": true,
+    "atmosphere_filtering": true,
+    "logarithmic_scaling": true,
+    "return_to_core_required": true,
+    "stop_if_unreliable": true
+  },
+  "paths": {
+    "logs_dir": "LOGS",
+    "results_dir": "STATE/results",
+    "snapshots_dir": "STATE/snapshots",
+    "queues_dir": "STATE/queues",
+    "integration_dir": "STATE/integration",
+    "telemetry_dir": "STATE/telemetry",
+    "commercial_dir": "STATE/commercial"
+  },
+  "plates": [
+    {
+      "name": "collect",
+      "enabled": true,
+      "priority": 10,
+      "description": "Placa de coleta"
+    },
+    {
+      "name": "sanitize",
+      "enabled": true,
+      "priority": 20,
+      "description": "Placa de saneamento"
+    },
+    {
+      "name": "analyze",
+      "enabled": true,
+      "priority": 30,
+      "description": "Placa de analise"
+    },
+    {
+      "name": "produce",
+      "enabled": true,
+      "priority": 40,
+      "description": "Placa de producao"
+    },
+    {
+      "name": "expose",
+      "enabled": true,
+      "priority": 50,
+      "description": "Placa de exposicao"
+    },
+    {
+      "name": "integrate",
+      "enabled": true,
+      "priority": 60,
+      "description": "Placa de integracao"
+    },
+    {
+      "name": "monitor",
+      "enabled": true,
+      "priority": 70,
+      "description": "Placa de monitoramento"
+    }
+  ],
+  "reliability": {
+    "minimum_score": 0.72,
+    "high_confidence_score": 0.90,
+    "block_on_missing_contract": true,
+    "block_on_unknown_mapping": true,
+    "block_on_untrusted_formula": true
+  },
+  "commercial_layers": {
+    "internal_ecosystem": true,
+    "enterprise_showcase": true,
+    "integration_layer": true
+  },
+  "integration": {
+    "mode": "contract-first",
+    "require_adapter": true,
+    "require_mapping": true,
+    "require_auth_definition": true,
+    "require_data_contract": true,
+    "allow_manual_handoff": true,
+    "allow_third_party_integrator": true
+  }
+}

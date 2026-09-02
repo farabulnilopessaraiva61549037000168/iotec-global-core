@@ -1,0 +1,15 @@
+{
+    "modulo": "COMMERCIAL_FLOW_ENGINE",
+    "status": "PLANEJADO",
+    "etapas": [
+        "Arquitetura",
+        "Implementação",
+        "Testes",
+        "Auditoria",
+        "Integração",
+        "Publicação"
+    ],
+    "progresso": 0,
+    "responsavel": "SOFTWARE_FACTORY",
+    "criado_em": "08/07/2026 14:18:42"
+}

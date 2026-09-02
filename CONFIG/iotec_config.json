@@ -1,0 +1,55 @@
+{
+  "ecosystem_name": "IOTEC",
+  "architecture_name": "Arquitetura Superilusao Nucleo-Monolito V2",
+  "version": "2.1.0",
+  "timezone": "America/Fortaleza",
+  "host": "127.0.0.1",
+  "port": 8787,
+  "gravity": {
+    "single_visible_core": true,
+    "return_to_core_required": true
+  },
+  "reliability": {
+    "minimum_score": 0.72,
+    "high_score": 0.90,
+    "block_on_untrusted_formula": true,
+    "block_on_missing_contract": true,
+    "block_on_missing_mapping": true,
+    "block_on_failed_validation": true
+  },
+  "reservoirs": [
+    "C:/IOTEC",
+    "C:/IOTEC_PLATFORM",
+    "D:/IOTEC",
+    "D:/IOTEC_PLATFORM"
+  ],
+  "paths": {
+    "logs_dir": "LOGS",
+    "results_dir": "STATE/results",
+    "snapshots_dir": "STATE/snapshots",
+    "queues_dir": "STATE/queues",
+    "integration_dir": "STATE/integration",
+    "handoff_dir": "STATE/integration/handoff",
+    "telemetry_dir": "STATE/telemetry",
+    "commercial_dir": "STATE/commercial",
+    "visual_dir": "STATE/visual",
+    "corporate_dir": "STATE/corporate",
+    "miner_dir": "STATE/miner",
+    "miner_quarantine_dir": "STATE/miner/quarantine",
+    "miner_ranking_dir": "STATE/miner/ranking",
+    "miner_catalog_dir": "STATE/miner/catalog"
+  },
+  "fronts": {
+    "corporate_city_enabled": true,
+    "visual_city_enabled": true,
+    "showcase_enabled": true
+  },
+  "integration_policy": {
+    "mode": "contract-first",
+    "require_auth_definition": true,
+    "require_adapter": true,
+    "require_mapping": true,
+    "allow_manual_handoff": true,
+    "allow_third_party_integrator": true
+  }
+}

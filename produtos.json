@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "SNIA Score Global 9.85",
+    "itens": {
+      "relatorios": 3,
+      "graficos": 5,
+      "planilhas": 2,
+      "laudos": 1,
+      "formulas": 4,
+      "pericia": 2,
+      "autopsia": 1
+    }
+  },
+  {
+    "nome": "Gestão de Crises com Inteligência Artificial",
+    "itens": {
+      "relatorios": 5,
+      "graficos": 3,
+      "planilhas": 4,
+      "laudos": 2
+    }
+  }
+]

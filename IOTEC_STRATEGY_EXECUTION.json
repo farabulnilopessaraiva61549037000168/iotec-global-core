@@ -1,0 +1,65 @@
+{
+    "gerado_em": "2026-06-13 14:07:53.382859",
+    "estado": "ATIVO",
+    "missoes": [
+        {
+            "categoria": "EMPRESAS",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        },
+        {
+            "categoria": "ESCOLAS",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        },
+        {
+            "categoria": "UNIVERSIDADES",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        },
+        {
+            "categoria": "FORNECEDORES",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        },
+        {
+            "categoria": "TERCEIRIZADAS",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        },
+        {
+            "categoria": "PARCEIROS",
+            "status": "AGUARDANDO_FONTES",
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "fontes_atuais": 0,
+            "progresso": 0
+        }
+    ],
+    "cronometro": {
+        "inicio": "2026-06-13 14:07:53.382859",
+        "dias_planejamento": 30,
+        "objetivo": "Construir catalogo de fontes"
+    },
+    "painel": {
+        "categorias": 6,
+        "missoes_ativas": 6,
+        "fontes_catalogadas": 0,
+        "fontes_validadas": 0
+    }
+}

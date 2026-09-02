@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Scientific Library",
+        "mission": "Pesquisar literatura científica.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Market Intelligence Library",
+        "mission": "Pesquisar mercados e concorrência.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Economics Observatory",
+        "mission": "Acompanhar indicadores econômicos.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Technology Observatory",
+        "mission": "Monitorar tecnologias emergentes.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Geoeconomic Observatory",
+        "mission": "Observar movimentos geoeconômicos.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Future Scenario Laboratory",
+        "mission": "Construir cenários prospectivos.",
+        "status": "ONLINE"
+    },
+    {
+        "name": "Product Innovation Laboratory",
+        "mission": "Criar novos produtos digitais.",
+        "status": "ONLINE"
+    }
+]

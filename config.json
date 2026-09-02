@@ -1,0 +1,13 @@
+﻿{
+    "Plataforma":  {
+                       "CamadaAtiva":  "Camada_01",
+                       "NucleoPrincipal":  "TORI",
+                       "VideoFundo":  "C:\\IOTEC\\midias_fundo\\fundo_corporativo_escritorio.mp4"
+                   },
+    "Empresa":  {
+                    "Email":  "IOTEC.BL@proton.me",
+                    "RazaoSocial":  "IOTEC",
+                    "WhatsApp":  "88993064168",
+                    "CNPJ":  "61.549.037/0001-68"
+                }
+}

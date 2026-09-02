@@ -1,0 +1,5878 @@
+{
+    "generated_at": "2026-07-14T14:00:55.088104",
+    "total": 648,
+    "fila": [
+        {
+            "id": 1,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Engenharia Fortaleza",
+            "inicio": "2026-07-14T14:05:28.231283"
+        },
+        {
+            "id": 2,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Arquitetura Fortaleza",
+            "inicio": "2026-07-14T14:05:28.232281"
+        },
+        {
+            "id": 3,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Construção Fortaleza",
+            "inicio": "2026-07-14T14:05:28.233279"
+        },
+        {
+            "id": 4,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Hospitais Fortaleza",
+            "inicio": "2026-07-14T14:05:28.234274"
+        },
+        {
+            "id": 5,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Clínicas Fortaleza",
+            "inicio": "2026-07-14T14:05:28.234274"
+        },
+        {
+            "id": 6,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Farmácias Fortaleza",
+            "inicio": "2026-07-14T14:05:28.236286"
+        },
+        {
+            "id": 7,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Indústrias Fortaleza",
+            "inicio": "2026-07-14T14:05:28.236286"
+        },
+        {
+            "id": 8,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Transportes Fortaleza",
+            "inicio": "2026-07-14T14:05:28.238293"
+        },
+        {
+            "id": 9,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Tecnologia Fortaleza",
+            "inicio": "2026-07-14T14:05:28.238293"
+        },
+        {
+            "id": 10,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÇÃO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Supermercados Fortaleza",
+            "inicio": "2026-07-14T14:05:28.239321"
+        },
+        {
+            "id": 11,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Universidades Fortaleza",
+            "inicio": "2026-07-16T20:02:50.052398"
+        },
+        {
+            "id": 12,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Escolas Fortaleza",
+            "inicio": "2026-07-16T20:02:50.052398"
+        },
+        {
+            "id": 13,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Advocacia Fortaleza",
+            "inicio": "2026-07-16T20:02:50.053391"
+        },
+        {
+            "id": 14,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Contabilidade Fortaleza",
+            "inicio": "2026-07-16T20:02:50.053391"
+        },
+        {
+            "id": 15,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Energia Fortaleza",
+            "inicio": "2026-07-16T20:02:50.053391"
+        },
+        {
+            "id": 16,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Agronegócio Fortaleza",
+            "inicio": "2026-07-16T20:02:50.054502"
+        },
+        {
+            "id": 17,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Turismo Fortaleza",
+            "inicio": "2026-07-16T20:02:50.054502"
+        },
+        {
+            "id": 18,
+            "estado": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Hotéis Fortaleza",
+            "inicio": "2026-07-16T20:02:50.055543"
+        },
+        {
+            "id": 19,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Engenharia Caucaia",
+            "inicio": "2026-07-16T20:02:50.055543"
+        },
+        {
+            "id": 20,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "EM EXECUÃ‡ÃƒO",
+            "proxima_etapa": "DISCOVERY",
+            "consulta": "Arquitetura Caucaia",
+            "inicio": "2026-07-16T20:02:50.055543"
+        },
+        {
+            "id": 21,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 22,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 23,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 24,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 25,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 26,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 27,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 28,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 29,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 30,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 31,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 32,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 33,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 34,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 35,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 36,
+            "estado": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 37,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 38,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 39,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 40,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 41,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 42,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 43,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 44,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 45,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 46,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 47,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 48,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 49,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 50,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 51,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 52,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 53,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 54,
+            "estado": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 55,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 56,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 57,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 58,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 59,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 60,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 61,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 62,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 63,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 64,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 65,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 66,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 67,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 68,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 69,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 70,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 71,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 72,
+            "estado": "CE",
+            "cidade": "Sobral",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 73,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 74,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 75,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 76,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 77,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 78,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 79,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 80,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 81,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 82,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 83,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 84,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 85,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 86,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 87,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 88,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 89,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 90,
+            "estado": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 91,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 92,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 93,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 94,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 95,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 96,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 97,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 98,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 99,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 100,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 101,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 102,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 103,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 104,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 105,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 106,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 107,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 108,
+            "estado": "CE",
+            "cidade": "Crato",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 109,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 110,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 111,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 112,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 113,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 114,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 115,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 116,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 117,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 118,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 119,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 120,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 121,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 122,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 123,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 124,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 125,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 126,
+            "estado": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 127,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 128,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 129,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 130,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 131,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 132,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 133,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 134,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 135,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 136,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 137,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 138,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 139,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 140,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 141,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 142,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 143,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 144,
+            "estado": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 145,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 146,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 147,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 148,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 149,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 150,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 151,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 152,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 153,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 154,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 155,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 156,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 157,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 158,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 159,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 160,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 161,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 162,
+            "estado": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 163,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Engenharia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 164,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Arquitetura",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 165,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Construção",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 166,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Hospitais",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 167,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Clínicas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 168,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Farmácias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 169,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Indústrias",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 170,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Transportes",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 171,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Tecnologia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 172,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Supermercados",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 173,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Universidades",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 174,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Escolas",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 175,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Advocacia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 176,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Contabilidade",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 177,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Energia",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 178,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Agronegócio",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 179,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Turismo",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 180,
+            "estado": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Hotéis",
+            "agente": "CE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 181,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Engenharia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 182,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Arquitetura",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 183,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Construção",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 184,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Hospitais",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 185,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Clínicas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 186,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Farmácias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 187,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Indústrias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 188,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Transportes",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 189,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Tecnologia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 190,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Supermercados",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 191,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Universidades",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 192,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Escolas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 193,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Advocacia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 194,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Contabilidade",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 195,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Energia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 196,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Agronegócio",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 197,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Turismo",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 198,
+            "estado": "PE",
+            "cidade": "Recife",
+            "segmento": "Hotéis",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 199,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Engenharia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 200,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Arquitetura",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 201,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Construção",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 202,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Hospitais",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 203,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Clínicas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 204,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Farmácias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 205,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Indústrias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 206,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Transportes",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 207,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Tecnologia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 208,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Supermercados",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 209,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Universidades",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 210,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Escolas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 211,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Advocacia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 212,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Contabilidade",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 213,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Energia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 214,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Agronegócio",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 215,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Turismo",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 216,
+            "estado": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Hotéis",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 217,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Engenharia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 218,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Arquitetura",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 219,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Construção",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 220,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Hospitais",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 221,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Clínicas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 222,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Farmácias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 223,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Indústrias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 224,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Transportes",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 225,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Tecnologia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 226,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Supermercados",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 227,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Universidades",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 228,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Escolas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 229,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Advocacia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 230,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Contabilidade",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 231,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Energia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 232,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Agronegócio",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 233,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Turismo",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 234,
+            "estado": "PE",
+            "cidade": "Olinda",
+            "segmento": "Hotéis",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 235,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Engenharia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 236,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Arquitetura",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 237,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Construção",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 238,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Hospitais",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 239,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Clínicas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 240,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Farmácias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 241,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Indústrias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 242,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Transportes",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 243,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Tecnologia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 244,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Supermercados",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 245,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Universidades",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 246,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Escolas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 247,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Advocacia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 248,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Contabilidade",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 249,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Energia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 250,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Agronegócio",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 251,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Turismo",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 252,
+            "estado": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Hotéis",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 253,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Engenharia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 254,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Arquitetura",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 255,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Construção",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 256,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Hospitais",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 257,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Clínicas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 258,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Farmácias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 259,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Indústrias",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 260,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Transportes",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 261,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Tecnologia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 262,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Supermercados",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 263,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Universidades",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 264,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Escolas",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 265,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Advocacia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 266,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Contabilidade",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 267,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Energia",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 268,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Agronegócio",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 269,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Turismo",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 270,
+            "estado": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Hotéis",
+            "agente": "PE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 271,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Engenharia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 272,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Arquitetura",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 273,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Construção",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 274,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Hospitais",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 275,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Clínicas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 276,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Farmácias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 277,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Indústrias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 278,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Transportes",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 279,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Tecnologia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 280,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Supermercados",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 281,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Universidades",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 282,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Escolas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 283,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Advocacia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 284,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Contabilidade",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 285,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Energia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 286,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Agronegócio",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 287,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Turismo",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 288,
+            "estado": "BA",
+            "cidade": "Salvador",
+            "segmento": "Hotéis",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 289,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Engenharia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 290,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Arquitetura",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 291,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Construção",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 292,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Hospitais",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 293,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Clínicas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 294,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Farmácias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 295,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Indústrias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 296,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Transportes",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 297,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Tecnologia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 298,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Supermercados",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 299,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Universidades",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 300,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Escolas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 301,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Advocacia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 302,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Contabilidade",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 303,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Energia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 304,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Agronegócio",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 305,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Turismo",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 306,
+            "estado": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Hotéis",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 307,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Engenharia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 308,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Arquitetura",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 309,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Construção",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 310,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Hospitais",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 311,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Clínicas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 312,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Farmácias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 313,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Indústrias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 314,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Transportes",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 315,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Tecnologia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 316,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Supermercados",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 317,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Universidades",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 318,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Escolas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 319,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Advocacia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 320,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Contabilidade",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 321,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Energia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 322,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Agronegócio",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 323,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Turismo",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 324,
+            "estado": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Hotéis",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 325,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Engenharia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 326,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Arquitetura",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 327,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Construção",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 328,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Hospitais",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 329,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Clínicas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 330,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Farmácias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 331,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Indústrias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 332,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Transportes",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 333,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Tecnologia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 334,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Supermercados",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 335,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Universidades",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 336,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Escolas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 337,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Advocacia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 338,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Contabilidade",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 339,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Energia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 340,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Agronegócio",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 341,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Turismo",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 342,
+            "estado": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Hotéis",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 343,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Engenharia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 344,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Arquitetura",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 345,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Construção",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 346,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Hospitais",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 347,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Clínicas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 348,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Farmácias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 349,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Indústrias",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 350,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Transportes",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 351,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Tecnologia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 352,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Supermercados",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 353,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Universidades",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 354,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Escolas",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 355,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Advocacia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 356,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Contabilidade",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 357,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Energia",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 358,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Agronegócio",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 359,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Turismo",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 360,
+            "estado": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Hotéis",
+            "agente": "BA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 361,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Engenharia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 362,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Arquitetura",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 363,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Construção",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 364,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Hospitais",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 365,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Clínicas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 366,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Farmácias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 367,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Indústrias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 368,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Transportes",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 369,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Tecnologia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 370,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Supermercados",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 371,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Universidades",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 372,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Escolas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 373,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Advocacia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 374,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Contabilidade",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 375,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Energia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 376,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Agronegócio",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 377,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Turismo",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 378,
+            "estado": "RN",
+            "cidade": "Natal",
+            "segmento": "Hotéis",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 379,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Engenharia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 380,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Arquitetura",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 381,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Construção",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 382,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Hospitais",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 383,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Clínicas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 384,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Farmácias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 385,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Indústrias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 386,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Transportes",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 387,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Tecnologia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 388,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Supermercados",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 389,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Universidades",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 390,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Escolas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 391,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Advocacia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 392,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Contabilidade",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 393,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Energia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 394,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Agronegócio",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 395,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Turismo",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 396,
+            "estado": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Hotéis",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 397,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Engenharia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 398,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Arquitetura",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 399,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Construção",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 400,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Hospitais",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 401,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Clínicas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 402,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Farmácias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 403,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Indústrias",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 404,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Transportes",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 405,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Tecnologia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 406,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Supermercados",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 407,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Universidades",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 408,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Escolas",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 409,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Advocacia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 410,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Contabilidade",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 411,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Energia",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 412,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Agronegócio",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 413,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Turismo",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 414,
+            "estado": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Hotéis",
+            "agente": "RN_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 415,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Engenharia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 416,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Arquitetura",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 417,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Construção",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 418,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Hospitais",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 419,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Clínicas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 420,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Farmácias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 421,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Indústrias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 422,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Transportes",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 423,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Tecnologia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 424,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Supermercados",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 425,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Universidades",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 426,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Escolas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 427,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Advocacia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 428,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Contabilidade",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 429,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Energia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 430,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Agronegócio",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 431,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Turismo",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 432,
+            "estado": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Hotéis",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 433,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Engenharia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 434,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Arquitetura",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 435,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Construção",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 436,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Hospitais",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 437,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Clínicas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 438,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Farmácias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 439,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Indústrias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 440,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Transportes",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 441,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Tecnologia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 442,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Supermercados",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 443,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Universidades",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 444,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Escolas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 445,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Advocacia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 446,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Contabilidade",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 447,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Energia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 448,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Agronegócio",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 449,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Turismo",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 450,
+            "estado": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Hotéis",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 451,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Engenharia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 452,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Arquitetura",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 453,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Construção",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 454,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Hospitais",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 455,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Clínicas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 456,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Farmácias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 457,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Indústrias",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 458,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Transportes",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 459,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Tecnologia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 460,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Supermercados",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 461,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Universidades",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 462,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Escolas",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 463,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Advocacia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 464,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Contabilidade",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 465,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Energia",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 466,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Agronegócio",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 467,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Turismo",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 468,
+            "estado": "PB",
+            "cidade": "Patos",
+            "segmento": "Hotéis",
+            "agente": "PB_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 469,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Engenharia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 470,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Arquitetura",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 471,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Construção",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 472,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Hospitais",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 473,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Clínicas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 474,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Farmácias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 475,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Indústrias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 476,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Transportes",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 477,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Tecnologia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 478,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Supermercados",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 479,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Universidades",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 480,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Escolas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 481,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Advocacia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 482,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Contabilidade",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 483,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Energia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 484,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Agronegócio",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 485,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Turismo",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 486,
+            "estado": "PI",
+            "cidade": "Teresina",
+            "segmento": "Hotéis",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 487,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Engenharia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 488,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Arquitetura",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 489,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Construção",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 490,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Hospitais",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 491,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Clínicas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 492,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Farmácias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 493,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Indústrias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 494,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Transportes",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 495,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Tecnologia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 496,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Supermercados",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 497,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Universidades",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 498,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Escolas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 499,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Advocacia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 500,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Contabilidade",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 501,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Energia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 502,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Agronegócio",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 503,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Turismo",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 504,
+            "estado": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Hotéis",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 505,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Engenharia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 506,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Arquitetura",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 507,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Construção",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 508,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Hospitais",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 509,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Clínicas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 510,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Farmácias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 511,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Indústrias",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 512,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Transportes",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 513,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Tecnologia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 514,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Supermercados",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 515,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Universidades",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 516,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Escolas",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 517,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Advocacia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 518,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Contabilidade",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 519,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Energia",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 520,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Agronegócio",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 521,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Turismo",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 522,
+            "estado": "PI",
+            "cidade": "Picos",
+            "segmento": "Hotéis",
+            "agente": "PI_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 523,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Engenharia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 524,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Arquitetura",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 525,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Construção",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 526,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Hospitais",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 527,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Clínicas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 528,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Farmácias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 529,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Indústrias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 530,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Transportes",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 531,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Tecnologia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 532,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Supermercados",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 533,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Universidades",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 534,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Escolas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 535,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Advocacia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 536,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Contabilidade",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 537,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Energia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 538,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Agronegócio",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 539,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Turismo",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 540,
+            "estado": "MA",
+            "cidade": "São Luís",
+            "segmento": "Hotéis",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 541,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Engenharia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 542,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Arquitetura",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 543,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Construção",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 544,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Hospitais",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 545,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Clínicas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 546,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Farmácias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 547,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Indústrias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 548,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Transportes",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 549,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Tecnologia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 550,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Supermercados",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 551,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Universidades",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 552,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Escolas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 553,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Advocacia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 554,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Contabilidade",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 555,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Energia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 556,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Agronegócio",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 557,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Turismo",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 558,
+            "estado": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Hotéis",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 559,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Engenharia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 560,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Arquitetura",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 561,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Construção",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 562,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Hospitais",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 563,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Clínicas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 564,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Farmácias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 565,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Indústrias",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 566,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Transportes",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 567,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Tecnologia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 568,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Supermercados",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 569,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Universidades",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 570,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Escolas",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 571,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Advocacia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 572,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Contabilidade",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 573,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Energia",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 574,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Agronegócio",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 575,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Turismo",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 576,
+            "estado": "MA",
+            "cidade": "Caxias",
+            "segmento": "Hotéis",
+            "agente": "MA_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 577,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Engenharia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 578,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Arquitetura",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 579,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Construção",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 580,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Hospitais",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 581,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Clínicas",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 582,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Farmácias",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 583,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Indústrias",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 584,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Transportes",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 585,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Tecnologia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 586,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Supermercados",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 587,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Universidades",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 588,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Escolas",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 589,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Advocacia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 590,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Contabilidade",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 591,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Energia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 592,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Agronegócio",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 593,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Turismo",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 594,
+            "estado": "AL",
+            "cidade": "Maceió",
+            "segmento": "Hotéis",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 595,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Engenharia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 596,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Arquitetura",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 597,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Construção",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 598,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Hospitais",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 599,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Clínicas",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 600,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Farmácias",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 601,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Indústrias",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 602,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Transportes",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 603,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Tecnologia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 604,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Supermercados",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 605,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Universidades",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 606,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Escolas",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 607,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Advocacia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 608,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Contabilidade",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 609,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Energia",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 610,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Agronegócio",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 611,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Turismo",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 612,
+            "estado": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Hotéis",
+            "agente": "AL_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 613,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Engenharia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 614,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Arquitetura",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 615,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Construção",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 616,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Hospitais",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 617,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Clínicas",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 618,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Farmácias",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 619,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Indústrias",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 620,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Transportes",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 621,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Tecnologia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 622,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Supermercados",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 623,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Universidades",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 624,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Escolas",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 625,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Advocacia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 626,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Contabilidade",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 627,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Energia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 628,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Agronegócio",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 629,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Turismo",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 630,
+            "estado": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Hotéis",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 631,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Engenharia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 632,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Arquitetura",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 633,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Construção",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 634,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Hospitais",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 635,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Clínicas",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 636,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Farmácias",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 637,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Indústrias",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 638,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Transportes",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 639,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Tecnologia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 640,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Supermercados",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 641,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Universidades",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 642,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Escolas",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 643,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Advocacia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 644,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Contabilidade",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 645,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Energia",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 646,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Agronegócio",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 647,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Turismo",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        },
+        {
+            "id": 648,
+            "estado": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Hotéis",
+            "agente": "SE_AGENT",
+            "status": "AGUARDANDO",
+            "proxima_etapa": "DISCOVERY"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "data": "2026-07-08 08:03:59.948779",
+        "dados": {
+            "mercado": 87,
+            "clientes": 67,
+            "inovacao": 41,
+            "seguranca": 98,
+            "infraestrutura": 72,
+            "capital": 45,
+            "processos": 55
+        },
+        "indices": {
+            "oportunidade": 64.25,
+            "risco": 30.8
+        },
+        "arvore": [
+            "Mercado favorável identificado"
+        ],
+        "cenarios": {
+            "cenário_atual": 64.25,
+            "aumento_clientes_30%": 83.53,
+            "melhoria_inovacao_40%": 77.1,
+            "expansao_completa": 102.8
+        },
+        "roi": {
+            "investimento_estimado": 12370,
+            "retorno_estimado": 28265.45,
+            "ROI": 128.5
+        },
+        "plano": [
+            "Investir em tecnologia"
+        ]
+    }
+]

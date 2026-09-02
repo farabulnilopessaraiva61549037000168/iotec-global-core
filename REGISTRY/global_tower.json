@@ -1,0 +1,36 @@
+{
+  "tower":"GLOBAL_COMMAND_TOWER",
+  "lots":[
+    {
+      "lot":"BLACK_DIAMOND_LOT_001",
+      "status":"ONLINE",
+      "layers":[
+        {
+          "layer":"LAYER_1_FRONTEND",
+          "agent":"FRONT_AGENT",
+          "responsibility":"Interface frontal, vídeos, navegação principal"
+        },
+        {
+          "layer":"LAYER_2_RECEPTION",
+          "agent":"RECEPTION_AGENT",
+          "responsibility":"Cadastro, recepção, contato corporativo"
+        },
+        {
+          "layer":"LAYER_3_ANALYSIS",
+          "agent":"ANALYSIS_AGENT",
+          "responsibility":"Análise econômica e orçamento automático"
+        },
+        {
+          "layer":"LAYER_4_ROUTER",
+          "agent":"ROUTER_AGENT",
+          "responsibility":"Rotas, portas, registry e navegação"
+        },
+        {
+          "layer":"LAYER_5_COMMAND",
+          "agent":"COMMAND_AGENT",
+          "responsibility":"Conexão com torre central e supervisão"
+        }
+      ]
+    }
+  ]
+}

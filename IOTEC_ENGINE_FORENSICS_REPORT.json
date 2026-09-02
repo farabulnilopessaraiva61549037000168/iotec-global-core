@@ -1,0 +1,290 @@
+{
+    "gerado_em": "2026-06-13 11:59:46.632270",
+    "motores": [
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\TOKEN.py",
+            "nome": "TOKEN.py",
+            "bytes": 6402,
+            "modificado": "2026-05-27T07:58:32.839974",
+            "assinaturas": {
+                "token": 46
+            },
+            "urls_encontradas": [],
+            "score": 46
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+            "nome": "token.py",
+            "bytes": 6402,
+            "modificado": "2026-05-27T07:58:32.839974",
+            "assinaturas": {
+                "token": 46
+            },
+            "urls_encontradas": [],
+            "score": 46
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+            "nome": "IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121,
+            "modificado": "2026-05-27T07:58:08.960726",
+            "assinaturas": {
+                "requests_post": 2,
+                "token": 7,
+                "bearer": 1,
+                "authorization": 1,
+                "json_dump": 1,
+                "json_load": 1,
+                "url": 3,
+                "socket": 5
+            },
+            "urls_encontradas": [
+                "https://api-m.sandbox.paypal.com",
+                "https://api-m.paypal.com"
+            ],
+            "score": 21
+        },
+        {
+            "arquivo": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+            "nome": "IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121,
+            "modificado": "2026-05-27T07:58:23.163681",
+            "assinaturas": {
+                "requests_post": 2,
+                "token": 7,
+                "bearer": 1,
+                "authorization": 1,
+                "json_dump": 1,
+                "json_load": 1,
+                "url": 3,
+                "socket": 5
+            },
+            "urls_encontradas": [
+                "https://api-m.sandbox.paypal.com",
+                "https://api-m.paypal.com"
+            ],
+            "score": 21
+        },
+        {
+            "arquivo": "C:\\IOTEC\\SIGNAL_MAPPER.py",
+            "nome": "SIGNAL_MAPPER.py",
+            "bytes": 8859,
+            "modificado": "2026-05-30T18:12:38.983687",
+            "assinaturas": {
+                "requests_get": 1,
+                "json_dump": 1,
+                "url": 1,
+                "socket": 14,
+                "websocket": 2
+            },
+            "urls_encontradas": [
+                "http://127.0.0.1:8080/api/status"
+            ],
+            "score": 19
+        },
+        {
+            "arquivo": "C:\\IOTEC\\paypal_server.py",
+            "nome": "paypal_server.py",
+            "bytes": 2144,
+            "modificado": "2026-05-27T07:57:55.134232",
+            "assinaturas": {
+                "requests_post": 2,
+                "token": 6,
+                "bearer": 1,
+                "authorization": 2,
+                "url": 3
+            },
+            "urls_encontradas": [
+                "https://api-m.sandbox.paypal.com",
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso"
+            ],
+            "score": 14
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+            "nome": "paypal_server.py",
+            "bytes": 2144,
+            "modificado": "2026-05-27T07:58:01.486317",
+            "assinaturas": {
+                "requests_post": 2,
+                "token": 6,
+                "bearer": 1,
+                "authorization": 2,
+                "url": 3
+            },
+            "urls_encontradas": [
+                "https://api-m.sandbox.paypal.com",
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso"
+            ],
+            "score": 14
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\paypal_server.py",
+            "nome": "paypal_server.py",
+            "bytes": 2144,
+            "modificado": "2026-05-27T07:58:06.650150",
+            "assinaturas": {
+                "requests_post": 2,
+                "token": 6,
+                "bearer": 1,
+                "authorization": 2,
+                "url": 3
+            },
+            "urls_encontradas": [
+                "https://api-m.sandbox.paypal.com",
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso"
+            ],
+            "score": 14
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+            "nome": "IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "modificado": "2026-05-27T07:57:53.543170",
+            "assinaturas": {
+                "requests_get": 1,
+                "beautifulsoup": 3,
+                "url": 5,
+                "socket": 1
+            },
+            "urls_encontradas": [
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5000",
+                "https://SEU-SITE.netlify.app",
+                "https://SEU-NUCLEO.onrender.com",
+                "http://127.0.0.1:5050"
+            ],
+            "score": 10
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\IOTEC_WEB_OBSERVER.py",
+            "nome": "IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "modificado": "2026-05-27T07:58:01.468463",
+            "assinaturas": {
+                "requests_get": 1,
+                "beautifulsoup": 3,
+                "url": 5,
+                "socket": 1
+            },
+            "urls_encontradas": [
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5000",
+                "https://SEU-SITE.netlify.app",
+                "https://SEU-NUCLEO.onrender.com",
+                "http://127.0.0.1:5050"
+            ],
+            "score": 10
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WEB_OBSERVER.py",
+            "nome": "IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "modificado": "2026-05-27T07:58:05.401999",
+            "assinaturas": {
+                "requests_get": 1,
+                "beautifulsoup": 3,
+                "url": 5,
+                "socket": 1
+            },
+            "urls_encontradas": [
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5000",
+                "https://SEU-SITE.netlify.app",
+                "https://SEU-NUCLEO.onrender.com",
+                "http://127.0.0.1:5050"
+            ],
+            "score": 10
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Specter.Fortress.py",
+            "nome": "Specter.Fortress.py",
+            "bytes": 2156,
+            "modificado": "2026-05-27T07:58:21.682072",
+            "assinaturas": {
+                "requests_get": 1,
+                "url": 3,
+                "socket": 5
+            },
+            "urls_encontradas": [
+                "https://example.com",
+                "https://anotherdomain.com",
+                "https://targetdata.com"
+            ],
+            "score": 9
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+            "nome": "TOKEN.py",
+            "bytes": 517,
+            "modificado": "2026-05-27T07:58:22.184647",
+            "assinaturas": {
+                "requests_get": 1,
+                "token": 4,
+                "url": 1
+            },
+            "urls_encontradas": [
+                "https://api.figma.com/v1/files/{FILE_ID}"
+            ],
+            "score": 6
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\token.py",
+            "nome": "token.py",
+            "bytes": 517,
+            "modificado": "2026-05-27T07:58:22.184647",
+            "assinaturas": {
+                "requests_get": 1,
+                "token": 4,
+                "url": 1
+            },
+            "urls_encontradas": [
+                "https://api.figma.com/v1/files/{FILE_ID}"
+            ],
+            "score": 6
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+            "nome": "CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "modificado": "2026-05-27T07:57:48.872831",
+            "assinaturas": {
+                "api_key": 2,
+                "token": 1
+            },
+            "urls_encontradas": [],
+            "score": 3
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CREATIVE_EXPLORER.py",
+            "nome": "CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "modificado": "2026-05-27T07:58:02.885313",
+            "assinaturas": {
+                "api_key": 2,
+                "token": 1
+            },
+            "urls_encontradas": [],
+            "score": 3
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CREATIVE_EXPLORER.py",
+            "nome": "CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "modificado": "2026-05-27T07:58:13.321263",
+            "assinaturas": {
+                "api_key": 2,
+                "token": 1
+            },
+            "urls_encontradas": [],
+            "score": 3
+        }
+    ],
+    "resumo": {
+        "motores_inspecionados": 17,
+        "motores_com_score": 17
+    }
+}

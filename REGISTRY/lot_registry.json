@@ -1,0 +1,36 @@
+{
+  "lot":"LOT_001",
+  "status":"ONLINE",
+  "layers":[
+    {
+      "id":"LAYER_1_FRONTEND",
+      "agent":"FRONT_AGENT",
+      "port":5173,
+      "status":"ACTIVE"
+    },
+    {
+      "id":"LAYER_2_RECEPTION",
+      "agent":"RECEPTION_AGENT",
+      "port":5174,
+      "status":"ACTIVE"
+    },
+    {
+      "id":"LAYER_3_ANALYSIS",
+      "agent":"ANALYSIS_AGENT",
+      "port":5175,
+      "status":"ACTIVE"
+    },
+    {
+      "id":"LAYER_4_ROUTER",
+      "agent":"ROUTER_AGENT",
+      "port":5176,
+      "status":"ACTIVE"
+    },
+    {
+      "id":"LAYER_5_COMMAND",
+      "agent":"COMMAND_AGENT",
+      "port":5177,
+      "status":"ACTIVE"
+    }
+  ]
+}

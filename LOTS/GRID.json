@@ -1,0 +1,18 @@
+{
+    "MORNING": {
+        "focus": "EXECUTIVE_ANALYTICS",
+        "lot": "LOT_001_EXECUTIVE_GOVTECH"
+    },
+    "AFTERNOON": {
+        "focus": "MEDIA_PUBLICITY",
+        "lot": "LOT_002_MEDIA_ADVERTISEMENT"
+    },
+    "EVENING": {
+        "focus": "MARKET_SIGNALS",
+        "lot": "LOT_003_MARKET_SIGNALS"
+    },
+    "NIGHT": {
+        "focus": "AI_AUTOMATION",
+        "lot": "LOT_004_AUTOMATION_AI"
+    }
+}

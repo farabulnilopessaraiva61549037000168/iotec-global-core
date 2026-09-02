@@ -1,0 +1,2708 @@
+[
+    {
+        "caminho": "C:\\IOTEC",
+        "score": 72,
+        "itens": [
+            "app.py",
+            "index.html",
+            "main.py",
+            "package.json",
+            "README.md",
+            "requirements.txt"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS",
+        "score": 59,
+        "itens": [
+            "app.py",
+            "index.html",
+            "main.py",
+            "next.config.js",
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO",
+        "score": 49,
+        "itens": [
+            "app.py",
+            "main.py",
+            "next.config.js",
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond",
+        "score": 43,
+        "itens": [
+            "index.html",
+            "package.json",
+            "README.md",
+            "vite.config.js"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\frontend",
+        "score": 43,
+        "itens": [
+            "index.html",
+            "package.json",
+            "README.md",
+            "vite.config.js"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\MINERADORA_BRUTA",
+        "score": 35,
+        "itens": [
+            "index.html",
+            "next.config.js",
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\backend",
+        "score": 27,
+        "itens": [
+            "app.py",
+            "requirements.txt"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\GOVTECH_FULL",
+        "score": 27,
+        "itens": [
+            "app.py",
+            "requirements.txt"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\IOTEC_ENTERPRISE",
+        "score": 27,
+        "itens": [
+            "app.py",
+            "requirements.txt"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY",
+        "score": 27,
+        "itens": [
+            "app.py",
+            "requirements.txt"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project",
+        "score": 25,
+        "itens": [
+            "index.html",
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\ENCODING_BACKUP",
+        "score": 24,
+        "itens": [
+            "app.py",
+            "main.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\code-frame",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\compat-data",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\core",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\generator",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-compilation-targets",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-globals",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-module-imports",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-module-transforms",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-string-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-validator-identifier",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helper-validator-option",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\helpers",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\template",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\traverse",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@babel\\types",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\config-array",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\config-helpers",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\core",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\object-schema",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint\\plugin-kit",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint-community\\eslint-utils",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint-community\\eslint-utils\\node_modules\\eslint-visitor-keys",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@eslint-community\\regexpp",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@humanfs\\core",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@humanfs\\node",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@humanfs\\types",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@humanwhocodes\\module-importer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@humanwhocodes\\retry",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@jridgewell\\gen-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@jridgewell\\remapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@jridgewell\\resolve-uri",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@jridgewell\\sourcemap-codec",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@jridgewell\\trace-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@oxc-project\\types",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@rolldown\\binding-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@rolldown\\pluginutils",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@types\\esrecurse",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@types\\estree",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@types\\json-schema",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@types\\react",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@types\\react-dom",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\@vitejs\\plugin-react",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\acorn",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\acorn-jsx",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\ajv",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\autoprefixer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\balanced-match",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\baseline-browser-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\brace-expansion",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\browserslist",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\caniuse-lite",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\convert-source-map",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\cross-spawn",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\csstype",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\debug",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\detect-libc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\electron-to-chromium",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\eslint",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\eslint-plugin-react-hooks",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\eslint-plugin-react-refresh",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\eslint-scope",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\eslint-visitor-keys",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\espree",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\esquery",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\esrecurse",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\estraverse",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\esutils",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\fast-deep-equal",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\fast-json-stable-stringify",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\fast-levenshtein",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\fdir",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\file-entry-cache",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\flat-cache",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\flatted",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\fraction.js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\gensync",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\glob-parent",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\hermes-estree",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\hermes-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\ignore",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\imurmurhash",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\is-extglob",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\is-glob",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\isexe",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\js-tokens",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\jsesc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\json-buffer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\json-schema-traverse",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\json5",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\keyv",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\levn",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\lightningcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\lightningcss-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\lru-cache",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\minimatch",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\nanoid",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\natural-compare",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\node-releases",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\optionator",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\picocolors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\picomatch",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\postcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\postcss-value-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\prelude-ls",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\punycode",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\react",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\react-dom",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\rolldown",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\scheduler",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\semver",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\source-map-js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\tailwindcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\tinyglobby",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\type-check",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\update-browserslist-db",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\uri-js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\vite",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\which",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\word-wrap",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\yallist",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod-validation-error",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@jridgewell\\gen-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@jridgewell\\remapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@jridgewell\\resolve-uri",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@jridgewell\\sourcemap-codec",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@jridgewell\\trace-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@react-leaflet\\core",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@tailwindcss\\node",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@tailwindcss\\postcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\autoprefixer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\baseline-browser-mapping",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\browserslist",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\caniuse-lite",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\cookie",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\detect-libc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\electron-to-chromium",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\enhanced-resolve",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\fraction.js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion\\client",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion\\dom",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\graceful-fs",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\jiti",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\leaflet",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\lightningcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\lightningcss-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\lucide-react",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\magic-string",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\nanoid",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\node-releases",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\picocolors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\postcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\postcss-value-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\react",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\react-dom",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\react-leaflet",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\react-router",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\react-router-dom",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\scheduler",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\set-cookie-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\source-map-js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\tailwindcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\tapable",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\tslib",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\update-browserslist-db",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\accepts",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\array-flatten",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\body-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\call-bind-apply-helpers",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\call-bound",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\content-disposition",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\content-type",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\cookie",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\cors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\debug",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\destroy",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\dunder-proto",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\ee-first",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\encodeurl",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\es-define-property",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\es-errors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\es-object-atoms",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\etag",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\finalhandler",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\forwarded",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\fresh",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\function-bind",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\get-intrinsic",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\get-proto",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\gopd",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\has-symbols",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\hasown",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\http-errors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\iconv-lite",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\inherits",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\ipaddr.js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\math-intrinsics",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\media-typer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\merge-descriptors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\methods",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\mime",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\mime-db",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\mime-types",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\negotiator",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\on-finished",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\parseurl",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\proxy-addr",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\qs",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\range-parser",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\raw-body",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\safe-buffer",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\send",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\serve-static",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\setprototypeof",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\side-channel",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\side-channel-list",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\side-channel-map",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\side-channel-weakmap",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\statuses",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\toidentifier",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\type-is",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\unpipe",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\utils-merge",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\vary",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\@oxc-project\\types",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\@rolldown\\binding-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\@rolldown\\pluginutils",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\detect-libc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\fdir",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\lightningcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\lightningcss-win32-x64-msvc",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\nanoid",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\picocolors",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\picomatch",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\postcss",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\rolldown",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\source-map-js",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\tinyglobby",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\typescript",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\vite",
+        "score": 23,
+        "itens": [
+            "package.json",
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\.vite\\deps",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\balanced-match\\dist\\commonjs",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\balanced-match\\dist\\esm",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\brace-expansion\\dist\\commonjs",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\brace-expansion\\dist\\esm",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\deep-is",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\escalade",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\escape-string-regexp",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\find-up",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\flatted\\cjs",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\globals",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\json-stable-stringify-without-jsonify",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\locate-path",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\minimatch\\dist\\commonjs",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\minimatch\\dist\\esm",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\ms",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\nanoid\\async",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\nanoid\\non-secure",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\nanoid\\url-alphabet",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\p-limit",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\p-locate",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\path-exists",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\path-key",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\shebang-command",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\shebang-regex",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\yocto-queue",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\locales",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\mini",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v3",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4\\classic",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4\\core",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4\\locales",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4\\mini",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\zod\\v4-mini",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@alloc\\quick-lru",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\@tailwindcss\\oxide",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\escalade",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion\\dom\\mini",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion\\m",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\framer-motion\\mini",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\motion-dom",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\motion-utils",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\nanoid\\async",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\nanoid\\non-secure",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\nanoid\\url-alphabet",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\node_modules\\tslib\\modules",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\bytes",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\cookie-signature",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\depd",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\escape-html",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\express",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\ms",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\object-assign",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\object-inspect",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\path-to-regexp",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\safer-buffer",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\send\\node_modules\\ms",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\.vite\\deps",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\nanoid\\async",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\nanoid\\non-secure",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\vite-project\\node_modules\\nanoid\\url-alphabet",
+        "score": 15,
+        "itens": [
+            "package.json"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\builder",
+        "score": 12,
+        "itens": [
+            "main.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\core",
+        "score": 12,
+        "itens": [
+            "app.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\dashboard",
+        "score": 12,
+        "itens": [
+            "app.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LAB",
+        "score": 12,
+        "itens": [
+            "app.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND",
+        "score": 12,
+        "itens": [
+            "server.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal",
+        "score": 12,
+        "itens": [
+            "main.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\cli",
+        "score": 12,
+        "itens": [
+            "main.py"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\CORE_RUNTIME",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\DEPLOY_READY\\CORE_RUNTIME",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\iotec_clone",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\IOTEC_ENTERPRISE\\templates",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\IOTEC_RENDER_READY\\static",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LOT_001\\LAYER_1_FRONTEND",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LOT_001\\LAYER_2_RECEPTION",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LOT_001\\LAYER_3_ANALYSIS",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LOT_001\\LAYER_4_ROUTER",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\LOT_001\\LAYER_5_COMMAND",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\PORTALS\\catalog",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\PORTALS\\ecosystem",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\PORTALS\\observability",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\PORTALS\\portal_main",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\PORTALS\\portfolio",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\REAL_SYSTEM\\public",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\_SANITIZADA",
+        "score": 10,
+        "itens": [
+            "index.html"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\ajv\\lib\\dotjs",
+        "score": 8,
+        "itens": [
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\black-diamond\\node_modules\\flatted\\golang",
+        "score": 8,
+        "itens": [
+            "README.md"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\CONFIG",
+        "score": 5,
+        "itens": [
+            ".env"
+        ]
+    },
+    {
+        "caminho": "C:\\IOTEC\\state\\miner\\quarantine",
+        "score": 5,
+        "itens": [
+            ".env"
+        ]
+    }
+]

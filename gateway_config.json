@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "updated_at": "2026-07-17T14:42:15.540178",
+    "active_gateway": "PAYPAL",
+    "environment": "SANDBOX",
+    "gateways": {
+        "PAYPAL": {
+            "enabled": true,
+            "client_id": "",
+            "client_secret": "",
+            "base_url": "https://api-m.sandbox.paypal.com",
+            "payment_url": "https://www.sandbox.paypal.com"
+        },
+        "MERCADOPAGO": {
+            "enabled": false,
+            "access_token": "",
+            "base_url": "https://api.mercadopago.com"
+        },
+        "ASAAS": {
+            "enabled": false,
+            "api_key": "",
+            "base_url": "https://api.asaas.com"
+        },
+        "PICPAY": {
+            "enabled": false,
+            "token": "",
+            "base_url": "https://appws.picpay.com"
+        }
+    }
+}

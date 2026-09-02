@@ -1,0 +1,102 @@
+[
+    {
+        "country": "Brasil",
+        "sector": "Construção",
+        "subsectors": [
+            "Construtoras",
+            "Empreiteiras",
+            "Engenharia Civil",
+            "Arquitetura",
+            "Urbanismo",
+            "Infraestrutura"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Brasil",
+        "sector": "Educação",
+        "subsectors": [
+            "Escolas",
+            "Universidades",
+            "Institutos",
+            "Secretarias de Educação",
+            "Editoras"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Brasil",
+        "sector": "Saúde",
+        "subsectors": [
+            "Hospitais",
+            "Clínicas",
+            "Laboratórios",
+            "Operadoras"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Brasil",
+        "sector": "Indústria",
+        "subsectors": [
+            "Metalurgia",
+            "Alimentos",
+            "Química",
+            "Automotiva",
+            "Energia"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Estados Unidos",
+        "sector": "Technology",
+        "subsectors": [
+            "Software",
+            "Artificial Intelligence",
+            "Cybersecurity",
+            "Cloud Computing"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Estados Unidos",
+        "sector": "Healthcare",
+        "subsectors": [
+            "Hospitals",
+            "Medical AI",
+            "Medical Devices"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    },
+    {
+        "country": "Portugal",
+        "sector": "Tecnologia",
+        "subsectors": [
+            "Software",
+            "Consultoria",
+            "Cloud"
+        ],
+        "companies": 0,
+        "products": 0,
+        "market_score": 0,
+        "priority": "PENDING"
+    }
+]

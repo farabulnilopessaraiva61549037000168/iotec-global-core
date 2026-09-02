@@ -1,0 +1,300 @@
+{
+    "gerado_em": "2026-06-13 12:08:14.288993",
+    "arquivos_analisados": [
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121,
+            "requests_get": 0,
+            "requests_post": 2,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "https://api-m.paypal.com",
+                "https://api-m.sandbox.paypal.com"
+            ],
+            "dominios": [
+                "api-m.paypal.com",
+                "api-m.sandbox.paypal.com"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+            "bytes": 8121,
+            "requests_get": 0,
+            "requests_post": 2,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "https://api-m.paypal.com",
+                "https://api-m.sandbox.paypal.com"
+            ],
+            "dominios": [
+                "api-m.paypal.com",
+                "api-m.sandbox.paypal.com"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\paypal_server.py",
+            "bytes": 2144,
+            "requests_get": 0,
+            "requests_post": 2,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso",
+                "https://api-m.sandbox.paypal.com"
+            ],
+            "dominios": [
+                "api-m.sandbox.paypal.com",
+                "localhost:8787"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+            "bytes": 2144,
+            "requests_get": 0,
+            "requests_post": 2,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso",
+                "https://api-m.sandbox.paypal.com"
+            ],
+            "dominios": [
+                "api-m.sandbox.paypal.com",
+                "localhost:8787"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\paypal_server.py",
+            "bytes": 2144,
+            "requests_get": 0,
+            "requests_post": 2,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://localhost:8787/cancelado",
+                "http://localhost:8787/sucesso",
+                "https://api-m.sandbox.paypal.com"
+            ],
+            "dominios": [
+                "api-m.sandbox.paypal.com",
+                "localhost:8787"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\SIGNAL_MAPPER.py",
+            "bytes": 8859,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 1,
+            "json_load": 0,
+            "urls": [
+                "http://127.0.0.1:8080/api/status"
+            ],
+            "dominios": [
+                "127.0.0.1:8080"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://127.0.0.1:5000",
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5050",
+                "https://SEU-NUCLEO.onrender.com",
+                "https://SEU-SITE.netlify.app"
+            ],
+            "dominios": [
+                "127.0.0.1:5000",
+                "127.0.0.1:5001",
+                "127.0.0.1:5050",
+                "SEU-NUCLEO.onrender.com",
+                "SEU-SITE.netlify.app"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://127.0.0.1:5000",
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5050",
+                "https://SEU-NUCLEO.onrender.com",
+                "https://SEU-SITE.netlify.app"
+            ],
+            "dominios": [
+                "127.0.0.1:5000",
+                "127.0.0.1:5001",
+                "127.0.0.1:5050",
+                "SEU-NUCLEO.onrender.com",
+                "SEU-SITE.netlify.app"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "http://127.0.0.1:5000",
+                "http://127.0.0.1:5001",
+                "http://127.0.0.1:5050",
+                "https://SEU-NUCLEO.onrender.com",
+                "https://SEU-SITE.netlify.app"
+            ],
+            "dominios": [
+                "127.0.0.1:5000",
+                "127.0.0.1:5001",
+                "127.0.0.1:5050",
+                "SEU-NUCLEO.onrender.com",
+                "SEU-SITE.netlify.app"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "requests_get": 0,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [],
+            "dominios": []
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "requests_get": 0,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [],
+            "dominios": []
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CREATIVE_EXPLORER.py",
+            "bytes": 8080,
+            "requests_get": 0,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [],
+            "dominios": []
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+            "bytes": 517,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "https://api.figma.com/v1/files/{FILE_ID}"
+            ],
+            "dominios": [
+                "api.figma.com"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\TOKEN.py",
+            "bytes": 6402,
+            "requests_get": 0,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [],
+            "dominios": []
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\token.py",
+            "bytes": 517,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "https://api.figma.com/v1/files/{FILE_ID}"
+            ],
+            "dominios": [
+                "api.figma.com"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+            "bytes": 6402,
+            "requests_get": 0,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [],
+            "dominios": []
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Specter.Fortress.py",
+            "bytes": 2156,
+            "requests_get": 1,
+            "requests_post": 0,
+            "json_dump": 0,
+            "json_load": 0,
+            "urls": [
+                "https://anotherdomain.com",
+                "https://example.com",
+                "https://targetdata.com"
+            ],
+            "dominios": [
+                "anotherdomain.com",
+                "example.com",
+                "targetdata.com"
+            ]
+        }
+    ],
+    "estatisticas": {
+        "arquivos": 17,
+        "urls_unicas": 14,
+        "dominios_unicos": 13
+    },
+    "urls_descobertas": [
+        "http://127.0.0.1:5000",
+        "http://127.0.0.1:5001",
+        "http://127.0.0.1:5050",
+        "http://127.0.0.1:8080/api/status",
+        "http://localhost:8787/cancelado",
+        "http://localhost:8787/sucesso",
+        "https://SEU-NUCLEO.onrender.com",
+        "https://SEU-SITE.netlify.app",
+        "https://anotherdomain.com",
+        "https://api-m.paypal.com",
+        "https://api-m.sandbox.paypal.com",
+        "https://api.figma.com/v1/files/{FILE_ID}",
+        "https://example.com",
+        "https://targetdata.com"
+    ],
+    "dominios_descobertos": [
+        "127.0.0.1:5000",
+        "127.0.0.1:5001",
+        "127.0.0.1:5050",
+        "127.0.0.1:8080",
+        "SEU-NUCLEO.onrender.com",
+        "SEU-SITE.netlify.app",
+        "anotherdomain.com",
+        "api-m.paypal.com",
+        "api-m.sandbox.paypal.com",
+        "api.figma.com",
+        "example.com",
+        "localhost:8787",
+        "targetdata.com"
+    ]
+}

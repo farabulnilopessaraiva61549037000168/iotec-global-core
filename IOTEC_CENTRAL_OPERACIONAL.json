@@ -1,0 +1,73 @@
+{
+    "nucleo": {
+        "empresa": "IOTEC",
+        "modo": "operacao_multissetorial",
+        "status": "online",
+        "timestamp": "2026-05-17 18:05:46.888808"
+    },
+    "clima_economico": {
+        "juridico": "moderado",
+        "analytics": "alta",
+        "govtech": "alta",
+        "importacao": "alta"
+    },
+    "metas": {
+        "juridico": {
+            "produto": "Lexus Juris Enterprise",
+            "meta_dia": 29743,
+            "meta_mes": 892290,
+            "ticket_brl": 15000,
+            "ticket_usd": 4000,
+            "ticket_eur": 3500
+        },
+        "analytics": {
+            "produto": "Omega Analytics",
+            "meta_dia": 13068,
+            "meta_mes": 392040,
+            "ticket_brl": 12000,
+            "ticket_usd": 3000,
+            "ticket_eur": 2800
+        },
+        "govtech": {
+            "produto": "GovTech Intelligence",
+            "meta_dia": 10456,
+            "meta_mes": 313680,
+            "ticket_brl": 25000,
+            "ticket_usd": 8000,
+            "ticket_eur": 7000
+        },
+        "importacao": {
+            "produto": "Casa Turca Commerce",
+            "meta_dia": 23866,
+            "meta_mes": 715980,
+            "ticket_brl": 18000,
+            "ticket_usd": 5000,
+            "ticket_eur": 4500
+        }
+    },
+    "lead_ativo": {
+        "empresa": "Atlas Intelligence",
+        "pais": "Estados Unidos",
+        "setor": "govtech",
+        "produto": "GovTech Intelligence",
+        "status": "lead_detectado",
+        "timestamp": "2026-05-17 18:05:46.888808"
+    },
+    "faturamento": {
+        "brasil_brl": 60291,
+        "eua_usd": 6190,
+        "europa_eur": 9742,
+        "total_estimado_brl": 149693
+    },
+    "pipeline": [
+        "entrevista_tecnica",
+        "diagnostico",
+        "orcamento",
+        "pagamento",
+        "pipeline_aberto",
+        "producao",
+        "homologacao",
+        "deploy",
+        "suporte"
+    ]
+}

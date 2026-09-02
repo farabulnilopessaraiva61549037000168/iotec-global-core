@@ -1,0 +1,69 @@
+{
+    "gerado_em": "2026-06-14 03:02:35.790583",
+    "portfolios": [
+        {
+            "portfolio": "ESCALAVEL",
+            "receita_total": 111000,
+            "produto_lider": "Painel Executivo",
+            "participacao_lider": 45.05,
+            "componentes": [
+                {
+                    "produto": "Painel Executivo",
+                    "receita": 50000,
+                    "percentual": 45.05
+                },
+                {
+                    "produto": "Relatorio Gerencial",
+                    "receita": 45000,
+                    "percentual": 40.54
+                },
+                {
+                    "produto": "Dashboard Power BI",
+                    "receita": 16000,
+                    "percentual": 14.41
+                }
+            ]
+        },
+        {
+            "portfolio": "ALTO_TICKET",
+            "receita_total": 110000,
+            "produto_lider": "Sistema de Controle",
+            "participacao_lider": 54.55,
+            "componentes": [
+                {
+                    "produto": "Sistema de Controle",
+                    "receita": 60000,
+                    "percentual": 54.55
+                },
+                {
+                    "produto": "Plataforma Operacional",
+                    "receita": 50000,
+                    "percentual": 45.45
+                }
+            ]
+        },
+        {
+            "portfolio": "EQUILIBRADO",
+            "receita_total": 96000,
+            "produto_lider": "Agente Comercial",
+            "participacao_lider": 62.5,
+            "componentes": [
+                {
+                    "produto": "Agente Comercial",
+                    "receita": 60000,
+                    "percentual": 62.5
+                },
+                {
+                    "produto": "Painel Executivo",
+                    "receita": 20000,
+                    "percentual": 20.83
+                },
+                {
+                    "produto": "Dashboard Power BI",
+                    "receita": 16000,
+                    "percentual": 16.67
+                }
+            ]
+        }
+    ]
+}

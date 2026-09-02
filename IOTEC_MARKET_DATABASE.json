@@ -1,0 +1,56 @@
+{
+    "generated_at": "2026-07-16T20:02:47.858538",
+    "total": 5,
+    "empresas": [
+        {
+            "nome": "Area de Convivencia - Engenharia Civil, Pici, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "categoria": "EMPRESA",
+            "prioridade": 5,
+            "latitude": "-3.7436897",
+            "longitude": "-38.5757636",
+            "origem": "OpenStreetMap",
+            "score": 20,
+            "status": "OPORTUNIDADE"
+        },
+        {
+            "nome": "Area de Convivencia - Engenharia Eletrica, Pici, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "categoria": "EMPRESA",
+            "prioridade": 5,
+            "latitude": "-3.7442776",
+            "longitude": "-38.5765223",
+            "origem": "OpenStreetMap",
+            "score": 20,
+            "status": "OPORTUNIDADE"
+        },
+        {
+            "nome": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "categoria": "EMPRESA",
+            "prioridade": 5,
+            "latitude": "-3.7459533",
+            "longitude": "-38.5789799",
+            "origem": "OpenStreetMap",
+            "score": 20,
+            "status": "OPORTUNIDADE"
+        },
+        {
+            "nome": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "categoria": "EMPRESA",
+            "prioridade": 5,
+            "latitude": "-3.8712207",
+            "longitude": "-38.4958907",
+            "origem": "OpenStreetMap",
+            "score": 20,
+            "status": "OPORTUNIDADE"
+        },
+        {
+            "nome": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "categoria": "EMPRESA",
+            "prioridade": 5,
+            "latitude": "-3.7250877",
+            "longitude": "-38.5192310",
+            "origem": "OpenStreetMap",
+            "score": 20,
+            "status": "OPORTUNIDADE"
+        }
+    ]
+}

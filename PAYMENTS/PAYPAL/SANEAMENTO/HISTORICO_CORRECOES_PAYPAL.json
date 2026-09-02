@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2026-04-10 21:19:52",
+    "etapa": "credenciais",
+    "status": "erro",
+    "detalhe": "Credenciais ausentes."
+  },
+  {
+    "timestamp": "2026-04-10 21:19:54",
+    "etapa": "rota_local",
+    "status": "erro",
+    "detalhe": "Rota local fechada em 127.0.0.1:8787."
+  },
+  {
+    "timestamp": "2026-04-10 21:32:42",
+    "etapa": "credenciais",
+    "status": "erro",
+    "detalhe": "Credenciais ausentes."
+  },
+  {
+    "timestamp": "2026-04-10 21:32:44",
+    "etapa": "rota_local",
+    "status": "erro",
+    "detalhe": "Rota local fechada em 127.0.0.1:8787."
+  },
+  {
+    "timestamp": "2026-04-10 21:44:58",
+    "etapa": "credenciais",
+    "status": "ok",
+    "detalhe": "Credenciais locais encontradas."
+  },
+  {
+    "timestamp": "2026-04-10 21:44:59",
+    "etapa": "rota_local",
+    "status": "erro",
+    "detalhe": "Rota local fechada em 127.0.0.1:8787."
+  },
+  {
+    "timestamp": "2026-04-10 21:45:00",
+    "etapa": "oauth",
+    "status": "ok",
+    "detalhe": "OAuth OK. HTTP 200."
+  },
+  {
+    "timestamp": "2026-04-10 21:45:02",
+    "etapa": "orders_create",
+    "status": "ok",
+    "detalhe": "Order criada. HTTP 201."
+  },
+  {
+    "timestamp": "2026-04-10 21:54:41",
+    "etapa": "credenciais",
+    "status": "ok",
+    "detalhe": "Credenciais locais encontradas."
+  },
+  {
+    "timestamp": "2026-04-10 21:54:41",
+    "etapa": "rota_local",
+    "status": "ok",
+    "detalhe": "Rota local aberta em 127.0.0.1:8787."
+  },
+  {
+    "timestamp": "2026-04-10 21:54:42",
+    "etapa": "oauth",
+    "status": "ok",
+    "detalhe": "OAuth OK. HTTP 200."
+  },
+  {
+    "timestamp": "2026-04-10 21:54:44",
+    "etapa": "orders_create",
+    "status": "ok",
+    "detalhe": "Order criada. HTTP 201."
+  }
+]

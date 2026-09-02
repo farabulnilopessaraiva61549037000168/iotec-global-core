@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "status": "ATIVO",
+  "ultima_atualizacao": null,
+  "categorias": {
+
+    "EMPRESAS": {
+      "status": "PENDENTE",
+      "fontes": []
+    },
+
+    "ESCOLAS": {
+      "status": "PENDENTE",
+      "fontes": []
+    },
+
+    "UNIVERSIDADES": {
+      "status": "PENDENTE",
+      "fontes": []
+    },
+
+    "FORNECEDORES": {
+      "status": "PENDENTE",
+      "fontes": []
+    },
+
+    "TERCEIRIZADAS": {
+      "status": "PENDENTE",
+      "fontes": []
+    },
+
+    "PARCEIROS": {
+      "status": "PENDENTE",
+      "fontes": []
+    }
+
+  }
+}

@@ -1,0 +1,1343 @@
+{
+    "gerado_em": "2026-06-13 11:37:00.810604",
+    "reais": [
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "caminho": "C:\\IOTEC\\IOTEC_ACROPOLE_CITY.json",
+            "dados": {
+                "empresa": {
+                    "nome": "IOTEC ACROPOLE GLOBAL",
+                    "tipo": "Civilizacao Educacional",
+                    "cnpj": "61.549.037/0001-68",
+                    "email": "iotec.bl@proton.me",
+                    "status": "ONLINE",
+                    "fundacao": "2026-05-18 18:09:09.804698"
+                },
+                "planos": {
+                    "BASIC": {
+                        "mensal_brl": 3500,
+                        "mensal_usd": 900,
+                        "acesso": [
+                            "Bibliotecas",
+                            "Agoras",
+                            "Centro Cultural",
+                            "Ambientes de Estudo"
+                        ]
+                    },
+                    "PRO": {
+                        "mensal_brl": 12000,
+                        "mensal_usd": 3200,
+                        "acesso": [
+                            "IA Educacional",
+                            "Laboratorios",
+                            "Urbanismo Inteligente",
+                            "Mentorias",
+                            "Centro Tecnologico"
+                        ]
+                    },
+                    "PREMIUM": {
+                        "mensal_brl": 48000,
+                        "mensal_usd": 12000,
+                        "acesso": [
+                            "Residencia Academica",
+                            "Agoras Privadas",
+                            "Observatorios",
+                            "Networking Global",
+                            "Centro Filosofico",
+                            "Campus Monumental"
+                        ]
+                    }
+                },
+                "acropoles": [
+                    {
+                        "nome": "ACROPOLE ATHENA",
+                        "pais": "Brasil",
+                        "cidade": "Fortaleza",
+                        "estilo": "Neo-Minimalismo Grego",
+                        "residentes": 182,
+                        "bibliotecas": 4,
+                        "agoras": 7,
+                        "torres": 2,
+                        "status": "OPERACIONAL"
+                    },
+                    {
+                        "nome": "ACROPOLE HELIOS",
+                        "pais": "Estados Unidos",
+                        "cidade": "Miami",
+                        "estilo": "Futurismo Mediterraneo",
+                        "residentes": 96,
+                        "bibliotecas": 6,
+                        "agoras": 11,
+                        "torres": 4,
+                        "status": "EXPANSAO"
+                    },
+                    {
+                        "nome": "ACROPOLE ORION",
+                        "pais": "Japão",
+                        "cidade": "Tokyo",
+                        "estilo": "Minimalismo Tecnologico",
+                        "residentes": 61,
+                        "bibliotecas": 8,
+                        "agoras": 9,
+                        "torres": 5,
+                        "status": "PROJECAO"
+                    }
+                ],
+                "alunos": [
+                    {
+                        "id": "AL-910769",
+                        "nome": "Lucas Andrade",
+                        "pais": "Brasil",
+                        "plano": "BASIC",
+                        "acropole": "ACROPOLE ATHENA",
+                        "nivel": "Fundamental",
+                        "timestamp": "2026-05-18 18:09:09.805707"
+                    },
+                    {
+                        "id": "AL-126433",
+                        "nome": "Emma Richardson",
+                        "pais": "Estados Unidos",
+                        "plano": "PREMIUM",
+                        "acropole": "ACROPOLE HELIOS",
+                        "nivel": "Avançado",
+                        "timestamp": "2026-05-18 18:09:09.805707"
+                    },
+                    {
+                        "id": "AL-280531",
+                        "nome": "Akira Sato",
+                        "pais": "Japão",
+                        "plano": "PRO",
+                        "acropole": "ACROPOLE ORION",
+                        "nivel": "Fundamental",
+                        "timestamp": "2026-05-18 18:09:09.805707"
+                    },
+                    {
+                        "id": "AL-751595",
+                        "nome": "Sophie Laurent",
+                        "pais": "Europa",
+                        "plano": "PREMIUM",
+                        "acropole": "ACROPOLE HELIOS",
+                        "nivel": "Avançado",
+                        "timestamp": "2026-05-18 18:09:09.805707"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "caminho": "C:\\IOTEC\\IOTEC_ACROPOLE_GLOBAL.json",
+            "dados": {
+                "empresa": {
+                    "nome": "IOTEC ACROPOLE GLOBAL",
+                    "holding": "IOTEC",
+                    "cnpj": "61.549.037/0001-68",
+                    "email": "iotec.bl@proton.me",
+                    "status": "ONLINE",
+                    "fundacao": "2026-05-18 18:03:46.399326"
+                },
+                "planos": {
+                    "BASIC": {
+                        "brasil_brl": 3500,
+                        "internacional_usd": 900,
+                        "beneficios": [
+                            "Biblioteca Global",
+                            "Agoras Educacionais",
+                            "Cultura e Literatura",
+                            "Acompanhamento Pedagogico"
+                        ]
+                    },
+                    "PRO": {
+                        "brasil_brl": 12000,
+                        "internacional_usd": 3200,
+                        "beneficios": [
+                            "Laboratorios Inteligentes",
+                            "IA Educacional",
+                            "Mentorias",
+                            "Urbanismo Cultural",
+                            "Centro Tecnologico"
+                        ]
+                    },
+                    "PREMIUM": {
+                        "brasil_brl": 48000,
+                        "internacional_usd": 12000,
+                        "beneficios": [
+                            "Residencia Academica",
+                            "Acropole Internacional",
+                            "Mentoria Exclusiva",
+                            "Arquitetura Monumental",
+                            "Networking Global",
+                            "Formacao Civilizacional"
+                        ]
+                    }
+                },
+                "metas": {
+                    "meta_diaria_matriculas": 12,
+                    "meta_semanal_matriculas": 80,
+                    "meta_mensal_matriculas": 320,
+                    "meta_receita_mensal_usd": 1200000
+                },
+                "alunos": [
+                    {
+                        "id": "ACR-138554",
+                        "nome": "Lucas Andrade",
+                        "pais": "Brasil",
+                        "plano": "BASIC",
+                        "timestamp": "2026-05-18 18:03:46.399326"
+                    },
+                    {
+                        "id": "ACR-336958",
+                        "nome": "Emma Richardson",
+                        "pais": "Estados Unidos",
+                        "plano": "PREMIUM",
+                        "timestamp": "2026-05-18 18:03:46.399326"
+                    },
+                    {
+                        "id": "ACR-237958",
+                        "nome": "Akira Sato",
+                        "pais": "Japão",
+                        "plano": "PRO",
+                        "timestamp": "2026-05-18 18:03:46.399326"
+                    },
+                    {
+                        "id": "ACR-604363",
+                        "nome": "Sophie Laurent",
+                        "pais": "Europa",
+                        "plano": "PREMIUM",
+                        "timestamp": "2026-05-18 18:03:46.399326"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "caminho": "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "dados": {
+                "empresa": {
+                    "nome": "IOTEC GLOBAL REALTY",
+                    "holding": "IOTEC",
+                    "cnpj": "61.549.037/0001-68",
+                    "email": "iotec.bl@proton.me",
+                    "status": "ONLINE",
+                    "fundacao": "2026-05-18 02:25:04.456517"
+                },
+                "clientes": [
+                    {
+                        "id": "IOT-A65C5F04",
+                        "nome": "Fagner Saraiva Realty",
+                        "pais": "Estados Unidos",
+                        "email": "fagner@realty.com",
+                        "categoria": "LUXURY",
+                        "timestamp": "2026-05-18 02:25:04.456517"
+                    },
+                    {
+                        "id": "IOT-DA929D51",
+                        "nome": "North Port Logistics",
+                        "pais": "Europa",
+                        "email": "north@ports.com",
+                        "categoria": "PORTOS",
+                        "timestamp": "2026-05-18 02:25:04.456517"
+                    }
+                ],
+                "servicos": [
+                    {
+                        "id": "SV-A2B8D98280",
+                        "cliente": "Fagner Saraiva Realty",
+                        "pais": "Estados Unidos",
+                        "categoria": "LUXURY",
+                        "descricao": "Sistema premium imobiliario",
+                        "ticket_usd": 34020.0,
+                        "moeda_local": "USD",
+                        "ticket_local": 34020.0,
+                        "status": "EM ANALISE",
+                        "timestamp": "2026-05-18 02:25:04.457534"
+                    },
+                    {
+                        "id": "SV-4D753DADCF",
+                        "cliente": "North Port Logistics",
+                        "pais": "Europa",
+                        "categoria": "PORTOS",
+                        "descricao": "Analytics logistico portuario",
+                        "ticket_usd": 129254.4,
+                        "moeda_local": "EUR",
+                        "ticket_local": 118914.05,
+                        "status": "EM ANALISE",
+                        "timestamp": "2026-05-18 02:25:04.457534"
+                    }
+                ],
+                "logs": [
+                    {
+                        "id": "ac347b69-070a-48d8-ac3a-213d221ac870",
+                        "timestamp": "2026-05-18 02:25:04.456517",
+                        "evento": "CLIENTE CADASTRADO -> Fagner Saraiva Realty"
+                    },
+                    {
+                        "id": "890af0af-68e2-484d-afe0-11ece044f265",
+                        "timestamp": "2026-05-18 02:25:04.456517",
+                        "evento": "CLIENTE CADASTRADO -> North Port Logistics"
+                    },
+                    {
+                        "id": "77a8f351-1419-4e1b-b481-736a391e5466",
+                        "timestamp": "2026-05-18 02:25:04.457534",
+                        "evento": "SERVICO GERADO -> SV-A2B8D98280"
+                    },
+                    {
+                        "id": "e0462b8e-e274-46c9-84da-df692ed83af7",
+                        "timestamp": "2026-05-18 02:25:04.457534",
+                        "evento": "SERVICO GERADO -> SV-4D753DADCF"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "caminho": "C:\\IOTEC\\IOTEC_REALTY_CORE.json",
+            "dados": {
+                "empresa": {
+                    "empresa": "IOTEC GLOBAL REALTY",
+                    "cnpj": "00.000.000/0001-00",
+                    "email_comercial": "contato@iotecglobal.com",
+                    "email_gateway": "gateway@iotecglobal.com",
+                    "suporte": "support@iotecglobal.com",
+                    "site": "https://iotecglobal.com",
+                    "status": "ONLINE",
+                    "pais_base": "Brasil",
+                    "modo": "REALTY_OPERATIONAL_CORE"
+                },
+                "torre": {
+                    "clientes": 0,
+                    "imoveis": 2,
+                    "leads": 1,
+                    "negocios": 0,
+                    "comissao_prevista": 0,
+                    "operacoes_ativas": 0
+                },
+                "imoveis": [
+                    {
+                        "id": "44a9fa81-2a83-476d-9f87-3ed361ba8a79",
+                        "titulo": "Luxury Residence Miami",
+                        "cidade": "Miami",
+                        "pais": "Estados Unidos",
+                        "valor": 2800000,
+                        "tipo": "LUXURY",
+                        "proprietario": "North Holdings",
+                        "contato": "north@email.com",
+                        "status": "ATIVO",
+                        "timestamp": "2026-05-18 00:30:36.419737"
+                    },
+                    {
+                        "id": "dc64bccf-ab3e-46ca-ac52-e8ba844fddc0",
+                        "titulo": "Downtown Commercial Tower",
+                        "cidade": "Orlando",
+                        "pais": "Estados Unidos",
+                        "valor": 4200000,
+                        "tipo": "COMERCIAL",
+                        "proprietario": "Florida Group",
+                        "contato": "group@email.com",
+                        "status": "ATIVO",
+                        "timestamp": "2026-05-18 00:30:36.419737"
+                    }
+                ],
+                "leads": [
+                    {
+                        "id": "65d93bc5-f8f5-422f-8826-950f279d3394",
+                        "nome": "Michael Johnson",
+                        "email": "michael@email.com",
+                        "interesse": "Luxury Residence Miami",
+                        "cidade": "Miami",
+                        "status": "NOVO",
+                        "timestamp": "2026-05-18 00:30:36.419737"
+                    }
+                ],
+                "logs": [
+                    {
+                        "id": "1fbef6ac-85de-46ad-b7c8-8fed57de4c55",
+                        "timestamp": "2026-05-18 00:30:36.419737",
+                        "evento": "IMOVEL CADASTRADO -> Luxury Residence Miami"
+                    },
+                    {
+                        "id": "d4b5cd85-41f6-4c38-9a43-6769a1f7dc28",
+                        "timestamp": "2026-05-18 00:30:36.419737",
+                        "evento": "IMOVEL CADASTRADO -> Downtown Commercial Tower"
+                    },
+                    {
+                        "id": "aae47f7f-ffbf-4c44-b3a9-0f6d65a7f105",
+                        "timestamp": "2026-05-18 00:30:36.419737",
+                        "evento": "NOVO LEAD -> Michael Johnson"
+                    }
+                ]
+            }
+        }
+    ],
+    "provaveis_reais": [
+        {
+            "arquivo": "IBEX_clients.json",
+            "caminho": "C:\\IOTEC\\IBEX_clients.json",
+            "dados": [
+                {
+                    "empresa": "NANOTEC IO",
+                    "email": "brunofarabulini@gmail.com",
+                    "setor": "ANALISE DE DADOS",
+                    "nome": "FARABULINI LOPES SARAIVA",
+                    "gargalo": "GARGALO EM AUTOMAÇÃO DE PROCESSOS PESSADOS",
+                    "created_at": "2026-05-30T11:16:18.067660"
+                }
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:27:59",
+                "contrato": {
+                    "id_contrato": "CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "email": "joao@email.com",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "valor_total": 10000,
+                    "valor_entrada": 3000.0,
+                    "valor_saldo": 7000.0,
+                    "valor_mensal": 297,
+                    "data_criacao": "2026-03-29 12:40:03",
+                    "data_inicio": "2026-03-29",
+                    "dia_vencimento": 10,
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "dias_tolerancia": 2,
+                    "dias_bloqueio": 10,
+                    "status": "ativo",
+                    "implementacao": true,
+                    "personalizacao": true,
+                    "manutencao": true,
+                    "suporte": true,
+                    "licenciamento": true,
+                    "whatsapp": "",
+                    "canal_preferido": "ambos",
+                    "idioma_preferido": "PT-BR",
+                    "aceita_notificacoes": true
+                },
+                "mensalidade": {
+                    "id_mensalidade": "MEN_47959E578E",
+                    "id_contrato": "CTR_C71734179D",
+                    "id_agente": "AGT_CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "referencia": "2026-03",
+                    "valor_mensal": 297.0,
+                    "dia_vencimento": 10,
+                    "vencimento": "2026-03-10",
+                    "dias_para_vencer": -19,
+                    "dias_atraso": 19,
+                    "classe": "bloqueavel",
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "valor_com_encargos": 304.82,
+                    "status_mensalidade": "critica",
+                    "acao_sugerida": "escalar_para_bloqueio",
+                    "gerado_em": "2026-03-29 12:57:30"
+                }
+            }
+        },
+        {
+            "arquivo": "contrato.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\contrato.json",
+            "dados": {
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "empresa": "JS Tecnologia",
+                "setor": "Tecnologia",
+                "valor_total": 10000,
+                "valor_entrada": 3000.0,
+                "valor_saldo": 7000.0,
+                "valor_mensal": 297,
+                "data_criacao": "2026-03-29 12:40:03",
+                "data_inicio": "2026-03-29",
+                "dia_vencimento": 10,
+                "multa_atraso": 2.0,
+                "juros_mes": 1.0,
+                "dias_tolerancia": 2,
+                "dias_bloqueio": 10,
+                "status": "ativo",
+                "implementacao": true,
+                "personalizacao": true,
+                "manutencao": true,
+                "suporte": true,
+                "licenciamento": true,
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "idioma_preferido": "PT-BR",
+                "aceita_notificacoes": true
+            }
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\envio_2026-03-29_13-34-50.json",
+            "dados": {
+                "id_envio": "ENV_EA981A970B",
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "referencia": "2026-03",
+                "status_mensalidade": "critica",
+                "tipo_envio": "critico_bloqueio",
+                "assunto": "Risco de bloqueio do licenciamento",
+                "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                "situacao_envio": "falha_whatsapp",
+                "observacao": "Número de WhatsApp ausente no contrato.",
+                "gerado_em": "2026-03-29 13:34:50",
+                "atualizado_em": "2026-03-29 14:49:07"
+            }
+        },
+        {
+            "arquivo": "ficha.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\ficha.json",
+            "dados": {
+                "nome": "Farabulini Lopes Saraiva",
+                "empresa": "empresa",
+                "email": "brunofarabulini@Gmail.com",
+                "pais": "BR",
+                "idioma_interface": "PT-BR",
+                "idioma_projeto": "PT-BR",
+                "setor": "Tecnologia",
+                "segmento": "banco  digital",
+                "tipo_cliente": "Privado",
+                "urgencia": "Média",
+                "orcamento": "Até R$ 5 mil",
+                "nivel_solucao": "Profissional",
+                "problema_principal": "gargalo e fluxo de dados aglomerados",
+                "necessidade": "preciso e um sistema que automatize gargalos críticos ligados a grandes demandas de pedidos e organize entrada e saidas de forma que o  fluxo da empresa se  torne mais simples para a gerencia e a administração dos dados dos clientes.",
+                "integracoes": "planinhas",
+                "observacoes": "preciso de um visual premium e uma estetica profissional",
+                "origem": "Recepção Central Global REGULUS V3",
+                "recebido_em": "2026-03-29 09:53:28",
+                "valor_total": 15000.0,
+                "entrada": 4500.0,
+                "restante": 10500.0
+            }
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\log_ENV_EA981A970B.json",
+            "dados": {
+                "id_envio": "ENV_EA981A970B",
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "referencia": "2026-03",
+                "status_mensalidade": "critica",
+                "tipo_envio": "critico_bloqueio",
+                "assunto": "Risco de bloqueio do licenciamento",
+                "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                "situacao_envio": "falha_whatsapp",
+                "observacao": "Número de WhatsApp ausente no contrato.",
+                "gerado_em": "2026-03-29 13:34:50",
+                "atualizado_em": "2026-03-29 14:49:07"
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-36.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:36",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-42.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:42",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_mestre_2026-03-29_13-58-54.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:58:54",
+                "resumo": {
+                    "total_contratos": 1,
+                    "ativos": 1,
+                    "bloqueaveis": 1,
+                    "inadimplentes": 0,
+                    "valor_global_contratado": 10000.0,
+                    "mensalidade_global": 297.0,
+                    "total_eventos": 1,
+                    "envios_preparados": 1,
+                    "envios_bloqueados": 0,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "total_cobrancas": 0,
+                    "cobrancas_confirmadas": 0,
+                    "cobrancas_suspeitas": 0,
+                    "total_previsto_financeiro": 0.0,
+                    "total_confirmado_financeiro": 0.0
+                },
+                "licenciamentos": [
+                    {
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "empresa": "JS Tecnologia",
+                        "setor": "Tecnologia",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "status_contrato": "ativo",
+                        "classe_monitoramento": "bloqueavel",
+                        "acao_sugerida": "escalar_para_bloqueio_e_supervisao",
+                        "vencimento": "2026-03-10",
+                        "status_mensalidade": "critica",
+                        "valor_mensal": 297.0,
+                        "valor_com_encargos": 304.82,
+                        "referencia": "2026-03"
+                    }
+                ],
+                "eventos_envio": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ],
+                "cobrancas": []
+            }
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "caminho": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_ENVIO_COBRANCAS.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:34:50",
+                "resumo": {
+                    "total_contratos_lidos": 1,
+                    "eventos_gerados": 1,
+                    "whatsapp_pendente": 0,
+                    "email_pendente": 0,
+                    "ambos_pendente": 1,
+                    "portal_pendente": 0,
+                    "nao_autorizado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:27:59",
+                "contrato": {
+                    "id_contrato": "CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "email": "joao@email.com",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "valor_total": 10000,
+                    "valor_entrada": 3000.0,
+                    "valor_saldo": 7000.0,
+                    "valor_mensal": 297,
+                    "data_criacao": "2026-03-29 12:40:03",
+                    "data_inicio": "2026-03-29",
+                    "dia_vencimento": 10,
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "dias_tolerancia": 2,
+                    "dias_bloqueio": 10,
+                    "status": "ativo",
+                    "implementacao": true,
+                    "personalizacao": true,
+                    "manutencao": true,
+                    "suporte": true,
+                    "licenciamento": true,
+                    "whatsapp": "",
+                    "canal_preferido": "ambos",
+                    "idioma_preferido": "PT-BR",
+                    "aceita_notificacoes": true
+                },
+                "mensalidade": {
+                    "id_mensalidade": "MEN_47959E578E",
+                    "id_contrato": "CTR_C71734179D",
+                    "id_agente": "AGT_CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "referencia": "2026-03",
+                    "valor_mensal": 297.0,
+                    "dia_vencimento": 10,
+                    "vencimento": "2026-03-10",
+                    "dias_para_vencer": -19,
+                    "dias_atraso": 19,
+                    "classe": "bloqueavel",
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "valor_com_encargos": 304.82,
+                    "status_mensalidade": "critica",
+                    "acao_sugerida": "escalar_para_bloqueio",
+                    "gerado_em": "2026-03-29 12:57:30"
+                }
+            }
+        },
+        {
+            "arquivo": "contrato.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\contrato.json",
+            "dados": {
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "empresa": "JS Tecnologia",
+                "setor": "Tecnologia",
+                "valor_total": 10000,
+                "valor_entrada": 3000.0,
+                "valor_saldo": 7000.0,
+                "valor_mensal": 297,
+                "data_criacao": "2026-03-29 12:40:03",
+                "data_inicio": "2026-03-29",
+                "dia_vencimento": 10,
+                "multa_atraso": 2.0,
+                "juros_mes": 1.0,
+                "dias_tolerancia": 2,
+                "dias_bloqueio": 10,
+                "status": "ativo",
+                "implementacao": true,
+                "personalizacao": true,
+                "manutencao": true,
+                "suporte": true,
+                "licenciamento": true,
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "idioma_preferido": "PT-BR",
+                "aceita_notificacoes": true
+            }
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\envio_2026-03-29_13-34-50.json",
+            "dados": {
+                "id_envio": "ENV_EA981A970B",
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "referencia": "2026-03",
+                "status_mensalidade": "critica",
+                "tipo_envio": "critico_bloqueio",
+                "assunto": "Risco de bloqueio do licenciamento",
+                "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                "situacao_envio": "falha_whatsapp",
+                "observacao": "Número de WhatsApp ausente no contrato.",
+                "gerado_em": "2026-03-29 13:34:50",
+                "atualizado_em": "2026-03-29 14:49:07"
+            }
+        },
+        {
+            "arquivo": "ficha.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ficha.json",
+            "dados": {
+                "nome": "Farabulini Lopes Saraiva",
+                "empresa": "empresa",
+                "email": "brunofarabulini@Gmail.com",
+                "pais": "BR",
+                "idioma_interface": "PT-BR",
+                "idioma_projeto": "PT-BR",
+                "setor": "Tecnologia",
+                "segmento": "banco  digital",
+                "tipo_cliente": "Privado",
+                "urgencia": "Média",
+                "orcamento": "Até R$ 5 mil",
+                "nivel_solucao": "Profissional",
+                "problema_principal": "gargalo e fluxo de dados aglomerados",
+                "necessidade": "preciso e um sistema que automatize gargalos críticos ligados a grandes demandas de pedidos e organize entrada e saidas de forma que o  fluxo da empresa se  torne mais simples para a gerencia e a administração dos dados dos clientes.",
+                "integracoes": "planinhas",
+                "observacoes": "preciso de um visual premium e uma estetica profissional",
+                "origem": "Recepção Central Global REGULUS V3",
+                "recebido_em": "2026-03-29 09:53:28",
+                "valor_total": 15000.0,
+                "entrada": 4500.0,
+                "restante": 10500.0
+            }
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\log_ENV_EA981A970B.json",
+            "dados": {
+                "id_envio": "ENV_EA981A970B",
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "referencia": "2026-03",
+                "status_mensalidade": "critica",
+                "tipo_envio": "critico_bloqueio",
+                "assunto": "Risco de bloqueio do licenciamento",
+                "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                "situacao_envio": "falha_whatsapp",
+                "observacao": "Número de WhatsApp ausente no contrato.",
+                "gerado_em": "2026-03-29 13:34:50",
+                "atualizado_em": "2026-03-29 14:49:07"
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-36.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:36",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-42.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:42",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_mestre_2026-03-29_13-58-54.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:58:54",
+                "resumo": {
+                    "total_contratos": 1,
+                    "ativos": 1,
+                    "bloqueaveis": 1,
+                    "inadimplentes": 0,
+                    "valor_global_contratado": 10000.0,
+                    "mensalidade_global": 297.0,
+                    "total_eventos": 1,
+                    "envios_preparados": 1,
+                    "envios_bloqueados": 0,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "total_cobrancas": 0,
+                    "cobrancas_confirmadas": 0,
+                    "cobrancas_suspeitas": 0,
+                    "total_previsto_financeiro": 0.0,
+                    "total_confirmado_financeiro": 0.0
+                },
+                "licenciamentos": [
+                    {
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "empresa": "JS Tecnologia",
+                        "setor": "Tecnologia",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "status_contrato": "ativo",
+                        "classe_monitoramento": "bloqueavel",
+                        "acao_sugerida": "escalar_para_bloqueio_e_supervisao",
+                        "vencimento": "2026-03-10",
+                        "status_mensalidade": "critica",
+                        "valor_mensal": 297.0,
+                        "valor_com_encargos": 304.82,
+                        "referencia": "2026-03"
+                    }
+                ],
+                "eventos_envio": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ],
+                "cobrancas": []
+            }
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_ENVIO_COBRANCAS.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:34:50",
+                "resumo": {
+                    "total_contratos_lidos": 1,
+                    "eventos_gerados": 1,
+                    "whatsapp_pendente": 0,
+                    "email_pendente": 0,
+                    "ambos_pendente": 1,
+                    "portal_pendente": 0,
+                    "nao_autorizado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:27:59",
+                "contrato": {
+                    "id_contrato": "CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "email": "joao@email.com",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "valor_total": 10000,
+                    "valor_entrada": 3000.0,
+                    "valor_saldo": 7000.0,
+                    "valor_mensal": 297,
+                    "data_criacao": "2026-03-29 12:40:03",
+                    "data_inicio": "2026-03-29",
+                    "dia_vencimento": 10,
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "dias_tolerancia": 2,
+                    "dias_bloqueio": 10,
+                    "status": "ativo",
+                    "implementacao": true,
+                    "personalizacao": true,
+                    "manutencao": true,
+                    "suporte": true,
+                    "licenciamento": true,
+                    "whatsapp": "",
+                    "canal_preferido": "ambos",
+                    "idioma_preferido": "PT-BR",
+                    "aceita_notificacoes": true
+                },
+                "mensalidade": {
+                    "id_mensalidade": "MEN_47959E578E",
+                    "id_contrato": "CTR_C71734179D",
+                    "id_agente": "AGT_CTR_C71734179D",
+                    "cliente": "João Silva",
+                    "empresa": "JS Tecnologia",
+                    "setor": "Tecnologia",
+                    "referencia": "2026-03",
+                    "valor_mensal": 297.0,
+                    "dia_vencimento": 10,
+                    "vencimento": "2026-03-10",
+                    "dias_para_vencer": -19,
+                    "dias_atraso": 19,
+                    "classe": "bloqueavel",
+                    "multa_atraso": 2.0,
+                    "juros_mes": 1.0,
+                    "valor_com_encargos": 304.82,
+                    "status_mensalidade": "critica",
+                    "acao_sugerida": "escalar_para_bloqueio",
+                    "gerado_em": "2026-03-29 12:57:30"
+                }
+            }
+        },
+        {
+            "arquivo": "contrato.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\contrato.json",
+            "dados": {
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "empresa": "JS Tecnologia",
+                "setor": "Tecnologia",
+                "valor_total": 10000,
+                "valor_entrada": 3000.0,
+                "valor_saldo": 7000.0,
+                "valor_mensal": 297,
+                "data_criacao": "2026-03-29 12:40:03",
+                "data_inicio": "2026-03-29",
+                "dia_vencimento": 10,
+                "multa_atraso": 2.0,
+                "juros_mes": 1.0,
+                "dias_tolerancia": 2,
+                "dias_bloqueio": 10,
+                "status": "ativo",
+                "implementacao": true,
+                "personalizacao": true,
+                "manutencao": true,
+                "suporte": true,
+                "licenciamento": true,
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "idioma_preferido": "PT-BR",
+                "aceita_notificacoes": true
+            }
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\envio_2026-03-29_13-34-50.json",
+            "dados": {
+                "id_envio": "ENV_EA981A970B",
+                "id_contrato": "CTR_C71734179D",
+                "cliente": "João Silva",
+                "email": "joao@email.com",
+                "whatsapp": "",
+                "canal_preferido": "ambos",
+                "referencia": "2026-03",
+                "status_mensalidade": "critica",
+                "tipo_envio": "critico_bloqueio",
+                "assunto": "Risco de bloqueio do licenciamento",
+                "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                "situacao_envio": "falha_whatsapp",
+                "observacao": "Número de WhatsApp ausente no contrato.",
+                "gerado_em": "2026-03-29 13:34:50",
+                "atualizado_em": "2026-03-29 14:49:07"
+            }
+        },
+        {
+            "arquivo": "ficha.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ficha.json",
+            "dados": {
+                "nome": "Farabulini Lopes Saraiva",
+                "empresa": "empresa",
+                "email": "brunofarabulini@Gmail.com",
+                "pais": "BR",
+                "idioma_interface": "PT-BR",
+                "idioma_projeto": "PT-BR",
+                "setor": "Tecnologia",
+                "segmento": "banco  digital",
+                "tipo_cliente": "Privado",
+                "urgencia": "Média",
+                "orcamento": "Até R$ 5 mil",
+                "nivel_solucao": "Profissional",
+                "problema_principal": "gargalo e fluxo de dados aglomerados",
+                "necessidade": "preciso e um sistema que automatize gargalos críticos ligados a grandes demandas de pedidos e organize entrada e saidas de forma que o  fluxo da empresa se  torne mais simples para a gerencia e a administração dos dados dos clientes.",
+                "integracoes": "planinhas",
+                "observacoes": "preciso de um visual premium e uma estetica profissional",
+                "origem": "Recepção Central Global REGULUS V3",
+                "recebido_em": "2026-03-29 09:53:28",
+                "valor_total": 15000.0,
+                "entrada": 4500.0,
+                "restante": 10500.0
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-36.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:36",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-42.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:45:42",
+                "resumo": {
+                    "total_eventos": 1,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "preparado": 1,
+                    "bloqueado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_mestre_2026-03-29_13-58-54.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:58:54",
+                "resumo": {
+                    "total_contratos": 1,
+                    "ativos": 1,
+                    "bloqueaveis": 1,
+                    "inadimplentes": 0,
+                    "valor_global_contratado": 10000.0,
+                    "mensalidade_global": 297.0,
+                    "total_eventos": 1,
+                    "envios_preparados": 1,
+                    "envios_bloqueados": 0,
+                    "whatsapp": 0,
+                    "email": 0,
+                    "ambos": 1,
+                    "portal": 0,
+                    "total_cobrancas": 0,
+                    "cobrancas_confirmadas": 0,
+                    "cobrancas_suspeitas": 0,
+                    "total_previsto_financeiro": 0.0,
+                    "total_confirmado_financeiro": 0.0
+                },
+                "licenciamentos": [
+                    {
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "empresa": "JS Tecnologia",
+                        "setor": "Tecnologia",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "status_contrato": "ativo",
+                        "classe_monitoramento": "bloqueavel",
+                        "acao_sugerida": "escalar_para_bloqueio_e_supervisao",
+                        "vencimento": "2026-03-10",
+                        "status_mensalidade": "critica",
+                        "valor_mensal": 297.0,
+                        "valor_com_encargos": 304.82,
+                        "referencia": "2026-03"
+                    }
+                ],
+                "eventos_envio": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ],
+                "cobrancas": []
+            }
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_ENVIO_COBRANCAS.json",
+            "dados": {
+                "gerado_em": "2026-03-29 13:34:50",
+                "resumo": {
+                    "total_contratos_lidos": 1,
+                    "eventos_gerados": 1,
+                    "whatsapp_pendente": 0,
+                    "email_pendente": 0,
+                    "ambos_pendente": 1,
+                    "portal_pendente": 0,
+                    "nao_autorizado": 0
+                },
+                "eventos": [
+                    {
+                        "id_envio": "ENV_EA981A970B",
+                        "id_contrato": "CTR_C71734179D",
+                        "cliente": "João Silva",
+                        "email": "joao@email.com",
+                        "whatsapp": "",
+                        "canal_preferido": "ambos",
+                        "referencia": "2026-03",
+                        "status_mensalidade": "critica",
+                        "tipo_envio": "critico_bloqueio",
+                        "assunto": "Risco de bloqueio do licenciamento",
+                        "corpo": "Olá João Silva,\n\nSeu licenciamento entrou em faixa crítica.\nReferência: 2026-03\nValor com encargos: R$ 304.82\nAção sugerida pelo núcleo: escalar_para_bloqueio\n\nHá risco de bloqueio caso não haja regularização.\n\nEquipe REGULUS IOTEC",
+                        "situacao_envio": "preparado_para_disparo",
+                        "observacao": "Mensagem preparada automaticamente pelo núcleo.",
+                        "gerado_em": "2026-03-29 13:34:50"
+                    }
+                ]
+            }
+        }
+    ],
+    "estatisticas": {
+        "reais": 4,
+        "provaveis_reais": 27,
+        "total": 31
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "gerado_em": "2026-06-13 13:56:58.416061",
+    "versao": "1.0",
+    "categorias": {
+        "EMPRESAS": {
+            "status": "VAZIA",
+            "fontes": []
+        },
+        "ESCOLAS": {
+            "status": "VAZIA",
+            "fontes": []
+        },
+        "UNIVERSIDADES": {
+            "status": "VAZIA",
+            "fontes": []
+        },
+        "FORNECEDORES": {
+            "status": "VAZIA",
+            "fontes": []
+        },
+        "TERCEIRIZADAS": {
+            "status": "VAZIA",
+            "fontes": []
+        },
+        "PARCEIROS": {
+            "status": "VAZIA",
+            "fontes": []
+        }
+    },
+    "estatisticas": {
+        "gerado_em": "2026-06-13 14:15:05.044754",
+        "total_fontes": 0,
+        "categorias_preenchidas": 0,
+        "categorias_vazias": 6
+    }
+}

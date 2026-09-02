@@ -1,0 +1,27 @@
+{
+    "generated": "2026-06-07 16:56:52.006119",
+    "current": {
+        "leads": 5,
+        "clients": 2,
+        "payments": 1
+    },
+    "targets": {
+        "leads": 100,
+        "clients": 10,
+        "payments": 20
+    },
+    "gap": {
+        "leads": 95,
+        "clients": 8,
+        "payments": 19
+    },
+    "growth_progress": 9.5,
+    "actions": [
+        "Captar 3.17 leads por dia",
+        "Executar prospecção diária",
+        "Publicar conteúdo diariamente",
+        "Converter 2.0 clientes por semana",
+        "Gerar novas propostas comerciais",
+        "Executar follow-up automático"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "88999999999": {
+    "nome": "Bruno",
+    "servico": "Análise financeira",
+    "historico": [
+      {"cliente": "Quero saber mais"},
+      {"ia": "Claro, posso explicar."}
+    ],
+    "status": "ATIVO"
+  }
+}

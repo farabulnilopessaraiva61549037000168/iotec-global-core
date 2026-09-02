@@ -1,0 +1,31 @@
+{
+    "nucleo": {
+        "empresa": "IOTEC",
+        "cidade": "REGULUS_CITY",
+        "modo": "orquestracao_enterprise",
+        "status": "online",
+        "timestamp": "2026-05-17 18:59:17.924256"
+    },
+    "pedido": {
+        "id": "33ad85e4-a6bb-48c9-ab80-828579e19543",
+        "cliente": "North Analytics",
+        "setor": "analytics",
+        "produto": "Omega Analytics Enterprise",
+        "prazo_contratual": "30 dias",
+        "status": "concluido_antecipadamente"
+    },
+    "logs": [
+        {
+            "timestamp": "2026-05-17 18:59:17.929399",
+            "evento": "NOVO PEDIDO -> North Analytics (Omega Analytics Enterprise)"
+        },
+        {
+            "timestamp": "2026-05-17 18:59:17.932944",
+            "evento": "PRODUÇÃO NORMAL -> ANALYTICS"
+        },
+        {
+            "timestamp": "2026-05-17 18:59:17.932944",
+            "evento": "ENTREGA ANTECIPADA -> North Analytics"
+        }
+    ]
+}

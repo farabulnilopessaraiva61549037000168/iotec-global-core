@@ -1,0 +1,122 @@
+{
+    "gerado_em": "2026-08-31 16:39:35.014974",
+    "produtos": [
+        {
+            "oferta": "Analise de Dados",
+            "produto": "Painel Executivo",
+            "ticket": 5000,
+            "prazo_dias": 5,
+            "complexidade": 1,
+            "escalabilidade": 5,
+            "score_viabilidade": 49.5
+        },
+        {
+            "oferta": "Analise de Dados",
+            "produto": "Relatorio Gerencial",
+            "ticket": 3000,
+            "prazo_dias": 5,
+            "complexidade": 1,
+            "escalabilidade": 5,
+            "score_viabilidade": 47.5
+        },
+        {
+            "oferta": "Agentes IA",
+            "produto": "Agente Comercial",
+            "ticket": 15000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 43.5
+        },
+        {
+            "oferta": "Sistema Interno",
+            "produto": "Sistema de Controle",
+            "ticket": 30000,
+            "prazo_dias": 30,
+            "complexidade": 3,
+            "escalabilidade": 3,
+            "score_viabilidade": 42.0
+        },
+        {
+            "oferta": "Analise de Dados",
+            "produto": "Monitoramento Operacional",
+            "ticket": 12000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 40.5
+        },
+        {
+            "oferta": "Agentes IA",
+            "produto": "Agente Atendimento",
+            "ticket": 12000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 40.5
+        },
+        {
+            "oferta": "Sistema Interno",
+            "produto": "Plataforma Operacional",
+            "ticket": 50000,
+            "prazo_dias": 60,
+            "complexidade": 5,
+            "escalabilidade": 2,
+            "score_viabilidade": 39.0
+        },
+        {
+            "oferta": "Agentes IA",
+            "produto": "Agente Educacional",
+            "ticket": 10000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 38.5
+        },
+        {
+            "oferta": "Dashboard Executivo",
+            "produto": "Painel KPI",
+            "ticket": 10000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 38.5
+        },
+        {
+            "oferta": "Agentes IA",
+            "produto": "Agente Auditor",
+            "ticket": 25000,
+            "prazo_dias": 30,
+            "complexidade": 3,
+            "escalabilidade": 3,
+            "score_viabilidade": 37.0
+        },
+        {
+            "oferta": "Sistema Interno",
+            "produto": "Painel Corporativo",
+            "ticket": 25000,
+            "prazo_dias": 30,
+            "complexidade": 3,
+            "escalabilidade": 3,
+            "score_viabilidade": 37.0
+        },
+        {
+            "oferta": "Analise de Dados",
+            "produto": "Previsao de Indicadores",
+            "ticket": 8000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 36.5
+        },
+        {
+            "oferta": "Dashboard Executivo",
+            "produto": "Dashboard Power BI",
+            "ticket": 8000,
+            "prazo_dias": 15,
+            "complexidade": 2,
+            "escalabilidade": 4,
+            "score_viabilidade": 36.5
+        }
+    ]
+}

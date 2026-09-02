@@ -1,0 +1,21 @@
+{
+  "boot_time": "2026-05-26 19:41:58.833227",
+  "master_brain": "visible_core_router.py",
+  "running": [
+    "visible_core_router.py",
+    "iotec_nucleus.py",
+    "IOTEC_CORE_MANAGER.py",
+    "IOTEC_ADAPTIVE_CORE_MANAGER.py",
+    "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py",
+    "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+    "sonda_interna_de_integridade.py"
+  ],
+  "disabled": [
+    "APOCALYPSE_ENGINE.py",
+    "GLOBAL_OPERATIONAL_CORE.py",
+    "CORE_MASTER.py",
+    "EXECUTION_CORE.py",
+    "CENTRAL_CORE.py"
+  ],
+  "errors": []
+}

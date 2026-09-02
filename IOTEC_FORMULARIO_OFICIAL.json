@@ -1,0 +1,88 @@
+{
+    "formulario_oficial": {
+        "arquivo": "C:\\IOTEC\\022_IOTEC_OFFICIAL_FORM_SELECTOR.py",
+        "score": 150
+    },
+    "top20": [
+        {
+            "arquivo": "C:\\IOTEC\\022_IOTEC_OFFICIAL_FORM_SELECTOR.py",
+            "score": 150
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\gitformat-index.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\parallel-checkout.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitformat-index.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\parallel-checkout.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\_SANITIZADA\\gitformat-index.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\_SANITIZADA\\parallel-checkout.html",
+            "score": 59
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-check-ref-format.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-checkout-index.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-lfs-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-lfs-post-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\git-sparse-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\sparse-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-check-ref-format.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-checkout-index.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-lfs-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-lfs-post-checkout.html",
+            "score": 53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-sparse-checkout.html",
+            "score": 53
+        }
+    ]
+}

@@ -1,0 +1,1419 @@
+{
+    "generated_at": "2026-07-21T10:46:44.317618",
+    "engines": {
+        "API_ENGINE": {
+            "occurrences": 12,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\001_main.py",
+                    "classes": [
+                        "ioteccore"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\125_CAPABILITY_RESOLVER_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\126_CONNECTOR_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\GATEWAY_CONFIGURATION_ENGINE.py",
+                    "classes": [
+                        "gatewayconfigurationengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_PROVIDER_ENGINE.py",
+                    "classes": [
+                        "paymentproviderengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYPAL_AUTH_ENGINE.py",
+                    "classes": [
+                        "paypalauthengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYPAL_CALLBACK_ENGINE.py",
+                    "classes": [
+                        "paypalcallbackengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_API_ENGINE.py",
+                    "classes": [
+                        "revenueapiroute",
+                        "revenueapiengine"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_SYSTEM_ENGINE.py",
+                    "classes": [
+                        "revenuesystemstatus",
+                        "revenuesystemengine"
+                    ],
+                    "functions": 11
+                }
+            ]
+        },
+        "ROBOTICS_ENGINE": {
+            "occurrences": 92,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\001_main.py",
+                    "classes": [
+                        "ioteccore"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\001_MISSION_COMMAND_CENTER.py",
+                    "classes": [
+                        "missioncommandcenter"
+                    ],
+                    "functions": 13
+                },
+                {
+                    "file": "C:\\IOTEC\\002_SENSOR_MANAGER.py",
+                    "classes": [
+                        "sensormanager"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\004_COMMERCIAL_RADAR.py",
+                    "classes": [
+                        "commercialradar"
+                    ],
+                    "functions": 6
+                },
+                {
+                    "file": "C:\\IOTEC\\108_CONNECTOR_ORCHESTRATOR.py",
+                    "classes": [],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\109_OPENSTREETMAP_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\110_COMPANY_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\111_COMPANY_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\112_CORPORATE_VERIFICATION_CENTER.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\113_CORPORATE_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\114_STRATEGIC_KNOWLEDGE_CENTER.py",
+                    "classes": [
+                        "knowledgecenter"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\115_SCIENTIFIC_WORKFORCE_CENTER.py",
+                    "classes": [
+                        "digitalscientist"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\116_SCIENTIFIC_OPERATIONS_CENTER.py",
+                    "classes": [
+                        "scientist"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\117_CORPORATE_MEMORY_ENGINE.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\118_EXECUTIVE_INTELLIGENCE_REPORT.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\119_GLOBAL_MARKET_MAPPER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\120_COMPANY_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\120_PRODUCT_MARKET_MATCH_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_CONTACT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_OPPORTUNITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CONTACT_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CRM_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\123_PROPOSAL_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\123_SITE_AGENT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\124_CONNECTOR_HUB.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\124_LEAD_QUALITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\125_CAPABILITY_RESOLVER_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\125_CONTACT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\126_COMMERCIAL_COMMAND_CENTER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\126_CONNECTOR_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\127_CAPABILITY_RADAR_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\127_OPERATIONAL_AUDITOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\128_CAPABILITY_EXPANSION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\128_CONTROL_TOWER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\129_MISSION_ORCHESTRATOR.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\130_AGENT_EXECUTION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\131_MISSION_COMPLETION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\132_EVENT_BUS_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\133_KERNEL_EVENT_DISPATCHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\134_IOTEC_KERNEL.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\135_KERNEL_SCHEDULER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\136_AUTONOMOUS_PLANNING_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\137_GEOGRAPHIC_EXPANSION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\138_COVERAGE_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\140_COMPANY_DATABASE_INSPECTOR.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\140_SECTOR_CLASSIFICATION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\141_ORGANIZATION_CLASSIFIER_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\business.py",
+                    "classes": [
+                        "businesssystem"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\CASHBOX_ENGINE_V2.py",
+                    "classes": [
+                        "cashboxenginev2"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\commercial.py",
+                    "classes": [
+                        "commercialcenter"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_SERVICE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_WORKER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_EXTRACTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTROL_CENTER_FINANCIAL.py",
+                    "classes": [
+                        "financialcontrolcenter"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\CRM_ENRICHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\DEDUPLICATE_CRM.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DEDUPLICATE_OPPORTUNITIES.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_AUDIT_ENGINE.py",
+                    "classes": [
+                        "financialauditengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_CORE_ENGINE.py",
+                    "classes": [
+                        "financialcoreengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_DATABASE_ENGINE.py",
+                    "classes": [
+                        "financialdatabaseengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_ORCHESTRATOR_ENGINE.py",
+                    "classes": [
+                        "financialorchestrator"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_PIPELINE_ENGINE.py",
+                    "classes": [
+                        "financialpipeline"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\FIRST_LEAD_REGISTRY_ENGINE.py",
+                    "classes": [
+                        "lead",
+                        "firstleadregistryengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\GATEWAY_CONFIGURATION_ENGINE.py",
+                    "classes": [
+                        "gatewayconfigurationengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\HOMOLOGATION_ENGINE.py",
+                    "classes": [
+                        "homologationengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\LEDGER_ENGINE.py",
+                    "classes": [
+                        "ledgerengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\PAVILION_CORE.py",
+                    "classes": [
+                        "pavilioncore"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_DATABASE_ENGINE.py",
+                    "classes": [
+                        "paymentdatabaseengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_GATEWAY_MANAGER.py",
+                    "classes": [
+                        "paymentgatewaymanager"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_LINK_ENGINE.py",
+                    "classes": [
+                        "paymentlinkengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_PROVIDER_ENGINE.py",
+                    "classes": [
+                        "paymentproviderengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_STATUS_ENGINE.py",
+                    "classes": [
+                        "paymentstatusengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_VALIDATOR_ENGINE.py",
+                    "classes": [
+                        "paymentvalidatorengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\PICPAY_PAYMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\project_scanner.py",
+                    "classes": [
+                        "projectscanner"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_CONTACT_COLLECTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_REVENUE_PIPELINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\revenue_core.py",
+                    "classes": [
+                        "revenuecore"
+                    ],
+                    "functions": 15
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_LAYER_ENGINE.py",
+                    "classes": [
+                        "revenuelayer",
+                        "revenuelayerengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\SOMENTE_LEITURA.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\SOURCE_CONNECTORS.py",
+                    "classes": [],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\SOURCE_ENGINE.py",
+                    "classes": [
+                        "enterprisesourceengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\SYSTEM_HEALTH_ENGINE.py",
+                    "classes": [
+                        "systemhealthengine"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\TECHNICAL_LASSO.py",
+                    "classes": [
+                        "technicallasso"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\TECHNICAL_REPORT_ENGINE.py",
+                    "classes": [
+                        "technicalreportengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\TRANSACTION_ENGINE.py",
+                    "classes": [
+                        "transactionengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\WEBSITE_FINDER.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\enterprise\\enterprise_database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                }
+            ]
+        },
+        "DASHBOARD_ENGINE": {
+            "occurrences": 16,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\001_main.py",
+                    "classes": [
+                        "ioteccore"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\002_SENSOR_MANAGER.py",
+                    "classes": [
+                        "sensormanager"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\004_COMMERCIAL_RADAR.py",
+                    "classes": [
+                        "commercialradar"
+                    ],
+                    "functions": 6
+                },
+                {
+                    "file": "C:\\IOTEC\\110_COMPANY_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\120_PRODUCT_MARKET_MATCH_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_OPPORTUNITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\123_PROPOSAL_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\132_EVENT_BUS_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CAPABILITY_MATCH_ENGINE.py",
+                    "classes": [
+                        "capability",
+                        "capabilitymatchengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTROL_CENTER_FINANCIAL.py",
+                    "classes": [
+                        "financialcontrolcenter"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_REVENUE_PIPELINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\revenue_core.py",
+                    "classes": [
+                        "revenuecore"
+                    ],
+                    "functions": 15
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_DASHBOARD_ENGINE.py",
+                    "classes": [
+                        "revenuedashboard",
+                        "revenuedashboardengine"
+                    ],
+                    "functions": 6
+                }
+            ]
+        },
+        "DATABASE_ENGINE": {
+            "occurrences": 48,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\001_MISSION_COMMAND_CENTER.py",
+                    "classes": [
+                        "missioncommandcenter"
+                    ],
+                    "functions": 13
+                },
+                {
+                    "file": "C:\\IOTEC\\002_SENSOR_MANAGER.py",
+                    "classes": [
+                        "sensormanager"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\110_COMPANY_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\111_COMPANY_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\118_EXECUTIVE_INTELLIGENCE_REPORT.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\120_COMPANY_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_CONTACT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_OPPORTUNITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CONTACT_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CRM_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\123_PROPOSAL_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\123_SITE_AGENT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\124_CONNECTOR_HUB.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\124_LEAD_QUALITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\125_CONTACT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\126_COMMERCIAL_COMMAND_CENTER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\127_OPERATIONAL_AUDITOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\128_CONTROL_TOWER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\133_KERNEL_EVENT_DISPATCHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\140_COMPANY_DATABASE_INSPECTOR.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\140_SECTOR_CLASSIFICATION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\141_ORGANIZATION_CLASSIFIER_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\business.py",
+                    "classes": [
+                        "businesssystem"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\CASHBOX_ENGINE_V2.py",
+                    "classes": [
+                        "cashboxenginev2"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\commercial.py",
+                    "classes": [
+                        "commercialcenter"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_SERVICE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_WORKER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTROL_CENTER_FINANCIAL.py",
+                    "classes": [
+                        "financialcontrolcenter"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\CRM_ENRICHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\DEDUPLICATE_CRM.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DEDUPLICATE_OPPORTUNITIES.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_CORE_ENGINE.py",
+                    "classes": [
+                        "financialcoreengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\FINANCIAL_DATABASE_ENGINE.py",
+                    "classes": [
+                        "financialdatabaseengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_DIAGNOSTIC_ASSISTANT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_DATABASE_ENGINE.py",
+                    "classes": [
+                        "paymentdatabaseengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\PAYMENT_STATUS_ENGINE.py",
+                    "classes": [
+                        "paymentstatusengine"
+                    ],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\PICPAY_PAYMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\project_scanner.py",
+                    "classes": [
+                        "projectscanner"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_CONTACT_COLLECTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_REVENUE_PIPELINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_DATABASE_ENGINE.py",
+                    "classes": [
+                        "revenuedatabase",
+                        "revenuedatabaseengine"
+                    ],
+                    "functions": 6
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_SYSTEM_ENGINE.py",
+                    "classes": [
+                        "revenuesystemstatus",
+                        "revenuesystemengine"
+                    ],
+                    "functions": 11
+                },
+                {
+                    "file": "C:\\IOTEC\\SOMENTE_LEITURA.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\enterprise\\enterprise_database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                }
+            ]
+        },
+        "AI_ENGINE": {
+            "occurrences": 20,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\001_MISSION_COMMAND_CENTER.py",
+                    "classes": [
+                        "missioncommandcenter"
+                    ],
+                    "functions": 13
+                },
+                {
+                    "file": "C:\\IOTEC\\109_OPENSTREETMAP_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\116_SCIENTIFIC_OPERATIONS_CENTER.py",
+                    "classes": [
+                        "scientist"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\117_CORPORATE_MEMORY_ENGINE.py",
+                    "classes": [],
+                    "functions": 3
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CONTACT_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CRM_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\123_SITE_AGENT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\129_MISSION_ORCHESTRATOR.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\130_AGENT_EXECUTION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\132_EVENT_BUS_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\134_IOTEC_KERNEL.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\136_AUTONOMOUS_PLANNING_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_EXTRACTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_CONTACT_COLLECTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\SOURCE_CONNECTORS.py",
+                    "classes": [],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\SOURCE_ENGINE.py",
+                    "classes": [
+                        "enterprisesourceengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\WEBSITE_FINDER.py",
+                    "classes": [],
+                    "functions": 2
+                }
+            ]
+        },
+        "COMMERCIAL_ENGINE": {
+            "occurrences": 37,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\002_SENSOR_MANAGER.py",
+                    "classes": [
+                        "sensormanager"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\110_COMPANY_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\118_EXECUTIVE_INTELLIGENCE_REPORT.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\120_COMPANY_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\121_OPPORTUNITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CONTACT_ENRICHMENT_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\122_CRM_INTELLIGENCE_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\123_PROPOSAL_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\123_SITE_AGENT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\124_LEAD_QUALITY_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\125_CONTACT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\126_COMMERCIAL_COMMAND_CENTER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\127_OPERATIONAL_AUDITOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\128_CONTROL_TOWER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\132_EVENT_BUS_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\133_KERNEL_EVENT_DISPATCHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\business.py",
+                    "classes": [
+                        "businesssystem"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\commercial.py",
+                    "classes": [
+                        "commercialcenter"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_SERVICE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_WORKER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CRM_ENRICHER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                },
+                {
+                    "file": "C:\\IOTEC\\DEDUPLICATE_CRM.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\FIRST_LEAD_REGISTRY_ENGINE.py",
+                    "classes": [
+                        "lead",
+                        "firstleadregistryengine"
+                    ],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_DIAGNOSTIC_ASSISTANT.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_CONTACT_COLLECTOR.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\REAL_REVENUE_PIPELINE.py",
+                    "classes": [],
+                    "functions": 2
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_CONTRACT_ENGINE.py",
+                    "classes": [
+                        "revenuecontract",
+                        "revenuecontractengine"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_CONVERSION_ENGINE.py",
+                    "classes": [
+                        "revenueconversion",
+                        "revenueconversionengine"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\revenue_core.py",
+                    "classes": [
+                        "revenuecore"
+                    ],
+                    "functions": 15
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_LAYER_ENGINE.py",
+                    "classes": [
+                        "revenuelayer",
+                        "revenuelayerengine"
+                    ],
+                    "functions": 5
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_LEDGER_ENGINE.py",
+                    "classes": [
+                        "revenueevent",
+                        "revenueledgerengine"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_PAYMENT_ENGINE.py",
+                    "classes": [
+                        "revenuepayment",
+                        "revenuepaymentengine"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\enterprise\\enterprise_database.py",
+                    "classes": [
+                        "jsondatabase"
+                    ],
+                    "functions": 8
+                }
+            ]
+        },
+        "AUTOMATION_ENGINE": {
+            "occurrences": 11,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\116_SCIENTIFIC_OPERATIONS_CENTER.py",
+                    "classes": [
+                        "scientist"
+                    ],
+                    "functions": 4
+                },
+                {
+                    "file": "C:\\IOTEC\\128_CAPABILITY_EXPANSION_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\129_MISSION_ORCHESTRATOR.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\135_KERNEL_SCHEDULER.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_SERVICE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\CONTACT_DISCOVERY_WORKER.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                },
+                {
+                    "file": "C:\\IOTEC\\REVENUE_SCHEDULER_ENGINE.py",
+                    "classes": [
+                        "revenuescheduler",
+                        "revenueschedulerengine"
+                    ],
+                    "functions": 7
+                },
+                {
+                    "file": "C:\\IOTEC\\SERVICE_QUEUE_ENGINE.py",
+                    "classes": [
+                        "servicequeue",
+                        "servicequeueengine"
+                    ],
+                    "functions": 6
+                }
+            ]
+        },
+        "PDF_ENGINE": {
+            "occurrences": 2,
+            "files": [
+                {
+                    "file": "C:\\IOTEC\\IOTEC_CAPABILITY_CONSOLIDATOR_ENGINE.py",
+                    "classes": [],
+                    "functions": 1
+                },
+                {
+                    "file": "C:\\IOTEC\\PRODUCT_DISCOVERY_ENGINE.py",
+                    "classes": [],
+                    "functions": 0
+                }
+            ]
+        }
+    }
+}

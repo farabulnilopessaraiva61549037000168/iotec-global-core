@@ -1,0 +1,51 @@
+{
+    "generated": "2026-06-07 14:51:58.339874",
+    "layers": {
+        "REALTIME": {
+            "interval_seconds": 10,
+            "motors": [
+                "IOTEC_CORE_RUNNER",
+                "IOTEC_CONTROL_TOWER_ENGINE",
+                "IOTEC_CORE_LIVE_QUEUE"
+            ]
+        },
+        "COMMERCIAL": {
+            "interval_seconds": 300,
+            "motors": [
+                "CRM_ENGINE",
+                "LEAD_SCORE_ENGINE",
+                "SALES_BRAIN",
+                "NEGOTIATION_ENGINE",
+                "PROPOSAL_ENGINE",
+                "SALES_AUTOPILOT_ENGINE"
+            ]
+        },
+        "REVENUE": {
+            "interval_seconds": 1800,
+            "motors": [
+                "REVENUE_DISCOVERY_ENGINE",
+                "REVENUE_OPERATION_CENTER",
+                "AUTO_MONETIZATION_ENGINE",
+                "PRICING_ENGINE"
+            ]
+        },
+        "INTELLIGENCE": {
+            "interval_seconds": 7200,
+            "motors": [
+                "ECONOMIC_INTELLIGENCE",
+                "IOTEC_CENTRAL_BRAIN",
+                "IOTEC_MEMORY_ENGINE",
+                "IOTEC_UNIFIED_BRAIN"
+            ]
+        },
+        "STRATEGIC": {
+            "interval_seconds": 21600,
+            "motors": [
+                "IOTEC_CAPABILITY_HUNTER",
+                "MISSION_01_CAPABILITY_CATALOG",
+                "TOP_ASSETS_ENGINE",
+                "IOTEC_REVENUE_IDENTITY_ENGINE"
+            ]
+        }
+    }
+}

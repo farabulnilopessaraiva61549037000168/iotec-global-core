@@ -1,0 +1,1503 @@
+{
+    "gerado_em": "2026-07-13T19:52:41.732579",
+    "arquivos_estudados": 114,
+    "biblioteca": [
+        {
+            "arquivo": "032_CAPABILITY_GENOME_ENGINE.py",
+            "caminho": "C:\\IOTEC\\032_CAPABILITY_GENOME_ENGINE.py",
+            "classes": [
+                "GenomeEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "analisar",
+                "classificar",
+                "criar_tabelas",
+                "fechar",
+                "painel"
+            ],
+            "imports": [
+                "collections",
+                "datetime",
+                "os",
+                "pathlib",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 5
+        },
+        {
+            "arquivo": "037_REAL_COMPANY_REGISTRY.py",
+            "caminho": "C:\\IOTEC\\037_REAL_COMPANY_REGISTRY.py",
+            "classes": [
+                "RealCompanyRegistry"
+            ],
+            "funcoes": [
+                "__init__",
+                "criar_tabela",
+                "empresa_existe",
+                "fechar",
+                "importar_csv",
+                "painel",
+                "proximo_codigo"
+            ],
+            "imports": [
+                "csv",
+                "datetime",
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 7,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "038_IMPORT_CENTER.py",
+            "caminho": "C:\\IOTEC\\038_IMPORT_CENTER.py",
+            "classes": [
+                "ImportCenter"
+            ],
+            "funcoes": [
+                "__init__",
+                "codigo",
+                "criar_tabela",
+                "existe",
+                "fechar",
+                "importar",
+                "painel"
+            ],
+            "imports": [
+                "datetime",
+                "os",
+                "pandas",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 7,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "033_DEPENDENCY_GRAPH_ENGINE.py",
+            "caminho": "C:\\IOTEC\\033_DEPENDENCY_GRAPH_ENGINE.py",
+            "classes": [
+                "DependencyGraph"
+            ],
+            "funcoes": [
+                "__init__",
+                "criar_tabela",
+                "descobrir",
+                "fechar",
+                "limpar",
+                "painel"
+            ],
+            "imports": [
+                "os",
+                "pathlib",
+                "re",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "040_COMMERCIAL_WAR_ROOM.py",
+            "caminho": "C:\\IOTEC\\040_COMMERCIAL_WAR_ROOM.py",
+            "classes": [
+                "CommercialWarRoom"
+            ],
+            "funcoes": [
+                "__init__",
+                "contar",
+                "existe",
+                "fechar",
+                "missoes",
+                "painel",
+                "painel_frentes",
+                "receita"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 8,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "036_SALES_COMMAND_CENTER.py",
+            "caminho": "C:\\IOTEC\\036_SALES_COMMAND_CENTER.py",
+            "classes": [
+                "SalesCommandCenter"
+            ],
+            "funcoes": [
+                "__init__",
+                "atualizar_dashboard",
+                "contar",
+                "criar_tabelas",
+                "fechar",
+                "painel",
+                "receita"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 7,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "039_COMMERCIAL_FRONT_ENGINE.py",
+            "caminho": "C:\\IOTEC\\039_COMMERCIAL_FRONT_ENGINE.py",
+            "classes": [
+                "CommercialFrontEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "cadastrar",
+                "criar_tabelas",
+                "existe",
+                "fechar",
+                "instalar",
+                "painel"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 7,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "021_IOTEC_PRODUCT_CATALOG.py",
+            "caminho": "C:\\IOTEC\\021_IOTEC_PRODUCT_CATALOG.py",
+            "classes": [
+                "ProductCatalog"
+            ],
+            "funcoes": [
+                "__init__",
+                "cadastrar",
+                "criar_tabela",
+                "fechar",
+                "listar",
+                "resumo"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "023_CATALOG_CURATOR.py",
+            "caminho": "C:\\IOTEC\\023_CATALOG_CURATOR.py",
+            "classes": [
+                "CatalogCurator"
+            ],
+            "funcoes": [
+                "__init__",
+                "analisar",
+                "classificar",
+                "potencial",
+                "relatorio"
+            ],
+            "imports": [
+                "datetime",
+                "os",
+                "pathlib"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 5,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "024_ARCHITECTURE_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\024_ARCHITECTURE_DISCOVERY_ENGINE.py",
+            "classes": [
+                "ArchitectureDiscoveryEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "analisar_arquivo",
+                "analisar_pasta",
+                "painel"
+            ],
+            "imports": [
+                "ast",
+                "datetime",
+                "os",
+                "pathlib"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 4,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "027_CONVERGENCE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\027_CONVERGENCE_ENGINE.py",
+            "classes": [
+                "ConvergenceEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "analisar",
+                "executar",
+                "resumo",
+                "varrer"
+            ],
+            "imports": [
+                "collections",
+                "os",
+                "pathlib"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 5,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "028_FIRST_CONTRACT_ENGINE.py",
+            "caminho": "C:\\IOTEC\\028_FIRST_CONTRACT_ENGINE.py",
+            "classes": [
+                "FirstContractEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "contar",
+                "contar_status",
+                "criar_tabelas",
+                "fechar",
+                "painel"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "029_LEAD_CAPTURE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\029_LEAD_CAPTURE_ENGINE.py",
+            "classes": [
+                "LeadCaptureEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "cadastrar_cliente",
+                "criar_tabela",
+                "fechar",
+                "listar_clientes",
+                "proximo_codigo"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "030_SALES_PIPELINE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\030_SALES_PIPELINE_ENGINE.py",
+            "classes": [
+                "SalesPipeline"
+            ],
+            "funcoes": [
+                "__init__",
+                "atualizar_status",
+                "fechar",
+                "listar",
+                "mostrar_clientes",
+                "painel"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 6,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "031_COMMERCIAL_AUTOPILOT.py",
+            "caminho": "C:\\IOTEC\\031_COMMERCIAL_AUTOPILOT.py",
+            "classes": [
+                "CommercialAutopilot"
+            ],
+            "funcoes": [
+                "__init__",
+                "executar",
+                "fechar",
+                "listar_clientes",
+                "sugerir"
+            ],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 5,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "034_ECOSYSTEM_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\034_ECOSYSTEM_DISCOVERY_ENGINE.py",
+            "classes": [
+                "EcosystemEngine"
+            ],
+            "funcoes": [
+                "__init__",
+                "analisar",
+                "painel"
+            ],
+            "imports": [
+                "collections",
+                "os",
+                "pathlib"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 3,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "022_PRODUCT_SHOWCASE.py",
+            "caminho": "C:\\IOTEC\\022_PRODUCT_SHOWCASE.py",
+            "classes": [
+                "ProductShowcase"
+            ],
+            "funcoes": [
+                "__init__",
+                "fechar",
+                "mostrar_catalogo",
+                "painel"
+            ],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 1,
+            "total_funcoes": 4,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "046_RELATIONSHIP_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\046_RELATIONSHIP_DISCOVERY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "ast",
+                "collections",
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "076_EXECUTIVE_SKIN.py",
+            "caminho": "C:\\IOTEC\\076_EXECUTIVE_SKIN.py",
+            "classes": [],
+            "funcoes": [
+                "linha",
+                "pausa"
+            ],
+            "imports": [
+                "os",
+                "time"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 2,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "077_EXPERIENCE_WAREHOUSE.py",
+            "caminho": "C:\\IOTEC\\077_EXPERIENCE_WAREHOUSE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "datetime",
+                "json",
+                "pathlib"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "078_EXPERIENCE_ARCHAEOLOGIST.py",
+            "caminho": "C:\\IOTEC\\078_EXPERIENCE_ARCHAEOLOGIST.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "bs4",
+                "collections",
+                "json",
+                "pathlib"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "079_VISUAL_GENOME_ENGINE.py",
+            "caminho": "C:\\IOTEC\\079_VISUAL_GENOME_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "bs4",
+                "collections",
+                "json",
+                "pathlib"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "091_CODE_KNOWLEDGE_FACTORY.py",
+            "caminho": "C:\\IOTEC\\091_CODE_KNOWLEDGE_FACTORY.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "ast",
+                "datetime",
+                "json",
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 4
+        },
+        {
+            "arquivo": "025_KNOWLEDGE_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\025_KNOWLEDGE_DISCOVERY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "os",
+                "pathlib"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "044_KERNEL_EVIDENCE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\044_KERNEL_EVIDENCE_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "057_PAYMENT_FLOW_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\057_PAYMENT_FLOW_DISCOVERY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "os",
+                "re",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "059_ARCHITECTURE_GOVERNANCE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\059_ARCHITECTURE_GOVERNANCE_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "071_DEPENDENCY_GRAPH_ENGINE.py",
+            "caminho": "C:\\IOTEC\\071_DEPENDENCY_GRAPH_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "os",
+                "re"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "072_INTERNAL_DEPENDENCY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\072_INTERNAL_DEPENDENCY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "os",
+                "re"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 3
+        },
+        {
+            "arquivo": "084_EXECUTIVE_SKIN_SERVER.py",
+            "caminho": "C:\\IOTEC\\084_EXECUTIVE_SKIN_SERVER.py",
+            "classes": [],
+            "funcoes": [
+                "home"
+            ],
+            "imports": [
+                "datetime",
+                "flask"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 1,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "089_EXECUTIVE_SKIN_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\089_EXECUTIVE_SKIN_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [
+                "inicio"
+            ],
+            "imports": [
+                "datetime",
+                "flask"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 1,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "045_EXECUTIVE_REASONING_ENGINE.py",
+            "caminho": "C:\\IOTEC\\045_EXECUTIVE_REASONING_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "046B_DEEP_INVENTORY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\046B_DEEP_INVENTORY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "049_CONTROL_TOWER_ENGINE.py",
+            "caminho": "C:\\IOTEC\\049_CONTROL_TOWER_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "051_MISSION_DISPATCH_ENGINE.py",
+            "caminho": "C:\\IOTEC\\051_MISSION_DISPATCH_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "052_TASK_EXECUTION_ENGINE.py",
+            "caminho": "C:\\IOTEC\\052_TASK_EXECUTION_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "054_REAL_LEAD_GATEWAY.py",
+            "caminho": "C:\\IOTEC\\054_REAL_LEAD_GATEWAY.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "056_PAYMENT_FORENSICS_ENGINE.py",
+            "caminho": "C:\\IOTEC\\056_PAYMENT_FORENSICS_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "058_STRATEGIC_CODE_FORENSICS_ENGINE.py",
+            "caminho": "C:\\IOTEC\\058_STRATEGIC_CODE_FORENSICS_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "os",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "061_IOTEC_CONSTITUTION_BUILDER.py",
+            "caminho": "C:\\IOTEC\\061_IOTEC_CONSTITUTION_BUILDER.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "json"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "062_CONSTITUTION_VALIDATOR.py",
+            "caminho": "C:\\IOTEC\\062_CONSTITUTION_VALIDATOR.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "json",
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "063_OPERATION_READINESS_ENGINE.py",
+            "caminho": "C:\\IOTEC\\063_OPERATION_READINESS_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "json",
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "067_INTELLIGENCE_MISSION_PLANNER.py",
+            "caminho": "C:\\IOTEC\\067_INTELLIGENCE_MISSION_PLANNER.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "068_COLLECTION_ORCHESTRATOR.py",
+            "caminho": "C:\\IOTEC\\068_COLLECTION_ORCHESTRATOR.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime",
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "073_RUNTIME_FLOW_ENGINE.py",
+            "caminho": "C:\\IOTEC\\073_RUNTIME_FLOW_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "collections",
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "074_PAYPAL_OFFICIAL_CONNECTOR.py",
+            "caminho": "C:\\IOTEC\\074_PAYPAL_OFFICIAL_CONNECTOR.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "os",
+                "re"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "080_OFFICIAL_ASSET_FILTER.py",
+            "caminho": "C:\\IOTEC\\080_OFFICIAL_ASSET_FILTER.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "json",
+                "pathlib"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "083_START_IOTEC.py",
+            "caminho": "C:\\IOTEC\\083_START_IOTEC.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "time",
+                "webbrowser"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 2
+        },
+        {
+            "arquivo": "029_DATABASE_MIGRATION.py",
+            "caminho": "C:\\IOTEC\\029_DATABASE_MIGRATION.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "043_IOTEC_INTERROGATOR.py",
+            "caminho": "C:\\IOTEC\\043_IOTEC_INTERROGATOR.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "047_ECOSYSTEM_GOVERNANCE_ENGINE.py",
+            "caminho": "C:\\IOTEC\\047_ECOSYSTEM_GOVERNANCE_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "048_INTERECOSYSTEM_PROTOCOL_ENGINE.py",
+            "caminho": "C:\\IOTEC\\048_INTERECOSYSTEM_PROTOCOL_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "050_WORKFORCE_REGISTRY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\050_WORKFORCE_REGISTRY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "053_CLIENT_ORCHESTRATOR_ENGINE.py",
+            "caminho": "C:\\IOTEC\\053_CLIENT_ORCHESTRATOR_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "055_REVENUE_READINESS_ENGINE.py",
+            "caminho": "C:\\IOTEC\\055_REVENUE_READINESS_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "064_ENTERPRISE_OPERATING_SYSTEM.py",
+            "caminho": "C:\\IOTEC\\064_ENTERPRISE_OPERATING_SYSTEM.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "065_STRATEGIC_INTELLIGENCE_KERNEL.py",
+            "caminho": "C:\\IOTEC\\065_STRATEGIC_INTELLIGENCE_KERNEL.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "066_MARKET_DISCOVERY_CENTER.py",
+            "caminho": "C:\\IOTEC\\066_MARKET_DISCOVERY_CENTER.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "sqlite3"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "070_OFFICIAL_CONNECTOR_DISCOVERY_ENGINE.py",
+            "caminho": "C:\\IOTEC\\070_OFFICIAL_CONNECTOR_DISCOVERY_ENGINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "os"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "082_INFRASTRUCTURE_COMMAND_CENTER.py",
+            "caminho": "C:\\IOTEC\\082_INFRASTRUCTURE_COMMAND_CENTER.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "088_EXECUTIVE_ASSEMBLY.py",
+            "caminho": "C:\\IOTEC\\088_EXECUTIVE_ASSEMBLY.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "090_INTERNAL_PRODUCTION_DIRECTORATE.py",
+            "caminho": "C:\\IOTEC\\090_INTERNAL_PRODUCTION_DIRECTORATE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [
+                "datetime"
+            ],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 1
+        },
+        {
+            "arquivo": "075_ENTERPRISE_EXPERIENCE_DOCTRINE.py",
+            "caminho": "C:\\IOTEC\\075_ENTERPRISE_EXPERIENCE_DOCTRINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "087_KERNEL_OPERATIONAL_DOCTRINE.py",
+            "caminho": "C:\\IOTEC\\087_KERNEL_OPERATIONAL_DOCTRINE.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD_20260617_162520.py",
+            "caminho": "C:\\IOTEC\\BACKUP\\IOTEC_DASHBOARD_20260617_162520.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "command_center.py",
+            "caminho": "C:\\IOTEC\\core\\command_center.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "prospection.py",
+            "caminho": "C:\\IOTEC\\core\\prospection.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "BACKUP_IOTEC_DASHBOARD_20260617_162520.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\BACKUP_IOTEC_DASHBOARD_20260617_162520.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "core_command_center.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\core_command_center.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "core_prospection.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\core_prospection.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_ANALYTICS_IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_ANALYTICS_IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_command_center.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_command_center.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_prospection.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_prospection.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_operations_build__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_operations_build__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_operations__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_operations__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_resolution_legacy__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_resolution_legacy__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_resolution_resolvelib__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_resolution_resolvelib__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_resolution__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_resolution__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__internal_utils__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__internal_utils__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_chardet_cli__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_chardet_cli__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_chardet_metadata__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_chardet_metadata__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_resolvelib_compat__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_resolvelib_compat__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_urllib3_contrib__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_urllib3_contrib__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_urllib3_contrib__securetransport__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_urllib3_contrib__securetransport__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_urllib3_packages_backports__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_urllib3_packages_backports__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pip__vendor_urllib3_packages__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pip__vendor_urllib3_packages__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pkg_resources__vendor_jaraco__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pkg_resources__vendor_jaraco__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_pkg_resources__vendor__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_pkg_resources__vendor__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_setuptools__vendor_jaraco__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_setuptools__vendor_jaraco__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "venv_Lib_site-packages_setuptools__vendor__init_.py",
+            "caminho": "C:\\IOTEC\\ENCODING_BACKUP\\venv_Lib_site-packages_setuptools__vendor__init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "command_center.py",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\command_center.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD.py",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_DASHBOARD.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "prospection.py",
+            "caminho": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\prospection.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\operations\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\operations\\build\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\resolution\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\resolution\\legacy\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\cli\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\metadata\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        },
+        {
+            "arquivo": "_init_.py",
+            "caminho": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\_init_.py",
+            "classes": [],
+            "funcoes": [],
+            "imports": [],
+            "total_classes": 0,
+            "total_funcoes": 0,
+            "total_imports": 0
+        }
+    ]
+}

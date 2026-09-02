@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_117738c1ca3b3c2e1c5bc5f283f44d7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_117738c1ca3b3c2e1c5bc5f283f44d7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_117738c1ca3b3c2e1c5bc5f283f44d7c = L.map(
+                "map_117738c1ca3b3c2e1c5bc5f283f44d7c",
+                {
+                    center: [-5.0, -38.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4993279185dff298f07e6d083a0b95b1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4993279185dff298f07e6d083a0b95b1.addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+            var heat_map_594dd74c5d1e02a7e8f07c4361da3bc6 = L.heatLayer(
+                [[-4.97, -39.015], [-4.975, -39.02], [-5.15, -38.09], [-5.155, -38.12], [-5.155, -38.12], [-5.199, -39.29], [-4.975, -39.02], [-4.97, -39.015], [-5.146, -38.1], [-4.975, -39.02], [-5.199, -39.29], [-5.146, -38.1], [-5.155, -38.12], [-5.145, -38.085], [-4.975, -39.02], [-4.975, -39.02], [-5.155, -38.12], [-5.205, -39.295], [-4.97, -39.015], [-5.145, -38.085], [-4.975, -39.02], [-4.975, -39.02], [-4.975, -39.02], [-5.145, -38.085], [-5.15, -38.09], [-5.145, -38.085], [-5.155, -38.12], [-4.975, -39.02], [-5.199, -39.29], [-5.15, -38.09], [-5.155, -38.12], [-5.205, -39.295]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 18,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_594dd74c5d1e02a7e8f07c4361da3bc6.addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+            var marker_f638c9cf4d285838568879e1ac5326b6 = L.marker(
+                [-5.15, -38.09],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_f8a0e5c40585ad02eaee2513d882e958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a37a1b203135547ed97c287e3eba8015 = $(`<div id="html_a37a1b203135547ed97c287e3eba8015" style="width: 100.0%; height: 100.0%;">Roubo - Bom Nome (Limoeiro do Norte)</div>`)[0];
+                popup_f8a0e5c40585ad02eaee2513d882e958.setContent(html_a37a1b203135547ed97c287e3eba8015);
+            
+        
+
+        marker_f638c9cf4d285838568879e1ac5326b6.bindPopup(popup_f8a0e5c40585ad02eaee2513d882e958)
+        ;
+
+        
+    
+    
+            var marker_e0d00b6b8636a4abde295cc3994dfa00 = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_05f9dc24037c0f2a7e672abf95da0bdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_235a3d4c7b62444f57bb340bb37aa72e = $(`<div id="html_235a3d4c7b62444f57bb340bb37aa72e" style="width: 100.0%; height: 100.0%;">Roubo - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_05f9dc24037c0f2a7e672abf95da0bdb.setContent(html_235a3d4c7b62444f57bb340bb37aa72e);
+            
+        
+
+        marker_e0d00b6b8636a4abde295cc3994dfa00.bindPopup(popup_05f9dc24037c0f2a7e672abf95da0bdb)
+        ;
+
+        
+    
+    
+            var marker_ea80a391d77249311b19afaccc88f303 = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_5950b7ee6e8cea97246d61dbb0a2aafa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de2339dc5c942c9ac9afad721c3148f6 = $(`<div id="html_de2339dc5c942c9ac9afad721c3148f6" style="width: 100.0%; height: 100.0%;">Roubo - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_5950b7ee6e8cea97246d61dbb0a2aafa.setContent(html_de2339dc5c942c9ac9afad721c3148f6);
+            
+        
+
+        marker_ea80a391d77249311b19afaccc88f303.bindPopup(popup_5950b7ee6e8cea97246d61dbb0a2aafa)
+        ;
+
+        
+    
+    
+            var marker_84218dc1d2f9c5d080644d1719b7f4aa = L.marker(
+                [-5.199, -39.29],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_c8993e50695f97d44f3fd3f5b446e814 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0105f65d5e8f890dd6f48177ce350006 = $(`<div id="html_0105f65d5e8f890dd6f48177ce350006" style="width: 100.0%; height: 100.0%;">Furto - Centro (Quixeramobim)</div>`)[0];
+                popup_c8993e50695f97d44f3fd3f5b446e814.setContent(html_0105f65d5e8f890dd6f48177ce350006);
+            
+        
+
+        marker_84218dc1d2f9c5d080644d1719b7f4aa.bindPopup(popup_c8993e50695f97d44f3fd3f5b446e814)
+        ;
+
+        
+    
+    
+            var marker_e2aa0df375ebaed46e056de7fc7d93b7 = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_665ae214aa23822898e52a2c3f36db2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a75ebc56d63f04ff0cd52b05aafd49d = $(`<div id="html_5a75ebc56d63f04ff0cd52b05aafd49d" style="width: 100.0%; height: 100.0%;">Roubo - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_665ae214aa23822898e52a2c3f36db2c.setContent(html_5a75ebc56d63f04ff0cd52b05aafd49d);
+            
+        
+
+        marker_e2aa0df375ebaed46e056de7fc7d93b7.bindPopup(popup_665ae214aa23822898e52a2c3f36db2c)
+        ;
+
+        
+    
+    
+            var marker_110357ea1be35649ceeab69bf6d95956 = L.marker(
+                [-4.97, -39.015],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_89e6bfe8145a3100cb6a7ebdcfab79e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26b608675d994f3d97440e3a5e175a86 = $(`<div id="html_26b608675d994f3d97440e3a5e175a86" style="width: 100.0%; height: 100.0%;">Furto - Centro (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_89e6bfe8145a3100cb6a7ebdcfab79e2.setContent(html_26b608675d994f3d97440e3a5e175a86);
+            
+        
+
+        marker_110357ea1be35649ceeab69bf6d95956.bindPopup(popup_89e6bfe8145a3100cb6a7ebdcfab79e2)
+        ;
+
+        
+    
+    
+            var marker_8effc3cd2a54fb6a4accede16377ef90 = L.marker(
+                [-5.146, -38.1],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_ec0d98f128137692e4f1f2426049f0d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8592dd9774d3f44e46579f21a7d7f57e = $(`<div id="html_8592dd9774d3f44e46579f21a7d7f57e" style="width: 100.0%; height: 100.0%;">Roubo - Centro (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_ec0d98f128137692e4f1f2426049f0d4.setContent(html_8592dd9774d3f44e46579f21a7d7f57e);
+            
+        
+
+        marker_8effc3cd2a54fb6a4accede16377ef90.bindPopup(popup_ec0d98f128137692e4f1f2426049f0d4)
+        ;
+
+        
+    
+    
+            var marker_50fed4e08d280daea7085aef47f3268a = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_07f3d8a95a27c9f3016066e2a81be4f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65364a697a779ee01d5215d376edab4c = $(`<div id="html_65364a697a779ee01d5215d376edab4c" style="width: 100.0%; height: 100.0%;">Roubo - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_07f3d8a95a27c9f3016066e2a81be4f5.setContent(html_65364a697a779ee01d5215d376edab4c);
+            
+        
+
+        marker_50fed4e08d280daea7085aef47f3268a.bindPopup(popup_07f3d8a95a27c9f3016066e2a81be4f5)
+        ;
+
+        
+    
+    
+            var marker_d279d04ff38b062188ed7a1cacb58a71 = L.marker(
+                [-5.199, -39.29],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_5f77e0c8721201749fc14a9c3834e717 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36cc2e0a280fdbe8953f3ee788b38e17 = $(`<div id="html_36cc2e0a280fdbe8953f3ee788b38e17" style="width: 100.0%; height: 100.0%;">Roubo - Centro (Quixeramobim)</div>`)[0];
+                popup_5f77e0c8721201749fc14a9c3834e717.setContent(html_36cc2e0a280fdbe8953f3ee788b38e17);
+            
+        
+
+        marker_d279d04ff38b062188ed7a1cacb58a71.bindPopup(popup_5f77e0c8721201749fc14a9c3834e717)
+        ;
+
+        
+    
+    
+            var marker_e9e8e363b931ef4a6af3188a3526ab1c = L.marker(
+                [-5.146, -38.1],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_3c8b5c99663b8353dd6c9f2bc73531ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_029668ff78d77ad32c37e3fd00df5a44 = $(`<div id="html_029668ff78d77ad32c37e3fd00df5a44" style="width: 100.0%; height: 100.0%;">Suspeita - Centro (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_3c8b5c99663b8353dd6c9f2bc73531ab.setContent(html_029668ff78d77ad32c37e3fd00df5a44);
+            
+        
+
+        marker_e9e8e363b931ef4a6af3188a3526ab1c.bindPopup(popup_3c8b5c99663b8353dd6c9f2bc73531ab)
+        ;
+
+        
+    
+    
+            var marker_12cc77b97f4f88443b4201535a34c955 = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_8a96e2b717a1ea0b07c77ca263809e09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_507ea8652720e7e4578ee0bf837f1987 = $(`<div id="html_507ea8652720e7e4578ee0bf837f1987" style="width: 100.0%; height: 100.0%;">Roubo - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_8a96e2b717a1ea0b07c77ca263809e09.setContent(html_507ea8652720e7e4578ee0bf837f1987);
+            
+        
+
+        marker_12cc77b97f4f88443b4201535a34c955.bindPopup(popup_8a96e2b717a1ea0b07c77ca263809e09)
+        ;
+
+        
+    
+    
+            var marker_0b605b8b7212ff8bac8e18070864403c = L.marker(
+                [-5.145, -38.085],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_b33f0c44ce99f028403bf01ddbea9039 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99b903999687d3cf940ad8aac597014f = $(`<div id="html_99b903999687d3cf940ad8aac597014f" style="width: 100.0%; height: 100.0%;">Suspeita - Centro (Limoeiro do Norte)</div>`)[0];
+                popup_b33f0c44ce99f028403bf01ddbea9039.setContent(html_99b903999687d3cf940ad8aac597014f);
+            
+        
+
+        marker_0b605b8b7212ff8bac8e18070864403c.bindPopup(popup_b33f0c44ce99f028403bf01ddbea9039)
+        ;
+
+        
+    
+    
+            var marker_a8df1c30ac92b5b7b23321fc1767f8b6 = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_a01a345814e7059d39cff0419d1df95d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f69bd60e06d3aa68709d59cea76c18 = $(`<div id="html_f6f69bd60e06d3aa68709d59cea76c18" style="width: 100.0%; height: 100.0%;">Roubo - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_a01a345814e7059d39cff0419d1df95d.setContent(html_f6f69bd60e06d3aa68709d59cea76c18);
+            
+        
+
+        marker_a8df1c30ac92b5b7b23321fc1767f8b6.bindPopup(popup_a01a345814e7059d39cff0419d1df95d)
+        ;
+
+        
+    
+    
+            var marker_21076b1381b8b4bfa43e3c0ddb3c1052 = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_ba2d7853e9a5fffd3a2809323fdc6a50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa4bb1452c6df023c1b45ad7dd439a1d = $(`<div id="html_fa4bb1452c6df023c1b45ad7dd439a1d" style="width: 100.0%; height: 100.0%;">Furto - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_ba2d7853e9a5fffd3a2809323fdc6a50.setContent(html_fa4bb1452c6df023c1b45ad7dd439a1d);
+            
+        
+
+        marker_21076b1381b8b4bfa43e3c0ddb3c1052.bindPopup(popup_ba2d7853e9a5fffd3a2809323fdc6a50)
+        ;
+
+        
+    
+    
+            var marker_2ddec6c4ba2c50a6f429cef6e14a6986 = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_5b038da9abe47c89a58540e8a13e5e50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff6b3bf576ce42d3751b50c61e29037 = $(`<div id="html_eff6b3bf576ce42d3751b50c61e29037" style="width: 100.0%; height: 100.0%;">Furto - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_5b038da9abe47c89a58540e8a13e5e50.setContent(html_eff6b3bf576ce42d3751b50c61e29037);
+            
+        
+
+        marker_2ddec6c4ba2c50a6f429cef6e14a6986.bindPopup(popup_5b038da9abe47c89a58540e8a13e5e50)
+        ;
+
+        
+    
+    
+            var marker_4f6fd965f6052a1fb2db378fe62a1222 = L.marker(
+                [-5.205, -39.295],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_7d4e58f73774c48b062a32e063c3afbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d07efad1bfd395895025b4ee06ea1dbf = $(`<div id="html_d07efad1bfd395895025b4ee06ea1dbf" style="width: 100.0%; height: 100.0%;">Suspeita - Maravilha (Quixeramobim)</div>`)[0];
+                popup_7d4e58f73774c48b062a32e063c3afbe.setContent(html_d07efad1bfd395895025b4ee06ea1dbf);
+            
+        
+
+        marker_4f6fd965f6052a1fb2db378fe62a1222.bindPopup(popup_7d4e58f73774c48b062a32e063c3afbe)
+        ;
+
+        
+    
+    
+            var marker_8a4b62f7190ce73a31a0d9e06ecdd7cc = L.marker(
+                [-4.97, -39.015],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_15ba5bcec8cee1a5cd796cfbc27c14f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_859ec0174073abe665cd87591c770982 = $(`<div id="html_859ec0174073abe665cd87591c770982" style="width: 100.0%; height: 100.0%;">Furto - Centro (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_15ba5bcec8cee1a5cd796cfbc27c14f3.setContent(html_859ec0174073abe665cd87591c770982);
+            
+        
+
+        marker_8a4b62f7190ce73a31a0d9e06ecdd7cc.bindPopup(popup_15ba5bcec8cee1a5cd796cfbc27c14f3)
+        ;
+
+        
+    
+    
+            var marker_987378ac534c67f5452483778d9eb9ce = L.marker(
+                [-5.145, -38.085],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_4ceaf647c9eebcb15cedbb0dbc3b681c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e0e8e038135899885b57f3a1d83b7ea = $(`<div id="html_1e0e8e038135899885b57f3a1d83b7ea" style="width: 100.0%; height: 100.0%;">Suspeita - Centro (Limoeiro do Norte)</div>`)[0];
+                popup_4ceaf647c9eebcb15cedbb0dbc3b681c.setContent(html_1e0e8e038135899885b57f3a1d83b7ea);
+            
+        
+
+        marker_987378ac534c67f5452483778d9eb9ce.bindPopup(popup_4ceaf647c9eebcb15cedbb0dbc3b681c)
+        ;
+
+        
+    
+    
+            var marker_f1135d22355d6b818befab9959a1be6c = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_8e58cb51fc75c01db0e7ff79f65b662b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f53f41d16f20aa02a077641e15b98bc = $(`<div id="html_2f53f41d16f20aa02a077641e15b98bc" style="width: 100.0%; height: 100.0%;">Furto - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_8e58cb51fc75c01db0e7ff79f65b662b.setContent(html_2f53f41d16f20aa02a077641e15b98bc);
+            
+        
+
+        marker_f1135d22355d6b818befab9959a1be6c.bindPopup(popup_8e58cb51fc75c01db0e7ff79f65b662b)
+        ;
+
+        
+    
+    
+            var marker_27e523525fbbfe29da7a2624828c7a74 = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_f715dd31eddc43cd83fb523d613ca622 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c1a04a851c568698e441bcb5f2c58bb = $(`<div id="html_8c1a04a851c568698e441bcb5f2c58bb" style="width: 100.0%; height: 100.0%;">Suspeita - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_f715dd31eddc43cd83fb523d613ca622.setContent(html_8c1a04a851c568698e441bcb5f2c58bb);
+            
+        
+
+        marker_27e523525fbbfe29da7a2624828c7a74.bindPopup(popup_f715dd31eddc43cd83fb523d613ca622)
+        ;
+
+        
+    
+    
+            var marker_b6ed9f1c15ebf5d611f8155f56ba5847 = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_538edd9c78a3b511a888f44a6a95ec71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b22c12367a53b6e0cdc89a203aeb7b4 = $(`<div id="html_2b22c12367a53b6e0cdc89a203aeb7b4" style="width: 100.0%; height: 100.0%;">Suspeita - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_538edd9c78a3b511a888f44a6a95ec71.setContent(html_2b22c12367a53b6e0cdc89a203aeb7b4);
+            
+        
+
+        marker_b6ed9f1c15ebf5d611f8155f56ba5847.bindPopup(popup_538edd9c78a3b511a888f44a6a95ec71)
+        ;
+
+        
+    
+    
+            var marker_520fe6f48cf526803f2bf32b76c93ae5 = L.marker(
+                [-5.145, -38.085],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_5ba42a2d6093fabb8dc070becfff72af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34456d3776862e6fd9ee065edcfc8402 = $(`<div id="html_34456d3776862e6fd9ee065edcfc8402" style="width: 100.0%; height: 100.0%;">Roubo - Centro (Limoeiro do Norte)</div>`)[0];
+                popup_5ba42a2d6093fabb8dc070becfff72af.setContent(html_34456d3776862e6fd9ee065edcfc8402);
+            
+        
+
+        marker_520fe6f48cf526803f2bf32b76c93ae5.bindPopup(popup_5ba42a2d6093fabb8dc070becfff72af)
+        ;
+
+        
+    
+    
+            var marker_ebcd54cbb2ccb9cb7f6770bd4aa500c8 = L.marker(
+                [-5.15, -38.09],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_35c4c35548a491400977a393f8840a28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04718228b65ea8e7ec777be72eed35d7 = $(`<div id="html_04718228b65ea8e7ec777be72eed35d7" style="width: 100.0%; height: 100.0%;">Furto - Bom Nome (Limoeiro do Norte)</div>`)[0];
+                popup_35c4c35548a491400977a393f8840a28.setContent(html_04718228b65ea8e7ec777be72eed35d7);
+            
+        
+
+        marker_ebcd54cbb2ccb9cb7f6770bd4aa500c8.bindPopup(popup_35c4c35548a491400977a393f8840a28)
+        ;
+
+        
+    
+    
+            var marker_3d341ed0c2d42af792ce5c261723d4b3 = L.marker(
+                [-5.145, -38.085],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_fe9c9bc75830e077d1e0549e68e5337c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b44290a9db6fda4cbcdbaa4cdfced38 = $(`<div id="html_3b44290a9db6fda4cbcdbaa4cdfced38" style="width: 100.0%; height: 100.0%;">Roubo - Centro (Limoeiro do Norte)</div>`)[0];
+                popup_fe9c9bc75830e077d1e0549e68e5337c.setContent(html_3b44290a9db6fda4cbcdbaa4cdfced38);
+            
+        
+
+        marker_3d341ed0c2d42af792ce5c261723d4b3.bindPopup(popup_fe9c9bc75830e077d1e0549e68e5337c)
+        ;
+
+        
+    
+    
+            var marker_f18908af4ebb584967ba3a289ac5f548 = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_2bb973d1c1753164a65ab2460509b65a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbaf4c7cbf949515cad0bf2a8ab09ed1 = $(`<div id="html_bbaf4c7cbf949515cad0bf2a8ab09ed1" style="width: 100.0%; height: 100.0%;">Furto - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_2bb973d1c1753164a65ab2460509b65a.setContent(html_bbaf4c7cbf949515cad0bf2a8ab09ed1);
+            
+        
+
+        marker_f18908af4ebb584967ba3a289ac5f548.bindPopup(popup_2bb973d1c1753164a65ab2460509b65a)
+        ;
+
+        
+    
+    
+            var marker_d56f3c9fe6ef5b43f497934c558515fd = L.marker(
+                [-4.975, -39.02],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_3f5a6ecb061422126c6886475d6b18a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4aa35ee2baab2a0f09300ae39a2e312 = $(`<div id="html_b4aa35ee2baab2a0f09300ae39a2e312" style="width: 100.0%; height: 100.0%;">Suspeita - Campo Velho (QuixadÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡)</div>`)[0];
+                popup_3f5a6ecb061422126c6886475d6b18a0.setContent(html_b4aa35ee2baab2a0f09300ae39a2e312);
+            
+        
+
+        marker_d56f3c9fe6ef5b43f497934c558515fd.bindPopup(popup_3f5a6ecb061422126c6886475d6b18a0)
+        ;
+
+        
+    
+    
+            var marker_8056f3424aae805f8b55c9eabf4fc019 = L.marker(
+                [-5.199, -39.29],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_7521f50434b41bd4141f2c4643b0c649 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ce99e19e1ba3f6a44a9f7d950c8d1c8 = $(`<div id="html_3ce99e19e1ba3f6a44a9f7d950c8d1c8" style="width: 100.0%; height: 100.0%;">Roubo - Centro (Quixeramobim)</div>`)[0];
+                popup_7521f50434b41bd4141f2c4643b0c649.setContent(html_3ce99e19e1ba3f6a44a9f7d950c8d1c8);
+            
+        
+
+        marker_8056f3424aae805f8b55c9eabf4fc019.bindPopup(popup_7521f50434b41bd4141f2c4643b0c649)
+        ;
+
+        
+    
+    
+            var marker_f2966f409919c48ec2cd28a53515869c = L.marker(
+                [-5.15, -38.09],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_82417a67adf76c810ca880105279f6e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28644a8bcd846fa888fb3a5cfbdddc99 = $(`<div id="html_28644a8bcd846fa888fb3a5cfbdddc99" style="width: 100.0%; height: 100.0%;">Furto - Bom Nome (Limoeiro do Norte)</div>`)[0];
+                popup_82417a67adf76c810ca880105279f6e9.setContent(html_28644a8bcd846fa888fb3a5cfbdddc99);
+            
+        
+
+        marker_f2966f409919c48ec2cd28a53515869c.bindPopup(popup_82417a67adf76c810ca880105279f6e9)
+        ;
+
+        
+    
+    
+            var marker_07bc0e6fa0bd944385a3af8b7075433f = L.marker(
+                [-5.155, -38.12],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_952bccaad6270b905dbe456d6ff36da3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec1e597140a535495d82c07171f5303e = $(`<div id="html_ec1e597140a535495d82c07171f5303e" style="width: 100.0%; height: 100.0%;">Suspeita - Lagoa Grande (SÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o JoÃƒÆ'Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ'Ã¢â‚¬Å¡o do Jaguaribe)</div>`)[0];
+                popup_952bccaad6270b905dbe456d6ff36da3.setContent(html_ec1e597140a535495d82c07171f5303e);
+            
+        
+
+        marker_07bc0e6fa0bd944385a3af8b7075433f.bindPopup(popup_952bccaad6270b905dbe456d6ff36da3)
+        ;
+
+        
+    
+    
+            var marker_b3655fa24ec9dd5e2eb71c6343090eae = L.marker(
+                [-5.205, -39.295],
+                {
+}
+            ).addTo(map_117738c1ca3b3c2e1c5bc5f283f44d7c);
+        
+    
+        var popup_660d9b962836cf3a52a7764ec28b6179 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be16b900095accb22210d0345b12ab2c = $(`<div id="html_be16b900095accb22210d0345b12ab2c" style="width: 100.0%; height: 100.0%;">Suspeita - Maravilha (Quixeramobim)</div>`)[0];
+                popup_660d9b962836cf3a52a7764ec28b6179.setContent(html_be16b900095accb22210d0345b12ab2c);
+            
+        
+
+        marker_b3655fa24ec9dd5e2eb71c6343090eae.bindPopup(popup_660d9b962836cf3a52a7764ec28b6179)
+        ;
+
+        
+    
+</script>
+</html>

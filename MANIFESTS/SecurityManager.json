@@ -1,0 +1,17 @@
+﻿{
+    "Id":  "b9603fff-cc9d-4af0-9730-d6d453aab8ff",
+    "Name":  "SecurityManager",
+    "Version":  "1.0.0",
+    "Author":  "IOTEC",
+    "Category":  "SECURITY",
+    "Dependencies":  [
+
+                     ],
+    "MinimumKernel":  "2.0.0",
+    "Description":  "",
+    "Registered":  {
+                       "value":  "\/Date(1782500904532)\/",
+                       "DisplayHint":  2,
+                       "DateTime":  "sexta-feira, 26 de junho de 2026 16:08:24"
+                   }
+}

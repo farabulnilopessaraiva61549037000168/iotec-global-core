@@ -1,0 +1,161 @@
+﻿{
+    "Started":  {
+                    "value":  "\/Date(1782476124067)\/",
+                    "DisplayHint":  2,
+                    "DateTime":  "sexta-feira, 26 de junho de 2026 09:15:24"
+                },
+    "Version":  "1.0.0",
+    "EventBus":  [
+                     {
+                         "Id":  "d737d27e-f4be-4438-be63-1b3ceaa2b380",
+                         "Time":  {
+                                      "value":  "\/Date(1782476484388)\/",
+                                      "DisplayHint":  2,
+                                      "DateTime":  "sexta-feira, 26 de junho de 2026 09:21:24"
+                                  },
+                         "Engine":  "CommercialEngine",
+                         "Category":  "COMMERCIAL",
+                         "Priority":  "HIGH",
+                         "Title":  "Nova oportunidade encontrada",
+                         "Payload":  {
+                                         "Cliente":  "Empresa Exemplo",
+                                         "Produto":  "IOTEC Seismic Intelligence",
+                                         "Valor":  60000
+                                     },
+                         "Status":  "ROUTED"
+                     },
+                     {
+                         "Id":  "c2689f9e-defb-4e8f-8304-fdb83a354b0a",
+                         "Time":  {
+                                      "value":  "\/Date(1782476955413)\/",
+                                      "DisplayHint":  2,
+                                      "DateTime":  "sexta-feira, 26 de junho de 2026 09:29:15"
+                                  },
+                         "Engine":  "CommercialEngine",
+                         "Category":  "COMMERCIAL",
+                         "Priority":  "HIGH",
+                         "Title":  "Contrato em negociação",
+                         "Payload":  {
+                                         "Valor":  85000,
+                                         "Cliente":  "Cliente Teste"
+                                     },
+                         "Status":  "ROUTED",
+                         "Level":  "EXECUTIVE"
+                     }
+                 ],
+    "Notifications":  [
+                          {
+                              "Id":  "80ae8273-b3b6-4db1-9186-8bf17bda7434",
+                              "EventId":  "d737d27e-f4be-4438-be63-1b3ceaa2b380",
+                              "Level":  null,
+                              "Engine":  "CommercialEngine",
+                              "Title":  "Nova oportunidade encontrada",
+                              "Created":  {
+                                              "value":  "\/Date(1782476721943)\/",
+                                              "DisplayHint":  2,
+                                              "DateTime":  "sexta-feira, 26 de junho de 2026 09:25:21"
+                                          },
+                              "Delivered":  false
+                          },
+                          {
+                              "Id":  "0578a2b2-f2a9-4625-8871-cc2785414f6e",
+                              "EventId":  "c2689f9e-defb-4e8f-8304-fdb83a354b0a",
+                              "Level":  "EXECUTIVE",
+                              "Engine":  "CommercialEngine",
+                              "Title":  "Contrato em negociação",
+                              "Created":  {
+                                              "value":  "\/Date(1782476981314)\/",
+                                              "DisplayHint":  2,
+                                              "DateTime":  "sexta-feira, 26 de junho de 2026 09:29:41"
+                                          },
+                              "Delivered":  false
+                          }
+                      ],
+    "Project":  "IOTEC OPERATING CORE",
+    "Database":  {
+                     "Backup":  "C:\\IOTEC\\DB\\BACKUP",
+                     "Folder":  "C:\\IOTEC\\DB",
+                     "File":  "C:\\IOTEC\\DB\\IOTEC_DATABASE.json"
+                 },
+    "Commercial":  {
+                       "Opportunities":  [
+                                             {
+                                                 "Id":  "cedc86a8-e82b-4975-a566-47a9c6d52ccd",
+                                                 "Client":  "Prefeitura de Fortaleza",
+                                                 "Product":  "IOTEC Seismic Intelligence",
+                                                 "Value":  250000,
+                                                 "Probability":  70,
+                                                 "ExpectedRevenue":  175000,
+                                                 "Stage":  "QUALIFIED",
+                                                 "Created":  {
+                                                                 "value":  "\/Date(1782477114683)\/",
+                                                                 "DisplayHint":  2,
+                                                                 "DateTime":  "sexta-feira, 26 de junho de 2026 09:31:54"
+                                                             },
+                                                 "Status":  "OPEN"
+                                             },
+                                             {
+                                                 "Id":  "4008d84d-9ee7-4ae2-92f1-cc3a11a94b42",
+                                                 "Client":  "Defesa Civil Estadual",
+                                                 "Product":  "Climate Intelligence",
+                                                 "Value":  480000,
+                                                 "Probability":  40,
+                                                 "ExpectedRevenue":  192000,
+                                                 "Stage":  "QUALIFIED",
+                                                 "Created":  {
+                                                                 "value":  "\/Date(1782477128208)\/",
+                                                                 "DisplayHint":  2,
+                                                                 "DateTime":  "sexta-feira, 26 de junho de 2026 09:32:08"
+                                                             },
+                                                 "Status":  "OPEN"
+                                             }
+                                         ],
+                       "Statistics":  {
+                                          "PipelineValue":  730000,
+                                          "Forecast":  367000,
+                                          "Total":  2
+                                      }
+                   },
+    "Status":  "ONLINE",
+    "Engines":  {
+                    "IntelligenceEngine":  {
+                                               "Status":  "ONLINE",
+                                               "Started":  {
+                                                               "value":  "\/Date(1782476155342)\/",
+                                                               "DisplayHint":  2,
+                                                               "DateTime":  "sexta-feira, 26 de junho de 2026 09:15:55"
+                                                           },
+                                               "Name":  "IntelligenceEngine"
+                                           },
+                    "CommercialEngine":  {
+                                             "Status":  "ONLINE",
+                                             "Started":  {
+                                                             "value":  "\/Date(1782476154337)\/",
+                                                             "DisplayHint":  2,
+                                                             "DateTime":  "sexta-feira, 26 de junho de 2026 09:15:54"
+                                                         },
+                                             "Name":  "CommercialEngine"
+                                         },
+                    "ProductEngine":  {
+                                          "Status":  "ONLINE",
+                                          "Started":  {
+                                                          "value":  "\/Date(1782476155122)\/",
+                                                          "DisplayHint":  2,
+                                                          "DateTime":  "sexta-feira, 26 de junho de 2026 09:15:55"
+                                                      },
+                                          "Name":  "ProductEngine"
+                                      }
+                },
+    "Events":  [
+                   {
+                       "Priority":  "LOW",
+                       "Time":  {
+                                    "value":  "\/Date(1782476156110)\/",
+                                    "DisplayHint":  2,
+                                    "DateTime":  "sexta-feira, 26 de junho de 2026 09:15:56"
+                                },
+                       "Category":  "SYSTEM",
+                       "Title":  "Sistema Inicializado"
+                   }
+               ]
+}

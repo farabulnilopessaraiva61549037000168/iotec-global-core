@@ -1,0 +1,355 @@
+{
+    "generated": "2026-06-03 18:48:16.699429",
+    "top_assets": [
+        {
+            "category": "ANALYTICS",
+            "file": "IOTEC_LAUNCH_REPORT.txt",
+            "path": "C:\\IOTEC\\IOTEC_LAUNCH_REPORT.txt",
+            "size": 1338113748,
+            "modified": 1778592739.4624882
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "FRONT_FACADE_REPORT.json",
+            "path": "C:\\IOTEC\\FRONT_CERTIFIER\\FRONT_FACADE_REPORT.json",
+            "size": 24192519,
+            "modified": 1780178783.5443504
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "VISUAL_IMPACT_REPORT.json",
+            "path": "C:\\IOTEC\\BROADCAST_GRID\\VISUAL_IMPACT_REPORT.json",
+            "size": 18828798,
+            "modified": 1780180437.0295763
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "reparado_auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_auditoria_regulus_report.json",
+            "size": 12724714,
+            "modified": 1763547042.761104
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "reparado_auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\reparado_auditoria_regulus_report.json",
+            "size": 12724714,
+            "modified": 1763547042.761104
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "reparado_auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_auditoria_regulus_report.json",
+            "size": 12724714,
+            "modified": 1763547042.761104
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "IOTEC_CAPABILITIES_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.json",
+            "size": 11008710,
+            "modified": 1780426012.4937797
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\auditoria_regulus_report.json",
+            "size": 10280406,
+            "modified": 1762946769.6261852
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\auditoria_regulus_report.json",
+            "size": 10280406,
+            "modified": 1762946769.6261852
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\auditoria_regulus_report.json",
+            "size": 10280406,
+            "modified": 1762946769.6261852
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "TOWER_CONNECTION_REPORT.json",
+            "path": "C:\\IOTEC\\TOWER_SIGNAL_REPORTS\\TOWER_CONNECTION_REPORT.json",
+            "size": 9162235,
+            "modified": 1780177070.9430728
+        },
+        {
+            "category": "OCR",
+            "file": "PROJETO_AURORA.pdf",
+            "path": "C:\\IOTEC\\_QUARENTENA\\PROJETO_AURORA.pdf",
+            "size": 6734998,
+            "modified": 1751564975.2112775
+        },
+        {
+            "category": "AI_AUTOMATION",
+            "file": "main.d55f6a3c.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.d55f6a3c.js",
+            "size": 4437710,
+            "modified": 1777240598.1116462
+        },
+        {
+            "category": "AI_AUTOMATION",
+            "file": "main.d55f6a3c.js",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\IoTec EDU - Executive Dashboard_files\\main.d55f6a3c.js",
+            "size": 4437710,
+            "modified": 1777240598.1116462
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "size": 4140713,
+            "modified": 1771936241.2307334
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "size": 4140713,
+            "modified": 1771936241.2307334
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+            "size": 4140713,
+            "modified": 1771936241.2307334
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "size": 4140713,
+            "modified": 1771936240.6197946
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "size": 4140713,
+            "modified": 1771936240.6197946
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+            "size": 4140713,
+            "modified": 1771936240.6197946
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "size": 3729981,
+            "modified": 1771936233.6530783
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "size": 3729981,
+            "modified": 1771936233.6530783
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+            "size": 3729981,
+            "modified": 1771936233.6530783
+        },
+        {
+            "category": "ANALYTICS",
+            "file": "IOTEC_CAPABILITIES_REPORT.txt",
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.txt",
+            "size": 3392660,
+            "modified": 1780426012.7092593
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "size": 3372901,
+            "modified": 1771723405.881448
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "size": 3372901,
+            "modified": 1771723405.881448
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+            "size": 3372901,
+            "modified": 1771723405.881448
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "size": 3372901,
+            "modified": 1771723405.206512
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "size": 3372901,
+            "modified": 1771723405.206512
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+            "size": 3372901,
+            "modified": 1771723405.206512
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "size": 3362207,
+            "modified": 1771724363.5069904
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "size": 3362207,
+            "modified": 1771724363.5069904
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+            "size": 3362207,
+            "modified": 1771724363.5069904
+        },
+        {
+            "category": "AI_AUTOMATION",
+            "file": "tailwindcss-oxide.win32-x64-msvc.node",
+            "path": "C:\\IOTEC\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc\\tailwindcss-oxide.win32-x64-msvc.node",
+            "size": 3159552,
+            "modified": 1780241488.5851035
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "size": 3117679,
+            "modified": 1771936162.9591534
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "size": 3117679,
+            "modified": 1771936162.9591534
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+            "size": 3117679,
+            "modified": 1771936162.9591534
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "size": 3083701,
+            "modified": 1771721383.111163
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "size": 3083701,
+            "modified": 1771721383.111163
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+            "size": 3083701,
+            "modified": 1771721383.111163
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "size": 3028678,
+            "modified": 1771721696.5062938
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "size": 3028678,
+            "modified": 1771721696.5062938
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+            "size": 3028678,
+            "modified": 1771721696.5062938
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "size": 2974291,
+            "modified": 1771936217.6462321
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "size": 2974291,
+            "modified": 1771936217.6462321
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+            "size": 2974291,
+            "modified": 1771936217.6462321
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "size": 2951386,
+            "modified": 1771724334.0650764
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "path": "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "size": 2951386,
+            "modified": 1771724334.0650764
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "path": "C:\\Users\\Bruno Lopes\\Downloads\\ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+            "size": 2951386,
+            "modified": 1771724334.0650764
+        },
+        {
+            "category": "OCR",
+            "file": "ChatGPT Image 23 de fev. de 2026, 00_20_29.png",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 23 de fev. de 2026, 00_20_29.png",
+            "size": 2948471,
+            "modified": 1771816843.4652998
+        }
+    ]
+}

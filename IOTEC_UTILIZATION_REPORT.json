@@ -1,0 +1,12 @@
+{
+    "generated": "2026-06-07 15:48:33.335527",
+    "metrics": {
+        "registered_motors": 21,
+        "production_events": 1,
+        "production_history": 0,
+        "warehouse_items": 4,
+        "reservoir_items": 4,
+        "utilization_score": 9,
+        "coverage_percent": 42.86
+    }
+}

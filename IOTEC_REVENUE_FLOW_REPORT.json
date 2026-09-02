@@ -1,0 +1,71 @@
+{
+    "generated": "2026-06-07 16:45:53.905126",
+    "databases": [
+        {
+            "database": "C:\\IOTEC\\enterprise.db",
+            "tables": [
+                {
+                    "table": "leads",
+                    "records": 2
+                }
+            ]
+        },
+        {
+            "database": "C:\\IOTEC\\iotec_core.db",
+            "tables": [
+                {
+                    "table": "client_requests",
+                    "records": 0
+                }
+            ]
+        },
+        {
+            "database": "C:\\IOTEC\\iotec_global.db",
+            "tables": [
+                {
+                    "table": "leads",
+                    "records": 1
+                }
+            ]
+        },
+        {
+            "database": "C:\\IOTEC\\iotec_operational.db",
+            "tables": [
+                {
+                    "table": "clients",
+                    "records": 2
+                },
+                {
+                    "table": "payments",
+                    "records": 1
+                },
+                {
+                    "table": "invoices",
+                    "records": 0
+                }
+            ]
+        },
+        {
+            "database": "C:\\IOTEC\\iotec_revenue.db",
+            "tables": [
+                {
+                    "table": "leads",
+                    "records": 0
+                }
+            ]
+        },
+        {
+            "database": "C:\\IOTEC\\tower.db",
+            "tables": [
+                {
+                    "table": "leads",
+                    "records": 2
+                }
+            ]
+        }
+    ],
+    "commercial_tables": 8,
+    "commercial_records": 8,
+    "flow_score": 40,
+    "status": "FLUXO_PARCIAL"
+}

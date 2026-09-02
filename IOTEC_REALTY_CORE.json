@@ -1,0 +1,75 @@
+{
+    "empresa": {
+        "empresa": "IOTEC GLOBAL REALTY",
+        "cnpj": "00.000.000/0001-00",
+        "email_comercial": "contato@iotecglobal.com",
+        "email_gateway": "gateway@iotecglobal.com",
+        "suporte": "support@iotecglobal.com",
+        "site": "https://iotecglobal.com",
+        "status": "ONLINE",
+        "pais_base": "Brasil",
+        "modo": "REALTY_OPERATIONAL_CORE"
+    },
+    "torre": {
+        "clientes": 0,
+        "imoveis": 2,
+        "leads": 1,
+        "negocios": 0,
+        "comissao_prevista": 0,
+        "operacoes_ativas": 0
+    },
+    "imoveis": [
+        {
+            "id": "44a9fa81-2a83-476d-9f87-3ed361ba8a79",
+            "titulo": "Luxury Residence Miami",
+            "cidade": "Miami",
+            "pais": "Estados Unidos",
+            "valor": 2800000,
+            "tipo": "LUXURY",
+            "proprietario": "North Holdings",
+            "contato": "north@email.com",
+            "status": "ATIVO",
+            "timestamp": "2026-05-18 00:30:36.419737"
+        },
+        {
+            "id": "dc64bccf-ab3e-46ca-ac52-e8ba844fddc0",
+            "titulo": "Downtown Commercial Tower",
+            "cidade": "Orlando",
+            "pais": "Estados Unidos",
+            "valor": 4200000,
+            "tipo": "COMERCIAL",
+            "proprietario": "Florida Group",
+            "contato": "group@email.com",
+            "status": "ATIVO",
+            "timestamp": "2026-05-18 00:30:36.419737"
+        }
+    ],
+    "leads": [
+        {
+            "id": "65d93bc5-f8f5-422f-8826-950f279d3394",
+            "nome": "Michael Johnson",
+            "email": "michael@email.com",
+            "interesse": "Luxury Residence Miami",
+            "cidade": "Miami",
+            "status": "NOVO",
+            "timestamp": "2026-05-18 00:30:36.419737"
+        }
+    ],
+    "logs": [
+        {
+            "id": "1fbef6ac-85de-46ad-b7c8-8fed57de4c55",
+            "timestamp": "2026-05-18 00:30:36.419737",
+            "evento": "IMOVEL CADASTRADO -> Luxury Residence Miami"
+        },
+        {
+            "id": "d4b5cd85-41f6-4c38-9a43-6769a1f7dc28",
+            "timestamp": "2026-05-18 00:30:36.419737",
+            "evento": "IMOVEL CADASTRADO -> Downtown Commercial Tower"
+        },
+        {
+            "id": "aae47f7f-ffbf-4c44-b3a9-0f6d65a7f105",
+            "timestamp": "2026-05-18 00:30:36.419737",
+            "evento": "NOVO LEAD -> Michael Johnson"
+        }
+    ]
+}

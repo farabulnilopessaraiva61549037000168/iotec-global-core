@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-04-18T09:54:37",
+  "envelope": {
+    "target_nucleus": "telemetry",
+    "objective": "Observar saúde da constelação interna",
+    "risk": 0.1,
+    "confidence_inputs": {
+      "source_integrity": 0.9,
+      "context_integrity": 0.91,
+      "formula_support": 0.92
+    },
+    "metadata": {
+      "alerts": [],
+      "distribution": {
+        "visible_core": "low",
+        "miner": "medium",
+        "corporate": "medium",
+        "visual": "medium",
+        "integration": "low"
+      },
+      "complexity": 40,
+      "formula_trusted": true
+    }
+  },
+  "validation": {
+    "blocked": false,
+    "score": 0.91,
+    "reasons": []
+  }
+}

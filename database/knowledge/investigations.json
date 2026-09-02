@@ -1,0 +1,21 @@
+{
+    "8E9C3B4B": {
+        "id": "8E9C3B4B",
+        "titulo": "Descobrir gargalos da arquitetura",
+        "descricao": "Analisar todo o núcleo da IOTEC",
+        "categoria": "ARQUITETURA",
+        "prioridade": "ALTA",
+        "status": "EM_EXECUCAO",
+        "criado_em": "26/07/2026 11:41:32",
+        "atualizado_em": "26/07/2026 11:41:32",
+        "progresso": 42,
+        "checkpoint": "Último módulo analisado: 015_PAYMENT_GATEWAY_ENGINE.py",
+        "resultado": "",
+        "arquivos": [
+            "015_PAYMENT_GATEWAY_ENGINE.py"
+        ],
+        "observacoes": [
+            "26/07/2026 11:41:32 - Encontrada oportunidade de integrar PayPal."
+        ]
+    }
+}

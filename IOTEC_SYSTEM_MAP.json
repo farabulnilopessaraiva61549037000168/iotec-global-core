@@ -1,0 +1,4571 @@
+{
+    "generated": "2026-06-07 14:34:46.241821",
+    "motors": [
+        "C:\\IOTEC\\APOCALYPSE_ENGINE.py",
+        "C:\\IOTEC\\AUDIT_VALUE_ENGINE.py",
+        "C:\\IOTEC\\AUTOMATION_HISTORY_ENGINE.py",
+        "C:\\IOTEC\\Auto_Build_Core.ps1",
+        "C:\\IOTEC\\AUTO_CORE_VERIFY.ps1",
+        "C:\\IOTEC\\AUTO_MONETIZATION_ENGINE.py",
+        "C:\\IOTEC\\AUTO_REPAIR_ENGINE.ps1",
+        "C:\\IOTEC\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\BILLING_ORCHESTRATOR.py",
+        "C:\\IOTEC\\BRAIN.py",
+        "C:\\IOTEC\\calcular_score.py",
+        "C:\\IOTEC\\CENTRAL_CORE.py",
+        "C:\\IOTEC\\CERTIFIER_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_CONVERSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_FUNNEL_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_FUSION_ENGINE.py",
+        "C:\\IOTEC\\COMMERCIAL_OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\CONSOLIDATION_ENGINE.py",
+        "C:\\IOTEC\\core.log",
+        "C:\\IOTEC\\CORE_BUSINESS.py",
+        "C:\\IOTEC\\core_connector.js",
+        "C:\\IOTEC\\CORE_MASTER.py",
+        "C:\\IOTEC\\CORE_STRESS_TEST.py",
+        "C:\\IOTEC\\CORE_VERSAO_CALIBRADA.py",
+        "C:\\IOTEC\\CRM_ENGINE.py",
+        "C:\\IOTEC\\DEEP_CORE_SCANNER.py",
+        "C:\\IOTEC\\ECONOMIC_AUDIT_ENGINE.py",
+        "C:\\IOTEC\\engine.py",
+        "C:\\IOTEC\\ENGINE_ROUTER_CORE.py",
+        "C:\\IOTEC\\ENTERPRISE_ENGINE.py",
+        "C:\\IOTEC\\ENTERPRISE_WEB_CORE.py",
+        "C:\\IOTEC\\EXECUTION_CORE.py",
+        "C:\\IOTEC\\FIX_MASTER_CORE.ps1",
+        "C:\\IOTEC\\fix_orchestrator_v2.py",
+        "C:\\IOTEC\\GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\HYPERCORE_SHIELD.py",
+        "C:\\IOTEC\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+        "C:\\IOTEC\\IOTEC_AI_CORE.py",
+        "C:\\IOTEC\\iotec_alma_core.py",
+        "C:\\IOTEC\\iotec_alma_core_v2.py",
+        "C:\\IOTEC\\iotec_alma_core_v3.py",
+        "C:\\IOTEC\\iotec_alma_core_v4_governador.py",
+        "C:\\IOTEC\\iotec_alma_core_v5_consolidador.py",
+        "C:\\IOTEC\\IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_CAPABILITY_HUNTER.py",
+        "C:\\IOTEC\\IOTEC_CENTRAL_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_CONTROL_TOWER_ENGINE.py",
+        "C:\\IOTEC\\iotec_core.db",
+        "C:\\IOTEC\\iotec_core.py",
+        "C:\\IOTEC\\IOTEC_CORE_24H.py",
+        "C:\\IOTEC\\IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+        "C:\\IOTEC\\IOTEC_CORE_EMAIL_24H.py",
+        "C:\\IOTEC\\IOTEC_CORE_LIVE_QUEUE.py",
+        "C:\\IOTEC\\IOTEC_CORE_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_CORE_QUEUE_PANEL.py",
+        "C:\\IOTEC\\iotec_core_report.json",
+        "C:\\IOTEC\\IOTEC_CORE_RUNNER.py",
+        "C:\\IOTEC\\IOTEC_CUSTOMER_SERVICE_CORE.py",
+        "C:\\IOTEC\\IOTEC_DATABASE_CORE.py",
+        "C:\\IOTEC\\IOTEC_EXECUTION_BRAIN_REPORT.json",
+        "C:\\IOTEC\\IOTEC_EXECUTION_CORE.json",
+        "C:\\IOTEC\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_GATEWAY_CORE.py",
+        "C:\\IOTEC\\IOTEC_GLOBAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json",
+        "C:\\IOTEC\\IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_HIDDEN_CAPABILITIES_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+        "C:\\IOTEC\\IOTEC_MAIL_TO_CORE.py",
+        "C:\\IOTEC\\IOTEC_MASTER_CORE.py",
+        "C:\\IOTEC\\IOTEC_MASTER_CORE_BACKUP.py",
+        "C:\\IOTEC\\IOTEC_Master_Core_Setup.ps1",
+        "C:\\IOTEC\\IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+        "C:\\IOTEC\\IOTEC_MEMORY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_MINIMAL_REAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_MULTI_MAIL_CORE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_FINAL.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\iotec_orchestrator_log.txt",
+        "C:\\IOTEC\\iotec_orchestrator_master.py",
+        "C:\\IOTEC\\iotec_orchestrator_master_v2.py",
+        "C:\\IOTEC\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\IOTEC_PROGRAMMING_GRID_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_REALITY_EXECUTION_ENGINE.json",
+        "C:\\IOTEC\\IOTEC_REALTY_CORE.json",
+        "C:\\IOTEC\\IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_IDENTITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\IOTEC_SALES_EXPERIENCE_CORE.json",
+        "C:\\IOTEC\\iotec_sonda_core.py",
+        "C:\\IOTEC\\Iotec_Spine_Core.py",
+        "C:\\IOTEC\\Iotec_Spine_Core_Architecture.py",
+        "C:\\IOTEC\\IOTEC_STABILITY_CORE.py",
+        "C:\\IOTEC\\IOTEC_STABILITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_STRUCTURE_RECOVERY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_ULTRACORE_ARCHITECTURE.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_REPORT.json",
+        "C:\\IOTEC\\LEAD_SCORE_ENGINE.py",
+        "C:\\IOTEC\\LIVE_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\META_ENGINE.py",
+        "C:\\IOTEC\\MINING_ENGINE.py",
+        "C:\\IOTEC\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py.bak_20260607_105433",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py.bak_20260607_105532",
+        "C:\\IOTEC\\NEXUS_CORE.py",
+        "C:\\IOTEC\\nucleus_orchestrator.py",
+        "C:\\IOTEC\\OCCUPY_CORE.py",
+        "C:\\IOTEC\\OPPORTUNITY_ENGINE.py",
+        "C:\\IOTEC\\orchestrator.py",
+        "C:\\IOTEC\\ORCHESTRATOR_ANALYSIS.txt",
+        "C:\\IOTEC\\orchestrator_cluster.py",
+        "C:\\IOTEC\\ORCHESTRATOR_DETECTOR.ps1",
+        "C:\\IOTEC\\ORCHESTRATOR_ENGINE.py",
+        "C:\\IOTEC\\orchestrator_fixed.py",
+        "C:\\IOTEC\\orchestrator_fsm.py",
+        "C:\\IOTEC\\PAYMENT_ENGINE.py",
+        "C:\\IOTEC\\PRICING_ENGINE.py",
+        "C:\\IOTEC\\PROPOSAL_ENGINE.py",
+        "C:\\IOTEC\\REBUILD_VISIBLE_CORE.py",
+        "C:\\IOTEC\\registry_core.py",
+        "C:\\IOTEC\\REPORT_ENGINE.py",
+        "C:\\IOTEC\\REVELATION_ENGINE.py",
+        "C:\\IOTEC\\REVELATION_ENGINE_01.py",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_ENGINE.py",
+        "C:\\IOTEC\\ROCKBOOST_ORBITAL_ENGINE.py",
+        "C:\\IOTEC\\SAFE_REPAIR_ENGINE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py.bak_20260606_142808",
+        "C:\\IOTEC\\SALES_BRAIN.py",
+        "C:\\IOTEC\\SALES_BRAIN.py.bak_20260607_111453",
+        "C:\\IOTEC\\single_core_test.py",
+        "C:\\IOTEC\\SMART_CORE_EXPORT.py",
+        "C:\\IOTEC\\stability_core.py",
+        "C:\\IOTEC\\START_CORE.ps1",
+        "C:\\IOTEC\\START_IOTEC_CORE.bat",
+        "C:\\IOTEC\\START_PREMIUM_CORE.ps1",
+        "C:\\IOTEC\\STRATEGIC_CATALOG_ENGINE.py",
+        "C:\\IOTEC\\TITAN_ENGINE.py",
+        "C:\\IOTEC\\TOP_ASSETS_ENGINE.py",
+        "C:\\IOTEC\\UNIFY_COMMERCIAL_CORE.py",
+        "C:\\IOTEC\\ValuationEngine.py",
+        "C:\\IOTEC\\VERIFIED_CORE_REPORT.txt",
+        "C:\\IOTEC\\VERIFY_REAL_CORE.py",
+        "C:\\IOTEC\\AGENTS\\orchestrator.py",
+        "C:\\IOTEC\\backups\\20260512_183920_Iotec_Spine_Core.py",
+        "C:\\IOTEC\\BIN\\run_visible_core_api.ps1",
+        "C:\\IOTEC\\core\\orchestrator.py",
+        "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+        "C:\\IOTEC\\core\\router\\visible_core_router.py",
+        "C:\\IOTEC\\CORE_REPORTS\\CORE_CATALOG.json",
+        "C:\\IOTEC\\CORE_REPORTS\\CORE_INDEXER.log",
+        "C:\\IOTEC\\DOMINANCE_REPORTS\\DOMINANCE_ENGINE.log",
+        "C:\\IOTEC\\FROZEN\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+        "C:\\IOTEC\\FROZEN\\IOTEC_CORE_MANAGER.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.AUTO_BACKUP.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.backup.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.PREPARSER_BACKUP.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.rebuild_backup.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.SAFE_BACKUP.py",
+        "C:\\IOTEC\\FROZEN\\visible_core_router.STRUCTURE_BACKUP.py",
+        "C:\\IOTEC\\GOVTECH_FULL\\engine.py",
+        "C:\\IOTEC\\iotec_core\\logs\\core_2026-05-16.txt",
+        "C:\\IOTEC\\iotec_core\\logs\\core_2026-06-04.txt",
+        "C:\\IOTEC\\LAB\\CONSOLIDATION_ENGINE.py",
+        "C:\\IOTEC\\LAB\\DEEP_CORE_SCANNER.py",
+        "C:\\IOTEC\\LAB\\IOTEC_CORE_LIVE_QUEUE.py",
+        "C:\\IOTEC\\LAB\\IOTEC_CORE_QUEUE_PANEL.py",
+        "C:\\IOTEC\\LAB\\Iotec_Spine_Core_Architecture.py",
+        "C:\\IOTEC\\LEGACY\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\LEGACY\\IOTEC_MASTER_CORE_BACKUP.py",
+        "C:\\IOTEC\\LEGACY\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\logs\\VISIBLE_CORE_V2.log",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aiobotocore-2.12.3-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\botocore-1.34.69-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\career_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\coresignal_b28e657e111c9179_5ac8d064d3c9ed1d.jpeg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core_daemon.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core_daemon.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core_map.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\core_output.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components-shared.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components-shared.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dask-core-2024.8.2-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\domus_core.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\EvolutionBrain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\EvolutionBrain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitcore-tutorial.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitcore-tutorial.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitdiffcore.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitdiffcore.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\httpcore-1.0.2-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONAL__ECOSYSTEM_CORE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONA_ECOSYSTEM_CORE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\internal_fusion_engine_db.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\intracamaraty_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_core.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CORE_BUS.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CORE_BUS.py.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_strategic_core.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_strategic_core.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\judicial_forecast_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_core-5.7.2-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\KNOWLEDGE_ENGINE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\KNOWLEDGE_ENGINE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\logs_engine.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\modulo_de_score_de_confiabilidade.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\MOD_TCC_ENGINE_PRO.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Neo_System_Core.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\operations_engine_db.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\project_lab_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\pydantic-core-2.20.1-py312hefb1915_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\qt-webengine-5.15.9-h5bd16bc_7.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\qt6webenginequickdelegatesqml_metatypes.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\raban_engine.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\raban_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\science-desktop-brain-chip-u5ytpjjgfspm2g06.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\snia-score-global-985.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\snia-score-global-985.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\StrategicCore.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\StrategicCore.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\survival_engine_db.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\tcc_engine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Technical_Brain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Technical_Brain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\TRANSFORMATION_CORE_ENGINE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\TRANSFORMATION_CORE_ENGINE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\dashboard_engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\visible_core_api.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\career_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Commercial_Brain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\core.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\core_daemon.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\domus_core.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\EvolutionBrain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitcore-tutorial.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitcore-tutorial.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitdiffcore.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitdiffcore.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\intracamaraty_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_CORE_BUS.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_CORE_BUS.py.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\iotec_strategic_core.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\judicial_forecast_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\KNOWLEDGE_ENGINE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\MOD_TCC_ENGINE_PRO.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_3_BRAINS_ENGINE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\project_lab_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\raban_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\StrategicCore.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\tcc_engine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Technical_Brain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\ThreeBrainsEngine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\TRANSFORMATION_CORE_ENGINE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260512_183920_Iotec_Spine_Core.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiobotocore-2.12.3-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\asmitacore.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\botocore-1.34.69-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\calcular_score.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CENTRAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CONSOLIDATION_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_ai_engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_map.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CORE_MASTER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_output.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components-shared.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components-shared.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dask-core-2024.8.2-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\DEEP_CORE_SCANNER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\engines.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\from.core.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\httpcore-1.0.2-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\income_engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\internal_fusion_engine_db.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CONTROL_TOWER_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_core.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_core.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_24H.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_EMAIL_24H.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_LIVE_QUEUE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_MANAGER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_QUEUE_PANEL.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_RUNNER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CUSTOMER_SERVICE_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DATABASE_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GATEWAY_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GLOBAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_TO_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MEMORY_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MINIMAL_REAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MULTI_MAIL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_PROGRAMMING_GRID_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Iotec_Spine_Core.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Iotec_Spine_Core_Architecture.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ULTRACORE_ARCHITECTURE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\jupyter_core-5.7.2-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\LIVE_OPERATIONAL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\logs_engine.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Neo_System_Core.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Neo_System_Core.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\nucleus_orchestrator.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\operations_engine_db.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\orchestrator.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORCHESTRATOR_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\pydantic-core-2.20.1-py312hefb1915_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\qt-webengine-5.15.9-h5bd16bc_7.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\snia-score-global-985.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\survival_engine_db.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\SystemCore.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ValuationEngine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\visible_core_router.py",
+        "C:\\IOTEC\\state\\miner\\quarantine\\visible_core_router.cpython-311.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\visible_core_router.cpython-311_20260418_102539.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\visible_core_router.cpython-311_20260418_102541.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\VISIBLE_CORE_V2.log",
+        "C:\\IOTEC\\state\\miner\\quarantine\\VISIBLE_CORE_V2_20260418_102539.log",
+        "C:\\IOTEC\\state\\miner\\quarantine\\VISIBLE_CORE_V2_20260418_102541.log",
+        "C:\\IOTEC\\_SANITIZADA\\core.js",
+        "C:\\IOTEC\\_SANITIZADA\\coresignal_b28e657e111c9179_5ac8d064d3c9ed1d.jpeg",
+        "C:\\IOTEC\\_SANITIZADA\\dash_core_components-shared.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\_SANITIZADA\\dash_core_components.v3_3_0m1765969531.js",
+        "C:\\IOTEC\\_SANITIZADA\\gitcore-tutorial.html",
+        "C:\\IOTEC\\_SANITIZADA\\gitdiffcore.html",
+        "C:\\IOTEC\\_SANITIZADA\\science-desktop-brain-chip-u5ytpjjgfspm2g06.jpg"
+    ],
+    "databases": [
+        "C:\\IOTEC\\enterprise.db",
+        "C:\\IOTEC\\iotec.db",
+        "C:\\IOTEC\\iotec_core.db",
+        "C:\\IOTEC\\iotec_global.db",
+        "C:\\IOTEC\\iotec_operational.db",
+        "C:\\IOTEC\\iotec_revenue.db",
+        "C:\\IOTEC\\opportunity_radar.db",
+        "C:\\IOTEC\\tower.db"
+    ],
+    "reports": [
+        "C:\\IOTEC\\COMMAND_TOWER_REPORT.json",
+        "C:\\IOTEC\\ECONOMIC_AUDIT_REPORT.json",
+        "C:\\IOTEC\\ecosystem_report.json",
+        "C:\\IOTEC\\integrity_report_20260526_123836.json",
+        "C:\\IOTEC\\integrity_report_20260526_224208.json",
+        "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.json",
+        "C:\\IOTEC\\IOTEC_CONTROL_REPORT.json",
+        "C:\\IOTEC\\iotec_core_report.json",
+        "C:\\IOTEC\\IOTEC_ECONOMIC_REPORT.json",
+        "C:\\IOTEC\\IOTEC_EXECUTION_BRAIN_REPORT.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_REPORT.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_REPORT.json",
+        "C:\\IOTEC\\MISSION_01_CAPABILITY_REPORT.json",
+        "C:\\IOTEC\\OFFICIAL_FUNNEL_VALIDATION_REPORT.json",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_REPORT.json",
+        "C:\\IOTEC\\REVENUE_READINESS_REPORT.json",
+        "C:\\IOTEC\\STRATEGIC_CATALOG_REPORT.json",
+        "C:\\IOTEC\\TOP_ASSETS_REPORT.json",
+        "C:\\IOTEC\\BROADCAST_GRID\\VISUAL_IMPACT_REPORT.json",
+        "C:\\IOTEC\\FRONT_CERTIFIER\\FRONT_FACADE_REPORT.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\auditoria_regulus_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\auditoria_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\audit_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\deep_issues_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report_advanced.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report_full.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dip_health_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Mergulhadores_Reparadores_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\monetization_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\monthly_report_2025_10.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\quarantine_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_passive_revenue_report_1766410452.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_report_20251108_063052.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_sandbox_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_auditoria_regulus_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_audit_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report_advanced.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report_full.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_dip_health_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_quarantine_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_integrada_projac_2026-03-29_19-46-44.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\report_2198887777_1765967441.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\report_2199990001_1765967441.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\report_execucao_2026-03-30_15-04-13.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\report_generator.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\report_regulus.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Simula_report.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\validation_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\auditoria_regulus_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\auditoria_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\audit_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\deep_issues_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report_advanced.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report_full.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dip_health_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\financial_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Mergulhadores_Reparadores_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\monetization_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\monthly_report_2025_10.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\quarantine_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_passive_revenue_report_1766410452.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_report_20251108_063052.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_sandbox_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_auditoria_regulus_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_audit_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_dip_health_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_quarantine_report.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reportagem_integrada_projac_2026-03-29_19-46-44.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_2198887777_1765967441.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_2199990001_1765967441.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_execucao_2026-03-30_15-04-13.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_regulus.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Simula_report.json",
+        "C:\\IOTEC\\reports\\financial_report.json",
+        "C:\\IOTEC\\TOWER_SIGNAL_REPORTS\\TOWER_CONNECTION_REPORT.json"
+    ],
+    "dashboards": [
+        "C:\\IOTEC\\DASHBOARD_AUTO_INSTALLER.py",
+        "C:\\IOTEC\\DASHBOARD_BACKUP_20260511_193717.py",
+        "C:\\IOTEC\\DASHBOARD_INSTALLER.py",
+        "C:\\IOTEC\\EXECUTIVE_DASHBOARD.py",
+        "C:\\IOTEC\\IBEX_DASHBOARD.py",
+        "C:\\IOTEC\\IOTEC_DASHBOARD.py",
+        "C:\\IOTEC\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+        "C:\\IOTEC\\START_DASHBOARD.ps1",
+        "C:\\IOTEC\\LAB\\DASHBOARD_BACKUP_20260511_193717.py",
+        "C:\\IOTEC\\LAB\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\LAB\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Dashboard — Escola Municipal de Excelência.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Dashboard — Escola Municipal de ExcelênciaKLHG.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_data.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_stub.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_templates.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Dashboard Executivo.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Dashboard Executivo__dup1.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\templates_dashboard.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_AUTO_INSTALLER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_BACKUP_20260511_193717.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\dashboard_data.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\dashboard_engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_INSTALLER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DASHBOARD.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\dashboard_stub.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\dashboard_templates.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\static_dashboard.html.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\templates_dashboard.html",
+        "C:\\IOTEC\\_SANITIZADA\\Dashboard — Escola Municipal de Excelência.htm",
+        "C:\\IOTEC\\_SANITIZADA\\Dashboard — Escola Municipal de ExcelênciaKLHG.htm",
+        "C:\\IOTEC\\_SANITIZADA\\REGULUS _ Dashboard Executivo.htm"
+    ],
+    "apis": [],
+    "commercial": [
+        "C:\\IOTEC\\APPROVE_PROPOSAL.py",
+        "C:\\IOTEC\\AUTONOMOUS_LEAD.py",
+        "C:\\IOTEC\\CRM_ENGINE.py",
+        "C:\\IOTEC\\DIRECT_LEAD_TEST.py",
+        "C:\\IOTEC\\INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+        "C:\\IOTEC\\IOTEC_SALES_CONSULTANT_AI.py",
+        "C:\\IOTEC\\IOTEC_SALES_EXPERIENCE_CORE.json",
+        "C:\\IOTEC\\IOTEC_SALES_LANGUAGE.json",
+        "C:\\IOTEC\\leads.json",
+        "C:\\IOTEC\\LEAD_OPERATIONS_CENTER.py",
+        "C:\\IOTEC\\LEAD_SCORE_ENGINE.py",
+        "C:\\IOTEC\\MIGRATE_ENTERPRISE_LEADS.py",
+        "C:\\IOTEC\\MIGRATE_LEADS_TABLE.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py.bak_20260607_105433",
+        "C:\\IOTEC\\NEGOTIATION_ENGINE.py.bak_20260607_105532",
+        "C:\\IOTEC\\PRICING_ENGINE.py",
+        "C:\\IOTEC\\PROMOTE_LEADS.py",
+        "C:\\IOTEC\\PROPOSAL_ENGINE.py",
+        "C:\\IOTEC\\PROPOSAL_GENERATOR.py",
+        "C:\\IOTEC\\REAL_LEAD_BRIDGE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py",
+        "C:\\IOTEC\\SALES_AUTOPILOT_ENGINE.py.bak_20260606_142808",
+        "C:\\IOTEC\\SALES_BRAIN.py",
+        "C:\\IOTEC\\SALES_BRAIN.py.bak_20260607_111453",
+        "C:\\IOTEC\\SALES_COMMAND_CENTER.py",
+        "C:\\IOTEC\\SALES_EXPERIENCE.py",
+        "C:\\IOTEC\\SHOW_NEW_LEAD_FUNCTION.py",
+        "C:\\IOTEC\\SMART_PRICING.py",
+        "C:\\IOTEC\\test_lead.py",
+        "C:\\IOTEC\\TRACE_REAL_LEAD_BRIDGE.ps1",
+        "C:\\IOTEC\\UPGRADE_LEADS_360.py",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_pricing_output.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\lead_20260402_173851.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\pricing_models.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Success.ai_-_Cover_photo_-_Employee_lead_database_53a64bed73.png",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_pricing_output.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\lead_20260402_173851.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\pricing_models.json",
+        "C:\\IOTEC\\_SANITIZADA\\Success.ai_-_Cover_photo_-_Employee_lead_database_53a64bed73.png"
+    ],
+    "financial": [
+        "C:\\IOTEC\\BILLING_ORCHESTRATOR.py",
+        "C:\\IOTEC\\CONFIRM_INVOICE30.py",
+        "C:\\IOTEC\\CONFIRM_INVOICE70.py",
+        "C:\\IOTEC\\CONFIRM_PAYMENT.py",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\iotec_revenue.db",
+        "C:\\IOTEC\\IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py",
+        "C:\\IOTEC\\IOTEC_REVENUE_IDENTITY_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\PAYMENT_ENGINE.py",
+        "C:\\IOTEC\\PAYMENT_SCHEMA_UPGRADE.py",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_ENGINE.py",
+        "C:\\IOTEC\\REVENUE_DISCOVERY_REPORT.json",
+        "C:\\IOTEC\\REVENUE_EXTRACTION_REPORT.txt",
+        "C:\\IOTEC\\REVENUE_INTELLIGENCE_MAP.json",
+        "C:\\IOTEC\\REVENUE_INTELLIGENCE_REPORT.txt",
+        "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py",
+        "C:\\IOTEC\\REVENUE_READINESS_AUDIT.py",
+        "C:\\IOTEC\\REVENUE_READINESS_REPORT.json",
+        "C:\\IOTEC\\core\\revenue.py",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_passive_revenue_report_1766410452.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_FIRST_REVENUE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_Revenue_Strategy_Engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_passive_revenue_report_1766410452.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\revenue.py",
+        "C:\\IOTEC\\_QUARENTENA\\1767024293107_BILLING_BR_CE_20250807034421_0f1f011f00001b02_4677_310420575841_6894b49cf15a1458f9d3c3d4.pdf"
+    ],
+    "ai": [
+        "C:\\IOTEC\\AUTO_REPAIR_ENGINE.ps1",
+        "C:\\IOTEC\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\BRAIN.py",
+        "C:\\IOTEC\\DAILY_COMMERCIAL_AUTOMATION.py",
+        "C:\\IOTEC\\ECONOMIC_INTELLIGENCE.py",
+        "C:\\IOTEC\\email_bridge.py",
+        "C:\\IOTEC\\entrada_principal_main.py",
+        "C:\\IOTEC\\extrair_valor.py",
+        "C:\\IOTEC\\FAILURE_DETECTION.py",
+        "C:\\IOTEC\\Find_And_Repair_IOTEC.ps1",
+        "C:\\IOTEC\\IOTEC_AI_ATENDENTE.py",
+        "C:\\IOTEC\\IOTEC_AI_BRIDGE_CONNECTOR.py",
+        "C:\\IOTEC\\IOTEC_AI_CORE.py",
+        "C:\\IOTEC\\IOTEC_AI_SECURITY.py",
+        "C:\\IOTEC\\IOTEC_BAIXAR_VIDEO_NUCLEO.ps1",
+        "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_CENTRAL_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_CONTEXT_AI.py",
+        "C:\\IOTEC\\IOTEC_CORE_EMAIL_24H.py",
+        "C:\\IOTEC\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\IOTEC_EXECUTION_BRAIN_REPORT.json",
+        "C:\\IOTEC\\IOTEC_FORM_TO_EMAIL.py",
+        "C:\\IOTEC\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+        "C:\\IOTEC\\IOTEC_MAIL_FILTER.py",
+        "C:\\IOTEC\\IOTEC_MAIL_HUB.py",
+        "C:\\IOTEC\\IOTEC_MAIL_MANAGER.py",
+        "C:\\IOTEC\\IOTEC_MAIL_TO_CORE.py",
+        "C:\\IOTEC\\IOTEC_MULTI_MAIL_CORE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_BRAIN_FINAL.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_AUTO_FIX.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_CLEAN.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_REPORT.json",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py",
+        "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+        "C:\\IOTEC\\IOTEC_SALES_CONSULTANT_AI.py",
+        "C:\\IOTEC\\IOTEC_UI_Repair.ps1",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_REPORT.json",
+        "C:\\IOTEC\\ler_emails.py",
+        "C:\\IOTEC\\livro_caixa.json",
+        "C:\\IOTEC\\main.py",
+        "C:\\IOTEC\\MAIN_TOWER.py",
+        "C:\\IOTEC\\painel.html",
+        "C:\\IOTEC\\painel_avancado.html",
+        "C:\\IOTEC\\PAINEL_BILNGUE.py",
+        "C:\\IOTEC\\painel_full.html",
+        "C:\\IOTEC\\painel_IOTEC.html",
+        "C:\\IOTEC\\painel_IOTEC.py",
+        "C:\\IOTEC\\Repair_IOTEC_Interfaces.ps1",
+        "C:\\IOTEC\\REVENUE_INTELLIGENCE_MAP.json",
+        "C:\\IOTEC\\REVENUE_INTELLIGENCE_REPORT.txt",
+        "C:\\IOTEC\\SAFE_REPAIR_ENGINE.py",
+        "C:\\IOTEC\\SALES_BRAIN.py",
+        "C:\\IOTEC\\SALES_BRAIN.py.bak_20260607_111453",
+        "C:\\IOTEC\\syntax_repairer.py",
+        "C:\\IOTEC\\ULTIMATE_LIVE_SOCKET_REPAIR.ps1",
+        "C:\\IOTEC\\UNIVERSAL_RECEPTION_EMAIL.py",
+        "C:\\IOTEC\\black-diamond\\tailwind.config.js",
+        "C:\\IOTEC\\black-diamond\\src\\main.jsx",
+        "C:\\IOTEC\\core\\coletor_email.py",
+        "C:\\IOTEC\\core\\painel_vivo.py",
+        "C:\\IOTEC\\core\\EMAIL\\credenciais.json",
+        "C:\\IOTEC\\core\\EMAIL\\email_bridge.py",
+        "C:\\IOTEC\\interfaces_origem\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\main.js",
+        "C:\\IOTEC\\interfaces_origem\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\sustainable_agricult_0177af0f.jpg",
+        "C:\\IOTEC\\IOTEC_RENDER_READY\\enviar_email.py",
+        "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\main.js",
+        "C:\\IOTEC\\IOTEC_RENDER_READY\\static\\IOTEC BL — Construtora de Inovações e Tecnologia_files\\sustainable_agricult_0177af0f.jpg",
+        "C:\\IOTEC\\LAB\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\LEGACY\\BACKUP_NEURAL_MAP_ENGINE.py",
+        "C:\\IOTEC\\LEGACY\\IOTEC_UNIFIED_BRAIN_BACKUP.py",
+        "C:\\IOTEC\\logs\\repair_report.txt",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\01_mapa_raiz.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\01_sinais_python.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\03_sinais_estrutura.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\04_conflitos_potenciais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\06l9aix~os-xk.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\06_portais_promissores.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\07_paineis_promissores.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\0aibd_6w4.5wz.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\0ai_ndr2s_c9e.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\0l4ai8ucl0q_r.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\11_interfaces_locais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\12mqai2tuf2rc.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\13e~pxmi6hai3.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\a7d973ac_ai-navigator.f364e.svg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aiobotocore-2.12.3-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aiohappyeyeballs-2.4.0-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aiohttp-3.10.5-py312h827c3e9_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aioitertools-0.7.1-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\aiosignal-1.2.0-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ai_generated_future_cities_manas_bhatia-01.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ai_generated_future_cities_manas_bhatia-02.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\altair-5.0.1-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados   fr.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados (1).jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados gfd.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados mmm.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\baixados.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\bolt_painel_financeiro.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\caixas_globais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 07_36_50.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 07_37_10.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 07_37_11.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 07_37_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_02_34.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_03_05.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_03_19.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_03_33.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_03_48.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_04_06.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_04_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_04_31.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_04_43.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_04_53.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_05_02.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_05_15.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_05_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_05_47.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_06_12.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_06_44.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_07_05.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_07_27.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_07_43.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_07_58.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_08_14.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_08_26.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_08_41.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 10 de abr. de 2026, 22_08_54.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 14 de abr. de 2026, 13_18_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_10_01.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_15_40.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_16_44.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_17_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_22_11.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_23_59.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_26_24.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_27_17.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_37_13.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_38_14.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_38_29.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_40_32.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_41_04.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_48_25.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_50_00.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_50_28.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_50_53.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_51_30.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_52_11.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_53_19.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_53_37.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_53_54.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_54_39.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_55_08.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_55_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_55_24.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_55_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_55_48.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_56_01.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_57_49.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_58_06.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_58_19.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_58_39.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_58_55.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_59_14.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_59_20.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_59_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_59_47.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 21_59_59.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_00_12.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_00_27.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_00_43.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_01_19.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_01_37.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_10_13.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_10_19.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_10_24.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_10_28.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_11_02.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_11_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_11_54.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_11_59.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_03.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_08.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_21.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_25.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_29.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_12_34.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_13_04.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_13_13.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_13_45.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_14_17.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_14_34.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_15_02.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_15_59.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_16_07.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_16_44.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_17_00.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_17_12(1).png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_17_34.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_17_48.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_18_05.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_18_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_18_48.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_18_52.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_20_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_20_45.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_21_06.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_22_14.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_23_43.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_24_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_24_46.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_25_00.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_25_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_25_37.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_25_53.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_26_13.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_26_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_26_53.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_27_10.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_27_37.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_28_13.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_28_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_28_50.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_29_07.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_29_24.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_29_26.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_29_40.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_29_53.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_30_06.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_30_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_30_28.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_30_41.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_31_05.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_31_23.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_31_32.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_32_03.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_32_11.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_32_38.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_32_57(1).png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_33_16.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_33_44.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_33_49(1).png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_34_42.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_34_51.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_36_30.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_37_20.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_37_33.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_37_44.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_38_12.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 22 de fev. de 2026, 18_07_02.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 23 de fev. de 2026, 00_20_29.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 23 de fev. de 2026, 00_21_00.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_29_14.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_29_29.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_29_32.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_22.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\cidade-futurista-ai-generative-illustration-graphic-design-art-cidade-futurista-ai-generative-illustration-graphic-design-art-276346295.webp",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\cloud_ai_ad.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\container_8h.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\container_8h.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\container_8h.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\coordenadas-equatoriais-locais.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Cubos Digitais Flutuantes Exibindo Mapas Mundiais E Gráficos De Dados Contra Um Fundo De Céu Azul Brilhante Em Um Conceito Futurista, Cubos Digitais, Mapas Mundiais, Visualização De Dados Imagem de plano de fundo para download gratuito.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_credenciais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ESQUELETO_PYTHON_DO_NÚCLEO_main.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ESQUELETO_PYTHON_DO_NÚCLEO_main.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\EvolutionBrain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\EvolutionBrain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\funil_appspy_principais.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\funil_apps_principais_20260331_190912.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-check-mailmap.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-check-mailmap.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-diff-pairs.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-diff-pairs.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-interpret-trailers.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-interpret-trailers.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-mailinfo.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-mailinfo.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-mailsplit.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-mailsplit.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-maintenance.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-maintenance.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-send-email.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\git-send-email.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitmailmap.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\gitmailmap.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Green-Valley-Shanghai_schmidt_hammer_lassen_architects_Modelphoto_002.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\hash_chain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\iframeResizer.contentWindow.DM7vAi8H.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\index.CinPJsaI.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\INSTRUCAO_JUDICIAL_FORECAST_INTELLIGENCE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOBooster_Main.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOBooster_Main.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\judicial_forecast_intelligence_entry.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\judicial_forecast_intelligence_state.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\logo-ai-16666246.svg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.47861135.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.MTBjODI0ODZkMA.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\main.zgyqwsPV.js",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\maintain-git.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\maintain-git.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\motor_agentes_contratuais.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\motor_global_caixas.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_INSTRUCOES_OPERACIONAIS_V1.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_ORQUESTRADOR_MULTIPORTAIS_V1.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_SERVICOS_EDUCACIONAIS_IOTEC.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_SERVICOS_EDUCACIONAIS_IOTEC.py.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Otimização Judicial com Séries Temporais.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_auditoria.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\PAINEL_COLETA.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_engenharia.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-36.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-42.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_executivo.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_financeiro.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_licenciamento_2026-03-29_13-07-14.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_licenciamento_2026-03-29_13-07-19.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_mestre_2026-03-29_13-58-54.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_nucleo_2026-03-29_09-44-08.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_nucleo_2026-03-29_10-20-57.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_operacional.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel_projac_2026-03-29_20-42-38.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel__dup1.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel__dup1.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel__dup2.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\painel__dup2.html.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\pericia-forense-digital-uma-area-que-esta-crescendo-cada-vez-mais-20200731141319.jpg.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\pngtree-complex-data-analysis-depicted-in-high-detail-abstract-3d-technology-render-picture-image_4789457.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\portfolio_produtos_judiciais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\qt-main-5.15.2-h19c9488_10.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\raiox_20260401_194924.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\raiox_capacidades.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ranking_main.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS - Painel Operacional Master.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS - Painel Operacional Master__dup1.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Painel Universal de Acesso.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Painel Universal de Acesso01.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Painel Universal de Acesso01__dup1.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\REGULUS _ Painel Universal de Acesso__dup1.htm",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_AGENTES_CONTRATUAIS.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_PORTAIS_RENDER.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\repair_state_20260402_165830.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_credenciais.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\science-desktop-brain-chip-u5ytpjjgfspm2g06.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sortedcontainers-2.4.0-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Success.ai_-_Cover_photo_-_Employee_lead_database_53a64bed73.png",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_0177af0f.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_1f559535.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_1f559535__dup1.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_1f559535__dup2.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_1f559535__dup3.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_b0a4805f.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\sustainable_agricult_b0a4805f__dup1.jpg",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Technical_Brain.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\Technical_Brain.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.py.html",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\traitlets-5.14.3-py312haa95532_0.json",
+        "C:\\IOTEC\\MINERADORA_BRUTA\\xw6lzu2lr6jiv2vxvpcf63tsc76jc3sachvcdoaizecfr3dnitcq_3_0.png",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\painel_financeiro.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\bolt_painel_financeiro.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Commercial_Brain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\container_8h.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\container_8h.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\ESQUELETO_PYTHON_DO_NÚCLEO_main.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\EvolutionBrain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\funil_appspy_principais.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-check-mailmap.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-check-mailmap.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-diff-pairs.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-diff-pairs.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-interpret-trailers.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-interpret-trailers.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-mailinfo.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-mailinfo.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-mailsplit.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-mailsplit.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-maintenance.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-maintenance.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-send-email.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-send-email.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitmailmap.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitmailmap.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOBooster_Main.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\main.29bca1b5.css",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\main.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\maintain-git.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\maintain-git.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\motor_agentes_contratuais.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\motor_global_caixas.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_3_BRAINS_ENGINE.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_INSTRUCOES_OPERACIONAIS_V1.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_ORQUESTRADOR_MULTIPORTAIS_V1.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_SERVICOS_EDUCACIONAIS_IOTEC.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_SERVICOS_EDUCACIONAIS_IOTEC.py.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Otimização Judicial com Séries Temporais.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel_avancado.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel_financeiro.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel_financeiro.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel_full.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel_IOTEC.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel__dup1.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel__dup2.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\painel__dup2.html.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\raiox_capacidades.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Technical_Brain.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\ThreeBrainsEngine.py.html",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\06l9aix~os-xk.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\0aibd_6w4.5wz.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\0ai_ndr2s_c9e.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\0l4ai8ucl0q_r.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\12mqai2tuf2rc.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\13e~pxmi6hai3.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiobotocore-2.12.3-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiohappyeyeballs-2.4.0-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiohttp-3.10.5-py312h827c3e9_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aioitertools-0.7.1-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiosignal-1.2.0-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\altair-5.0.1-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Banco.de.Dados.de.Credenciais.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\caixas_globais.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\coletor_email.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\container.isolado.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\container_8h.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_ai_engine.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\credenciais.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_credenciais.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\email_bridge.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\entrada_principal_main.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\enviar_email.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\extrair_valor.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\funil_apps_principais_20260331_190912.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Guardiao.PAI.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\hash_chain.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iframeResizer.contentWindow.DM7vAi8H.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\index.CinPJsaI.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\INSTRUCAO_JUDICIAL_FORECAST_INTELLIGENCE.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_ATENDENTE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_BRIDGE_CONNECTOR.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_SECURITY.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CONTEXT_AI.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_EMAIL_24H.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_FORM_TO_EMAIL.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_FILTER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_HUB.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_MANAGER.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_TO_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MULTI_MAIL_CORE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\judicial_forecast_intelligence_entry.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\judicial_forecast_intelligence_state.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ler_emails.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\livro_caixa.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.47861135.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.d55f6a3c.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.MTBjODI0ODZkMA.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\main.zgyqwsPV.js",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel.clicvel.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Painel.replicador.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_auditoria.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\PAINEL_BILNGUE.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\PAINEL_COLETA.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_engenharia.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-36.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-42.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_executivo.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_IOTEC.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_licenciamento_2026-03-29_13-07-14.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_licenciamento_2026-03-29_13-07-19.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_mestre_2026-03-29_13-58-54.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_nucleo_2026-03-29_09-44-08.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_nucleo_2026-03-29_10-20-57.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_operacional.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_projac_2026-03-29_20-42-38.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_vivo.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\portfolio_produtos_judiciais.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\python.painel.jaguar.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\python.painel.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\python.painel_web.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\qt-main-5.15.2-h19c9488_10.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\raiox_20260401_194924.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ranking_main.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Registro_Oficial_de_Gratido__Farabulini_Lopes_Saraiva.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_AGENTES_CONTRATUAIS.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_PORTAIS_RENDER.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\repair_state_20260402_165830.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Sistema.VK.PAI.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\SistemaIntegrado.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\sortedcontainers-2.4.0-pyhd3eb1b0_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\traitlets-5.14.3-py312haa95532_0.json",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\VK.PAI.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\yagmail.py",
+        "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\_main.py",
+        "C:\\IOTEC\\oficina\\main.js",
+        "C:\\IOTEC\\SIGNAL_CORE\\VISUAL_REPAIR_AGENT.json",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main.cpython-311.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main.cpython-311_20260418_095435.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main.cpython-311_20260418_095435_20260418_102540.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main.cpython-311_20260418_102540.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main.cpython-311_20260418_102541.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main_parser.cpython-311.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main_parser.cpython-311_20260418_102540.pyc",
+        "C:\\IOTEC\\state\\miner\\quarantine\\main_parser.cpython-311_20260418_102541.pyc",
+        "C:\\IOTEC\\vite-project\\src\\main.ts",
+        "C:\\IOTEC\\_QUARENTENA\\. Crescimento Econômico e Expansão Digital-AFRICA E PAISES DO BLOCO.docx",
+        "C:\\IOTEC\\_QUARENTENA\\3NUMERO DA POSSE DO SAITE.docx",
+        "C:\\IOTEC\\_QUARENTENA\\A Ásia Maior e Menor oferecem diversas oportunidades para venda de pacotes de análise.docx",
+        "C:\\IOTEC\\_QUARENTENA\\email-ca-bundle.pem",
+        "C:\\IOTEC\\_QUARENTENA\\ESTUDO DE EMPRESAS COM TECNOLOGIA DE PONTA E BAIXO CUSTO PARA OPERAÇÃO DO PROJETO OPTIMUS PRIME.docx",
+        "C:\\IOTEC\\_QUARENTENA\\PROPOSTAS DE PROJETOS PARA PAISES.docx",
+        "C:\\IOTEC\\_QUARENTENA\\Tabela de Materiais e Equipamentos com Melhor Custo.docx",
+        "C:\\IOTEC\\_QUARENTENA\\tabela orçamentaria estimativa de vendas anuais.docx",
+        "C:\\IOTEC\\_QUARENTENA\\💳 RECEBIMENTOS NACIONAIS.docx",
+        "C:\\IOTEC\\_QUARENTENA\\💸 TARIFAS INTERNACIONAIS.docx",
+        "C:\\IOTEC\\_SANITIZADA\\06l9aix~os-xk.js",
+        "C:\\IOTEC\\_SANITIZADA\\0aibd_6w4.5wz.js",
+        "C:\\IOTEC\\_SANITIZADA\\0ai_ndr2s_c9e.js",
+        "C:\\IOTEC\\_SANITIZADA\\0l4ai8ucl0q_r.js",
+        "C:\\IOTEC\\_SANITIZADA\\12mqai2tuf2rc.js",
+        "C:\\IOTEC\\_SANITIZADA\\13e~pxmi6hai3.js",
+        "C:\\IOTEC\\_SANITIZADA\\a7d973ac_ai-navigator.f364e.svg",
+        "C:\\IOTEC\\_SANITIZADA\\ai_generated_future_cities_manas_bhatia-01.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\ai_generated_future_cities_manas_bhatia-02.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\baixados   fr.png",
+        "C:\\IOTEC\\_SANITIZADA\\baixados (1).jpg",
+        "C:\\IOTEC\\_SANITIZADA\\baixados gfd.png",
+        "C:\\IOTEC\\_SANITIZADA\\baixados mmm.png",
+        "C:\\IOTEC\\_SANITIZADA\\baixados.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\baixados.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 07_36_50.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 07_37_10.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 07_37_11.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 07_37_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_02_34.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_03_05.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_03_19.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_03_33.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_03_48.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_04_06.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_04_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_04_31.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_04_43.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_04_53.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_05_02.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_05_15.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_05_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_05_47.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_06_12.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_06_44.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_07_05.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_07_27.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_07_43.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_07_58.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_08_14.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_08_26.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_08_41.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 10 de abr. de 2026, 22_08_54.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 14 de abr. de 2026, 13_18_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_10_01.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_15_40.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_16_44.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_17_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_22_11.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_23_59.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_26_24.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_27_17.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_37_13.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_38_14.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_38_29.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_40_32.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_41_04.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_48_25.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_50_00.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_50_28.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_50_53.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_51_30.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_52_11.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_53_19.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_53_37.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_53_54.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_54_39.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_55_08.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_55_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_55_24.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_55_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_55_48.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_56_01.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_57_49.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_58_06.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_58_19.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_58_39.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_58_55.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_59_14.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_59_20.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_59_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_59_47.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 21_59_59.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_00_12.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_00_27.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_00_43.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_01_19.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_01_37.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_10_13.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_10_19.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_10_24.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_10_28.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_11_02.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_11_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_11_54.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_11_59.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_03.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_08.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_21.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_25.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_29.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_12_34.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_13_04.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_13_13.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_13_45.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_14_17.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_14_34.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_15_02.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_15_59.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_16_07.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_16_44.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_17_00.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_17_12(1).png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_17_34.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_17_48.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_18_05.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_18_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_18_48.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_18_52.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_20_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_20_45.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_21_06.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_22_14.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_22_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_22_56.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_23_43.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_24_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_24_46.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_25_00.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_25_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_25_37.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_25_53.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_26_13.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_26_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_26_53.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_27_10.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_27_37.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_28_13.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_28_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_28_50.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_29_07.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_29_24.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_29_26.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_29_40.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_29_53.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_30_06.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_30_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_30_28.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_30_41.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_31_05.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_31_23.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_31_32.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_32_03.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_32_11.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_32_38.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_32_57(1).png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_33_16.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_33_44.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_33_49(1).png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_34_42.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_34_51.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_36_30.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_37_20.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_37_33.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_37_44.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_38_12.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_38_35.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 21 de fev. de 2026, 22_39_02.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 22 de fev. de 2026, 18_07_02.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 23 de fev. de 2026, 00_20_29.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 23 de fev. de 2026, 00_21_00.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_29_14.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_29_21.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_29_29.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_29_32.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_17.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_22.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_31.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_39.png",
+        "C:\\IOTEC\\_SANITIZADA\\ChatGPT Image 24 de fev. de 2026, 09_30_40.png",
+        "C:\\IOTEC\\_SANITIZADA\\cidade-futurista-ai-generative-illustration-graphic-design-art-cidade-futurista-ai-generative-illustration-graphic-design-art-276346295.webp",
+        "C:\\IOTEC\\_SANITIZADA\\cloud_ai_ad.png",
+        "C:\\IOTEC\\_SANITIZADA\\container_8h.html",
+        "C:\\IOTEC\\_SANITIZADA\\container_8h.js",
+        "C:\\IOTEC\\_SANITIZADA\\coordenadas-equatoriais-locais.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\Cubos Digitais Flutuantes Exibindo Mapas Mundiais E Gráficos De Dados Contra Um Fundo De Céu Azul Brilhante Em Um Conceito Futurista, Cubos Digitais, Mapas Mundiais, Visualização De Dados Imagem de plano de fundo para download gratuito.htm",
+        "C:\\IOTEC\\_SANITIZADA\\git-check-mailmap.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-diff-pairs.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-interpret-trailers.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-mailinfo.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-mailsplit.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-maintenance.html",
+        "C:\\IOTEC\\_SANITIZADA\\git-send-email.html",
+        "C:\\IOTEC\\_SANITIZADA\\gitmailmap.html",
+        "C:\\IOTEC\\_SANITIZADA\\Green-Valley-Shanghai_schmidt_hammer_lassen_architects_Modelphoto_002.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\logo-ai-16666246.svg",
+        "C:\\IOTEC\\_SANITIZADA\\main.47861135.js",
+        "C:\\IOTEC\\_SANITIZADA\\main.js",
+        "C:\\IOTEC\\_SANITIZADA\\main.MTBjODI0ODZkMA.js",
+        "C:\\IOTEC\\_SANITIZADA\\maintain-git.html",
+        "C:\\IOTEC\\_SANITIZADA\\Otimização Judicial com Séries Temporais.html",
+        "C:\\IOTEC\\_SANITIZADA\\pericia-forense-digital-uma-area-que-esta-crescendo-cada-vez-mais-20200731141319.jpg.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\pngtree-complex-data-analysis-depicted-in-high-detail-abstract-3d-technology-render-picture-image_4789457.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\REGULUS - Painel Operacional Master.htm",
+        "C:\\IOTEC\\_SANITIZADA\\REGULUS _ Painel Universal de Acesso.htm",
+        "C:\\IOTEC\\_SANITIZADA\\REGULUS _ Painel Universal de Acesso01.htm",
+        "C:\\IOTEC\\_SANITIZADA\\science-desktop-brain-chip-u5ytpjjgfspm2g06.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\Success.ai_-_Cover_photo_-_Employee_lead_database_53a64bed73.png",
+        "C:\\IOTEC\\_SANITIZADA\\sustainable_agricult_0177af0f.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\sustainable_agricult_1f559535.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\sustainable_agricult_b0a4805f.jpg",
+        "C:\\IOTEC\\_SANITIZADA\\tai-ku.gif",
+        "C:\\IOTEC\\_SANITIZADA\\xw6lzu2lr6jiv2vxvpcf63tsc76jc3sachvcdoaizecfr3dnitcq_3_0.png"
+    ],
+    "dependencies": {
+        "abrir_Servico.py": [],
+        "ACROPOLE_CITY.py": [
+            "json",
+            "random",
+            "datetime"
+        ],
+        "ACROPOLE_COSMOS.py": [
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_GLOBAL.py": [
+            "Path",
+            "json",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_INFINITY.py": [
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_NEXUS.py": [
+            "Path",
+            "json",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_OMEGA.py": [
+            "Path",
+            "json",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_PRIME.py": [
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ACROPOLE_VISUAL.py": [
+            "Path",
+            "json",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ADAPTADOR_DE_ROTAS.py": [],
+        "ADD_PRIORITY_COLUMN.py": [
+            "sqlite3"
+        ],
+        "agente.py": [
+            "os",
+            "shutil",
+            "OpenAI"
+        ],
+        "ajustar_zoom_inteligente.py": [],
+        "analisar_cenario.py": [],
+        "analise_nucleo.py": [
+            "os"
+        ],
+        "api.py": [
+            "FastAPI",
+            "BaseModel",
+            "datetime",
+            "JWTError",
+            "FastAPI",
+            "sqlite3"
+        ],
+        "APOCALYPSE_ENGINE.py": [
+            "time",
+            "json",
+            "random",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "app.py": [
+            "Flask",
+            "time"
+        ],
+        "APPROVE_PROPOSAL.py": [
+            "sqlite3",
+            "sys"
+        ],
+        "app_cerebro_comercial.py": [
+            "os",
+            "Flask",
+            "OpenAI"
+        ],
+        "ARQUEOLOGIA_DIGITAL.py": [
+            "os",
+            "json",
+            "hashlib",
+            "datetime"
+        ],
+        "ARQUEOLOGO_DO_NUCLEO.py": [
+            "Path",
+            "datetime",
+            "json",
+            "dataclass",
+            "datetime",
+            "Optional"
+        ],
+        "ARQUITETURA_MODULAR_OPERACIONAL.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "json"
+        ],
+        "ATUALIZACAO_NO_NUCLEO.py": [
+            "smtplib",
+            "MIMEText"
+        ],
+        "auditoria_estrategica.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "auditoria_nucleo.py": [
+            "os",
+            "json"
+        ],
+        "AUDIT_VALUE_ENGINE.py": [
+            "os",
+            "sqlite3",
+            "Path",
+            "datetime"
+        ],
+        "AUTOMATION_HISTORY_ENGINE.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "AUTONOMOUS_LEAD.py": [
+            "json",
+            "random",
+            "math",
+            "time",
+            "datetime"
+        ],
+        "auto_injector.py": [
+            "os"
+        ],
+        "AUTO_MONETIZATION_ENGINE.py": [
+            "sqlite3",
+            "time",
+            "datetime"
+        ],
+        "auto_patch.py": [
+            "os"
+        ],
+        "AUTO_PATCH_SERVER_SQL.py": [
+            "Path"
+        ],
+        "AUTO_PORT.py": [
+            "socket",
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "AUTO_UPGRADE_FRONTEND_360.py": [
+            "Path"
+        ],
+        "AUTO_UPGRADE_SERVER_360.py": [
+            "Path"
+        ],
+        "BACKEND_COM_FLUXO_COMPLETO.py": [
+            "Flask",
+            "detectar_idioma"
+        ],
+        "BACKUP_20260511_185831.py": [
+            "datetime",
+            "uuid",
+            "random",
+            "time"
+        ],
+        "BACKUP_NEURAL_MAP_ENGINE.py": [
+            "os",
+            "re",
+            "json",
+            "defaultdict"
+        ],
+        "BILLING_ORCHESTRATOR.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "bootstrap_safe.py": [
+            "sys",
+            "os",
+            "builtins"
+        ],
+        "boot_iotec.py": [
+            "os",
+            "subprocess",
+            "webbrowser",
+            "time"
+        ],
+        "BRAIN.py": [
+            "os",
+            "ast",
+            "json",
+            "defaultdict"
+        ],
+        "BRIDGE_TOWER.py": [
+            "Flask",
+            "datetime",
+            "json",
+            "os"
+        ],
+        "BROADCAST.py": [
+            "os",
+            "re",
+            "json",
+            "random",
+            "datetime"
+        ],
+        "broker.py": [
+            "socket",
+            "threading"
+        ],
+        "calcular_score.py": [],
+        "CAPACIDADES_ECONÔMICAS.py": [
+            "os",
+            "json",
+            "re",
+            "datetime"
+        ],
+        "CENTRAL_CORE.py": [
+            "json",
+            "random",
+            "datetime"
+        ],
+        "Central_Operacional.py": [],
+        "cerebro_comercial.py": [],
+        "CERTIFIER_ENGINE.py": [
+            "os",
+            "re",
+            "json",
+            "datetime"
+        ],
+        "CHAT_GLOBAL.py": [],
+        "CINEMATIC_ENTERPRISE.py": [
+            "os",
+            "json",
+            "random"
+        ],
+        "CINEMATIC_OPERATIONS.py": [
+            "Flask",
+            "CORS",
+            "requests",
+            "datetime"
+        ],
+        "CLIENTE_INTERNACIONAL.py": [],
+        "cluster_bootstrap.py": [
+            "subprocess",
+            "time",
+            "sys",
+            "os"
+        ],
+        "coletor_api.py": [
+            "Flask",
+            "datetime",
+            "json"
+        ],
+        "COMMERCIAL_CONTROL_TOWER.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_CONVERSION_ENGINE.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_EXECUTIVE_REPORT.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_FUNNEL_ENGINE.py": [
+            "sqlite3",
+            "sys"
+        ],
+        "COMMERCIAL_FUSION_ENGINE.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_HEALTH_CHECK.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_OPPORTUNITY_ENGINE.py": [
+            "sqlite3",
+            "pandas",
+            "datetime"
+        ],
+        "COMMERCIAL_TOWER.py": [
+            "sqlite3"
+        ],
+        "COMMERCIAL_TO_PIPELINE_SYNC.py": [
+            "sqlite3",
+            "time",
+            "datetime"
+        ],
+        "conciencia_do_nucleo.py": [],
+        "config.py": [],
+        "CONFIGURADOR_AUTOMATICO.py": [
+            "socket",
+            "os",
+            "re"
+        ],
+        "CONFIRM_INVOICE30.py": [
+            "sqlite3",
+            "sys",
+            "datetime"
+        ],
+        "CONFIRM_INVOICE70.py": [
+            "sqlite3",
+            "sys",
+            "datetime"
+        ],
+        "CONFIRM_PAYMENT.py": [
+            "sqlite3",
+            "sys",
+            "datetime"
+        ],
+        "CONSOLIDADOR_E_FILTRO.py": [
+            "os",
+            "json",
+            "shutil",
+            "hashlib",
+            "datetime",
+            "defaultdict"
+        ],
+        "CONSOLIDATION_ENGINE.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "hashlib",
+            "uuid"
+        ],
+        "CONTEUDO_REAL_DOS_SERVICOS.py": [],
+        "CONTINUOUS_OPERATION.py": [
+            "os",
+            "json",
+            "time",
+            "uuid",
+            "datetime"
+        ],
+        "CONTINUOUS_PROGRAMMING.py": [
+            "os",
+            "random",
+            "shutil",
+            "time",
+            "datetime"
+        ],
+        "CONTROLE_DE_CUSTOS.py": [],
+        "Conversacional_Moderna.py": [
+            "time"
+        ],
+        "CORE_BUSINESS.py": [
+            "uuid",
+            "json",
+            "random",
+            "datetime",
+            "os"
+        ],
+        "CORE_MASTER.py": [
+            "os",
+            "importlib"
+        ],
+        "CORE_STRESS_TEST.py": [
+            "random",
+            "dataclass",
+            "Dict"
+        ],
+        "CORE_VERSAO_CALIBRADA.py": [
+            "random"
+        ],
+        "COR_INDEXER.py": [
+            "os",
+            "re",
+            "json",
+            "hashlib",
+            "unicodedata",
+            "datetime"
+        ],
+        "COUNT_FUNCTIONS.py": [
+            "os",
+            "re"
+        ],
+        "CPU_SHIELD.py": [
+            "gc",
+            "os",
+            "time",
+            "json",
+            "psutil",
+            "random",
+            "Path",
+            "datetime"
+        ],
+        "CREATIVE_EXPLORER.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "uuid"
+        ],
+        "criar_entrega.py": [],
+        "CRM_ENGINE.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "DAILY_COMMERCIAL_AUTOMATION.py": [
+            "subprocess"
+        ],
+        "DASHBOARD_AUTO_INSTALLER.py": [
+            "os",
+            "subprocess",
+            "sys"
+        ],
+        "DASHBOARD_BACKUP_20260511_193717.py": [
+            "streamlit",
+            "sqlite3",
+            "pandas",
+            "time"
+        ],
+        "DASHBOARD_INSTALLER.py": [],
+        "DATABASE_INSPECTOR.py": [
+            "re",
+            "sqlite3"
+        ],
+        "DATA_REFINERY_SYSTEM.py": [
+            "Flask",
+            "CORS",
+            "os",
+            "hashlib",
+            "mimetypes",
+            "datetime"
+        ],
+        "DEEP_ASSET_ARCHAEOLOGY.py": [
+            "os",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "DEEP_CORE_SCANNER.py": [
+            "os",
+            "json",
+            "datetime",
+            "defaultdict"
+        ],
+        "definir_plano.py": [],
+        "DETECCAO_DE_ALTO_RETORNO.py": [],
+        "detectar_idioma.py": [],
+        "DETECTAR_INTERFACES_EXTERNNAS.py": [
+            "os"
+        ],
+        "diagnostico.py": [
+            "os"
+        ],
+        "dialogo.py": [
+            "json",
+            "os"
+        ],
+        "DIRECT_LEAD_TEST.py": [
+            "requests"
+        ],
+        "DISPARAR_DEPLOY.py": [
+            "os",
+            "datetime"
+        ],
+        "ECONOMIC_AUDIT_ENGINE.py": [
+            "os",
+            "json",
+            "Path"
+        ],
+        "ECONOMIC_INTELLIGENCE.py": [
+            "json",
+            "random",
+            "math",
+            "datetime"
+        ],
+        "Ecossistema_Black_Diamond.py": [],
+        "ECOSSISTEMA_DE_IA_ASSISTIVA.py": [],
+        "ECOSYSTEM_ACTIVATION.py": [
+            "json",
+            "random",
+            "Path",
+            "datetime",
+            "http",
+            "socketserver",
+            "webbrowser",
+            "os"
+        ],
+        "eh_pagamento_paypal.py": [],
+        "email_bridge.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "engine.py": [],
+        "ENGINE_ROUTER_CORE.py": [
+            "Flask",
+            "datetime",
+            "sqlite3"
+        ],
+        "ENTERPRISE_ENGINE.py": [
+            "os",
+            "subprocess",
+            "textwrap"
+        ],
+        "ENTERPRISE_RENDER_READY.py": [
+            "Flask",
+            "datetime",
+            "sqlite3",
+            "os"
+        ],
+        "ENTERPRISE_WEB_CORE.py": [
+            "os",
+            "uuid",
+            "json",
+            "random",
+            "datetime"
+        ],
+        "entrada_principal_main.py": [
+            "rodar_simulacao",
+            "MUNICIPIO"
+        ],
+        "EVENT_BUS.py": [
+            "time",
+            "logging",
+            "Thread",
+            "defaultdict"
+        ],
+        "event_bus_v4.py": [
+            "time",
+            "logging",
+            "Thread",
+            "defaultdict",
+            "uuid"
+        ],
+        "event_bus_v5.py": [
+            "time",
+            "logging",
+            "uuid",
+            "Thread",
+            "deque"
+        ],
+        "event_bus_v6.py": [
+            "time",
+            "logging",
+            "uuid",
+            "Thread",
+            "deque"
+        ],
+        "event_bus_v7.py": [
+            "time",
+            "logging",
+            "uuid",
+            "Thread",
+            "deque"
+        ],
+        "event_bus_v8.py": [
+            "time",
+            "json",
+            "logging",
+            "uuid",
+            "Thread",
+            "deque",
+            "os"
+        ],
+        "event_bus_v9.py": [
+            "time",
+            "json",
+            "logging",
+            "uuid",
+            "os",
+            "Thread",
+            "deque"
+        ],
+        "EXECUTION_CORE.py": [
+            "json",
+            "random",
+            "time",
+            "datetime"
+        ],
+        "EXECUTIVE_COMMAND_ENTER.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "requests"
+        ],
+        "EXECUTIVE_COMMAND_TOWER.py": [
+            "sqlite3"
+        ],
+        "EXECUTIVE_DASHBOARD.py": [
+            "json",
+            "random",
+            "Path",
+            "datetime",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "EXPANSAO_COMPLETA.py": [
+            "os",
+            "time",
+            "random",
+            "webbrowser",
+            "os"
+        ],
+        "extrair_valor.py": [
+            "re"
+        ],
+        "FAILURE_DETECTION.py": [
+            "os",
+            "time",
+            "datetime"
+        ],
+        "FILA_DE_EXPERIMENTACAO.py": [],
+        "fix_broker.py": [],
+        "fix_heartbeat_server.py": [
+            "Path"
+        ],
+        "fix_iotec.py": [
+            "re"
+        ],
+        "fix_iotec_final.py": [
+            "re"
+        ],
+        "fix_nodes_protocol.py": [
+            "Path",
+            "socket",
+            "threading",
+            "time",
+            "sys"
+        ],
+        "fix_orchestrator_v2.py": [
+            "Path",
+            "socket",
+            "threading",
+            "time",
+            "subprocess",
+            "sys",
+            "os"
+        ],
+        "FLUXO_COMPLETO.py": [],
+        "FLUXO_REAL.py": [],
+        "FUNNEL_WIRING_AUDIT.py": [
+            "os",
+            "sqlite3",
+            "Path"
+        ],
+        "gerar_dossie.py": [
+            "os",
+            "datetime",
+            "pandas",
+            "plotly",
+            "SimpleDocTemplate",
+            "getSampleStyleSheet",
+            "A4",
+            "cm"
+        ],
+        "Gerar_entreg.py": [],
+        "gerar_excel.py": [],
+        "gerar_login.py": [
+            "random",
+            "random"
+        ],
+        "gerar_ordem.py": [
+            "json",
+            "datetime"
+        ],
+        "gerar_pacote.py": [],
+        "gerar_texto_contextual.py": [],
+        "GLOBAL_ASSETS.py": [
+            "datetime",
+            "uuid",
+            "json",
+            "random"
+        ],
+        "GLOBAL_CONTROL_TOWER.py": [
+            "Flask",
+            "SocketIO",
+            "threading",
+            "random",
+            "time"
+        ],
+        "GLOBAL_OPERATIONAL_CORE.py": [
+            "os",
+            "uuid",
+            "sqlite3",
+            "datetime",
+            "Flask"
+        ],
+        "GLOBAL_REALTY.py": [
+            "os",
+            "Path",
+            "React",
+            "ReactDOM"
+        ],
+        "GLOBAL_REALTY_01.py": [
+            "datetime",
+            "uuid",
+            "json"
+        ],
+        "Global_Realty_Connected.py": [
+            "os",
+            "Path",
+            "React",
+            "ReactDOM",
+            "FastAPI",
+            "CORSMiddleware"
+        ],
+        "Global_Realty_Fullscreen_Interface.py": [],
+        "GOVERNANA_OPERACIONAL.py": [
+            "json",
+            "uuid",
+            "random",
+            "datetime"
+        ],
+        "GOVERNANA_OPERACIONAL_AUTOMATIZADA.py": [
+            "datetime",
+            "uuid"
+        ],
+        "grafico_barras_premium.py": [],
+        "grafico_gauge_risco.py": [],
+        "gTTS.py": [
+            "gTTS"
+        ],
+        "HEAVY_STRESS.py": [
+            "random",
+            "statistics",
+            "json",
+            "time",
+            "Path",
+            "datetime",
+            "matplotlib"
+        ],
+        "HIERARCHICA_ESCALATION.py": [
+            "os",
+            "json",
+            "uuid",
+            "datetime",
+            "os",
+            "json",
+            "uuid",
+            "datetime"
+        ],
+        "HYPERCORE_SHIELD.py": [
+            "time",
+            "json",
+            "random",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "HYPERSCALE_LAB.py": [
+            "time",
+            "json",
+            "random",
+            "threading",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "IBEX_DASHBOARD.py": [
+            "Flask",
+            "json",
+            "pandas",
+            "Path",
+            "plotly",
+            "plotly"
+        ],
+        "IBEX_UNIVERSAL.py": [
+            "datetime",
+            "json",
+            "Path"
+        ],
+        "IBEX_UNIVERSAL_RECEPTION.py": [
+            "Path",
+            "datetime",
+            "json"
+        ],
+        "IDENTIDADE_DINMICA_DO_NUCLEO.py": [],
+        "IMPORTADOR_EMPRESAS.py": [
+            "pandas",
+            "os"
+        ],
+        "INIT_BACKUP_20260511_190622.py": [
+            "datetime",
+            "uuid",
+            "random",
+            "sqlite3",
+            "time"
+        ],
+        "INTEGRACAO_COMPLETA.py": [
+            "os",
+            "datetime",
+            "pyttsx3"
+        ],
+        "integracao_executar_nucleo.py": [],
+        "INTEGRACAO_FINAL_DO_NUCLEO.py": [],
+        "Inteligncia_de_Valorizao.py": [],
+        "INTELLIGENT_CURATOR.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "json",
+            "uuid"
+        ],
+        "Interface_Restoration.py": [
+            "Path"
+        ],
+        "INTERNAL_DOMINANCE_GOVERNANCE.py": [
+            "os",
+            "json",
+            "random",
+            "datetime"
+        ],
+        "INVENTRIO_CORPORATIVO.py": [
+            "os",
+            "json",
+            "hashlib",
+            "datetime"
+        ],
+        "INVENTRIO_CORPORATIVO_IMPERIAL.py": [
+            "os",
+            "shutil",
+            "hashlib",
+            "json",
+            "datetime",
+            "Flask"
+        ],
+        "INVENTRIO_INTELIGENTE.py": [
+            "os",
+            "json",
+            "hashlib",
+            "datetime"
+        ],
+        "INVESTIGADOR_EMPRESARIAL.py": [],
+        "INVESTIGATION_01_LEAD_PATH_AUDIT.py": [
+            "os",
+            "re"
+        ],
+        "INVESTIGATION_02_FORMS_LOCATOR.py": [
+            "json"
+        ],
+        "INVESTIGATOR_TECHNICAL_TUTOR.py": [
+            "os",
+            "json",
+            "Path",
+            "defaultdict"
+        ],
+        "iotec.py": [],
+        "IOTEC_ADAPTIVE_CORE_MANAGER.py": [
+            "os",
+            "time",
+            "requests",
+            "subprocess",
+            "threading",
+            "Flask",
+            "CORS",
+            "datetime",
+            "streamlit"
+        ],
+        "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py": [
+            "os",
+            "json",
+            "time",
+            "random",
+            "dataclass",
+            "Dict",
+            "datetime",
+            "dataclass",
+            "Dict",
+            "datetime"
+        ],
+        "IOTEC_ADVANCEMENT_CONTROL_TOWER.py": [
+            "time",
+            "random",
+            "datetime"
+        ],
+        "IOTEC_AI_ATENDENTE.py": [],
+        "IOTEC_AI_BRIDGE_CONNECTOR.py": [],
+        "IOTEC_AI_CORE.py": [],
+        "IOTEC_AI_SECURITY.py": [],
+        "iotec_alma_core.py": [
+            "os",
+            "Path",
+            "datetime"
+        ],
+        "iotec_alma_core_v2.py": [
+            "os",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "iotec_alma_core_v3.py": [
+            "os",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "iotec_alma_core_v4_governador.py": [
+            "os",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "iotec_alma_core_v5_consolidador.py": [
+            "os",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "IOTEC_API_INTEGRACAO.py": [
+            "Flask",
+            "datetime"
+        ],
+        "IOTEC_ARCHITECTURE_AUDITOR.py": [
+            "os",
+            "json",
+            "re",
+            "defaultdict",
+            "datetime"
+        ],
+        "IOTEC_ARTERIA_8787.py": [
+            "Flask"
+        ],
+        "IOTEC_AUTOMATED_STRUCTURE_ENGINE.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "IOTEC_AUTONOMOUS.py": [
+            "uuid",
+            "datetime",
+            "random",
+            "time"
+        ],
+        "IOTEC_BILLING_INTELLIGENCE_ENGINE.py": [
+            "sqlite3",
+            "uuid",
+            "time",
+            "imaplib",
+            "email",
+            "datetime",
+            "MIMEText",
+            "smtplib"
+        ],
+        "IOTEC_CAPABILITY_HUNTER.py": [
+            "os",
+            "json",
+            "defaultdict",
+            "datetime"
+        ],
+        "IOTEC_CENTRAL_BRAIN.py": [
+            "os",
+            "importlib",
+            "traceback"
+        ],
+        "IOTEC_CONTEXT_AI.py": [],
+        "IOTEC_CONTROL_PANEL.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "IOTEC_CONTROL_TOWER_ENGINE.py": [
+            "os",
+            "time",
+            "random",
+            "datetime"
+        ],
+        "iotec_core.py": [
+            "os",
+            "datetime",
+            "random",
+            "json"
+        ],
+        "IOTEC_CORE_24H.py": [
+            "time",
+            "json",
+            "random"
+        ],
+        "IOTEC_CORE_DIRECTIVE_SYSTEM.py": [],
+        "IOTEC_CORE_EMAIL_24H.py": [
+            "os",
+            "time",
+            "json",
+            "imaplib",
+            "email",
+            "decode_header",
+            "re"
+        ],
+        "IOTEC_CORE_LIVE_QUEUE.py": [
+            "streamlit",
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_CORE_MANAGER.py": [
+            "requests",
+            "subprocess",
+            "threading",
+            "time",
+            "os",
+            "datetime",
+            "Flask",
+            "CORS"
+        ],
+        "IOTEC_CORE_QUEUE_PANEL.py": [
+            "streamlit"
+        ],
+        "IOTEC_CORE_RUNNER.py": [
+            "time",
+            "ler_emails"
+        ],
+        "IOTEC_CUSTOMER_SERVICE_CORE.py": [
+            "time",
+            "dataclass",
+            "List"
+        ],
+        "IOTEC_DASHBOARD.py": [],
+        "IOTEC_DATABASE_CORE.py": [
+            "sqlite3"
+        ],
+        "IOTEC_DEPLOYMENT_DIAGNOSTIC.py": [
+            "os",
+            "importlib",
+            "socket",
+            "app"
+        ],
+        "IOTEC_DEPLOY_MASTER.py": [
+            "os",
+            "shutil",
+            "datetime",
+            "Flask"
+        ],
+        "IOTEC_DEPLOY_MASTER_V2.py": [
+            "os",
+            "shutil",
+            "datetime",
+            "Flask"
+        ],
+        "IOTEC_DEPLOY_MASTER_V3.py": [
+            "os",
+            "shutil",
+            "datetime",
+            "Flask"
+        ],
+        "IOTEC_DEPLOY_NETLIFY.py": [
+            "os",
+            "subprocess"
+        ],
+        "IOTEC_DEPLOY_ORQUESTRADOR.py": [
+            "os",
+            "shutil",
+            "datetime",
+            "Flask"
+        ],
+        "IOTEC_DUAL_MAIL_DASHBOARD.py": [
+            "streamlit",
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_EXECUTION_XRAY.py": [
+            "os",
+            "ast",
+            "defaultdict"
+        ],
+        "IOTEC_FIRST_REVENUE_ENGINE.py": [
+            "Flask",
+            "sqlite3",
+            "uuid",
+            "datetime"
+        ],
+        "IOTEC_FORM_TO_EMAIL.py": [
+            "smtplib",
+            "MIMEText"
+        ],
+        "IOTEC_FULL_FLOW.py": [
+            "urllib"
+        ],
+        "IOTEC_GATEWAY_CORE.py": [
+            "Flask",
+            "CORS",
+            "requests",
+            "datetime"
+        ],
+        "IOTEC_GLOBAL_CORE.py": [
+            "Flask",
+            "request",
+            "jsonify",
+            "render_template_string",
+            "sqlite3",
+            "uuid",
+            "os",
+            "datetime"
+        ],
+        "IOTEC_GLOBAL_OPERATIONAL_CORE.py": [
+            "os",
+            "sys",
+            "json",
+            "uuid",
+            "sqlite3",
+            "subprocess",
+            "datetime",
+            "Flask",
+            "request",
+            "jsonify",
+            "render_template_string"
+        ],
+        "IOTEC_GLOBAL_READINESS_CHECK.py": [
+            "datetime"
+        ],
+        "iotec_governor_layer.py": [
+            "os",
+            "json",
+            "defaultdict",
+            "datetime"
+        ],
+        "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py": [
+            "streamlit",
+            "time"
+        ],
+        "IOTEC_HIDDEN_CAPABILITIES_ENGINE.py": [
+            "os",
+            "re",
+            "json",
+            "defaultdict"
+        ],
+        "IOTEC_INTELLIGENT_CURATOR.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "uuid"
+        ],
+        "IOTEC_MAIL_CORE_INTELIGENTE.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_MAIL_FILTER.py": [],
+        "IOTEC_MAIL_HUB.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_MAIL_MANAGER.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_MAIL_TO_CORE.py": [
+            "imaplib",
+            "email"
+        ],
+        "IOTEC_MASTER_CORE.py": [
+            "os",
+            "importlib",
+            "importlib",
+            "traceback"
+        ],
+        "IOTEC_MASTER_CORE_BACKUP.py": [
+            "os",
+            "importlib",
+            "traceback"
+        ],
+        "IOTEC_MEDIA.py": [
+            "uuid",
+            "datetime"
+        ],
+        "IOTEC_MEDIA_ORCHESTRATION_CORE.py": [],
+        "IOTEC_MEMORY_ENGINE.py": [
+            "json"
+        ],
+        "IOTEC_MINIMAL_REAL_CORE.py": [
+            "Flask",
+            "datetime",
+            "sqlite3",
+            "uuid",
+            "os"
+        ],
+        "IOTEC_MULTI_MAIL_CORE.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "IOTEC_MULTI_SECTOR_RADAR.py": [
+            "streamlit"
+        ],
+        "IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py": [
+            "os",
+            "defaultdict",
+            "json"
+        ],
+        "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py": [
+            "os",
+            "json",
+            "time",
+            "uuid",
+            "random",
+            "datetime",
+            "dataclass",
+            "Dict"
+        ],
+        "IOTEC_NEURAL_MAP_AUTO_FIX.py": [
+            "os",
+            "json"
+        ],
+        "IOTEC_NEURAL_MAP_ENGINE.py": [
+            "os",
+            "re",
+            "json",
+            "defaultdict"
+        ],
+        "IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py": [
+            "os",
+            "json"
+        ],
+        "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py": [
+            "uuid",
+            "time",
+            "dataclass",
+            "Dict"
+        ],
+        "IOTEC_ORCHESTRATION_AUDITOR.py": [
+            "os",
+            "ast",
+            "defaultdict"
+        ],
+        "iotec_orchestrator_master.py": [
+            "datetime"
+        ],
+        "iotec_orchestrator_master_v2.py": [
+            "time",
+            "uuid",
+            "datetime"
+        ],
+        "IOTEC_PANEL_24H.py": [
+            "streamlit",
+            "json",
+            "time"
+        ],
+        "IOTEC_PAYPAL_MONITOR.py": [
+            "imaplib"
+        ],
+        "IOTEC_PERSISTENT_OPERATIONAL_CORE.py": [
+            "sqlite3",
+            "uuid",
+            "time",
+            "datetime"
+        ],
+        "IOTEC_PREPARSER_FIXER.py": [
+            "Path",
+            "re",
+            "shutil"
+        ],
+        "IOTEC_PROGRAMMING_GRID_ENGINE.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py": [
+            "os",
+            "json",
+            "defaultdict"
+        ],
+        "IOTEC_REVENUE_IDENTITY_ENGINE.py": [
+            "os",
+            "json",
+            "sqlite3",
+            "Path"
+        ],
+        "IOTEC_Revenue_Strategy_Engine.py": [
+            "datetime"
+        ],
+        "IOTEC_RUNTIME_REORGANIZER.py": [
+            "os",
+            "shutil"
+        ],
+        "IOTEC_SAFE_PATCHER_V2.py": [
+            "ast",
+            "shutil",
+            "Path"
+        ],
+        "IOTEC_SALES_CONSULTANT_AI.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "iotec_sonda_arquitetural.py": [
+            "os",
+            "json",
+            "defaultdict",
+            "datetime"
+        ],
+        "iotec_sonda_core.py": [
+            "os",
+            "json",
+            "Path",
+            "defaultdict",
+            "datetime"
+        ],
+        "Iotec_Spine.py": [
+            "uuid",
+            "time",
+            "datetime"
+        ],
+        "Iotec_Spine_Core.py": [
+            "Module",
+            "ModuleRegistry"
+        ],
+        "Iotec_Spine_Core_Architecture.py": [
+            "uuid",
+            "json",
+            "os",
+            "time",
+            "datetime",
+            "Dict",
+            "streamlit"
+        ],
+        "IOTEC_STABILITY_CORE.py": [
+            "annotations",
+            "os",
+            "sys",
+            "json",
+            "Path",
+            "Any",
+            "runpy"
+        ],
+        "IOTEC_STABILITY_ENGINE.py": [
+            "ast",
+            "sys",
+            "Path",
+            "sys"
+        ],
+        "IOTEC_STARTUP_CHECKLIST_ENGINE.py": [
+            "os",
+            "uuid",
+            "time",
+            "random",
+            "datetime"
+        ],
+        "IOTEC_STRUCTURE_RECOVERY_ENGINE.py": [
+            "Path",
+            "ast",
+            "shutil",
+            "annotations"
+        ],
+        "IOTEC_SYSTEM_FLOW_PANEL.py": [
+            "streamlit",
+            "random",
+            "time"
+        ],
+        "IOTEC_TEMPLATE.py": [
+            "plotly"
+        ],
+        "IOTEC_TRAFFIC_CONTROLLER.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "socket",
+            "threading",
+            "time",
+            "json",
+            "os"
+        ],
+        "IOTEC_TTS.py": [
+            "gTTS"
+        ],
+        "IOTEC_ULTRACORE_ARCHITECTURE.py": [
+            "dataclass",
+            "List",
+            "time"
+        ],
+        "IOTEC_UNIFIED_BRAIN.py": [
+            "os",
+            "json",
+            "datetime",
+            "defaultdict"
+        ],
+        "IOTEC_UNIFIED_BRAIN_BACKUP.py": [
+            "os",
+            "json",
+            "datetime",
+            "defaultdict"
+        ],
+        "IOTEC_WEB_OBSERVER.py": [
+            "Flask",
+            "CORS",
+            "requests",
+            "threading",
+            "time",
+            "socket",
+            "re",
+            "BeautifulSoup",
+            "datetime"
+        ],
+        "IOTEC_WHATSAPP_AUTOMATION.py": [
+            "urllib"
+        ],
+        "IOTEC_WHATS_LINK.py": [
+            "urllib"
+        ],
+        "LEAD_OPERATIONS_CENTER.py": [
+            "sqlite3"
+        ],
+        "LEAD_SCORE_ENGINE.py": [
+            "sqlite3"
+        ],
+        "ler_emails.py": [],
+        "LIVE_EXECUTIVE_VISUAL.py": [
+            "Flask",
+            "CORS",
+            "requests",
+            "datetime"
+        ],
+        "LIVE_FUNNEL_TRACE.py": [
+            "datetime",
+            "json",
+            "os"
+        ],
+        "LIVE_OPERATING.py": [
+            "os",
+            "json",
+            "random",
+            "Path",
+            "datetime",
+            "http",
+            "socketserver",
+            "webbrowser",
+            "os"
+        ],
+        "LIVE_OPERATIONAL_CORE.py": [
+            "datetime",
+            "uuid",
+            "random",
+            "sqlite3",
+            "time"
+        ],
+        "LIVE_SOCKET_TOWER.py": [
+            "Flask"
+        ],
+        "LIVE_TOWER_ALERT.py": [
+            "sqlite3",
+            "time",
+            "os"
+        ],
+        "live_tower_monitor.py": [
+            "os",
+            "json",
+            "time",
+            "datetime"
+        ],
+        "log_writer.py": [
+            "json",
+            "datetime",
+            "os"
+        ],
+        "LOTE_OPERATIONAL.py": [
+            "os",
+            "json",
+            "random",
+            "datetime"
+        ],
+        "main.py": [
+            "Consciencia",
+            "Varredura",
+            "Executor",
+            "Relatorio"
+        ],
+        "MAIN_TOWER.py": [
+            "os",
+            "subprocess"
+        ],
+        "MAPA_DO_ECOSSISTEMA.py": [],
+        "MASTER_GOVERNANCE.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "os",
+            "uuid"
+        ],
+        "memoria_cliente.py": [],
+        "MEMORIA_DE_PERFORMACE.py": [
+            "json"
+        ],
+        "MEMORY_FORTRESS.py": [
+            "os",
+            "gc",
+            "json",
+            "time",
+            "psutil",
+            "random",
+            "Path",
+            "datetime"
+        ],
+        "mensagem_automatica.py": [],
+        "META_ENGINE.py": [
+            "random",
+            "datetime",
+            "statistics",
+            "json",
+            "os"
+        ],
+        "MIGRATE_ENTERPRISE_LEADS.py": [
+            "sqlite3"
+        ],
+        "MIGRATE_LEADS_TABLE.py": [
+            "sqlite3"
+        ],
+        "miner_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any"
+        ],
+        "MINING_ENGINE.py": [
+            "time",
+            "datetime"
+        ],
+        "MISSION_01_CAPABILITY_CATALOG.py": [
+            "os",
+            "json",
+            "defaultdict"
+        ],
+        "MISSION_02_PRODUCT_DISCOVERY.py": [
+            "json"
+        ],
+        "MISSION_03_MASTER_INVENTORY.py": [
+            "os",
+            "json",
+            "re"
+        ],
+        "models.py": [
+            "annotations",
+            "dataclass",
+            "Any"
+        ],
+        "MODULAR_ARCHITECTURE.py": [
+            "dataclass",
+            "Dict",
+            "random"
+        ],
+        "modulo_exemplo.py": [],
+        "modulo_interface.py": [
+            "os",
+            "re"
+        ],
+        "MONEY_GATE.py": [
+            "Flask",
+            "datetime",
+            "sqlite3",
+            "os"
+        ],
+        "monitor_paypal.py": [
+            "imaplib",
+            "email",
+            "json",
+            "datetime"
+        ],
+        "montar_texto.py": [],
+        "MOTOR_DE_SIMILARIDADE.py": [],
+        "MOTOR_DE_SIMILARIDADE_AVANADO.py": [],
+        "MOTOR_SEMANTICO.py": [
+            "time"
+        ],
+        "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py": [
+            "time",
+            "defaultdict"
+        ],
+        "MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py": [
+            "time",
+            "unicodedata",
+            "difflib",
+            "defaultdict"
+        ],
+        "msg_cliente.py": [],
+        "NAVEGACAO_DE_OPORTUNIDADES.py": [],
+        "NCLEO_CENTRAL.py": [
+            "Flask"
+        ],
+        "ncleo_real.py": [],
+        "NEGOTIATION_ENGINE.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "NEXUS_CORE.py": [
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser",
+            "psutil",
+            "json",
+            "time",
+            "Path",
+            "datetime"
+        ],
+        "NEXUS_REALTIME.py": [
+            "Path",
+            "psutil",
+            "json",
+            "time",
+            "Path",
+            "datetime",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "nodes_cluster.py": [
+            "socket",
+            "time",
+            "sys",
+            "threading",
+            "Path"
+        ],
+        "nodes_distribuido.py": [
+            "socket",
+            "threading",
+            "time"
+        ],
+        "NODE_CHECK.py": [
+            "subprocess"
+        ],
+        "notificar_cliente.py": [],
+        "NTERPRETADOR_INTELIGENTE.py": [],
+        "nucleo.py": [],
+        "nucleo_api.py": [
+            "Flask",
+            "json",
+            "datetime",
+            "os"
+        ],
+        "nucleo_estabilizador.py": [
+            "time",
+            "logging",
+            "Thread"
+        ],
+        "nucleo_estabilizador_v2.py": [
+            "time",
+            "logging",
+            "Thread"
+        ],
+        "nucleo_financeiro.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "nucleo_iotec.py": [],
+        "NUCLEO_REAL.py": [
+            "requests"
+        ],
+        "NUCLEUS_INVESTIGATION.py": [
+            "json",
+            "Path"
+        ],
+        "NUCLEUS_LIVE.py": [
+            "json",
+            "os"
+        ],
+        "nucleus_orchestrator.py": [
+            "datetime",
+            "uuid4",
+            "dataclass",
+            "Dict",
+            "threading",
+            "queue",
+            "time"
+        ],
+        "NUCLEUS_STRESS_TEST.py": [
+            "os",
+            "time",
+            "json",
+            "random",
+            "platform",
+            "threading",
+            "Path",
+            "datetime"
+        ],
+        "NUCLEU_ENTERPRISE.py": [
+            "os",
+            "json",
+            "uuid",
+            "shutil",
+            "Path",
+            "datetime",
+            "FastAPI",
+            "CORSMiddleware",
+            "time",
+            "datetime",
+            "shutil",
+            "Path",
+            "datetime"
+        ],
+        "OCCUPY_CORE.py": [
+            "json",
+            "os",
+            "datetime"
+        ],
+        "OFFICIAL_FUNNEL_DISCOVERY.py": [
+            "os",
+            "defaultdict"
+        ],
+        "OFFICIAL_FUNNEL_LOCKER.py": [
+            "json",
+            "datetime"
+        ],
+        "OFFICIAL_FUNNEL_VALIDATOR.py": [
+            "os",
+            "json",
+            "datetime"
+        ],
+        "OFICINA_DE_INTERFACES.py": [
+            "os",
+            "shutil",
+            "datetime"
+        ],
+        "OMEGA _X.py": [
+            "os",
+            "textwrap"
+        ],
+        "OMEGA_CINEMATIC.py": [
+            "os",
+            "json"
+        ],
+        "OMEGA_X.py": [
+            "os",
+            "textwrap"
+        ],
+        "OPPORTUNITY_ENGINE.py": [
+            "sqlite3",
+            "pandas",
+            "datetime"
+        ],
+        "OPPORTUNITY_RADAR.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "ORBITAL_EVOLUTION.py": [
+            "time",
+            "json",
+            "random",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "orchestrator.py": [
+            "time"
+        ],
+        "orchestrator_cluster.py": [
+            "socket",
+            "threading",
+            "subprocess",
+            "time"
+        ],
+        "ORCHESTRATOR_ENGINE.py": [
+            "Flask",
+            "CORS",
+            "subprocess",
+            "requests",
+            "threading",
+            "time",
+            "os",
+            "datetime"
+        ],
+        "orchestrator_fixed.py": [
+            "time",
+            "threading"
+        ],
+        "orchestrator_fsm.py": [
+            "time",
+            "threading"
+        ],
+        "organizar_cliente.py": [],
+        "ORGANIZATIONAL_KERNEL.py": [
+            "Flask",
+            "CORS",
+            "datetime",
+            "uuid"
+        ],
+        "ORQUESTRADOR_COMPLETO.py": [
+            "os",
+            "Flask",
+            "random"
+        ],
+        "Orquestrador_Inteligente.py": [],
+        "ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py": [
+            "time",
+            "unicodedata",
+            "difflib",
+            "defaultdict"
+        ],
+        "ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py": [
+            "time",
+            "unicodedata",
+            "difflib",
+            "defaultdict"
+        ],
+        "PAINEL_BILNGUE.py": [],
+        "painel_IOTEC.py": [],
+        "PARA_A_OFICINA.py": [],
+        "PATCH_ADD_DISPATCH.py": [
+            "Path"
+        ],
+        "PAYMENT_ENGINE.py": [
+            "sqlite3"
+        ],
+        "PAYMENT_SCHEMA_UPGRADE.py": [
+            "sqlite3"
+        ],
+        "paypal_server.py": [
+            "Flask",
+            "requests",
+            "base64",
+            "json"
+        ],
+        "payroll.py": [],
+        "PERSISTENCE_BACKUP_20260511_193031.py": [
+            "datetime",
+            "uuid",
+            "random",
+            "sqlite3",
+            "time"
+        ],
+        "pipeline.py": [],
+        "PIPELINE_STATUS_SYNC.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "Plataforma_Seguranca_Publica.py": [
+            "sys",
+            "os",
+            "random",
+            "time",
+            "Counter",
+            "QTimer",
+            "QWebEngineView",
+            "folium",
+            "HeatMap"
+        ],
+        "plotly.graph_objects.py": [
+            "plotly"
+        ],
+        "plotly.graph_objects01.py": [
+            "plotly"
+        ],
+        "plotly.graph_objects_01.py": [
+            "streamlit",
+            "plotly"
+        ],
+        "plotly.graph_objects_02.py": [
+            "streamlit",
+            "plotly"
+        ],
+        "port_scanner.py": [
+            "socket"
+        ],
+        "PREMIUM_ASCENSION.py": [
+            "os",
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser",
+            "os"
+        ],
+        "PREPARAR_DEPLOY.py": [
+            "os",
+            "datetime"
+        ],
+        "previdencia.py": [],
+        "PRICING_ENGINE.py": [
+            "sqlite3"
+        ],
+        "processar_interface.py": [],
+        "processar_modulo.py": [
+            "executar"
+        ],
+        "processar_pagamento.py": [
+            "processar_pagamento"
+        ],
+        "Processo.py": [],
+        "PRODUCT_TRANSLATION.py": [
+            "json",
+            "random"
+        ],
+        "PROGRAMACAO_AUTOMATICA.py": [],
+        "PROMOTE_LEADS.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "PROPOSAL_ENGINE.py": [
+            "sqlite3",
+            "datetime",
+            "Path"
+        ],
+        "PROPOSAL_GENERATOR.py": [
+            "sqlite3",
+            "os",
+            "datetime"
+        ],
+        "python LIVE_SOCKET_TOWER.py": [
+            "Flask",
+            "SocketIO",
+            "threading",
+            "random",
+            "time"
+        ],
+        "p_m_u.py": [
+            "dataclass",
+            "random",
+            "math",
+            "List"
+        ],
+        "QUALITY_GATE.py": [],
+        "QUANTUM_GOVERNANCE.py": [
+            "time",
+            "json",
+            "random",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "RADAR_COMERCIAL_IOTEC.py": [
+            "pandas"
+        ],
+        "REALITY_EXECUTION.py": [
+            "json",
+            "random",
+            "time",
+            "datetime"
+        ],
+        "REALTIME_EXECUTIVE.py": [
+            "os",
+            "json",
+            "Path",
+            "FastAPI",
+            "CORSMiddleware",
+            "json",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "REALTIME_SIGNAL.py": [
+            "Flask",
+            "jsonify",
+            "request",
+            "send_from_directory",
+            "os",
+            "json",
+            "threading",
+            "time",
+            "datetime"
+        ],
+        "REAL_ECOSYSTEM.py": [
+            "os",
+            "time"
+        ],
+        "REAL_LEAD_BRIDGE.py": [
+            "Flask",
+            "datetime",
+            "sqlite3",
+            "os"
+        ],
+        "REAL_TIME.py": [
+            "json",
+            "random",
+            "time",
+            "datetime"
+        ],
+        "REBUILD_VISIBLE_CORE.py": [
+            "Path",
+            "ast",
+            "shutil"
+        ],
+        "recomendacao_de_plano.py": [],
+        "recomendar_plano.py": [],
+        "registry_core.py": [
+            "json",
+            "Path"
+        ],
+        "reportlab.lib.pagesizes.py": [
+            "A4",
+            "canvas"
+        ],
+        "REPORT_ENGINE.py": [
+            "sqlite3",
+            "datetime",
+            "Path"
+        ],
+        "RESPOSTAS_INTELIGENTES.py": [],
+        "RESPOSTA_AUTOMTICA_BILNGUE.py": [
+            "detectar_idioma"
+        ],
+        "resposta_segura.py": [],
+        "RESUMO_EXECUTIVO.py": [],
+        "REVELATION_ENGINE.py": [
+            "time",
+            "json",
+            "random",
+            "threading",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "REVELATION_ENGINE_01.py": [
+            "time",
+            "json",
+            "random",
+            "threading",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "REVENUE_DISCOVERY_ENGINE.py": [
+            "json",
+            "defaultdict"
+        ],
+        "REVENUE_OPERATION_CENTER.py": [
+            "Flask",
+            "datetime",
+            "sqlite3",
+            "os"
+        ],
+        "REVENUE_READINESS_AUDIT.py": [
+            "os",
+            "json"
+        ],
+        "risco.py": [],
+        "ROCKBOOST_CENTRAL.py": [
+            "os",
+            "gc",
+            "time",
+            "json",
+            "psutil",
+            "threading",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_DOCKER.py": [
+            "Path",
+            "HTTPServer",
+            "SimpleHTTPRequestHandler"
+        ],
+        "ROCKBOOST_GOVERNANCE.py": [
+            "os",
+            "json",
+            "time",
+            "psutil",
+            "random",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_LIVE.py": [
+            "Path",
+            "http",
+            "socketserver",
+            "webbrowser"
+        ],
+        "ROCKBOOST_MEMORY.py": [
+            "os",
+            "gc",
+            "json",
+            "time",
+            "psutil",
+            "platform",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_ORBITAL.py": [
+            "gc",
+            "json",
+            "psutil",
+            "time",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_ORBITAL_.py": [
+            "os",
+            "gc",
+            "json",
+            "psutil",
+            "time",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_ORBITAL_ENGINE.py": [
+            "os",
+            "gc",
+            "json",
+            "psutil",
+            "time",
+            "Path",
+            "datetime"
+        ],
+        "ROCKBOOST_RECOVERY.py": [
+            "os",
+            "gc",
+            "time",
+            "json",
+            "psutil",
+            "subprocess",
+            "Path",
+            "datetime"
+        ],
+        "ROUTE_INSPECTOR.py": [
+            "re"
+        ],
+        "RUNTIME_GOVERNOR.py": [
+            "os",
+            "json",
+            "subprocess",
+            "threading",
+            "time",
+            "datetime"
+        ],
+        "run_iotec_safe.py": [
+            "runpy",
+            "sys"
+        ],
+        "SAFE_REPAIR_ENGINE.py": [
+            "ast",
+            "Path",
+            "shutil"
+        ],
+        "SALES_AUTOPILOT_ENGINE.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "SALES_BRAIN.py": [
+            "sqlite3"
+        ],
+        "SALES_COMMAND_CENTER.py": [
+            "sqlite3"
+        ],
+        "SALES_EXPERIENCE.py": [
+            "json",
+            "datetime"
+        ],
+        "SENTINEL_PRO.py": [
+            "sys",
+            "os",
+            "random",
+            "time",
+            "Counter",
+            "QTimer",
+            "QWebEngineView",
+            "folium",
+            "HeatMap"
+        ],
+        "SERVER.py": [
+            "FastAPI",
+            "BaseModel"
+        ],
+        "SHOW_DATABASE_TARGET.py": [],
+        "SHOW_NEW_LEAD_FUNCTION.py": [],
+        "SIGNAL_MAPPER.py": [
+            "os",
+            "re",
+            "json",
+            "requests",
+            "datetime"
+        ],
+        "simulador.py": [
+            "calcular_folha",
+            "calcular_rpps",
+            "avaliar_risco"
+        ],
+        "single_core_test.py": [
+            "time"
+        ],
+        "SISTEMA_DE_SEGURANCA_PUBLICA.py": [
+            "sys",
+            "os",
+            "random",
+            "time",
+            "Counter",
+            "Qt",
+            "QFont",
+            "QWebEngineView",
+            "folium",
+            "HeatMap"
+        ],
+        "SISTEMA_ESTRUTURADO_COM_VOZ.py": [
+            "os",
+            "json",
+            "random",
+            "datetime",
+            "pyttsx3"
+        ],
+        "SMART_CORE_EXPORT.py": [
+            "os",
+            "Counter"
+        ],
+        "SMART_PRICING.py": [
+            "sqlite3"
+        ],
+        "sonda_interna_de_integridade.py": [
+            "os",
+            "sys",
+            "json",
+            "time",
+            "socket",
+            "hashlib",
+            "platform",
+            "urllib",
+            "urllib",
+            "shutil",
+            "Path",
+            "datetime",
+            "psutil"
+        ],
+        "stability_core.py": [
+            "ast",
+            "Path",
+            "shutil"
+        ],
+        "STRATEGIC_CATALOG_ENGINE.py": [
+            "os",
+            "json",
+            "defaultdict"
+        ],
+        "STRATEGIC_READER.py": [
+            "json",
+            "os"
+        ],
+        "SUPERVISOR_DE_INTEGRIDADE.py": [
+            "Flask",
+            "CORS",
+            "requests",
+            "threading",
+            "time",
+            "datetime"
+        ],
+        "SYNC_MONETIZATION_TO_TOWER.py": [
+            "sqlite3",
+            "datetime"
+        ],
+        "syntax_repairer.py": [
+            "Path",
+            "re",
+            "shutil"
+        ],
+        "teste_injecao.py": [
+            "os",
+            "processar_interface"
+        ],
+        "TESTE_OPERACIONAL_COMPLETO.py": [
+            "IoTecOperationalCore"
+        ],
+        "TEST_ENTERPRISE.py": [
+            "requests"
+        ],
+        "test_lead.py": [
+            "requests"
+        ],
+        "TEST_OPERATION.py": [
+            "requests"
+        ],
+        "TITAN_ENGINE.py": [
+            "time",
+            "json",
+            "random",
+            "psutil",
+            "Path",
+            "datetime"
+        ],
+        "TOP_ASSETS_ENGINE.py": [
+            "json",
+            "os",
+            "datetime"
+        ],
+        "TORRE_DE_CONTROLE_OFICIAL.py": [
+            "dataclass",
+            "datetime",
+            "Optional"
+        ],
+        "TOWER_LIVE.py": [
+            "os",
+            "re",
+            "json",
+            "random",
+            "datetime"
+        ],
+        "UNIFY_COMMERCIAL_CORE.py": [
+            "os",
+            "sqlite3",
+            "datetime"
+        ],
+        "UNIVERSAL_RECEPTION_EMAIL.py": [],
+        "UPGRADE_B2B_PIPELINE.py": [
+            "sqlite3"
+        ],
+        "UPGRADE_LEADS_360.py": [
+            "sqlite3"
+        ],
+        "UPGRADE_PIPELINE_STATUS.py": [
+            "sqlite3"
+        ],
+        "URBANISMO_SISTMICO.py": [
+            "os",
+            "shutil",
+            "hashlib",
+            "json",
+            "datetime",
+            "Flask"
+        ],
+        "validar_dossie.py": [],
+        "validar_servico.py": [],
+        "ValuationEngine.py": [],
+        "VERIFICADOR_AUTOMATICO_DE_PORTAS.py": [
+            "socket"
+        ],
+        "verificar_produto.py": [],
+        "VERIFY_REAL_CORE.py": [
+            "os",
+            "defaultdict"
+        ],
+        "VISUALIZADOR_ESTRATGICO.py": [
+            "os",
+            "json",
+            "datetime",
+            "defaultdict"
+        ],
+        "VISUAL_OPERATIONS_CENTER.py": [
+            "Flask",
+            "CORS"
+        ],
+        "VISUAL_PROGRAMMING_CURATOR.py": [
+            "Flask",
+            "jsonify",
+            "request",
+            "send_from_directory",
+            "os",
+            "json",
+            "threading",
+            "time",
+            "datetime"
+        ],
+        "20260512_183920_Iotec_Spine_Core.py": [
+            "uuid",
+            "json",
+            "os",
+            "shutil",
+            "time",
+            "datetime"
+        ],
+        "LIVE_SOCKET_TOWER_20260530_205639.py": [
+            "os",
+            "json",
+            "random",
+            "threading",
+            "time",
+            "datetime",
+            "Flask",
+            "SocketIO"
+        ],
+        "LIVE_SOCKET_TOWER_20260530_205219.py": [
+            "os",
+            "json",
+            "random",
+            "threading",
+            "time",
+            "datetime",
+            "Flask",
+            "SocketIO"
+        ],
+        "iotec_cockpit_pleno.py": [
+            "json",
+            "shutil",
+            "datetime",
+            "Path",
+            "Flask"
+        ],
+        "iotec_cockpit_pleno_v2.py": [
+            "json",
+            "shutil",
+            "webbrowser",
+            "datetime",
+            "Path",
+            "Timer",
+            "Flask"
+        ],
+        "advisor.py": [],
+        "alignment.py": [],
+        "coletor_email.py": [
+            "imaplib",
+            "email",
+            "json",
+            "os",
+            "datetime"
+        ],
+        "command_center.py": [],
+        "concierge.py": [],
+        "experience.py": [],
+        "governance.py": [
+            "os",
+            "shutil",
+            "datetime"
+        ],
+        "midas.py": [],
+        "module.py": [
+            "uuid",
+            "datetime"
+        ],
+        "motor_producao.py": [
+            "json",
+            "os",
+            "datetime"
+        ],
+        "nucleo_loop.py": [
+            "time",
+            "subprocess"
+        ],
+        "orquestrador.py": [
+            "json",
+            "os"
+        ],
+        "painel_vivo.py": [
+            "time",
+            "json",
+            "os"
+        ],
+        "perception.py": [],
+        "persistence.py": [
+            "json"
+        ],
+        "prospection.py": [],
+        "registry.py": [],
+        "revenue.py": [
+            "datetime"
+        ],
+        "visible_core_api.py": [
+            "annotations",
+            "json",
+            "sys",
+            "BaseHTTPRequestHandler",
+            "Path",
+            "urlparse",
+            "load_json",
+            "SuperIllusionVisibleCore"
+        ],
+        "iotec_nucleus.py": [
+            "annotations",
+            "argparse",
+            "importlib",
+            "json",
+            "subprocess",
+            "sys",
+            "dataclass",
+            "Path",
+            "Any"
+        ],
+        "visible_core_router.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "full_test.py": [
+            "subprocess",
+            "sys"
+        ],
+        "run_demo_cycle.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "default_demo_cycle"
+        ],
+        "seal_guard.py": [
+            "json",
+            "hashlib",
+            "Path",
+            "datetime",
+            "sys"
+        ],
+        "adapter_erp_cliente.py": [
+            "annotations",
+            "json",
+            "Path",
+            "Any"
+        ],
+        "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py": [
+            "os",
+            "re",
+            "sys",
+            "json",
+            "html",
+            "time",
+            "shutil",
+            "socket",
+            "logging",
+            "datetime",
+            "subprocess",
+            "importlib",
+            "Path",
+            "List",
+            "Flask",
+            "qrcode"
+        ],
+        "visible_core_router.AUTO_BACKUP.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "visible_core_router.backup.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "visible_core_router.PREPARSER_BACKUP.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "visible_core_router.rebuild_backup.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "visible_core_router.SAFE_BACKUP.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "visible_core_router.STRUCTURE_BACKUP.py": [
+            "annotations",
+            "json",
+            "sys",
+            "Path",
+            "Any",
+            "MinerNucleus",
+            "CorporateNucleus",
+            "VisualNucleus",
+            "IntegrationNucleus",
+            "ValidationNucleus",
+            "TelemetryNucleus"
+        ],
+        "dossie.py": [
+            "os"
+        ],
+        "pagamentos.py": [],
+        "enviar_email.py": [
+            "smtplib",
+            "MIMEText"
+        ],
+        "NOVO_PEDIDO_IOTEC.py": [],
+        "BACKUPS.AUTOMATIZADOS.py": [],
+        "helpers.py": [
+            "annotations",
+            "json",
+            "math",
+            "os",
+            "shutil",
+            "traceback",
+            "datetime",
+            "Path",
+            "Any"
+        ],
+        "corporate_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any",
+            "save_json"
+        ],
+        "integration_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any",
+            "save_json"
+        ],
+        "telemetry_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any",
+            "save_json"
+        ],
+        "validation_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any",
+            "save_json"
+        ],
+        "visual_nucleus.py": [
+            "annotations",
+            "Path",
+            "Any",
+            "save_json"
+        ],
+        "dashboard_engine.py": [
+            "logging"
+        ],
+        "demoserver.py": [
+            "print_function",
+            "json",
+            "socket",
+            "sys",
+            "threading",
+            "socketserver",
+            "SocketServer"
+        ],
+        "FastAPI.py": [
+            "FastAPI",
+            "BaseModel",
+            "random",
+            "uvicorn"
+        ],
+        "server.py": [
+            "Flask",
+            "SocketIO",
+            "threading"
+        ],
+        "Chakras.Financeiros.py": [],
+        "financeiro_empresa.py": [],
+        "IOTEC_AUDITOR_PAYPAL.py": [
+            "json",
+            "socket",
+            "datetime",
+            "Path",
+            "requests"
+        ],
+        "modulo.financeiro.py": [],
+        "RESILIENCIA.FINANCEIRA.py": [],
+        "static_client.html.py": [],
+        "static_dashboard.html.py": [],
+        "0982XZ.py": [],
+        "50000.py": [],
+        "900.py": [],
+        "Acesso.py": [
+            "tkinter",
+            "messagebox",
+            "time"
+        ],
+        "Acesso_Neocomplex.py": [
+            "os"
+        ],
+        "ACTION.py": [],
+        "activate.py": [],
+        "ADICIONADO.py": [],
+        "ALDEIA.DA.TERRA.py": [],
+        "Alerta.Fiscal.py": [],
+        "Ambu.py": [
+            "datetime",
+            "dataclass"
+        ],
+        "Analisar.os.blocos.py": [
+            "re"
+        ],
+        "Anlise.tributria.py": [],
+        "anomalias.py": [
+            "pandas",
+            "IsolationForest"
+        ],
+        "Architecture.Module.py": [
+            "json"
+        ],
+        "Arquitetura_sugerida.py": [],
+        "asmita.key.py": [],
+        "asmitacore.py": [],
+        "ATIVAO.py": [
+            "datetime",
+            "json"
+        ],
+        "AUTENTICAO.FINAL.py": [],
+        "AUTENTICAO.SUPREMA.py": [],
+        "Autoanlise.py": [],
+        "auto_execucao.py": [
+            "os",
+            "subprocess"
+        ],
+        "Banco.de.Dados.de.Credenciais.py": [],
+        "BeautifulSoup.py": [
+            "requests",
+            "BeautifulSoup"
+        ],
+        "Biblioteca.Matricial.py": [],
+        "biblioteca.nacional.py": [],
+        "Blocos.py": [],
+        "Blueprint.py": [],
+        "bot.py": [],
+        "CAMADA_01.py": [],
+        "Captao.Multinvel.py": [],
+        "CAPTAR.dados.py": [],
+        "CardContent.py": [],
+        "CARREGAR.interface.py": [],
+        "CARTO.MESTRE.VK.DNA.py": [],
+        "Cdigo.001.py": [
+            "sys"
+        ],
+        "Cdigo.de.Domnio.e.Apropriao.py": [],
+        "Cdigo.VK.CLOUD.004.py": [],
+        "Cdigo.VK.DEF.006.py": [],
+        "Cdigo.VK.FIN.003.py": [],
+        "Cdigo.VK.py": [],
+        "CDIGO_MATRIZ.py": [],
+        "chave.de.integracao.py": [],
+        "class.Ambu.Guard.py": [],
+        "class.Asmita.Guardian.py": [],
+        "class.Assistente.IO.py": [],
+        "class.Complexo.py": [
+            "json"
+        ],
+        "class.Modulo.py": [],
+        "class.Omega.AWS.py": [
+            "boto3",
+            "os"
+        ],
+        "class.Omega.Permissao.py": [],
+        "classificar_conteudo_e_textos.py": [
+            "pipeline",
+            "pandas"
+        ],
+        "COD.JAG.TI.FIN.py": [],
+        "Cognitivo.Karenage.py": [
+            "os",
+            "time",
+            "json",
+            "pandas",
+            "openai",
+            "datetime"
+        ],
+        "Comando.de.Voz.py": [
+            "React"
+        ],
+        "comando.entrada.py": [],
+        "Como.usar.interface.no.Firebase.py": [],
+        "COMPLEXO.DIGITAL.GLOBAL.py": [],
+        "Complexo.Nucleo.py": [],
+        "complexo_digital.py": [
+            "os",
+            "flask",
+            "Flask"
+        ],
+        "Complexo_IO_Ncleo.de.dados.py": [],
+        "components.py": [],
+        "COMPORTAMENTO_DO_ASSISTENTE.py": [],
+        "CONFORMIDADE.py": [],
+        "contador.py": [],
+        "container.isolado.py": [],
+        "contratado.py": [],
+        "Controle.Central.py": [],
+        "CONTROLE.DINMICO.py": [
+            "React"
+        ],
+        "core_ai_engine.py": [
+            "logging"
+        ],
+        "d5f3c831.py": [
+            "hashlib"
+        ],
+        "Dados.Estratgicos.py": [],
+        "database.py": [
+            "sqlite3"
+        ],
+        "data_harvester.py": [
+            "logging"
+        ],
+        "date.time.py": [
+            "datetime",
+            "time"
+        ],
+        "datetime.datetime.now.py": [
+            "datetime",
+            "json"
+        ],
+        "datetime.py": [
+            "os",
+            "time",
+            "json",
+            "pandas",
+            "openai",
+            "datetime",
+            "json",
+            "datetime"
+        ],
+        "def.activate.py": [],
+        "def.deploy.py": [],
+        "def.trigger.py": [],
+        "destinatario.py": [],
+        "Digital_Exam_App.py": [],
+        "diretor.py": [],
+        "DOCTYPE.py": [],
+        "documentos.mestre.py": [],
+        "Emergency.Layout.jsx.py": [],
+        "Empacotador.py": [],
+        "engines.py": [],
+        "entidade.responsiva.py": [],
+        "Entrada_no_Sistema.py": [],
+        "EQUIP.ORG.py": [],
+        "Escanear.py": [],
+        "esqueleto.py": [
+            "React"
+        ],
+        "estrategia_mercado.py": [
+            "numpy",
+            "networkx",
+            "minimize",
+            "KMeans"
+        ],
+        "Estrutura.py": [],
+        "falha.py": [],
+        "FAQ__.py": [],
+        "faturamento.py": [],
+        "firewall.py": [],
+        "flask.py": [],
+        "fluxo_atendimento.py": [
+            "logging"
+        ],
+        "from.core.py": [
+            "start_chat",
+            "WixSEOManager",
+            "DomainManager",
+            "LogAnalyzer",
+            "ProjectGenerator"
+        ],
+        "from.docx.import.py": [
+            "os",
+            "Document"
+        ],
+        "Funo.de.Minerao.Simulada.py": [
+            "speech_recognition",
+            "schedule",
+            "time",
+            "random"
+        ],
+        "futurista.py": [],
+        "generate.py": [],
+        "Guardiao.PAI.py": [
+            "time",
+            "GuardiaoPAI"
+        ],
+        "GV16.py": [],
+        "Hermes.py": [],
+        "ID.py": [],
+        "import.datetime.py": [
+            "os",
+            "shutil",
+            "datetime",
+            "zipfile"
+        ],
+        "import.requests.py": [
+            "speech_recognition",
+            "requests"
+        ],
+        "import.speech.py": [
+            "speech_recognition",
+            "os"
+        ],
+        "imposto.py": [],
+        "income_engine.py": [
+            "logging"
+        ],
+        "INICIAR_COMPLEXO_DIGITAL.py": [],
+        "INICIO.CARTAO.MESTRE.VK.py": [],
+        "init.py": [],
+        "initiate.py": [],
+        "input.py": [],
+        "Inteligncia.de.Sobrevivncia.03.py": [],
+        "interpretar.py": [],
+        "Investimento.alto.py": [],
+        "invocar.hashirama.py": [],
+        "IO..py": [],
+        "IO.Abelha.py": [
+            "React"
+        ],
+        "IO.classifica.py": [],
+        "IO.py": [],
+        "IOTEC_DUAL_EXPERIENCE.py": [
+            "os",
+            "json"
+        ],
+        "IOTEC_GLOBAL_SHOPPING_PLATFORM.py": [
+            "Flask",
+            "os"
+        ],
+        "JAGUAR.py": [
+            "Flask"
+        ],
+        "jaguar.py.servidor.py": [
+            "Flask",
+            "SocketIO"
+        ],
+        "JGR.py": [],
+        "KYC.py": [],
+        "ler.py": [],
+        "lucro.01.py": [],
+        "MALWARE.py": [],
+        "manifesto.entradas.py": [],
+        "Mapa.Digital.Multicamadas.py": [],
+        "mares.de.dados.py": [],
+        "margin.py": [],
+        "Martim.Voador.py": [
+            "random",
+            "time"
+        ],
+        "Minerador.Digital.py": [
+            "random",
+            "datetime"
+        ],
+        "minerao.digital.py": [],
+        "MODO.EXPANSO.ATIVO.py": [],
+        "Modo.Sabio.py.py": [
+            "pandas",
+            "matplotlib",
+            "seaborn",
+            "IsolationForest",
+            "datetime"
+        ],
+        "MODULO.ALDEIA.DO.AR.py": [],
+        "monitoramento.py": [
+            "os",
+            "json",
+            "time"
+        ],
+        "Movimentao.Atpica.py": [],
+        "ms.py": [],
+        "Ncleo.IA.VIVA.py": [
+            "os",
+            "time",
+            "datetime"
+        ],
+        "Neo_CompleX_Nova_Ia_Pasta_Mestre.py": [
+            "os"
+        ],
+        "Neo_CompleX_Nova_Ia_Placa_Mae.py": [],
+        "Neo_System_Core.py": [
+            "os"
+        ],
+        "node_connector.py": [
+            "logging"
+        ],
+        "NSC.420X.py": [
+            "datetime",
+            "random",
+            "getpass"
+        ],
+        "Omega.py": [],
+        "OmegaPy.py": [],
+        "ON.OFF.py": [],
+        "organismo.py": [],
+        "organizador.py": [
+            "os",
+            "shutil"
+        ],
+        "OTIMISMO.ALGORITMICO.py": [],
+        "painel.clicvel.py": [],
+        "Painel.replicador.py": [],
+        "PARAMETRIZVEIS.01.py": [
+            "datetime"
+        ],
+        "PARAMETRIZVEIS.py": [
+            "datetime"
+        ],
+        "parametros.design.py": [],
+        "Permissao.Necessaria.py": [],
+        "pipplowd.py": [
+            "os",
+            "time",
+            "pandas",
+            "matplotlib"
+        ],
+        "Placa_Me.py": [],
+        "Plano.bsico.py": [],
+        "platform.system.py": [
+            "psutil",
+            "platform",
+            "datetime",
+            "socket"
+        ],
+        "Ponte.Multiverso.py": [],
+        "portal_visual_iotec.py": [
+            "Flask"
+        ],
+        "PRESTAO.py": [],
+        "print.py": [],
+        "PROCEDURE.py": [],
+        "PROTOCOLO.ASMITA.py": [],
+        "PROTOCOLO.ENCERRADO.COM_SUCESSO.py": [],
+        "Protocolo.Sigma.py": [],
+        "psutil.py": [
+            "sys",
+            "psutil",
+            "QTimer",
+            "QFont",
+            "os"
+        ],
+        "PyPDF2.py": [
+            "os",
+            "pandas",
+            "PdfReader"
+        ],
+        "PyQt6.py": [],
+        "pyt.py": [],
+        "python.painel.jaguar.py": [],
+        "python.painel.py": [],
+        "python.painel_web.py": [],
+        "QApplication.py": [
+            "sys",
+            "QApplication",
+            "QFont",
+            "Qt",
+            "webbrowser"
+        ],
+        "ranking_iotec.py": [
+            "os",
+            "json",
+            "Path",
+            "datetime"
+        ],
+        "readonly.py": [],
+        "Realizado.py": [],
+        "Registro_Oficial_de_Gratido__Farabulini_Lopes_Saraiva.py": [],
+        "reinvestimento.py": [],
+        "REJ.py": [],
+        "relatorio.diario.py": [],
+        "REMOVE.py": [],
+        "replicador.py": [
+            "os",
+            "shutil",
+            "uuid",
+            "datetime"
+        ],
+        "reservatorios.py": [],
+        "Reservatrio.Operacional.py": [],
+        "return.py": [],
+        "risco.detectado.py": [],
+        "saldo.py": [],
+        "scraper.py": [
+            "scrapy"
+        ],
+        "SE.py": [],
+        "security_hub.py": [
+            "logging"
+        ],
+        "self.nome.py": [],
+        "self.portas.py": [],
+        "self.tipo.py": [],
+        "Sensoriamento.Vibracional.py": [],
+        "seo..py": [
+            "requests"
+        ],
+        "shutil.py": [
+            "os",
+            "shutil"
+        ],
+        "sigma.py": [],
+        "SISTEMA.DESLIGADO.py": [],
+        "Sistema.VK.PAI.py": [],
+        "SistemaIntegrado.py": [],
+        "sistema_autonomo.py": [
+            "time",
+            "logging"
+        ],
+        "sistema_central.py": [],
+        "SISTEMA_DECLARA.py": [],
+        "Specter.Fortress.py": [
+            "os",
+            "socket",
+            "requests",
+            "threading",
+            "Fernet",
+            "Signal",
+            "Controller"
+        ],
+        "sqlalchemy.import.py": [
+            "create_engine",
+            "sessionmaker"
+        ],
+        "start.ignition.py": [],
+        "STATUS.py": [],
+        "Stripe.py": [],
+        "SUA.SENHA.py": [
+            "imaplib",
+            "email",
+            "decode_header"
+        ],
+        "subprocess.py": [
+            "os",
+            "subprocess"
+        ],
+        "sucesso.py": [],
+        "sys.py": [
+            "sys",
+            "psutil",
+            "QTimer",
+            "QFont"
+        ],
+        "system.py": [],
+        "SystemCore.py": [],
+        "tarefas.py": [],
+        "tecla.especial.py": [],
+        "Teclado.Mutante.Jaguar.py": [
+            "os",
+            "shutil",
+            "uuid",
+            "datetime"
+        ],
+        "tipo_dados.py": [],
+        "tk.py": [
+            "hashlib",
+            "tkinter",
+            "messagebox"
+        ],
+        "TOKEN.py": [
+            "requests"
+        ],
+        "Topo.do.Sistema.py": [],
+        "Torre.Inteligente.py": [
+            "Flask",
+            "os",
+            "shutil",
+            "datetime"
+        ],
+        "tradutor.py": [
+            "Translator"
+        ],
+        "tradutor_deepl.py": [
+            "deepl"
+        ],
+        "transferncia.py": [],
+        "True.py": [
+            "imaplib",
+            "email",
+            "decode_header",
+            "os",
+            "datetime"
+        ],
+        "useEffect.py": [
+            "React"
+        ],
+        "Validador.Modular.py": [],
+        "validar_fo.py": [],
+        "VK.CLOUD.py": [],
+        "VK.PAI.py": [],
+        "vortice.py": [],
+        "webbrowser.py": [
+            "os",
+            "time",
+            "webbrowser",
+            "traceback"
+        ],
+        "yagmail.py": [
+            "hashlib"
+        ],
+        "[Power ON].py": [],
+        "_.py": [],
+        "_main.py": [
+            "Consciencia",
+            "Varredura",
+            "Executor",
+            "Relatorio"
+        ],
+        "_modulo_consciencia.py": [],
+        "_modulo_relatorios.py": [],
+        "_modulo_varredura.py": [
+            "os"
+        ],
+        "__modulo_acao.py": []
+    }
+}

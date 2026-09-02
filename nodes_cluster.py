@@ -1,107 +1,83 @@
-﻿import sys
 
-try:
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-except Exception:
-    pass
 import socket
+import threading
 import time
 import sys
-import threading
-from pathlib import Path
-
-NODE_ID = sys.argv[1] if len(sys.argv) > 1 else "UNKNOWN"
 
 HOST = "127.0.0.1"
-PORT = 6000
+PORT = 5001
 
-LOG_FILE = Path("cluster_logs.txt")
+NODE_ID = "UNKNOWN"
 
+if len(sys.argv) > 1:
+    NODE_ID = sys.argv[1]
 
-# =========================
-# CENTRAL LOGGER
-# =========================
-def log(msg):
-    pass
-
-    line = f"[{NODE_ID}] {msg}"
-
-    print(line)
-
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
+print("\n==============================")
+print(f"NODE {NODE_ID} INICIADO")
+print("==============================\n")
 
 
 # =========================
-# HEARTBEAT
+# HEARTBEAT LOOP
 # =========================
-def heartbeat():
+
+def heartbeat_loop():
     pass
 
     while True:
         pass
 
         try:
-            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            pass
 
-            sock.connect((HOST, PORT))
+            client = socket.socket(
+                socket.AF_INET,
+                socket.SOCK_STREAM
+            )
 
-            msg = f"{NODE_ID}:alive:{time.time()}"
+            client.connect((HOST, PORT))
 
-            sock.send(msg.encode())
+            payload = f"{NODE_ID}:heartbeat"
 
-            sock.close()
+            client.send(payload.encode())
 
-            log("heartbeat enviado")
+            print(f"[{NODE_ID}] heartbeat enviado")
+
+            client.close()
 
         except Exception as e:
             pass
 
-            log(f"falha heartbeat: {e}")
+            print(f"[{NODE_ID}] erro heartbeat: {e}")
 
         time.sleep(2)
 
 
 # =========================
-# WORK LOOP
+# TASK LOOP
 # =========================
-def work():
+
+def task_loop():
     pass
 
     while True:
         pass
 
-        log("executando tarefa")
+        print(f"[{NODE_ID}] executando tarefa")
 
         time.sleep(3)
 
 
-# =========================
-# START
-# =========================
-if __name__ == "__main__":
-    pass
+threading.Thread(
+    target=heartbeat_loop,
+    daemon=True
+).start()
 
-    print("\n==============================")
-    print(f"NODE {NODE_ID} INICIADO")
-    print("==============================\n")
-
-    log("node online")
-
-    threading.Thread(
-        target=heartbeat,
-        daemon=True
-    ).start()
-
-    threading.Thread(
-        target=work,
-        daemon=True
-    ).start()
-
-    while True:
-        time.sleep(1)
+threading.Thread(
+    target=task_loop,
+    daemon=True
+).start()
 
 
-
-
+while True:
+    time.sleep(1)

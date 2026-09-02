@@ -1,0 +1,556 @@
+{
+    "entidades": [
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "cnpj",
+                "cidade"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "cnpj"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "cnpj"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "whatsapp",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "cnpj",
+                "cidade",
+                "site"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "estado",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "IBEX_clients.json",
+            "campos_encontrados": [
+                "empresa",
+                "email"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "segmento"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "segmento"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "contrato.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "ficha.json",
+            "campos_encontrados": [
+                "empresa",
+                "email",
+                "segmento"
+            ],
+            "campos_faltantes": [
+                "cliente",
+                "telefone",
+                "whatsapp",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "campos_encontrados": [
+                "empresa",
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "campos_encontrados": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ],
+            "campos_faltantes": [
+                "empresa",
+                "telefone",
+                "cnpj",
+                "cidade",
+                "estado",
+                "site",
+                "segmento"
+            ]
+        }
+    ],
+    "faltantes": {
+        "cliente": 7,
+        "telefone": 31,
+        "whatsapp": 8,
+        "estado": 31,
+        "site": 30,
+        "segmento": 28,
+        "cidade": 29,
+        "cnpj": 27,
+        "empresa": 14
+    },
+    "estatisticas": {
+        "total_entidades": 31,
+        "top_faltantes": {
+            "telefone": 31,
+            "estado": 31,
+            "site": 30,
+            "cidade": 29,
+            "segmento": 28,
+            "cnpj": 27,
+            "empresa": 14,
+            "whatsapp": 8,
+            "cliente": 7
+        }
+    }
+}

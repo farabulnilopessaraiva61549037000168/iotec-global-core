@@ -1,0 +1,104 @@
+{
+    "visitas": [
+        {
+            "data": "2026-06-18 16:13:47.188929",
+            "pagina": "HOME",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:14:11.597954",
+            "pagina": "HOME",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:14:11.913948",
+            "pagina": "HOME",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:14:29.771284",
+            "pagina": "HOME",
+            "origem": "PORTAL"
+        }
+    ],
+    "formularios": [
+        {
+            "data": "2026-06-18 16:20:38.087587",
+            "pagina": "DIAGNOSTICO_ESTIAGEM",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:21:43.944582",
+            "pagina": "DIAGNOSTICO_ESTIAGEM",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:21:44.163168",
+            "pagina": "DIAGNOSTICO_ESTIAGEM",
+            "origem": "PORTAL"
+        }
+    ],
+    "leads": [
+        {
+            "data": "2026-06-18 16:21:23.460441",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "origem": "PORTAL"
+        },
+        {
+            "data": "2026-06-18 16:21:44.355845",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "origem": "PORTAL"
+        }
+    ],
+    "propostas": [
+        {
+            "data": "2026-06-19 08:31:42.722470",
+            "cliente": "LEAD_PORTAL",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "valor": 8900,
+            "status": "ENVIADA"
+        },
+        {
+            "data": "2026-06-19 09:35:07.347390",
+            "cliente": "LEAD_PORTAL",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "valor": 8900,
+            "status": "ENVIADA"
+        },
+        {
+            "data": "2026-06-19 09:37:29.148028",
+            "cliente": "LEAD_PORTAL",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "valor": 8900,
+            "status": "ENVIADA"
+        }
+    ],
+    "contratos": [
+        {
+            "data": "2026-06-19 09:36:32.866004",
+            "cliente": "LEAD_PORTAL",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "valor": 8900,
+            "status": "ASSINADO"
+        },
+        {
+            "data": "2026-06-19 09:37:29.469960",
+            "cliente": "LEAD_PORTAL",
+            "produto": "PLANO_DE_CONTINGENCIA",
+            "valor": 8900,
+            "status": "ASSINADO"
+        }
+    ],
+    "receita": [
+        {
+            "data": "2026-06-19 09:37:10.965194",
+            "cliente": "LEAD_PORTAL",
+            "valor": 8900
+        },
+        {
+            "data": "2026-06-19 09:37:29.926575",
+            "cliente": "LEAD_PORTAL",
+            "valor": 8900
+        }
+    ]
+}

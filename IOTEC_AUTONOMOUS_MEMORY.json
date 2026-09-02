@@ -1,0 +1,30 @@
+[
+    {
+        "SISTEMA": "IOTEC DIGITAL STORM AUTONOMOUS ADVISOR V6.0",
+        "DATA": "2026-07-08 08:07:02.878297",
+        "DADOS": {
+            "mercado": 50,
+            "clientes": 46,
+            "seguranca": 35,
+            "tecnologia": 62,
+            "financeiro": 92,
+            "projetos": 60,
+            "operacao": 5
+        },
+        "INDICES": {
+            "oportunidade": 59.9,
+            "risco": 56.9
+        },
+        "DECISÃO": {
+            "prioridade": "MÉDIA",
+            "recomendações": [
+                "Mercado necessita monitoramento",
+                "Base comercial saudável",
+                "Prioridade: fortalecer segurança digital",
+                "Saúde financeira aceitável",
+                "Tecnologia em nível adequado",
+                "Pipeline de projetos moderado"
+            ]
+        }
+    }
+]

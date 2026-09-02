@@ -1,0 +1,74 @@
+{
+  "doutrina_relatorio": {
+    "objetivo": "Registrar falhas com clareza tecnica, didatica e orientacao de recuperacao rapida.",
+    "prioridade_geral": "Modulos que criam ou sustentam receita possuem prioridade maxima."
+  },
+  "estrutura": [
+    {
+      "item": 1,
+      "nome": "Identificacao da ocorrencia",
+      "explicacao": "ID da falha, horario, modulo, produto, setor e contexto.",
+      "aprofundamento": "Registrar origem, recorrencia, dependencia e cadeia afetada."
+    },
+    {
+      "item": 2,
+      "nome": "Descricao objetiva do problema",
+      "explicacao": "Explicar o que falhou em linguagem clara.",
+      "aprofundamento": "Comparar comportamento esperado x comportamento real."
+    },
+    {
+      "item": 3,
+      "nome": "Impacto operacional",
+      "explicacao": "Medir impacto tecnico, comercial e financeiro.",
+      "aprofundamento": "Avaliar propagacao, perda de receita e risco sistêmico."
+    },
+    {
+      "item": 4,
+      "nome": "Causa provavel ou detectada",
+      "explicacao": "Indicar causa confirmada ou hipotese dominante.",
+      "aprofundamento": "Separar causa confirmada, provavel e em investigacao."
+    },
+    {
+      "item": 5,
+      "nome": "Acao automatica tentada pelo nucleo",
+      "explicacao": "Informar o que o sistema tentou fazer sozinho.",
+      "aprofundamento": "Mostrar se houve contencao, correcao parcial ou falha da autocorrecao."
+    },
+    {
+      "item": 6,
+      "nome": "Status atual",
+      "explicacao": "Informar se esta resolvido, em observacao ou escalado.",
+      "aprofundamento": "Avaliar estabilidade residual e risco de repeticao."
+    },
+    {
+      "item": 7,
+      "nome": "Prioridade de resposta",
+      "explicacao": "Classificar urgencia de resposta.",
+      "aprofundamento": "Justificar prioridade conforme proximidade da receita e operacao."
+    },
+    {
+      "item": 8,
+      "nome": "Sugestao de solucao imediata",
+      "explicacao": "Acao emergencial para reduzir dano.",
+      "aprofundamento": "Priorizar restauracao de rota, gateway ou modulo critico."
+    },
+    {
+      "item": 9,
+      "nome": "Sugestao de solucao corretiva",
+      "explicacao": "Acao para corrigir a falha raiz.",
+      "aprofundamento": "Remover causa tecnica identificada."
+    },
+    {
+      "item": 10,
+      "nome": "Sugestao de solucao preventiva",
+      "explicacao": "Acao para evitar repeticao.",
+      "aprofundamento": "Criar monitoramento, barramento ou validacao extra."
+    },
+    {
+      "item": 11,
+      "nome": "Sugestao de solucao estrutural",
+      "explicacao": "Acao de longo prazo para fortalecer o ecossistema.",
+      "aprofundamento": "Saneamento, consolidacao ou redesenho arquitetural."
+    }
+  ]
+}

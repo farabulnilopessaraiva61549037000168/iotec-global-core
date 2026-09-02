@@ -1,0 +1,71 @@
+{
+    "generated": "2026-06-07 16:21:10.792173",
+    "clusters": [
+        {
+            "cluster": "AUDITORIA_OPERACIONAL",
+            "assets_count": 31,
+            "assets": [
+                "Auditoria_Nucleo_20260216_225439.json",
+                "Auditoria_e_Sabatina_Inteligente.json",
+                "INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+                "NÚCLEO_DE_AUDITORIA_AVANÇADO_VERSÃO_ULTRA_SUPER.json",
+                "NÚCLEO_DE_AUDITORIA__VERSÃO_FINAL_DEFINITIVA.json",
+                "auditoria_20251130_180545.json",
+                "auditoria_diagnostica.json",
+                "auditoria_estrategica.py",
+                "auditoria_forense_iotec.json",
+                "auditoria_nucleo.py",
+                "auditoria_projac.json",
+                "auditoria_projac_v2.json",
+                "auditoria_regulus_20251126_180505.json",
+                "auditoria_regulus_20251201_155731.json",
+                "auditoria_regulus_20251201_155732.json",
+                "auditoria_regulus_report.json",
+                "auditoria_report.json",
+                "auditoria_sistema.json",
+                "auditoria_total_iotec.json",
+                "painel_auditoria.json",
+                "relatorio_auditoria.json",
+                "relatorio_auditoria_regulus.json",
+                "relatorio_auditoria_valor.json",
+                "relatorio_auditoria_valor_avancada.json",
+                "reparado_auditoria_diagnostica.json",
+                "reparado_auditoria_regulus_report.json",
+                "reparado_auditoria_sistema.json",
+                "reparado_relatorio_auditoria_regulus.json",
+                "reparado_relatorio_auditoria_valor.json",
+                "reparado_relatorio_auditoria_valor_avancada.json",
+                "reportagem_auditoria_v3_2026-03-29_22-20-36.json"
+            ]
+        },
+        {
+            "cluster": "AUDITORIA_FINANCEIRA",
+            "assets_count": 7,
+            "assets": [
+                "AUDITORIA_FLUXO_PAYPAL.json",
+                "ECONOMIC_AUDIT_ENGINE.py",
+                "ECONOMIC_AUDIT_REPORT.json",
+                "ECONOMIC_INTELLIGENCE.py",
+                "REVENUE_INTELLIGENCE_MAP.json",
+                "REVENUE_READINESS_AUDIT.py",
+                "auditoria_controladoria.json"
+            ]
+        },
+        {
+            "cluster": "IA_COMERCIAL",
+            "assets_count": 3,
+            "assets": [
+                "APPROVE_PROPOSAL.py",
+                "AUTONOMOUS_LEAD.py",
+                "SALES_BRAIN.py"
+            ]
+        },
+        {
+            "cluster": "INTELIGENCIA_EXECUTIVA",
+            "assets_count": 1,
+            "assets": [
+                "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py"
+            ]
+        }
+    ]
+}

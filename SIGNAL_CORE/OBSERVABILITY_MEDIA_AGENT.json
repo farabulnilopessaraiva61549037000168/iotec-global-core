@@ -1,0 +1,9 @@
+﻿{
+    "agent": "OBSERVABILITY_MEDIA_AGENT",
+    "status": "ACTIVE",
+    "tower_sync": true,
+    "continuous_programming": true,
+    "frequency_alignment": true,
+    "visual_signal": "ONLINE",
+    "created_at": "05/30/2026 17:55:49"
+}

@@ -1,0 +1,32 @@
+{
+    "analitico": {
+        "status": "online",
+        "peso": "pesado",
+        "camada": "estrategica",
+        "descricao": "Consciencia sistemica"
+    },
+    "operante": {
+        "status": "online",
+        "peso": "pesado",
+        "camada": "operacional",
+        "descricao": "Operacao continua"
+    },
+    "ia": {
+        "status": "online",
+        "peso": "medio",
+        "camada": "inteligencia",
+        "descricao": "Processamento inteligente"
+    },
+    "dashboard": {
+        "status": "online",
+        "peso": "leve",
+        "camada": "controle",
+        "descricao": "Visualizacao central"
+    },
+    "automacao": {
+        "status": "online",
+        "peso": "pesado",
+        "camada": "infraestrutura",
+        "descricao": "Automacoes e gatilhos"
+    }
+}

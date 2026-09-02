@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "kind": "telemetry",
+  "objective": "Observar saúde da constelação interna",
+  "compressed_complexity": 1.612784,
+  "observed_at": "2026-04-18T10:25:42",
+  "health": "stable",
+  "alerts": [],
+  "distribution": {
+    "visible_core": "low",
+    "miner": "medium",
+    "corporate": "medium",
+    "visual": "medium",
+    "integration": "low"
+  }
+}

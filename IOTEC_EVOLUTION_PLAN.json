@@ -1,0 +1,40 @@
+{
+    "generated_at": "2026-07-16T20:02:50.120196",
+    "plano": [
+        {
+            "prioridade": "ESTÃVEL",
+            "Ã¡rea": "Conhecimento",
+            "aÃ§Ã£o": "Manter evoluÃ§Ã£o"
+        },
+        {
+            "prioridade": "ESTÃVEL",
+            "Ã¡rea": "Arquitetura",
+            "aÃ§Ã£o": "Manter evoluÃ§Ã£o"
+        },
+        {
+            "prioridade": "ESTÃVEL",
+            "Ã¡rea": "OrganizaÃ§Ã£o",
+            "aÃ§Ã£o": "Manter evoluÃ§Ã£o"
+        },
+        {
+            "prioridade": "ESTÃVEL",
+            "Ã¡rea": "AutomaÃ§Ã£o",
+            "aÃ§Ã£o": "Manter evoluÃ§Ã£o"
+        },
+        {
+            "prioridade": "CRÃTICA",
+            "Ã¡rea": "Territorial",
+            "aÃ§Ã£o": "Investimento imediato"
+        },
+        {
+            "prioridade": "CRÃTICA",
+            "Ã¡rea": "Comercial",
+            "aÃ§Ã£o": "Investimento imediato"
+        },
+        {
+            "prioridade": "CRÃTICA",
+            "Ã¡rea": "Receita",
+            "aÃ§Ã£o": "Investimento imediato"
+        }
+    ]
+}

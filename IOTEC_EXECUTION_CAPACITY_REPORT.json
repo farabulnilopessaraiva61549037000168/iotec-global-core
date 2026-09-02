@@ -1,0 +1,67 @@
+{
+    "gerado_em": "2026-06-14 01:54:13.625789",
+    "estado": "ANALISE_EXECUTABILIDADE",
+    "ofertas": [
+        {
+            "nome": "Geracao de Provas",
+            "ticket": 500,
+            "receita_maxima": 250000,
+            "capacidade": 500,
+            "risco": "BAIXO",
+            "dependencias": [
+                "VENDA_ESCALAVEL"
+            ],
+            "prioridade": 1,
+            "score_execucao": 225000.0
+        },
+        {
+            "nome": "Automacao Educacional",
+            "ticket": 5000,
+            "receita_maxima": 100000,
+            "capacidade": 20,
+            "risco": "BAIXO",
+            "dependencias": [
+                "VENDA_ESCALAVEL"
+            ],
+            "prioridade": 1,
+            "score_execucao": 40000.0
+        },
+        {
+            "nome": "Consultoria",
+            "ticket": 10000,
+            "receita_maxima": 150000,
+            "capacidade": 15,
+            "risco": "MEDIO",
+            "dependencias": [
+                "PROSPECÃ‡ÃƒO"
+            ],
+            "prioridade": 2,
+            "score_execucao": 120000.0
+        },
+        {
+            "nome": "Dashboard Executivo",
+            "ticket": 15000,
+            "receita_maxima": 150000,
+            "capacidade": 10,
+            "risco": "MEDIO",
+            "dependencias": [
+                "PROSPECÃ‡ÃƒO"
+            ],
+            "prioridade": 2,
+            "score_execucao": 90000.0
+        },
+        {
+            "nome": "Projeto Sob Demanda",
+            "ticket": 50000,
+            "receita_maxima": 200000,
+            "capacidade": 4,
+            "risco": "ALTO",
+            "dependencias": [
+                "NEGOCIACAO_COMPLEXA",
+                "CLIENTE_GRANDE"
+            ],
+            "prioridade": 4,
+            "score_execucao": 100000.0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "operacao": {
+        "id": "X27-5202",
+        "evento": "ROMPIMENTO_BARRAGEM",
+        "municipio": "IBICUITINGA",
+        "data": "2026-06-15 09:16:03.853455"
+    },
+    "licoes": {
+        "funcionou": [
+            "Hospital parceiro respondeu rapidamente",
+            "Rede satelital manteve comunicação",
+            "Abrigos foram ativados"
+        ],
+        "falhou": [
+            "Atraso no transporte de medicamentos",
+            "Internet terrestre indisponível"
+        ],
+        "melhorias": [
+            "Criar estoque regional de medicamentos",
+            "Ampliar redundância de internet",
+            "Expandir rede mesh"
+        ]
+    }
+}

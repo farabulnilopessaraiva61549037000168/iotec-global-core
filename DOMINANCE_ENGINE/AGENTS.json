@@ -1,0 +1,32 @@
+[
+    {
+        "agent": "RECEPTION_AGENT",
+        "sector": "COMMUNICATION",
+        "dominance": 65,
+        "continuous": true
+    },
+    {
+        "agent": "TREND_AGENT",
+        "sector": "MARKET_ANALYSIS",
+        "dominance": 85,
+        "continuous": true
+    },
+    {
+        "agent": "VISUAL_CURATOR_AGENT",
+        "sector": "BROADCAST",
+        "dominance": 90,
+        "continuous": true
+    },
+    {
+        "agent": "AUDIT_AGENT",
+        "sector": "SECURITY",
+        "dominance": 92,
+        "continuous": true
+    },
+    {
+        "agent": "LOAD_BALANCER_AGENT",
+        "sector": "ROUTING",
+        "dominance": 88,
+        "continuous": true
+    }
+]

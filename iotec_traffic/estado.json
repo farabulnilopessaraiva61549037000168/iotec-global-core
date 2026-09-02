@@ -1,0 +1,13 @@
+{
+    "interfaces": [],
+    "portas_ocupadas": [
+        5001,
+        5020,
+        5040,
+        5050
+    ],
+    "fila_subida": [],
+    "modulos_online": [],
+    "alertas": [],
+    "semaforos": {}
+}

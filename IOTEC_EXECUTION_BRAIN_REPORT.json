@@ -1,0 +1,2122 @@
+{
+  "total_modules": 1223,
+  "brain": [
+    [
+      "datetime",
+      141
+    ],
+    [
+      "psutil",
+      26
+    ],
+    [
+      "shutil",
+      24
+    ],
+    [
+      "sys",
+      23
+    ],
+    [
+      "subprocess",
+      19
+    ],
+    [
+      "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO",
+      16
+    ],
+    [
+      "visible_core_router",
+      14
+    ],
+    [
+      "sonda_interna_de_integridade",
+      12
+    ],
+    [
+      "iotec_nucleus",
+      10
+    ],
+    [
+      "app",
+      9
+    ],
+    [
+      "IOTEC_WEB_OBSERVER",
+      9
+    ],
+    [
+      "helpers",
+      9
+    ],
+    [
+      "CPU_SHIELD",
+      8
+    ],
+    [
+      "IOTEC_ADAPTIVE_CORE_MANAGER",
+      8
+    ],
+    [
+      "IOTEC_CORE_MANAGER",
+      8
+    ],
+    [
+      "IOTEC_GLOBAL_OPERATIONAL_CORE",
+      8
+    ],
+    [
+      "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL",
+      8
+    ],
+    [
+      "IOTEC_TRAFFIC_CONTROLLER",
+      8
+    ],
+    [
+      "MEMORY_FORTRESS",
+      8
+    ],
+    [
+      "NUCLEUS_STRESS_TEST",
+      8
+    ]
+  ],
+  "runtime_candidates": [
+    [
+      "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO",
+      103
+    ],
+    [
+      "20260512_183920_Iotec_Spine_Core",
+      77
+    ],
+    [
+      "20260512_183920_Iotec_Spine_Core",
+      77
+    ],
+    [
+      "20260512_183920_Iotec_Spine_Core",
+      77
+    ],
+    [
+      "Iotec_Spine_Core_Architecture",
+      66
+    ],
+    [
+      "Iotec_Spine_Core_Architecture",
+      66
+    ],
+    [
+      "Iotec_Spine_Core_Architecture",
+      66
+    ],
+    [
+      "SISTEMA_DE_SEGURANCA_PUBLICA",
+      65
+    ],
+    [
+      "SISTEMA_DE_SEGURANCA_PUBLICA",
+      65
+    ],
+    [
+      "SISTEMA_DE_SEGURANCA_PUBLICA",
+      65
+    ],
+    [
+      "sonda_interna_de_integridade",
+      63
+    ],
+    [
+      "SENTINEL_PRO",
+      61
+    ],
+    [
+      "SENTINEL_PRO",
+      61
+    ],
+    [
+      "SENTINEL_PRO",
+      61
+    ],
+    [
+      "Plataforma_Seguranca_Publica",
+      60
+    ],
+    [
+      "Plataforma_Seguranca_Publica",
+      60
+    ],
+    [
+      "Plataforma_Seguranca_Publica",
+      60
+    ],
+    [
+      "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL",
+      54
+    ],
+    [
+      "iotec_nucleus",
+      54
+    ],
+    [
+      "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL",
+      54
+    ],
+    [
+      "iotec_nucleus",
+      54
+    ],
+    [
+      "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL",
+      54
+    ],
+    [
+      "iotec_nucleus",
+      54
+    ],
+    [
+      "iotec_cockpit_pleno_v2",
+      52
+    ],
+    [
+      "iotec_cockpit_pleno_v2",
+      52
+    ]
+  ],
+  "entrypoints": [
+    "api",
+    "APOCALYPSE_ENGINE",
+    "app",
+    "app_cerebro_comercial",
+    "BACKUP_NEURAL_MAP_ENGINE",
+    "boot_iotec",
+    "calcular_score",
+    "CENTRAL_CORE",
+    "coletor_api",
+    "CONSOLIDATION_ENGINE",
+    "CORE_BUSINESS",
+    "CORE_MASTER",
+    "CORE_VERSAO_CALIBRADA",
+    "DEEP_CORE_SCANNER",
+    "engine",
+    "ENTERPRISE_ENGINE",
+    "ENTERPRISE_WEB_CORE",
+    "entrada_principal_main",
+    "EXECUTION_CORE",
+    "GLOBAL_OPERATIONAL_CORE",
+    "HYPERCORE_SHIELD",
+    "IOTEC_ADAPTIVE_CORE_MANAGER",
+    "IOTEC_ADAPTIVE_ECOSYSTEM_CORE",
+    "IOTEC_AI_CORE",
+    "IOTEC_API_INTEGRACAO",
+    "IOTEC_AUTOMATED_STRUCTURE_ENGINE",
+    "IOTEC_BILLING_INTELLIGENCE_ENGINE",
+    "IOTEC_CONTROL_TOWER_ENGINE",
+    "iotec_core",
+    "IOTEC_CORE_24H",
+    "IOTEC_CORE_DIRECTIVE_SYSTEM",
+    "IOTEC_CORE_EMAIL_24H",
+    "IOTEC_CORE_LIVE_QUEUE",
+    "IOTEC_CORE_MANAGER",
+    "IOTEC_CORE_QUEUE_PANEL",
+    "IOTEC_CORE_RUNNER",
+    "IOTEC_CUSTOMER_SERVICE_CORE",
+    "IOTEC_DATABASE_CORE",
+    "IOTEC_FIRST_REVENUE_ENGINE",
+    "IOTEC_GATEWAY_CORE",
+    "IOTEC_GLOBAL_CORE",
+    "IOTEC_GLOBAL_OPERATIONAL_CORE",
+    "IOTEC_MAIL_CORE_INTELIGENTE",
+    "IOTEC_MAIL_TO_CORE",
+    "IOTEC_MASTER_CORE",
+    "IOTEC_MASTER_CORE_BACKUP",
+    "IOTEC_MEDIA_ORCHESTRATION_CORE",
+    "IOTEC_MEMORY_ENGINE",
+    "IOTEC_MINIMAL_REAL_CORE",
+    "IOTEC_MULTI_MAIL_CORE"
+  ],
+  "dead_modules": [
+    "abrir_Servico",
+    "ADAPTADOR_DE_ROTAS",
+    "Central_Operacional",
+    "cerebro_comercial",
+    "CHAT_GLOBAL",
+    "CLIENTE_INTERNACIONAL",
+    "conciencia_do_nucleo",
+    "config",
+    "CONTEUDO_REAL_DOS_SERVICOS",
+    "DASHBOARD_INSTALLER",
+    "definir_plano",
+    "ECOSSISTEMA_DE_IA_ASSISTIVA",
+    "email_bridge",
+    "FLUXO_REAL",
+    "gerar_login",
+    "gerar_texto_contextual",
+    "Global_Realty_Fullscreen_Interface",
+    "iotec",
+    "IOTEC_ADAPTIVE_ECOSYSTEM_CORE",
+    "IOTEC_AI_BRIDGE_CONNECTOR",
+    "IOTEC_AI_CORE",
+    "IOTEC_DASHBOARD",
+    "IOTEC_MEDIA_ORCHESTRATION_CORE",
+    "IOTEC_NEURAL_MAP_ENGINE",
+    "IOTEC_UNIFIED_BRAIN",
+    "live_tower_monitor",
+    "MAPA_DO_ECOSSISTEMA",
+    "mensagem_automatica",
+    "modulo_exemplo",
+    "montar_texto",
+    "PAINEL_BIL\u00cdNGUE",
+    "painel_IOTEC",
+    "PARA_A_OFICINA",
+    "payroll",
+    "previdencia",
+    "Processo",
+    "PROGRAMACAO_AUTOMATICA",
+    "recomendacao_de_plano",
+    "RESPOSTAS_INTELIGENTES",
+    "resposta_segura",
+    "risco",
+    "validar_servico",
+    "verificar_produto",
+    "command_center",
+    "prospection",
+    "engine",
+    "pagamentos",
+    "NOVO_PEDIDO_IOTEC",
+    "DASHBOARD_INSTALLER",
+    "IOTEC_DASHBOARD"
+  ],
+  "connections": {
+    "ACROPOLE_CITY": [
+      "random",
+      "json",
+      "datetime"
+    ],
+    "ACROPOLE_COSMOS": [
+      "pathlib"
+    ],
+    "ACROPOLE_GLOBAL": [
+      "json",
+      "pathlib"
+    ],
+    "ACROPOLE_INFINITY": [
+      "pathlib"
+    ],
+    "ACROPOLE_NEXUS": [
+      "json",
+      "pathlib"
+    ],
+    "ACROPOLE_OMEGA": [
+      "json",
+      "pathlib"
+    ],
+    "ACROPOLE_PRIME": [
+      "pathlib"
+    ],
+    "ACROPOLE_VISUAL": [
+      "json",
+      "pathlib"
+    ],
+    "agente": [
+      "openai",
+      "os",
+      "shutil"
+    ],
+    "analise_nucleo": [
+      "os"
+    ],
+    "api": [
+      "agente",
+      "flask"
+    ],
+    "APOCALYPSE_ENGINE": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "app": [
+      "random",
+      "pagamentos",
+      "dossie",
+      "streamlit",
+      "time",
+      "flask",
+      "engine",
+      "os",
+      "datetime"
+    ],
+    "app_cerebro_comercial": [
+      "openai",
+      "os",
+      "flask"
+    ],
+    "ARQUEOLOGIA_DIGITAL": [
+      "json",
+      "os",
+      "hashlib",
+      "datetime"
+    ],
+    "ARQUITETURA_MODULAR_OPERACIONAL": [
+      "json",
+      "flask_cors",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "ATUALIZACAO_NO_NUCLEO": [
+      "email",
+      "smtplib"
+    ],
+    "auditoria_estrategica": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "auditoria_nucleo": [
+      "json",
+      "os"
+    ],
+    "auto_injector": [
+      "os"
+    ],
+    "auto_patch": [
+      "os"
+    ],
+    "AUTO_PORT": [
+      "socket",
+      "pathlib"
+    ],
+    "BACKEND _COM_FLUXO_COMPLETO": [
+      "flask",
+      "idioma"
+    ],
+    "BACKUP_20260511_185831": [
+      "random",
+      "uuid",
+      "datetime",
+      "time"
+    ],
+    "BACKUP_NEURAL_MAP_ENGINE": [
+      "json",
+      "os",
+      "collections",
+      "re"
+    ],
+    "boot_iotec": [
+      "os",
+      "webbrowser",
+      "subprocess",
+      "time"
+    ],
+    "BRAIN": [
+      "json",
+      "os",
+      "ast",
+      "collections"
+    ],
+    "CENTRAL_CORE": [
+      "random",
+      "json",
+      "datetime"
+    ],
+    "CINEMATIC_ENTERPRISE": [
+      "random",
+      "json",
+      "os"
+    ],
+    "CINEMATIC_OPERATIONS": [
+      "requests",
+      "flask_cors",
+      "flask",
+      "datetime"
+    ],
+    "coletor_api": [
+      "json",
+      "os",
+      "flask",
+      "datetime"
+    ],
+    "CONFIGURADOR_AUTOMATICO": [
+      "os",
+      "socket",
+      "re"
+    ],
+    "CONSOLIDADOR_E_FILTRO": [
+      "json",
+      "shutil",
+      "hashlib",
+      "collections",
+      "os",
+      "datetime"
+    ],
+    "CONSOLIDATION_ENGINE": [
+      "flask_cors",
+      "uuid",
+      "hashlib",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "CONTINUOUS_PROGRAMMING": [
+      "random",
+      "time",
+      "shutil",
+      "os",
+      "datetime"
+    ],
+    "Conversacional_Moderna": [
+      "time"
+    ],
+    "CORE_BUSINESS": [
+      "random",
+      "json",
+      "uuid",
+      "os",
+      "datetime"
+    ],
+    "CORE_MASTER": [
+      "os",
+      "importlib"
+    ],
+    "CORE_VERSAO_CALIBRADA": [
+      "random"
+    ],
+    "CPU_SHIELD": [
+      "random",
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "os",
+      "datetime"
+    ],
+    "CREATIVE_EXPLORER": [
+      "flask_cors",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "DASHBOARD_AUTO_INSTALLER": [
+      "os",
+      "subprocess",
+      "sys"
+    ],
+    "DASHBOARD_BACKUP_20260511_193717": [
+      "pandas",
+      "sqlite3",
+      "streamlit",
+      "time"
+    ],
+    "DATA_REFINERY_SYSTEM": [
+      "mimetypes",
+      "flask_cors",
+      "hashlib",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "DEEP_CORE_SCANNER": [
+      "json",
+      "os",
+      "collections",
+      "datetime"
+    ],
+    "DETECTAR_INTERFACES_EXTERNNAS": [
+      "os"
+    ],
+    "diagnostico": [
+      "os"
+    ],
+    "dialogo": [
+      "json",
+      "os"
+    ],
+    "DISPARAR_DEPLOY": [
+      "os",
+      "subprocess",
+      "sys",
+      "datetime"
+    ],
+    "ECOSYSTEM_ACTIVATION": [
+      "random",
+      "json",
+      "datetime",
+      "pathlib"
+    ],
+    "engine": [
+      "core"
+    ],
+    "ENTERPRISE_ENGINE": [
+      "os",
+      "subprocess",
+      "textwrap"
+    ],
+    "ENTERPRISE_WEB_CORE": [
+      "random",
+      "json",
+      "uuid",
+      "os",
+      "datetime"
+    ],
+    "entrada_principal_main": [
+      "engine",
+      "config"
+    ],
+    "EXECUTION_CORE": [
+      "random",
+      "json",
+      "datetime",
+      "time"
+    ],
+    "EXECUTIVE_COMMAND_ENTER": [
+      "requests",
+      "flask_cors",
+      "flask",
+      "datetime"
+    ],
+    "EXECUTIVE_DASHBOARD": [
+      "random",
+      "json",
+      "datetime",
+      "pathlib"
+    ],
+    "EXPANSAO_COMPLETA": [
+      "random",
+      "webbrowser",
+      "os",
+      "time"
+    ],
+    "extrair_valor": [
+      "re"
+    ],
+    "FAILURE_DETECTION": [
+      "os",
+      "datetime",
+      "time"
+    ],
+    "gerar_dossie": [
+      "reportlab",
+      "plotly",
+      "pandas",
+      "os",
+      "datetime"
+    ],
+    "gerar_ordem": [
+      "json",
+      "datetime"
+    ],
+    "GLOBAL_ASSETS ": [
+      "random",
+      "json",
+      "uuid",
+      "datetime"
+    ],
+    "GLOBAL_OPERATIONAL_CORE": [
+      "sqlite3",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "GLOBAL_REALTY": [
+      "os",
+      "pathlib"
+    ],
+    "GLOBAL_REALTY_01": [
+      "json",
+      "uuid",
+      "datetime"
+    ],
+    "Global_Realty_Connected": [
+      "os",
+      "pathlib"
+    ],
+    "GOVERNAN\u00c7A_OPERACIONAL": [
+      "random",
+      "json",
+      "uuid",
+      "datetime"
+    ],
+    "GOVERNAN\u00c7A_OPERACIONAL_AUTOMATIZADA": [
+      "uuid",
+      "datetime"
+    ],
+    "gTTS": [
+      "gtts"
+    ],
+    "HYPERCORE_SHIELD": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "HYPERSCALE_LAB": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "threading",
+      "datetime"
+    ],
+    "INIT_BACKUP_20260511_190622": [
+      "random",
+      "sqlite3",
+      "time",
+      "uuid",
+      "datetime"
+    ],
+    "INTEGRACAO_COMPLETA": [
+      "random",
+      "json",
+      "pyttsx3",
+      "os",
+      "datetime"
+    ],
+    "INTELLIGENT_CURATOR": [
+      "json",
+      "flask_cors",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "Interface_Restoration": [
+      "pathlib"
+    ],
+    "INVENT\u00c1RIO_CORPORATIVO": [
+      "json",
+      "os",
+      "hashlib",
+      "datetime"
+    ],
+    "INVENT\u00c1RIO_CORPORATIVO_IMPERIAL": [
+      "json",
+      "shutil",
+      "hashlib",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "INVENT\u00c1RIO_INTELIGENTE": [
+      "json",
+      "os",
+      "hashlib",
+      "datetime"
+    ],
+    "INVESTIGATOR_TECHNICAL_TUTOR": [
+      "json",
+      "os",
+      "collections",
+      "pathlib"
+    ],
+    "IOTEC_ADAPTIVE_CORE_MANAGER": [
+      "subprocess",
+      "time",
+      "flask_cors",
+      "flask",
+      "threading",
+      "requests",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_ADVANCEMENT_CONTROL_TOWER": [
+      "random",
+      "datetime",
+      "time"
+    ],
+    "IOTEC_API_INTEGRACAO": [
+      "flask",
+      "datetime"
+    ],
+    "IOTEC_ARTERIA_8787": [
+      "flask"
+    ],
+    "IOTEC_AUTOMATED_STRUCTURE_ENGINE": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_AUTONOMOUS": [
+      "random",
+      "uuid",
+      "datetime",
+      "time"
+    ],
+    "IOTEC_BILLING_INTELLIGENCE_ENGINE": [
+      "email",
+      "smtplib",
+      "sqlite3",
+      "imaplib",
+      "time",
+      "uuid",
+      "datetime"
+    ],
+    "IOTEC_CENTRAL_BRAIN": [
+      "os",
+      "importlib",
+      "traceback"
+    ],
+    "IOTEC_CONTROL_PANEL": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_CONTROL_TOWER_ENGINE": [
+      "random",
+      "os",
+      "datetime",
+      "time"
+    ],
+    "iotec_core": [
+      "random",
+      "json",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_CORE_24H": [
+      "random",
+      "json",
+      "time"
+    ],
+    "IOTEC_CORE_EMAIL_24H": [
+      "email",
+      "json",
+      "imaplib",
+      "time",
+      "re",
+      "os"
+    ],
+    "IOTEC_CORE_LIVE_QUEUE": [
+      "email",
+      "streamlit",
+      "imaplib"
+    ],
+    "IOTEC_CORE_MANAGER": [
+      "os",
+      "time",
+      "flask_cors",
+      "flask",
+      "threading",
+      "requests",
+      "subprocess",
+      "datetime"
+    ],
+    "IOTEC_CORE_QUEUE_PANEL": [
+      "streamlit"
+    ],
+    "IOTEC_CORE_RUNNER": [
+      "mail_reader",
+      "time"
+    ],
+    "IOTEC_CUSTOMER_SERVICE_CORE": [
+      "time",
+      "typing",
+      "dataclasses"
+    ],
+    "IOTEC_DATABASE_CORE": [
+      "sqlite3"
+    ],
+    "IOTEC_DEPLOYMENT_DIAGNOSTIC": [
+      "IOTEC_GLOBAL_CORE",
+      "os",
+      "socket",
+      "importlib"
+    ],
+    "IOTEC_DEPLOY_MASTER": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "IOTEC_DEPLOY_MASTER_V2": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "IOTEC_DEPLOY_MASTER_V3": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "IOTEC_DEPLOY_NETLIFY": [
+      "os",
+      "subprocess"
+    ],
+    "IOTEC_DEPLOY_ORQUESTRADOR": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "IOTEC_DUAL_MAIL_DASHBOARD": [
+      "email",
+      "streamlit",
+      "imaplib"
+    ],
+    "IOTEC_EXECUTION_XRAY": [
+      "os",
+      "ast",
+      "collections"
+    ],
+    "IOTEC_FIRST_REVENUE_ENGINE": [
+      "uuid",
+      "sqlite3",
+      "flask",
+      "datetime"
+    ],
+    "IOTEC_FORM_TO_EMAIL": [
+      "email",
+      "smtplib"
+    ],
+    "IOTEC_FULL_FLOW": [
+      "urllib"
+    ],
+    "IOTEC_GATEWAY_CORE": [
+      "requests",
+      "flask_cors",
+      "flask",
+      "datetime"
+    ],
+    "IOTEC_GLOBAL_CORE": [
+      "sqlite3",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_GLOBAL_OPERATIONAL_CORE": [
+      "json",
+      "sys",
+      "os",
+      "sqlite3",
+      "uuid",
+      "flask",
+      "subprocess",
+      "datetime"
+    ],
+    "IOTEC_GLOBAL_READINESS_CHECK": [
+      "datetime"
+    ],
+    "IOTEC_GOVTECH_PIPELINE_DASHBOARD": [
+      "streamlit",
+      "time"
+    ],
+    "IOTEC_INTELLIGENT_CURATOR": [
+      "flask_cors",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_MAIL_CORE_INTELIGENTE": [
+      "email",
+      "imaplib"
+    ],
+    "IOTEC_MAIL_HUB": [
+      "email",
+      "imaplib"
+    ],
+    "IOTEC_MAIL_MANAGER": [
+      "email",
+      "imaplib"
+    ],
+    "IOTEC_MAIL_TO_CORE": [
+      "email",
+      "imaplib"
+    ],
+    "IOTEC_MASTER_CORE": [
+      "os",
+      "importlib",
+      "traceback"
+    ],
+    "IOTEC_MASTER_CORE_BACKUP": [
+      "os",
+      "importlib",
+      "traceback"
+    ],
+    "IOTEC_MEDIA": [
+      "uuid",
+      "datetime"
+    ],
+    "IOTEC_MEMORY_ENGINE": [
+      "json"
+    ],
+    "IOTEC_MINIMAL_REAL_CORE": [
+      "sqlite3",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_MULTI_MAIL_CORE": [
+      "email",
+      "imaplib"
+    ],
+    "IOTEC_MULTI_SECTOR_RADAR": [
+      "streamlit"
+    ],
+    "IOTEC_NEURAL_BRAIN_CLEAN_AUTO": [
+      "json",
+      "os",
+      "collections"
+    ],
+    "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL": [
+      "random",
+      "json",
+      "typing",
+      "dataclasses",
+      "time",
+      "uuid",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_NEURAL_MAP_AUTO_FIX": [
+      "json",
+      "os"
+    ],
+    "IOTEC_NEURAL_MAP_SAFE_AUTO_FIX": [
+      "json",
+      "os"
+    ],
+    "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE": [
+      "time",
+      "uuid",
+      "typing",
+      "dataclasses"
+    ],
+    "IOTEC_ORCHESTRATION_AUDITOR": [
+      "os",
+      "ast",
+      "collections"
+    ],
+    "IOTEC_PANEL_24H": [
+      "json",
+      "streamlit",
+      "time"
+    ],
+    "IOTEC_PAYPAL_MONITOR": [
+      "email",
+      "re",
+      "imaplib"
+    ],
+    "IOTEC_PERSISTENT_OPERATIONAL_CORE": [
+      "uuid",
+      "sqlite3",
+      "datetime",
+      "time"
+    ],
+    "IOTEC_PROGRAMMING_GRID_ENGINE": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_Revenue_Strategy_Engine": [
+      "datetime"
+    ],
+    "Iotec_Spine": [
+      "uuid",
+      "datetime",
+      "time"
+    ],
+    "Iotec_Spine_Core": [
+      "core"
+    ],
+    "Iotec_Spine_Core_Architecture": [
+      "json",
+      "typing",
+      "streamlit",
+      "time",
+      "uuid",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_STARTUP_CHECKLIST_ENGINE": [
+      "random",
+      "time",
+      "uuid",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_SYSTEM_FLOW_PANEL": [
+      "random",
+      "streamlit",
+      "time"
+    ],
+    "IOTEC_TEMPLATE": [
+      "plotly"
+    ],
+    "IOTEC_TRAFFIC_CONTROLLER": [
+      "json",
+      "socket",
+      "time",
+      "flask_cors",
+      "flask",
+      "threading",
+      "os",
+      "datetime"
+    ],
+    "IOTEC_TTS": [
+      "gtts"
+    ],
+    "IOTEC_ULTRACORE_ARCHITECTURE": [
+      "dataclasses",
+      "typing",
+      "time"
+    ],
+    "IOTEC_UNIFIED_BRAIN_BACKUP": [
+      "json",
+      "os",
+      "collections",
+      "datetime"
+    ],
+    "IOTEC_WEB_OBSERVER": [
+      "bs4",
+      "socket",
+      "time",
+      "flask_cors",
+      "flask",
+      "re",
+      "threading",
+      "requests",
+      "datetime"
+    ],
+    "IOTEC_WHATSAPP_AUTOMATION": [
+      "urllib"
+    ],
+    "IOTEC_WHATS_LINK": [
+      "urllib"
+    ],
+    "LIVE_EXECUTIVE_VISUAL": [
+      "requests",
+      "flask_cors",
+      "flask",
+      "datetime"
+    ],
+    "LIVE_OPERATING": [
+      "random",
+      "json",
+      "pathlib",
+      "os",
+      "datetime"
+    ],
+    "LIVE_OPERATIONAL_CORE": [
+      "random",
+      "sqlite3",
+      "time",
+      "uuid",
+      "datetime"
+    ],
+    "log_writer": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "main": [
+      "fastapi",
+      "core"
+    ],
+    "MASTER_GOVERNANCE": [
+      "flask_cors",
+      "uuid",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "MEMORIA_DE_PERFORMACE": [
+      "json"
+    ],
+    "MEMORY_FORTRESS": [
+      "random",
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "os",
+      "datetime"
+    ],
+    "META_ENGINE": [
+      "statistics",
+      "random",
+      "json",
+      "os",
+      "datetime"
+    ],
+    "models": [
+      "pydantic",
+      "typing",
+      "dataclasses",
+      "uuid",
+      "__future__",
+      "datetime"
+    ],
+    "modulo_interface": [
+      "os",
+      "re"
+    ],
+    "monitor_paypal": [
+      "email",
+      "json",
+      "datetime",
+      "imaplib"
+    ],
+    "MOTOR_SEMANTICO": [
+      "time"
+    ],
+    "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA": [
+      "collections",
+      "time"
+    ],
+    "MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE": [
+      "unicodedata",
+      "difflib",
+      "collections",
+      "time"
+    ],
+    "NEXUS_CORE": [
+      "pathlib"
+    ],
+    "NEXUS_REALTIME": [
+      "pathlib"
+    ],
+    "NODE_CHECK": [
+      "subprocess"
+    ],
+    "nucleo": [
+      "flask"
+    ],
+    "nucleo_api": [
+      "json",
+      "os",
+      "flask",
+      "datetime"
+    ],
+    "nucleo_financeiro": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "NUCLEO_REAL": [
+      "requests"
+    ],
+    "NUCLEUS_INVESTIGATION": [
+      "json",
+      "pathlib"
+    ],
+    "NUCLEUS_LIVE": [
+      "json",
+      "os"
+    ],
+    "nucleus_orchestrator": [
+      "typing",
+      "time",
+      "queue",
+      "dataclasses",
+      "uuid",
+      "threading",
+      "datetime"
+    ],
+    "NUCLEUS_STRESS_TEST": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "platform",
+      "threading",
+      "os",
+      "datetime"
+    ],
+    "NUCLEU_ENTERPRISE": [
+      "json",
+      "pathlib",
+      "uuid",
+      "shutil",
+      "os",
+      "datetime"
+    ],
+    "N\u00daCLEO CENTRAL": [
+      "flask"
+    ],
+    "OFICINA_DE_INTERFACES": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "OMEGA _X": [
+      "os",
+      "textwrap"
+    ],
+    "OMEGA_CINEMATIC": [
+      "json",
+      "os"
+    ],
+    "OMEGA_X": [
+      "os",
+      "textwrap"
+    ],
+    "ORBITAL_EVOLUTION": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "ORCHESTRATOR_ENGINE": [
+      "subprocess",
+      "time",
+      "flask_cors",
+      "flask",
+      "threading",
+      "requests",
+      "os",
+      "datetime"
+    ],
+    "ORGANIZATIONAL_KERNEL": [
+      "flask_cors",
+      "uuid",
+      "flask",
+      "datetime"
+    ],
+    "ORQUESTRADOR_COMPLETO": [
+      "os"
+    ],
+    "ORQUESTRADOR_OPERACIONA_ EMPRESARIAL": [
+      "unicodedata",
+      "difflib",
+      "collections",
+      "time"
+    ],
+    "ORQUESTRADOR_OPERACIONA_EMPRESARIAL": [
+      "unicodedata",
+      "difflib",
+      "collections",
+      "time"
+    ],
+    "paypal_server": [
+      "requests",
+      "json",
+      "base64",
+      "flask"
+    ],
+    "PERSISTENCE_BACKUP_20260511_193031": [
+      "random",
+      "sqlite3",
+      "time",
+      "uuid",
+      "datetime"
+    ],
+    "Plataforma_Seguranca_Publica": [
+      "random",
+      "sys",
+      "time",
+      "collections",
+      "PyQt5",
+      "os",
+      "folium"
+    ],
+    "plotly.graph_objects": [
+      "plotly"
+    ],
+    "plotly.graph_objects01": [
+      "plotly"
+    ],
+    "plotly.graph_objects_01": [
+      "plotly",
+      "streamlit"
+    ],
+    "plotly.graph_objects_02": [
+      "plotly",
+      "streamlit"
+    ],
+    "PREMIUM_ASCENSION": [
+      "os",
+      "pathlib"
+    ],
+    "PREPARAR_DEPLOY": [
+      "os",
+      "datetime"
+    ],
+    "processar_modulo": [
+      "modulo_exemplo"
+    ],
+    "processar_pagamento": [
+      "nucleo"
+    ],
+    "PRODUCT_TRANSLATION": [
+      "random",
+      "json"
+    ],
+    "QUANTUM_GOVERNANCE": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "REALITY_EXECUTION": [
+      "random",
+      "json",
+      "datetime",
+      "time"
+    ],
+    "REALTIME_EXECUTIVE": [
+      "json",
+      "os",
+      "pathlib"
+    ],
+    "reportlab.lib.pagesizes": [
+      "reportlab"
+    ],
+    "RESPOSTA_AUTOM\u00c1TICA_BIL\u00cdNGUE": [
+      "idioma"
+    ],
+    "REVELATION_ENGINE": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "threading",
+      "datetime"
+    ],
+    "REVELATION_ENGINE_01": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "threading",
+      "datetime"
+    ],
+    "ROCKBOOST_CENTRAL": [
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "threading",
+      "os",
+      "datetime"
+    ],
+    "ROCKBOOST_DOCKER": [
+      "pathlib"
+    ],
+    "ROCKBOOST_GOVERNANCE": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "os",
+      "datetime"
+    ],
+    "ROCKBOOST_LIVE": [
+      "pathlib"
+    ],
+    "ROCKBOOST_MEMORY": [
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "platform",
+      "os",
+      "datetime"
+    ],
+    "ROCKBOOST_ORBITAL ": [
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "os",
+      "datetime"
+    ],
+    "ROCKBOOST_ORBITAL": [
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "ROCKBOOST_ORBITAL_ENGINE": [
+      "json",
+      "gc",
+      "pathlib",
+      "time",
+      "psutil",
+      "os",
+      "datetime"
+    ],
+    "ROCKBOOST_RECOVERY": [
+      "json",
+      "gc",
+      "pathlib",
+      "os",
+      "time",
+      "psutil",
+      "subprocess",
+      "datetime"
+    ],
+    "SALES_EXPERIENCE": [
+      "json",
+      "datetime"
+    ],
+    "SENTINEL_PRO": [
+      "random",
+      "sys",
+      "time",
+      "collections",
+      "PyQt5",
+      "os",
+      "folium"
+    ],
+    "SERVER": [
+      "pydantic",
+      "fastapi"
+    ],
+    "simulador": [
+      "engine"
+    ],
+    "SISTEMA_DE_SEGURANCA_PUBLICA": [
+      "random",
+      "sys",
+      "time",
+      "collections",
+      "PyQt5",
+      "os",
+      "folium"
+    ],
+    "SISTEMA_ESTRUTURADO_COM_VOZ": [
+      "random",
+      "json",
+      "pyttsx3",
+      "os",
+      "datetime"
+    ],
+    "SMART_CORE_EXPORT": [
+      "os",
+      "collections"
+    ],
+    "sonda_interna_de_integridade": [
+      "json",
+      "socket",
+      "sys",
+      "pathlib",
+      "time",
+      "psutil",
+      "platform",
+      "urllib",
+      "hashlib",
+      "shutil",
+      "os",
+      "datetime"
+    ],
+    "SUPERVISOR_DE_INTEGRIDADE": [
+      "time",
+      "flask_cors",
+      "flask",
+      "threading",
+      "requests",
+      "datetime"
+    ],
+    "teste_injecao": [
+      "os",
+      "EXPANSAO_COMPLETA"
+    ],
+    "TESTE_OPERACIONAL_COMPLETO": [
+      "LIVE_OPERATIONAL_CORE"
+    ],
+    "TITAN_ENGINE": [
+      "random",
+      "json",
+      "pathlib",
+      "time",
+      "psutil",
+      "datetime"
+    ],
+    "URBANISMO_SIST\u00caMICO": [
+      "json",
+      "shutil",
+      "hashlib",
+      "flask",
+      "os",
+      "datetime"
+    ],
+    "VERIFICADOR_AUTOMATICO_DE_PORTAS": [
+      "socket"
+    ],
+    "VERIFY_REAL_CORE": [
+      "os",
+      "collections"
+    ],
+    "VISUALIZADOR_ESTRAT\u00c9GICO": [
+      "json",
+      "os",
+      "collections",
+      "datetime"
+    ],
+    "VISUAL_OPERATIONS_CENTER": [
+      "flask_cors",
+      "flask"
+    ],
+    "20260512_183920_Iotec_Spine_Core": [
+      "json",
+      "time",
+      "uuid",
+      "shutil",
+      "os",
+      "datetime"
+    ],
+    "iotec_cockpit_pleno": [
+      "json",
+      "pathlib",
+      "shutil",
+      "flask",
+      "datetime"
+    ],
+    "iotec_cockpit_pleno_v2": [
+      "json",
+      "pathlib",
+      "webbrowser",
+      "shutil",
+      "flask",
+      "datetime",
+      "threading"
+    ],
+    "coletor_email": [
+      "email",
+      "json",
+      "imaplib",
+      "os",
+      "datetime"
+    ],
+    "governance": [
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "module": [
+      "uuid",
+      "datetime"
+    ],
+    "motor_producao": [
+      "json",
+      "os",
+      "datetime"
+    ],
+    "nucleo_loop": [
+      "subprocess",
+      "time"
+    ],
+    "orchestrator": [
+      "time"
+    ],
+    "orquestrador": [
+      "json",
+      "os"
+    ],
+    "painel_vivo": [
+      "json",
+      "os",
+      "time"
+    ],
+    "persistence": [
+      "json"
+    ],
+    "revenue": [
+      "datetime"
+    ],
+    "email_bridge": [
+      "email",
+      "imaplib"
+    ],
+    "visible_core_api": [
+      "json",
+      "sys",
+      "pathlib",
+      "http",
+      "common",
+      "visible_core_router",
+      "urllib",
+      "__future__"
+    ],
+    "iotec_nucleus": [
+      "json",
+      "typing",
+      "sys",
+      "pathlib",
+      "common",
+      "dataclasses",
+      "__future__",
+      "argparse",
+      "subprocess",
+      "importlib"
+    ],
+    "visible_core_router": [
+      "json",
+      "sys",
+      "typing",
+      "pathlib",
+      "common",
+      "corporate",
+      "visual",
+      "validation",
+      "miner",
+      "__future__",
+      "integration",
+      "telemetry"
+    ],
+    "full_test": [
+      "subprocess",
+      "sys"
+    ],
+    "run_demo_cycle": [
+      "json",
+      "sys",
+      "pathlib",
+      "visible_core_router",
+      "__future__"
+    ],
+    "seal_guard": [
+      "json",
+      "sys",
+      "pathlib",
+      "hashlib",
+      "datetime"
+    ],
+    "adapter_erp_cliente": [
+      "__future__",
+      "json",
+      "typing",
+      "pathlib"
+    ],
+    "dossie": [
+      "os"
+    ],
+    "enviar_email": [
+      "email",
+      "smtplib"
+    ],
+    "helpers": [
+      "json",
+      "math",
+      "typing",
+      "pathlib",
+      "traceback",
+      "shutil",
+      "__future__",
+      "os",
+      "datetime"
+    ],
+    "corporate_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "integration_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "miner_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "telemetry_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "validation_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "visual_nucleus": [
+      "__future__",
+      "common",
+      "typing",
+      "pathlib"
+    ],
+    "dashboard_engine": [
+      "logging"
+    ],
+    "demoserver": [
+      "SocketServer",
+      "json",
+      "socket",
+      "sys",
+      "socketserver",
+      "__future__",
+      "threading"
+    ],
+    "FastAPI": [
+      "random",
+      "uvicorn",
+      "pydantic",
+      "fastapi"
+    ],
+    "server": [
+      "json",
+      "time",
+      "flask",
+      "os",
+      "flask_socketio",
+      "threading"
+    ],
+    "Caminho.da.pasta": [
+      "hashlib",
+      "getpass"
+    ],
+    "Defina.sua.chave.mestra": [
+      "hashlib",
+      "getpass"
+    ],
+    "ilusao": [
+      "flask",
+      "time"
+    ],
+    "import.re": [
+      "re"
+    ],
+    "QVBoxL": [
+      "psutil",
+      "os",
+      "PyQt6",
+      "sys"
+    ],
+    "sklearn": [
+      "pandas",
+      "sklearn"
+    ],
+    "IOTEC_AUDITOR_PAYPAL": [
+      "json",
+      "socket",
+      "pathlib",
+      "requests",
+      "datetime"
+    ],
+    "# main": [
+      "modulo_acao",
+      "modulo_consciencia",
+      "modulo_relatorios",
+      "modulo_varredura"
+    ],
+    "# modulo_varredura": [
+      "os"
+    ],
+    "Acesso": [
+      "tkinter",
+      "time"
+    ],
+    "Acesso_Neocomplex": [
+      "os"
+    ],
+    "Analisar.os.blocos": [
+      "re"
+    ],
+    "anomalias": [
+      "pandas",
+      "sklearn"
+    ],
+    "Architecture.Module": [
+      "json"
+    ],
+    "auto_execucao": [
+      "os",
+      "subprocess"
+    ],
+    "BeautifulSoup": [
+      "requests",
+      "bs4"
+    ],
+    "class.Complexo": [
+      "json"
+    ],
+    "class.Omega.AWS": [
+      "boto3",
+      "os"
+    ],
+    "classificar_conteudo_e_textos": [
+      "pandas",
+      "transformers"
+    ],
+    "Cognitivo.Karenage": [
+      "json",
+      "openai",
+      "time",
+      "pandas",
+      "os",
+      "datetime"
+    ],
+    "complexo_digital": [
+      "os",
+      "flask"
+    ],
+    "core_ai_engine": [
+      "logging"
+    ],
+    "C\u00f3digo.001": [
+      "sys"
+    ],
+    "d5f3c831": [
+      "hashlib"
+    ],
+    "database": [
+      "sqlite3"
+    ],
+    "data_harvester": [
+      "logging"
+    ],
+    "date.time": [
+      "datetime",
+      "time"
+    ],
+    "datetime.datetime.now": [
+      "json",
+      "datetime"
+    ],
+    "datetime": [
+      "json",
+      "openai",
+      "time",
+      "pandas",
+      "os",
+      "datetime"
+    ],
+    "estrategia_mercado": [
+      "networkx",
+      "sklearn",
+      "numpy",
+      "scipy"
+    ],
+    "fluxo_atendimento": [
+      "logging"
+    ],
+    "from.core": [
+      "core_ai",
+      "seo_manager",
+      "domain_manager",
+      "consultancy_engine",
+      "forensic_module"
+    ],
+    "from.docx.import": [
+      "os",
+      "docx"
+    ],
+    "Fun\u00e7\u00e3o.de.Minera\u00e7\u00e3o.Simulada": [
+      "random",
+      "speech_recognition",
+      "schedule",
+      "time"
+    ],
+    "Guardiao.PAI": [
+      "guardiao_pai",
+      "time"
+    ],
+    "import.datetime": [
+      "zipfile",
+      "os",
+      "shutil",
+      "datetime"
+    ],
+    "import.requests": [
+      "requests",
+      "speech_recognition"
+    ],
+    "import.speech": [
+      "speech_recognition",
+      "os"
+    ],
+    "income_engine": [
+      "logging"
+    ],
+    "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO": [
+      "json",
+      "socket",
+      "qrcode",
+      "sys",
+      "pathlib",
+      "typing",
+      "os",
+      "logging",
+      "html",
+      "time",
+      "shutil",
+      "re",
+      "flask",
+      "subprocess",
+      "datetime",
+      "importlib"
+    ],
+    "IOTEC_DUAL_EXPERIENCE": [
+      "json",
+      "os"
+    ],
+    "IOTEC_GLOBAL_SHOPPING_PLATFORM": [
+      "os",
+      "flask"
+    ],
+    "JAGUAR": [
+      "flask"
+    ],
+    "jaguar.py.(servidor)": [
+      "flask_socketio",
+      "flask"
+    ],
+    "Minerador.Digital": [
+      "random",
+      "datetime"
+    ],
+    "monitoramento": [
+      "json",
+      "os",
+      "time"
+    ],
+    "Neo_CompleX_Nova_Ia_Pasta_Mestre": [
+      "os"
+    ],
+    "Neo_System_Core": [
+      "os"
+    ],
+    "node_connector": [
+      "logging"
+    ],
+    "N\u00facleo.IA.VIVA": [
+      "os",
+      "datetime",
+      "time"
+    ],
+    "organizador": [
+      "os",
+      "shutil"
+    ],
+    "PARAMETRIZ\u00c1VEIS.01": [
+      "datetime"
+    ],
+    "PARAMETRIZ\u00c1VEIS": [
+      "datetime"
+    ],
+    "pipplowd": [
+      "time",
+      "pandas",
+      "os",
+      "matplotlib"
+    ],
+    "platform.system": [
+      "psutil",
+      "platform",
+      "socket",
+      "datetime"
+    ],
+    "portal_visual_iotec": [
+      "flask"
+    ],
+    "psutil": [
+      "psutil",
+      "os",
+      "PyQt6",
+      "sys"
+    ],
+    "PyPDF2": [
+      "pandas",
+      "os",
+      "PyPDF2"
+    ],
+    "QApplication": [
+      "PyQt5",
+      "webbrowser",
+      "sys"
+    ],
+    "ranking_iotec": [
+      "json",
+      "os",
+      "datetime",
+      "pathlib"
+    ],
+    "scraper": [
+      "scrapy"
+    ],
+    "security_hub": [
+      "logging"
+    ],
+    "seo.": [
+      "requests"
+    ],
+    "shutil": [
+      "os",
+      "shutil"
+    ],
+    "sistema_autonomo": [
+      "time",
+      "logging"
+    ],
+    "Specter.Fortress": [
+      "socket",
+      "stem",
+      "cryptography",
+      "requests",
+      "os",
+      "threading"
+    ],
+    "sqlalchemy.import": [
+      "sqlalchemy"
+    ],
+    "SUA.SENHA": [
+      "email",
+      "imaplib"
+    ],
+    "subprocess": [
+      "os",
+      "subprocess"
+    ],
+    "sys": [
+      "psutil",
+      "PyQt6",
+      "sys"
+    ],
+    "tk": [
+      "hashlib",
+      "tkinter"
+    ],
+    "TOKEN": [
+      "requests"
+    ],
+    "Torre.Inteligente": [
+      "datetime",
+      "os",
+      "shutil",
+      "flask"
+    ],
+    "tradutor": [
+      "googletrans"
+    ],
+    "tradutor_deepl": [
+      "deepl"
+    ],
+    "True": [
+      "email",
+      "os",
+      "datetime",
+      "imaplib"
+    ]
+  }
+}

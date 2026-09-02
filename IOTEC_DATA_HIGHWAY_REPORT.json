@@ -1,0 +1,1500 @@
+{
+    "generated": "2026-06-07 16:07:43.144663",
+    "files_scanned": 2185,
+    "databases": {
+        "enterprise.db": {
+            "users": [
+                "ADD_PRIORITY_COLUMN.py",
+                "MIGRATE_ENTERPRISE_LEADS.py"
+            ],
+            "count": 2
+        },
+        "iotec_operational.db": {
+            "users": [
+                "DASHBOARD_BACKUP_20260511_193717.py",
+                "IOTEC_DATABASE_CORE.py",
+                "LIVE_OPERATIONAL_CORE.py",
+                "PERSISTENCE_BACKUP_20260511_193031.py"
+            ],
+            "count": 4
+        },
+        "tower.db": {
+            "users": [
+                "MIGRATE_LEADS_TABLE.py"
+            ],
+            "count": 1
+        },
+        "database.db": {
+            "users": [
+                "api.py"
+            ],
+            "count": 1
+        },
+        "dados.db": {
+            "users": [
+                "database.py"
+            ],
+            "count": 1
+        }
+    },
+    "jsons": {
+        "IOTEC_ACROPOLE_CITY.json": {
+            "users": [
+                "ACROPOLE_CITY.py"
+            ],
+            "count": 1
+        },
+        "database/database.json": {
+            "users": [
+                "ACROPOLE_GLOBAL.py",
+                "ACROPOLE_NEXUS.py",
+                "ACROPOLE_OMEGA.py"
+            ],
+            "count": 3
+        },
+        " [+] database.json": {
+            "users": [
+                "ACROPOLE_GLOBAL.py",
+                "ACROPOLE_NEXUS.py",
+                "ACROPOLE_OMEGA.py"
+            ],
+            "count": 3
+        },
+        "database/acropole_data.json": {
+            "users": [
+                "ACROPOLE_VISUAL.py"
+            ],
+            "count": 1
+        },
+        " [+] acropole_data.json": {
+            "users": [
+                "ACROPOLE_VISUAL.py"
+            ],
+            "count": 1
+        },
+        "APOCALYPSE_REPORT.json": {
+            "users": [
+                "APOCALYPSE_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "arqueologia_digital.json": {
+            "users": [
+                "ARQUEOLOGIA_DIGITAL.py"
+            ],
+            "count": 1
+        },
+        "RELATORIO_ARQUEOLOGIA_NUCLEO.json": {
+            "users": [
+                "ARQUEOLOGO_DO_NUCLEO.py"
+            ],
+            "count": 1
+        },
+        "modulos.json": {
+            "users": [
+                "ARQUITETURA_MODULAR_OPERACIONAL.py"
+            ],
+            "count": 1
+        },
+        "relatorio_estrategico.json": {
+            "users": [
+                "auditoria_estrategica.py"
+            ],
+            "count": 1
+        },
+        "relatorio_valor.json": {
+            "users": [
+                "auditoria_nucleo.py"
+            ],
+            "count": 1
+        },
+        "COMMAND_TOWER_REPORT.json": {
+            "users": [
+                "AUTONOMOUS_LEAD.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_NEURAL_MAP_REPORT.json": {
+            "users": [
+                "BACKUP_NEURAL_MAP_ENGINE.py",
+                "IOTEC_NEURAL_MAP_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "\\nRelatÃ³rio salvo: IOTEC_NEURAL_MAP_REPORT.json": {
+            "users": [
+                "BACKUP_NEURAL_MAP_ENGINE.py",
+                "IOTEC_NEURAL_MAP_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_EXECUTION_BRAIN_REPORT.json": {
+            "users": [
+                "BRAIN.py"
+            ],
+            "count": 1
+        },
+        "tower_events.json": {
+            "users": [
+                "BRIDGE_TOWER.py"
+            ],
+            "count": 1
+        },
+        "FRONT_FACADE_REPORT.json": {
+            "users": [
+                "BROADCAST.py",
+                "CERTIFIER_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "{name}.json": {
+            "users": [
+                "BROADCAST.py",
+                "INTERNAL_DOMINANCE_GOVERNANCE.py",
+                "LOTE_OPERATIONAL.py"
+            ],
+            "count": 3
+        },
+        "LIVE_BROADCAST_STATUS.json": {
+            "users": [
+                "BROADCAST.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_CAPABILITIES_REPORT.json": {
+            "users": [
+                "CAPACIDADES_ECONÔMICAS.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_CENTRAL_OPERACIONAL.json": {
+            "users": [
+                "CENTRAL_CORE.py"
+            ],
+            "count": 1
+        },
+        "TOWER_CONNECTION_REPORT.json": {
+            "users": [
+                "CERTIFIER_ENGINE.py",
+                "LOTE_OPERATIONAL.py",
+                "SIGNAL_MAPPER.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 4
+        },
+        "nucleo_operacional.json": {
+            "users": [
+                "CINEMATIC_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        "C:\\\\IOTEC\\\\registros.json": {
+            "users": [
+                "coletor_api.py"
+            ],
+            "count": 1
+        },
+        "RELATORIO_CONSOLIDADO.json": {
+            "users": [
+                "CONSOLIDADOR_E_FILTRO.py"
+            ],
+            "count": 1
+        },
+        "heartbeat.json": {
+            "users": [
+                "CONTINUOUS_OPERATION.py"
+            ],
+            "count": 1
+        },
+        "{order_id}.json": {
+            "users": [
+                "CONTINUOUS_OPERATION.py"
+            ],
+            "count": 1
+        },
+        "observability_report.json": {
+            "users": [
+                "CONTINUOUS_OPERATION.py"
+            ],
+            "count": 1
+        },
+        "]}.json": {
+            "users": [
+                "CONTINUOUS_OPERATION.py",
+                "HIERARCHICA_ESCALATION.py",
+                "nucleo_financeiro.py"
+            ],
+            "count": 3
+        },
+        "presidency_alert.json": {
+            "users": [
+                "CONTINUOUS_OPERATION.py"
+            ],
+            "count": 1
+        },
+        "OPERACAO_ENTERPRISE.json": {
+            "users": [
+                "CORE_BUSINESS.py"
+            ],
+            "count": 1
+        },
+        "CORE_CATALOG.json": {
+            "users": [
+                "COR_INDEXER.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        "CPU_SHIELD_REPORT.json": {
+            "users": [
+                "CPU_SHIELD.py"
+            ],
+            "count": 1
+        },
+        "deep_core_scan.json": {
+            "users": [
+                "DEEP_CORE_SCANNER.py"
+            ],
+            "count": 1
+        },
+        "C:\\\\IOTEC\\\\memoria_dialogo.json": {
+            "users": [
+                "dialogo.py"
+            ],
+            "count": 1
+        },
+        "ECONOMIC_AUDIT_REPORT.json": {
+            "users": [
+                "ECONOMIC_AUDIT_ENGINE.py",
+                "REVENUE_DISCOVERY_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "REPORT      : ECONOMIC_AUDIT_REPORT.json": {
+            "users": [
+                "ECONOMIC_AUDIT_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_ECONOMIC_REPORT.json": {
+            "users": [
+                "ECONOMIC_INTELLIGENCE.py"
+            ],
+            "count": 1
+        },
+        "feed.json": {
+            "users": [
+                "ECOSYSTEM_ACTIVATION.py",
+                "LIVE_OPERATING.py"
+            ],
+            "count": 2
+        },
+        "../content/feed.json": {
+            "users": [
+                "ECOSYSTEM_ACTIVATION.py"
+            ],
+            "count": 1
+        },
+        " [+] content/feed.json": {
+            "users": [
+                "ECOSYSTEM_ACTIVATION.py"
+            ],
+            "count": 1
+        },
+        "operacao_enterprise.json": {
+            "users": [
+                "ENTERPRISE_WEB_CORE.py"
+            ],
+            "count": 1
+        },
+        "event_log.json": {
+            "users": [
+                "event_bus_v8.py",
+                "event_bus_v9.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_EXECUTION_CORE.json": {
+            "users": [
+                "EXECUTION_CORE.py"
+            ],
+            "count": 1
+        },
+        "database/dashboard_data.json": {
+            "users": [
+                "EXECUTIVE_DASHBOARD.py"
+            ],
+            "count": 1
+        },
+        " [+] dashboard_data.json": {
+            "users": [
+                "EXECUTIVE_DASHBOARD.py"
+            ],
+            "count": 1
+        },
+        "experimentos.json": {
+            "users": [
+                "FILA_DE_EXPERIMENTACAO.py"
+            ],
+            "count": 1
+        },
+        "C:\\\\IOTEC\\\\CORE\\\\produtos.json": {
+            "users": [
+                "gerar_ordem.py"
+            ],
+            "count": 1
+        },
+        "C:\\\\IOTEC\\\\CORE\\\\ordens.json": {
+            "users": [
+                "gerar_ordem.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_GLOBAL_BROKER_REPORT.json": {
+            "users": [
+                "GLOBAL_ASSETS.py"
+            ],
+            "count": 1
+        },
+        "package.json": {
+            "users": [
+                "GLOBAL_REALTY.py",
+                "Global_Realty_Connected.py"
+            ],
+            "count": 2
+        },
+        " [+] package.json": {
+            "users": [
+                "GLOBAL_REALTY.py",
+                "Global_Realty_Connected.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_GLOBAL_FINANCIAL_CORE.json": {
+            "users": [
+                "GLOBAL_REALTY_01.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_RELATORIO_OPERACIONAL.json": {
+            "users": [
+                "GOVERNANA_OPERACIONAL.py"
+            ],
+            "count": 1
+        },
+        "ibex_results.json": {
+            "users": [
+                "HEAVY_STRESS.py"
+            ],
+            "count": 1
+        },
+        "{incident_id}.json": {
+            "users": [
+                "HIERARCHICA_ESCALATION.py"
+            ],
+            "count": 1
+        },
+        "]}_presidency.json": {
+            "users": [
+                "HIERARCHICA_ESCALATION.py"
+            ],
+            "count": 1
+        },
+        "governance_protocol.json": {
+            "users": [
+                "HIERARCHICA_ESCALATION.py"
+            ],
+            "count": 1
+        },
+        "core_monitoring.json": {
+            "users": [
+                "HIERARCHICA_ESCALATION.py"
+            ],
+            "count": 1
+        },
+        "HYPERCORE_SHIELD_REPORT.json": {
+            "users": [
+                "HYPERCORE_SHIELD.py"
+            ],
+            "count": 1
+        },
+        "HYPERSCALE_REPORT.json": {
+            "users": [
+                "HYPERSCALE_LAB.py"
+            ],
+            "count": 1
+        },
+        "IBEX_OUTPUT/ibex_results.json": {
+            "users": [
+                "IBEX_DASHBOARD.py"
+            ],
+            "count": 1
+        },
+        "ibex_clients.json": {
+            "users": [
+                "IBEX_UNIVERSAL.py"
+            ],
+            "count": 1
+        },
+        "IBEX_clients.json": {
+            "users": [
+                "IBEX_UNIVERSAL_RECEPTION.py"
+            ],
+            "count": 1
+        },
+        "identidade.json": {
+            "users": [
+                "IDENTIDADE_DINMICA_DO_NUCLEO.py",
+                "INTEGRACAO_COMPLETA.py"
+            ],
+            "count": 2
+        },
+        "tasks.json": {
+            "users": [
+                "INTEGRACAO_COMPLETA.py",
+                "SISTEMA_ESTRUTURADO_COM_VOZ.py"
+            ],
+            "count": 2
+        },
+        "perf.json": {
+            "users": [
+                "INTEGRACAO_COMPLETA.py"
+            ],
+            "count": 1
+        },
+        "VISUAL_IMPACT_REPORT.json": {
+            "users": [
+                "INTERNAL_DOMINANCE_GOVERNANCE.py"
+            ],
+            "count": 1
+        },
+        "inventario_corporativo.json": {
+            "users": [
+                "INVENTRIO_CORPORATIVO.py",
+                "INVENTRIO_INTELIGENTE.py"
+            ],
+            "count": 2
+        },
+        "urbanismo_logs.json": {
+            "users": [
+                "INVENTRIO_CORPORATIVO_IMPERIAL.py",
+                "URBANISMO_SISTMICO.py"
+            ],
+            "count": 2
+        },
+        "inventario_inteligente.json": {
+            "users": [
+                "INVENTRIO_INTELIGENTE.py"
+            ],
+            "count": 1
+        },
+        "MISSION_03_MASTER_INVENTORY.json": {
+            "users": [
+                "INVESTIGATION_02_FORMS_LOCATOR.py",
+                "MISSION_03_MASTER_INVENTORY.py"
+            ],
+            "count": 2
+        },
+        "iotec_core_report.json": {
+            "users": [
+                "INVESTIGATOR_TECHNICAL_TUTOR.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_SYSTEM_MAP.json": {
+            "users": [
+                "IOTEC_ARCHITECTURE_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "system_status.json": {
+            "users": [
+                "IOTEC_AUTOMATED_STRUCTURE_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "iotec_capability_map.json": {
+            "users": [
+                "IOTEC_CAPABILITY_HUNTER.py"
+            ],
+            "count": 1
+        },
+        " iotec_capability_map.json": {
+            "users": [
+                "IOTEC_CAPABILITY_HUNTER.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_MASTER_TOPOLOGY.json": {
+            "users": [
+                "IOTEC_CAPABILITY_POWER_AUDITOR.py",
+                "IOTEC_ENGINE_INTEGRATION_AUDITOR.py",
+                "IOTEC_MASTER_TOWER_BOOTSTRAP.py",
+                "IOTEC_MOTOR_ACTIVATION_AUDITOR.py",
+                "IOTEC_TOWER_DISCOVERY_ENGINE.py"
+            ],
+            "count": 5
+        },
+        "C:\\IOTEC\\IOTEC_CAPABILITY_POWER_REPORT.json": {
+            "users": [
+                "IOTEC_CAPABILITY_POWER_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_CONTROL_REPORT.json": {
+            "users": [
+                "IOTEC_CONTROL_PANEL.py"
+            ],
+            "count": 1
+        },
+        "\\nRelatÃ³rio salvo em: IOTEC_CONTROL_REPORT.json": {
+            "users": [
+                "IOTEC_CONTROL_PANEL.py"
+            ],
+            "count": 1
+        },
+        "fila_tarefas.json": {
+            "users": [
+                "iotec_core.py"
+            ],
+            "count": 1
+        },
+        "iotec_fluxo.json": {
+            "users": [
+                "IOTEC_CORE_24H.py",
+                "IOTEC_CORE_EMAIL_24H.py",
+                "IOTEC_PANEL_24H.py"
+            ],
+            "count": 3
+        },
+        "C:\\IOTEC\\IOTEC_DATA_HIGHWAY_REPORT.json": {
+            "users": [
+                "IOTEC_DATA_HIGHWAY_DISCOVERY.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_ENGINE_INTEGRATION_REPORT.json": {
+            "users": [
+                "IOTEC_ENGINE_INTEGRATION_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_FLOW_DISCOVERY_REPORT.json": {
+            "users": [
+                "IOTEC_FLOW_DISCOVERY_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "iotec_governanca.json": {
+            "users": [
+                "iotec_governor_layer.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_MASTER_TOWER.json": {
+            "users": [
+                "IOTEC_KNOWLEDGE_WAREHOUSE_ENGINE.py",
+                "IOTEC_MASTER_TOWER_BOOTSTRAP.py",
+                "IOTEC_TOTAL_CAPABILITY_AUDITOR.py"
+            ],
+            "count": 3
+        },
+        "C:\\IOTEC\\IOTEC_LIVE_CORE_REPORT.json": {
+            "users": [
+                "IOTEC_LIVE_CORE_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "memoria_clientes.json": {
+            "users": [
+                "IOTEC_MEMORY_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_MOTOR_ACTIVATION_REPORT.json": {
+            "users": [
+                "IOTEC_MOTOR_ACTIVATION_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_NEURAL_BRAIN_FINAL.json": {
+            "users": [
+                "IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py"
+            ],
+            "count": 1
+        },
+        "\\nRelatÃ³rio salvo: IOTEC_NEURAL_BRAIN_FINAL.json": {
+            "users": [
+                "IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py"
+            ],
+            "count": 1
+        },
+        "financial_report.json": {
+            "users": [
+                "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_NEURAL_MAP_CLEAN.json": {
+            "users": [
+                "IOTEC_NEURAL_MAP_AUTO_FIX.py"
+            ],
+            "count": 1
+        },
+        "\\nRelatÃ³rio salvo: IOTEC_NEURAL_MAP_CLEAN.json": {
+            "users": [
+                "IOTEC_NEURAL_MAP_AUTO_FIX.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_NEURAL_MAP_SAFE_REPORT.json": {
+            "users": [
+                "IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py"
+            ],
+            "count": 1
+        },
+        "\\nRelatÃ³rio salvo: IOTEC_NEURAL_MAP_SAFE_REPORT.json": {
+            "users": [
+                "IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py"
+            ],
+            "count": 1
+        },
+        "C:\\IOTEC\\IOTEC_OPERATION_GRID.json": {
+            "users": [
+                "IOTEC_OPERATION_GRID_ENGINE.py",
+                "IOTEC_PRODUCTION_LEDGER.py"
+            ],
+            "count": 2
+        },
+        "C:\\IOTEC\\IOTEC_PRODUCTION_LEDGER.json": {
+            "users": [
+                "IOTEC_PRODUCTION_LEDGER.py"
+            ],
+            "count": 1
+        },
+        "programming_grid.json": {
+            "users": [
+                "IOTEC_PROGRAMMING_GRID_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "REVENUE_INTELLIGENCE_MAP.json": {
+            "users": [
+                "IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py"
+            ],
+            "count": 1
+        },
+        "CAPABILITY_MAP.json": {
+            "users": [
+                "IOTEC_REVENUE_IDENTITY_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "iotec_mapa_arquitetural.json": {
+            "users": [
+                "iotec_sonda_arquitetural.py"
+            ],
+            "count": 1
+        },
+        "sonda_relatorio.json": {
+            "users": [
+                "iotec_sonda_core.py"
+            ],
+            "count": 1
+        },
+        "iotec_registry.json": {
+            "users": [
+                "20260512_183920_Iotec_Spine_Core.py",
+                "Iotec_Spine_Core_Architecture.py"
+            ],
+            "count": 2
+        },
+        "iotec_config.json": {
+            "users": [
+                "IOTEC_STABILITY_CORE.py",
+                "visible_core_api.py",
+                "visible_core_router.AUTO_BACKUP.py",
+                "visible_core_router.PREPARSER_BACKUP.py",
+                "visible_core_router.SAFE_BACKUP.py",
+                "visible_core_router.STRUCTURE_BACKUP.py",
+                "visible_core_router.backup.py",
+                "visible_core_router.py",
+                "visible_core_router.rebuild_backup.py"
+            ],
+            "count": 9
+        },
+        "C:\\IOTEC\\IOTEC_TOTAL_CAPABILITIES_REPORT.json": {
+            "users": [
+                "IOTEC_TOTAL_CAPABILITY_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "estado.json": {
+            "users": [
+                "IOTEC_TRAFFIC_CONTROLLER.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_UNIFIED_BRAIN_REPORT.json": {
+            "users": [
+                "IOTEC_UNIFIED_BRAIN.py",
+                "IOTEC_UNIFIED_BRAIN_BACKUP.py"
+            ],
+            "count": 2
+        },
+        "\\nRelatÃ³rio salvo: IOTEC_UNIFIED_BRAIN_REPORT.json": {
+            "users": [
+                "IOTEC_UNIFIED_BRAIN.py",
+                "IOTEC_UNIFIED_BRAIN_BACKUP.py"
+            ],
+            "count": 2
+        },
+        "C:\\IOTEC\\IOTEC_UTILIZATION_REPORT.json": {
+            "users": [
+                "IOTEC_UTILIZATION_AUDITOR.py"
+            ],
+            "count": 1
+        },
+        "LIVE_FUNNEL_TRACE.json": {
+            "users": [
+                "LIVE_FUNNEL_TRACE.py"
+            ],
+            "count": 1
+        },
+        "../data/feed.json": {
+            "users": [
+                "LIVE_OPERATING.py"
+            ],
+            "count": 1
+        },
+        " [+] data/feed.json": {
+            "users": [
+                "LIVE_OPERATING.py"
+            ],
+            "count": 1
+        },
+        "orders.json": {
+            "users": [
+                "live_tower_monitor.py"
+            ],
+            "count": 1
+        },
+        "C:\\\\IOTEC\\\\CORE\\\\log.json": {
+            "users": [
+                "log_writer.py"
+            ],
+            "count": 1
+        },
+        "LIVE_OPERATIONAL_STATUS.json": {
+            "users": [
+                "LOTE_OPERATIONAL.py"
+            ],
+            "count": 1
+        },
+        "performance.json": {
+            "users": [
+                "MEMORIA_DE_PERFORMACE.py"
+            ],
+            "count": 1
+        },
+        "MEMORY_FORTRESS_REPORT.json": {
+            "users": [
+                "MEMORY_FORTRESS.py"
+            ],
+            "count": 1
+        },
+        "META_ENGINE_RELATORIO.json": {
+            "users": [
+                "META_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "MISSION_01_CAPABILITY_REPORT.json": {
+            "users": [
+                "MISSION_01_CAPABILITY_CATALOG.py",
+                "MISSION_02_PRODUCT_DISCOVERY.py"
+            ],
+            "count": 2
+        },
+        "C:\\\\IOTEC\\\\financeiro\\\\pagamentos.json": {
+            "users": [
+                "monitor_paypal.py"
+            ],
+            "count": 1
+        },
+        "live_metrics.json": {
+            "users": [
+                "NEXUS_CORE.py",
+                "NEXUS_REALTIME.py"
+            ],
+            "count": 2
+        },
+        "../logs/live_metrics.json": {
+            "users": [
+                "NEXUS_REALTIME.py"
+            ],
+            "count": 1
+        },
+        "eventos.json": {
+            "users": [
+                "coletor_email.py",
+                "motor_producao.py",
+                "nucleo_api.py",
+                "orquestrador.py",
+                "painel_vivo.py"
+            ],
+            "count": 5
+        },
+        "log.json": {
+            "users": [
+                "nucleo_api.py"
+            ],
+            "count": 1
+        },
+        "livro_caixa.json": {
+            "users": [
+                "nucleo_financeiro.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_NUCLEUS_REPORT.json": {
+            "users": [
+                "NUCLEUS_INVESTIGATION.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_REALITY_EXECUTION_ENGINE.json": {
+            "users": [
+                "NUCLEUS_LIVE.py",
+                "REALITY_EXECUTION.py"
+            ],
+            "count": 2
+        },
+        "NUCLEUS_STRESS_REPORT.json": {
+            "users": [
+                "NUCLEUS_STRESS_TEST.py"
+            ],
+            "count": 1
+        },
+        "configs/config.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        "database/client_database.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        "licenses/license.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        " [+] config.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        " [+] client_database.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        " [+] license.json": {
+            "users": [
+                "NUCLEU_ENTERPRISE.py"
+            ],
+            "count": 1
+        },
+        "sector_manifest.json": {
+            "users": [
+                "OCCUPY_CORE.py"
+            ],
+            "count": 1
+        },
+        "{agent_name}.json": {
+            "users": [
+                "OCCUPY_CORE.py"
+            ],
+            "count": 1
+        },
+        "OFFICIAL_FUNNEL.json": {
+            "users": [
+                "OFFICIAL_FUNNEL_LOCKER.py"
+            ],
+            "count": 1
+        },
+        "OFFICIAL_FUNNEL_VALIDATION_REPORT.json": {
+            "users": [
+                "OFFICIAL_FUNNEL_VALIDATOR.py"
+            ],
+            "count": 1
+        },
+        "nucleo.json": {
+            "users": [
+                "OMEGA_CINEMATIC.py"
+            ],
+            "count": 1
+        },
+        "ORBITAL_EVOLUTION_REPORT.json": {
+            "users": [
+                "ORBITAL_EVOLUTION.py"
+            ],
+            "count": 1
+        },
+        "file:///C:/IOTEC/financeiro/livro_caixa.json": {
+            "users": [
+                "painel_IOTEC.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_SALES_LANGUAGE.json": {
+            "users": [
+                "PRODUCT_TRANSLATION.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        "QUANTUM_GOVERNANCE_REPORT.json": {
+            "users": [
+                "QUANTUM_GOVERNANCE.py"
+            ],
+            "count": 1
+        },
+        "database/live_data.json": {
+            "users": [
+                "REALTIME_EXECUTIVE.py"
+            ],
+            "count": 1
+        },
+        "../database/live_data.json": {
+            "users": [
+                "REALTIME_EXECUTIVE.py"
+            ],
+            "count": 1
+        },
+        " [+] live_data.json": {
+            "users": [
+                "REALTIME_EXECUTIVE.py"
+            ],
+            "count": 1
+        },
+        "lead_{int(time.time())}.json": {
+            "users": [
+                "REALTIME_SIGNAL.py",
+                "VISUAL_PROGRAMMING_CURATOR.py"
+            ],
+            "count": 2
+        },
+        "payment_{int(time.time())}.json": {
+            "users": [
+                "REALTIME_SIGNAL.py",
+                "VISUAL_PROGRAMMING_CURATOR.py"
+            ],
+            "count": 2
+        },
+        "LIVE_STATUS.json": {
+            "users": [
+                "REALTIME_SIGNAL.py",
+                "VISUAL_PROGRAMMING_CURATOR.py"
+            ],
+            "count": 2
+        },
+        "REAL_TIME_TOWER.json": {
+            "users": [
+                "REAL_TIME.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        "REGISTRY/registry.json": {
+            "users": [
+                "registry_core.py"
+            ],
+            "count": 1
+        },
+        "REVELATION_REPORT.json": {
+            "users": [
+                "REVELATION_ENGINE.py",
+                "REVELATION_ENGINE_01.py"
+            ],
+            "count": 2
+        },
+        "REVENUE_DISCOVERY_REPORT.json": {
+            "users": [
+                "REVENUE_DISCOVERY_ENGINE.py",
+                "TOP_ASSETS_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "REVENUE_READINESS_REPORT.json": {
+            "users": [
+                "REVENUE_READINESS_AUDIT.py"
+            ],
+            "count": 1
+        },
+        "CENTRAL_GOVERNANCE_REPORT.json": {
+            "users": [
+                "ROCKBOOST_CENTRAL.py"
+            ],
+            "count": 1
+        },
+        "ROCKBOOST_REPORT.json": {
+            "users": [
+                "ROCKBOOST_GOVERNANCE.py"
+            ],
+            "count": 1
+        },
+        "ROCKBOOST_MEMORY_REPORT.json": {
+            "users": [
+                "ROCKBOOST_MEMORY.py"
+            ],
+            "count": 1
+        },
+        "ROCKBOOST_ORBITAL_REPORT.json": {
+            "users": [
+                "ROCKBOOST_ORBITAL.py",
+                "ROCKBOOST_ORBITAL_.py",
+                "ROCKBOOST_ORBITAL_ENGINE.py"
+            ],
+            "count": 3
+        },
+        "ROCKBOOST_RECOVERY_REPORT.json": {
+            "users": [
+                "ROCKBOOST_RECOVERY.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_RUNTIME_STATE.json": {
+            "users": [
+                "RUNTIME_GOVERNOR.py"
+            ],
+            "count": 1
+        },
+        "IOTEC_SALES_EXPERIENCE_CORE.json": {
+            "users": [
+                "SALES_EXPERIENCE.py",
+                "STRATEGIC_READER.py"
+            ],
+            "count": 2
+        },
+        ")}.json": {
+            "users": [
+                "sonda_interna_de_integridade.py"
+            ],
+            "count": 1
+        },
+        "STRATEGIC_CATALOG_REPORT.json": {
+            "users": [
+                "STRATEGIC_CATALOG_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "TITAN_REPORT.json": {
+            "users": [
+                "TITAN_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "TOP_ASSETS_REPORT.json": {
+            "users": [
+                "TOP_ASSETS_ENGINE.py"
+            ],
+            "count": 1
+        },
+        "PAYMENTS.json": {
+            "users": [
+                "TOWER_LIVE.py"
+            ],
+            "count": 1
+        },
+        "mapa_estrategico.json": {
+            "users": [
+                "VISUALIZADOR_ESTRATGICO.py"
+            ],
+            "count": 1
+        },
+        "nucleo_estado.json": {
+            "users": [
+                "iotec_cockpit_pleno.py",
+                "iotec_cockpit_pleno_v2.py"
+            ],
+            "count": 2
+        },
+        "checkpoint_migracao.json": {
+            "users": [
+                "iotec_cockpit_pleno.py",
+                "iotec_cockpit_pleno_v2.py"
+            ],
+            "count": 2
+        },
+        "modelo_relatorio_falhas.json": {
+            "users": [
+                "iotec_cockpit_pleno.py",
+                "iotec_cockpit_pleno_v2.py"
+            ],
+            "count": 2
+        },
+        "ordens.json": {
+            "users": [
+                "motor_producao.py"
+            ],
+            "count": 1
+        },
+        "data/iotec_registry.json": {
+            "users": [
+                "persistence.py"
+            ],
+            "count": 1
+        },
+        "nucleus_config.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "collect_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "sanitize_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "analyze_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "produce_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "expose_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "integrate_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "monitor_result.json": {
+            "users": [
+                "iotec_nucleus.py"
+            ],
+            "count": 1
+        },
+        "erp_cliente_contract.json": {
+            "users": [
+                "iotec_nucleus.py",
+                "visible_core_router.AUTO_BACKUP.py",
+                "visible_core_router.PREPARSER_BACKUP.py",
+                "visible_core_router.SAFE_BACKUP.py",
+                "visible_core_router.STRUCTURE_BACKUP.py",
+                "visible_core_router.backup.py",
+                "visible_core_router.py",
+                "visible_core_router.rebuild_backup.py"
+            ],
+            "count": 8
+        },
+        "erp_cliente_mapping.json": {
+            "users": [
+                "iotec_nucleus.py",
+                "visible_core_router.AUTO_BACKUP.py",
+                "visible_core_router.PREPARSER_BACKUP.py",
+                "visible_core_router.SAFE_BACKUP.py",
+                "visible_core_router.STRUCTURE_BACKUP.py",
+                "visible_core_router.backup.py",
+                "visible_core_router.py",
+                "visible_core_router.rebuild_backup.py"
+            ],
+            "count": 8
+        },
+        "seal_registry.json": {
+            "users": [
+                "seal_guard.py"
+            ],
+            "count": 1
+        },
+        "catalogo_produtos.json": {
+            "users": [
+                "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py"
+            ],
+            "count": 1
+        },
+        "mapeamento_pagamentos.json": {
+            "users": [
+                "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py"
+            ],
+            "count": 1
+        },
+        "pagamentos_encontrados.json": {
+            "users": [
+                "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py"
+            ],
+            "count": 1
+        },
+        "catalogo_backup_{TIMESTAMP}.json": {
+            "users": [
+                "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py"
+            ],
+            "count": 1
+        },
+        "{ts}_{prefix}.json": {
+            "users": [
+                "helpers.py"
+            ],
+            "count": 1
+        },
+        "corporate_output.json": {
+            "users": [
+                "corporate_nucleus.py"
+            ],
+            "count": 1
+        },
+        "integration_output.json": {
+            "users": [
+                "integration_nucleus.py"
+            ],
+            "count": 1
+        },
+        "handoff_package.json": {
+            "users": [
+                "integration_nucleus.py"
+            ],
+            "count": 1
+        },
+        "miner_output.json": {
+            "users": [
+                "miner_nucleus.py"
+            ],
+            "count": 1
+        },
+        "asset_ranking.json": {
+            "users": [
+                "miner_nucleus.py"
+            ],
+            "count": 1
+        },
+        "asset_catalog.json": {
+            "users": [
+                "miner_nucleus.py"
+            ],
+            "count": 1
+        },
+        "telemetry_output.json": {
+            "users": [
+                "telemetry_nucleus.py"
+            ],
+            "count": 1
+        },
+        "validation_output.json": {
+            "users": [
+                "validation_nucleus.py"
+            ],
+            "count": 1
+        },
+        "visual_output.json": {
+            "users": [
+                "visual_nucleus.py"
+            ],
+            "count": 1
+        },
+        "provas_db.json": {
+            "users": [
+                "server.py"
+            ],
+            "count": 1
+        },
+        "STATUS_SANEAMENTO_PAYPAL.json": {
+            "users": [
+                "IOTEC_AUDITOR_PAYPAL.py"
+            ],
+            "count": 1
+        },
+        "HISTORICO_CORRECOES_PAYPAL.json": {
+            "users": [
+                "IOTEC_AUDITOR_PAYPAL.py"
+            ],
+            "count": 1
+        },
+        "AUDITORIA_FLUXO_PAYPAL.json": {
+            "users": [
+                "IOTEC_AUDITOR_PAYPAL.py"
+            ],
+            "count": 1
+        },
+        "paypal_local_config.json": {
+            "users": [
+                "IOTEC_AUDITOR_PAYPAL.py"
+            ],
+            "count": 1
+        },
+        "complexo_dados.json": {
+            "users": [
+                "class.Complexo.py"
+            ],
+            "count": 1
+        },
+        "credenciais.json": {
+            "users": [
+                "class.Omega.Permissao.py"
+            ],
+            "count": 1
+        },
+        "log_execucoes_{intervalo}.json": {
+            "users": [
+                "datetime.datetime.now.py"
+            ],
+            "count": 1
+        },
+        "relatorio.json": {
+            "users": [
+                "IOTEC_DUAL_EXPERIENCE.py"
+            ],
+            "count": 1
+        },
+        "C:/Users/Bruno Lopes/Desktop/Neo_System_Core/conversa_log.json": {
+            "users": [
+                "monitoramento.py"
+            ],
+            "count": 1
+        },
+        "ranking.json": {
+            "users": [
+                "portal_visual_iotec.py",
+                "ranking_iotec.py"
+            ],
+            "count": 2
+        },
+        "origin.json": {
+            "users": [
+                "cache.py"
+            ],
+            "count": 1
+        },
+        "direct_url.json": {
+            "users": [
+                "direct_url.py"
+            ],
+            "count": 1
+        },
+        "pydist-exports.json": {
+            "users": [
+                "database.py"
+            ],
+            "count": 1
+        },
+        "pydist-commands.json": {
+            "users": [
+                "database.py"
+            ],
+            "count": 1
+        },
+        "pydist.json": {
+            "users": [
+                "metadata.py"
+            ],
+            "count": 1
+        },
+        "metadata.json": {
+            "users": [
+                "metadata.py"
+            ],
+            "count": 1
+        },
+        "%s/%s/project.json": {
+            "users": [
+                "util.py"
+            ],
+            "count": 1
+        },
+        "%s/%s/package-%s.json": {
+            "users": [
+                "util.py"
+            ],
+            "count": 1
+        },
+        "*.json": {
+            "users": [
+                "_mapping.py"
+            ],
+            "count": 1
+        },
+        "input.json": {
+            "users": [
+                "_impl.py",
+                "_in_process.py"
+            ],
+            "count": 2
+        },
+        "output.json": {
+            "users": [
+                "_impl.py",
+                "_in_process.py"
+            ],
+            "count": 2
+        },
+        "http://encoding.spec.whatwg.org/encodings.json": {
+            "users": [
+                "mklabels.py"
+            ],
+            "count": 1
+        },
+        "state.json": {
+            "users": [
+                "msvc.py"
+            ],
+            "count": 1
+        }
+    },
+    "shared_files": {
+        "IOTEC_NEURAL_MAP_REPORT.json": {
+            "users": [
+                "BACKUP_NEURAL_MAP_ENGINE.py",
+                "IOTEC_NEURAL_MAP_ENGINE.py"
+            ],
+            "count": 2
+        },
+        "IOTEC_UNIFIED_BRAIN_REPORT.json": {
+            "users": [
+                "IOTEC_UNIFIED_BRAIN.py",
+                "IOTEC_UNIFIED_BRAIN_BACKUP.py"
+            ],
+            "count": 2
+        },
+        "MISSION_01_CAPABILITY_REPORT.json": {
+            "users": [
+                "MISSION_01_CAPABILITY_CATALOG.py",
+                "MISSION_02_PRODUCT_DISCOVERY.py"
+            ],
+            "count": 2
+        },
+        "log_karenage.txt": {
+            "users": [
+                "Cognitivo.Karenage.py",
+                "datetime.py"
+            ],
+            "count": 2
+        }
+    }
+}

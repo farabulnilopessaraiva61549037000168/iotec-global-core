@@ -1,0 +1,38 @@
+{
+    "estatisticas": {
+        "categorias": 6,
+        "fontes": 0,
+        "vazias": 6
+    },
+    "catalogo": {
+        "version": "1.0",
+        "status": "ATIVO",
+        "ultima_atualizacao": "2026-06-13 12:48:58.292138",
+        "categorias": {
+            "EMPRESAS": {
+                "status": "PENDENTE",
+                "fontes": []
+            },
+            "ESCOLAS": {
+                "status": "PENDENTE",
+                "fontes": []
+            },
+            "UNIVERSIDADES": {
+                "status": "PENDENTE",
+                "fontes": []
+            },
+            "FORNECEDORES": {
+                "status": "PENDENTE",
+                "fontes": []
+            },
+            "TERCEIRIZADAS": {
+                "status": "PENDENTE",
+                "fontes": []
+            },
+            "PARCEIROS": {
+                "status": "PENDENTE",
+                "fontes": []
+            }
+        }
+    }
+}

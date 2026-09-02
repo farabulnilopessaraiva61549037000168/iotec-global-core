@@ -1,0 +1,942 @@
+{
+    "total": 198,
+    "real": 4,
+    "provavel_real": 27,
+    "desconhecido": 109,
+    "simulado": 58,
+    "campos": {},
+    "registros": [
+        {
+            "arquivo": "COMMAND_TOWER_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "eventos.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IBEX_clients.json",
+            "status": "PROVAVEL_REAL",
+            "score": 4
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "status": "REAL",
+            "score": 7
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "status": "REAL",
+            "score": 7
+        },
+        {
+            "arquivo": "IOTEC_BUSINESS_DATA_REPORT.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "iotec_core_report.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "IOTEC_DAILY_GROWTH_MISSION.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IOTEC_DATA_QUALITY_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "IOTEC_ECONOMIC_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "status": "REAL",
+            "score": 7
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_COMMAND_CENTER.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "status": "REAL",
+            "score": 8
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "IOTEC_TRACTION_REPORT.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "REAL_TIME_TOWER.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "package.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "test.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "globals.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "ordens.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "brands.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_1052.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "contrato.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "ficha.json",
+            "status": "PROVAVEL_REAL",
+            "score": 4
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "issue.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "manifesto.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_dados_financeiros.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_regulus_finance_BACKUP.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "brands.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_1052.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "contrato.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "ficha.json",
+            "status": "PROVAVEL_REAL",
+            "score": 4
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "issue.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "log_ENV_EA981A970B.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "manifesto.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "ordens.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_dados_financeiros.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_regulus_finance_BACKUP.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_financeiro.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "dados_financeiros.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "financeiro_regulus_2026-03-29_11-42-17.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "regulus_finance_BACKUP.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "reparado_regulus_finance.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "4ab10179e578c4421552ab639aef64aa.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "agente_contratual.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Blindagem_Regulus_20251214_153923.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "bolt_balanco_comercial_20260401_220347.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "brands.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "CLI-169525A6BBEC.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "CLI-81ED36E00BCD.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "cobrancas.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "config_1052.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "contrato.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "doutrina_regulus.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "envelope_technical.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "envio_2026-03-29_13-34-50.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "ficha.json",
+            "status": "PROVAVEL_REAL",
+            "score": 4
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "issue.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "manifesto.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "mapa_estrategico.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "mensalidade_2026-03.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "ordens.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-36.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_envios_2026-03-29_13-45-42.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-14.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_licenciamento_2026-03-29_13-07-19.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "painel_mestre_2026-03-29_13-58-54.json",
+            "status": "PROVAVEL_REAL",
+            "score": 5
+        },
+        {
+            "arquivo": "painel_nucleo_2026-03-29_10-20-57.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "RELATORIO_AGENTES_CONTRATUAIS.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "Relatorio_Credito_Regulus_20251214_152950.json",
+            "status": "DESCONHECIDO",
+            "score": 0
+        },
+        {
+            "arquivo": "RELATORIO_ENVIO_COBRANCAS.json",
+            "status": "PROVAVEL_REAL",
+            "score": 3
+        },
+        {
+            "arquivo": "RELATORIO_MENSALIDADES.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "relatorio_publicidade.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "sub_7f3071b822b89985_clean.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "usuarios_db.json",
+            "status": "DESCONHECIDO",
+            "score": 2
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "package.json",
+            "status": "SIMULADO"
+        },
+        {
+            "arquivo": "mapa_estrategico.json",
+            "status": "SIMULADO"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "MOD-A8AB672F",
+        "name": "Commercial Intelligence",
+        "category": "BUSINESS",
+        "priority": 10,
+        "status": "ACTIVE",
+        "description": "Recurring revenue intelligence"
+    },
+    {
+        "id": "MOD-01D239C8",
+        "name": "Luxury Media Engine",
+        "category": "MEDIA",
+        "priority": 8,
+        "status": "ACTIVE",
+        "description": "Premium visual communication"
+    },
+    {
+        "id": "MOD-174ECF60",
+        "name": "Automation Spine",
+        "category": "AUTOMATION",
+        "priority": 9,
+        "status": "ACTIVE",
+        "description": "Global orchestration infrastructure"
+    },
+    {
+        "id": "MOD-B974B856",
+        "name": "Technical Advisor",
+        "category": "COORDINATION",
+        "priority": 10,
+        "status": "ACTIVE",
+        "description": "Executive operational guidance"
+    }
+]

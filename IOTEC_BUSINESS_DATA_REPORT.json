@@ -1,0 +1,2304 @@
+{
+    "data": "2026-06-13 11:05:50.233634",
+    "arquivos_lidos": 7297,
+    "arquivos_comerciais": 197,
+    "campos_encontrados": {
+        "email": 94,
+        "empresa": 84,
+        "cliente": 74,
+        "whatsapp": 24,
+        "leads": 10,
+        "clientes": 7,
+        "cidade": 7,
+        "estado": 6,
+        "cnpj": 4,
+        "segmento": 3,
+        "contato": 1,
+        "site": 1
+    },
+    "arquivos_relevantes": [
+        {
+            "arquivo": "C:\\IOTEC\\REAL_TIME_TOWER.json",
+            "bytes": 588831,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\iotec_core_report.json",
+            "bytes": 150442,
+            "campos": [
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\COMMAND_TOWER_REPORT.json",
+            "bytes": 124508,
+            "campos": [
+                "clientes",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\globals\\globals.json",
+            "bytes": 102706,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\mapa_estrategico.json",
+            "bytes": 83664,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\VISUALIZADOR_ESTRATEGICO\\mapa_estrategico.json",
+            "bytes": 83664,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DATA_QUALITY_REPORT.json",
+            "bytes": 16731,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fast-json-stable-stringify\\benchmark\\test.json",
+            "bytes": 3828,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACROPOLE_CITY.json",
+            "bytes": 3454,
+            "campos": [
+                "cidade",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\qs\\package.json",
+            "bytes": 3151,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\has-symbols\\package.json",
+            "bytes": 2974,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\globals\\package.json",
+            "bytes": 2966,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\object-inspect\\package.json",
+            "bytes": 2841,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\zod-validation-error\\package.json",
+            "bytes": 2706,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "bytes": 2554,
+            "campos": [
+                "cliente",
+                "clientes",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REALTY_CORE.json",
+            "bytes": 2497,
+            "campos": [
+                "cidade",
+                "clientes",
+                "cnpj",
+                "contato",
+                "email",
+                "empresa",
+                "leads",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACROPOLE_GLOBAL.json",
+            "bytes": 2395,
+            "campos": [
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\function-bind\\package.json",
+            "bytes": 2262,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fraction.js\\package.json",
+            "bytes": 1756,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\fraction.js\\package.json",
+            "bytes": 1756,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\escalade\\package.json",
+            "bytes": 1461,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\escalade\\package.json",
+            "bytes": 1461,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fast-json-stable-stringify\\package.json",
+            "bytes": 1257,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\esrecurse\\package.json",
+            "bytes": 1165,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ECONOMIC_REPORT.json",
+            "bytes": 1132,
+            "campos": [
+                "clientes",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\destroy\\package.json",
+            "bytes": 1128,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\acorn\\package.json",
+            "bytes": 1061,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\safe-buffer\\package.json",
+            "bytes": 1057,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\esutils\\package.json",
+            "bytes": 1042,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\merge-descriptors\\package.json",
+            "bytes": 1028,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\estraverse\\package.json",
+            "bytes": 1009,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\json-stable-stringify-without-jsonify\\package.json",
+            "bytes": 991,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\deep-is\\package.json",
+            "bytes": 953,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\p-locate\\package.json",
+            "bytes": 942,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\mime\\package.json",
+            "bytes": 933,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\p-limit\\package.json",
+            "bytes": 928,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_licenciamento_2026-03-29_13-07-14.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_licenciamento_2026-03-29_13-07-19.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_licenciamento_2026-03-29_13-07-14.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_licenciamento_2026-03-29_13-07-19.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_licenciamento_2026-03-29_13-07-14.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_licenciamento_2026-03-29_13-07-19.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\find-up\\package.json",
+            "bytes": 917,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_nucleo_2026-03-29_10-20-57.json",
+            "bytes": 910,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_nucleo_2026-03-29_10-20-57.json",
+            "bytes": 910,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_nucleo_2026-03-29_10-20-57.json",
+            "bytes": 910,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\array-flatten\\package.json",
+            "bytes": 879,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\ee-first\\package.json",
+            "bytes": 859,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\utils-merge\\package.json",
+            "bytes": 857,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\safer-buffer\\package.json",
+            "bytes": 822,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\imurmurhash\\package.json",
+            "bytes": 818,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\convert-source-map\\package.json",
+            "bytes": 804,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\locate-path\\package.json",
+            "bytes": 786,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\envio_2026-03-29_13-34-50.json",
+            "bytes": 783,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\log_ENV_EA981A970B.json",
+            "bytes": 783,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\envio_2026-03-29_13-34-50.json",
+            "bytes": 783,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\log_ENV_EA981A970B.json",
+            "bytes": 783,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\envio_2026-03-29_13-34-50.json",
+            "bytes": 783,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\config_1052.json",
+            "bytes": 768,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\config_1052.json",
+            "bytes": 768,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\config_1052.json",
+            "bytes": 768,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\object-assign\\package.json",
+            "bytes": 764,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\@alloc\\quick-lru\\package.json",
+            "bytes": 747,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\caniuse-lite\\package.json",
+            "bytes": 742,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\caniuse-lite\\package.json",
+            "bytes": 742,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\yocto-queue\\package.json",
+            "bytes": 725,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\contrato.json",
+            "bytes": 709,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\contrato.json",
+            "bytes": 709,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\contrato.json",
+            "bytes": 709,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\escape-string-regexp\\package.json",
+            "bytes": 686,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\path-key\\package.json",
+            "bytes": 650,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_GROWTH_COMMAND_CENTER.json",
+            "bytes": 643,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Licencas_CLIENTE DEMO_20251214_153219.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Licencas_CLIENTE DEMO_20251214_180538.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Licencas_CLIENTE DEMO_20251214_153219.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Licencas_CLIENTE DEMO_20251214_180538.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Licencas_CLIENTE DEMO_20251214_153219.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Licencas_CLIENTE DEMO_20251214_180538.json",
+            "bytes": 637,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_finance_BACKUP.json",
+            "bytes": 622,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_regulus_finance_BACKUP.json",
+            "bytes": 622,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\regulus_finance_BACKUP.json",
+            "bytes": 622,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\reparado_regulus_finance_BACKUP.json",
+            "bytes": 622,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\regulus_finance_BACKUP.json",
+            "bytes": 622,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\path-exists\\package.json",
+            "bytes": 607,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\mensalidade_2026-03.json",
+            "bytes": 587,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\mensalidade_2026-03.json",
+            "bytes": 587,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\mensalidade_2026-03.json",
+            "bytes": 587,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\shebang-regex\\package.json",
+            "bytes": 582,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\acorn-jsx\\package.json",
+            "bytes": 581,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\agente_contratual.json",
+            "bytes": 573,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\agente_contratual.json",
+            "bytes": 573,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\agente_contratual.json",
+            "bytes": 573,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\envelope_technical.json",
+            "bytes": 569,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\envelope_technical.json",
+            "bytes": 569,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\envelope_technical.json",
+            "bytes": 569,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\shebang-command\\package.json",
+            "bytes": 558,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "bytes": 557,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_finance.json",
+            "bytes": 467,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\regulus_finance.json",
+            "bytes": 467,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\regulus_finance.json",
+            "bytes": 467,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_regulus_finance.json",
+            "bytes": 465,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\reparado_regulus_finance.json",
+            "bytes": 465,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\reparado_regulus_finance.json",
+            "bytes": 465,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDROECONOMIC_REPORT.json",
+            "bytes": 426,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\sub_7f3071b822b89985_clean.json",
+            "bytes": 416,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\sub_7f3071b822b89985_clean.json",
+            "bytes": 416,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\sub_7f3071b822b89985_clean.json",
+            "bytes": 416,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\CLI-169525A6BBEC.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\CLI-81ED36E00BCD.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CLI-169525A6BBEC.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CLI-81ED36E00BCD.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CLI-169525A6BBEC.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CLI-81ED36E00BCD.json",
+            "bytes": 321,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IBEX_clients.json",
+            "bytes": 302,
+            "campos": [
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_TRACTION_REPORT.json",
+            "bytes": 300,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\config_financeiro.json",
+            "bytes": 251,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\config_financeiro.json",
+            "bytes": 251,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\config_financeiro.json",
+            "bytes": 251,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DAILY_GROWTH_MISSION.json",
+            "bytes": 249,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\core\\ordens.json",
+            "bytes": 242,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ordens.json",
+            "bytes": 242,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ordens.json",
+            "bytes": 242,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\memoria_clientes.json",
+            "bytes": 221,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\memoria_clientes.json",
+            "bytes": 221,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\memoria_clientes.json",
+            "bytes": 221,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\eventos.json",
+            "bytes": 216,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\4ab10179e578c4421552ab639aef64aa.json",
+            "bytes": 214,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\4ab10179e578c4421552ab639aef64aa.json",
+            "bytes": 214,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\4ab10179e578c4421552ab639aef64aa.json",
+            "bytes": 214,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\dados_financeiros.json",
+            "bytes": 82,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_dados_financeiros.json",
+            "bytes": 82,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\dados_financeiros.json",
+            "bytes": 82,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\reparado_dados_financeiros.json",
+            "bytes": 82,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\dados_financeiros.json",
+            "bytes": 82,
+            "campos": [
+                "empresa"
+            ]
+        }
+    ],
+    "top_reservatorios": [
+        {
+            "arquivo": "C:\\IOTEC\\REAL_TIME_TOWER.json",
+            "bytes": 588831,
+            "campos": [
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\iotec_core_report.json",
+            "bytes": 150442,
+            "campos": [
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\COMMAND_TOWER_REPORT.json",
+            "bytes": 124508,
+            "campos": [
+                "clientes",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\issue.json",
+            "bytes": 117105,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\globals\\globals.json",
+            "bytes": 102706,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\mapa_estrategico.json",
+            "bytes": 83664,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\VISUALIZADOR_ESTRATEGICO\\mapa_estrategico.json",
+            "bytes": 83664,
+            "campos": [
+                "cidade",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DATA_QUALITY_REPORT.json",
+            "bytes": 16731,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\relatorio_publicidade.json",
+            "bytes": 6016,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\usuarios_db.json",
+            "bytes": 4281,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fast-json-stable-stringify\\benchmark\\test.json",
+            "bytes": 3828,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACROPOLE_CITY.json",
+            "bytes": 3454,
+            "campos": [
+                "cidade",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\qs\\package.json",
+            "bytes": 3151,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\has-symbols\\package.json",
+            "bytes": 2974,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\globals\\package.json",
+            "bytes": 2966,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\object-inspect\\package.json",
+            "bytes": 2841,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\zod-validation-error\\package.json",
+            "bytes": 2706,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\manifesto.json",
+            "bytes": 2638,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "bytes": 2554,
+            "campos": [
+                "cliente",
+                "clientes",
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REALTY_CORE.json",
+            "bytes": 2497,
+            "campos": [
+                "cidade",
+                "clientes",
+                "cnpj",
+                "contato",
+                "email",
+                "empresa",
+                "leads",
+                "site"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACROPOLE_GLOBAL.json",
+            "bytes": 2395,
+            "campos": [
+                "cnpj",
+                "email",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Blindagem_Regulus_20251214_153923.json",
+            "bytes": 2292,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\function-bind\\package.json",
+            "bytes": 2262,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\bolt_balanco_comercial_20260401_220347.json",
+            "bytes": 2022,
+            "campos": [
+                "cliente"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_mestre_2026-03-29_13-58-54.json",
+            "bytes": 2014,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CENTRAL_OPERACIONAL.json",
+            "bytes": 2002,
+            "campos": [
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fraction.js\\package.json",
+            "bytes": 1756,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\fraction.js\\package.json",
+            "bytes": 1756,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\brands.json",
+            "bytes": 1637,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Relatorio_Credito_Regulus_20251214_152950.json",
+            "bytes": 1547,
+            "campos": [
+                "clientes"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "bytes": 1469,
+            "campos": [
+                "cliente",
+                "email",
+                "empresa",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\escalade\\package.json",
+            "bytes": 1461,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\node_modules\\escalade\\package.json",
+            "bytes": 1461,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\doutrina_regulus.json",
+            "bytes": 1438,
+            "campos": [
+                "estado"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\fast-json-stable-stringify\\package.json",
+            "bytes": 1257,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\esrecurse\\package.json",
+            "bytes": 1165,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ECONOMIC_REPORT.json",
+            "bytes": 1132,
+            "campos": [
+                "clientes",
+                "leads"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\destroy\\package.json",
+            "bytes": 1128,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\financeiro_regulus_2026-03-29_11-42-17.json",
+            "bytes": 1106,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_ENVIO_COBRANCAS.json",
+            "bytes": 1100,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\acorn\\package.json",
+            "bytes": 1061,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\safe-buffer\\package.json",
+            "bytes": 1057,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-36.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\painel_envios_2026-03-29_13-45-42.json",
+            "bytes": 1045,
+            "campos": [
+                "cliente",
+                "email",
+                "whatsapp"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\esutils\\package.json",
+            "bytes": 1042,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\merge-descriptors\\package.json",
+            "bytes": 1028,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cobrancas.json",
+            "bytes": 1015,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\estraverse\\package.json",
+            "bytes": 1009,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\json-stable-stringify-without-jsonify\\package.json",
+            "bytes": 991,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ficha.json",
+            "bytes": 969,
+            "campos": [
+                "email",
+                "empresa",
+                "segmento"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_RELATORIO_OPERACIONAL.json",
+            "bytes": 966,
+            "campos": [
+                "cidade",
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_MENSALIDADES.json",
+            "bytes": 959,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\deep-is\\package.json",
+            "bytes": 953,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\p-locate\\package.json",
+            "bytes": 942,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_SYSTEM\\node_modules\\mime\\package.json",
+            "bytes": 933,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\black-diamond\\node_modules\\p-limit\\package.json",
+            "bytes": 928,
+            "campos": [
+                "email"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\RELATORIO_AGENTES_CONTRATUAIS.json",
+            "bytes": 923,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        },
+        {
+            "arquivo": "C:\\IOTEC\\MINERADORA_BRUTA\\painel_licenciamento_2026-03-29_13-07-14.json",
+            "bytes": 921,
+            "campos": [
+                "cliente",
+                "empresa"
+            ]
+        }
+    ]
+}

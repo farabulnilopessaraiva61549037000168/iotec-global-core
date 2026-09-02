@@ -1,0 +1,14 @@
+{
+    "id": "68345fd0",
+    "lead_id": "8ea4a7ce",
+    "cliente": "ABC Engenharia",
+    "empresa": "ABC Engenharia",
+    "etapa": "PROPOSTA",
+    "valor": 18000,
+    "probabilidade": 60,
+    "responsavel": "IOTEC IA",
+    "ultima_acao": "Movido para PROPOSTA",
+    "proxima_acao": "Entrar em contato",
+    "criado": "2026-07-26T10:52:29.224599",
+    "atualizado": "2026-07-26T10:52:29.227128"
+}

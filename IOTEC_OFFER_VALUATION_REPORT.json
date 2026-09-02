@@ -1,0 +1,50 @@
+{
+    "gerado_em": "2026-06-13 19:32:22.289481",
+    "ofertas": [
+        {
+            "nome": "Geracao de Provas",
+            "ticket": 500,
+            "margem": 0.9,
+            "capacidade": 500,
+            "receita_maxima": 250000,
+            "lucro_maximo": 225000.0,
+            "score": 225000.0
+        },
+        {
+            "nome": "Consultoria",
+            "ticket": 10000,
+            "margem": 0.8,
+            "capacidade": 15,
+            "receita_maxima": 150000,
+            "lucro_maximo": 120000.0,
+            "score": 120000.0
+        },
+        {
+            "nome": "Projeto Sob Demanda",
+            "ticket": 50000,
+            "margem": 0.5,
+            "capacidade": 4,
+            "receita_maxima": 200000,
+            "lucro_maximo": 100000.0,
+            "score": 100000.0
+        },
+        {
+            "nome": "Dashboard Executivo",
+            "ticket": 15000,
+            "margem": 0.6,
+            "capacidade": 10,
+            "receita_maxima": 150000,
+            "lucro_maximo": 90000.0,
+            "score": 90000.0
+        },
+        {
+            "nome": "Automacao Educacional",
+            "ticket": 5000,
+            "margem": 0.4,
+            "capacidade": 20,
+            "receita_maxima": 100000,
+            "lucro_maximo": 40000.0,
+            "score": 40000.0
+        }
+    ]
+}

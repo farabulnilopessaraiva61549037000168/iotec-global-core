@@ -1,0 +1,64 @@
+{
+    "generated_at": "2026-07-16T20:02:50.368031",
+    "engine": "CAPABILITY_EXPANSION_ENGINE",
+    "version": "1.0",
+    "total": 7,
+    "missoes": [
+        {
+            "id": 1,
+            "capacidade": "SITE",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 2,
+            "capacidade": "ENDERECO",
+            "cobertura": 50.0,
+            "prioridade": "MÉDIA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 3,
+            "capacidade": "EMAIL",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 4,
+            "capacidade": "TELEFONE",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 5,
+            "capacidade": "LINKEDIN",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 6,
+            "capacidade": "CNPJ",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        },
+        {
+            "id": 7,
+            "capacidade": "DIRETORES",
+            "cobertura": 0.0,
+            "prioridade": "CRÍTICA",
+            "status": "AGUARDANDO",
+            "acao": "Adicionar novo conector"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "Financeiro",
+    "arquivo": "financeiro.html",
+    "tipo": "pagamento"
+  },
+  {
+    "nome": "Pedidos",
+    "arquivo": "pedidos.html",
+    "tipo": "pedido"
+  }
+]

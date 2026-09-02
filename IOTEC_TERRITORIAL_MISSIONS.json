@@ -1,0 +1,4541 @@
+{
+    "generated_at": "2026-07-14T13:59:04.346047",
+    "missoes": [
+        {
+            "id": 1,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 2,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 3,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 4,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 5,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 6,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 7,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 8,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 9,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 10,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 11,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 12,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 13,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 14,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 15,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 16,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 17,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 18,
+            "uf": "CE",
+            "cidade": "Fortaleza",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 19,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 20,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 21,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 22,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 23,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 24,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 25,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 26,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 27,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 28,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 29,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 30,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 31,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 32,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 33,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 34,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 35,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 36,
+            "uf": "CE",
+            "cidade": "Caucaia",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 37,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 38,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 39,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 40,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 41,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 42,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 43,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 44,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 45,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 46,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 47,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 48,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 49,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 50,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 51,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 52,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 53,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 54,
+            "uf": "CE",
+            "cidade": "Maracanaú",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 55,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 56,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 57,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 58,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 59,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 60,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 61,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 62,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 63,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 64,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 65,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 66,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 67,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 68,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 69,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 70,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 71,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 72,
+            "uf": "CE",
+            "cidade": "Sobral",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 73,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 74,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 75,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 76,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 77,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 78,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 79,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 80,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 81,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 82,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 83,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 84,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 85,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 86,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 87,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 88,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 89,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 90,
+            "uf": "CE",
+            "cidade": "Juazeiro do Norte",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 91,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 92,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 93,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 94,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 95,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 96,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 97,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 98,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 99,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 100,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 101,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 102,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 103,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 104,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 105,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 106,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 107,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 108,
+            "uf": "CE",
+            "cidade": "Crato",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 109,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 110,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 111,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 112,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 113,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 114,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 115,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 116,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 117,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 118,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 119,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 120,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 121,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 122,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 123,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 124,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 125,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 126,
+            "uf": "CE",
+            "cidade": "Quixadá",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 127,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 128,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 129,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 130,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 131,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 132,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 133,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 134,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 135,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 136,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 137,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 138,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 139,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 140,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 141,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 142,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 143,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 144,
+            "uf": "CE",
+            "cidade": "Iguatu",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 145,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 146,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 147,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 148,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 149,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 150,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 151,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 152,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 153,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 154,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 155,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 156,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 157,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 158,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 159,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 160,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 161,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 162,
+            "uf": "CE",
+            "cidade": "Limoeiro do Norte",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 163,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 164,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 165,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 166,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 167,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 168,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 169,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 170,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 171,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 172,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 173,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 174,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 175,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 176,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 177,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 178,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 179,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 180,
+            "uf": "CE",
+            "cidade": "Itapipoca",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 181,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 182,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 183,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 184,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 185,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 186,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 187,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 188,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 189,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 190,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 191,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 192,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 193,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 194,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 195,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 196,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 197,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 198,
+            "uf": "PE",
+            "cidade": "Recife",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 199,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 200,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 201,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 202,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 203,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 204,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 205,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 206,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 207,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 208,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 209,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 210,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 211,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 212,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 213,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 214,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 215,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 216,
+            "uf": "PE",
+            "cidade": "Jaboatão",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 217,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 218,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 219,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 220,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 221,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 222,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 223,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 224,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 225,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 226,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 227,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 228,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 229,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 230,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 231,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 232,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 233,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 234,
+            "uf": "PE",
+            "cidade": "Olinda",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 235,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 236,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 237,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 238,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 239,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 240,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 241,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 242,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 243,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 244,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 245,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 246,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 247,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 248,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 249,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 250,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 251,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 252,
+            "uf": "PE",
+            "cidade": "Caruaru",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 253,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 254,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 255,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 256,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 257,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 258,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 259,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 260,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 261,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 262,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 263,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 264,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 265,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 266,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 267,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 268,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 269,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 270,
+            "uf": "PE",
+            "cidade": "Petrolina",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 271,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 272,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 273,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 274,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 275,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 276,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 277,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 278,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 279,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 280,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 281,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 282,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 283,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 284,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 285,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 286,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 287,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 288,
+            "uf": "BA",
+            "cidade": "Salvador",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 289,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 290,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 291,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 292,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 293,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 294,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 295,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 296,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 297,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 298,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 299,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 300,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 301,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 302,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 303,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 304,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 305,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 306,
+            "uf": "BA",
+            "cidade": "Feira de Santana",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 307,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 308,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 309,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 310,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 311,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 312,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 313,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 314,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 315,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 316,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 317,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 318,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 319,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 320,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 321,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 322,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 323,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 324,
+            "uf": "BA",
+            "cidade": "Vitória da Conquista",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 325,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 326,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 327,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 328,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 329,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 330,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 331,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 332,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 333,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 334,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 335,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 336,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 337,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 338,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 339,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 340,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 341,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 342,
+            "uf": "BA",
+            "cidade": "Ilhéus",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 343,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 344,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 345,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 346,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 347,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 348,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 349,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 350,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 351,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 352,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 353,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 354,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 355,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 356,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 357,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 358,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 359,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 360,
+            "uf": "BA",
+            "cidade": "Juazeiro",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 361,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 362,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 363,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 364,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 365,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 366,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 367,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 368,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 369,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 370,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 371,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 372,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 373,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 374,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 375,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 376,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 377,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 378,
+            "uf": "RN",
+            "cidade": "Natal",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 379,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 380,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 381,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 382,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 383,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 384,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 385,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 386,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 387,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 388,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 389,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 390,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 391,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 392,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 393,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 394,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 395,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 396,
+            "uf": "RN",
+            "cidade": "Mossoró",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 397,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 398,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 399,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 400,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 401,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 402,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 403,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 404,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 405,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 406,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 407,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 408,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 409,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 410,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 411,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 412,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 413,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 414,
+            "uf": "RN",
+            "cidade": "Parnamirim",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 415,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 416,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 417,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 418,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 419,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 420,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 421,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 422,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 423,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 424,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 425,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 426,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 427,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 428,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 429,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 430,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 431,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 432,
+            "uf": "PB",
+            "cidade": "João Pessoa",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 433,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 434,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 435,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 436,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 437,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 438,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 439,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 440,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 441,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 442,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 443,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 444,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 445,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 446,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 447,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 448,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 449,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 450,
+            "uf": "PB",
+            "cidade": "Campina Grande",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 451,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 452,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 453,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 454,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 455,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 456,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 457,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 458,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 459,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 460,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 461,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 462,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 463,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 464,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 465,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 466,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 467,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 468,
+            "uf": "PB",
+            "cidade": "Patos",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 469,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 470,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 471,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 472,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 473,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 474,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 475,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 476,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 477,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 478,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 479,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 480,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 481,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 482,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 483,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 484,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 485,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 486,
+            "uf": "PI",
+            "cidade": "Teresina",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 487,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 488,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 489,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 490,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 491,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 492,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 493,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 494,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 495,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 496,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 497,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 498,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 499,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 500,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 501,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 502,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 503,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 504,
+            "uf": "PI",
+            "cidade": "Parnaíba",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 505,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 506,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 507,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 508,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 509,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 510,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 511,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 512,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 513,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 514,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 515,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 516,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 517,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 518,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 519,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 520,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 521,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 522,
+            "uf": "PI",
+            "cidade": "Picos",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 523,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 524,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 525,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 526,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 527,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 528,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 529,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 530,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 531,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 532,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 533,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 534,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 535,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 536,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 537,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 538,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 539,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 540,
+            "uf": "MA",
+            "cidade": "São Luís",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 541,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 542,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 543,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 544,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 545,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 546,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 547,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 548,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 549,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 550,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 551,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 552,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 553,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 554,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 555,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 556,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 557,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 558,
+            "uf": "MA",
+            "cidade": "Imperatriz",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 559,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 560,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 561,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 562,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 563,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 564,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 565,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 566,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 567,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 568,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 569,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 570,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 571,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 572,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 573,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 574,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 575,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 576,
+            "uf": "MA",
+            "cidade": "Caxias",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 577,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 578,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 579,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 580,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 581,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 582,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 583,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 584,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 585,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 586,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 587,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 588,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 589,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 590,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 591,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 592,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 593,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 594,
+            "uf": "AL",
+            "cidade": "Maceió",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 595,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 596,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 597,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 598,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 599,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 600,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 601,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 602,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 603,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 604,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 605,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 606,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 607,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 608,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 609,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 610,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 611,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 612,
+            "uf": "AL",
+            "cidade": "Arapiraca",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 613,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 614,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 615,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 616,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 617,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 618,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 619,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 620,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 621,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 622,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 623,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 624,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 625,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 626,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 627,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 628,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 629,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 630,
+            "uf": "SE",
+            "cidade": "Aracaju",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 631,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Engenharia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 632,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Arquitetura",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 633,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Construção",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 634,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Hospitais",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 635,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Clínicas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 636,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Farmácias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 637,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Indústrias",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 638,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Transportes",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 639,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Tecnologia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 640,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Supermercados",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 641,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Universidades",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 642,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Escolas",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 643,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Advocacia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 644,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Contabilidade",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 645,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Energia",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 646,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Agronegócio",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 647,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Turismo",
+            "status": "AGUARDANDO"
+        },
+        {
+            "id": 648,
+            "uf": "SE",
+            "cidade": "Lagarto",
+            "segmento": "Hotéis",
+            "status": "AGUARDANDO"
+        }
+    ]
+}

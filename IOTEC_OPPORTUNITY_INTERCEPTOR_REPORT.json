@@ -1,0 +1,68 @@
+{
+    "gerado_em": "2026-06-13 14:53:50.395994",
+    "oportunidades": [
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "EMPRESAS",
+            "acao": "CAPTAR_FONTES"
+        },
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "ESCOLAS",
+            "acao": "CAPTAR_FONTES"
+        },
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "UNIVERSIDADES",
+            "acao": "CAPTAR_FONTES"
+        },
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "FORNECEDORES",
+            "acao": "CAPTAR_FONTES"
+        },
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "TERCEIRIZADAS",
+            "acao": "CAPTAR_FONTES"
+        },
+        {
+            "tipo": "EXPANSAO",
+            "categoria": "PARCEIROS",
+            "acao": "CAPTAR_FONTES"
+        }
+    ],
+    "ranking": [
+        {
+            "categoria": "EMPRESAS",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        },
+        {
+            "categoria": "ESCOLAS",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        },
+        {
+            "categoria": "UNIVERSIDADES",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        },
+        {
+            "categoria": "FORNECEDORES",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        },
+        {
+            "categoria": "TERCEIRIZADAS",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        },
+        {
+            "categoria": "PARCEIROS",
+            "fontes": 0,
+            "prioridade": "ALTA"
+        }
+    ],
+    "alertas": []
+}

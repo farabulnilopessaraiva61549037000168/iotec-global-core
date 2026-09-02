@@ -1,0 +1,10 @@
+{
+  "environment": "sandbox",
+  "client_id": "AUFsIcepzxZyce0ii28lKKcFdflhRQioxI8mzBJvKSKGikX8B53NNy0rWP3ga04_itSAvQzvCgWF-YEY",
+  "client_secret": "EOcWsBThytL1r9SIafn_3wwulYBJXNeHHvuJHHumANzuww-FF5no2wxtX44_14FWfif4X1ww3TUxuaix",
+  "currency_code": "BRL",
+  "test_amount": "29.90",
+  "webhook_public_url": "",
+  "local_webhook_host": "127.0.0.1",
+  "local_webhook_port": 8787
+}

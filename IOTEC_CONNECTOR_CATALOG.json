@@ -1,0 +1,85 @@
+{
+    "generated_at": "2026-07-16T20:02:50.315375",
+    "engine": "CONNECTOR_DISCOVERY_ENGINE",
+    "version": "1.0",
+    "capacidade_total": 7,
+    "conectores_total": 12,
+    "online": 1,
+    "cobertura": 8.33,
+    "catalogo": {
+        "SITE": [
+            {
+                "nome": "GOOGLE_MAPS",
+                "status": "OFFLINE",
+                "prioridade": 1
+            },
+            {
+                "nome": "OPEN_CORPORATES",
+                "status": "FUTURO",
+                "prioridade": 2
+            },
+            {
+                "nome": "BING_SEARCH",
+                "status": "FUTURO",
+                "prioridade": 3
+            }
+        ],
+        "ENDERECO": [
+            {
+                "nome": "OPENSTREETMAP",
+                "status": "ONLINE",
+                "prioridade": 1
+            },
+            {
+                "nome": "GOOGLE_MAPS",
+                "status": "OFFLINE",
+                "prioridade": 2
+            }
+        ],
+        "EMAIL": [
+            {
+                "nome": "SITE_OFICIAL",
+                "status": "FUTURO",
+                "prioridade": 1
+            },
+            {
+                "nome": "OPEN_CORPORATES",
+                "status": "FUTURO",
+                "prioridade": 2
+            }
+        ],
+        "TELEFONE": [
+            {
+                "nome": "SITE_OFICIAL",
+                "status": "FUTURO",
+                "prioridade": 1
+            },
+            {
+                "nome": "GOOGLE_MAPS",
+                "status": "OFFLINE",
+                "prioridade": 2
+            }
+        ],
+        "LINKEDIN": [
+            {
+                "nome": "LINKEDIN_CONNECTOR",
+                "status": "FUTURO",
+                "prioridade": 1
+            }
+        ],
+        "CNPJ": [
+            {
+                "nome": "RECEITA_PUBLICA",
+                "status": "FUTURO",
+                "prioridade": 1
+            }
+        ],
+        "DIRETORES": [
+            {
+                "nome": "OPEN_CORPORATES",
+                "status": "FUTURO",
+                "prioridade": 1
+            }
+        ]
+    }
+}

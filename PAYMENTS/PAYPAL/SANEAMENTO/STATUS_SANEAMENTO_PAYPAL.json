@@ -1,0 +1,11 @@
+{
+  "paypal": {
+    "credenciais": "ok",
+    "rota_local": "ok",
+    "webhook_url_publica": "erro",
+    "oauth": "ok",
+    "orders": "ok",
+    "ambiente": "sandbox",
+    "fluxo": "aberto_parcial"
+  }
+}

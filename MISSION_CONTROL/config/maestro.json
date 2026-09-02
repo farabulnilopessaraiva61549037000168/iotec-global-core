@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "voice": false,
+    "mission_mode": true,
+    "auto_analysis": true,
+    "confidence_limit": 0.8
+}

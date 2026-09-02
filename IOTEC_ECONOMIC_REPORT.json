@@ -1,0 +1,47 @@
+{
+    "timestamp": "2026-06-01 20:06:33.895233",
+    "leads_dia": 120,
+    "clientes_convertidos": 20,
+    "ticket_medio": 9602.79,
+    "faturamento_diario": 192055.8,
+    "faturamento_mensal": 5761674.0,
+    "faturamento_anual": 69140088.0,
+    "score_operacional": 151.23,
+    "setores": {
+        "corporativo": {
+            "leads": 15,
+            "clientes": 2,
+            "receita": 13926
+        },
+        "educacao": {
+            "leads": 23,
+            "clientes": 2,
+            "receita": 24961
+        },
+        "juridico": {
+            "leads": 16,
+            "clientes": 3,
+            "receita": 22892
+        },
+        "governo": {
+            "leads": 17,
+            "clientes": 6,
+            "receita": 39773
+        },
+        "ia": {
+            "leads": 19,
+            "clientes": 4,
+            "receita": 50231
+        },
+        "saude": {
+            "leads": 14,
+            "clientes": 0,
+            "receita": 0
+        },
+        "automacao": {
+            "leads": 16,
+            "clientes": 3,
+            "receita": 32346
+        }
+    }
+}

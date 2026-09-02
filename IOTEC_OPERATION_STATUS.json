@@ -1,0 +1,19 @@
+{
+    "gerado_em": "2026-06-14 10:15:24.265758",
+    "status": "OPERACIONAL",
+    "componentes": {
+        "WAR_ROOM": true,
+        "COCKPIT": true,
+        "REVENUE_TRACKER": true,
+        "GOAL_DEVIATION": true
+    },
+    "fontes": {
+        "email": false,
+        "whatsapp": false,
+        "site": false,
+        "paypal": false,
+        "pix": false
+    },
+    "componentes_ativos": 4,
+    "componentes_totais": 4
+}

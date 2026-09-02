@@ -1,0 +1,17 @@
+﻿{
+    "Id":  "fa487d76-d19d-4a22-b12e-d54597c19c7b",
+    "Name":  "MissionControl",
+    "Version":  "1.0.0",
+    "Author":  "IOTEC",
+    "Category":  "EXECUTIVE",
+    "Dependencies":  [
+
+                     ],
+    "MinimumKernel":  "2.0.0",
+    "Description":  "",
+    "Registered":  {
+                       "value":  "\/Date(1782500903625)\/",
+                       "DisplayHint":  2,
+                       "DateTime":  "sexta-feira, 26 de junho de 2026 16:08:23"
+                   }
+}

@@ -1,0 +1,17 @@
+{
+    "generated": "2026-06-08 08:24:38.959328",
+    "reservoir": 4,
+    "accounts": 3,
+    "leads": 1,
+    "opportunities": 3,
+    "proposals": 3,
+    "contracts": 1,
+    "proposal_value": 28000.0,
+    "revenue": 5000.0,
+    "opp_efficiency": 300.0,
+    "proposal_efficiency": 100.0,
+    "contract_efficiency": 33.33,
+    "power_index": 144.44,
+    "predicted_contracts": 2,
+    "predicted_revenue": 10000.0
+}

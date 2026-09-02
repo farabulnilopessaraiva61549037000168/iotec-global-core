@@ -1,0 +1,13 @@
+[
+    {
+        "timestamp": "2026-06-03 19:07:10.406121",
+        "stages": [
+            "FORM_RECEIVED",
+            "BACKEND_RECEIVED",
+            "DATABASE_REGISTERED",
+            "TOWER_VISIBLE",
+            "REVENUE_PIPELINE",
+            "PAYMENT_READY"
+        ]
+    }
+]

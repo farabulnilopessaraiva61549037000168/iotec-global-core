@@ -1,0 +1,63 @@
+{
+    "generated_at": "2026-07-16T20:02:50.341541",
+    "engine": "CAPABILITY_RADAR",
+    "version": "1.0",
+    "capacidades": [
+        {
+            "capacidade": "SITE",
+            "total": 3,
+            "online": 0,
+            "offline": 1,
+            "futuro": 2,
+            "cobertura": 0.0
+        },
+        {
+            "capacidade": "ENDERECO",
+            "total": 2,
+            "online": 1,
+            "offline": 1,
+            "futuro": 0,
+            "cobertura": 50.0
+        },
+        {
+            "capacidade": "EMAIL",
+            "total": 2,
+            "online": 0,
+            "offline": 0,
+            "futuro": 2,
+            "cobertura": 0.0
+        },
+        {
+            "capacidade": "TELEFONE",
+            "total": 2,
+            "online": 0,
+            "offline": 1,
+            "futuro": 1,
+            "cobertura": 0.0
+        },
+        {
+            "capacidade": "LINKEDIN",
+            "total": 1,
+            "online": 0,
+            "offline": 0,
+            "futuro": 1,
+            "cobertura": 0.0
+        },
+        {
+            "capacidade": "CNPJ",
+            "total": 1,
+            "online": 0,
+            "offline": 0,
+            "futuro": 1,
+            "cobertura": 0.0
+        },
+        {
+            "capacidade": "DIRETORES",
+            "total": 1,
+            "online": 0,
+            "offline": 0,
+            "futuro": 1,
+            "cobertura": 0.0
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "migracao": {
+    "status": "EM_EXECUCAO",
+    "ultimo_item_processado": null,
+    "ultima_etapa": "NUCLEO_START",
+    "retomada_habilitada": true,
+    "ultimo_checkpoint_em": "2026-04-14 16:43:16"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "eventos": [
+        {
+            "nome": "INICIALIZACAO_X27",
+            "data": "2026-06-15 10:04:36.330849"
+        }
+    ],
+    "alertas": [
+        {
+            "alerta": "MONITORAMENTO_ATIVO",
+            "data": "2026-06-15 10:04:36.330849"
+        }
+    ],
+    "projetos": [],
+    "programas": [],
+    "incidentes": [],
+    "auditoria": [],
+    "ultima_execucao": "2026-06-15 10:07:56.815591",
+    "digital_twin": {
+        "municipio": "IBICUITINGA",
+        "status": "OPERACIONAL"
+    },
+    "capacity": {
+        "saude": 40,
+        "internet": 65,
+        "abrigos": 55,
+        "energia": 83,
+        "agua": 78
+    },
+    "priority": {
+        "prioridade_1": "SAUDE",
+        "prioridade_2": "ABRIGOS",
+        "prioridade_3": "INTERNET"
+    },
+    "forecast": {
+        "saude_365": 16,
+        "internet_365": 41
+    },
+    "strategic_ai": {
+        "acao_1": "EXPANDIR_CAPACIDADE_HOSPITALAR",
+        "acao_2": "EXPANDIR_ABRIGOS",
+        "acao_3": "AMPLIAR_REDUNDANCIA_DE_INTERNET"
+    },
+    "event_bus": [
+        {
+            "data": "2026-06-15 10:10:37.400353",
+            "tipo": "ALERTA",
+            "origem": "CAPACITY_ENGINE",
+            "mensagem": "SAUDE_CRITICA"
+        }
+    ]
+}

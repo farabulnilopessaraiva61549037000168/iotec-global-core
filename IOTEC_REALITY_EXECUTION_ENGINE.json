@@ -1,0 +1,218 @@
+[
+    {
+        "sector": "Corporate Operations",
+        "product": "IOTEC AUTOMATION CORE",
+        "portal_behavior": {
+            "continuous_transmission": true,
+            "immersive_environment": true,
+            "human_presence": true,
+            "cinematic_overlay": true,
+            "dynamic_rotation": true,
+            "storytelling": true,
+            "commercial_flow": true
+        },
+        "visual_identity": {
+            "style": "enterprise premium",
+            "atmosphere": "corporativo cinematografico",
+            "visual_goal": "empresa viva",
+            "presence": "humana e operacional"
+        },
+        "live_media": {
+            "recommended_visuals": [
+                "executivos entrando",
+                "coworking premium",
+                "reunioes estrategicas",
+                "empresas modernas",
+                "networking corporativo",
+                "salas de operacao"
+            ],
+            "rotation": "automatic",
+            "dynamic_playlist": true,
+            "immersive_sequence": true
+        },
+        "sales_engine": {
+            "messages": [
+                "Automatize operacoes empresariais.",
+                "Reduza gargalos operacionais.",
+                "Sua empresa operando continuamente.",
+                "Transforme tarefas em fluxos inteligentes."
+            ],
+            "benefits": [
+                "reduzir custos",
+                "aumentar produtividade",
+                "automatizar processos",
+                "escalar operacoes"
+            ],
+            "call_to_action": [
+                "Solicitar demonstracao",
+                "Licenciar tecnologia",
+                "Ativar operacao",
+                "Falar com especialista"
+            ],
+            "human_language": true,
+            "commercial_explanation": true
+        },
+        "acquisition_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficios",
+            "step_4": "demonstrar operacao",
+            "step_5": "abrir formulario",
+            "step_6": "tirar duvidas",
+            "step_7": "gerar proposta",
+            "step_8": "enviar contrato",
+            "step_9": "receber pagamento",
+            "step_10": "ativar implantacao"
+        },
+        "communication": {
+            "contact": "iotec.bl@proton.me",
+            "reception": "inteligente",
+            "proposal_generation": true,
+            "humanized_support": true
+        }
+    },
+    {
+        "sector": "Technology & AI",
+        "product": "IOTEC ANALYTICS",
+        "portal_behavior": {
+            "continuous_transmission": true,
+            "immersive_environment": true,
+            "human_presence": true,
+            "cinematic_overlay": true,
+            "dynamic_rotation": true,
+            "storytelling": true,
+            "commercial_flow": true
+        },
+        "visual_identity": {
+            "style": "enterprise premium",
+            "atmosphere": "corporativo cinematografico",
+            "visual_goal": "empresa viva",
+            "presence": "humana e operacional"
+        },
+        "live_media": {
+            "recommended_visuals": [
+                "datacenter",
+                "ia operacional",
+                "analistas",
+                "painel estrategico",
+                "command center",
+                "automacao"
+            ],
+            "rotation": "automatic",
+            "dynamic_playlist": true,
+            "immersive_sequence": true
+        },
+        "sales_engine": {
+            "messages": [
+                "Transforme dados em inteligencia.",
+                "Detecte gargalos ocultos.",
+                "Visualize indicadores em tempo real.",
+                "Acompanhe operacoes estrategicas."
+            ],
+            "benefits": [
+                "controle operacional",
+                "visibilidade empresarial",
+                "inteligencia estrategica",
+                "tomada de decisao"
+            ],
+            "call_to_action": [
+                "Solicitar analytics",
+                "Ativar command center",
+                "Receber proposta",
+                "Implantar estrutura"
+            ],
+            "human_language": true,
+            "commercial_explanation": true
+        },
+        "acquisition_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficios",
+            "step_4": "demonstrar operacao",
+            "step_5": "abrir formulario",
+            "step_6": "tirar duvidas",
+            "step_7": "gerar proposta",
+            "step_8": "enviar contrato",
+            "step_9": "receber pagamento",
+            "step_10": "ativar implantacao"
+        },
+        "communication": {
+            "contact": "iotec.bl@proton.me",
+            "reception": "inteligente",
+            "proposal_generation": true,
+            "humanized_support": true
+        }
+    },
+    {
+        "sector": "Media Network",
+        "product": "IOTEC MEDIA NETWORK",
+        "portal_behavior": {
+            "continuous_transmission": true,
+            "immersive_environment": true,
+            "human_presence": true,
+            "cinematic_overlay": true,
+            "dynamic_rotation": true,
+            "storytelling": true,
+            "commercial_flow": true
+        },
+        "visual_identity": {
+            "style": "enterprise premium",
+            "atmosphere": "corporativo cinematografico",
+            "visual_goal": "empresa viva",
+            "presence": "humana e operacional"
+        },
+        "live_media": {
+            "recommended_visuals": [
+                "urbanismo premium",
+                "streaming corporativo",
+                "painel audiovisual",
+                "eventos globais",
+                "empresas modernas",
+                "midia empresarial"
+            ],
+            "rotation": "automatic",
+            "dynamic_playlist": true,
+            "immersive_sequence": true
+        },
+        "sales_engine": {
+            "messages": [
+                "Transforme sua marca em uma presenca viva.",
+                "Crie streaming corporativo premium.",
+                "Conecte sua empresa ao mundo.",
+                "Sua marca operando como rede inteligente."
+            ],
+            "benefits": [
+                "visibilidade premium",
+                "presenca digital",
+                "autoridade empresarial",
+                "marketing audiovisual"
+            ],
+            "call_to_action": [
+                "Criar canal empresarial",
+                "Ativar transmissao",
+                "Solicitar implantacao",
+                "Contratar estrutura"
+            ],
+            "human_language": true,
+            "commercial_explanation": true
+        },
+        "acquisition_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficios",
+            "step_4": "demonstrar operacao",
+            "step_5": "abrir formulario",
+            "step_6": "tirar duvidas",
+            "step_7": "gerar proposta",
+            "step_8": "enviar contrato",
+            "step_9": "receber pagamento",
+            "step_10": "ativar implantacao"
+        },
+        "communication": {
+            "contact": "iotec.bl@proton.me",
+            "reception": "inteligente",
+            "proposal_generation": true,
+            "humanized_support": true
+        }
+    }
+]

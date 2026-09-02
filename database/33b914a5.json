@@ -1,0 +1,13 @@
+{
+    "id": "33b914a5",
+    "created": "2026-07-26T10:43:50.515217",
+    "nome": "ABC Engenharia",
+    "empresa": "ABC Engenharia",
+    "email": "contato@abc.com",
+    "telefone": "(85)99999-9999",
+    "cidade": "Fortaleza",
+    "interesse": "Auditoria de Dados",
+    "origem": "SITE",
+    "status": "NOVO",
+    "valor_estimado": 8900
+}

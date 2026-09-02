@@ -1,0 +1,258 @@
+{
+    "generated": "2026-08-31 10:38:45.815086",
+    "nodes": {
+        "CRM_ENGINE.py": {
+            "path": "C:\\IOTEC\\CRM_ENGINE.py",
+            "imports": [
+                "sys",
+                "sqlite3",
+                "datetime",
+                "datetime"
+            ],
+            "functions": [
+                "init_crm",
+                "create_opportunity",
+                "dashboard"
+            ],
+            "function_count": 3,
+            "sqlite": true,
+            "json": false
+        },
+        "IOTEC_CENTRAL_BRAIN.py": {
+            "path": "C:\\IOTEC\\ENCODING_BACKUP\\IOTEC_CENTRAL_BRAIN.py",
+            "imports": [
+                "sys",
+                "os",
+                "importlib",
+                "traceback"
+            ],
+            "functions": [
+                "__init__",
+                "scan_core",
+                "classify_modules",
+                "select_master_orchestrator",
+                "simulate_control_flow",
+                "report"
+            ],
+            "function_count": 6,
+            "sqlite": false,
+            "json": false
+        },
+        "IOTEC_CONTROL_TOWER_ENGINE.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "imports": [
+                "sys",
+                "os",
+                "time",
+                "random",
+                "datetime",
+                "datetime"
+            ],
+            "functions": [
+                "__init__",
+                "initialize_control_tower",
+                "monitor_systems",
+                "register_error",
+                "display_errors",
+                "resolve_error",
+                "global_web_status",
+                "operational_dashboard"
+            ],
+            "function_count": 8,
+            "sqlite": false,
+            "json": false
+        },
+        "IOTEC_CORE_MANAGER.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_MANAGER.py",
+            "imports": [
+                "sys",
+                "requests",
+                "subprocess",
+                "threading",
+                "time",
+                "os",
+                "datetime",
+                "Flask",
+                "CORS",
+                "datetime",
+                "flask",
+                "flask_cors"
+            ],
+            "functions": [
+                "nucleo_online",
+                "iniciar_nucleo",
+                "loop_nucleo",
+                "home",
+                "status"
+            ],
+            "function_count": 5,
+            "sqlite": false,
+            "json": true
+        },
+        "IOTEC_CORE_RUNNER.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_RUNNER.py",
+            "imports": [
+                "sys",
+                "time",
+                "ler_emails",
+                "mail_reader"
+            ],
+            "functions": [],
+            "function_count": 0,
+            "sqlite": false,
+            "json": false
+        },
+        "IOTEC_MEMORY_ENGINE.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MEMORY_ENGINE.py",
+            "imports": [
+                "sys",
+                "json"
+            ],
+            "functions": [
+                "carregar",
+                "salvar",
+                "registrar_cliente",
+                "adicionar_interacao"
+            ],
+            "function_count": 4,
+            "sqlite": false,
+            "json": true
+        },
+        "IOTEC_UNIFIED_BRAIN.py": {
+            "path": "C:\\IOTEC\\ENCODING_BACKUP\\IOTEC_UNIFIED_BRAIN.py",
+            "imports": [
+                "sys",
+                "os",
+                "json",
+                "datetime",
+                "defaultdict",
+                "datetime",
+                "collections"
+            ],
+            "functions": [
+                "scan_orchestrators",
+                "score_orchestrator",
+                "rank_orchestrators",
+                "select_brain",
+                "detect_conflicts",
+                "generate_summary",
+                "save",
+                "run"
+            ],
+            "function_count": 8,
+            "sqlite": false,
+            "json": true
+        },
+        "nucleus_orchestrator.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\nucleus_orchestrator.py",
+            "imports": [
+                "sys",
+                "datetime",
+                "uuid4",
+                "dataclass",
+                "Dict",
+                "threading",
+                "queue",
+                "time",
+                "datetime",
+                "uuid",
+                "dataclasses",
+                "typing"
+            ],
+            "functions": [
+                "log",
+                "__init__",
+                "process",
+                "generate_assets",
+                "__init__",
+                "receive_request",
+                "process_queue",
+                "show_dashboard",
+                "__init__",
+                "start",
+                "monitor"
+            ],
+            "function_count": 11,
+            "sqlite": false,
+            "json": false
+        },
+        "ORCHESTRATOR_ENGINE.py": {
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORCHESTRATOR_ENGINE.py",
+            "imports": [
+                "sys",
+                "Flask",
+                "CORS",
+                "subprocess",
+                "requests",
+                "threading",
+                "time",
+                "os",
+                "datetime",
+                "flask",
+                "flask_cors",
+                "datetime"
+            ],
+            "functions": [
+                "log",
+                "online",
+                "iniciar",
+                "monitor",
+                "autostart",
+                "home",
+                "status",
+                "alertas",
+                "restart",
+                "registry"
+            ],
+            "function_count": 10,
+            "sqlite": false,
+            "json": true
+        },
+        "REVENUE_OPERATION_CENTER.py": {
+            "path": "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py",
+            "imports": [
+                "sys",
+                "Flask",
+                "datetime",
+                "sqlite3",
+                "os",
+                "flask",
+                "datetime"
+            ],
+            "functions": [
+                "init_database",
+                "generate_protocol",
+                "classify_sector",
+                "economic_score",
+                "priority",
+                "pipeline_stage",
+                "home",
+                "new_lead",
+                "tower",
+                "executive",
+                "revenue"
+            ],
+            "function_count": 11,
+            "sqlite": true,
+            "json": true
+        },
+        "SALES_BRAIN.py": {
+            "path": "C:\\IOTEC\\SALES_BRAIN.py",
+            "imports": [
+                "sys",
+                "sqlite3"
+            ],
+            "functions": [],
+            "function_count": 0,
+            "sqlite": true,
+            "json": false
+        }
+    },
+    "summary": {
+        "files_found": 11,
+        "imports_found": 72,
+        "functions_found": 66,
+        "sqlite_usage": 3,
+        "json_usage": 5
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "contract_name": "erp_cliente_contract",
+  "version": "1.0.0",
+  "input": {
+    "client_id": "string",
+    "company_name": "string",
+    "event_type": "string",
+    "timestamp": "datetime",
+    "payload": "object"
+  },
+  "output": {
+    "status": "string",
+    "message": "string",
+    "record_id": "string"
+  }
+}

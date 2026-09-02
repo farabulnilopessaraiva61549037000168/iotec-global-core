@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "kind": "visual",
+  "objective": "Encaminhar cascalhos valiosos à cidade visual",
+  "compressed_complexity": 2.178977,
+  "visual_assets_routed": 2,
+  "visual_assets_preview": [
+    {
+      "name": "cockpit_iotec.html",
+      "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec.html",
+      "size": 7059,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "cockpit_iotec_v2.html",
+      "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec_v2.html",
+      "size": 16387,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "visual",
+      "score": 0.9
+    }
+  ],
+  "showcase_blueprint": {
+    "rotational_slides": true,
+    "special_effects": true,
+    "channel_atmosphere": true,
+    "narrative": [
+      "escaneando solo digital",
+      "descendo na mina",
+      "veia digital encontrada",
+      "cascalho valioso selecionado",
+      "composição visual em andamento"
+    ]
+  }
+}

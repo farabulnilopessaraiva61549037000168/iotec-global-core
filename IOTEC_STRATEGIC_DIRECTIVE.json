@@ -1,0 +1,74 @@
+{
+    "gerado_em": "2026-06-13 14:05:41.430081",
+    "estado_arquitetural": {
+        "infraestrutura": "MADURA",
+        "reservatorios": "OPERACIONAIS",
+        "auditorias": "OPERACIONAIS",
+        "catalogacao": "INICIADA",
+        "aquisicao_externa": "PRIORIDADE_MAXIMA"
+    },
+    "descobertas": [
+        "Motores existentes são suficientes para fase atual",
+        "Reservatórios existentes são suficientes para fase atual",
+        "Dados internos predominam sobre dados externos",
+        "Catálogo de fontes foi criado",
+        "Estratégia de aquisição torna-se prioridade"
+    ],
+    "principios": [
+        "Não duplicar motores sem necessidade",
+        "Não criar reservatórios redundantes",
+        "Priorizar fontes externas reais",
+        "Separar dados internos de dados externos",
+        "Toda fonte deve ser catalogada",
+        "Toda fonte deve possuir categoria",
+        "Toda categoria deve possuir estratégia"
+    ],
+    "categorias_prioritarias": {
+        "EMPRESAS": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        },
+        "ESCOLAS": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        },
+        "UNIVERSIDADES": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        },
+        "FORNECEDORES": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        },
+        "TERCEIRIZADAS": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        },
+        "PARCEIROS": {
+            "meta_minima": 5,
+            "meta_ideal": 20,
+            "status": "CRITICO"
+        }
+    },
+    "pipeline_recomendado": [
+        "DESCOBERTA",
+        "VALIDACAO",
+        "CLASSIFICACAO",
+        "CATALOGO",
+        "GOVERNANCA",
+        "OPERACAO"
+    ],
+    "perguntas_obrigatorias": [
+        "Qual fonte utiliza?",
+        "Qual categoria atende?",
+        "Qual reservatorio abastece?",
+        "Qual resultado produz?",
+        "Qual a qualidade da fonte?",
+        "A fonte e interna ou externa?"
+    ]
+}

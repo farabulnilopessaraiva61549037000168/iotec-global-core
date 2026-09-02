@@ -1,0 +1,16 @@
+{
+    "generated": "2026-06-07 15:16:58.987351",
+    "master_brain": "IOTEC_CENTRAL_BRAIN.py",
+    "unified_brain": "IOTEC_UNIFIED_BRAIN.py",
+    "orchestrator": "nucleus_orchestrator.py",
+    "control_tower": "IOTEC_CONTROL_TOWER_ENGINE.py",
+    "memory": "IOTEC_MEMORY_ENGINE.py",
+    "commercial": [
+        "CRM_ENGINE.py",
+        "SALES_BRAIN.py"
+    ],
+    "revenue": [
+        "REVENUE_OPERATION_CENTER.py"
+    ],
+    "ledger": "C:\\IOTEC\\IOTEC_CONTROL_TOWER_LEDGER.db"
+}

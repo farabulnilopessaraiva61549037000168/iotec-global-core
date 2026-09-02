@@ -1,0 +1,2007 @@
+{
+  "visual": [
+    {
+      "name": "cockpit_iotec.html",
+      "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec.html",
+      "size": 7059,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "cockpit_iotec_v2.html",
+      "path": "C:\\IOTEC\\COCKPIT\\templates\\cockpit_iotec_v2.html",
+      "size": 16387,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "automacao.html",
+      "path": "C:\\IOTEC_PLATFORM\\automacao.html",
+      "size": 611,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "comercial.html",
+      "path": "C:\\IOTEC_PLATFORM\\comercial.html",
+      "size": 611,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "educacao.html",
+      "path": "C:\\IOTEC_PLATFORM\\educacao.html",
+      "size": 607,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "factory.html",
+      "path": "C:\\IOTEC_PLATFORM\\factory.html",
+      "size": 603,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "governo.html",
+      "path": "C:\\IOTEC_PLATFORM\\governo.html",
+      "size": 603,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "grafico_impacto.png",
+      "path": "C:\\IOTEC_PLATFORM\\grafico_impacto.png",
+      "size": 22282,
+      "suffix": ".png",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "index.html",
+      "path": "C:\\IOTEC_PLATFORM\\index.html",
+      "size": 2488,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "inteligencia.html",
+      "path": "C:\\IOTEC_PLATFORM\\inteligencia.html",
+      "size": 623,
+      "suffix": ".html",
+      "reservoir": "C:\\IOTEC_PLATFORM",
+      "depth": 1,
+      "category": "visual",
+      "score": 0.7
+    },
+    {
+      "name": "index.html",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\index.html",
+      "size": 13112,
+      "suffix": ".html",
+      "reservoir": "D:\\IOTEC",
+      "depth": 3,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "git-restore.html",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\001_git-restore\\git-restore.html",
+      "size": 41885,
+      "suffix": ".html",
+      "reservoir": "D:\\IOTEC",
+      "depth": 5,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "git-credential-store.html",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\002_git-credential-store\\git-credential-store.html",
+      "size": 35121,
+      "suffix": ".html",
+      "reservoir": "D:\\IOTEC",
+      "depth": 5,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "build-systems.html",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\003_build-systems\\build-systems.html",
+      "size": 41255,
+      "suffix": ".html",
+      "reservoir": "D:\\IOTEC",
+      "depth": 5,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "Portal de Acesso - Núcleo Central.htm",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\Portal de Acesso - Núcleo Central.htm",
+      "size": 1079,
+      "suffix": ".htm",
+      "reservoir": "D:\\IOTEC",
+      "depth": 5,
+      "category": "visual",
+      "score": 0.9
+    },
+    {
+      "name": "arte  regulus.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\arte  regulus.png",
+      "size": 864256,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 07_36_50.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 07_36_50.png",
+      "size": 887171,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 07_37_10.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 07_37_10.png",
+      "size": 887171,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 07_37_11.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 07_37_11.png",
+      "size": 887171,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 07_37_16.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 07_37_16.png",
+      "size": 887171,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_02_34.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_02_34.png",
+      "size": 1188024,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_03_05.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_03_05.png",
+      "size": 1088170,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_03_19.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_03_19.png",
+      "size": 887171,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_03_33.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_03_33.png",
+      "size": 705058,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_03_48.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_03_48.png",
+      "size": 1740699,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_04_06.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_04_06.png",
+      "size": 1569094,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_04_16.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_04_16.png",
+      "size": 2075955,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_04_31.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_04_31.png",
+      "size": 877757,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_04_43.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_04_43.png",
+      "size": 793748,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_04_53.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_04_53.png",
+      "size": 856878,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_05_02.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_05_02.png",
+      "size": 967882,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_05_15.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_05_15.png",
+      "size": 1530315,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_05_35.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_05_35.png",
+      "size": 1408273,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_05_47.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_05_47.png",
+      "size": 1408273,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_06_12.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_06_12.png",
+      "size": 2316023,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_06_44.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_06_44.png",
+      "size": 2116254,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_07_05.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_07_05.png",
+      "size": 1427473,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_07_27.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_07_27.png",
+      "size": 1903342,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_07_43.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_07_43.png",
+      "size": 1782530,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_07_58.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_07_58.png",
+      "size": 1399497,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_08_14.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_08_14.png",
+      "size": 1673546,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_08_26.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_08_26.png",
+      "size": 965200,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_08_41.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_08_41.png",
+      "size": 1793180,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 10 de abr. de 2026, 22_08_54.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 10 de abr. de 2026, 22_08_54.png",
+      "size": 2212222,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_10_01.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_10_01.png",
+      "size": 1819229,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_15_40.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_15_40.png",
+      "size": 1823364,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_16_44.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_16_44.png",
+      "size": 2706550,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_17_23.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_17_23.png",
+      "size": 435200,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_22_11.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_22_11.png",
+      "size": 2712771,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_23_59.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_23_59.png",
+      "size": 573161,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_26_24.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_26_24.png",
+      "size": 1978624,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_27_17.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_27_17.png",
+      "size": 2265376,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_37_13.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_37_13.png",
+      "size": 1690395,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_38_14.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_38_14.png",
+      "size": 1457825,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_38_29.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_38_29.png",
+      "size": 2723624,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_40_32.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_40_32.png",
+      "size": 2093483,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_41_04.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_41_04.png",
+      "size": 1920011,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_48_25.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_48_25.png",
+      "size": 2944522,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_49_42.png",
+      "size": 3083701,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_50_00.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_50_00.png",
+      "size": 902399,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_50_28.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_50_28.png",
+      "size": 1241760,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_50_53.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_50_53.png",
+      "size": 1092659,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_51_30.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_51_30.png",
+      "size": 1142605,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_52_11.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_52_11.png",
+      "size": 828180,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_53_19.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_53_19.png",
+      "size": 2902322,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_53_37.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_53_37.png",
+      "size": 2730356,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_53_54.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_53_54.png",
+      "size": 2525115,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_54_39.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_54_39.png",
+      "size": 1874000,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_54_56.png",
+      "size": 3028678,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_55_08.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_55_08.png",
+      "size": 2006905,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_55_16.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_55_16.png",
+      "size": 1739029,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_55_24.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_55_24.png",
+      "size": 1427698,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_55_35.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_55_35.png",
+      "size": 2769077,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_55_48.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_55_48.png",
+      "size": 2843124,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_56_01.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_56_01.png",
+      "size": 2765751,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_57_49.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_57_49.png",
+      "size": 1548583,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_58_06.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_58_06.png",
+      "size": 1721215,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_58_19.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_58_19.png",
+      "size": 2305388,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_58_39.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_58_39.png",
+      "size": 2388122,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_58_55.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_58_55.png",
+      "size": 1798230,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_59_14.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_59_14.png",
+      "size": 2198174,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_59_20.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_59_20.png",
+      "size": 1339151,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_59_35.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_59_35.png",
+      "size": 1879613,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_59_47.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_59_47.png",
+      "size": 1671884,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 21_59_59.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 21_59_59.png",
+      "size": 2562140,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_00_12.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_00_12.png",
+      "size": 1921993,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_00_27.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_00_27.png",
+      "size": 2246731,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_00_43.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_00_43.png",
+      "size": 1930709,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_01_19.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_01_19.png",
+      "size": 1618253,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_01_37.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_01_37.png",
+      "size": 2040370,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_10_13.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_10_13.png",
+      "size": 1548583,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_10_19.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_10_19.png",
+      "size": 1721215,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_10_24.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_10_24.png",
+      "size": 2305388,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_10_28.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_10_28.png",
+      "size": 1798230,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_11_02.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_11_02.png",
+      "size": 1755130,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_11_35.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_11_35.png",
+      "size": 2424741,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_11_54.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_11_54.png",
+      "size": 1930135,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_11_59.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_11_59.png",
+      "size": 2376479,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_12_03.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_12_03.png",
+      "size": 1580749,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    },
+    {
+      "name": "ChatGPT Image 21 de fev. de 2026, 22_12_08.png",
+      "path": "D:\\IOTEC\\_ESCANEADA_IOTEC\\fachada_web_corporativa\\export\\004_portal-de-acesso-n-cleo-central\\assets\\soltos\\ChatGPT Image 21 de fev. de 2026, 22_12_08.png",
+      "size": 1303308,
+      "suffix": ".png",
+      "reservoir": "D:\\IOTEC",
+      "depth": 7,
+      "category": "visual",
+      "score": 0.8
+    }
+  ],
+  "corporate": [
+    {
+      "name": "chip.ps1",
+      "path": "C:\\IOTEC\\chip.ps1",
+      "size": 1031,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "iotec.ps1",
+      "path": "C:\\IOTEC\\iotec.ps1",
+      "size": 1005,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "iotec.py",
+      "path": "C:\\IOTEC\\iotec.py",
+      "size": 1204,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "IOTEC_API_INTEGRACAO.py",
+      "path": "C:\\IOTEC\\IOTEC_API_INTEGRACAO.py",
+      "size": 2045,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "IOTEC_ARTERIA_8787.py",
+      "path": "C:\\IOTEC\\IOTEC_ARTERIA_8787.py",
+      "size": 439,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "IOTEC_BAIXAR_VIDEO_NUCLEO.ps1",
+      "path": "C:\\IOTEC\\IOTEC_BAIXAR_VIDEO_NUCLEO.ps1",
+      "size": 1928,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "IOTEC_DEPLOY_NETLIFY.py",
+      "path": "C:\\IOTEC\\IOTEC_DEPLOY_NETLIFY.py",
+      "size": 748,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+      "path": "C:\\IOTEC\\IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+      "size": 11166,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "IOTEC_TRIAGEM_DOWNLOADS.ps1",
+      "path": "C:\\IOTEC\\IOTEC_TRIAGEM_DOWNLOADS.ps1",
+      "size": 1513,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "miner_nucleus.py",
+      "path": "C:\\IOTEC\\miner_nucleus.py",
+      "size": 227,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "nucleo.py",
+      "path": "C:\\IOTEC\\nucleo.py",
+      "size": 273,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "nucleo_iotec.py",
+      "path": "C:\\IOTEC\\nucleo_iotec.py",
+      "size": 1380,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "paypal_local_config.json",
+      "path": "C:\\IOTEC\\paypal_local_config.json",
+      "size": 388,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "paypal_server.py",
+      "path": "C:\\IOTEC\\paypal_server.py",
+      "size": 1589,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "README_IOTEC.txt",
+      "path": "C:\\IOTEC\\README_IOTEC.txt",
+      "size": 688,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "README_IOTEC_SUPERILUSAO.txt",
+      "path": "C:\\IOTEC\\README_IOTEC_SUPERILUSAO.txt",
+      "size": 1280,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "README_IOTEC_SUPERILUSAO_V2.txt",
+      "path": "C:\\IOTEC\\README_IOTEC_SUPERILUSAO_V2.txt",
+      "size": 644,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "seal_guard.py",
+      "path": "C:\\IOTEC\\seal_guard.py",
+      "size": 3150,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "].txt",
+      "path": "C:\\IOTEC\\].txt",
+      "size": 13,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 1,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "run_demo_cycle.ps1",
+      "path": "C:\\IOTEC\\BIN\\run_demo_cycle.ps1",
+      "size": 267,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "run_nucleus.ps1",
+      "path": "C:\\IOTEC\\BIN\\run_nucleus.ps1",
+      "size": 537,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "run_visible_core_api.ps1",
+      "path": "C:\\IOTEC\\BIN\\run_visible_core_api.ps1",
+      "size": 269,
+      "suffix": ".ps1",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "iotec_cockpit_pleno.py",
+      "path": "C:\\IOTEC\\COCKPIT\\iotec_cockpit_pleno.py",
+      "size": 9575,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "iotec_cockpit_pleno_v2.py",
+      "path": "C:\\IOTEC\\COCKPIT\\iotec_cockpit_pleno_v2.py",
+      "size": 12344,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "BLENDER_PONTE_OFICIAL.json",
+      "path": "C:\\IOTEC\\CONFIG\\BLENDER_PONTE_OFICIAL.json",
+      "size": 482,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "iotec_config.json",
+      "path": "C:\\IOTEC\\CONFIG\\iotec_config.json",
+      "size": 1551,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleus_config.json",
+      "path": "C:\\IOTEC\\CONFIG\\nucleus_config.json",
+      "size": 2060,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "checkpoint_migracao_20260407_030343.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_030343.json",
+      "size": 220,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260407_070231.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_070231.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260407_101342.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_101342.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260407_101930.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260407_101930.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260409_162115.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260409_162115.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260414_164316.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260414_164316.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "checkpoint_migracao_20260414_172457.json",
+      "path": "C:\\IOTEC\\core\\backups\\checkpoint_migracao_20260414_172457.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "nucleo_estado_20260407_030343.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_030343.json",
+      "size": 2318,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260407_070231.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_070231.json",
+      "size": 2583,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260407_101342.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_101342.json",
+      "size": 2774,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260407_101930.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260407_101930.json",
+      "size": 2965,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260409_162115.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260409_162115.json",
+      "size": 3156,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260414_164316.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260414_164316.json",
+      "size": 3347,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado_20260414_172457.json",
+      "path": "C:\\IOTEC\\core\\backups\\nucleo_estado_20260414_172457.json",
+      "size": 3538,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "checkpoint_migracao.json",
+      "path": "C:\\IOTEC\\core\\checkpoints\\checkpoint_migracao.json",
+      "size": 215,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "visible_core_api.py",
+      "path": "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+      "size": 2463,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "iotec_nucleus.py",
+      "path": "C:\\IOTEC\\core\\nucleus\\iotec_nucleus.py",
+      "size": 14983,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "modelo_relatorio_falhas.json",
+      "path": "C:\\IOTEC\\core\\relatorios\\modelo_relatorio_falhas.json",
+      "size": 2697,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "visible_core_router.py",
+      "path": "C:\\IOTEC\\core\\router\\visible_core_router.py",
+      "size": 10528,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "full_test.py",
+      "path": "C:\\IOTEC\\core\\runtime\\full_test.py",
+      "size": 443,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "run_demo_cycle.py",
+      "path": "C:\\IOTEC\\core\\runtime\\run_demo_cycle.py",
+      "size": 367,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "seal_guard.py",
+      "path": "C:\\IOTEC\\core\\security\\seal_guard.py",
+      "size": 2615,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "nucleo_estado.json",
+      "path": "C:\\IOTEC\\core\\state\\nucleo_estado.json",
+      "size": 3729,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "GUIA_INTEGRACAO.txt",
+      "path": "C:\\IOTEC\\DOCS\\GUIA_INTEGRACAO.txt",
+      "size": 573,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "GUIA_INTEGRACAO_EMPRESARIAL.txt",
+      "path": "C:\\IOTEC\\DOCS\\GUIA_INTEGRACAO_EMPRESARIAL.txt",
+      "size": 2690,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "MANIFESTO_SUPERILUSAO.md",
+      "path": "C:\\IOTEC\\DOCS\\MANIFESTO_SUPERILUSAO.md",
+      "size": 1088,
+      "suffix": ".md",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "MANIFESTO_TECNICO.md",
+      "path": "C:\\IOTEC\\DOCS\\MANIFESTO_TECNICO.md",
+      "size": 1367,
+      "suffix": ".md",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "README.txt",
+      "path": "C:\\IOTEC\\EXTERNAL\\enterprise_layer\\README.txt",
+      "size": 437,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "adapter_erp_cliente.py",
+      "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\adapters\\adapter_erp_cliente.py",
+      "size": 967,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "erp_cliente_contract.json",
+      "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\contracts\\erp_cliente_contract.json",
+      "size": 319,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "erp_cliente_mapping.json",
+      "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\mappings\\erp_cliente_mapping.json",
+      "size": 387,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "tendencias_feed.json",
+      "path": "C:\\IOTEC\\frontend\\tendencias_feed.json",
+      "size": 626,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "LOG_BLENDER_PONTE.txt",
+      "path": "C:\\IOTEC\\logs\\LOG_BLENDER_PONTE.txt",
+      "size": 562,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "orquestrador.txt",
+      "path": "C:\\IOTEC\\logs\\orquestrador.txt",
+      "size": 268,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "orquestrador_log.txt",
+      "path": "C:\\IOTEC\\logs\\orquestrador_log.txt",
+      "size": 84,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "repair_report.txt",
+      "path": "C:\\IOTEC\\logs\\repair_report.txt",
+      "size": 981,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "tendencias_log.txt",
+      "path": "C:\\IOTEC\\logs\\tendencias_log.txt",
+      "size": 84,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "helpers.py",
+      "path": "C:\\IOTEC\\MODULES\\common\\helpers.py",
+      "size": 4069,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "models.py",
+      "path": "C:\\IOTEC\\MODULES\\common\\models.py",
+      "size": 643,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "corporate_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\corporate\\corporate_nucleus.py",
+      "size": 1295,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "integration_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\integration\\integration_nucleus.py",
+      "size": 1586,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "miner_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\miner\\miner_nucleus.py",
+      "size": 3518,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "telemetry_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\telemetry\\telemetry_nucleus.py",
+      "size": 979,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "validation_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\validation\\validation_nucleus.py",
+      "size": 1182,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "visual_nucleus.py",
+      "path": "C:\\IOTEC\\MODULES\\visual\\visual_nucleus.py",
+      "size": 1585,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "paypal_local_config.json",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\CONFIG\\paypal_local_config.json",
+      "size": 412,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SAIDAS\\RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+      "size": 548,
+      "suffix": ".txt",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "AUDITORIA_FLUXO_PAYPAL.json",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\AUDITORIA_FLUXO_PAYPAL.json",
+      "size": 2966,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "HISTORICO_CORRECOES_PAYPAL.json",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\HISTORICO_CORRECOES_PAYPAL.json",
+      "size": 1788,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "IOTEC_AUDITOR_PAYPAL.py",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+      "size": 8119,
+      "suffix": ".py",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "STATUS_SANEAMENTO_PAYPAL.json",
+      "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\STATUS_SANEAMENTO_PAYPAL.json",
+      "size": 211,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "pedidos.json",
+      "path": "C:\\IOTEC\\state\\pedidos.json",
+      "size": 4,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "seal_registry.json",
+      "path": "C:\\IOTEC\\state\\seal_registry.json",
+      "size": 5691,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "status.json",
+      "path": "C:\\IOTEC\\state\\status.json",
+      "size": 102,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "tendencias.json",
+      "path": "C:\\IOTEC\\state\\tendencias.json",
+      "size": 626,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 2,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "corporate_output.json",
+      "path": "C:\\IOTEC\\state\\corporate\\corporate_output.json",
+      "size": 22209,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "integration_output.json",
+      "path": "C:\\IOTEC\\state\\integration\\integration_output.json",
+      "size": 512,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "handoff_package.json",
+      "path": "C:\\IOTEC\\state\\integration\\handoff\\handoff_package.json",
+      "size": 322,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "miner_output.json",
+      "path": "C:\\IOTEC\\state\\miner\\miner_output.json",
+      "size": 90863,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "asset_catalog.json",
+      "path": "C:\\IOTEC\\state\\miner\\catalog\\asset_catalog.json",
+      "size": 66615,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "asset_ranking.json",
+      "path": "C:\\IOTEC\\state\\miner\\ranking\\asset_ranking.json",
+      "size": 56083,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 4,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "sample_dispatch_visual.json",
+      "path": "C:\\IOTEC\\state\\queues\\sample_dispatch_visual.json",
+      "size": 319,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "validation_output.json",
+      "path": "C:\\IOTEC\\state\\results\\validation_output.json",
+      "size": 197,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "20260418_095427_dispatch_miner.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095427_dispatch_miner.json",
+      "size": 506,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "20260418_095436_completed_miner.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095436_completed_miner.json",
+      "size": 200527,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095436_dispatch_corporate.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095436_dispatch_corporate.json",
+      "size": 65048,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095437_completed_corporate.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_corporate.json",
+      "size": 49726,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095437_completed_integration.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_integration.json",
+      "size": 1520,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095437_completed_telemetry.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_telemetry.json",
+      "size": 1256,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095437_completed_validation.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_validation.json",
+      "size": 830,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "20260418_095437_completed_visual.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_visual.json",
+      "size": 2826,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.9
+    },
+    {
+      "name": "20260418_095437_dispatch_integration.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_integration.json",
+      "size": 876,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    },
+    {
+      "name": "20260418_095437_dispatch_telemetry.json",
+      "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_telemetry.json",
+      "size": 690,
+      "suffix": ".json",
+      "reservoir": "C:\\IOTEC",
+      "depth": 3,
+      "category": "corporate",
+      "score": 0.7
+    }
+  ],
+  "hybrid": []
+}

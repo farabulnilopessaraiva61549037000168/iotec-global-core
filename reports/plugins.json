@@ -1,0 +1,90 @@
+{
+    "generated_at": "2026-06-26 07:08:00.755851",
+    "plugins": [
+        {
+            "plugin": "AutoLoader",
+            "module": "auto_loader.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Compiler",
+            "module": "compiler.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "ConfigurationManager",
+            "module": "configuration.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Database",
+            "module": "database.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "DependencyAnalyzer",
+            "module": "dependency_analyzer.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Kernel",
+            "module": "kernel.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "BuilderLogger",
+            "module": "logger.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "EnterpriseBuilder",
+            "module": "main.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "ModuleGenerator",
+            "module": "module_generator.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "ModuleInspector",
+            "module": "module_inspector.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "ModuleRegistry",
+            "module": "module_registry.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "PlatformGraphEngine",
+            "module": "platform_graph.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "PluginLoader",
+            "module": "plugin_loader.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "PluginManager",
+            "module": "plugin_manager.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Report",
+            "module": "report.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Scanner",
+            "module": "scanner.py",
+            "status": "ONLINE"
+        },
+        {
+            "plugin": "Validator",
+            "module": "validator.py",
+            "status": "ONLINE"
+        }
+    ]
+}

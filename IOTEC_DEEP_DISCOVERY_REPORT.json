@@ -1,0 +1,709 @@
+{
+    "data": "2026-06-25 06:57:56.695858",
+    "total_ativos": 79156,
+    "criticos": 42,
+    "estrategicos": 851,
+    "importantes": 1256,
+    "top_ativos": [
+        {
+            "arquivo": "COMMERCIAL_CONTROL_TOWER.py",
+            "caminho": ".\\COMMERCIAL_CONTROL_TOWER.py",
+            "tamanho_kb": 2.69,
+            "score": 105,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_CONTROL_TOWER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\COMMERCIAL_CONTROL_TOWER_20260617_162520.py",
+            "tamanho_kb": 2.69,
+            "score": 105,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_TOWER.py",
+            "caminho": ".\\EXECUTIVE_COMMAND_TOWER.py",
+            "tamanho_kb": 2.77,
+            "score": 90,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_TOWER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\EXECUTIVE_COMMAND_TOWER_20260617_162520.py",
+            "tamanho_kb": 2.77,
+            "score": 90,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_CONTROL_TOWER.cpython-311.pyc",
+            "caminho": ".\\__pycache__\\COMMERCIAL_CONTROL_TOWER.cpython-311.pyc",
+            "tamanho_kb": 3.26,
+            "score": 90,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 12.88,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_BILLING_INTELLIGENCE_ENGINE_20260617_162520.py",
+            "tamanho_kb": 12.88,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "BACKUP_IOTEC_BILLING_INTELLIGENCE_ENGINE_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_IOTEC_BILLING_INTELLIGENCE_ENGINE_20260617_162520.py",
+            "tamanho_kb": 11.51,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 11.51,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 11.51,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 11.51,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 12.88,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "tamanho_kb": 12.88,
+            "score": 85,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_EXECUTIVE_REPORT.py",
+            "caminho": ".\\COMMERCIAL_EXECUTIVE_REPORT.py",
+            "tamanho_kb": 3.18,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_TOWER.py",
+            "caminho": ".\\COMMERCIAL_TOWER.py",
+            "tamanho_kb": 1.22,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_TO_PIPELINE_SYNC.py",
+            "caminho": ".\\COMMERCIAL_TO_PIPELINE_SYNC.py",
+            "tamanho_kb": 2.38,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_COCKPIT.py",
+            "caminho": ".\\IOTEC_COMMERCIAL_COCKPIT.py",
+            "tamanho_kb": 3.49,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.py",
+            "caminho": ".\\IOTEC_REVENUE_COCKPIT.py",
+            "tamanho_kb": 3.69,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "LEAD_WAREHOUSE_ENGINE.py",
+            "caminho": ".\\LEAD_WAREHOUSE_ENGINE.py",
+            "tamanho_kb": 4.44,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "REVENUE_COMMAND_CENTER.py",
+            "caminho": ".\\REVENUE_COMMAND_CENTER.py",
+            "tamanho_kb": 2.61,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_EXECUTIVE_REPORT_20260617_162520.py",
+            "caminho": ".\\BACKUP\\COMMERCIAL_EXECUTIVE_REPORT_20260617_162520.py",
+            "tamanho_kb": 3.18,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_TOWER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\COMMERCIAL_TOWER_20260617_162520.py",
+            "tamanho_kb": 1.22,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "COMMERCIAL_TO_PIPELINE_SYNC_20260617_162520.py",
+            "caminho": ".\\BACKUP\\COMMERCIAL_TO_PIPELINE_SYNC_20260617_162520.py",
+            "tamanho_kb": 2.38,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_REVENUE_COCKPIT_20260617_162520.py",
+            "tamanho_kb": 3.69,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "LEAD_WAREHOUSE_ENGINE_20260617_162520.py",
+            "caminho": ".\\BACKUP\\LEAD_WAREHOUSE_ENGINE_20260617_162520.py",
+            "tamanho_kb": 4.44,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "REVENUE_COMMAND_CENTER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\REVENUE_COMMAND_CENTER_20260617_162520.py",
+            "tamanho_kb": 2.61,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "erp_cliente_contract.json",
+            "caminho": ".\\EXTERNAL\\integration_layer\\contracts\\erp_cliente_contract.json",
+            "tamanho_kb": 0.31,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "erp_cliente_contract.json",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\erp_cliente_contract.json",
+            "tamanho_kb": 0.31,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "erp_cliente_contract.json",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\erp_cliente_contract.json",
+            "tamanho_kb": 0.31,
+            "score": 80,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_TOWER.cpython-311.pyc",
+            "caminho": ".\\__pycache__\\EXECUTIVE_COMMAND_TOWER.cpython-311.pyc",
+            "tamanho_kb": 4.15,
+            "score": 75,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD.py",
+            "caminho": ".\\EXECUTIVE_DASHBOARD.py",
+            "tamanho_kb": 12.73,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "GLOBAL_CONTROL_TOWER.py",
+            "caminho": ".\\GLOBAL_CONTROL_TOWER.py",
+            "tamanho_kb": 9.88,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "REVENUE_INTELLIGENCE_MAP.json",
+            "caminho": ".\\REVENUE_INTELLIGENCE_MAP.json",
+            "tamanho_kb": 73.6,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "caminho": ".\\BACKUP\\EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "tamanho_kb": 12.73,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "GLOBAL_CONTROL_TOWER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\GLOBAL_CONTROL_TOWER_20260617_162520.py",
+            "tamanho_kb": 9.88,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "BACKUP_EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "tamanho_kb": 11.31,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "BACKUP_GLOBAL_CONTROL_TOWER_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_GLOBAL_CONTROL_TOWER_20260617_162520.py",
+            "tamanho_kb": 9.87,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD.py",
+            "caminho": ".\\ENCODING_BACKUP\\EXECUTIVE_DASHBOARD.py",
+            "tamanho_kb": 11.31,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "GLOBAL_CONTROL_TOWER.py",
+            "caminho": ".\\ENCODING_BACKUP\\GLOBAL_CONTROL_TOWER.py",
+            "tamanho_kb": 9.87,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\__pycache__\\IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "tamanho_kb": 11.74,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\__pycache__\\IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "tamanho_kb": 11.74,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "caminho": ".\\__pycache__\\IOTEC_BILLING_INTELLIGENCE_ENGINE.cpython-311.pyc",
+            "tamanho_kb": 11.96,
+            "score": 70,
+            "categoria": "CRITICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 7.43,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD_ENGINE.py",
+            "caminho": ".\\EXECUTIVE_DASHBOARD_ENGINE.py",
+            "tamanho_kb": 2.17,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 8.16,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 8.0,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_LEDGER.py",
+            "caminho": ".\\IOTEC_CONTROL_TOWER_LEDGER.py",
+            "tamanho_kb": 3.89,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_COCKPIT.py",
+            "caminho": ".\\IOTEC_EXECUTIVE_COCKPIT.py",
+            "tamanho_kb": 2.97,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_DASHBOARD.py",
+            "caminho": ".\\IOTEC_EXECUTIVE_DASHBOARD.py",
+            "tamanho_kb": 2.74,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 5.08,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.json",
+            "caminho": ".\\IOTEC_REVENUE_COCKPIT.json",
+            "tamanho_kb": 0.31,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.txt",
+            "caminho": ".\\IOTEC_REVENUE_COCKPIT.txt",
+            "tamanho_kb": 0.31,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "REVENUE_INTELLIGENCE_REPORT.txt",
+            "caminho": ".\\REVENUE_INTELLIGENCE_REPORT.txt",
+            "tamanho_kb": 7.14,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "X27_EXECUTIVE_DASHBOARD.py",
+            "caminho": ".\\X27_EXECUTIVE_DASHBOARD.py",
+            "tamanho_kb": 0.86,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\EXECUTIVE_COMMAND_ENTER_20260617_162520.py",
+            "tamanho_kb": 7.43,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD_ENGINE_20260617_162520.py",
+            "caminho": ".\\BACKUP\\EXECUTIVE_DASHBOARD_ENGINE_20260617_162520.py",
+            "tamanho_kb": 2.17,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_ADVANCEMENT_CONTROL_TOWER_20260617_162520.py",
+            "tamanho_kb": 8.16,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_CONTROL_TOWER_ENGINE_20260617_162520.py",
+            "tamanho_kb": 8.0,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_LEDGER_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_CONTROL_TOWER_LEDGER_20260617_162520.py",
+            "tamanho_kb": 3.89,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_COCKPIT_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_EXECUTIVE_COCKPIT_20260617_162520.py",
+            "tamanho_kb": 2.97,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD_20260617_162520.py",
+            "caminho": ".\\BACKUP\\IOTEC_GOVTECH_PIPELINE_DASHBOARD_20260617_162520.py",
+            "tamanho_kb": 5.08,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "X27_EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "caminho": ".\\BACKUP\\X27_EXECUTIVE_DASHBOARD_20260617_162520.py",
+            "tamanho_kb": 0.86,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "BACKUP_EXECUTIVE_COMMAND_ENTER_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_EXECUTIVE_COMMAND_ENTER_20260617_162520.py",
+            "tamanho_kb": 6.71,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "BACKUP_IOTEC_ADVANCEMENT_CONTROL_TOWER_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_IOTEC_ADVANCEMENT_CONTROL_TOWER_20260617_162520.py",
+            "tamanho_kb": 7.58,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "BACKUP_IOTEC_CONTROL_TOWER_ENGINE_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_IOTEC_CONTROL_TOWER_ENGINE_20260617_162520.py",
+            "tamanho_kb": 7.44,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "BACKUP_IOTEC_GOVTECH_PIPELINE_DASHBOARD_20260617_162520.py",
+            "caminho": ".\\ENCODING_BACKUP\\BACKUP_IOTEC_GOVTECH_PIPELINE_DASHBOARD_20260617_162520.py",
+            "tamanho_kb": 3.87,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\ENCODING_BACKUP\\EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 6.71,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\ENCODING_BACKUP\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 7.58,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 7.44,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\ENCODING_BACKUP\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 3.87,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "LAB_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\ENCODING_BACKUP\\LAB_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 3.87,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_ANALYTICS_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_ANALYTICS_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 3.87,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 6.71,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 7.58,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 7.44,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_DUPLICADOS_IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 3.87,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_LABORATORIO_EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_LABORATORIO_EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 6.71,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 7.58,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\ENCODING_BACKUP\\NUCLEO_CONSOLIDADO_LABORATORIO_IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 7.44,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\LAB\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 5.08,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "caminho": ".\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "tamanho_kb": 0.06,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "caminho": ".\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "tamanho_kb": 0.93,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "caminho": ".\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "tamanho_kb": 0.34,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "_clientMiddlewareManifest.js",
+            "caminho": ".\\MINERADORA_BRUTA\\_clientMiddlewareManifest.js",
+            "tamanho_kb": 0.1,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 5.08,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 7.43,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 8.16,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "tamanho_kb": 0.06,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "tamanho_kb": 0.93,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "tamanho_kb": 0.34,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 8.0,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "tamanho_kb": 5.08,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "_clientMiddlewareManifest.js",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\_clientMiddlewareManifest.js",
+            "tamanho_kb": 0.09,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "tamanho_kb": 0.93,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "tamanho_kb": 0.34,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\EXECUTIVE_COMMAND_ENTER.py",
+            "tamanho_kb": 7.43,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "tamanho_kb": 8.16,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "tamanho_kb": 8.0,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "_clientMiddlewareManifest.js",
+            "caminho": ".\\NUCLEO_CONSOLIDADO\\LABORATORIO\\_clientMiddlewareManifest.js",
+            "tamanho_kb": 0.09,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        },
+        {
+            "arquivo": "_clientMiddlewareManifest.js",
+            "caminho": ".\\_SANITIZADA\\_clientMiddlewareManifest.js",
+            "tamanho_kb": 0.1,
+            "score": 65,
+            "categoria": "ESTRATEGICO"
+        }
+    ]
+}

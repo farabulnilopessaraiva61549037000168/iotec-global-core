@@ -3,52 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IOTEC | Global Intelligence & Multi-Currency</title>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&components=buttons,card-fields&currency=BRL"></script>
+    <title>IOTEC — Ecossistema de Certidões & Infraestrutura B2B</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0b0f19; color: #e2e8f0; margin: 0; padding: 20px; }
-        .card { background: #111827; border: 1px solid #1e293b; padding: 25px; border-radius: 8px; max-width: 500px; margin: 40px auto; text-align: center; }
-        .status-box { background-color: #1e293b; border-left: 4px solid #eab308; padding: 12px; margin: 15px 0; text-align: left; font-size: 13px; }
-        .btn-confirm { background-color: #374151; color: #9ca3af; padding: 12px; border: none; border-radius: 4px; font-weight: bold; width: 100%; cursor: not-allowed; }
-        .btn-active { background-color: #16a34a !important; color: #fff !important; cursor: pointer !important; }
+        .glass {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glow-cyan {
+            box-shadow: 0 0 25px rgba(6, 182, 212, 0.3);
+        }
+        .glow-green {
+            box-shadow: 0 0 25px rgba(34, 197, 94, 0.3);
+        }
     </style>
 </head>
-<body>
-    <div class="card">
-        <h2>Emiss├úo Oficial de Licen├ºas & Certid├Áes</h2>
-        <p><strong>CNPJ MATRIZ:</strong> 61.549.037/0001-68</p>
-        
-        <div class="status-box" id="status-pagamento">
-            ÔÅ│ <strong>Status:</strong> Aguardando compensa├º├úo do PIX/Cart├úo no gateway...
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- BARRA SUPERIOR INSTITUCIONAL -->
+    <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-r from-cyan-500 to-blue-600 p-2 rounded-lg text-slate-950 font-black text-xl tracking-wider">
+                    IOTEC
+                </div>
+                <span class="text-xs text-slate-400 border-l border-slate-700 pl-3">CNPJ: 61.549.037/0001-68</span>
+            </div>
+            <div class="flex items-center space-x-4 text-xs font-semibold">
+                <span class="inline-flex items-center text-emerald-400">
+                    <span class="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-ping"></span>
+                    APIs Operacionais (ICP-Brasil)
+                </span>
+                <a href="https://wa.me/5588993064168" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-md transition duration-200">
+                    <i class="fab fa-whatsapp mr-1"></i> Direct Atendimento
+                </a>
+            </div>
         </div>
+    </header>
 
-        <button id="btn-baixar" class="btn-confirm" disabled onclick="baixarCertidao()">AGUARDANDO CONFIRMA├ç├âO DO BANCO...</button>
-    </div>
+    <!-- HERO / SELETOR DE PERFIL DE VISITA -->
+    <section class="max-w-7xl mx-auto px-4 pt-12 pb-8 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500 mb-4">
+            A Infraestrutura Suprema de Certidões & APIs
+        </h1>
+        <p class="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mb-8">
+            Automação completa em 6 camadas: emissão instantânea de documentos A4 com chancela ICP-Brasil, liquidação financeira via gateways e Suíte do Investidor.
+        </p>
 
+        <!-- TROCA DINÂMICA DE PERFIL (FILTRO) -->
+        <div class="inline-flex p-1 bg-slate-900 rounded-xl border border-slate-800 mb-8">
+            <button onclick="setPerfil('varejo')" id="btn-varejo" class="px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold transition-all bg-cyan-500 text-slate-950 shadow-lg">
+                <i class="fas fa-file-signature mr-2"></i>Sou Empresa / Despachante
+            </button>
+            <button onclick="setPerfil('ti')" id="btn-ti" class="px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold text-slate-400 hover:text-slate-200 transition-all">
+                <i class="fas fa-code mr-2"></i>Sou Desenvolvedor / TI
+            </button>
+            <button onclick="setPerfil('investidor')" id="btn-investidor" class="px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold text-slate-400 hover:text-slate-200 transition-all">
+                <i class="fas fa-chart-line mr-2"></i>Sou Investidor / B2B
+            </button>
+        </div>
+    </section>
+
+    <!-- PAINEL DINÂMICO 1: SIMULADOR DE CERTIDÕES (PAINEL VAREJO) -->
+    <section id="secao-varejo" class="max-w-7xl mx-auto px-4 py-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div class="glass p-6 rounded-2xl border border-slate-800">
+                <h2 class="text-xl font-bold text-cyan-400 mb-2"><i class="fas fa-bolt mr-2"></i>Simulador de Emissão Instantânea</h2>
+                <p class="text-xs text-slate-400 mb-6">Selecione o documento necessário e veja a estrutura de emissão gerada ao vivo.</p>
+
+                <div class="space-y-4 text-xs">
+                    <div>
+                        <label class="block text-slate-300 font-semibold mb-1">Selecione o Documento:</label>
+                        <select id="sim-doc" onchange="atualizarSimulador()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-slate-200 focus:outline-none focus:border-cyan-500">
+                            <option value="150|DTA / DTC - Trânsito Aduaneiro">DTA / DTC - Trânsito Aduaneiro (R$ 150,00)</option>
+                            <option value="150|DUIMP Siscomex - Declaração Única">DUIMP Siscomex - Declaração Única (R$ 150,00)</option>
+                            <option value="250|Certificado OEA - Operador Econômico">Certificado OEA - Operador Econômico (R$ 250,00)</option>
+                            <option value="250|AFE / AE Anvisa - Licença Sanitarista">AFE / AE Anvisa - Licença Sanitarista (R$ 250,00)</option>
+                            <option value="250|Licença IBAMA Cargas Perigosas">Licença IBAMA Cargas Perigosas (R$ 250,00)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-slate-300 font-semibold mb-1">Razão Social / Requerente:</label>
+                        <input type="text" id="sim-nome" value="LOGÍSTICA BRASIL LTDA" oninput="atualizarSimulador()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-slate-200 focus:outline-none focus:border-cyan-500">
+                    </div>
+
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800 flex justify-between items-center">
+                        <div>
+                            <span class="block text-slate-400">Taxa de Emissão:</span>
+                            <span id="sim-preco" class="text-2xl font-black text-emerald-400">R$ 150,00</span>
+                        </div>
+                        <a href="https://wa.me/5588993064168?text=Olá,%20quero%20emitir%20minha%20certidão%20na%20IOTEC" target="_blank" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-extrabold px-6 py-3 rounded-lg text-sm shadow-lg glow-cyan transition">
+                            Emitir Agora <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREVISUALIZAÇÃO A4 INTERATIVA -->
+            <div class="glass p-6 rounded-2xl border border-slate-800 relative overflow-hidden">
+                <div class="absolute top-3 right-3 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1 rounded-full text-[10px] font-bold">
+                    <i class="fas fa-shield-alt mr-1"></i> Chancela ICP-Brasil
+                </div>
+                <div class="bg-white text-slate-900 p-6 rounded-lg font-mono text-xs shadow-2xl min-h-[300px] flex flex-col justify-between">
+                    <div>
+                        <div class="border-b-2 border-slate-900 pb-2 mb-4 text-center">
+                            <p class="font-bold text-sm tracking-widest uppercase">República Federativa do Brasil</p>
+                            <p class="text-[10px] text-slate-600">SISTEMA NACIONAL DE CERTIDÕES OFICIAIS — IOTEC</p>
+                        </div>
+                        <p class="text-center font-bold text-slate-800 my-2 uppercase border py-1 border-slate-300 bg-slate-50" id="preview-titulo">DTA / DTC - TRÂNSITO ADUANEIRO</p>
+                        <p class="mt-4">Certificamos para os devidos fins que a empresa <b id="preview-empresa">LOGÍSTICA BRASIL LTDA</b> encontra-se regularizada e chancelada para operações aduaneiras e operacionais.</p>
+                    </div>
+                    <div class="border-t border-slate-300 pt-3 mt-6 flex justify-between items-end text-[9px] text-slate-500">
+                        <div>
+                            <p>Autenticação: <span id="preview-hash" class="font-bold text-slate-800">ICP-BR-88492019</span></p>
+                            <p>Emissão: <span id="preview-data">31/08/2026</span></p>
+                        </div>
+                        <div class="text-right border p-1 border-slate-400 bg-slate-100 font-bold">
+                            CNPJ EMISSOR<br>61.549.037/0001-68
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAINEL DINÂMICO 2: API & TI (INICIALMENTE OCULTO) -->
+    <section id="secao-ti" class="max-w-7xl mx-auto px-4 py-6 hidden">
+        <div class="glass p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-cyan-400 mb-2"><i class="fas fa-terminal mr-2"></i>Documentação Integrada da API REST</h2>
+            <p class="text-xs text-slate-400 mb-6">Dispare requisições via POST para emissão automática em lote e recebimento via Webhook.</p>
+
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs text-slate-300 overflow-x-auto">
+                <p class="text-emerald-400 font-bold">POST /.netlify/functions/webhook HTTP/1.1</p>
+                <p class="text-slate-500">Host: sparkling-mooncake-a4f11d.netlify.app</p>
+                <p class="text-slate-500">Content-Type: application/json</p>
+                <br>
+                <p class="text-cyan-300">{</p>
+                <p class="pl-4 text-cyan-300">"cnpj_matriz": <span class="text-amber-300">"61.549.037/0001-68"</span>,</p>
+                <p class="pl-4 text-cyan-300">"documento_tipo": <span class="text-amber-300">"DUIMP_SISCOMEX"</span>,</p>
+                <p class="pl-4 text-cyan-300">"autenticacao": <span class="text-amber-300">"e-CNPJ A1 ICP-Brasil"</span>,</p>
+                <p class="pl-4 text-cyan-300">"gateway_callback": <span class="text-amber-300">"https://sparkling-mooncake-a4f11d.netlify.app/caixa"</span></p>
+                <p class="text-cyan-300">}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAINEL DINÂMICO 3: JORNAL DE OPORTUNIDADES & INVESTIDOR (INICIALMENTE OCULTO) -->
+    <section id="secao-investidor" class="max-w-7xl mx-auto px-4 py-6 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- COLUNA DE GRÁFICOS FINANCEIROS -->
+            <div class="lg:col-span-2 glass p-6 rounded-2xl border border-slate-800">
+                <div class="flex justify-between items-center mb-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-emerald-400"><i class="fas fa-chart-pie mr-2"></i>Fluxo de Arrecadação IOTEC</h2>
+                        <p class="text-xs text-slate-400">Volume de taxas liquidadas nos 4 gateways integrados.</p>
+                    </div>
+                    <span class="text-xs font-bold bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full border border-emerald-500/20">
+                        ROI Estimado: 18% a 22% a.a.
+                    </span>
+                </div>
+                <div class="h-64">
+                    <canvas id="graficoReceita"></canvas>
+                </div>
+            </div>
+
+            <!-- JORNAL DE OPORTUNIDADES B2B -->
+            <div class="glass p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-bold text-cyan-400 mb-3 border-b border-slate-800 pb-2">
+                        <i class="fas fa-newspaper mr-2"></i>Jornal de Oportunidades B2B
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="p-3 bg-slate-900/80 rounded-lg border border-slate-800 hover:border-cyan-500/50 transition">
+                            <span class="text-[10px] font-bold text-cyan-400 block mb-1">PLANO CORPORATE API</span>
+                            <p class="font-bold text-slate-200">Integração em Lote para Despachantes</p>
+                            <p class="text-slate-400 text-[11px] mt-1">Recorrência estimada em R$ 2.500,00/mês por contrato ativo.</p>
+                        </div>
+                        <div class="p-3 bg-slate-900/80 rounded-lg border border-slate-800 hover:border-emerald-500/50 transition">
+                            <span class="text-[10px] font-bold text-emerald-400 block mb-1">WHITE-LABEL ENTERPRISE</span>
+                            <p class="font-bold text-slate-200">Módulo Completo para Corretoras</p>
+                            <p class="text-slate-400 text-[11px] mt-1">Licenciamento do motor de emissão sob o CNPJ 61.549.037/0001-68.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/5588993064168?text=Quero%20conhecer%20as%20oportunidades%20B2B%20da%20IOTEC" target="_blank" class="w-full text-center mt-4 bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold py-2.5 rounded-lg text-xs transition">
+                    Seja um Parceiro B2B
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER INSTITUCIONAL -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="mb-2"><b>IOTEC INFORMÁTICA LTDA</b> — CNPJ: 61.549.037/0001-68</p>
+            <p>Plataforma de Automação de Certidões, APIs de Transporte e Infraestrutura Financeira Auditada.</p>
+        </div>
+    </footer>
+
+    <!-- LÓGICA INTERATIVA EM JAVASCRIPT -->
     <script>
-        // Fun├º├úo para consultar o backend (app.py) se o pagamento real foi recebido
-        async function checarPagamentoReal() {
-            try {
-                let response = await fetch('/api/check-payment');
-                let data = await response.json();
-                
-                if (data.status === 'PAID') {
-                    let btn = document.getElementById('btn-baixar');
-                    btn.disabled = false;
-                    btn.classList.add('btn-active');
-                    btn.innerText = 'BAIXAR CERTID├âO LIBERADA (PDF)';
-                    document.getElementById('status-pagamento').innerHTML = 'Ô£à <strong>Status:</strong> Pagamento confirmado via Gateway!';
-                }
-            } catch (e) {
-                console.log('Aguardando webhook de confirma├º├úo...');
+        // Lógica de Troca de Perfis
+        function setPerfil(perfil) {
+            document.getElementById('secao-varejo').classList.add('hidden');
+            document.getElementById('secao-ti').classList.add('hidden');
+            document.getElementById('secao-investidor').classList.add('hidden');
+
+            document.getElementById('btn-varejo').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold text-slate-400 hover:text-slate-200 transition-all";
+            document.getElementById('btn-ti').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold text-slate-400 hover:text-slate-200 transition-all";
+            document.getElementById('btn-investidor').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold text-slate-400 hover:text-slate-200 transition-all";
+
+            if (perfil === 'varejo') {
+                document.getElementById('secao-varejo').classList.remove('hidden');
+                document.getElementById('btn-varejo').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold transition-all bg-cyan-500 text-slate-950 shadow-lg";
+            } else if (perfil === 'ti') {
+                document.getElementById('secao-ti').classList.remove('hidden');
+                document.getElementById('btn-ti').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold transition-all bg-cyan-500 text-slate-950 shadow-lg";
+            } else if (perfil === 'investidor') {
+                document.getElementById('secao-investidor').classList.remove('hidden');
+                document.getElementById('btn-investidor').className = "px-5 py-2.5 rounded-lg text-xs md:text-sm font-bold transition-all bg-emerald-500 text-slate-950 shadow-lg";
+                renderizarGrafico();
             }
         }
 
-        // Checa a cada 3 segundos
-        setInterval(checarPagamentoReal, 3000);
+        // Lógica do Simulador A4
+        function atualizarSimulador() {
+            const select = document.getElementById('sim-doc').value.split('|');
+            const preco = select[0];
+            const titulo = select[1];
+            const nomeEmpresa = document.getElementById('sim-nome').value || 'SUA EMPRESA LTDA';
 
-        function baixarCertidao() {
-            alert('Certid├úo emitida com sucesso e validada no iotec.db!');
+            document.getElementById('sim-preco').innerText = `R$ ${parseFloat(preco).toFixed(2).replace('.', ',')}`;
+            document.getElementById('preview-titulo').innerText = titulo;
+            document.getElementById('preview-empresa').innerText = nomeEmpresa.toUpperCase();
+            document.getElementById('preview-hash').innerText = 'ICP-BR-' + Math.floor(10000000 + Math.random() * 90000000);
+        }
+
+        // Gráfico do Investidor via Chart.js
+        let graficoInstancia = null;
+        function renderizarGrafico() {
+            if (graficoInstancia) return;
+            const ctx = document.getElementById('graficoReceita').getContext('2d');
+            graficoInstancia = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Semana 1', 'Semana 2', 'Semana 3', 'Semana 4'],
+                    datasets: [{
+                        label: 'Caixa Acumulado (R$)',
+                        data: [12000, 28000, 42000, 59000],
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { color: '#1e293b' }, ticks: { color: '#94a3b8' } },
+                        y: { grid: { color: '#1e293b' }, ticks: { color: '#94a3b8' } }
+                    }
+                }
+            });
         }
     </script>
 </body>

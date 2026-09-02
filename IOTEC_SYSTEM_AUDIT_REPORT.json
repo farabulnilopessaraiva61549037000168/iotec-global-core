@@ -1,0 +1,3372 @@
+{
+    "data": "2026-06-13 10:39:11.985505",
+    "motores": [
+        {
+            "arquivo": "abrir_Servico.py",
+            "bytes": 1012
+        },
+        {
+            "arquivo": "acquisition_sources.py",
+            "bytes": 4911
+        },
+        {
+            "arquivo": "ACROPOLE_CITY.py",
+            "bytes": 8014
+        },
+        {
+            "arquivo": "ACROPOLE_COSMOS.py",
+            "bytes": 11852
+        },
+        {
+            "arquivo": "ACROPOLE_GLOBAL.py",
+            "bytes": 16382
+        },
+        {
+            "arquivo": "ACROPOLE_INFINITY.py",
+            "bytes": 14450
+        },
+        {
+            "arquivo": "ACROPOLE_NEXUS.py",
+            "bytes": 19308
+        },
+        {
+            "arquivo": "ACROPOLE_OMEGA.py",
+            "bytes": 17798
+        },
+        {
+            "arquivo": "ACROPOLE_PRIME.py",
+            "bytes": 13916
+        },
+        {
+            "arquivo": "ACROPOLE_VISUAL.py",
+            "bytes": 12214
+        },
+        {
+            "arquivo": "ADAPTADOR_DE_ROTAS.py",
+            "bytes": 1524
+        },
+        {
+            "arquivo": "ADAPTIVE_RESERVOIR_ENGINE.py",
+            "bytes": 4768
+        },
+        {
+            "arquivo": "ADD_PRIORITY_COLUMN.py",
+            "bytes": 416
+        },
+        {
+            "arquivo": "agente.py",
+            "bytes": 1640
+        },
+        {
+            "arquivo": "ajustar_zoom_inteligente.py",
+            "bytes": 1938
+        },
+        {
+            "arquivo": "analisar_cenario.py",
+            "bytes": 674
+        },
+        {
+            "arquivo": "analise_nucleo.py",
+            "bytes": 1382
+        },
+        {
+            "arquivo": "api.py",
+            "bytes": 365
+        },
+        {
+            "arquivo": "APOCALYPSE_ENGINE.py",
+            "bytes": 6606
+        },
+        {
+            "arquivo": "app.py",
+            "bytes": 8487
+        },
+        {
+            "arquivo": "APPROVE_PROPOSAL.py",
+            "bytes": 609
+        },
+        {
+            "arquivo": "app_cerebro_comercial.py",
+            "bytes": 4171
+        },
+        {
+            "arquivo": "ARQUEOLOGIA_DIGITAL.py",
+            "bytes": 9686
+        },
+        {
+            "arquivo": "ARQUEOLOGO_DO_NUCLEO.py",
+            "bytes": 5440
+        },
+        {
+            "arquivo": "ARQUITETURA_MODULAR_OPERACIONAL.py",
+            "bytes": 8034
+        },
+        {
+            "arquivo": "ATUALIZACAO_NO_NUCLEO.py",
+            "bytes": 845
+        },
+        {
+            "arquivo": "auditoria_estrategica.py",
+            "bytes": 2752
+        },
+        {
+            "arquivo": "auditoria_nucleo.py",
+            "bytes": 1342
+        },
+        {
+            "arquivo": "AUDIT_VALUE_ENGINE.py",
+            "bytes": 3914
+        },
+        {
+            "arquivo": "AUTOMATION_HISTORY_ENGINE.py",
+            "bytes": 2270
+        },
+        {
+            "arquivo": "AUTONOMOUS_LEAD.py",
+            "bytes": 8229
+        },
+        {
+            "arquivo": "AUTO_HEAL_ENGINE.py",
+            "bytes": 2856
+        },
+        {
+            "arquivo": "auto_injector.py",
+            "bytes": 2155
+        },
+        {
+            "arquivo": "AUTO_MONETIZATION_ENGINE.py",
+            "bytes": 2884
+        },
+        {
+            "arquivo": "auto_patch.py",
+            "bytes": 1419
+        },
+        {
+            "arquivo": "AUTO_PATCH_ENGINE.py",
+            "bytes": 2579
+        },
+        {
+            "arquivo": "AUTO_PATCH_SERVER_SQL.py",
+            "bytes": 1227
+        },
+        {
+            "arquivo": "AUTO_PORT.py",
+            "bytes": 3502
+        },
+        {
+            "arquivo": "AUTO_UPGRADE_FRONTEND_360.py",
+            "bytes": 3318
+        },
+        {
+            "arquivo": "AUTO_UPGRADE_SERVER_360.py",
+            "bytes": 1149
+        },
+        {
+            "arquivo": "BACKEND_COM_FLUXO_COMPLETO.py",
+            "bytes": 494
+        },
+        {
+            "arquivo": "BACKUP_20260511_185831.py",
+            "bytes": 13197
+        },
+        {
+            "arquivo": "BACKUP_NEURAL_MAP_ENGINE.py",
+            "bytes": 3998
+        },
+        {
+            "arquivo": "BILLING_ORCHESTRATOR.py",
+            "bytes": 2061
+        },
+        {
+            "arquivo": "bootstrap_safe.py",
+            "bytes": 461
+        },
+        {
+            "arquivo": "boot_iotec.py",
+            "bytes": 1595
+        },
+        {
+            "arquivo": "BRAIN.py",
+            "bytes": 5460
+        },
+        {
+            "arquivo": "BRIDGE_TOWER.py",
+            "bytes": 1948
+        },
+        {
+            "arquivo": "BROADCAST.py",
+            "bytes": 11274
+        },
+        {
+            "arquivo": "broker.py",
+            "bytes": 898
+        },
+        {
+            "arquivo": "calcular_score.py",
+            "bytes": 576
+        },
+        {
+            "arquivo": "CAPACIDADES_ECONÔMICAS.py",
+            "bytes": 7929
+        },
+        {
+            "arquivo": "CENTRAL_CORE.py",
+            "bytes": 8171
+        },
+        {
+            "arquivo": "Central_Operacional.py",
+            "bytes": 9077
+        },
+        {
+            "arquivo": "cerebro_comercial.py",
+            "bytes": 1245
+        },
+        {
+            "arquivo": "CERTIFIER_ENGINE.py",
+            "bytes": 12036
+        },
+        {
+            "arquivo": "CHAT_GLOBAL.py",
+            "bytes": 350
+        },
+        {
+            "arquivo": "CINEMATIC_ENTERPRISE.py",
+            "bytes": 12857
+        },
+        {
+            "arquivo": "CINEMATIC_OPERATIONS.py",
+            "bytes": 12044
+        },
+        {
+            "arquivo": "CLIENTE_INTERNACIONAL.py",
+            "bytes": 188
+        },
+        {
+            "arquivo": "CLIENT_ONBOARDING_ENGINE.py",
+            "bytes": 4116
+        },
+        {
+            "arquivo": "CLOSING_ENGINE.py",
+            "bytes": 2245
+        },
+        {
+            "arquivo": "cluster_bootstrap.py",
+            "bytes": 1218
+        },
+        {
+            "arquivo": "coletor_api.py",
+            "bytes": 843
+        },
+        {
+            "arquivo": "COMMERCIAL_ACTION_ENGINE.py",
+            "bytes": 3947
+        },
+        {
+            "arquivo": "COMMERCIAL_ACTION_EXECUTOR.py",
+            "bytes": 4422
+        },
+        {
+            "arquivo": "COMMERCIAL_CONTROL_TOWER.py",
+            "bytes": 2639
+        },
+        {
+            "arquivo": "COMMERCIAL_CONVERSION_ENGINE.py",
+            "bytes": 1739
+        },
+        {
+            "arquivo": "COMMERCIAL_EXECUTIVE_REPORT.py",
+            "bytes": 3103
+        },
+        {
+            "arquivo": "COMMERCIAL_FORECAST_ENGINE.py",
+            "bytes": 2331
+        },
+        {
+            "arquivo": "COMMERCIAL_FUNNEL_ENGINE.py",
+            "bytes": 1538
+        },
+        {
+            "arquivo": "COMMERCIAL_FUSION_ENGINE.py",
+            "bytes": 1744
+        },
+        {
+            "arquivo": "COMMERCIAL_HEALTH_CHECK.py",
+            "bytes": 2815
+        },
+        {
+            "arquivo": "COMMERCIAL_OPPORTUNITY_ENGINE.py",
+            "bytes": 1740
+        },
+        {
+            "arquivo": "COMMERCIAL_TOWER.py",
+            "bytes": 1211
+        },
+        {
+            "arquivo": "COMMERCIAL_TO_PIPELINE_SYNC.py",
+            "bytes": 2414
+        },
+        {
+            "arquivo": "COMMUNICATION_CENTER.py",
+            "bytes": 4092
+        },
+        {
+            "arquivo": "COMMUNICATION_FEEDBACK_ENGINE.py",
+            "bytes": 3247
+        },
+        {
+            "arquivo": "COMMUNICATION_GUARDIAN.py",
+            "bytes": 3469
+        },
+        {
+            "arquivo": "COMMUNICATION_ORCHESTRATOR.py",
+            "bytes": 2531
+        },
+        {
+            "arquivo": "COMUNICAAO_NULEO.PY",
+            "bytes": 2109
+        },
+        {
+            "arquivo": "conciencia_do_nucleo.py",
+            "bytes": 175
+        },
+        {
+            "arquivo": "config.py",
+            "bytes": 32
+        },
+        {
+            "arquivo": "CONFIGURADOR_AUTOMATICO.py",
+            "bytes": 2991
+        },
+        {
+            "arquivo": "CONFIRM_INVOICE30.py",
+            "bytes": 1251
+        },
+        {
+            "arquivo": "CONFIRM_INVOICE70.py",
+            "bytes": 1074
+        },
+        {
+            "arquivo": "CONFIRM_PAYMENT.py",
+            "bytes": 815
+        },
+        {
+            "arquivo": "CONNECTOR_EXECUTOR.py",
+            "bytes": 1147
+        },
+        {
+            "arquivo": "CONSOLIDADOR_E_FILTRO.py",
+            "bytes": 10925
+        },
+        {
+            "arquivo": "CONSOLIDATION_ENGINE.py",
+            "bytes": 8675
+        },
+        {
+            "arquivo": "CONTEUDO_REAL_DOS_SERVICOS.py",
+            "bytes": 1709
+        },
+        {
+            "arquivo": "CONTINUOUS_OPERATION.py",
+            "bytes": 9861
+        },
+        {
+            "arquivo": "CONTINUOUS_PROGRAMMING.py",
+            "bytes": 8963
+        },
+        {
+            "arquivo": "CONTRACT_CONVERSION_ENGINE.py",
+            "bytes": 2241
+        },
+        {
+            "arquivo": "CONTROLE_DE_CUSTOS.py",
+            "bytes": 610
+        },
+        {
+            "arquivo": "Conversacional_Moderna.py",
+            "bytes": 8417
+        },
+        {
+            "arquivo": "CONVERSION_INTELLIGENCE_ENGINE.py",
+            "bytes": 4310
+        },
+        {
+            "arquivo": "CORE_BUSINESS.py",
+            "bytes": 12778
+        },
+        {
+            "arquivo": "CORE_MASTER.py",
+            "bytes": 1904
+        },
+        {
+            "arquivo": "CORE_STRESS_TEST.py",
+            "bytes": 4218
+        },
+        {
+            "arquivo": "CORE_VERSAO_CALIBRADA.py",
+            "bytes": 3364
+        },
+        {
+            "arquivo": "COR_INDEXER.py",
+            "bytes": 9887
+        },
+        {
+            "arquivo": "COUNT_FUNCTIONS.py",
+            "bytes": 853
+        },
+        {
+            "arquivo": "CPU_SHIELD.py",
+            "bytes": 8636
+        },
+        {
+            "arquivo": "CREATIVE_EXPLORER.py",
+            "bytes": 8080
+        },
+        {
+            "arquivo": "criar_entrega.py",
+            "bytes": 274
+        },
+        {
+            "arquivo": "CRM_ENGINE.py",
+            "bytes": 1854
+        },
+        {
+            "arquivo": "CSV_CONNECTOR.py",
+            "bytes": 2320
+        },
+        {
+            "arquivo": "DAILY_COMMERCIAL_AUTOMATION.py",
+            "bytes": 871
+        },
+        {
+            "arquivo": "DAILY_EXECUTION_ENGINE.py",
+            "bytes": 4271
+        },
+        {
+            "arquivo": "DASHBOARD_AUTO_INSTALLER.py",
+            "bytes": 4433
+        },
+        {
+            "arquivo": "DASHBOARD_BACKUP_20260511_193717.py",
+            "bytes": 3954
+        },
+        {
+            "arquivo": "DASHBOARD_INSTALLER.py",
+            "bytes": 3972
+        },
+        {
+            "arquivo": "DATABASE_INSPECTOR.py",
+            "bytes": 1029
+        },
+        {
+            "arquivo": "DATA_REFINERY_SYSTEM.py",
+            "bytes": 10844
+        },
+        {
+            "arquivo": "DEEP_ASSET_ARCHAEOLOGY.py",
+            "bytes": 5175
+        },
+        {
+            "arquivo": "DEEP_CORE_SCANNER.py",
+            "bytes": 7873
+        },
+        {
+            "arquivo": "definir_plano.py",
+            "bytes": 599
+        },
+        {
+            "arquivo": "deploy.py",
+            "bytes": 0
+        },
+        {
+            "arquivo": "DETECCAO_DE_ALTO_RETORNO.py",
+            "bytes": 752
+        },
+        {
+            "arquivo": "detectar_idioma.py",
+            "bytes": 212
+        },
+        {
+            "arquivo": "DETECTAR_INTERFACES_EXTERNNAS.py",
+            "bytes": 988
+        },
+        {
+            "arquivo": "diagnostico.py",
+            "bytes": 370
+        },
+        {
+            "arquivo": "dialogo.py",
+            "bytes": 813
+        },
+        {
+            "arquivo": "DIRECT_LEAD_TEST.py",
+            "bytes": 466
+        },
+        {
+            "arquivo": "DISPARAR_DEPLOY.py",
+            "bytes": 1975
+        },
+        {
+            "arquivo": "ECONOMIC_AUDIT_ENGINE.py",
+            "bytes": 2207
+        },
+        {
+            "arquivo": "ECONOMIC_INTELLIGENCE.py",
+            "bytes": 6562
+        },
+        {
+            "arquivo": "Ecossistema_Black_Diamond.py",
+            "bytes": 5568
+        },
+        {
+            "arquivo": "ECOSSISTEMA_DE_IA_ASSISTIVA.py",
+            "bytes": 15523
+        },
+        {
+            "arquivo": "ECOSYSTEM_ACTIVATION.py",
+            "bytes": 10120
+        },
+        {
+            "arquivo": "eh_pagamento_paypal.py",
+            "bytes": 315
+        },
+        {
+            "arquivo": "email_bridge.py",
+            "bytes": 197
+        },
+        {
+            "arquivo": "engine.py",
+            "bytes": 1055
+        },
+        {
+            "arquivo": "ENGINE_ROUTER_CORE.py",
+            "bytes": 8204
+        },
+        {
+            "arquivo": "ENTERPRISE_ENGINE.py",
+            "bytes": 14549
+        },
+        {
+            "arquivo": "ENTERPRISE_RENDER_READY.py",
+            "bytes": 7336
+        },
+        {
+            "arquivo": "ENTERPRISE_WEB_CORE.py",
+            "bytes": 14545
+        },
+        {
+            "arquivo": "entrada_principal_main.py",
+            "bytes": 508
+        },
+        {
+            "arquivo": "EVENT_BUS.py",
+            "bytes": 2607
+        },
+        {
+            "arquivo": "event_bus_v4.py",
+            "bytes": 3781
+        },
+        {
+            "arquivo": "event_bus_v5.py",
+            "bytes": 3582
+        },
+        {
+            "arquivo": "event_bus_v6.py",
+            "bytes": 4251
+        },
+        {
+            "arquivo": "event_bus_v7.py",
+            "bytes": 4124
+        },
+        {
+            "arquivo": "event_bus_v8.py",
+            "bytes": 4500
+        },
+        {
+            "arquivo": "event_bus_v9.py",
+            "bytes": 4823
+        },
+        {
+            "arquivo": "EXECUTION_CORE.py",
+            "bytes": 7049
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_ENTER.py",
+            "bytes": 6696
+        },
+        {
+            "arquivo": "EXECUTIVE_COMMAND_TOWER.py",
+            "bytes": 2803
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD.py",
+            "bytes": 11566
+        },
+        {
+            "arquivo": "EXECUTIVE_DASHBOARD_ENGINE.py",
+            "bytes": 2174
+        },
+        {
+            "arquivo": "EXPANSAO_COMPLETA.py",
+            "bytes": 2055
+        },
+        {
+            "arquivo": "extrair_valor.py",
+            "bytes": 167
+        },
+        {
+            "arquivo": "FAILURE_DETECTION.py",
+            "bytes": 10113
+        },
+        {
+            "arquivo": "FEEDBACK_DEDUP_ENGINE.py",
+            "bytes": 1754
+        },
+        {
+            "arquivo": "FILA_DE_EXPERIMENTACAO.py",
+            "bytes": 1210
+        },
+        {
+            "arquivo": "FINANCIAL_LEDGER_ENGINE.py",
+            "bytes": 2888
+        },
+        {
+            "arquivo": "fix_broker.py",
+            "bytes": 659
+        },
+        {
+            "arquivo": "fix_heartbeat_server.py",
+            "bytes": 1478
+        },
+        {
+            "arquivo": "fix_iotec.py",
+            "bytes": 655
+        },
+        {
+            "arquivo": "fix_iotec_final.py",
+            "bytes": 1084
+        },
+        {
+            "arquivo": "fix_nodes_protocol.py",
+            "bytes": 1358
+        },
+        {
+            "arquivo": "fix_orchestrator_v2.py",
+            "bytes": 3401
+        },
+        {
+            "arquivo": "FLUXO_COMPLETO.py",
+            "bytes": 228
+        },
+        {
+            "arquivo": "FLUXO_REAL.py",
+            "bytes": 138
+        },
+        {
+            "arquivo": "FOLLOWUP_SCHEDULER.py",
+            "bytes": 2110
+        },
+        {
+            "arquivo": "FUNNEL_WIRING_AUDIT.py",
+            "bytes": 3541
+        },
+        {
+            "arquivo": "gerar_dossie.py",
+            "bytes": 3817
+        },
+        {
+            "arquivo": "Gerar_entreg.py",
+            "bytes": 612
+        },
+        {
+            "arquivo": "gerar_excel.py",
+            "bytes": 163
+        },
+        {
+            "arquivo": "gerar_login.py",
+            "bytes": 328
+        },
+        {
+            "arquivo": "gerar_ordem.py",
+            "bytes": 754
+        },
+        {
+            "arquivo": "gerar_pacote.py",
+            "bytes": 418
+        },
+        {
+            "arquivo": "gerar_texto_contextual.py",
+            "bytes": 860
+        },
+        {
+            "arquivo": "GLOBAL_ASSETS.py",
+            "bytes": 8175
+        },
+        {
+            "arquivo": "GLOBAL_CONTROL_TOWER.py",
+            "bytes": 9503
+        },
+        {
+            "arquivo": "GLOBAL_OPERATIONAL_CORE.py",
+            "bytes": 9276
+        },
+        {
+            "arquivo": "GLOBAL_REALTY.py",
+            "bytes": 11623
+        },
+        {
+            "arquivo": "GLOBAL_REALTY_01.py",
+            "bytes": 7884
+        },
+        {
+            "arquivo": "Global_Realty_Connected.py",
+            "bytes": 10725
+        },
+        {
+            "arquivo": "Global_Realty_Fullscreen_Interface.py",
+            "bytes": 8630
+        },
+        {
+            "arquivo": "GOVERNANA_OPERACIONAL.py",
+            "bytes": 8866
+        },
+        {
+            "arquivo": "GOVERNANA_OPERACIONAL_AUTOMATIZADA.py",
+            "bytes": 10459
+        },
+        {
+            "arquivo": "grafico_barras_premium.py",
+            "bytes": 508
+        },
+        {
+            "arquivo": "grafico_gauge_risco.py",
+            "bytes": 572
+        },
+        {
+            "arquivo": "gTTS.py",
+            "bytes": 122
+        },
+        {
+            "arquivo": "HEAVY_STRESS.py",
+            "bytes": 6705
+        },
+        {
+            "arquivo": "HIERARCHICA_ESCALATION.py",
+            "bytes": 20040
+        },
+        {
+            "arquivo": "HYPERCORE_SHIELD.py",
+            "bytes": 9311
+        },
+        {
+            "arquivo": "HYPERSCALE_LAB.py",
+            "bytes": 8037
+        },
+        {
+            "arquivo": "IBEX_DASHBOARD.py",
+            "bytes": 6325
+        },
+        {
+            "arquivo": "IBEX_UNIVERSAL.py",
+            "bytes": 9146
+        },
+        {
+            "arquivo": "IBEX_UNIVERSAL_RECEPTION.py",
+            "bytes": 9327
+        },
+        {
+            "arquivo": "IDENTIDADE_DINMICA_DO_NUCLEO.py",
+            "bytes": 4095
+        },
+        {
+            "arquivo": "IMPORTADOR_EMPRESAS.py",
+            "bytes": 1558
+        },
+        {
+            "arquivo": "INIT_BACKUP_20260511_190622.py",
+            "bytes": 14059
+        },
+        {
+            "arquivo": "INTEGRACAO_COMPLETA.py",
+            "bytes": 5379
+        },
+        {
+            "arquivo": "integracao_executar_nucleo.py",
+            "bytes": 1504
+        },
+        {
+            "arquivo": "INTEGRACAO_FINAL_DO_NUCLEO.py",
+            "bytes": 628
+        },
+        {
+            "arquivo": "Inteligncia_de_Valorizao.py",
+            "bytes": 2185
+        },
+        {
+            "arquivo": "INTELLIGENT_CURATOR.py",
+            "bytes": 9761
+        },
+        {
+            "arquivo": "Interface_Restoration.py",
+            "bytes": 2523
+        },
+        {
+            "arquivo": "INTERNAL_DOMINANCE_GOVERNANCE.py",
+            "bytes": 10006
+        },
+        {
+            "arquivo": "INVENTRIO_CORPORATIVO.py",
+            "bytes": 8993
+        },
+        {
+            "arquivo": "INVENTRIO_CORPORATIVO_IMPERIAL.py",
+            "bytes": 7167
+        },
+        {
+            "arquivo": "INVENTRIO_INTELIGENTE.py",
+            "bytes": 8461
+        },
+        {
+            "arquivo": "INVESTIGADOR_EMPRESARIAL.py",
+            "bytes": 5748
+        },
+        {
+            "arquivo": "INVESTIGATION_01_LEAD_PATH_AUDIT.py",
+            "bytes": 1429
+        },
+        {
+            "arquivo": "INVESTIGATION_02_FORMS_LOCATOR.py",
+            "bytes": 375
+        },
+        {
+            "arquivo": "INVESTIGATOR_TECHNICAL_TUTOR.py",
+            "bytes": 9594
+        },
+        {
+            "arquivo": "iotec.py",
+            "bytes": 1273
+        },
+        {
+            "arquivo": "IOTEC_ACCOUNT_REGISTRY_ENGINE.py",
+            "bytes": 2402
+        },
+        {
+            "arquivo": "IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "bytes": 6563
+        },
+        {
+            "arquivo": "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "bytes": 20962
+        },
+        {
+            "arquivo": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "bytes": 7305
+        },
+        {
+            "arquivo": "IOTEC_AI_ATENDENTE.py",
+            "bytes": 434
+        },
+        {
+            "arquivo": "IOTEC_AI_BRIDGE_CONNECTOR.py",
+            "bytes": 4184
+        },
+        {
+            "arquivo": "IOTEC_AI_CORE.py",
+            "bytes": 349
+        },
+        {
+            "arquivo": "IOTEC_AI_SECURITY.py",
+            "bytes": 413
+        },
+        {
+            "arquivo": "iotec_alma_core.py",
+            "bytes": 3187
+        },
+        {
+            "arquivo": "iotec_alma_core_v2.py",
+            "bytes": 3895
+        },
+        {
+            "arquivo": "iotec_alma_core_v3.py",
+            "bytes": 4754
+        },
+        {
+            "arquivo": "iotec_alma_core_v4_governador.py",
+            "bytes": 4774
+        },
+        {
+            "arquivo": "iotec_alma_core_v5_consolidador.py",
+            "bytes": 5099
+        },
+        {
+            "arquivo": "IOTEC_API_INTEGRACAO.py",
+            "bytes": 2049
+        },
+        {
+            "arquivo": "IOTEC_ARCHITECTURE_AUDITOR.py",
+            "bytes": 2930
+        },
+        {
+            "arquivo": "IOTEC_ARTERIA_8787.py",
+            "bytes": 443
+        },
+        {
+            "arquivo": "IOTEC_ASSET_VALUE_DISCOVERY.py",
+            "bytes": 2835
+        },
+        {
+            "arquivo": "IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+            "bytes": 8355
+        },
+        {
+            "arquivo": "IOTEC_AUTOMATIC_PROSPECTION_ENGINE.py",
+            "bytes": 1419
+        },
+        {
+            "arquivo": "IOTEC_AUTONOMOUS.py",
+            "bytes": 8660
+        },
+        {
+            "arquivo": "IOTEC_AUTONOMOUS_MISSION_ENGINE.py",
+            "bytes": 1005
+        },
+        {
+            "arquivo": "IOTEC_AUTOPILOT_ENGINE.py",
+            "bytes": 1796
+        },
+        {
+            "arquivo": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "bytes": 11427
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_CLUSTER_ENGINE.py",
+            "bytes": 4596
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_HUNTER.py",
+            "bytes": 5552
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_POWER_AUDITOR.py",
+            "bytes": 5060
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_BRAIN.py",
+            "bytes": 4511
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_OPERATION_AUDITOR.py",
+            "bytes": 4989
+        },
+        {
+            "arquivo": "IOTEC_CONTEXT_AI.py",
+            "bytes": 469
+        },
+        {
+            "arquivo": "IOTEC_CONTRACT_ENGINE.py",
+            "bytes": 1715
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_PANEL.py",
+            "bytes": 2966
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "bytes": 7276
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_LEDGER.py",
+            "bytes": 3940
+        },
+        {
+            "arquivo": "IOTEC_CONVERSION_ENGINE.py",
+            "bytes": 2403
+        },
+        {
+            "arquivo": "iotec_core.py",
+            "bytes": 4174
+        },
+        {
+            "arquivo": "IOTEC_CORE_24H.py",
+            "bytes": 1276
+        },
+        {
+            "arquivo": "IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+            "bytes": 6415
+        },
+        {
+            "arquivo": "IOTEC_CORE_EMAIL_24H.py",
+            "bytes": 5085
+        },
+        {
+            "arquivo": "IOTEC_CORE_LIVE_QUEUE.py",
+            "bytes": 4421
+        },
+        {
+            "arquivo": "IOTEC_CORE_MANAGER.py",
+            "bytes": 3923
+        },
+        {
+            "arquivo": "IOTEC_CORE_QUEUE_PANEL.py",
+            "bytes": 2521
+        },
+        {
+            "arquivo": "IOTEC_CORE_RUNNER.py",
+            "bytes": 323
+        },
+        {
+            "arquivo": "IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "bytes": 10954
+        },
+        {
+            "arquivo": "IOTEC_CYCLE_AUDITOR.py",
+            "bytes": 1823
+        },
+        {
+            "arquivo": "IOTEC_DAILY_GROWTH_MISSION_ENGINE.py",
+            "bytes": 4784
+        },
+        {
+            "arquivo": "IOTEC_DASHBOARD.py",
+            "bytes": 3
+        },
+        {
+            "arquivo": "IOTEC_DATABASE_CORE.py",
+            "bytes": 2742
+        },
+        {
+            "arquivo": "IOTEC_DATA_HIGHWAY_DISCOVERY.py",
+            "bytes": 5738
+        },
+        {
+            "arquivo": "IOTEC_DEPLOYMENT_DIAGNOSTIC.py",
+            "bytes": 3410
+        },
+        {
+            "arquivo": "IOTEC_DEPLOY_MASTER.py",
+            "bytes": 4067
+        },
+        {
+            "arquivo": "IOTEC_DEPLOY_MASTER_V2.py",
+            "bytes": 4068
+        },
+        {
+            "arquivo": "IOTEC_DEPLOY_MASTER_V3.py",
+            "bytes": 4068
+        },
+        {
+            "arquivo": "IOTEC_DEPLOY_NETLIFY.py",
+            "bytes": 752
+        },
+        {
+            "arquivo": "IOTEC_DEPLOY_ORQUESTRADOR.py",
+            "bytes": 3921
+        },
+        {
+            "arquivo": "IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "bytes": 3450
+        },
+        {
+            "arquivo": "IOTEC_ENGINE_INTEGRATION_AUDITOR.py",
+            "bytes": 4279
+        },
+        {
+            "arquivo": "IOTEC_EVENT_BUS_ENGINE.py",
+            "bytes": 2715
+        },
+        {
+            "arquivo": "IOTEC_EVENT_CONSUMER.py",
+            "bytes": 3194
+        },
+        {
+            "arquivo": "IOTEC_EVENT_IDENTIFICATION_ENGINE.py",
+            "bytes": 1230
+        },
+        {
+            "arquivo": "IOTEC_EVENT_PUBLISHER.py",
+            "bytes": 1312
+        },
+        {
+            "arquivo": "IOTEC_EVENT_ROUTER.py",
+            "bytes": 1615
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_XRAY.py",
+            "bytes": 4270
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_COCKPIT.py",
+            "bytes": 5134
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_ORCHESTRATOR.py",
+            "bytes": 2024
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_WALL.py",
+            "bytes": 2083
+        },
+        {
+            "arquivo": "IOTEC_FIRST_REVENUE_ENGINE.py",
+            "bytes": 9386
+        },
+        {
+            "arquivo": "IOTEC_FLOW_DISCOVERY_ENGINE.py",
+            "bytes": 2729
+        },
+        {
+            "arquivo": "IOTEC_FORM_TO_EMAIL.py",
+            "bytes": 697
+        },
+        {
+            "arquivo": "IOTEC_FULL_FLOW.py",
+            "bytes": 1872
+        },
+        {
+            "arquivo": "IOTEC_GATEWAY_CORE.py",
+            "bytes": 5091
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_CORE.py",
+            "bytes": 13929
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+            "bytes": 8991
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_READINESS_CHECK.py",
+            "bytes": 5233
+        },
+        {
+            "arquivo": "iotec_governor_layer.py",
+            "bytes": 4017
+        },
+        {
+            "arquivo": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "bytes": 3721
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_COMMAND_CENTER.py",
+            "bytes": 5407
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_SIMULATOR.py",
+            "bytes": 1917
+        },
+        {
+            "arquivo": "IOTEC_HIDDEN_CAPABILITIES_ENGINE.py",
+            "bytes": 5108
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_COCKPIT.py",
+            "bytes": 3266
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_ENGINE.py",
+            "bytes": 4803
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_FORECAST_ENGINE.py",
+            "bytes": 2288
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_LOSS_ENGINE.py",
+            "bytes": 3448
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_PRESSURE_ENGINE.py",
+            "bytes": 3749
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_TRACE_ENGINE.py",
+            "bytes": 4293
+        },
+        {
+            "arquivo": "IOTEC_INTELLIGENT_CURATOR.py",
+            "bytes": 5794
+        },
+        {
+            "arquivo": "IOTEC_KNOWLEDGE_WAREHOUSE_ENGINE.py",
+            "bytes": 4042
+        },
+        {
+            "arquivo": "IOTEC_LEAD_GATEWAY_ENGINE.py",
+            "bytes": 1916
+        },
+        {
+            "arquivo": "IOTEC_LIVE_CORE_AUDITOR.py",
+            "bytes": 4056
+        },
+        {
+            "arquivo": "IOTEC_MAIL_CORE_INTELIGENTE.py",
+            "bytes": 2909
+        },
+        {
+            "arquivo": "IOTEC_MAIL_FILTER.py",
+            "bytes": 1467
+        },
+        {
+            "arquivo": "IOTEC_MAIL_HUB.py",
+            "bytes": 2605
+        },
+        {
+            "arquivo": "IOTEC_MAIL_MANAGER.py",
+            "bytes": 2040
+        },
+        {
+            "arquivo": "IOTEC_MAIL_TO_CORE.py",
+            "bytes": 603
+        },
+        {
+            "arquivo": "IOTEC_MARKET_INTELLIGENCE_ENGINE.py",
+            "bytes": 1799
+        },
+        {
+            "arquivo": "IOTEC_MASTER_CORE.py",
+            "bytes": 3736
+        },
+        {
+            "arquivo": "IOTEC_MASTER_CORE_BACKUP.py",
+            "bytes": 3703
+        },
+        {
+            "arquivo": "IOTEC_MASTER_TOWER_BOOTSTRAP.py",
+            "bytes": 2857
+        },
+        {
+            "arquivo": "IOTEC_MEDIA.py",
+            "bytes": 8083
+        },
+        {
+            "arquivo": "IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+            "bytes": 5277
+        },
+        {
+            "arquivo": "IOTEC_MEMORY_ENGINE.py",
+            "bytes": 756
+        },
+        {
+            "arquivo": "IOTEC_MINIMAL_REAL_CORE.py",
+            "bytes": 6907
+        },
+        {
+            "arquivo": "IOTEC_MISSION_CYCLE_ENGINE.py",
+            "bytes": 3170
+        },
+        {
+            "arquivo": "IOTEC_MISSION_EXECUTION_LEDGER.py",
+            "bytes": 3991
+        },
+        {
+            "arquivo": "IOTEC_MISSION_STATUS.py",
+            "bytes": 856
+        },
+        {
+            "arquivo": "IOTEC_MISSION_UPDATE_ENGINE.py",
+            "bytes": 1777
+        },
+        {
+            "arquivo": "IOTEC_MOTOR_ACTIVATION_AUDITOR.py",
+            "bytes": 4164
+        },
+        {
+            "arquivo": "IOTEC_MULTI_MAIL_CORE.py",
+            "bytes": 2623
+        },
+        {
+            "arquivo": "IOTEC_MULTI_SECTOR_RADAR.py",
+            "bytes": 2496
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py",
+            "bytes": 2650
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "bytes": 11592
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_AUTO_FIX.py",
+            "bytes": 2518
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_ENGINE.py",
+            "bytes": 4424
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_SAFE_AUTO_FIX.py",
+            "bytes": 2957
+        },
+        {
+            "arquivo": "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "bytes": 13389
+        },
+        {
+            "arquivo": "IOTEC_OPERATION_GRID_ENGINE.py",
+            "bytes": 2182
+        },
+        {
+            "arquivo": "IOTEC_OPPORTUNITY_ENGINE.py",
+            "bytes": 1973
+        },
+        {
+            "arquivo": "IOTEC_ORCHESTRATION_AUDITOR.py",
+            "bytes": 3509
+        },
+        {
+            "arquivo": "iotec_orchestrator_master.py",
+            "bytes": 3342
+        },
+        {
+            "arquivo": "iotec_orchestrator_master_v2.py",
+            "bytes": 3305
+        },
+        {
+            "arquivo": "IOTEC_PANEL_24H.py",
+            "bytes": 842
+        },
+        {
+            "arquivo": "IOTEC_PAYPAL_MONITOR.py",
+            "bytes": 1027
+        },
+        {
+            "arquivo": "IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "bytes": 14665
+        },
+        {
+            "arquivo": "IOTEC_PREPARSER_FIXER.py",
+            "bytes": 1301
+        },
+        {
+            "arquivo": "IOTEC_PRODUCTION_EVENTS_ENGINE.py",
+            "bytes": 2739
+        },
+        {
+            "arquivo": "IOTEC_PRODUCTION_LEDGER.py",
+            "bytes": 3208
+        },
+        {
+            "arquivo": "IOTEC_PRODUCT_CATALOG_ENGINE.py",
+            "bytes": 5037
+        },
+        {
+            "arquivo": "IOTEC_PROGRAMMING_GRID_ENGINE.py",
+            "bytes": 7869
+        },
+        {
+            "arquivo": "IOTEC_PROPOSAL_ENGINE.py",
+            "bytes": 2897
+        },
+        {
+            "arquivo": "IOTEC_REAL_REVENUE_ENGINE.py",
+            "bytes": 2267
+        },
+        {
+            "arquivo": "IOTEC_RESERVOIR_MANAGER.py",
+            "bytes": 2968
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.py",
+            "bytes": 3777
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_EXTRACTION_ENGINE_V2.py",
+            "bytes": 7478
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_FLOW_AUDITOR.py",
+            "bytes": 5040
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_IDENTITY_ENGINE.py",
+            "bytes": 4463
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_PROJECTION_ENGINE.py",
+            "bytes": 4265
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_READINESS_ENGINE.py",
+            "bytes": 5206
+        },
+        {
+            "arquivo": "IOTEC_Revenue_Strategy_Engine.py",
+            "bytes": 5017
+        },
+        {
+            "arquivo": "IOTEC_RUNTIME_REORGANIZER.py",
+            "bytes": 3117
+        },
+        {
+            "arquivo": "IOTEC_SAFE_PATCHER_V2.py",
+            "bytes": 2875
+        },
+        {
+            "arquivo": "IOTEC_SALES_CONSULTANT_AI.py",
+            "bytes": 3731
+        },
+        {
+            "arquivo": "iotec_sonda_arquitetural.py",
+            "bytes": 2811
+        },
+        {
+            "arquivo": "iotec_sonda_core.py",
+            "bytes": 3139
+        },
+        {
+            "arquivo": "Iotec_Spine.py",
+            "bytes": 2529
+        },
+        {
+            "arquivo": "Iotec_Spine_Core.py",
+            "bytes": 709
+        },
+        {
+            "arquivo": "Iotec_Spine_Core_Architecture.py",
+            "bytes": 17623
+        },
+        {
+            "arquivo": "IOTEC_STABILITY_CORE.py",
+            "bytes": 3041
+        },
+        {
+            "arquivo": "IOTEC_STABILITY_ENGINE.py",
+            "bytes": 1836
+        },
+        {
+            "arquivo": "IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+            "bytes": 10413
+        },
+        {
+            "arquivo": "IOTEC_STRUCTURE_RECOVERY_ENGINE.py",
+            "bytes": 1897
+        },
+        {
+            "arquivo": "IOTEC_SYSTEM_AUDITOR.py",
+            "bytes": 3625
+        },
+        {
+            "arquivo": "IOTEC_SYSTEM_FLOW_PANEL.py",
+            "bytes": 3038
+        },
+        {
+            "arquivo": "IOTEC_TEMPLATE.py",
+            "bytes": 637
+        },
+        {
+            "arquivo": "IOTEC_TOTAL_CAPABILITY_AUDITOR.py",
+            "bytes": 1335
+        },
+        {
+            "arquivo": "IOTEC_TOWER_DISCOVERY_ENGINE.py",
+            "bytes": 3914
+        },
+        {
+            "arquivo": "IOTEC_TRACTION_ENGINE.py",
+            "bytes": 4838
+        },
+        {
+            "arquivo": "IOTEC_TRAFFIC_CONTROLLER.py",
+            "bytes": 7894
+        },
+        {
+            "arquivo": "IOTEC_TTS.py",
+            "bytes": 149
+        },
+        {
+            "arquivo": "IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "bytes": 15859
+        },
+        {
+            "arquivo": "IOTEC_UNIFIED_BRAIN.py",
+            "bytes": 3018
+        },
+        {
+            "arquivo": "IOTEC_UNIFIED_BRAIN_BACKUP.py",
+            "bytes": 3016
+        },
+        {
+            "arquivo": "IOTEC_UTILIZATION_AUDITOR.py",
+            "bytes": 4375
+        },
+        {
+            "arquivo": "IOTEC_WEB_OBSERVER.py",
+            "bytes": 8647
+        },
+        {
+            "arquivo": "IOTEC_WHATSAPP_AUTOMATION.py",
+            "bytes": 563
+        },
+        {
+            "arquivo": "IOTEC_WHATS_LINK.py",
+            "bytes": 445
+        },
+        {
+            "arquivo": "LEAD_ACQUISITION_ENGINE.py",
+            "bytes": 3712
+        },
+        {
+            "arquivo": "LEAD_EVOLUTION_ENGINE.py",
+            "bytes": 3838
+        },
+        {
+            "arquivo": "LEAD_OPERATIONS_CENTER.py",
+            "bytes": 838
+        },
+        {
+            "arquivo": "LEAD_PERFORMANCE_ENGINE.py",
+            "bytes": 2605
+        },
+        {
+            "arquivo": "LEAD_REPLACEMENT_ENGINE.py",
+            "bytes": 3613
+        },
+        {
+            "arquivo": "LEAD_SCORE_ENGINE.py",
+            "bytes": 1374
+        },
+        {
+            "arquivo": "LEAD_SOURCE_ENGINE.py",
+            "bytes": 3009
+        },
+        {
+            "arquivo": "LEAD_SUPPLY_CHAIN_ENGINE.py",
+            "bytes": 3354
+        },
+        {
+            "arquivo": "LEAD_WAREHOUSE_ENGINE.py",
+            "bytes": 4424
+        },
+        {
+            "arquivo": "ler_emails.py",
+            "bytes": 912
+        },
+        {
+            "arquivo": "LIVE_EXECUTIVE_VISUAL.py",
+            "bytes": 10155
+        },
+        {
+            "arquivo": "LIVE_FUNNEL_TRACE.py",
+            "bytes": 954
+        },
+        {
+            "arquivo": "LIVE_OPERATING.py",
+            "bytes": 10830
+        },
+        {
+            "arquivo": "LIVE_OPERATIONAL_CORE.py",
+            "bytes": 17379
+        },
+        {
+            "arquivo": "LIVE_SOCKET_TOWER.py",
+            "bytes": 1001
+        },
+        {
+            "arquivo": "LIVE_TOWER_ALERT.py",
+            "bytes": 1203
+        },
+        {
+            "arquivo": "live_tower_monitor.py",
+            "bytes": 2014
+        },
+        {
+            "arquivo": "log_writer.py",
+            "bytes": 596
+        },
+        {
+            "arquivo": "LOTE_OPERATIONAL.py",
+            "bytes": 10665
+        },
+        {
+            "arquivo": "main.py",
+            "bytes": 1288
+        },
+        {
+            "arquivo": "MAIN_TOWER.py",
+            "bytes": 1490
+        },
+        {
+            "arquivo": "MAPA_DO_ECOSSISTEMA.py",
+            "bytes": 161
+        },
+        {
+            "arquivo": "MASTER_GOVERNANCE.py",
+            "bytes": 9104
+        },
+        {
+            "arquivo": "memoria_cliente.py",
+            "bytes": 386
+        },
+        {
+            "arquivo": "MEMORIA_DE_PERFORMACE.py",
+            "bytes": 1800
+        },
+        {
+            "arquivo": "MEMORY_FORTRESS.py",
+            "bytes": 8076
+        },
+        {
+            "arquivo": "mensagem_automatica.py",
+            "bytes": 383
+        },
+        {
+            "arquivo": "META_ENGINE.py",
+            "bytes": 9335
+        },
+        {
+            "arquivo": "MIGRATE_ENTERPRISE_LEADS.py",
+            "bytes": 486
+        },
+        {
+            "arquivo": "MIGRATE_LEADS_TABLE.py",
+            "bytes": 481
+        },
+        {
+            "arquivo": "miner_nucleus.py",
+            "bytes": 244
+        },
+        {
+            "arquivo": "MINING_ENGINE.py",
+            "bytes": 749
+        },
+        {
+            "arquivo": "MISSION_01_CAPABILITY_CATALOG.py",
+            "bytes": 1791
+        },
+        {
+            "arquivo": "MISSION_02_PRODUCT_DISCOVERY.py",
+            "bytes": 787
+        },
+        {
+            "arquivo": "MISSION_03_MASTER_INVENTORY.py",
+            "bytes": 3332
+        },
+        {
+            "arquivo": "MISSION_CONTROL_ENGINE.py",
+            "bytes": 3463
+        },
+        {
+            "arquivo": "models.py",
+            "bytes": 643
+        },
+        {
+            "arquivo": "MODULAR_ARCHITECTURE.py",
+            "bytes": 3670
+        },
+        {
+            "arquivo": "modulo_exemplo.py",
+            "bytes": 211
+        },
+        {
+            "arquivo": "modulo_interface.py",
+            "bytes": 1506
+        },
+        {
+            "arquivo": "MONEY_GATE.py",
+            "bytes": 4383
+        },
+        {
+            "arquivo": "monitor_paypal.py",
+            "bytes": 1676
+        },
+        {
+            "arquivo": "montar_texto.py",
+            "bytes": 364
+        },
+        {
+            "arquivo": "MOTOR_DE_SIMILARIDADE.py",
+            "bytes": 1375
+        },
+        {
+            "arquivo": "MOTOR_DE_SIMILARIDADE_AVANADO.py",
+            "bytes": 1732
+        },
+        {
+            "arquivo": "MOTOR_SEMANTICO.py",
+            "bytes": 13478
+        },
+        {
+            "arquivo": "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "bytes": 10005
+        },
+        {
+            "arquivo": "MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py",
+            "bytes": 12792
+        },
+        {
+            "arquivo": "msg_cliente.py",
+            "bytes": 149
+        },
+        {
+            "arquivo": "NAVEGACAO_DE_OPORTUNIDADES.py",
+            "bytes": 2198
+        },
+        {
+            "arquivo": "NCLEO_CENTRAL.py",
+            "bytes": 1517
+        },
+        {
+            "arquivo": "ncleo_real.py",
+            "bytes": 859
+        },
+        {
+            "arquivo": "NEGOTIATION_ENGINE.py",
+            "bytes": 908
+        },
+        {
+            "arquivo": "NEXUS_CORE.py",
+            "bytes": 8501
+        },
+        {
+            "arquivo": "NEXUS_REALTIME.py",
+            "bytes": 8472
+        },
+        {
+            "arquivo": "nodes_cluster.py",
+            "bytes": 1509
+        },
+        {
+            "arquivo": "nodes_distribuido.py",
+            "bytes": 1460
+        },
+        {
+            "arquivo": "NODE_CHECK.py",
+            "bytes": 1037
+        },
+        {
+            "arquivo": "notificar_cliente.py",
+            "bytes": 99
+        },
+        {
+            "arquivo": "NTERPRETADOR_INTELIGENTE.py",
+            "bytes": 5950
+        },
+        {
+            "arquivo": "nucleo.py",
+            "bytes": 295
+        },
+        {
+            "arquivo": "nucleo_api.py",
+            "bytes": 1736
+        },
+        {
+            "arquivo": "nucleo_estabilizador.py",
+            "bytes": 3015
+        },
+        {
+            "arquivo": "nucleo_estabilizador_v2.py",
+            "bytes": 3250
+        },
+        {
+            "arquivo": "nucleo_financeiro.py",
+            "bytes": 3018
+        },
+        {
+            "arquivo": "nucleo_iotec.py",
+            "bytes": 549
+        },
+        {
+            "arquivo": "nucleo_iotec_core.py",
+            "bytes": 2390
+        },
+        {
+            "arquivo": "nucleo_master.py",
+            "bytes": 148
+        },
+        {
+            "arquivo": "NUCLEO_REAL.py",
+            "bytes": 753
+        },
+        {
+            "arquivo": "NUCLEUS_INVESTIGATION.py",
+            "bytes": 4973
+        },
+        {
+            "arquivo": "NUCLEUS_LIVE.py",
+            "bytes": 8814
+        },
+        {
+            "arquivo": "nucleus_orchestrator.py",
+            "bytes": 9616
+        },
+        {
+            "arquivo": "NUCLEUS_STRESS_TEST.py",
+            "bytes": 5835
+        },
+        {
+            "arquivo": "NUCLEU_ENTERPRISE.py",
+            "bytes": 9291
+        },
+        {
+            "arquivo": "OCCUPY_CORE.py",
+            "bytes": 6743
+        },
+        {
+            "arquivo": "OFFICIAL_FUNNEL_DISCOVERY.py",
+            "bytes": 1945
+        },
+        {
+            "arquivo": "OFFICIAL_FUNNEL_LOCKER.py",
+            "bytes": 1648
+        },
+        {
+            "arquivo": "OFFICIAL_FUNNEL_VALIDATOR.py",
+            "bytes": 2069
+        },
+        {
+            "arquivo": "OFICINA_DE_INTERFACES.py",
+            "bytes": 3423
+        },
+        {
+            "arquivo": "OMEGA _X.py",
+            "bytes": 15337
+        },
+        {
+            "arquivo": "OMEGA_CINEMATIC.py",
+            "bytes": 18353
+        },
+        {
+            "arquivo": "OMEGA_X.py",
+            "bytes": 15337
+        },
+        {
+            "arquivo": "OPPORTUNITY_ENGINE.py",
+            "bytes": 2818
+        },
+        {
+            "arquivo": "OPPORTUNITY_RADAR.py",
+            "bytes": 2679
+        },
+        {
+            "arquivo": "ORBITAL_EVOLUTION.py",
+            "bytes": 7621
+        },
+        {
+            "arquivo": "orchestrator.py",
+            "bytes": 574
+        },
+        {
+            "arquivo": "orchestrator_cluster.py",
+            "bytes": 2697
+        },
+        {
+            "arquivo": "ORCHESTRATOR_ENGINE.py",
+            "bytes": 8015
+        },
+        {
+            "arquivo": "orchestrator_fixed.py",
+            "bytes": 2020
+        },
+        {
+            "arquivo": "orchestrator_fsm.py",
+            "bytes": 2079
+        },
+        {
+            "arquivo": "organizar_cliente.py",
+            "bytes": 457
+        },
+        {
+            "arquivo": "ORGANIZATIONAL_KERNEL.py",
+            "bytes": 8142
+        },
+        {
+            "arquivo": "ORQUESTRADOR_COMPLETO.py",
+            "bytes": 2567
+        },
+        {
+            "arquivo": "Orquestrador_Inteligente.py",
+            "bytes": 5534
+        },
+        {
+            "arquivo": "ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py",
+            "bytes": 13042
+        },
+        {
+            "arquivo": "ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py",
+            "bytes": 13042
+        },
+        {
+            "arquivo": "PAINEL_BILNGUE.py",
+            "bytes": 551
+        },
+        {
+            "arquivo": "painel_IOTEC.py",
+            "bytes": 681
+        },
+        {
+            "arquivo": "PARA_A_OFICINA.py",
+            "bytes": 338
+        },
+        {
+            "arquivo": "PATCH_ADD_DISPATCH.py",
+            "bytes": 1132
+        },
+        {
+            "arquivo": "PAYMENT_ENGINE.py",
+            "bytes": 800
+        },
+        {
+            "arquivo": "PAYMENT_SCHEMA_UPGRADE.py",
+            "bytes": 694
+        },
+        {
+            "arquivo": "paypal_server.py",
+            "bytes": 2144
+        },
+        {
+            "arquivo": "payroll.py",
+            "bytes": 82
+        },
+        {
+            "arquivo": "PERSISTENCE_BACKUP_20260511_193031.py",
+            "bytes": 14538
+        },
+        {
+            "arquivo": "pipeline.py",
+            "bytes": 308
+        },
+        {
+            "arquivo": "PIPELINE_STATUS_SYNC.py",
+            "bytes": 1584
+        },
+        {
+            "arquivo": "PIPELINE_VELOCITY_ENGINE.py",
+            "bytes": 3024
+        },
+        {
+            "arquivo": "Plataforma_Seguranca_Publica.py",
+            "bytes": 6278
+        },
+        {
+            "arquivo": "plotly.graph_objects.py",
+            "bytes": 685
+        },
+        {
+            "arquivo": "plotly.graph_objects01.py",
+            "bytes": 400
+        },
+        {
+            "arquivo": "plotly.graph_objects_01.py",
+            "bytes": 2425
+        },
+        {
+            "arquivo": "plotly.graph_objects_02.py",
+            "bytes": 3181
+        },
+        {
+            "arquivo": "port_scanner.py",
+            "bytes": 433
+        },
+        {
+            "arquivo": "PREMIUM_ASCENSION.py",
+            "bytes": 8315
+        },
+        {
+            "arquivo": "PREPARAR_DEPLOY.py",
+            "bytes": 1901
+        },
+        {
+            "arquivo": "previdencia.py",
+            "bytes": 71
+        },
+        {
+            "arquivo": "PRICING_ENGINE.py",
+            "bytes": 1101
+        },
+        {
+            "arquivo": "processar_interface.py",
+            "bytes": 1220
+        },
+        {
+            "arquivo": "processar_modulo.py",
+            "bytes": 189
+        },
+        {
+            "arquivo": "processar_pagamento.py",
+            "bytes": 200
+        },
+        {
+            "arquivo": "Processo.py",
+            "bytes": 492
+        },
+        {
+            "arquivo": "PRODUCT_TRANSLATION.py",
+            "bytes": 6121
+        },
+        {
+            "arquivo": "PROGRAMACAO_AUTOMATICA.py",
+            "bytes": 5186
+        },
+        {
+            "arquivo": "PROJECT_EXECUTION_ENGINE.py",
+            "bytes": 2684
+        },
+        {
+            "arquivo": "PROJECT_PROGRESS_ENGINE.py",
+            "bytes": 4132
+        },
+        {
+            "arquivo": "PROMOTE_LEADS.py",
+            "bytes": 946
+        },
+        {
+            "arquivo": "PROPOSAL_ENGINE.py",
+            "bytes": 2259
+        },
+        {
+            "arquivo": "PROPOSAL_GENERATOR.py",
+            "bytes": 1738
+        },
+        {
+            "arquivo": "PROSPECTION_COMMAND_CENTER.py",
+            "bytes": 3986
+        },
+        {
+            "arquivo": "python LIVE_SOCKET_TOWER.py",
+            "bytes": 8038
+        },
+        {
+            "arquivo": "p_m_u.py",
+            "bytes": 4372
+        },
+        {
+            "arquivo": "QUALITY_GATE.py",
+            "bytes": 940
+        },
+        {
+            "arquivo": "QUANTUM_GOVERNANCE.py",
+            "bytes": 8553
+        },
+        {
+            "arquivo": "RADAR_COMERCIAL_IOTEC.py",
+            "bytes": 1180
+        },
+        {
+            "arquivo": "REALITY_EXECUTION.py",
+            "bytes": 9080
+        },
+        {
+            "arquivo": "REALTIME_EXECUTIVE.py",
+            "bytes": 14144
+        },
+        {
+            "arquivo": "REALTIME_SIGNAL.py",
+            "bytes": 8203
+        },
+        {
+            "arquivo": "REAL_ACQUISITION_ENGINE.py",
+            "bytes": 3390
+        },
+        {
+            "arquivo": "REAL_ECOSYSTEM.py",
+            "bytes": 2589
+        },
+        {
+            "arquivo": "REAL_LEAD_BRIDGE.py",
+            "bytes": 3064
+        },
+        {
+            "arquivo": "REAL_SOURCE_MANAGER.py",
+            "bytes": 635
+        },
+        {
+            "arquivo": "REAL_TIME.py",
+            "bytes": 5570
+        },
+        {
+            "arquivo": "REBUILD_VISIBLE_CORE.py",
+            "bytes": 2042
+        },
+        {
+            "arquivo": "recomendacao_de_plano.py",
+            "bytes": 708
+        },
+        {
+            "arquivo": "recomendar_plano.py",
+            "bytes": 723
+        },
+        {
+            "arquivo": "registry_core.py",
+            "bytes": 573
+        },
+        {
+            "arquivo": "reportlab.lib.pagesizes.py",
+            "bytes": 444
+        },
+        {
+            "arquivo": "REPORT_ENGINE.py",
+            "bytes": 2343
+        },
+        {
+            "arquivo": "RESERVOIR_MANAGER.py",
+            "bytes": 3053
+        },
+        {
+            "arquivo": "RESPOSTAS_INTELIGENTES.py",
+            "bytes": 1095
+        },
+        {
+            "arquivo": "RESPOSTA_AUTOMTICA_BILNGUE.py",
+            "bytes": 441
+        },
+        {
+            "arquivo": "resposta_segura.py",
+            "bytes": 225
+        },
+        {
+            "arquivo": "RESUMO_EXECUTIVO.py",
+            "bytes": 1860
+        },
+        {
+            "arquivo": "REVELATION_ENGINE.py",
+            "bytes": 6545
+        },
+        {
+            "arquivo": "REVELATION_ENGINE_01.py",
+            "bytes": 6545
+        },
+        {
+            "arquivo": "REVENUE_ACCELERATOR_ENGINE.py",
+            "bytes": 3324
+        },
+        {
+            "arquivo": "REVENUE_COMMAND_CENTER.py",
+            "bytes": 2634
+        },
+        {
+            "arquivo": "REVENUE_DISCOVERY_ENGINE.py",
+            "bytes": 2077
+        },
+        {
+            "arquivo": "REVENUE_OPERATION_CENTER.py",
+            "bytes": 8950
+        },
+        {
+            "arquivo": "REVENUE_READINESS_AUDIT.py",
+            "bytes": 2274
+        },
+        {
+            "arquivo": "REVENUE_REALIZATION_ENGINE.py",
+            "bytes": 1731
+        },
+        {
+            "arquivo": "risco.py",
+            "bytes": 198
+        },
+        {
+            "arquivo": "ROCKBOOST_CENTRAL.py",
+            "bytes": 6936
+        },
+        {
+            "arquivo": "ROCKBOOST_DOCKER.py",
+            "bytes": 4497
+        },
+        {
+            "arquivo": "ROCKBOOST_GOVERNANCE.py",
+            "bytes": 7763
+        },
+        {
+            "arquivo": "ROCKBOOST_LIVE.py",
+            "bytes": 7288
+        },
+        {
+            "arquivo": "ROCKBOOST_MEMORY.py",
+            "bytes": 6452
+        },
+        {
+            "arquivo": "ROCKBOOST_ORBITAL.py",
+            "bytes": 5692
+        },
+        {
+            "arquivo": "ROCKBOOST_ORBITAL_.py",
+            "bytes": 8499
+        },
+        {
+            "arquivo": "ROCKBOOST_ORBITAL_ENGINE.py",
+            "bytes": 8499
+        },
+        {
+            "arquivo": "ROCKBOOST_RECOVERY.py",
+            "bytes": 7673
+        },
+        {
+            "arquivo": "ROUTE_INSPECTOR.py",
+            "bytes": 517
+        },
+        {
+            "arquivo": "RUNTIME_GOVERNOR.py",
+            "bytes": 4680
+        },
+        {
+            "arquivo": "run_iotec_safe.py",
+            "bytes": 215
+        },
+        {
+            "arquivo": "SAFE_REPAIR_ENGINE.py",
+            "bytes": 1416
+        },
+        {
+            "arquivo": "SALES_AUTOPILOT_ENGINE.py",
+            "bytes": 2204
+        },
+        {
+            "arquivo": "SALES_BRAIN.py",
+            "bytes": 1969
+        },
+        {
+            "arquivo": "SALES_COMMAND_CENTER.py",
+            "bytes": 3323
+        },
+        {
+            "arquivo": "SALES_EXPERIENCE.py",
+            "bytes": 6990
+        },
+        {
+            "arquivo": "SENTINEL_PRO.py",
+            "bytes": 5752
+        },
+        {
+            "arquivo": "SERVER.py",
+            "bytes": 488
+        },
+        {
+            "arquivo": "SHOW_DATABASE_TARGET.py",
+            "bytes": 291
+        },
+        {
+            "arquivo": "SHOW_NEW_LEAD_FUNCTION.py",
+            "bytes": 536
+        },
+        {
+            "arquivo": "SIGNAL_MAPPER.py",
+            "bytes": 8859
+        },
+        {
+            "arquivo": "simulador.py",
+            "bytes": 817
+        },
+        {
+            "arquivo": "single_core_test.py",
+            "bytes": 208
+        },
+        {
+            "arquivo": "SISTEMA_DE_SEGURANCA_PUBLICA.py",
+            "bytes": 7832
+        },
+        {
+            "arquivo": "SISTEMA_ESTRUTURADO_COM_VOZ.py",
+            "bytes": 3521
+        },
+        {
+            "arquivo": "SMART_CORE_EXPORT.py",
+            "bytes": 3410
+        },
+        {
+            "arquivo": "SMART_PRICING.py",
+            "bytes": 1217
+        },
+        {
+            "arquivo": "sonda_interna_de_integridade.py",
+            "bytes": 11248
+        },
+        {
+            "arquivo": "stability_core.py",
+            "bytes": 1930
+        },
+        {
+            "arquivo": "STRATEGIC_CATALOG_ENGINE.py",
+            "bytes": 2975
+        },
+        {
+            "arquivo": "STRATEGIC_READER.py",
+            "bytes": 1319
+        },
+        {
+            "arquivo": "SUPERVISOR_DE_INTEGRIDADE.py",
+            "bytes": 4235
+        },
+        {
+            "arquivo": "SYNC_MONETIZATION_TO_TOWER.py",
+            "bytes": 1409
+        },
+        {
+            "arquivo": "syntax_repairer.py",
+            "bytes": 1141
+        },
+        {
+            "arquivo": "TARGET_CLOSURE_ENGINE.py",
+            "bytes": 3231
+        },
+        {
+            "arquivo": "TARGET_ENGINE.py",
+            "bytes": 4792
+        },
+        {
+            "arquivo": "teste_injecao.py",
+            "bytes": 253
+        },
+        {
+            "arquivo": "TESTE_OPERACIONAL_COMPLETO.py",
+            "bytes": 5325
+        },
+        {
+            "arquivo": "TEST_ENTERPRISE.py",
+            "bytes": 593
+        },
+        {
+            "arquivo": "TEST_EVENT_BUS.py",
+            "bytes": 258
+        },
+        {
+            "arquivo": "test_lead.py",
+            "bytes": 314
+        },
+        {
+            "arquivo": "TEST_LEDGER.py",
+            "bytes": 354
+        },
+        {
+            "arquivo": "TEST_OPERATION.py",
+            "bytes": 446
+        },
+        {
+            "arquivo": "TITAN_ENGINE.py",
+            "bytes": 7222
+        },
+        {
+            "arquivo": "TOP_ASSETS_ENGINE.py",
+            "bytes": 2048
+        },
+        {
+            "arquivo": "TORRE_DE_CONTROLE_OFICIAL.py",
+            "bytes": 2948
+        },
+        {
+            "arquivo": "TOWER_LIVE.py",
+            "bytes": 11087
+        },
+        {
+            "arquivo": "UNIFY_COMMERCIAL_CORE.py",
+            "bytes": 3232
+        },
+        {
+            "arquivo": "UNIVERSAL_RECEPTION_EMAIL.py",
+            "bytes": 7616
+        },
+        {
+            "arquivo": "UPGRADE_B2B_PIPELINE.py",
+            "bytes": 1201
+        },
+        {
+            "arquivo": "UPGRADE_LEADS_360.py",
+            "bytes": 692
+        },
+        {
+            "arquivo": "UPGRADE_PIPELINE_STATUS.py",
+            "bytes": 896
+        },
+        {
+            "arquivo": "URBANISMO_SISTMICO.py",
+            "bytes": 7167
+        },
+        {
+            "arquivo": "validar_dossie.py",
+            "bytes": 259
+        },
+        {
+            "arquivo": "validar_servico.py",
+            "bytes": 124
+        },
+        {
+            "arquivo": "ValuationEngine.py",
+            "bytes": 959
+        },
+        {
+            "arquivo": "VERIFICADOR_AUTOMATICO_DE_PORTAS.py",
+            "bytes": 2449
+        },
+        {
+            "arquivo": "verificar_produto.py",
+            "bytes": 388
+        },
+        {
+            "arquivo": "VERIFY_REAL_CORE.py",
+            "bytes": 4710
+        },
+        {
+            "arquivo": "VISUALIZADOR_ESTRATGICO.py",
+            "bytes": 8401
+        },
+        {
+            "arquivo": "VISUAL_OPERATIONS_CENTER.py",
+            "bytes": 10787
+        },
+        {
+            "arquivo": "VISUAL_PROGRAMMING_CURATOR.py",
+            "bytes": 8203
+        },
+        {
+            "arquivo": "WAR_ROOM_ENGINE.py",
+            "bytes": 4722
+        }
+    ],
+    "bancos": [
+        {
+            "arquivo": "enterprise.db",
+            "tabelas": 3
+        },
+        {
+            "arquivo": "iotec.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "IOTEC_ACCOUNT_REGISTRY.db",
+            "tabelas": 3
+        },
+        {
+            "arquivo": "IOTEC_CONTRACTS.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_TOWER_LEDGER.db",
+            "tabelas": 4
+        },
+        {
+            "arquivo": "iotec_core.db",
+            "tabelas": 1
+        },
+        {
+            "arquivo": "IOTEC_EVENT_BUS.db",
+            "tabelas": 3
+        },
+        {
+            "arquivo": "iotec_global.db",
+            "tabelas": 1
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_TRACE.db",
+            "tabelas": 1
+        },
+        {
+            "arquivo": "IOTEC_KNOWLEDGE_WAREHOUSE.db",
+            "tabelas": 4
+        },
+        {
+            "arquivo": "IOTEC_MARKET_INTELLIGENCE.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "IOTEC_MISSION_EXECUTION.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "iotec_operational.db",
+            "tabelas": 7
+        },
+        {
+            "arquivo": "IOTEC_OPPORTUNITY.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "IOTEC_PROPOSALS.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "iotec_revenue.db",
+            "tabelas": 1
+        },
+        {
+            "arquivo": "opportunity_radar.db",
+            "tabelas": 2
+        },
+        {
+            "arquivo": "tower.db",
+            "tabelas": 2
+        }
+    ],
+    "jsons": [
+        {
+            "arquivo": "CAPABILITY_MAP.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "COMMAND_TOWER_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "ECONOMIC_AUDIT_REPORT.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "eventos.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "event_log.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IBEX_clients.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "identidade.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "integrity_report_20260526_123836.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "integrity_report_20260526_224208.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "interfaces.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_ACCOUNT_REGISTRY.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_CITY.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_ACROPOLE_GLOBAL.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_ASSET_VALUE_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITIES_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_CLUSTERS.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "iotec_capability_map.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CAPABILITY_POWER_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CENTRAL_OPERACIONAL.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_COMMERCIAL_OPERATION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CONTRACT_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CONTROL_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_CONVERSION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "iotec_core_report.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_DAILY_GROWTH_MISSION.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_DATA_HIGHWAY_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_ECONOMIC_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_ENGINE_INTEGRATION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_BRAIN_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTION_CORE.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_EXECUTIVE_COCKPIT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_FLOW_DISCOVERY_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "iotec_governanca.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_GROWTH_COMMAND_CENTER.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_HYDROECONOMIC_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_FORECAST_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_LOSS_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_HYDRO_TRACE_REPORT.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_LIVE_CORE_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "iotec_mapa_arquitetural.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_MASTER_TOPOLOGY.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_MASTER_TOWER.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_MOTOR_ACTIVATION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_BRAIN_FINAL.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_CLEAN.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_OPERATION_GRID.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_PRODUCTION_LEDGER.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_PRODUCT_CATALOG.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_PROPOSALS_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REALITY_EXECUTION_ENGINE.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_REALTY_CORE.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REAL_REVENUE_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "iotec_registry.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_RELATORIO_OPERACIONAL.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_COCKPIT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_FLOW_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_PROJECTION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_REVENUE_READINESS_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_RUNTIME_STATE.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_SALES_EXPERIENCE_CORE.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_SALES_LANGUAGE.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "IOTEC_SYSTEM_MAP.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_TOTAL_CAPABILITIES_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_TRACTION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_UNIFIED_BRAIN_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "IOTEC_UTILIZATION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "leads.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "LIVE_FUNNEL_TRACE.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "livro_caixa.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "memoria_clientes.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "MISSION_01_CAPABILITY_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "MISSION_03_MASTER_INVENTORY.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "OFFICIAL_FUNNEL.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "OFFICIAL_FUNNEL_VALIDATION_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "package-lock.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "package.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "paypal_local_config.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "perf.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "produtos.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "REAL_TIME_TOWER.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "RELATORIO_ARQUEOLOGIA_NUCLEO.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "REVENUE_DISCOVERY_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "REVENUE_INTELLIGENCE_MAP.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "REVENUE_READINESS_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "sonda_relatorio.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "STRATEGIC_CATALOG_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "tasks.json",
+            "tipo": "<class 'list'>"
+        },
+        {
+            "arquivo": "TOP_ASSETS_REPORT.json",
+            "tipo": "<class 'dict'>"
+        },
+        {
+            "arquivo": "tower_events.json",
+            "tipo": "<class 'list'>"
+        }
+    ],
+    "reservatorios": [
+        {
+            "nome": ".git",
+            "itens": 9
+        },
+        {
+            "nome": "AGENTS",
+            "itens": 1
+        },
+        {
+            "nome": "ARQUEOLOGIA_DIGITAL",
+            "itens": 2
+        },
+        {
+            "nome": "assets",
+            "itens": 2
+        },
+        {
+            "nome": "AUDITORIA",
+            "itens": 1
+        },
+        {
+            "nome": "AUDIT_SYSTEM",
+            "itens": 0
+        },
+        {
+            "nome": "backend",
+            "itens": 3
+        },
+        {
+            "nome": "backups",
+            "itens": 2
+        },
+        {
+            "nome": "BACKUP_LIVE_SOCKET",
+            "itens": 1
+        },
+        {
+            "nome": "BACKUP_SOCKET",
+            "itens": 1
+        },
+        {
+            "nome": "BIN",
+            "itens": 3
+        },
+        {
+            "nome": "black-diamond",
+            "itens": 12
+        },
+        {
+            "nome": "BROADCAST_CONTROL",
+            "itens": 0
+        },
+        {
+            "nome": "BROADCAST_GRID",
+            "itens": 2
+        },
+        {
+            "nome": "CATALOGO",
+            "itens": 0
+        },
+        {
+            "nome": "CLIENTS",
+            "itens": 0
+        },
+        {
+            "nome": "CLONES",
+            "itens": 0
+        },
+        {
+            "nome": "COCKPIT",
+            "itens": 5
+        },
+        {
+            "nome": "CONFIG",
+            "itens": 4
+        },
+        {
+            "nome": "CONTRACTS",
+            "itens": 0
+        },
+        {
+            "nome": "core",
+            "itens": 41
+        },
+        {
+            "nome": "core_data",
+            "itens": 0
+        },
+        {
+            "nome": "CORE_REPORTS",
+            "itens": 2
+        },
+        {
+            "nome": "CORE_RUNTIME",
+            "itens": 1
+        },
+        {
+            "nome": "dashboard",
+            "itens": 2
+        },
+        {
+            "nome": "data",
+            "itens": 0
+        },
+        {
+            "nome": "deploy.py",
+            "itens": 0
+        },
+        {
+            "nome": "DEPLOY_READY",
+            "itens": 1
+        },
+        {
+            "nome": "DISTRITOS",
+            "itens": 5
+        },
+        {
+            "nome": "DOCS",
+            "itens": 4
+        },
+        {
+            "nome": "DOMINANCE_AUDIT",
+            "itens": 0
+        },
+        {
+            "nome": "DOMINANCE_ENGINE",
+            "itens": 7
+        },
+        {
+            "nome": "DOMINANCE_REPORTS",
+            "itens": 1
+        },
+        {
+            "nome": "EVENTS",
+            "itens": 1
+        },
+        {
+            "nome": "EXTERNAL",
+            "itens": 3
+        },
+        {
+            "nome": "FILTRAGEM",
+            "itens": 0
+        },
+        {
+            "nome": "frontend",
+            "itens": 5
+        },
+        {
+            "nome": "FRONT_CERTIFIER",
+            "itens": 2
+        },
+        {
+            "nome": "FRONT_ROTATION",
+            "itens": 1
+        },
+        {
+            "nome": "FROZEN",
+            "itens": 12
+        },
+        {
+            "nome": "GATEWAYS",
+            "itens": 0
+        },
+        {
+            "nome": "GOVERNANCE",
+            "itens": 0
+        },
+        {
+            "nome": "GOVTECH_FULL",
+            "itens": 6
+        },
+        {
+            "nome": "HIERARCHY",
+            "itens": 0
+        },
+        {
+            "nome": "IBEX_OUTPUT",
+            "itens": 2
+        },
+        {
+            "nome": "interfaces_origem",
+            "itens": 6
+        },
+        {
+            "nome": "INVENTARIO_IMPERIAL",
+            "itens": 2
+        },
+        {
+            "nome": "INVENTARIO_INTELIGENTE",
+            "itens": 2
+        },
+        {
+            "nome": "iotec_clone",
+            "itens": 11
+        },
+        {
+            "nome": "iotec_core",
+            "itens": 14
+        },
+        {
+            "nome": "IOTEC_ENTERPRISE",
+            "itens": 13
+        },
+        {
+            "nome": "IOTEC_RENDER_READY",
+            "itens": 5
+        },
+        {
+            "nome": "iotec_traffic",
+            "itens": 2
+        },
+        {
+            "nome": "LAB",
+            "itens": 19
+        },
+        {
+            "nome": "LABORATORIO",
+            "itens": 0
+        },
+        {
+            "nome": "LEGACY",
+            "itens": 12
+        },
+        {
+            "nome": "LIVE_PROGRAMMING",
+            "itens": 1
+        },
+        {
+            "nome": "LIVE_ROTATION",
+            "itens": 1
+        },
+        {
+            "nome": "logs",
+            "itens": 15
+        },
+        {
+            "nome": "LOTS",
+            "itens": 5
+        },
+        {
+            "nome": "LOT_001",
+            "itens": 5
+        },
+        {
+            "nome": "LOT_REPORTS",
+            "itens": 1
+        },
+        {
+            "nome": "MATRIZES",
+            "itens": 0
+        },
+        {
+            "nome": "media",
+            "itens": 0
+        },
+        {
+            "nome": "MINERADORA_BRUTA",
+            "itens": 18410
+        },
+        {
+            "nome": "MODULES",
+            "itens": 13
+        },
+        {
+            "nome": "node_modules",
+            "itens": 43
+        },
+        {
+            "nome": "Nova pasta",
+            "itens": 0
+        },
+        {
+            "nome": "NUCLEO_CONSOLIDADO",
+            "itens": 11
+        },
+        {
+            "nome": "oficina",
+            "itens": 6
+        },
+        {
+            "nome": "OPERACAO_PLENA",
+            "itens": 0
+        },
+        {
+            "nome": "origem",
+            "itens": 0
+        },
+        {
+            "nome": "PAYMENTS",
+            "itens": 1
+        },
+        {
+            "nome": "PLATES",
+            "itens": 0
+        },
+        {
+            "nome": "PORTALS",
+            "itens": 5
+        },
+        {
+            "nome": "PROPOSALS",
+            "itens": 4
+        },
+        {
+            "nome": "QUARENTENA",
+            "itens": 0
+        },
+        {
+            "nome": "REAL_SYSTEM",
+            "itens": 16
+        },
+        {
+            "nome": "REGISTRY",
+            "itens": 5
+        },
+        {
+            "nome": "REGULAGEM",
+            "itens": 0
+        },
+        {
+            "nome": "reports",
+            "itens": 1
+        },
+        {
+            "nome": "runtime",
+            "itens": 0
+        },
+        {
+            "nome": "scripts",
+            "itens": 0
+        },
+        {
+            "nome": "SEMEADURA_NUCLEO",
+            "itens": 5
+        },
+        {
+            "nome": "services",
+            "itens": 0
+        },
+        {
+            "nome": "SIGNAL_CORE",
+            "itens": 12
+        },
+        {
+            "nome": "state",
+            "itens": 13
+        },
+        {
+            "nome": "static",
+            "itens": 0
+        },
+        {
+            "nome": "tasks",
+            "itens": 0
+        },
+        {
+            "nome": "templates",
+            "itens": 0
+        },
+        {
+            "nome": "TOWER",
+            "itens": 2
+        },
+        {
+            "nome": "TOWER_SIGNAL_REPORTS",
+            "itens": 2
+        },
+        {
+            "nome": "TREND_ENGINE",
+            "itens": 0
+        },
+        {
+            "nome": "venv",
+            "itens": 4
+        },
+        {
+            "nome": "versoes",
+            "itens": 3
+        },
+        {
+            "nome": "VISUAL",
+            "itens": 1
+        },
+        {
+            "nome": "VISUALIZADOR_ESTRATEGICO",
+            "itens": 1
+        },
+        {
+            "nome": "VISUAL_APPROVED",
+            "itens": 0
+        },
+        {
+            "nome": "VISUAL_ARCHIVE",
+            "itens": 0
+        },
+        {
+            "nome": "VISUAL_AUDIT",
+            "itens": 0
+        },
+        {
+            "nome": "VISUAL_IMPACT",
+            "itens": 1
+        },
+        {
+            "nome": "VISUAL_REPAIR",
+            "itens": 0
+        },
+        {
+            "nome": "VISUAL_REPORTS",
+            "itens": 2
+        },
+        {
+            "nome": "VISUAL_SCHEDULES",
+            "itens": 0
+        },
+        {
+            "nome": "vite-project",
+            "itens": 8
+        },
+        {
+            "nome": "_APROVADOS",
+            "itens": 0
+        },
+        {
+            "nome": "_BUSCA_CIRURGICA_MINERADORA",
+            "itens": 1
+        },
+        {
+            "nome": "_ENTRADA_ESCANEADA",
+            "itens": 0
+        },
+        {
+            "nome": "_PROCESSAMENTO",
+            "itens": 0
+        },
+        {
+            "nome": "_QUARENTENA",
+            "itens": 128
+        },
+        {
+            "nome": "_RAIO_X_MINERADORA",
+            "itens": 0
+        },
+        {
+            "nome": "_SANITIZADA",
+            "itens": 2160
+        },
+        {
+            "nome": "__pycache__",
+            "itens": 365
+        }
+    ],
+    "duplicados": [],
+    "vazios": [
+        "deploy.py",
+        "AUDIT_SYSTEM",
+        "BROADCAST_CONTROL",
+        "CATALOGO",
+        "CLIENTS",
+        "CLONES",
+        "CONTRACTS",
+        "core_data",
+        "data",
+        "deploy.py",
+        "DOMINANCE_AUDIT",
+        "FILTRAGEM",
+        "GATEWAYS",
+        "GOVERNANCE",
+        "HIERARCHY",
+        "LABORATORIO",
+        "MATRIZES",
+        "media",
+        "Nova pasta",
+        "OPERACAO_PLENA",
+        "origem",
+        "PLATES",
+        "QUARENTENA",
+        "REGULAGEM",
+        "runtime",
+        "scripts",
+        "services",
+        "static",
+        "tasks",
+        "templates",
+        "TREND_ENGINE",
+        "VISUAL_APPROVED",
+        "VISUAL_ARCHIVE",
+        "VISUAL_AUDIT",
+        "VISUAL_REPAIR",
+        "VISUAL_SCHEDULES",
+        "_APROVADOS",
+        "_ENTRADA_ESCANEADA",
+        "_PROCESSAMENTO",
+        "_RAIO_X_MINERADORA"
+    ],
+    "erros": [
+        {
+            "arquivo": "ecosystem_report.json",
+            "erro": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"
+        }
+    ],
+    "resumo": {
+        "motores_total": 602,
+        "bancos_total": 18,
+        "json_total": 93,
+        "reservatorios_total": 113,
+        "erros_total": 1,
+        "vazios_total": 40
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "nome": "COMMERCIAL_FLOW_ENGINE",
+    "missao": "Construir fluxo comercial completo",
+    "entradas": [
+        "Landing Page",
+        "Formulário",
+        "Produto",
+        "Pagamento"
+    ],
+    "saidas": [
+        "Venda concluída"
+    ],
+    "eventos": [
+        "Pagamento",
+        "Entrega",
+        "Cliente"
+    ],
+    "testes": [
+        "Compra de teste",
+        "Recebimento",
+        "Entrega"
+    ],
+    "criado_em": "08/07/2026 14:18:41"
+}

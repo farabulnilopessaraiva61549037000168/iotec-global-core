@@ -1,0 +1,48 @@
+{
+    "generated_at": "2026-07-26T18:17:56.092825",
+    "total_services": 6,
+    "services": [
+        {
+            "id": 1,
+            "name": "BOOT",
+            "module": "001_BOOT.py",
+            "status": "ONLINE",
+            "critical": true
+        },
+        {
+            "id": 2,
+            "name": "KERNEL",
+            "module": "002_KERNEL.py",
+            "status": "ONLINE",
+            "critical": true
+        },
+        {
+            "id": 3,
+            "name": "EVENT_BUS",
+            "module": "003_EVENT_BUS.py",
+            "status": "ONLINE",
+            "critical": true
+        },
+        {
+            "id": 4,
+            "name": "DATABASE",
+            "module": "004_DATABASE.py",
+            "status": "ONLINE",
+            "critical": true
+        },
+        {
+            "id": 5,
+            "name": "LOG_ENGINE",
+            "module": "005_LOG_ENGINE.py",
+            "status": "ONLINE",
+            "critical": false
+        },
+        {
+            "id": 6,
+            "name": "CONFIG_ENGINE",
+            "module": "006_CONFIGURATION_ENGINE.py",
+            "status": "ONLINE",
+            "critical": false
+        }
+    ]
+}

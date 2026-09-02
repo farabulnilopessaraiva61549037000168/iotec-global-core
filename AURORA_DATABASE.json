@@ -1,0 +1,37 @@
+{
+    "created_at": "2026-06-14T17:18:31.786171",
+    "municipios": [],
+    "eventos": [
+        {
+            "tipo": "SECA",
+            "local": "IBICUITINGA",
+            "data": "2026-06-14T17:18:31.911457"
+        },
+        {
+            "evento": "ESTIAGEM",
+            "municipio": "IBICUITINGA",
+            "peso": 15,
+            "pessoas_afetadas": 722,
+            "data": "2026-06-14T17:23:34.019196"
+        }
+    ],
+    "alertas": [
+        {
+            "nivel": "ATENCAO",
+            "mensagem": "Reservatórios abaixo da média",
+            "data": "2026-06-14T17:18:31.946944"
+        }
+    ],
+    "fontes": [
+        {
+            "nome": "INMET",
+            "data": "2026-06-14T17:18:31.844895"
+        },
+        {
+            "nome": "ANA",
+            "data": "2026-06-14T17:18:31.879900"
+        }
+    ],
+    "protocolos": [],
+    "clientes": []
+}

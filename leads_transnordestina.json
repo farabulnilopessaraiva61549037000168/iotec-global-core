@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "POSTO SERTAO CENTRAL LTDA",
+        "cnpj": "12.345.678/0001-90",
+        "cidade": "Quixadá",
+        "telefone": "5588999001122",
+        "setor": "Postos & Logística"
+    },
+    {
+        "nome": "TRANSPORTADORA TRANSNORDESTINA REGIONAL",
+        "cnpj": "98.765.432/0001-10",
+        "cidade": "Quixadá",
+        "telefone": "5588988112233",
+        "setor": "Construção & Mineração"
+    },
+    {
+        "nome": "LATICINIOS & LOGISTICA DO SERTAO",
+        "cnpj": "45.678.910/0001-55",
+        "cidade": "Quixeramobim",
+        "telefone": "5588997223344",
+        "setor": "Agronegócio & Laticínios"
+    }
+]

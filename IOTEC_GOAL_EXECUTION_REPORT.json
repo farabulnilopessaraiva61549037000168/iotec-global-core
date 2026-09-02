@@ -1,0 +1,251 @@
+{
+    "gerado_em": "2026-06-14 02:21:08.096286",
+    "meta_mensal": 100000.0,
+    "dias_ciclo": 30,
+    "produtos": [
+        {
+            "produto": "Painel Executivo",
+            "oferta": "Analise de Dados",
+            "ticket": 5000,
+            "score": 49.5,
+            "vendas_necessarias": 20,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Relatorio Gerencial",
+            "oferta": "Analise de Dados",
+            "ticket": 3000,
+            "score": 47.5,
+            "vendas_necessarias": 33,
+            "receita_prevista": 99000
+        },
+        {
+            "produto": "Agente Comercial",
+            "oferta": "Agentes IA",
+            "ticket": 15000,
+            "score": 43.5,
+            "vendas_necessarias": 7,
+            "receita_prevista": 105000
+        },
+        {
+            "produto": "Sistema de Controle",
+            "oferta": "Sistema Interno",
+            "ticket": 30000,
+            "score": 42.0,
+            "vendas_necessarias": 3,
+            "receita_prevista": 90000
+        },
+        {
+            "produto": "Monitoramento Operacional",
+            "oferta": "Analise de Dados",
+            "ticket": 12000,
+            "score": 40.5,
+            "vendas_necessarias": 8,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Agente Atendimento",
+            "oferta": "Agentes IA",
+            "ticket": 12000,
+            "score": 40.5,
+            "vendas_necessarias": 8,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Plataforma Operacional",
+            "oferta": "Sistema Interno",
+            "ticket": 50000,
+            "score": 39.0,
+            "vendas_necessarias": 2,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Agente Educacional",
+            "oferta": "Agentes IA",
+            "ticket": 10000,
+            "score": 38.5,
+            "vendas_necessarias": 10,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Painel KPI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 10000,
+            "score": 38.5,
+            "vendas_necessarias": 10,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Agente Auditor",
+            "oferta": "Agentes IA",
+            "ticket": 25000,
+            "score": 37.0,
+            "vendas_necessarias": 4,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Painel Corporativo",
+            "oferta": "Sistema Interno",
+            "ticket": 25000,
+            "score": 37.0,
+            "vendas_necessarias": 4,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Previsao de Indicadores",
+            "oferta": "Analise de Dados",
+            "ticket": 8000,
+            "score": 36.5,
+            "vendas_necessarias": 12,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Dashboard Power BI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 8000,
+            "score": 36.5,
+            "vendas_necessarias": 12,
+            "receita_prevista": 96000
+        }
+    ],
+    "ranking_execucao": [
+        {
+            "produto": "Plataforma Operacional",
+            "oferta": "Sistema Interno",
+            "ticket": 50000,
+            "score": 39.0,
+            "vendas_necessarias": 2,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Sistema de Controle",
+            "oferta": "Sistema Interno",
+            "ticket": 30000,
+            "score": 42.0,
+            "vendas_necessarias": 3,
+            "receita_prevista": 90000
+        },
+        {
+            "produto": "Agente Auditor",
+            "oferta": "Agentes IA",
+            "ticket": 25000,
+            "score": 37.0,
+            "vendas_necessarias": 4,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Painel Corporativo",
+            "oferta": "Sistema Interno",
+            "ticket": 25000,
+            "score": 37.0,
+            "vendas_necessarias": 4,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Agente Comercial",
+            "oferta": "Agentes IA",
+            "ticket": 15000,
+            "score": 43.5,
+            "vendas_necessarias": 7,
+            "receita_prevista": 105000
+        },
+        {
+            "produto": "Monitoramento Operacional",
+            "oferta": "Analise de Dados",
+            "ticket": 12000,
+            "score": 40.5,
+            "vendas_necessarias": 8,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Agente Atendimento",
+            "oferta": "Agentes IA",
+            "ticket": 12000,
+            "score": 40.5,
+            "vendas_necessarias": 8,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Agente Educacional",
+            "oferta": "Agentes IA",
+            "ticket": 10000,
+            "score": 38.5,
+            "vendas_necessarias": 10,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Painel KPI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 10000,
+            "score": 38.5,
+            "vendas_necessarias": 10,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Previsao de Indicadores",
+            "oferta": "Analise de Dados",
+            "ticket": 8000,
+            "score": 36.5,
+            "vendas_necessarias": 12,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Dashboard Power BI",
+            "oferta": "Dashboard Executivo",
+            "ticket": 8000,
+            "score": 36.5,
+            "vendas_necessarias": 12,
+            "receita_prevista": 96000
+        },
+        {
+            "produto": "Painel Executivo",
+            "oferta": "Analise de Dados",
+            "ticket": 5000,
+            "score": 49.5,
+            "vendas_necessarias": 20,
+            "receita_prevista": 100000
+        },
+        {
+            "produto": "Relatorio Gerencial",
+            "oferta": "Analise de Dados",
+            "ticket": 3000,
+            "score": 47.5,
+            "vendas_necessarias": 33,
+            "receita_prevista": 99000
+        }
+    ],
+    "projecao": {
+        "produto_prioritario": "Plataforma Operacional",
+        "ticket": 50000,
+        "vendas_necessarias": 2,
+        "receita_prevista": 100000,
+        "meta": 100000.0
+    },
+    "cronograma": [
+        {
+            "dia": 1,
+            "percentual_meta": 3.33,
+            "receita_esperada": 3333.33
+        },
+        {
+            "dia": 7,
+            "percentual_meta": 23.33,
+            "receita_esperada": 23333.33
+        },
+        {
+            "dia": 15,
+            "percentual_meta": 50.0,
+            "receita_esperada": 50000.0
+        },
+        {
+            "dia": 21,
+            "percentual_meta": 70.0,
+            "receita_esperada": 70000.0
+        },
+        {
+            "dia": 30,
+            "percentual_meta": 100.0,
+            "receita_esperada": 100000.0
+        }
+    ]
+}

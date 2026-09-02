@@ -1,0 +1,153 @@
+{
+    "generated_at": "2026-06-26 07:08:00.463698",
+    "modules": {
+        "001_IOTEC_ENTERPRISE_COMMAND_CENTER.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "logging",
+            "pathlib",
+            "platform",
+            "socket",
+            "typing",
+            "uuid"
+        ],
+        "002_X27_CORE.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "003_KATSUYO_ENGINE.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "uuid"
+        ],
+        "004_EVENT_BUS.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "005_REVENUE_RADAR.py": [
+            "dataclasses",
+            "datetime",
+            "decimal",
+            "logging"
+        ],
+        "006_MARKET_HUNTER.py": [
+            "dataclasses",
+            "datetime",
+            "logging"
+        ],
+        "007_COMMERCIAL_AGENT.py": [
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging"
+        ],
+        "008_CONTRACT_CENTER.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "decimal",
+            "enum",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "009_FINANCIAL_CENTER.py": [
+            "dataclasses",
+            "datetime",
+            "decimal",
+            "enum",
+            "logging",
+            "uuid"
+        ],
+        "010_BUDGET_HUNTER.py": [
+            "dataclasses",
+            "datetime",
+            "decimal",
+            "enum",
+            "logging"
+        ],
+        "011_CRM_CENTER.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "decimal",
+            "enum",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "012_CONNECTOR_MANAGER.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "013_API_GATEWAY.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "typing",
+            "uuid"
+        ],
+        "014_SECURITY_CENTER.py": [
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "uuid"
+        ],
+        "015_AUDIT_ENGINE.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "uuid"
+        ],
+        "016_ENTERPRISE_KERNEL.py": [
+            "__future__",
+            "dataclasses",
+            "datetime",
+            "enum",
+            "logging",
+            "platform",
+            "socket",
+            "uuid"
+        ],
+        "017_NOTIFICATION_CENTER.py": [
+            "dataclasses",
+            "datetime",
+            "logging",
+            "uuid"
+        ],
+        "018_EMAIL_ENGINE.py": [
+            "dataclasses",
+            "datetime",
+            "logging",
+            "uuid"
+        ],
+        "019_SMS_ENGINE.py": [
+            "dataclasses",
+            "datetime",
+            "logging",
+            "uuid"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "data": "2026-07-08 07:58:37.690267",
+        "dados": {
+            "mercado": 78,
+            "demanda_cliente": 29,
+            "tendencia_tecnologica": 46,
+            "risco_cibernetico": 92,
+            "capacidade_computacional": 69,
+            "recursos_financeiros": 36,
+            "eficiencia_operacional": 46
+        },
+        "indices": {
+            "indice_oportunidade": 49.25,
+            "indice_risco": 76.8
+        },
+        "diagnostico": {
+            "estado": "AMBIENTE DE RISCO"
+        },
+        "recomendacoes": [
+            "Reforçar segurança digital",
+            "Auditar sistemas",
+            "Reduzir exposição operacional"
+        ]
+    }
+]

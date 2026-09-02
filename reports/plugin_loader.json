@@ -1,0 +1,124 @@
+{
+    "generated_at": "2026-06-26 07:08:00.765394",
+    "plugins": [
+        {
+            "module": "auto_loader",
+            "classes": [
+                "AutoLoader"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "compiler",
+            "classes": [
+                "Compiler"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "configuration",
+            "classes": [
+                "ConfigurationManager"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "database",
+            "classes": [
+                "Database"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "dependency_analyzer",
+            "classes": [
+                "DependencyAnalyzer"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "kernel",
+            "classes": [
+                "Kernel"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "logger",
+            "classes": [
+                "BuilderLogger"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "main",
+            "classes": [
+                "EnterpriseBuilder"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "module_generator",
+            "classes": [
+                "ModuleGenerator"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "module_inspector",
+            "classes": [
+                "ModuleInspector"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "module_registry",
+            "classes": [
+                "ModuleRegistry"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "platform_graph",
+            "classes": [
+                "PlatformGraphEngine"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "plugin_loader",
+            "classes": [
+                "PluginLoader"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "plugin_manager",
+            "classes": [
+                "PluginManager"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "report",
+            "classes": [
+                "Report"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "scanner",
+            "classes": [
+                "Scanner"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "validator",
+            "classes": [
+                "Validator"
+            ],
+            "status": "ONLINE"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "status": "ONLINE",
+    "tower": "CONNECTED",
+    "connected_interfaces": 5,
+    "socketio_wave": 50,
+    "continuous_programming": true,
+    "trend_engine": "ACTIVE",
+    "lots": 5,
+    "governance": "ACTIVE",
+    "audit": "ACTIVE",
+    "generated_at": "2026-05-30 18:47:32.490217"
+}

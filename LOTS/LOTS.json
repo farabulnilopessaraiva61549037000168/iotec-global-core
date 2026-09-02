@@ -1,0 +1,133 @@
+{
+    "LOT_001_EXECUTIVE_GOVTECH": [],
+    "LOT_002_MEDIA_ADVERTISEMENT": [],
+    "LOT_003_MARKET_SIGNALS": [],
+    "LOT_004_AUTOMATION_AI": [],
+    "LOT_005_ANALYTICS_CONTROL": [
+        {
+            "file": "button.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\button.html",
+            "status": "CERTIFIED",
+            "signals": [
+                "fetch(",
+                "XMLHttpRequest",
+                "submit",
+                "form"
+            ],
+            "agents": [
+                "RECEPTION_AGENT",
+                "VISUAL_AGENT",
+                "PROGRAMMING_AGENT",
+                "AUDIT_AGENT",
+                "OBSERVABILITY_AGENT",
+                "SIGNAL_AGENT",
+                "TREND_AGENT",
+                "PAYMENT_AGENT"
+            ],
+            "activity": "READY",
+            "audit": true,
+            "tracking": true,
+            "continuous_operation": true
+        },
+        {
+            "file": "4A2C19FE715DAA1F45201ACC76BE79D6_button.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\4A2C19FE715DAA1F45201ACC76BE79D6_button.html",
+            "status": "CERTIFIED",
+            "signals": [
+                "fetch(",
+                "XMLHttpRequest",
+                "submit",
+                "form"
+            ],
+            "agents": [
+                "RECEPTION_AGENT",
+                "VISUAL_AGENT",
+                "PROGRAMMING_AGENT",
+                "AUDIT_AGENT",
+                "OBSERVABILITY_AGENT",
+                "SIGNAL_AGENT",
+                "TREND_AGENT",
+                "PAYMENT_AGENT"
+            ],
+            "activity": "READY",
+            "audit": true,
+            "tracking": true,
+            "continuous_operation": true
+        },
+        {
+            "file": "button.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\button.html",
+            "status": "CERTIFIED",
+            "signals": [
+                "fetch(",
+                "XMLHttpRequest",
+                "submit",
+                "form"
+            ],
+            "agents": [
+                "RECEPTION_AGENT",
+                "VISUAL_AGENT",
+                "PROGRAMMING_AGENT",
+                "AUDIT_AGENT",
+                "OBSERVABILITY_AGENT",
+                "SIGNAL_AGENT",
+                "TREND_AGENT",
+                "PAYMENT_AGENT"
+            ],
+            "activity": "READY",
+            "audit": true,
+            "tracking": true,
+            "continuous_operation": true
+        },
+        {
+            "file": "button.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\button.html",
+            "status": "CERTIFIED",
+            "signals": [
+                "fetch(",
+                "XMLHttpRequest",
+                "submit",
+                "form"
+            ],
+            "agents": [
+                "RECEPTION_AGENT",
+                "VISUAL_AGENT",
+                "PROGRAMMING_AGENT",
+                "AUDIT_AGENT",
+                "OBSERVABILITY_AGENT",
+                "SIGNAL_AGENT",
+                "TREND_AGENT",
+                "PAYMENT_AGENT"
+            ],
+            "activity": "READY",
+            "audit": true,
+            "tracking": true,
+            "continuous_operation": true
+        },
+        {
+            "file": "button.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\button.html",
+            "status": "CERTIFIED",
+            "signals": [
+                "fetch(",
+                "XMLHttpRequest",
+                "submit",
+                "form"
+            ],
+            "agents": [
+                "RECEPTION_AGENT",
+                "VISUAL_AGENT",
+                "PROGRAMMING_AGENT",
+                "AUDIT_AGENT",
+                "OBSERVABILITY_AGENT",
+                "SIGNAL_AGENT",
+                "TREND_AGENT",
+                "PAYMENT_AGENT"
+            ],
+            "activity": "READY",
+            "audit": true,
+            "tracking": true,
+            "continuous_operation": true
+        }
+    ]
+}

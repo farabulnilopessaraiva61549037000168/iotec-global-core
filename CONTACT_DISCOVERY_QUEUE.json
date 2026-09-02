@@ -1,0 +1,79 @@
+[
+    {
+        "company_name": "Area de Convivencia - Engenharia Civil, Pici, Fortaleza, Ceará, Região Nordeste, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Area de Convivencia - Engenharia Eletrica, Pici, Fortaleza, Ceará, Região Nordeste, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Grupo Interdisciplinar em Engenharia de Produção e Inteligência Computacional, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Grupo de Redes de Computadores, Engenharia de Software e Sistemas, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    },
+    {
+        "company_name": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+        "website": "",
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "priority": "CRITICA",
+        "status": "PROCESSADO",
+        "created_at": "2026-07-15 11:34:44.156613",
+        "processed_at": "2026-07-15 11:37:54.678889"
+    }
+]

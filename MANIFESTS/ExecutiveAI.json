@@ -1,0 +1,18 @@
+﻿{
+    "Id":  "80600c38-b135-4331-9d2b-f40b136246f3",
+    "Name":  "ExecutiveAI",
+    "Version":  "1.0.0",
+    "Author":  "IOTEC",
+    "Category":  "AI",
+    "Dependencies":  [
+                         "MissionControl",
+                         "CommercialEngine"
+                     ],
+    "MinimumKernel":  "2.0.0",
+    "Description":  "CEO Digital",
+    "Registered":  {
+                       "value":  "\/Date(1782500901886)\/",
+                       "DisplayHint":  2,
+                       "DateTime":  "sexta-feira, 26 de junho de 2026 16:08:21"
+                   }
+}

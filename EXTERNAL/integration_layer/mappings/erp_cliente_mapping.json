@@ -1,0 +1,12 @@
+{
+  "mapping_name": "erp_cliente_mapping",
+  "source": "IOTEC",
+  "target": "ERP_DO_CLIENTE",
+  "fields": [
+    { "from": "commercial.client_id", "to": "client_id" },
+    { "from": "commercial.company_name", "to": "company_name" },
+    { "from": "event.name", "to": "event_type" },
+    { "from": "event.time", "to": "timestamp" },
+    { "from": "event.payload", "to": "payload" }
+  ]
+}

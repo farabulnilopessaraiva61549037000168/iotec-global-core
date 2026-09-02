@@ -1,0 +1,10 @@
+{
+    "status": "ACTIVE",
+    "dominance_control": true,
+    "automatic_rotation": true,
+    "conflict_prevention": true,
+    "adaptive_programming": true,
+    "continuous_transmission": true,
+    "priority_front": "LOT_EXECUTIVE_GOVTECH",
+    "fallback_front": "LOT_MEDIA_ADVERTISEMENT"
+}

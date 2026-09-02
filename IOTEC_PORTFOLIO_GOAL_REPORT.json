@@ -1,0 +1,27 @@
+{
+    "gerado_em": "2026-06-14 02:35:20.100491",
+    "meta": 100000.0,
+    "portfolios": [
+        {
+            "nome": "ESCALAVEL",
+            "receita": 111000,
+            "vendas": 27,
+            "atinge_meta": true,
+            "gap": -11000.0
+        },
+        {
+            "nome": "ALTO_TICKET",
+            "receita": 110000,
+            "vendas": 3,
+            "atinge_meta": true,
+            "gap": -10000.0
+        },
+        {
+            "nome": "EQUILIBRADO",
+            "receita": 96000,
+            "vendas": 10,
+            "atinge_meta": false,
+            "gap": 4000.0
+        }
+    ]
+}

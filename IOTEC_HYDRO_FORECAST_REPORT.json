@@ -1,0 +1,44 @@
+{
+    "generated": "2026-06-08 08:31:34.757702",
+    "current_reservoir": 4,
+    "current_contracts": 1,
+    "current_revenue": 5000.0,
+    "power_index": 144.44,
+    "forecast": [
+        {
+            "reservoir": 10,
+            "contracts": 2,
+            "revenue": 12500.0
+        },
+        {
+            "reservoir": 25,
+            "contracts": 6,
+            "revenue": 31250.0
+        },
+        {
+            "reservoir": 50,
+            "contracts": 12,
+            "revenue": 62500.0
+        },
+        {
+            "reservoir": 100,
+            "contracts": 25,
+            "revenue": 125000.0
+        },
+        {
+            "reservoir": 250,
+            "contracts": 62,
+            "revenue": 312500.0
+        },
+        {
+            "reservoir": 500,
+            "contracts": 125,
+            "revenue": 625000.0
+        },
+        {
+            "reservoir": 1000,
+            "contracts": 250,
+            "revenue": 1250000.0
+        }
+    ]
+}

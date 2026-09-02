@@ -1,0 +1,40 @@
+{
+    "timestamp": "2026-06-03 19:05:38.873670",
+    "components": {
+        "FRONTEND": {
+            "target": "IoTec_Plataforma.html",
+            "found": true,
+            "location": "C:\\IOTEC\\IoTec_Plataforma.html"
+        },
+        "LEAD_BRIDGE": {
+            "target": "REAL_LEAD_BRIDGE.py",
+            "found": true,
+            "location": "C:\\IOTEC\\REAL_LEAD_BRIDGE.py"
+        },
+        "BACKEND": {
+            "target": "ENTERPRISE_RENDER_READY.py",
+            "found": true,
+            "location": "C:\\IOTEC\\ENTERPRISE_RENDER_READY.py"
+        },
+        "DATABASE": {
+            "target": "enterprise.db",
+            "found": true,
+            "location": "C:\\IOTEC\\enterprise.db"
+        },
+        "TOWER": {
+            "target": "COMMERCIAL_TOWER.py",
+            "found": true,
+            "location": "C:\\IOTEC\\COMMERCIAL_TOWER.py"
+        },
+        "REVENUE": {
+            "target": "REVENUE_OPERATION_CENTER.py",
+            "found": true,
+            "location": "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py"
+        },
+        "PAYMENT": {
+            "target": "paypal_server.py",
+            "found": true,
+            "location": "C:\\IOTEC\\paypal_server.py"
+        }
+    }
+}

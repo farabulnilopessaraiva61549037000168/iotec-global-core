@@ -1,0 +1,7 @@
+{
+    "load_balancer": true,
+    "overflow_transfer": true,
+    "priority_distribution": true,
+    "client_redirection": true,
+    "automatic_routing": true
+}

@@ -1,0 +1,9 @@
+{
+  "migracao": {
+    "status": "PRONTA_PARA_INICIAR",
+    "ultimo_item_processado": null,
+    "ultima_etapa": "BOOTSTRAP_INICIAL",
+    "retomada_habilitada": true,
+    "ultimo_checkpoint_em": "2026-04-06 11:00:00"
+  }
+}

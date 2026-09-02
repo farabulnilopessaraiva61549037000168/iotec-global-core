@@ -1,0 +1,10 @@
+{
+    "status": "ACTIVE",
+    "tower_sync": true,
+    "reception_governance": true,
+    "continuous_agents": true,
+    "signal_tracking": true,
+    "audit": true,
+    "routing": "ACTIVE",
+    "load_balancer": "ACTIVE"
+}

@@ -1,0 +1,338 @@
+[
+    {
+        "market": "Construção",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Construção",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Construção",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Construção",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Construção",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Construção",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Educação",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Saúde",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Indústria",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Technology",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Healthcare",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Dashboard Executivo",
+        "category": "Business Intelligence",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Portal Corporativo",
+        "category": "Web",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Business Intelligence",
+        "category": "Analytics",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Diagnóstico Digital",
+        "category": "Consultoria",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Auditoria Tecnológica",
+        "category": "Auditoria",
+        "compatibility": 95,
+        "priority": "ALTA",
+        "status": "AVAILABLE"
+    },
+    {
+        "market": "Tecnologia",
+        "product": "Monitoramento Estratégico",
+        "category": "Inteligência",
+        "compatibility": 35,
+        "priority": "MÉDIA",
+        "status": "AVAILABLE"
+    }
+]

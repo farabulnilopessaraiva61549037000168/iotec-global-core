@@ -1,0 +1,196 @@
+{
+    "generated_at": "2026-07-16T20:02:49.954452",
+    "total_empresas": 3,
+    "total_tarefas": 27,
+    "tarefas": [
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 1,
+            "tarefa": "Pesquisar site oficial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 2,
+            "tarefa": "Pesquisar telefone",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 3,
+            "tarefa": "Pesquisar e-mail",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 4,
+            "tarefa": "Pesquisar LinkedIn",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 5,
+            "tarefa": "Identificar decisor",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 6,
+            "tarefa": "Gerar estratÃ©gia comercial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 7,
+            "tarefa": "Preparar apresentaÃ§Ã£o",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 8,
+            "tarefa": "Preparar proposta",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 1,
+            "empresa": "Centro Acadêmico da Engenharia de Produção, Rua Professor Armando Farias, Pici, Fortaleza, Ceará, Região Nordeste, 60440-900, Brasil",
+            "etapa": 9,
+            "tarefa": "Registrar CRM",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 1,
+            "tarefa": "Pesquisar site oficial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 2,
+            "tarefa": "Pesquisar telefone",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 3,
+            "tarefa": "Pesquisar e-mail",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 4,
+            "tarefa": "Pesquisar LinkedIn",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 5,
+            "tarefa": "Identificar decisor",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 6,
+            "tarefa": "Gerar estratÃ©gia comercial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 7,
+            "tarefa": "Preparar apresentaÃ§Ã£o",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 8,
+            "tarefa": "Preparar proposta",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 2,
+            "empresa": "Makro Engenharia, 4921, Paupina, Fortaleza, Ceará, Região Nordeste, Brasil",
+            "etapa": 9,
+            "tarefa": "Registrar CRM",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 1,
+            "tarefa": "Pesquisar site oficial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 2,
+            "tarefa": "Pesquisar telefone",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 3,
+            "tarefa": "Pesquisar e-mail",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 4,
+            "tarefa": "Pesquisar LinkedIn",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 5,
+            "tarefa": "Identificar decisor",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 6,
+            "tarefa": "Gerar estratÃ©gia comercial",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 7,
+            "tarefa": "Preparar apresentaÃ§Ã£o",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 8,
+            "tarefa": "Preparar proposta",
+            "status": "PENDENTE"
+        },
+        {
+            "ordem": 3,
+            "empresa": "Mercurius Engenharia, Rua Tenente Benévolo, Centro, Fortaleza, Ceará, Região Nordeste, 60160-040, Brasil",
+            "etapa": 9,
+            "tarefa": "Registrar CRM",
+            "status": "PENDENTE"
+        }
+    ]
+}

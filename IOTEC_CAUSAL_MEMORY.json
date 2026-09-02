@@ -1,0 +1,33 @@
+[
+    {
+        "data": "2026-07-08 08:01:14.811636",
+        "dados": {
+            "mercado": 74,
+            "demanda_cliente": 21,
+            "inovacao_tecnologica": 3,
+            "risco_cibernetico": 30,
+            "infraestrutura": 75,
+            "capital_disponivel": 15,
+            "eficiencia_processos": 87
+        },
+        "indices": {
+            "oportunidade": 38.15,
+            "risco": 35.05
+        },
+        "diagnostico": {
+            "estado": "EQUILÍBRIO OPERACIONAL",
+            "explicacao": "Decisão baseada em análise causal dos indicadores."
+        },
+        "causas": [
+            "Restrição financeira",
+            "Baixa geração de demanda comercial"
+        ],
+        "impactos": [
+            "Manter acompanhamento estratégico"
+        ],
+        "recomendacoes": [
+            "Continuar monitoramento",
+            "Otimizar processos"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+{
+    "generated": "2026-06-07 15:56:15.952616",
+    "integrations": [
+        {
+            "motor": "CRM_ENGINE.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_CENTRAL_BRAIN.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_CORE_MANAGER.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_CORE_RUNNER.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_MEMORY_ENGINE.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "IOTEC_UNIFIED_BRAIN.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "nucleus_orchestrator.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "ORCHESTRATOR_ENGINE.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "REVENUE_OPERATION_CENTER.py",
+            "connections": [],
+            "total_connections": 0
+        },
+        {
+            "motor": "SALES_BRAIN.py",
+            "connections": [],
+            "total_connections": 0
+        }
+    ],
+    "summary": {
+        "engines": 11,
+        "connections": 0
+    }
+}

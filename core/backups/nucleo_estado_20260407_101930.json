@@ -1,0 +1,114 @@
+{
+  "nucleo": {
+    "nome": "IOTEC",
+    "status_geral": "OPERANDO",
+    "start_habilitado": true,
+    "operacao_plena": true,
+    "identidade_visual": "DARK_HYBRID_COCKPIT",
+    "maturidade": "EM_CONSTRUCAO_SANEADA",
+    "ultima_atualizacao": "2026-04-07 10:13:42"
+  },
+  "performance": {
+    "saude": "ATIVA",
+    "latencia_ms": 0,
+    "eventos_ao_vivo": 0,
+    "modulos_online": 0,
+    "modulos_degradados": 0,
+    "modulos_offline": 0
+  },
+  "gateways": {
+    "paypal": {
+      "status": "EM_VALIDACAO",
+      "aceitando_pagamentos": false,
+      "travamento_detectado": true,
+      "prioridade": 1
+    },
+    "picpay": {
+      "status": "PENDENTE_DE_CONFIRMACAO",
+      "aceitando_pagamentos": false,
+      "travamento_detectado": false,
+      "prioridade": 1
+    }
+  },
+  "fila_regulagem": [
+    {
+      "produto_id": "PROD-0001",
+      "nome": "Gateway PayPal Oficial",
+      "status": "EM_REGULAGEM",
+      "problemas_detectados": 1,
+      "prioridade": 1,
+      "apto_operacao_plena": false
+    },
+    {
+      "produto_id": "PROD-0002",
+      "nome": "Cockpit Pleno de Operacoes",
+      "status": "EM_CONSTRUCAO",
+      "problemas_detectados": 0,
+      "prioridade": 1,
+      "apto_operacao_plena": false
+    }
+  ],
+  "produtos": [
+    {
+      "produto_id": "PROD-0001",
+      "nome": "Gateway PayPal Oficial",
+      "camada": "REGULAGEM",
+      "maturidade": "ALTA",
+      "setor": "PAGAMENTOS",
+      "vinculo_gateway": "PAYPAL",
+      "pronto_para_subir": false,
+      "ativo": false
+    },
+    {
+      "produto_id": "PROD-0002",
+      "nome": "Cockpit Pleno de Operacoes",
+      "camada": "REGULAGEM",
+      "maturidade": "ALTA",
+      "setor": "NUCLEO",
+      "vinculo_gateway": "NAO_APLICAVEL",
+      "pronto_para_subir": false,
+      "ativo": false
+    }
+  ],
+  "incidentes": [
+    {
+      "erro_id": "ERR-0001",
+      "titulo": "Falha na segunda etapa da rota PayPal",
+      "modulo": "Gateway PayPal Oficial",
+      "produto_id": "PROD-0001",
+      "criticidade": "ALTA",
+      "status": "AGUARDANDO_REGULAGEM",
+      "prioridade": 1,
+      "resolucao_automatica_tentada": false
+    }
+  ],
+  "eventos_recentes": [
+    {
+      "evento_id": "EVT-0004",
+      "tipo": "START",
+      "mensagem": "Nucleo colocado em operacao.",
+      "nivel": "SUCESSO",
+      "gerado_em": "2026-04-07 10:13:42"
+    },
+    {
+      "evento_id": "EVT-0003",
+      "tipo": "START",
+      "mensagem": "Nucleo colocado em operacao.",
+      "nivel": "SUCESSO",
+      "gerado_em": "2026-04-07 07:02:31"
+    },
+    {
+      "evento_id": "EVT-0002",
+      "tipo": "START",
+      "mensagem": "Nucleo colocado em operacao.",
+      "nivel": "SUCESSO",
+      "gerado_em": "2026-04-07 03:03:43"
+    },
+    {
+      "evento_id": "EVT-0001",
+      "tipo": "DIAGNOSTICO",
+      "mensagem": "Nova concha IOTEC criada com estrutura saneada.",
+      "nivel": "INFO"
+    }
+  ]
+}

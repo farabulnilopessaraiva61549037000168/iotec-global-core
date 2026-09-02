@@ -1,0 +1,68 @@
+{
+    "gerado_em": "2026-06-14 02:06:59.825266",
+    "ranking_economico": [
+        {
+            "oferta": "Analise de Dados",
+            "evidencias": 2506574,
+            "ticket": 15000,
+            "capacidade": 20,
+            "receita_maxima": 300000,
+            "lucro_maximo": 210000.0,
+            "score": 1754601.8
+        },
+        {
+            "oferta": "Agentes IA",
+            "evidencias": 2024159,
+            "ticket": 25000,
+            "capacidade": 10,
+            "receita_maxima": 250000,
+            "lucro_maximo": 200000.0,
+            "score": 1619327.2
+        },
+        {
+            "oferta": "Sistema Interno",
+            "evidencias": 1472001,
+            "ticket": 50000,
+            "capacidade": 5,
+            "receita_maxima": 250000,
+            "lucro_maximo": 150000.0,
+            "score": 883200.6
+        },
+        {
+            "oferta": "Dashboard Executivo",
+            "evidencias": 148060,
+            "ticket": 12000,
+            "capacidade": 15,
+            "receita_maxima": 180000,
+            "lucro_maximo": 135000.0,
+            "score": 111045.0
+        },
+        {
+            "oferta": "Automacao Educacional",
+            "evidencias": 47551,
+            "ticket": 3000,
+            "capacidade": 50,
+            "receita_maxima": 150000,
+            "lucro_maximo": 120000.0,
+            "score": 38040.8
+        },
+        {
+            "oferta": "Captacao Comercial",
+            "evidencias": 56604,
+            "ticket": 8000,
+            "capacidade": 20,
+            "receita_maxima": 160000,
+            "lucro_maximo": 80000.0,
+            "score": 28302.0
+        },
+        {
+            "oferta": "Geracao de Provas",
+            "evidencias": 3671,
+            "ticket": 500,
+            "capacidade": 500,
+            "receita_maxima": 250000,
+            "lucro_maximo": 225000.0,
+            "score": 3303.9
+        }
+    ]
+}

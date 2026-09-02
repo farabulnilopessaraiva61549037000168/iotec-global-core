@@ -1,0 +1,44 @@
+{
+    "PRESIDENCY": {
+        "authority": 100,
+        "controls": [
+            "ALL_SYSTEMS",
+            "ALL_LOTS",
+            "ALL_AGENTS",
+            "ALL_BROADCAST"
+        ]
+    },
+    "CENTRAL_ORCHESTRATOR": {
+        "authority": 95,
+        "controls": [
+            "LOTS",
+            "ROUTING",
+            "PROGRAMMING",
+            "SIGNALS"
+        ]
+    },
+    "LOT_DIRECTOR": {
+        "authority": 80,
+        "controls": [
+            "LOT",
+            "FRONTS",
+            "AGENTS"
+        ]
+    },
+    "SECTOR_AGENT": {
+        "authority": 60,
+        "controls": [
+            "RECEPTION",
+            "AUDIT",
+            "PAYMENTS",
+            "MEDIA"
+        ]
+    },
+    "ASSISTANT_AGENT": {
+        "authority": 30,
+        "controls": [
+            "SUPPORT",
+            "MONITORING"
+        ]
+    }
+}

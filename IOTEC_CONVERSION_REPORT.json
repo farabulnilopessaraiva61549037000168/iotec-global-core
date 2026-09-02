@@ -1,0 +1,24 @@
+{
+    "generated": "2026-06-08 08:49:41.303856",
+    "open_proposals": 2,
+    "pipeline_value": 23000.0,
+    "estimated_conversion": 7590.0,
+    "actions": [
+        {
+            "hydro_id": "HYDRO-000003",
+            "company": "Prefeitura Modelo",
+            "product": "GovTech Analytics",
+            "value": 15000.0,
+            "priority": "MAXIMA",
+            "recommended_action": "FOLLOW_UP"
+        },
+        {
+            "hydro_id": "HYDRO-000002",
+            "company": "Clinica Vida",
+            "product": "Auditoria Inteligente",
+            "value": 8000.0,
+            "priority": "ALTA",
+            "recommended_action": "FOLLOW_UP"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "300b3be9",
+    "created": "2026-07-26T10:46:47.898900",
+    "nome": "Empresa XPTO",
+    "empresa": "XPTO LTDA",
+    "email": "contato@xpto.com",
+    "telefone": "(85)99999-0000",
+    "cidade": "Fortaleza",
+    "interesse": "Auditoria Digital",
+    "origem": "SITE",
+    "status": "NOVO",
+    "valor_estimado": 15000
+}

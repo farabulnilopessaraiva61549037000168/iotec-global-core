@@ -1,0 +1,217 @@
+{
+    "generated": "2026-06-07 15:44:34.547358",
+    "motors": [
+        {
+            "motor": "CRM_ENGINE.py",
+            "score": 71,
+            "functions": 3,
+            "imports": 3,
+            "tags": [
+                "DATABASE",
+                "COMMERCIAL"
+            ]
+        },
+        {
+            "motor": "IOTEC_CENTRAL_BRAIN.py",
+            "score": 66,
+            "functions": 6,
+            "imports": 3,
+            "tags": [
+                "AUTOMATION",
+                "COMMERCIAL"
+            ]
+        },
+        {
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "score": 65,
+            "functions": 8,
+            "imports": 5,
+            "tags": [
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "IOTEC_CORE_MANAGER.py",
+            "score": 102,
+            "functions": 5,
+            "imports": 11,
+            "tags": [
+                "FLASK",
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "IOTEC_CORE_RUNNER.py",
+            "score": 6,
+            "functions": 0,
+            "imports": 3,
+            "tags": []
+        },
+        {
+            "motor": "IOTEC_MEMORY_ENGINE.py",
+            "score": 32,
+            "functions": 4,
+            "imports": 1,
+            "tags": []
+        },
+        {
+            "motor": "IOTEC_UNIFIED_BRAIN.py",
+            "score": 62,
+            "functions": 8,
+            "imports": 6,
+            "tags": []
+        },
+        {
+            "motor": "nucleus_orchestrator.py",
+            "score": 107,
+            "functions": 11,
+            "imports": 11,
+            "tags": [
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "ORCHESTRATOR_ENGINE.py",
+            "score": 127,
+            "functions": 10,
+            "imports": 11,
+            "tags": [
+                "FLASK",
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "REVENUE_OPERATION_CENTER.py",
+            "score": 172,
+            "functions": 11,
+            "imports": 6,
+            "tags": [
+                "FLASK",
+                "DATABASE",
+                "AUTOMATION",
+                "COMMERCIAL",
+                "REVENUE"
+            ]
+        },
+        {
+            "motor": "SALES_BRAIN.py",
+            "score": 52,
+            "functions": 0,
+            "imports": 1,
+            "tags": [
+                "DATABASE",
+                "COMMERCIAL"
+            ]
+        }
+    ],
+    "ranking": [
+        {
+            "motor": "REVENUE_OPERATION_CENTER.py",
+            "score": 172,
+            "functions": 11,
+            "imports": 6,
+            "tags": [
+                "FLASK",
+                "DATABASE",
+                "AUTOMATION",
+                "COMMERCIAL",
+                "REVENUE"
+            ]
+        },
+        {
+            "motor": "ORCHESTRATOR_ENGINE.py",
+            "score": 127,
+            "functions": 10,
+            "imports": 11,
+            "tags": [
+                "FLASK",
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "nucleus_orchestrator.py",
+            "score": 107,
+            "functions": 11,
+            "imports": 11,
+            "tags": [
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "IOTEC_CORE_MANAGER.py",
+            "score": 102,
+            "functions": 5,
+            "imports": 11,
+            "tags": [
+                "FLASK",
+                "API",
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "CRM_ENGINE.py",
+            "score": 71,
+            "functions": 3,
+            "imports": 3,
+            "tags": [
+                "DATABASE",
+                "COMMERCIAL"
+            ]
+        },
+        {
+            "motor": "IOTEC_CENTRAL_BRAIN.py",
+            "score": 66,
+            "functions": 6,
+            "imports": 3,
+            "tags": [
+                "AUTOMATION",
+                "COMMERCIAL"
+            ]
+        },
+        {
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "score": 65,
+            "functions": 8,
+            "imports": 5,
+            "tags": [
+                "AUTOMATION"
+            ]
+        },
+        {
+            "motor": "IOTEC_UNIFIED_BRAIN.py",
+            "score": 62,
+            "functions": 8,
+            "imports": 6,
+            "tags": []
+        },
+        {
+            "motor": "SALES_BRAIN.py",
+            "score": 52,
+            "functions": 0,
+            "imports": 1,
+            "tags": [
+                "DATABASE",
+                "COMMERCIAL"
+            ]
+        },
+        {
+            "motor": "IOTEC_MEMORY_ENGINE.py",
+            "score": 32,
+            "functions": 4,
+            "imports": 1,
+            "tags": []
+        },
+        {
+            "motor": "IOTEC_CORE_RUNNER.py",
+            "score": 6,
+            "functions": 0,
+            "imports": 3,
+            "tags": []
+        }
+    ]
+}

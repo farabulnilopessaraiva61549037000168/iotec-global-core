@@ -1,0 +1,1219 @@
+{
+  "ACROPOLE_CITY.py": [
+    "random"
+  ],
+  "ACROPOLE_COSMOS.py": [
+    "{",
+    "socketserver",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_GLOBAL.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_INFINITY.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_NEXUS.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_OMEGA.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_PRIME.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ACROPOLE_VISUAL.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "agente.py": [
+    "openai",
+    "shutil"
+  ],
+  "api.py": [
+    "agente",
+    "sqlite3",
+    "pydantic",
+    "jose",
+    "fastapi"
+  ],
+  "APOCALYPSE_ENGINE.py": [
+    "random",
+    "pathlib"
+  ],
+  "app.py": [
+    "streamlit",
+    "engine",
+    "pagamentos",
+    "dossie",
+    "random"
+  ],
+  "app_cerebro_comercial.py": [
+    "openai"
+  ],
+  "ARQUEOLOGIA_DIGITAL.py": [
+    "hashlib"
+  ],
+  "ARQUITETURA_MODULAR_OPERACIONAL.py": [
+    "flask_cors"
+  ],
+  "ATUALIZACAO_NO_NUCLEO.py": [
+    "email.mime.text",
+    "smtplib"
+  ],
+  "AUTO_PORT.py": [
+    "socket",
+    "socketserver",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "BACKEND _COM_FLUXO_COMPLETO.py": [
+    "idioma"
+  ],
+  "BACKUP_20260511_185831.py": [
+    "random",
+    "uuid"
+  ],
+  "BACKUP_NEURAL_MAP_ENGINE.py": [
+    "collections"
+  ],
+  "boot_iotec.py": [
+    "webbrowser"
+  ],
+  "CENTRAL_CORE.py": [
+    "random"
+  ],
+  "CINEMATIC_ENTERPRISE.py": [
+    "random"
+  ],
+  "CINEMATIC_OPERATIONS.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "coletor_api.py": [
+    "json,"
+  ],
+  "CONFIGURADOR_AUTOMATICO.py": [
+    "socket"
+  ],
+  "CONSOLIDADOR_E_FILTRO.py": [
+    "collections",
+    "hashlib",
+    "shutil"
+  ],
+  "CONSOLIDATION_ENGINE.py": [
+    "flask_cors",
+    "hashlib",
+    "uuid"
+  ],
+  "CONTINUOUS_PROGRAMMING.py": [
+    "shutil",
+    "random"
+  ],
+  "CORE_BUSINESS.py": [
+    "uuid",
+    "random"
+  ],
+  "CORE_MASTER.py": [
+    "importlib"
+  ],
+  "CORE_VERSAO_CALIBRADA.py": [
+    "random"
+  ],
+  "CPU_SHIELD.py": [
+    "gc",
+    "random",
+    "pathlib"
+  ],
+  "CREATIVE_EXPLORER.py": [
+    "flask_cors",
+    "uuid"
+  ],
+  "DASHBOARD_BACKUP_20260511_193717.py": [
+    "pandas",
+    "sqlite3",
+    "streamlit"
+  ],
+  "DATA_REFINERY_SYSTEM.py": [
+    "mimetypes",
+    "flask_cors",
+    "hashlib"
+  ],
+  "DEEP_CORE_SCANNER.py": [
+    "collections"
+  ],
+  "DISPARAR_DEPLOY.py": [
+    "os,"
+  ],
+  "ECOSYSTEM_ACTIVATION.py": [
+    "socketserver",
+    "random",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "engine.py": [
+    "core.models"
+  ],
+  "ENTERPRISE_ENGINE.py": [
+    "textwrap"
+  ],
+  "ENTERPRISE_WEB_CORE.py": [
+    "uuid",
+    "random"
+  ],
+  "entrada_principal_main.py": [
+    "config",
+    "engine.simulador"
+  ],
+  "EXECUTION_CORE.py": [
+    "random"
+  ],
+  "EXECUTIVE_COMMAND_ENTER.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "EXECUTIVE_DASHBOARD.py": [
+    "socketserver",
+    "random",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "EXPANSAO_COMPLETA.py": [
+    "random",
+    "webbrowser"
+  ],
+  "gerar_dossie.py": [
+    "pandas",
+    "reportlab.platypus",
+    "reportlab.lib.pagesizes",
+    "plotly.graph_objects",
+    "reportlab.lib.styles",
+    "reportlab.lib.units"
+  ],
+  "gerar_login.py": [
+    "random"
+  ],
+  "GLOBAL_ASSETS .py": [
+    "random",
+    "uuid"
+  ],
+  "GLOBAL_OPERATIONAL_CORE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "GLOBAL_REALTY.py": [
+    "\"./style.css\";",
+    "React",
+    "ReactDOM",
+    "pathlib"
+  ],
+  "GLOBAL_REALTY_01.py": [
+    "uuid"
+  ],
+  "Global_Realty_Connected.py": [
+    "{",
+    "\"./style.css\";",
+    "fastapi",
+    "fastapi.middleware.cors",
+    "React",
+    "ReactDOM",
+    "pathlib"
+  ],
+  "GOVERNAN\u00c7A_OPERACIONAL.py": [
+    "random",
+    "uuid"
+  ],
+  "GOVERNAN\u00c7A_OPERACIONAL_AUTOMATIZADA.py": [
+    "uuid"
+  ],
+  "gTTS.py": [
+    "gtts"
+  ],
+  "HYPERCORE_SHIELD.py": [
+    "random",
+    "pathlib"
+  ],
+  "HYPERSCALE_LAB.py": [
+    "random",
+    "pathlib"
+  ],
+  "INIT_BACKUP_20260511_190622.py": [
+    "uuid",
+    "random",
+    "sqlite3"
+  ],
+  "INTEGRACAO_COMPLETA.py": [
+    "os,",
+    "pyttsx3"
+  ],
+  "INTELLIGENT_CURATOR.py": [
+    "flask_cors",
+    "uuid"
+  ],
+  "Interface_Restoration.py": [
+    "pathlib"
+  ],
+  "INVENT\u00c1RIO_CORPORATIVO.py": [
+    "hashlib"
+  ],
+  "INVENT\u00c1RIO_CORPORATIVO_IMPERIAL.py": [
+    "hashlib",
+    "shutil"
+  ],
+  "INVENT\u00c1RIO_INTELIGENTE.py": [
+    "hashlib"
+  ],
+  "INVESTIGATOR_TECHNICAL_TUTOR.py": [
+    "collections",
+    "pathlib"
+  ],
+  "IOTEC_ADAPTIVE_CORE_MANAGER.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py": [
+    "typing",
+    "dataclasses",
+    "random"
+  ],
+  "IOTEC_ADVANCEMENT_CONTROL_TOWER.py": [
+    "random"
+  ],
+  "IOTEC_AUTONOMOUS.py": [
+    "random",
+    "uuid"
+  ],
+  "IOTEC_BILLING_INTELLIGENCE_ENGINE.py": [
+    "email.mime.text",
+    "email",
+    "uuid",
+    "sqlite3",
+    "imaplib",
+    "smtplib"
+  ],
+  "IOTEC_CENTRAL_BRAIN.py": [
+    "importlib",
+    "traceback"
+  ],
+  "IOTEC_CONTROL_TOWER_ENGINE.py": [
+    "random"
+  ],
+  "iotec_core.py": [
+    "random"
+  ],
+  "IOTEC_CORE_24H.py": [
+    "random"
+  ],
+  "IOTEC_CORE_EMAIL_24H.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_CORE_LIVE_QUEUE.py": [
+    "streamlit",
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_CORE_MANAGER.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "IOTEC_CORE_QUEUE_PANEL.py": [
+    "streamlit"
+  ],
+  "IOTEC_CORE_RUNNER.py": [
+    "mail_reader"
+  ],
+  "IOTEC_CUSTOMER_SERVICE_CORE.py": [
+    "typing",
+    "dataclasses"
+  ],
+  "IOTEC_DATABASE_CORE.py": [
+    "sqlite3"
+  ],
+  "IOTEC_DEPLOYMENT_DIAGNOSTIC.py": [
+    "importlib.util",
+    "socket",
+    "IOTEC_GLOBAL_CORE"
+  ],
+  "IOTEC_DEPLOY_MASTER.py": [
+    "shutil"
+  ],
+  "IOTEC_DEPLOY_MASTER_V2.py": [
+    "shutil"
+  ],
+  "IOTEC_DEPLOY_MASTER_V3.py": [
+    "shutil"
+  ],
+  "IOTEC_DEPLOY_ORQUESTRADOR.py": [
+    "shutil"
+  ],
+  "IOTEC_DUAL_MAIL_DASHBOARD.py": [
+    "streamlit",
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_EXECUTION_XRAY.py": [
+    "collections",
+    "ast"
+  ],
+  "IOTEC_FIRST_REVENUE_ENGINE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "IOTEC_FORM_TO_EMAIL.py": [
+    "email.mime.text",
+    "smtplib"
+  ],
+  "IOTEC_FULL_FLOW.py": [
+    "urllib.parse"
+  ],
+  "IOTEC_GATEWAY_CORE.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "IOTEC_GLOBAL_CORE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "IOTEC_GLOBAL_OPERATIONAL_CORE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "IOTEC_INTELLIGENT_CURATOR.py": [
+    "flask_cors",
+    "uuid"
+  ],
+  "IOTEC_MAIL_CORE_INTELIGENTE.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_MAIL_HUB.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_MAIL_MANAGER.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_MAIL_TO_CORE.py": [
+    "email",
+    "imaplib"
+  ],
+  "IOTEC_MASTER_CORE.py": [
+    "importlib.util",
+    "importlib.machinery",
+    "traceback"
+  ],
+  "IOTEC_MASTER_CORE_BACKUP.py": [
+    "importlib",
+    "traceback"
+  ],
+  "IOTEC_MEDIA.py": [
+    "uuid"
+  ],
+  "IOTEC_MINIMAL_REAL_CORE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "IOTEC_MULTI_MAIL_CORE.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "IOTEC_MULTI_SECTOR_RADAR.py": [
+    "streamlit"
+  ],
+  "IOTEC_NEURAL_BRAIN_CLEAN_AUTO.py": [
+    "collections"
+  ],
+  "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py": [
+    "typing",
+    "dataclasses",
+    "uuid",
+    "random"
+  ],
+  "IOTEC_NEURAL_MAP_ENGINE.py": [
+    "collections"
+  ],
+  "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py": [
+    "typing",
+    "dataclasses",
+    "uuid"
+  ],
+  "IOTEC_ORCHESTRATION_AUDITOR.py": [
+    "collections",
+    "ast"
+  ],
+  "IOTEC_PANEL_24H.py": [
+    "streamlit"
+  ],
+  "IOTEC_PAYPAL_MONITOR.py": [
+    "imaplib,"
+  ],
+  "IOTEC_PERSISTENT_OPERATIONAL_CORE.py": [
+    "uuid",
+    "sqlite3"
+  ],
+  "Iotec_Spine.py": [
+    "uuid"
+  ],
+  "Iotec_Spine_Core.py": [
+    "core.registry",
+    "core.module"
+  ],
+  "Iotec_Spine_Core_Architecture.py": [
+    "typing",
+    "streamlit",
+    "uuid"
+  ],
+  "IOTEC_STARTUP_CHECKLIST_ENGINE.py": [
+    "uuid",
+    "random"
+  ],
+  "IOTEC_SYSTEM_FLOW_PANEL.py": [
+    "streamlit",
+    "random"
+  ],
+  "IOTEC_TEMPLATE.py": [
+    "plotly.io"
+  ],
+  "IOTEC_TRAFFIC_CONTROLLER.py": [
+    "flask_cors",
+    "socket"
+  ],
+  "IOTEC_TTS.py": [
+    "gtts"
+  ],
+  "IOTEC_ULTRACORE_ARCHITECTURE.py": [
+    "typing",
+    "dataclasses"
+  ],
+  "IOTEC_UNIFIED_BRAIN.py": [
+    "collections"
+  ],
+  "IOTEC_UNIFIED_BRAIN_BACKUP.py": [
+    "collections"
+  ],
+  "IOTEC_WEB_OBSERVER.py": [
+    "flask_cors",
+    "socket",
+    "requests",
+    "bs4"
+  ],
+  "IOTEC_WHATSAPP_AUTOMATION.py": [
+    "urllib.parse"
+  ],
+  "IOTEC_WHATS_LINK.py": [
+    "urllib.parse"
+  ],
+  "LIVE_EXECUTIVE_VISUAL.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "LIVE_OPERATING.py": [
+    "socketserver",
+    "random",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "LIVE_OPERATIONAL_CORE.py": [
+    "uuid",
+    "random",
+    "sqlite3"
+  ],
+  "main.py": [
+    "modulo_consciencia",
+    "modulo_varredura",
+    "modulo_acao",
+    "core.engine",
+    "core.pipeline",
+    "fastapi",
+    "core.models",
+    "modulo_relatorios"
+  ],
+  "MASTER_GOVERNANCE.py": [
+    "flask_cors",
+    "uuid"
+  ],
+  "MEMORY_FORTRESS.py": [
+    "gc",
+    "random",
+    "pathlib"
+  ],
+  "META_ENGINE.py": [
+    "statistics",
+    "random"
+  ],
+  "models.py": [
+    "uuid",
+    "pydantic",
+    "typing",
+    "dataclasses",
+    "__future__"
+  ],
+  "monitor_paypal.py": [
+    "email",
+    "imaplib"
+  ],
+  "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py": [
+    "collections"
+  ],
+  "MOTOR_SEMANTICO_EMPRESARIAL_INTELIGENTE.py": [
+    "collections",
+    "unicodedata",
+    "difflib"
+  ],
+  "NEXUS_CORE.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "NEXUS_REALTIME.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "NUCLEO_REAL.py": [
+    "requests"
+  ],
+  "NUCLEUS_INVESTIGATION.py": [
+    "pathlib"
+  ],
+  "nucleus_orchestrator.py": [
+    "typing",
+    "dataclasses",
+    "uuid",
+    "queue"
+  ],
+  "NUCLEUS_STRESS_TEST.py": [
+    "platform",
+    "random",
+    "pathlib"
+  ],
+  "NUCLEU_ENTERPRISE.py": [
+    "uuid",
+    "shutil",
+    "fastapi",
+    "fastapi.middleware.cors",
+    "pathlib"
+  ],
+  "OFICINA_DE_INTERFACES.py": [
+    "shutil"
+  ],
+  "OMEGA _X.py": [
+    "textwrap"
+  ],
+  "OMEGA_X.py": [
+    "textwrap"
+  ],
+  "ORBITAL_EVOLUTION.py": [
+    "random",
+    "pathlib"
+  ],
+  "ORCHESTRATOR_ENGINE.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "ORGANIZATIONAL_KERNEL.py": [
+    "flask_cors",
+    "uuid"
+  ],
+  "ORQUESTRADOR_COMPLETO.py": [
+    "random"
+  ],
+  "ORQUESTRADOR_OPERACIONA_ EMPRESARIAL.py": [
+    "collections",
+    "unicodedata",
+    "difflib"
+  ],
+  "ORQUESTRADOR_OPERACIONA_EMPRESARIAL.py": [
+    "collections",
+    "unicodedata",
+    "difflib"
+  ],
+  "paypal_server.py": [
+    "base64",
+    "requests"
+  ],
+  "PERSISTENCE_BACKUP_20260511_193031.py": [
+    "uuid",
+    "random",
+    "sqlite3"
+  ],
+  "Plataforma_Seguranca_Publica.py": [
+    "collections",
+    "PyQt5.QtWebEngineWidgets",
+    "PyQt5.QtWidgets",
+    "folium.plugins",
+    "random",
+    "folium",
+    "PyQt5.QtCore"
+  ],
+  "plotly.graph_objects.py": [
+    "plotly.graph_objects"
+  ],
+  "plotly.graph_objects01.py": [
+    "plotly.graph_objects"
+  ],
+  "plotly.graph_objects_01.py": [
+    "streamlit",
+    "plotly.graph_objects"
+  ],
+  "plotly.graph_objects_02.py": [
+    "streamlit",
+    "plotly.graph_objects"
+  ],
+  "PREMIUM_ASCENSION.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "processar_modulo.py": [
+    "modulo_exemplo"
+  ],
+  "processar_pagamento.py": [
+    "nucleo"
+  ],
+  "PRODUCT_TRANSLATION.py": [
+    "random"
+  ],
+  "QUANTUM_GOVERNANCE.py": [
+    "random",
+    "pathlib"
+  ],
+  "REALITY_EXECUTION.py": [
+    "random"
+  ],
+  "REALTIME_EXECUTIVE.py": [
+    "socketserver",
+    "fastapi",
+    "fastapi.middleware.cors",
+    "http.server",
+    "pathlib",
+    "webbrowser"
+  ],
+  "reportlab.lib.pagesizes.py": [
+    "reportlab.lib.pagesizes",
+    "reportlab.pdfgen"
+  ],
+  "RESPOSTA_AUTOM\u00c1TICA_BIL\u00cdNGUE.py": [
+    "idioma"
+  ],
+  "REVELATION_ENGINE.py": [
+    "random",
+    "pathlib"
+  ],
+  "REVELATION_ENGINE_01.py": [
+    "random",
+    "pathlib"
+  ],
+  "ROCKBOOST_CENTRAL.py": [
+    "gc",
+    "pathlib"
+  ],
+  "ROCKBOOST_DOCKER.py": [
+    "http.server",
+    "pathlib"
+  ],
+  "ROCKBOOST_GOVERNANCE.py": [
+    "random",
+    "pathlib"
+  ],
+  "ROCKBOOST_LIVE.py": [
+    "http.server",
+    "socketserver",
+    "pathlib",
+    "webbrowser"
+  ],
+  "ROCKBOOST_MEMORY.py": [
+    "platform",
+    "gc",
+    "pathlib"
+  ],
+  "ROCKBOOST_ORBITAL .py": [
+    "gc",
+    "pathlib"
+  ],
+  "ROCKBOOST_ORBITAL.py": [
+    "gc",
+    "pathlib"
+  ],
+  "ROCKBOOST_ORBITAL_ENGINE.py": [
+    "gc",
+    "pathlib"
+  ],
+  "ROCKBOOST_RECOVERY.py": [
+    "gc",
+    "pathlib"
+  ],
+  "SENTINEL_PRO.py": [
+    "collections",
+    "PyQt5.QtWebEngineWidgets",
+    "PyQt5.QtWidgets",
+    "folium.plugins",
+    "random",
+    "folium",
+    "PyQt5.QtCore"
+  ],
+  "SERVER.py": [
+    "pydantic",
+    "fastapi"
+  ],
+  "simulador.py": [
+    "engine.payroll",
+    "engine.previdencia",
+    "engine.risco"
+  ],
+  "SISTEMA_DE_SEGURANCA_PUBLICA.py": [
+    "collections",
+    "PyQt5.QtWebEngineWidgets",
+    "PyQt5.QtGui",
+    "PyQt5.QtWidgets",
+    "folium.plugins",
+    "random",
+    "folium",
+    "PyQt5.QtCore"
+  ],
+  "SISTEMA_ESTRUTURADO_COM_VOZ.py": [
+    "pyttsx3",
+    "random"
+  ],
+  "SMART_CORE_EXPORT.py": [
+    "collections"
+  ],
+  "sonda_interna_de_integridade.py": [
+    "urllib.request",
+    "socket",
+    "hashlib",
+    "shutil",
+    "platform",
+    "urllib.error",
+    "pathlib"
+  ],
+  "SUPERVISOR_DE_INTEGRIDADE.py": [
+    "flask_cors",
+    "requests"
+  ],
+  "teste_injecao.py": [
+    "EXPANSAO_COMPLETA"
+  ],
+  "TESTE_OPERACIONAL_COMPLETO.py": [
+    "LIVE_OPERATIONAL_CORE"
+  ],
+  "TITAN_ENGINE.py": [
+    "random",
+    "pathlib"
+  ],
+  "URBANISMO_SIST\u00caMICO.py": [
+    "hashlib",
+    "shutil"
+  ],
+  "VERIFICADOR_AUTOMATICO_DE_PORTAS.py": [
+    "socket"
+  ],
+  "VERIFY_REAL_CORE.py": [
+    "collections"
+  ],
+  "VISUALIZADOR_ESTRAT\u00c9GICO.py": [
+    "collections"
+  ],
+  "VISUAL_OPERATIONS_CENTER.py": [
+    "flask_cors"
+  ],
+  "20260512_183920_Iotec_Spine_Core.py": [
+    "shutil",
+    "uuid"
+  ],
+  "iotec_cockpit_pleno.py": [
+    "shutil",
+    "pathlib"
+  ],
+  "iotec_cockpit_pleno_v2.py": [
+    "shutil",
+    "pathlib",
+    "webbrowser"
+  ],
+  "coletor_email.py": [
+    "email",
+    "imaplib"
+  ],
+  "governance.py": [
+    "shutil"
+  ],
+  "module.py": [
+    "uuid"
+  ],
+  "email_bridge.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "visible_core_api.py": [
+    "visible_core_router",
+    "common.helpers",
+    "http.server",
+    "__future__",
+    "pathlib",
+    "urllib.parse"
+  ],
+  "iotec_nucleus.py": [
+    "argparse",
+    "typing",
+    "dataclasses",
+    "importlib.util",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "visible_core_router.py": [
+    "miner.miner_nucleus",
+    "typing",
+    "validation.validation_nucleus",
+    "corporate.corporate_nucleus",
+    "telemetry.telemetry_nucleus",
+    "integration.integration_nucleus",
+    "visual.visual_nucleus",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "run_demo_cycle.py": [
+    "visible_core_router",
+    "__future__",
+    "pathlib"
+  ],
+  "seal_guard.py": [
+    "hashlib",
+    "pathlib"
+  ],
+  "adapter_erp_cliente.py": [
+    "typing",
+    "__future__",
+    "pathlib"
+  ],
+  "enviar_email.py": [
+    "email.mime.text",
+    "smtplib"
+  ],
+  "helpers.py": [
+    "traceback",
+    "typing",
+    "shutil",
+    "__future__",
+    "pathlib"
+  ],
+  "corporate_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "integration_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "miner_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "telemetry_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "validation_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "visual_nucleus.py": [
+    "typing",
+    "common.helpers",
+    "__future__",
+    "pathlib"
+  ],
+  "demoserver.py": [
+    "socket",
+    "SocketServer",
+    "socketserver",
+    "__future__"
+  ],
+  "FastAPI.py": [
+    "pydantic",
+    "random",
+    "uvicorn",
+    "fastapi"
+  ],
+  "server.py": [
+    "flask_socketio",
+    "threading,"
+  ],
+  "Caminho.da.pasta.py": [
+    "hashlib",
+    "getpass"
+  ],
+  "Defina.sua.chave.mestra.py": [
+    "hashlib",
+    "getpass"
+  ],
+  "QVBoxL.py": [
+    "PyQt6.QtWidgets",
+    "PyQt6.QtCore",
+    "PyQt6.QtGui"
+  ],
+  "sklearn.py": [
+    "sklearn.ensemble",
+    "pandas"
+  ],
+  "IOTEC_AUDITOR_PAYPAL.py": [
+    "socket",
+    "requests",
+    "pathlib"
+  ],
+  "# main.py": [
+    "modulo_consciencia",
+    "modulo_varredura",
+    "modulo_acao",
+    "modulo_relatorios"
+  ],
+  "Acesso.py": [
+    "tkinter"
+  ],
+  "anomalias.py": [
+    "sklearn.ensemble",
+    "pandas"
+  ],
+  "BeautifulSoup.py": [
+    "requests",
+    "bs4"
+  ],
+  "Capta\u00e7\u00e3o.Multin\u00edvel.py": [
+    "{"
+  ],
+  "CardContent.py": [
+    "{"
+  ],
+  "class.Omega.AWS.py": [
+    "boto3"
+  ],
+  "classificar_conteudo_e_textos.py": [
+    "transformers",
+    "pandas"
+  ],
+  "Cognitivo.Karenage.py": [
+    "openai",
+    "pandas"
+  ],
+  "Comando.de.Voz.py": [
+    "React,"
+  ],
+  "components.py": [
+    "{"
+  ],
+  "CONTROLE.DIN\u00c2MICO.py": [
+    "React,"
+  ],
+  "d5f3c831.py": [
+    "hashlib"
+  ],
+  "database.py": [
+    "sqlite3"
+  ],
+  "datetime.py": [
+    "openai",
+    "pandas"
+  ],
+  "Emergency.Layout.jsx.py": [
+    "{"
+  ],
+  "esqueleto.py": [
+    "React,"
+  ],
+  "estrategia_mercado.py": [
+    "sklearn.cluster",
+    "scipy.optimize",
+    "networkx",
+    "numpy"
+  ],
+  "from.core.py": [
+    "seo_manager.wix_api_integration",
+    "forensic_module.log_analyzer",
+    "consultancy_engine.project_generator",
+    "core_ai.chat_interface",
+    "domain_manager.domain_api"
+  ],
+  "from.docx.import.py": [
+    "docx"
+  ],
+  "Fun\u00e7\u00e3o.de.Minera\u00e7\u00e3o.Simulada.py": [
+    "schedule",
+    "speech_recognition",
+    "random"
+  ],
+  "Guardiao.PAI.py": [
+    "guardiao_pai"
+  ],
+  "import.datetime.py": [
+    "zipfile",
+    "shutil"
+  ],
+  "import.requests.py": [
+    "speech_recognition",
+    "requests"
+  ],
+  "import.speech.py": [
+    "speech_recognition"
+  ],
+  "IO.Abelha.py": [
+    "React,"
+  ],
+  "IOTEC_BL_PORTAL_PAGAMENTOS_AUTOMATICO.py": [
+    "qrcode",
+    "typing",
+    "html",
+    "importlib",
+    "socket",
+    "shutil",
+    "pathlib"
+  ],
+  "jaguar.py.(servidor).py": [
+    "flask_socketio"
+  ],
+  "Martim.Voador.py": [
+    "random"
+  ],
+  "Minerador.Digital.py": [
+    "random"
+  ],
+  "Modo.Sabio.py.py": [
+    "pandas"
+  ],
+  "NSC.420X.py": [
+    "random",
+    "getpass"
+  ],
+  "organizador.py": [
+    "shutil"
+  ],
+  "platform.system.py": [
+    "platform",
+    "socket"
+  ],
+  "psutil.py": [
+    "PyQt6.QtWidgets",
+    "PyQt6.QtCore",
+    "PyQt6.QtGui"
+  ],
+  "PyPDF2.py": [
+    "PyPDF2",
+    "pandas"
+  ],
+  "QApplication.py": [
+    "PyQt5.QtGui",
+    "PyQt5.QtWidgets",
+    "PyQt5.QtCore",
+    "webbrowser"
+  ],
+  "ranking_iotec.py": [
+    "pathlib"
+  ],
+  "scraper.py": [
+    "scrapy"
+  ],
+  "seo..py": [
+    "requests"
+  ],
+  "shutil.py": [
+    "shutil"
+  ],
+  "Specter.Fortress.py": [
+    "stem.control",
+    "socket",
+    "cryptography.fernet",
+    "stem",
+    "requests"
+  ],
+  "sqlalchemy.import.py": [
+    "sqlalchemy",
+    "sqlalchemy.orm"
+  ],
+  "SUA.SENHA.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "sys.py": [
+    "PyQt6.QtWidgets",
+    "PyQt6.QtCore",
+    "PyQt6.QtGui"
+  ],
+  "tk.py": [
+    "hashlib",
+    "tkinter"
+  ],
+  "TOKEN.py": [
+    "requests"
+  ],
+  "Torre.Inteligente.py": [
+    "shutil"
+  ],
+  "tradutor.py": [
+    "googletrans"
+  ],
+  "tradutor_deepl.py": [
+    "deepl"
+  ],
+  "True.py": [
+    "email",
+    "email.header",
+    "imaplib"
+  ],
+  "useEffect.py": [
+    "React,"
+  ],
+  "webbrowser.py": [
+    "traceback",
+    "webbrowser"
+  ],
+  "yagmail.py": [
+    "hashlib"
+  ]
+}

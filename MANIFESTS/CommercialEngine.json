@@ -1,0 +1,17 @@
+﻿{
+    "Id":  "e9255a04-4422-47fc-b113-8d074168d268",
+    "Name":  "CommercialEngine",
+    "Version":  "1.0.0",
+    "Author":  "IOTEC",
+    "Category":  "COMMERCIAL",
+    "Dependencies":  [
+
+                     ],
+    "MinimumKernel":  "2.0.0",
+    "Description":  "",
+    "Registered":  {
+                       "value":  "\/Date(1782500904106)\/",
+                       "DisplayHint":  2,
+                       "DateTime":  "sexta-feira, 26 de junho de 2026 16:08:24"
+                   }
+}

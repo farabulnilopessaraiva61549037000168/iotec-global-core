@@ -1,0 +1,32 @@
+{
+    "created_at": "2026-06-03 19:03:01.471293",
+    "status": "OFFICIAL_FUNNEL",
+    "frontend": {
+        "component": "IoTec_Plataforma.html",
+        "role": "CLIENT_ENTRY"
+    },
+    "lead_bridge": {
+        "component": "REAL_LEAD_BRIDGE.py",
+        "role": "LEAD_CAPTURE"
+    },
+    "backend": {
+        "component": "ENTERPRISE_RENDER_READY.py",
+        "role": "API_AND_PROCESSING"
+    },
+    "database": {
+        "component": "enterprise.db",
+        "role": "OFFICIAL_DATABASE"
+    },
+    "tower": {
+        "component": "COMMERCIAL_TOWER.py",
+        "role": "COMMERCIAL_QUEUE"
+    },
+    "revenue": {
+        "component": "REVENUE_OPERATION_CENTER.py",
+        "role": "PROPOSALS_AND_REVENUE"
+    },
+    "payment": {
+        "component": "paypal_server.py",
+        "role": "PAYMENT_GATEWAY"
+    }
+}

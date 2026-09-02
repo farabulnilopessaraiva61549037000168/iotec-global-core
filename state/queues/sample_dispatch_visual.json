@@ -1,0 +1,14 @@
+{
+  "target_nucleus": "visual",
+  "objective": "Gerar seleção visual para atmosfera de canal tecnológico",
+  "risk": 0.25,
+  "confidence_inputs": {
+    "source_integrity": 0.90,
+    "context_integrity": 0.91,
+    "formula_support": 0.93
+  },
+  "metadata": {
+    "formula_trusted": true,
+    "complexity": 160
+  }
+}

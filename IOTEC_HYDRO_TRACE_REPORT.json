@@ -1,0 +1,23 @@
+[
+    {
+        "hydro_id": "HYDRO-000001",
+        "company": "Escola Alfa",
+        "status": "CONTRACT",
+        "proposal_value": 5000.0,
+        "contract_value": 5000.0
+    },
+    {
+        "hydro_id": "HYDRO-000002",
+        "company": "Clinica Vida",
+        "status": "PROPOSAL",
+        "proposal_value": 8000.0,
+        "contract_value": null
+    },
+    {
+        "hydro_id": "HYDRO-000003",
+        "company": "Prefeitura Modelo",
+        "status": "PROPOSAL",
+        "proposal_value": 15000.0,
+        "contract_value": null
+    }
+]

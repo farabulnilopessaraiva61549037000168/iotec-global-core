@@ -1,0 +1,118 @@
+{
+    "empresa": {
+        "nome": "IOTEC ACROPOLE GLOBAL",
+        "tipo": "Civilizacao Educacional",
+        "cnpj": "61.549.037/0001-68",
+        "email": "iotec.bl@proton.me",
+        "status": "ONLINE",
+        "fundacao": "2026-06-20 01:44:49.407559"
+    },
+    "planos": {
+        "BASIC": {
+            "mensal_brl": 3500,
+            "mensal_usd": 900,
+            "acesso": [
+                "Bibliotecas",
+                "Agoras",
+                "Centro Cultural",
+                "Ambientes de Estudo"
+            ]
+        },
+        "PRO": {
+            "mensal_brl": 12000,
+            "mensal_usd": 3200,
+            "acesso": [
+                "IA Educacional",
+                "Laboratorios",
+                "Urbanismo Inteligente",
+                "Mentorias",
+                "Centro Tecnologico"
+            ]
+        },
+        "PREMIUM": {
+            "mensal_brl": 48000,
+            "mensal_usd": 12000,
+            "acesso": [
+                "Residencia Academica",
+                "Agoras Privadas",
+                "Observatorios",
+                "Networking Global",
+                "Centro Filosofico",
+                "Campus Monumental"
+            ]
+        }
+    },
+    "acropoles": [
+        {
+            "nome": "ACROPOLE ATHENA",
+            "pais": "Brasil",
+            "cidade": "Fortaleza",
+            "estilo": "Neo-Minimalismo Grego",
+            "residentes": 182,
+            "bibliotecas": 4,
+            "agoras": 7,
+            "torres": 2,
+            "status": "OPERACIONAL"
+        },
+        {
+            "nome": "ACROPOLE HELIOS",
+            "pais": "Estados Unidos",
+            "cidade": "Miami",
+            "estilo": "Futurismo Mediterraneo",
+            "residentes": 96,
+            "bibliotecas": 6,
+            "agoras": 11,
+            "torres": 4,
+            "status": "EXPANSAO"
+        },
+        {
+            "nome": "ACROPOLE ORION",
+            "pais": "JapÃ£o",
+            "cidade": "Tokyo",
+            "estilo": "Minimalismo Tecnologico",
+            "residentes": 61,
+            "bibliotecas": 8,
+            "agoras": 9,
+            "torres": 5,
+            "status": "PROJECAO"
+        }
+    ],
+    "alunos": [
+        {
+            "id": "AL-726334",
+            "nome": "Lucas Andrade",
+            "pais": "Brasil",
+            "plano": "BASIC",
+            "acropole": "ACROPOLE ATHENA",
+            "nivel": "AvanÃ§ado",
+            "timestamp": "2026-06-20 01:44:49.407559"
+        },
+        {
+            "id": "AL-346507",
+            "nome": "Emma Richardson",
+            "pais": "Estados Unidos",
+            "plano": "PREMIUM",
+            "acropole": "ACROPOLE HELIOS",
+            "nivel": "AvanÃ§ado",
+            "timestamp": "2026-06-20 01:44:49.407559"
+        },
+        {
+            "id": "AL-506734",
+            "nome": "Akira Sato",
+            "pais": "JapÃ£o",
+            "plano": "PRO",
+            "acropole": "ACROPOLE ORION",
+            "nivel": "AvanÃ§ado",
+            "timestamp": "2026-06-20 01:44:49.407559"
+        },
+        {
+            "id": "AL-943973",
+            "nome": "Sophie Laurent",
+            "pais": "Europa",
+            "plano": "PREMIUM",
+            "acropole": "ACROPOLE HELIOS",
+            "nivel": "Fundamental",
+            "timestamp": "2026-06-20 01:44:49.407559"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "empresa": {
+        "nome": "IOTEC ACROPOLE GLOBAL",
+        "holding": "IOTEC",
+        "cnpj": "61.549.037/0001-68",
+        "email": "iotec.bl@proton.me",
+        "status": "ONLINE",
+        "fundacao": "2026-05-18 18:03:46.399326"
+    },
+    "planos": {
+        "BASIC": {
+            "brasil_brl": 3500,
+            "internacional_usd": 900,
+            "beneficios": [
+                "Biblioteca Global",
+                "Agoras Educacionais",
+                "Cultura e Literatura",
+                "Acompanhamento Pedagogico"
+            ]
+        },
+        "PRO": {
+            "brasil_brl": 12000,
+            "internacional_usd": 3200,
+            "beneficios": [
+                "Laboratorios Inteligentes",
+                "IA Educacional",
+                "Mentorias",
+                "Urbanismo Cultural",
+                "Centro Tecnologico"
+            ]
+        },
+        "PREMIUM": {
+            "brasil_brl": 48000,
+            "internacional_usd": 12000,
+            "beneficios": [
+                "Residencia Academica",
+                "Acropole Internacional",
+                "Mentoria Exclusiva",
+                "Arquitetura Monumental",
+                "Networking Global",
+                "Formacao Civilizacional"
+            ]
+        }
+    },
+    "metas": {
+        "meta_diaria_matriculas": 12,
+        "meta_semanal_matriculas": 80,
+        "meta_mensal_matriculas": 320,
+        "meta_receita_mensal_usd": 1200000
+    },
+    "alunos": [
+        {
+            "id": "ACR-138554",
+            "nome": "Lucas Andrade",
+            "pais": "Brasil",
+            "plano": "BASIC",
+            "timestamp": "2026-05-18 18:03:46.399326"
+        },
+        {
+            "id": "ACR-336958",
+            "nome": "Emma Richardson",
+            "pais": "Estados Unidos",
+            "plano": "PREMIUM",
+            "timestamp": "2026-05-18 18:03:46.399326"
+        },
+        {
+            "id": "ACR-237958",
+            "nome": "Akira Sato",
+            "pais": "Japão",
+            "plano": "PRO",
+            "timestamp": "2026-05-18 18:03:46.399326"
+        },
+        {
+            "id": "ACR-604363",
+            "nome": "Sophie Laurent",
+            "pais": "Europa",
+            "plano": "PREMIUM",
+            "timestamp": "2026-05-18 18:03:46.399326"
+        }
+    ]
+}

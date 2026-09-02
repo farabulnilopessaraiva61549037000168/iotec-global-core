@@ -1,0 +1,3502 @@
+{
+    "ANALYTICS": [
+        {
+            "file": "IOTEC_LAUNCH_REPORT.txt",
+            "path": "C:\\IOTEC\\IOTEC_LAUNCH_REPORT.txt",
+            "size_mb": 1276.12
+        },
+        {
+            "file": "FRONT_FACADE_REPORT.json",
+            "path": "C:\\IOTEC\\FRONT_CERTIFIER\\FRONT_FACADE_REPORT.json",
+            "size_mb": 23.07
+        },
+        {
+            "file": "VISUAL_IMPACT_REPORT.json",
+            "path": "C:\\IOTEC\\BROADCAST_GRID\\VISUAL_IMPACT_REPORT.json",
+            "size_mb": 17.96
+        },
+        {
+            "file": "reparado_auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_auditoria_regulus_report.json",
+            "size_mb": 12.14
+        },
+        {
+            "file": "reparado_auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_auditoria_regulus_report.json",
+            "size_mb": 12.14
+        },
+        {
+            "file": "IOTEC_CAPABILITIES_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.json",
+            "size_mb": 10.5
+        },
+        {
+            "file": "auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\auditoria_regulus_report.json",
+            "size_mb": 9.8
+        },
+        {
+            "file": "auditoria_regulus_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\auditoria_regulus_report.json",
+            "size_mb": 9.8
+        },
+        {
+            "file": "VISUAL_PROGRAMMING_CATALOG.json",
+            "path": "C:\\IOTEC\\VISUAL_REPORTS\\VISUAL_PROGRAMMING_CATALOG.json",
+            "size_mb": 7.46
+        },
+        {
+            "file": "IOTEC_CAPABILITIES_REPORT.txt",
+            "path": "C:\\IOTEC\\IOTEC_CAPABILITIES_REPORT.txt",
+            "size_mb": 3.24
+        },
+        {
+            "file": "monetization_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\monetization_report.json",
+            "size_mb": 2.2
+        },
+        {
+            "file": "monetization_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\monetization_report.json",
+            "size_mb": 2.2
+        },
+        {
+            "file": "ECONOMIC_AUDIT_REPORT.json",
+            "path": "C:\\IOTEC\\ECONOMIC_AUDIT_REPORT.json",
+            "size_mb": 0.65
+        },
+        {
+            "file": "IOTEC_CONTROL_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_CONTROL_REPORT.json",
+            "size_mb": 0.19
+        },
+        {
+            "file": "IOTEC_UNIFIED_BRAIN_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_UNIFIED_BRAIN_REPORT.json",
+            "size_mb": 0.17
+        },
+        {
+            "file": "iotec_core_report.json",
+            "path": "C:\\IOTEC\\iotec_core_report.json",
+            "size_mb": 0.14
+        },
+        {
+            "file": "analytics.min.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\analytics.min.js",
+            "size_mb": 0.1
+        },
+        {
+            "file": "auditoria_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\auditoria_report.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "20260418_095437_dispatch_visual.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260418_095437_dispatch_visual.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "20260418_102542_dispatch_visual.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260418_102542_dispatch_visual.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "auditoria_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\auditoria_report.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "20260418_095437_dispatch_visual.json",
+            "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_dispatch_visual.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "20260418_102542_dispatch_visual.json",
+            "path": "C:\\IOTEC\\state\\snapshots\\20260418_102542_dispatch_visual.json",
+            "size_mb": 0.06
+        },
+        {
+            "file": "analytics.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\analytics.js",
+            "size_mb": 0.05
+        },
+        {
+            "file": "analytics.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\analytics.js",
+            "size_mb": 0.05
+        },
+        {
+            "file": "analytics.js",
+            "path": "C:\\IOTEC\\_SANITIZADA\\analytics.js",
+            "size_mb": 0.05
+        },
+        {
+            "file": "IOTEC_EXECUTION_BRAIN_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_EXECUTION_BRAIN_REPORT.json",
+            "size_mb": 0.04
+        },
+        {
+            "file": "git-bugreport.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\git-bugreport.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "git-bugreport.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-bugreport.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "git-bugreport.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\git-bugreport.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "IOTEC_NEURAL_MAP_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_REPORT.json",
+            "size_mb": 0.02
+        },
+        {
+            "file": "ACROPOLE_VISUAL.py",
+            "path": "C:\\IOTEC\\ACROPOLE_VISUAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "EXECUTIVE_DASHBOARD.py",
+            "path": "C:\\IOTEC\\EXECUTIVE_DASHBOARD.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IBEX_DASHBOARD.py",
+            "path": "C:\\IOTEC\\IBEX_DASHBOARD.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "LIVE_EXECUTIVE_VISUAL.py",
+            "path": "C:\\IOTEC\\LIVE_EXECUTIVE_VISUAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "TOP_ASSETS_REPORT.json",
+            "path": "C:\\IOTEC\\TOP_ASSETS_REPORT.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "VISUALIZADOR_ESTRATGICO.py",
+            "path": "C:\\IOTEC\\VISUALIZADOR_ESTRATGICO.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "VISUAL_PROGRAMMING_CURATOR.py",
+            "path": "C:\\IOTEC\\VISUAL_PROGRAMMING_CURATOR.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "quarantine_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\quarantine_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reparado_audit_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_audit_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reparado_quarantine_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_quarantine_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reportagem_integrada_projac_2026-03-29_19-46-44.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_integrada_projac_2026-03-29_19-46-44.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "LIVE_EXECUTIVE_VISUAL.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\LIVE_EXECUTIVE_VISUAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "quarantine_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\quarantine_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reparado_audit_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_audit_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reparado_quarantine_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_quarantine_report.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "reportagem_integrada_projac_2026-03-29_19-46-44.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reportagem_integrada_projac_2026-03-29_19-46-44.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "VISUALIZADOR_ESTRATGICO.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\VISUALIZADOR_ESTRATGICO.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "error_reporting.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "DASHBOARD_AUTO_INSTALLER.py",
+            "path": "C:\\IOTEC\\DASHBOARD_AUTO_INSTALLER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_BACKUP_20260511_193717.py",
+            "path": "C:\\IOTEC\\DASHBOARD_BACKUP_20260511_193717.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_INSTALLER.py",
+            "path": "C:\\IOTEC\\DASHBOARD_INSTALLER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ecosystem_report.json",
+            "path": "C:\\IOTEC\\ecosystem_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "integrity_report_20260526_123836.json",
+            "path": "C:\\IOTEC\\integrity_report_20260526_123836.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "integrity_report_20260526_224208.json",
+            "path": "C:\\IOTEC\\integrity_report_20260526_224208.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DASHBOARD.py",
+            "path": "C:\\IOTEC\\IOTEC_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "path": "C:\\IOTEC\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_ECONOMIC_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_ECONOMIC_REPORT.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "path": "C:\\IOTEC\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_LIGHT_REPORT.txt",
+            "path": "C:\\IOTEC\\IOTEC_LIGHT_REPORT.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_SAFE_REPORT.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportlab.lib.pagesizes.py",
+            "path": "C:\\IOTEC\\reportlab.lib.pagesizes.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "START_DASHBOARD.ps1",
+            "path": "C:\\IOTEC\\START_DASHBOARD.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "VERIFIED_CORE_REPORT.txt",
+            "path": "C:\\IOTEC\\VERIFIED_CORE_REPORT.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "VISUAL_AUDIT.json",
+            "path": "C:\\IOTEC\\BROADCAST_GRID\\VISUAL_AUDIT.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_BACKUP_20260511_193717.py",
+            "path": "C:\\IOTEC\\LAB\\DASHBOARD_BACKUP_20260511_193717.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "path": "C:\\IOTEC\\LAB\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "path": "C:\\IOTEC\\LAB\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "LIVE_VISUAL_STATUS.json",
+            "path": "C:\\IOTEC\\LIVE_ROTATION\\LIVE_VISUAL_STATUS.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "repair_report.txt",
+            "path": "C:\\IOTEC\\logs\\repair_report.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "audit_report.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\audit_report.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "audit_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\audit_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_data.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_data.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_stub.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_stub.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_templates.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dashboard_templates.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "deep_issues_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\deep_issues_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report_advanced.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report_advanced.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report_full.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\diagnostico_report_full.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dip_health_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dip_health_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "git-bugreport.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\git-bugreport.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Mergulhadores_Reparadores_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Mergulhadores_Reparadores_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "monthly_report_2025_10.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\monthly_report_2025_10.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "regulus_report_20251108_063052.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_report_20251108_063052.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "regulus_sandbox_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_sandbox_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reparado_diagnostico_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reparado_diagnostico_report_advanced.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report_advanced.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reparado_diagnostico_report_full.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_diagnostico_report_full.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reparado_dip_health_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reparado_dip_health_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_auditoria_v3.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_auditoria_v3.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_integrada_projac.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reportagem_integrada_projac.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reports.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\reports.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_2198887777_1765967441.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_2198887777_1765967441.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_2199990001_1765967441.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_2199990001_1765967441.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_execucao_2026-03-30_15-04-13.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_execucao_2026-03-30_15-04-13.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_execucao_aurora.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_execucao_aurora.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_generator.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_generator.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_generator.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_generator.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_regulus.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\report_regulus.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Simula_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Simula_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "templates_dashboard.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\templates_dashboard.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "validation_report.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\validation_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visual_nucleus.py",
+            "path": "C:\\IOTEC\\MODULES\\visual\\visual_nucleus.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_AUTO_INSTALLER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_AUTO_INSTALLER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_BACKUP_20260511_193717.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_BACKUP_20260511_193717.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_data.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\dashboard_data.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "DASHBOARD_INSTALLER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\DASHBOARD_INSTALLER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DASHBOARD.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_DUAL_MAIL_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "audit_report.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\audit_report.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_stub.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\dashboard_stub.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_templates.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\dashboard_templates.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "git-bugreport.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-bugreport.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\report.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_auditoria_v3.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\reportagem_auditoria_v3.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_integrada_projac.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\reportagem_integrada_projac.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reports.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\reports.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_execucao_aurora.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\report_execucao_aurora.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_generator.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\report_generator.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "static_dashboard.html.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\static_dashboard.html.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "templates_dashboard.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\templates_dashboard.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "20260418_095437_completed_visual.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260418_095437_completed_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "20260418_102542_completed_visual.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260418_102542_completed_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "audit_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\audit_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "deep_issues_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\deep_issues_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report_advanced.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report_advanced.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "diagnostico_report_full.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\diagnostico_report_full.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dip_health_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dip_health_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "financial_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\financial_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Mergulhadores_Reparadores_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Mergulhadores_Reparadores_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "monthly_report_2025_10.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\monthly_report_2025_10.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "portal_visual_iotec.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\portal_visual_iotec.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "regulus_report_20251108_063052.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_report_20251108_063052.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "regulus_sandbox_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_sandbox_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reparado_dip_health_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reparado_dip_health_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\reportagem_auditoria_v3_2026-03-29_22-20-36.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_2198887777_1765967441.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_2198887777_1765967441.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_2199990001_1765967441.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_2199990001_1765967441.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_execucao_2026-03-30_15-04-13.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_execucao_2026-03-30_15-04-13.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "report_regulus.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\report_regulus.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "sample_dispatch_visual.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\sample_dispatch_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Simula_report.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Simula_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visual_nucleus.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\visual_nucleus.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visual_output.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\visual_output.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "financial_report.json",
+            "path": "C:\\IOTEC\\reports\\financial_report.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "VISUAL_REPAIR_AGENT.json",
+            "path": "C:\\IOTEC\\SIGNAL_CORE\\VISUAL_REPAIR_AGENT.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "sample_dispatch_visual.json",
+            "path": "C:\\IOTEC\\state\\queues\\sample_dispatch_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "20260418_095437_completed_visual.json",
+            "path": "C:\\IOTEC\\state\\snapshots\\20260418_095437_completed_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "20260418_102542_completed_visual.json",
+            "path": "C:\\IOTEC\\state\\snapshots\\20260418_102542_completed_visual.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visual_output.json",
+            "path": "C:\\IOTEC\\state\\visual\\visual_output.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "installation_report.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\models\\installation_report.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reporter.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib\\reporter.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "reporters.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\reporters.py",
+            "size_mb": 0.0
+        }
+    ],
+    "AUTOMATION": [
+        {
+            "file": "gitworkflows.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitworkflows.html",
+            "size_mb": 0.05
+        },
+        {
+            "file": "gitworkflows.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitworkflows.html",
+            "size_mb": 0.05
+        },
+        {
+            "file": "gitworkflows.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\gitworkflows.html",
+            "size_mb": 0.05
+        },
+        {
+            "file": "qt-webengine-5.15.9-h5bd16bc_7.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\qt-webengine-5.15.9-h5bd16bc_7.json",
+            "size_mb": 0.02
+        },
+        {
+            "file": "qt-webengine-5.15.9-h5bd16bc_7.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\qt-webengine-5.15.9-h5bd16bc_7.json",
+            "size_mb": 0.02
+        },
+        {
+            "file": "APOCALYPSE_ENGINE.py",
+            "path": "C:\\IOTEC\\APOCALYPSE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CERTIFIER_ENGINE.py",
+            "path": "C:\\IOTEC\\CERTIFIER_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CONSOLIDATION_ENGINE.py",
+            "path": "C:\\IOTEC\\CONSOLIDATION_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ENGINE_ROUTER_CORE.py",
+            "path": "C:\\IOTEC\\ENGINE_ROUTER_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ENTERPRISE_ENGINE.py",
+            "path": "C:\\IOTEC\\ENTERPRISE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "path": "C:\\IOTEC\\IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_PROGRAMMING_GRID_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_PROGRAMMING_GRID_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_REALITY_EXECUTION_ENGINE.json",
+            "path": "C:\\IOTEC\\IOTEC_REALITY_EXECUTION_ENGINE.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "META_ENGINE.py",
+            "path": "C:\\IOTEC\\META_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "nucleus_orchestrator.py",
+            "path": "C:\\IOTEC\\nucleus_orchestrator.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ORCHESTRATOR_ENGINE.py",
+            "path": "C:\\IOTEC\\ORCHESTRATOR_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "REVELATION_ENGINE.py",
+            "path": "C:\\IOTEC\\REVELATION_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "REVELATION_ENGINE_01.py",
+            "path": "C:\\IOTEC\\REVELATION_ENGINE_01.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ROCKBOOST_ORBITAL_ENGINE.py",
+            "path": "C:\\IOTEC\\ROCKBOOST_ORBITAL_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "TITAN_ENGINE.py",
+            "path": "C:\\IOTEC\\TITAN_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CONSOLIDATION_ENGINE.py",
+            "path": "C:\\IOTEC\\LAB\\CONSOLIDATION_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CONSOLIDATION_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CONSOLIDATION_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AUTOMATED_STRUCTURE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_BILLING_INTELLIGENCE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CONTROL_TOWER_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CONTROL_TOWER_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MEDIA_ORCHESTRATION_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_OPERATIONAL_WORKFLOW_ARCHITECTURE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_PROGRAMMING_GRID_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_PROGRAMMING_GRID_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_STARTUP_CHECKLIST_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "nucleus_orchestrator.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\nucleus_orchestrator.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ORCHESTRATOR_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ORCHESTRATOR_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "appengine.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\appengine.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "AUTO_REPAIR_ENGINE.ps1",
+            "path": "C:\\IOTEC\\AUTO_REPAIR_ENGINE.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "BACKUP_NEURAL_MAP_ENGINE.py",
+            "path": "C:\\IOTEC\\BACKUP_NEURAL_MAP_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ECONOMIC_AUDIT_ENGINE.py",
+            "path": "C:\\IOTEC\\ECONOMIC_AUDIT_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engine.py",
+            "path": "C:\\IOTEC\\engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "fix_orchestrator_v2.py",
+            "path": "C:\\IOTEC\\fix_orchestrator_v2.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MEMORY_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_MEMORY_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NEURAL_MAP_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_MAP_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_ORCHESTRATION_AUDITOR.py",
+            "path": "C:\\IOTEC\\IOTEC_ORCHESTRATION_AUDITOR.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_orchestrator_log.txt",
+            "path": "C:\\IOTEC\\iotec_orchestrator_log.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_orchestrator_master.py",
+            "path": "C:\\IOTEC\\iotec_orchestrator_master.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_orchestrator_master_v2.py",
+            "path": "C:\\IOTEC\\iotec_orchestrator_master_v2.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_STABILITY_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_STABILITY_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_STRUCTURE_RECOVERY_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_STRUCTURE_RECOVERY_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_WHATSAPP_AUTOMATION.py",
+            "path": "C:\\IOTEC\\IOTEC_WHATSAPP_AUTOMATION.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "MINING_ENGINE.py",
+            "path": "C:\\IOTEC\\MINING_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator.py",
+            "path": "C:\\IOTEC\\orchestrator.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ORCHESTRATOR_ANALYSIS.txt",
+            "path": "C:\\IOTEC\\ORCHESTRATOR_ANALYSIS.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator_cluster.py",
+            "path": "C:\\IOTEC\\orchestrator_cluster.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ORCHESTRATOR_DETECTOR.ps1",
+            "path": "C:\\IOTEC\\ORCHESTRATOR_DETECTOR.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator_fixed.py",
+            "path": "C:\\IOTEC\\orchestrator_fixed.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator_fsm.py",
+            "path": "C:\\IOTEC\\orchestrator_fsm.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SAFE_REPAIR_ENGINE.py",
+            "path": "C:\\IOTEC\\SAFE_REPAIR_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "STRATEGIC_CATALOG_ENGINE.py",
+            "path": "C:\\IOTEC\\STRATEGIC_CATALOG_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "TOP_ASSETS_ENGINE.py",
+            "path": "C:\\IOTEC\\TOP_ASSETS_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ValuationEngine.py",
+            "path": "C:\\IOTEC\\ValuationEngine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator.py",
+            "path": "C:\\IOTEC\\AGENTS\\orchestrator.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator.py",
+            "path": "C:\\IOTEC\\core\\orchestrator.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engine.py",
+            "path": "C:\\IOTEC\\GOVTECH_FULL\\engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "BACKUP_NEURAL_MAP_ENGINE.py",
+            "path": "C:\\IOTEC\\LEGACY\\BACKUP_NEURAL_MAP_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "career_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\career_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitworkflows.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitworkflows.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "internal_fusion_engine_db.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\internal_fusion_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "intracamaraty_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\intracamaraty_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "judicial_forecast_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\judicial_forecast_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "KNOWLEDGE_ENGINE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\KNOWLEDGE_ENGINE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "KNOWLEDGE_ENGINE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\KNOWLEDGE_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "logs_engine.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\logs_engine.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "MOD_TCC_ENGINE_PRO.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\MOD_TCC_ENGINE_PRO.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_3_BRAINS_ENGINE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_3_BRAINS_ENGINE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_3_BRAINS_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "operations_engine_db.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\operations_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "project_lab_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\project_lab_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "qt6webenginequickdelegatesqml_metatypes.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\qt6webenginequickdelegatesqml_metatypes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "raban_engine.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\raban_engine.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "raban_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\raban_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "survival_engine_db.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\survival_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "tcc_engine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\tcc_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ThreeBrainsEngine.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ThreeBrainsEngine.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\ThreeBrainsEngine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "TRANSFORMATION_CORE_ENGINE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\TRANSFORMATION_CORE_ENGINE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "TRANSFORMATION_CORE_ENGINE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\TRANSFORMATION_CORE_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "dashboard_engine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\ANALYTICS\\dashboard_engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "career_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\career_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitworkflows.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitworkflows.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "intracamaraty_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\intracamaraty_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "judicial_forecast_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\judicial_forecast_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "KNOWLEDGE_ENGINE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\KNOWLEDGE_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "MOD_TCC_ENGINE_PRO.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\MOD_TCC_ENGINE_PRO.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_3_BRAINS_ENGINE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_3_BRAINS_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "project_lab_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\project_lab_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "raban_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\raban_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "tcc_engine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\tcc_engine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ThreeBrainsEngine.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\ThreeBrainsEngine.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "TRANSFORMATION_CORE_ENGINE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\TRANSFORMATION_CORE_ENGINE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_ai_engine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_ai_engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "engines.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\engines.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "income_engine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\income_engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "internal_fusion_engine_db.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\internal_fusion_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MEMORY_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MEMORY_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_WHATSAPP_AUTOMATION.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_WHATSAPP_AUTOMATION.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "logs_engine.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\logs_engine.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "operations_engine_db.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\operations_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "orchestrator.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\orchestrator.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\pyqtwebengine-5.15.10-py312hd77b12b_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "survival_engine_db.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\survival_engine_db.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "ValuationEngine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\ValuationEngine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_appengine_environ.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_appengine_environ.py",
+            "size_mb": 0.0
+        }
+    ],
+    "CORE": [
+        {
+            "file": "CORE_CATALOG.json",
+            "path": "C:\\IOTEC\\CORE_REPORTS\\CORE_CATALOG.json",
+            "size_mb": 8.71
+        },
+        {
+            "file": "dash_core_components.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components.js",
+            "size_mb": 0.71
+        },
+        {
+            "file": "dash_core_components.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components.js",
+            "size_mb": 0.71
+        },
+        {
+            "file": "dash_core_components.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components.v3_3_0m1765969531.js",
+            "size_mb": 0.66
+        },
+        {
+            "file": "dash_core_components.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components.v3_3_0m1765969531.js",
+            "size_mb": 0.66
+        },
+        {
+            "file": "dash_core_components.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\_SANITIZADA\\dash_core_components.v3_3_0m1765969531.js",
+            "size_mb": 0.66
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py",
+            "size_mb": 0.22
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py",
+            "size_mb": 0.21
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing\\core.py",
+            "size_mb": 0.21
+        },
+        {
+            "file": "botocore-1.34.69-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\botocore-1.34.69-py312haa95532_0.json",
+            "size_mb": 0.14
+        },
+        {
+            "file": "botocore-1.34.69-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\botocore-1.34.69-py312haa95532_0.json",
+            "size_mb": 0.14
+        },
+        {
+            "file": "gitcore-tutorial.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitcore-tutorial.html",
+            "size_mb": 0.11
+        },
+        {
+            "file": "gitcore-tutorial.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitcore-tutorial.html",
+            "size_mb": 0.11
+        },
+        {
+            "file": "gitcore-tutorial.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\gitcore-tutorial.html",
+            "size_mb": 0.11
+        },
+        {
+            "file": "gitdiffcore.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitdiffcore.html",
+            "size_mb": 0.04
+        },
+        {
+            "file": "vs2015_runtime-14.42.34433-hbfb602d_5.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\vs2015_runtime-14.42.34433-hbfb602d_5.json",
+            "size_mb": 0.04
+        },
+        {
+            "file": "gitdiffcore.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitdiffcore.html",
+            "size_mb": 0.04
+        },
+        {
+            "file": "vs2015_runtime-14.42.34433-hbfb602d_5.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\vs2015_runtime-14.42.34433-hbfb602d_5.json",
+            "size_mb": 0.04
+        },
+        {
+            "file": "gitdiffcore.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\gitdiffcore.html",
+            "size_mb": 0.04
+        },
+        {
+            "file": "dask-core-2024.8.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dask-core-2024.8.2-py312haa95532_0.json",
+            "size_mb": 0.03
+        },
+        {
+            "file": "dask-core-2024.8.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dask-core-2024.8.2-py312haa95532_0.json",
+            "size_mb": 0.03
+        },
+        {
+            "file": "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "Iotec_Spine_Core_Architecture.py",
+            "path": "C:\\IOTEC\\Iotec_Spine_Core_Architecture.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "path": "C:\\IOTEC\\IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "Iotec_Spine_Core_Architecture.py",
+            "path": "C:\\IOTEC\\LAB\\Iotec_Spine_Core_Architecture.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "dash_core_components-shared.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components-shared.js",
+            "size_mb": 0.02
+        },
+        {
+            "file": "20260512_183920_Iotec_Spine_Core.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\20260512_183920_Iotec_Spine_Core.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "dash_core_components-shared.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components-shared.js",
+            "size_mb": 0.02
+        },
+        {
+            "file": "IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADAPTIVE_ECOSYSTEM_CORE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "Iotec_Spine_Core_Architecture.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Iotec_Spine_Core_Architecture.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ULTRACORE_ARCHITECTURE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "CENTRAL_CORE.py",
+            "path": "C:\\IOTEC\\CENTRAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CORE_BUSINESS.py",
+            "path": "C:\\IOTEC\\CORE_BUSINESS.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "DEEP_CORE_SCANNER.py",
+            "path": "C:\\IOTEC\\DEEP_CORE_SCANNER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "ENTERPRISE_WEB_CORE.py",
+            "path": "C:\\IOTEC\\ENTERPRISE_WEB_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "EXECUTION_CORE.py",
+            "path": "C:\\IOTEC\\EXECUTION_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "HYPERCORE_SHIELD.py",
+            "path": "C:\\IOTEC\\HYPERCORE_SHIELD.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_GLOBAL_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_GLOBAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_MINIMAL_REAL_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_MINIMAL_REAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "path": "C:\\IOTEC\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "MASTER_GOVERNANCE.py",
+            "path": "C:\\IOTEC\\MASTER_GOVERNANCE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "path": "C:\\IOTEC\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "NEXUS_CORE.py",
+            "path": "C:\\IOTEC\\NEXUS_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "OCCUPY_CORE.py",
+            "path": "C:\\IOTEC\\OCCUPY_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.py",
+            "path": "C:\\IOTEC\\core\\router\\visible_core_router.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\FROZEN\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.AUTO_BACKUP.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.AUTO_BACKUP.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.backup.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.backup.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.PREPARSER_BACKUP.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.PREPARSER_BACKUP.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.rebuild_backup.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.rebuild_backup.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.SAFE_BACKUP.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.SAFE_BACKUP.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.STRUCTURE_BACKUP.py",
+            "path": "C:\\IOTEC\\FROZEN\\visible_core_router.STRUCTURE_BACKUP.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "core_2026-05-16.txt",
+            "path": "C:\\IOTEC\\iotec_core\\logs\\core_2026-05-16.txt",
+            "size_mb": 0.01
+        },
+        {
+            "file": "DEEP_CORE_SCANNER.py",
+            "path": "C:\\IOTEC\\LAB\\DEEP_CORE_SCANNER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "aiobotocore-2.12.3-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\aiobotocore-2.12.3-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "core_map.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core_map.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "dash_core_components-shared.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\dash_core_components-shared.v3_3_0m1765969531.js",
+            "size_mb": 0.01
+        },
+        {
+            "file": "httpcore-1.0.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\httpcore-1.0.2-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "vs2015_runtime-14.40.33807-h98bb1dd_1.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\vs2015_runtime-14.40.33807-h98bb1dd_1.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "MASTER_GOVERNANCE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\GOVTECH\\MASTER_GOVERNANCE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "aiobotocore-2.12.3-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\aiobotocore-2.12.3-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CENTRAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CENTRAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "core_map.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_map.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "dash_core_components-shared.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\dash_core_components-shared.v3_3_0m1765969531.js",
+            "size_mb": 0.01
+        },
+        {
+            "file": "DEEP_CORE_SCANNER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\DEEP_CORE_SCANNER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "httpcore-1.0.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\httpcore-1.0.2-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADAPTIVE_CORE_MANAGER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_DIRECTIVE_SYSTEM.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CUSTOMER_SERVICE_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_GLOBAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GLOBAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_MINIMAL_REAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MINIMAL_REAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_NEURAL_ECOSYSTEM_CORE_FINAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\MOTOR_SEMANTICO_COM_SCORE_DE_RELEVANCIA.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "visible_core_router.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\visible_core_router.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "vs2015_runtime-14.40.33807-h98bb1dd_1.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\vs2015_runtime-14.40.33807-h98bb1dd_1.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\idna\\core.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "dash_core_components-shared.v3_3_0m1765969531.js",
+            "path": "C:\\IOTEC\\_SANITIZADA\\dash_core_components-shared.v3_3_0m1765969531.js",
+            "size_mb": 0.01
+        },
+        {
+            "file": "Auto_Build_Core.ps1",
+            "path": "C:\\IOTEC\\Auto_Build_Core.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "AUTO_CORE_VERIFY.ps1",
+            "path": "C:\\IOTEC\\AUTO_CORE_VERIFY.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "calcular_score.py",
+            "path": "C:\\IOTEC\\calcular_score.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_connector.js",
+            "path": "C:\\IOTEC\\core_connector.js",
+            "size_mb": 0.0
+        },
+        {
+            "file": "CORE_MASTER.py",
+            "path": "C:\\IOTEC\\CORE_MASTER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "CORE_STRESS_TEST.py",
+            "path": "C:\\IOTEC\\CORE_STRESS_TEST.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "CORE_VERSAO_CALIBRADA.py",
+            "path": "C:\\IOTEC\\CORE_VERSAO_CALIBRADA.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "FIX_MASTER_CORE.ps1",
+            "path": "C:\\IOTEC\\FIX_MASTER_CORE.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_AI_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_AI_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_alma_core.py",
+            "path": "C:\\IOTEC\\iotec_alma_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_alma_core_v2.py",
+            "path": "C:\\IOTEC\\iotec_alma_core_v2.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_alma_core_v3.py",
+            "path": "C:\\IOTEC\\iotec_alma_core_v3.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_alma_core_v4_governador.py",
+            "path": "C:\\IOTEC\\iotec_alma_core_v4_governador.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_alma_core_v5_consolidador.py",
+            "path": "C:\\IOTEC\\iotec_alma_core_v5_consolidador.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_core.py",
+            "path": "C:\\IOTEC\\iotec_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_24H.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_24H.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_EMAIL_24H.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_EMAIL_24H.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_LIVE_QUEUE.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_LIVE_QUEUE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_MANAGER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_QUEUE_PANEL.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_QUEUE_PANEL.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_RUNNER.py",
+            "path": "C:\\IOTEC\\IOTEC_CORE_RUNNER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DATABASE_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_DATABASE_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER.py",
+            "path": "C:\\IOTEC\\IOTEC_DEPLOY_MASTER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER_V2.py",
+            "path": "C:\\IOTEC\\IOTEC_DEPLOY_MASTER_V2.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER_V3.py",
+            "path": "C:\\IOTEC\\IOTEC_DEPLOY_MASTER_V3.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_EXECUTION_CORE.json",
+            "path": "C:\\IOTEC\\IOTEC_EXECUTION_CORE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GATEWAY_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_GATEWAY_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "path": "C:\\IOTEC\\IOTEC_GLOBAL_FINANCIAL_CORE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MAIL_CORE_INTELIGENTE.py",
+            "path": "C:\\IOTEC\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MAIL_TO_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_MAIL_TO_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_MASTER_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_CORE_BACKUP.py",
+            "path": "C:\\IOTEC\\IOTEC_MASTER_CORE_BACKUP.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_Master_Core_Setup.ps1",
+            "path": "C:\\IOTEC\\IOTEC_Master_Core_Setup.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MULTI_MAIL_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_MULTI_MAIL_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_REALTY_CORE.json",
+            "path": "C:\\IOTEC\\IOTEC_REALTY_CORE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_RUNTIME_REORGANIZER.py",
+            "path": "C:\\IOTEC\\IOTEC_RUNTIME_REORGANIZER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_RUNTIME_STATE.json",
+            "path": "C:\\IOTEC\\IOTEC_RUNTIME_STATE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_sonda_core.py",
+            "path": "C:\\IOTEC\\iotec_sonda_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Iotec_Spine_Core.py",
+            "path": "C:\\IOTEC\\Iotec_Spine_Core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_STABILITY_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_STABILITY_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "REBUILD_VISIBLE_CORE.py",
+            "path": "C:\\IOTEC\\REBUILD_VISIBLE_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "registry_core.py",
+            "path": "C:\\IOTEC\\registry_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "RUNTIME_GOVERNOR.py",
+            "path": "C:\\IOTEC\\RUNTIME_GOVERNOR.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "single_core_test.py",
+            "path": "C:\\IOTEC\\single_core_test.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SMART_CORE_EXPORT.py",
+            "path": "C:\\IOTEC\\SMART_CORE_EXPORT.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "stability_core.py",
+            "path": "C:\\IOTEC\\stability_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "START_CORE.ps1",
+            "path": "C:\\IOTEC\\START_CORE.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "START_PREMIUM_CORE.ps1",
+            "path": "C:\\IOTEC\\START_PREMIUM_CORE.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "VERIFY_REAL_CORE.py",
+            "path": "C:\\IOTEC\\VERIFY_REAL_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "run_visible_core_api.ps1",
+            "path": "C:\\IOTEC\\BIN\\run_visible_core_api.ps1",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visible_core_api.py",
+            "path": "C:\\IOTEC\\core\\gateway\\visible_core_api.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\FROZEN\\IOTEC_CORE_MANAGER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_LIVE_QUEUE.py",
+            "path": "C:\\IOTEC\\LAB\\IOTEC_CORE_LIVE_QUEUE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_QUEUE_PANEL.py",
+            "path": "C:\\IOTEC\\LAB\\IOTEC_CORE_QUEUE_PANEL.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_RUNTIME_REORGANIZER.py",
+            "path": "C:\\IOTEC\\LAB\\IOTEC_RUNTIME_REORGANIZER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_CORE_BACKUP.py",
+            "path": "C:\\IOTEC\\LEGACY\\IOTEC_MASTER_CORE_BACKUP.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "catalogo_master.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\catalogo_master.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core.js",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_daemon.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core_daemon.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_daemon.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core_daemon.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_output.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\core_output.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "domus_core.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\domus_core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitcore-tutorial.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitcore-tutorial.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitdiffcore.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\gitdiffcore.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONAL__ECOSYSTEM_CORE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONAL__ECOSYSTEM_CORE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONA_ECOSYSTEM_CORE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONA_ECOSYSTEM_CORE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_core.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_core.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_BUS.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CORE_BUS.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_BUS.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_CORE_BUS.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_20260325_071212.bak.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_20260325_071212.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_master_state.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_master_state.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NUCLEO_MASTER.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_NUCLEO_MASTER.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NUCLEO_MASTER.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_NUCLEO_MASTER.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_strategic_core.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_strategic_core.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_strategic_core.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\iotec_strategic_core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "jupyter_core-5.7.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_core-5.7.2-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "m2-msys2-runtime-2.5.0.17080.65c939c-3.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\m2-msys2-runtime-2.5.0.17080.65c939c-3.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Neo_System_Core.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Neo_System_Core.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_MASTER_CONSOLE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_MASTER_CONSOLE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_MASTER_CONSOLE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\NUCLEO_MASTER_CONSOLE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "pydantic-core-2.20.1-py312hefb1915_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\pydantic-core-2.20.1-py312hefb1915_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "qt6quick3druntimerender_metatypes.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\qt6quick3druntimerender_metatypes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "runtime_profile.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\runtime_profile.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "snia-score-global-985.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\snia-score-global-985.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "StrategicCore.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\StrategicCore.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "StrategicCore.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\StrategicCore.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "visible_core_api.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\visible_core_api.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_daemon.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\core_daemon.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "domus_core.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\domus_core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitcore-tutorial.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitcore-tutorial.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "gitdiffcore.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\gitdiffcore.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\INSTITUTIONAL__ECOSYSTEM_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\INSTITUTIONA_ECOSYSTEM_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_BUS.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_CORE_BUS.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_BUS.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_CORE_BUS.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_20260325_071212.bak.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_20260325_071212.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260324_223608.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_MASTER_NUCLEO_CENTRAL_PRO_20260325_070602.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NUCLEO_MASTER.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_NUCLEO_MASTER.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_NUCLEO_MASTER.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_NUCLEO_MASTER.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_PLATFORM_IA_MASTER_CLOSEOUT.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_strategic_core.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\iotec_strategic_core.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "NUCLEO_MASTER_CONSOLE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\NUCLEO_MASTER_CONSOLE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "StrategicCore.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\StrategicCore.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\SUS_COREM_MODULO_LABORATORIO_FULLSCREEN_V1.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\SUS_COREM_SAUDE_INTEGRAL_FULLSCREEN_V1.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\_BACKUP_RECONSTRUCAO_TOTAL__IOTEC_MASTER_20260325_071212.bak.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "asmitacore.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\asmitacore.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "calcular_score.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\calcular_score.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "catalogo_master.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\catalogo_master.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core.js",
+            "size_mb": 0.0
+        },
+        {
+            "file": "CORE_MASTER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CORE_MASTER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core_output.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\core_output.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "from.core.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\from.core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_AI_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_AI_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_core.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_core.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_core.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_24H.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_24H.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_EMAIL_24H.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_EMAIL_24H.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_LIVE_QUEUE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_LIVE_QUEUE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_MANAGER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_MANAGER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_QUEUE_PANEL.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_QUEUE_PANEL.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_CORE_RUNNER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_CORE_RUNNER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DATABASE_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DATABASE_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DEPLOY_MASTER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER_V2.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DEPLOY_MASTER_V2.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_DEPLOY_MASTER_V3.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_DEPLOY_MASTER_V3.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_GATEWAY_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GATEWAY_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MAIL_CORE_INTELIGENTE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_CORE_INTELIGENTE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MAIL_TO_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MAIL_TO_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "iotec_master_state.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\iotec_master_state.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_MULTI_MAIL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_MULTI_MAIL_CORE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Iotec_Spine_Core.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Iotec_Spine_Core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "jupyter_core-5.7.2-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\jupyter_core-5.7.2-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "m2-msys2-runtime-2.5.0.17080.65c939c-3.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\m2-msys2-runtime-2.5.0.17080.65c939c-3.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Neo_System_Core.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Neo_System_Core.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Neo_System_Core.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Neo_System_Core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "pydantic-core-2.20.1-py312hefb1915_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\pydantic-core-2.20.1-py312hefb1915_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "runtime_profile.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\runtime_profile.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "snia-score-global-985.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\snia-score-global-985.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SystemCore.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\SystemCore.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.py",
+            "path": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\certifi\\core.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "core.js",
+            "path": "C:\\IOTEC\\_SANITIZADA\\core.js",
+            "size_mb": 0.0
+        }
+    ],
+    "OPERATIONS": [
+        {
+            "file": "TOWER_CONNECTION_REPORT.json",
+            "path": "C:\\IOTEC\\TOWER_SIGNAL_REPORTS\\TOWER_CONNECTION_REPORT.json",
+            "size_mb": 8.74
+        },
+        {
+            "file": "REAL_TIME_TOWER.json",
+            "path": "C:\\IOTEC\\REAL_TIME_TOWER.json",
+            "size_mb": 0.56
+        },
+        {
+            "file": "COMMAND_TOWER_REPORT.json",
+            "path": "C:\\IOTEC\\COMMAND_TOWER_REPORT.json",
+            "size_mb": 0.12
+        },
+        {
+            "file": "git-fsmonitor--daemon.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\git-fsmonitor--daemon.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "git-fsmonitor--daemon.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-fsmonitor--daemon.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "git-fsmonitor--daemon.html",
+            "path": "C:\\IOTEC\\_SANITIZADA\\git-fsmonitor--daemon.html",
+            "size_mb": 0.03
+        },
+        {
+            "file": "LIVE_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\LIVE_OPERATIONAL_CORE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "LIVE_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\LIVE_OPERATIONAL_CORE.py",
+            "size_mb": 0.02
+        },
+        {
+            "file": "CINEMATIC_OPERATIONS.py",
+            "path": "C:\\IOTEC\\CINEMATIC_OPERATIONS.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CONTINUOUS_OPERATION.py",
+            "path": "C:\\IOTEC\\CONTINUOUS_OPERATION.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "GLOBAL_CONTROL_TOWER.py",
+            "path": "C:\\IOTEC\\GLOBAL_CONTROL_TOWER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "GLOBAL_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\GLOBAL_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "path": "C:\\IOTEC\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "LOTE_OPERATIONAL.py",
+            "path": "C:\\IOTEC\\LOTE_OPERATIONAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "python LIVE_SOCKET_TOWER.py",
+            "path": "C:\\IOTEC\\python LIVE_SOCKET_TOWER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "TOWER_LIVE.py",
+            "path": "C:\\IOTEC\\TOWER_LIVE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "VISUAL_OPERATIONS_CENTER.py",
+            "path": "C:\\IOTEC\\VISUAL_OPERATIONS_CENTER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "LIVE_SOCKET_TOWER_20260530_205639.py",
+            "path": "C:\\IOTEC\\BACKUP_LIVE_SOCKET\\LIVE_SOCKET_TOWER_20260530_205639.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "LIVE_SOCKET_TOWER_20260530_205219.py",
+            "path": "C:\\IOTEC\\BACKUP_SOCKET\\LIVE_SOCKET_TOWER_20260530_205219.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CINEMATIC_OPERATIONS.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CINEMATIC_OPERATIONS.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "GLOBAL_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\GLOBAL_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_ADVANCEMENT_CONTROL_TOWER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_GLOBAL_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_PERSISTENT_OPERATIONAL_CORE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "VISUAL_OPERATIONS_CENTER.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\VISUAL_OPERATIONS_CENTER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "BRIDGE_TOWER.py",
+            "path": "C:\\IOTEC\\BRIDGE_TOWER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "LIVE_SOCKET_TOWER.py",
+            "path": "C:\\IOTEC\\LIVE_SOCKET_TOWER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "LIVE_TOWER_ALERT.py",
+            "path": "C:\\IOTEC\\LIVE_TOWER_ALERT.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "live_tower_monitor.py",
+            "path": "C:\\IOTEC\\live_tower_monitor.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUPERVISOR_DE_INTEGRIDADE.py",
+            "path": "C:\\IOTEC\\SUPERVISOR_DE_INTEGRIDADE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "TEST_OPERATION.py",
+            "path": "C:\\IOTEC\\TEST_OPERATION.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "tower_events.json",
+            "path": "C:\\IOTEC\\tower_events.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "LIVE_OPERATIONAL_STATUS.json",
+            "path": "C:\\IOTEC\\LIVE_PROGRAMMING\\LIVE_OPERATIONAL_STATUS.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "git-fsmonitor--daemon.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\git-fsmonitor--daemon.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_10_ANDARES.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER_10_ANDARES.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_10_ANDARES.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER_10_ANDARES.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_COMMAND_CENTER.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER_COMMAND_CENTER.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_COMMAND_CENTER.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER_COMMAND_CENTER.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER__dup1.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER__dup1.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER__dup1.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_TOWER__dup1.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "modules__module_voice_supervisor.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\modules__module_voice_supervisor.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "modules__module_voice_supervisor_continuo.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\modules__module_voice_supervisor_continuo.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "module_voice_supervisor.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\module_voice_supervisor.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "module_voice_supervisor.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\module_voice_supervisor.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "module_voice_supervisor_continuo.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\module_voice_supervisor_continuo.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "regulus_operational_index.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_operational_index.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "git-fsmonitor--daemon.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\git-fsmonitor--daemon.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_10_ANDARES.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER_10_ANDARES.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_10_ANDARES.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER_10_ANDARES.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_COMMAND_CENTER.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER_COMMAND_CENTER.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER_COMMAND_CENTER.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER_COMMAND_CENTER.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER__dup1.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER__dup1.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_TOWER__dup1.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_TOWER__dup1.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "modules__module_voice_supervisor.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\modules__module_voice_supervisor.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "modules__module_voice_supervisor_continuo.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\modules__module_voice_supervisor_continuo.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "module_voice_supervisor.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\module_voice_supervisor.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "module_voice_supervisor_continuo.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\module_voice_supervisor_continuo.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "monitoramento.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\monitoramento.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "SUPERVISOR_DE_INTEGRIDADE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\SUPERVISOR_DE_INTEGRIDADE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "global_tower.json",
+            "path": "C:\\IOTEC\\REGISTRY\\global_tower.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "tower.json",
+            "path": "C:\\IOTEC\\TOWER\\tower.json",
+            "size_mb": 0.0
+        }
+    ],
+    "REVENUE": [
+        {
+            "file": "REVENUE_DISCOVERY_REPORT.json",
+            "path": "C:\\IOTEC\\REVENUE_DISCOVERY_REPORT.json",
+            "size_mb": 0.72
+        },
+        {
+            "file": "regulus_passive_revenue_report_1766410452.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\regulus_passive_revenue_report_1766410452.json",
+            "size_mb": 0.15
+        },
+        {
+            "file": "regulus_passive_revenue_report_1766410452.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\regulus_passive_revenue_report_1766410452.json",
+            "size_mb": 0.15
+        },
+        {
+            "file": "IOTEC_FIRST_REVENUE_ENGINE.py",
+            "path": "C:\\IOTEC\\IOTEC_FIRST_REVENUE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+            "path": "C:\\IOTEC\\IOTEC_PAYPAL_SANEAMENTO_TOTAL.ps1",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_SALES_EXPERIENCE_CORE.json",
+            "path": "C:\\IOTEC\\IOTEC_SALES_EXPERIENCE_CORE.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_SALES_LANGUAGE.json",
+            "path": "C:\\IOTEC\\IOTEC_SALES_LANGUAGE.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "REVENUE_OPERATION_CENTER.py",
+            "path": "C:\\IOTEC\\REVENUE_OPERATION_CENTER.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "SALES_EXPERIENCE.py",
+            "path": "C:\\IOTEC\\SALES_EXPERIENCE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "anaconda-client-1.12.3-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\anaconda-client-1.12.3-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "jupyter_client-8.6.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\jupyter_client-8.6.0-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "prometheus_client-0.14.1-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\prometheus_client-0.14.1-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_AUDITOR_PAYPAL.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_FIRST_REVENUE_ENGINE.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_FIRST_REVENUE_ENGINE.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "jupyter_client-8.6.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\jupyter_client-8.6.0-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "prometheus_client-0.14.1-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\prometheus_client-0.14.1-py312haa95532_0.json",
+            "size_mb": 0.01
+        },
+        {
+            "file": "IOTEC_AUDITOR_PAYPAL.py",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+            "size_mb": 0.01
+        },
+        {
+            "file": "CLIENTE_INTERNACIONAL.py",
+            "path": "C:\\IOTEC\\CLIENTE_INTERNACIONAL.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "COMMERCIAL_TOWER.py",
+            "path": "C:\\IOTEC\\COMMERCIAL_TOWER.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "eh_pagamento_paypal.py",
+            "path": "C:\\IOTEC\\eh_pagamento_paypal.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IBEX_clients.json",
+            "path": "C:\\IOTEC\\IBEX_clients.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PAYPAL_MONITOR.py",
+            "path": "C:\\IOTEC\\IOTEC_PAYPAL_MONITOR.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_Revenue_Strategy_Engine.py",
+            "path": "C:\\IOTEC\\IOTEC_Revenue_Strategy_Engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "memoria_cliente.py",
+            "path": "C:\\IOTEC\\memoria_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "memoria_clientes.json",
+            "path": "C:\\IOTEC\\memoria_clientes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "monitor_paypal.py",
+            "path": "C:\\IOTEC\\monitor_paypal.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "msg_cliente.py",
+            "path": "C:\\IOTEC\\msg_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "notificar_cliente.py",
+            "path": "C:\\IOTEC\\notificar_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "organizar_cliente.py",
+            "path": "C:\\IOTEC\\organizar_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "pagamento_paypal,py.txt",
+            "path": "C:\\IOTEC\\pagamento_paypal,py.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_local_config.json",
+            "path": "C:\\IOTEC\\paypal_local_config.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_server.py",
+            "path": "C:\\IOTEC\\paypal_server.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "REVENUE_DISCOVERY_ENGINE.py",
+            "path": "C:\\IOTEC\\REVENUE_DISCOVERY_ENGINE.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "revenue.py",
+            "path": "C:\\IOTEC\\core\\revenue.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "adapter_erp_cliente.py",
+            "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\adapters\\adapter_erp_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "erp_cliente_contract.json",
+            "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\contracts\\erp_cliente_contract.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "erp_cliente_mapping.json",
+            "path": "C:\\IOTEC\\EXTERNAL\\integration_layer\\mappings\\erp_cliente_mapping.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\AUDITORIA_FLUXO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "backup_clientes_2026-04-19_19-47-51.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\backup_clientes_2026-04-19_19-47-51.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "clientes.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\clientes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "client_manager.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\client_manager.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Commercial_Brain.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Commercial_Brain.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Commercial_Brain.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "HISTORICO_CORRECOES_PAYPAL.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\HISTORICO_CORRECOES_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Licencas_CLIENTE DEMO_20251214_153219.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\Licencas_CLIENTE DEMO_20251214_180538.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "nbclient-0.8.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\nbclient-0.8.0-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "panel-client-jupyter.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\panel-client-jupyter.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_local_config.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\paypal_local_config.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "STATUS_SANEAMENTO_PAYPAL.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\STATUS_SANEAMENTO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "websocket-client-1.8.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\websocket-client-1.8.0-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_clientMiddlewareManifest.js",
+            "path": "C:\\IOTEC\\MINERADORA_BRUTA\\_clientMiddlewareManifest.js",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_server.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\AUDITORIA_FLUXO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "eh_pagamento_paypal.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\eh_pagamento_paypal.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "HISTORICO_CORRECOES_PAYPAL.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\HISTORICO_CORRECOES_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_PAYPAL_MONITOR.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_PAYPAL_MONITOR.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "monitor_paypal.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\monitor_paypal.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_local_config.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\paypal_local_config.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "STATUS_SANEAMENTO_PAYPAL.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\STATUS_SANEAMENTO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\02_IOTEC_ADAPTIVE_COMMERCIAL_CORE.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\cliente.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\cliente.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "client_manager.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\client_manager.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Commercial_Brain.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\Commercial_Brain.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\IOTEC_COMMERCIAL_INTELLIGENCE.py.html.html",
+            "size_mb": 0.0
+        },
+        {
+            "file": "static_client.html.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FRONTEND\\static_client.html.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "adapter_erp_cliente.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\adapter_erp_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "backup_clientes_2026-04-19_19-47-51.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\backup_clientes_2026-04-19_19-47-51.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "clientes.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\clientes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\cliente_CTR_C71734179D_2026-03-29_13-27-59.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "CLIENTE_INTERNACIONAL.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CLIENTE_INTERNACIONAL.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "erp_cliente_contract.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\erp_cliente_contract.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "erp_cliente_mapping.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\erp_cliente_mapping.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "IOTEC_Revenue_Strategy_Engine.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\IOTEC_Revenue_Strategy_Engine.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Licencas_CLIENTE DEMO_20251214_153219.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Licencas_CLIENTE DEMO_20251214_153219.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "Licencas_CLIENTE DEMO_20251214_180538.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Licencas_CLIENTE DEMO_20251214_180538.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "memoria_cliente.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\memoria_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "memoria_clientes.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\memoria_clientes.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "msg_cliente.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\msg_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "nbclient-0.8.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\nbclient-0.8.0-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "notificar_cliente.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\notificar_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "organizar_cliente.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\organizar_cliente.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "panel-client-jupyter.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\panel-client-jupyter.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "revenue.py",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\revenue.py",
+            "size_mb": 0.0
+        },
+        {
+            "file": "websocket-client-1.8.0-py312haa95532_0.json",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\websocket-client-1.8.0-py312haa95532_0.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_clientMiddlewareManifest.js",
+            "path": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\_clientMiddlewareManifest.js",
+            "size_mb": 0.0
+        },
+        {
+            "file": "paypal_local_config.json",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\CONFIG\\paypal_local_config.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SAIDAS\\RELATORIO_DIAGNOSTICO_PAYPAL.txt",
+            "size_mb": 0.0
+        },
+        {
+            "file": "AUDITORIA_FLUXO_PAYPAL.json",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\AUDITORIA_FLUXO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "HISTORICO_CORRECOES_PAYPAL.json",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\HISTORICO_CORRECOES_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "STATUS_SANEAMENTO_PAYPAL.json",
+            "path": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\STATUS_SANEAMENTO_PAYPAL.json",
+            "size_mb": 0.0
+        },
+        {
+            "file": "_clientMiddlewareManifest.js",
+            "path": "C:\\IOTEC\\_SANITIZADA\\_clientMiddlewareManifest.js",
+            "size_mb": 0.0
+        }
+    ]
+}

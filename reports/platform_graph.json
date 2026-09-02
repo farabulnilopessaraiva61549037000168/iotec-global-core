@@ -1,0 +1,230 @@
+{
+    "generated_at": "2026-06-26 07:08:00.533864",
+    "total_modules": 19,
+    "modules": [
+        {
+            "module": "001_IOTEC_ENTERPRISE_COMMAND_CENTER.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "logging",
+                "pathlib",
+                "platform",
+                "socket",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "002_X27_CORE.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "003_KATSUYO_ENGINE.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "004_EVENT_BUS.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "005_REVENUE_RADAR.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "decimal",
+                "logging"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "006_MARKET_HUNTER.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "logging"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "007_COMMERCIAL_AGENT.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "008_CONTRACT_CENTER.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "decimal",
+                "enum",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "009_FINANCIAL_CENTER.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "decimal",
+                "enum",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "010_BUDGET_HUNTER.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "decimal",
+                "enum",
+                "logging"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "011_CRM_CENTER.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "decimal",
+                "enum",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "012_CONNECTOR_MANAGER.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "013_API_GATEWAY.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "typing",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "014_SECURITY_CENTER.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "015_AUDIT_ENGINE.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "016_ENTERPRISE_KERNEL.py",
+            "imports": [
+                "__future__",
+                "dataclasses",
+                "datetime",
+                "enum",
+                "logging",
+                "platform",
+                "socket",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "017_NOTIFICATION_CENTER.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "018_EMAIL_ENGINE.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "module": "019_SMS_ENGINE.py",
+            "imports": [
+                "dataclasses",
+                "datetime",
+                "logging",
+                "uuid"
+            ],
+            "status": "ONLINE"
+        }
+    ]
+}

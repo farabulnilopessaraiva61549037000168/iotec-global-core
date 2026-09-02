@@ -1,0 +1,44 @@
+{
+    "id": "MISSION_0001",
+    "name": "OPERAÇÃO PRIMEIRA VENDA",
+    "priority": "CRÍTICA",
+    "status": "AGUARDANDO",
+    "created": "2026-07-09T08:45:29.086780",
+    "product": {
+        "name": "Diagnóstico Executivo",
+        "price": 30.0,
+        "currency": "BRL"
+    },
+    "steps": [
+        {
+            "id": 1,
+            "name": "LOCALIZAR_GATEWAY",
+            "status": "PENDENTE"
+        },
+        {
+            "id": 2,
+            "name": "CRIAR_COBRANCA",
+            "status": "PENDENTE"
+        },
+        {
+            "id": 3,
+            "name": "GERAR_LINK",
+            "status": "PENDENTE"
+        },
+        {
+            "id": 4,
+            "name": "AGUARDAR_PAGAMENTO",
+            "status": "PENDENTE"
+        },
+        {
+            "id": 5,
+            "name": "REGISTRAR_VENDA",
+            "status": "PENDENTE"
+        },
+        {
+            "id": 6,
+            "name": "ENTREGAR_PRODUTO",
+            "status": "PENDENTE"
+        }
+    ]
+}

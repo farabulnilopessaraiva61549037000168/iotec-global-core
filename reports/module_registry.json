@@ -1,0 +1,82 @@
+{
+    "generated_at": "2026-06-26 07:08:00.394126",
+    "total_modules": 19,
+    "modules": [
+        {
+            "name": "001_IOTEC_ENTERPRISE_COMMAND_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "002_X27_CORE.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "003_KATSUYO_ENGINE.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "004_EVENT_BUS.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "005_REVENUE_RADAR.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "006_MARKET_HUNTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "007_COMMERCIAL_AGENT.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "008_CONTRACT_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "009_FINANCIAL_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "010_BUDGET_HUNTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "011_CRM_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "012_CONNECTOR_MANAGER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "013_API_GATEWAY.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "014_SECURITY_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "015_AUDIT_ENGINE.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "016_ENTERPRISE_KERNEL.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "017_NOTIFICATION_CENTER.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "018_EMAIL_ENGINE.py",
+            "status": "ONLINE"
+        },
+        {
+            "name": "019_SMS_ENGINE.py",
+            "status": "ONLINE"
+        }
+    ]
+}

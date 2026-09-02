@@ -1,0 +1,391 @@
+{
+    "created": "2026-06-07 14:55:08.350149",
+    "records": [
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_CORE_RUNNER",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_CORE_LIVE_QUEUE",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "CRM_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "LEAD_SCORE_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "SALES_BRAIN",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "NEGOTIATION_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "PROPOSAL_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "SALES_AUTOPILOT_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "REVENUE_DISCOVERY_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "REVENUE_OPERATION_CENTER",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "AUTO_MONETIZATION_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "PRICING_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "ECONOMIC_INTELLIGENCE",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_CENTRAL_BRAIN",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_MEMORY_ENGINE",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_UNIFIED_BRAIN",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_CAPABILITY_HUNTER",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "MISSION_01_CAPABILITY_CATALOG",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "TOP_ASSETS_ENGINE",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:08.447576",
+            "motor": "IOTEC_REVENUE_IDENTITY_ENGINE",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_CORE_RUNNER",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_CONTROL_TOWER_ENGINE",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_CORE_LIVE_QUEUE",
+            "layer": "REALTIME",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "CRM_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "LEAD_SCORE_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "SALES_BRAIN",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "NEGOTIATION_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "PROPOSAL_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "SALES_AUTOPILOT_ENGINE",
+            "layer": "COMMERCIAL",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "REVENUE_DISCOVERY_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "REVENUE_OPERATION_CENTER",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "AUTO_MONETIZATION_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "PRICING_ENGINE",
+            "layer": "REVENUE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "ECONOMIC_INTELLIGENCE",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_CENTRAL_BRAIN",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_MEMORY_ENGINE",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_UNIFIED_BRAIN",
+            "layer": "INTELLIGENCE",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_CAPABILITY_HUNTER",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "MISSION_01_CAPABILITY_CATALOG",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "TOP_ASSETS_ENGINE",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        },
+        {
+            "timestamp": "2026-06-07 14:55:27.861264",
+            "motor": "IOTEC_REVENUE_IDENTITY_ENGINE",
+            "layer": "STRATEGIC",
+            "status": "AGENDADO",
+            "produced": null,
+            "destination": null,
+            "value_score": 0
+        }
+    ],
+    "stats": {
+        "REALTIME": 6,
+        "COMMERCIAL": 12,
+        "REVENUE": 8,
+        "INTELLIGENCE": 8,
+        "STRATEGIC": 8
+    },
+    "last_update": "2026-06-07 14:55:27.861264"
+}

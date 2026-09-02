@@ -1,0 +1,11 @@
+{
+    "id": "1ef4cf32",
+    "proposal_id": "PROP001",
+    "cliente": "ABC Engenharia",
+    "descricao": "Diagnóstico Digital",
+    "valor": 49.9,
+    "metodo": "PIX",
+    "status": "PAGO",
+    "criado": "2026-07-26T11:08:00.939569",
+    "confirmado": "2026-07-26T11:08:00.945367"
+}

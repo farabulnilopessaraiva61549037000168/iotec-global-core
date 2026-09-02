@@ -1,0 +1,222 @@
+[
+    {
+        "event_id": "6a9736a6",
+        "mission_id": "7469016f",
+        "event_type": "WEBSITE_DISCOVERED",
+        "center": "COMMERCIAL CENTER",
+        "agent": "CONTACT DISCOVERY ENGINE",
+        "objective": "Descobrir Website Oficial",
+        "result": "Website oficial localizado.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.453682"
+    },
+    {
+        "event_id": "3dbf2de1",
+        "mission_id": "8e3ae5c0",
+        "event_type": "EMAIL_DISCOVERED",
+        "center": "COMMERCIAL CENTER",
+        "agent": "CONTACT DISCOVERY ENGINE",
+        "objective": "Descobrir E-mail Corporativo",
+        "result": "E-mail institucional localizado.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "76553a9e",
+        "mission_id": "206dd4e3",
+        "event_type": "PHONE_DISCOVERED",
+        "center": "COMMERCIAL CENTER",
+        "agent": "CONTACT DISCOVERY ENGINE",
+        "objective": "Descobrir Telefone Comercial",
+        "result": "Telefone comercial localizado.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "8e75f51d",
+        "mission_id": "e3c78db3",
+        "event_type": "LINKEDIN_DISCOVERED",
+        "center": "COMMERCIAL CENTER",
+        "agent": "CONTACT DISCOVERY ENGINE",
+        "objective": "Descobrir LinkedIn",
+        "result": "LinkedIn institucional localizado.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "054f92a9",
+        "mission_id": "7d68e29f",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Encontrar novas empresas",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "82bcbe3e",
+        "mission_id": "286991b0",
+        "event_type": "NEW_KNOWLEDGE",
+        "center": "SCIENTIFIC CENTER",
+        "agent": "MARKET SCIENTIST",
+        "objective": "Pesquisar tendências do setor",
+        "result": "Pesquisa científica registrada.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "047a0d19",
+        "mission_id": "183e4cfc",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Construtoras",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "fb4ddd7c",
+        "mission_id": "ead3e828",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Empreiteiras",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "db99908c",
+        "mission_id": "a593c03c",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Escritórios de Engenharia",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "3416defb",
+        "mission_id": "e6d12e76",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Escritórios de Arquitetura",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "16fc6919",
+        "mission_id": "c9c00ea0",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Escolas",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "ad3588d2",
+        "mission_id": "be4f3e77",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Universidades",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "f4756c32",
+        "mission_id": "d21e247c",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Secretarias de Educação",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "05544d48",
+        "mission_id": "47c5cf52",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Hospitais",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "89deb5cb",
+        "mission_id": "22779f73",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Clínicas",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "3e3b975a",
+        "mission_id": "66d92df9",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Laboratórios",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "3751aef1",
+        "mission_id": "9a23cb92",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Metalurgia",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "f9619477",
+        "mission_id": "3c3a931d",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Alimentos",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "5e96add2",
+        "mission_id": "8030c67f",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Têxtil",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    },
+    {
+        "event_id": "dad3c6bb",
+        "mission_id": "e2929328",
+        "event_type": "NEW_COMPANIES",
+        "center": "MARKET CENTER",
+        "agent": "COMPANY DISCOVERY ENGINE",
+        "objective": "Pesquisar empresas do segmento Química",
+        "result": "37 novas empresas adicionadas.",
+        "status": "NOVO",
+        "timestamp": "2026-07-16T20:02:50.454685"
+    }
+]

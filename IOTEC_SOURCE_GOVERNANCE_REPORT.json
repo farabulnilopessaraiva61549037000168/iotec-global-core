@@ -1,0 +1,68 @@
+{
+    "gerado_em": "2026-06-13 14:01:04.532174",
+    "diagnostico": {
+        "EMPRESAS": {
+            "fontes": 0,
+            "status": "CRITICO"
+        },
+        "ESCOLAS": {
+            "fontes": 0,
+            "status": "CRITICO"
+        },
+        "UNIVERSIDADES": {
+            "fontes": 0,
+            "status": "CRITICO"
+        },
+        "FORNECEDORES": {
+            "fontes": 0,
+            "status": "CRITICO"
+        },
+        "TERCEIRIZADAS": {
+            "fontes": 0,
+            "status": "CRITICO"
+        },
+        "PARCEIROS": {
+            "fontes": 0,
+            "status": "CRITICO"
+        }
+    },
+    "prioridades": [
+        "EMPRESAS",
+        "ESCOLAS",
+        "UNIVERSIDADES",
+        "FORNECEDORES",
+        "TERCEIRIZADAS",
+        "PARCEIROS"
+    ],
+    "acoes_recomendadas": [
+        {
+            "categoria": "EMPRESAS",
+            "acao": "CATALOGAR_FONTES"
+        },
+        {
+            "categoria": "ESCOLAS",
+            "acao": "CATALOGAR_FONTES"
+        },
+        {
+            "categoria": "UNIVERSIDADES",
+            "acao": "CATALOGAR_FONTES"
+        },
+        {
+            "categoria": "FORNECEDORES",
+            "acao": "CATALOGAR_FONTES"
+        },
+        {
+            "categoria": "TERCEIRIZADAS",
+            "acao": "CATALOGAR_FONTES"
+        },
+        {
+            "categoria": "PARCEIROS",
+            "acao": "CATALOGAR_FONTES"
+        }
+    ],
+    "resumo": {
+        "fontes_totais": 0,
+        "categorias": 6,
+        "categorias_criticas": 6
+    }
+}

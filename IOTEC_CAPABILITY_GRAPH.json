@@ -1,0 +1,74 @@
+{
+    "generated_at": "2026-07-16T20:02:47.762947",
+    "capabilities": [
+        {
+            "name": "Knowledge Management",
+            "department": "Knowledge Factory",
+            "inputs": [
+                "Python",
+                "JSON",
+                "HTML"
+            ],
+            "outputs": [
+                "DocumentaÃ§Ã£o",
+                "Livros",
+                "Conhecimento"
+            ],
+            "consumers": [
+                "Engineering",
+                "Commercial"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "name": "Commercial Intelligence",
+            "department": "Commercial Factory",
+            "inputs": [
+                "Produtos",
+                "Clientes",
+                "Empresas"
+            ],
+            "outputs": [
+                "Propostas",
+                "CRM",
+                "Pipeline"
+            ],
+            "consumers": [
+                "Revenue Factory"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "name": "Deployment",
+            "department": "Deployment Factory",
+            "inputs": [
+                "Portais",
+                "APIs"
+            ],
+            "outputs": [
+                "Render",
+                "Netlify"
+            ],
+            "consumers": [
+                "Clientes"
+            ],
+            "status": "ONLINE"
+        },
+        {
+            "name": "Revenue",
+            "department": "Revenue Factory",
+            "inputs": [
+                "Clientes",
+                "Produtos",
+                "Contratos"
+            ],
+            "outputs": [
+                "Receita"
+            ],
+            "consumers": [
+                "Financeiro"
+            ],
+            "status": "AGUARDANDO"
+        }
+    ]
+}

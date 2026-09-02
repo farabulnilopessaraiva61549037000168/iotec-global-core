@@ -1,0 +1,61 @@
+{
+    "generated_at": "2026-07-21T10:49:47.918424",
+    "ranking": [
+        {
+            "engine": "COMMERCIAL_ENGINE",
+            "occurrences": 37,
+            "market": 100,
+            "maturity": 77,
+            "score": 90.8
+        },
+        {
+            "engine": "DATABASE_ENGINE",
+            "occurrences": 48,
+            "market": 90,
+            "maturity": 88,
+            "score": 89.2
+        },
+        {
+            "engine": "ROBOTICS_ENGINE",
+            "occurrences": 92,
+            "market": 80,
+            "maturity": 100,
+            "score": 88.0
+        },
+        {
+            "engine": "AI_ENGINE",
+            "occurrences": 20,
+            "market": 100,
+            "maturity": 60,
+            "score": 84.0
+        },
+        {
+            "engine": "API_ENGINE",
+            "occurrences": 12,
+            "market": 95,
+            "maturity": 52,
+            "score": 77.8
+        },
+        {
+            "engine": "DASHBOARD_ENGINE",
+            "occurrences": 16,
+            "market": 90,
+            "maturity": 56,
+            "score": 76.4
+        },
+        {
+            "engine": "AUTOMATION_ENGINE",
+            "occurrences": 11,
+            "market": 85,
+            "maturity": 51,
+            "score": 71.4
+        },
+        {
+            "engine": "PDF_ENGINE",
+            "occurrences": 2,
+            "market": 75,
+            "maturity": 42,
+            "score": 61.8
+        }
+    ]
+}

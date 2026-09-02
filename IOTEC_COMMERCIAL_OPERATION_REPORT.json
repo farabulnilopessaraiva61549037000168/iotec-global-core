@@ -1,0 +1,87 @@
+{
+    "generated": "2026-06-07 16:40:11.222163",
+    "commercial_score": 160,
+    "evidence": [
+        {
+            "asset": "CRM_ENGINE.py",
+            "status": "FOUND",
+            "points": 15
+        },
+        {
+            "asset": "SALES_BRAIN.py",
+            "status": "FOUND",
+            "points": 15
+        },
+        {
+            "asset": "REVENUE_OPERATION_CENTER.py",
+            "status": "FOUND",
+            "points": 15
+        },
+        {
+            "asset": "AUTO_MONETIZATION_ENGINE.py",
+            "status": "FOUND",
+            "points": 10
+        },
+        {
+            "asset": "AUTONOMOUS_LEAD.py",
+            "status": "FOUND",
+            "points": 10
+        },
+        {
+            "asset": "IOTEC_GOVTECH_PIPELINE_DASHBOARD.py",
+            "status": "FOUND",
+            "points": 10
+        },
+        {
+            "asset": "IOTEC_CONTROL_TOWER_LEDGER.db",
+            "status": "FOUND",
+            "points": 10
+        },
+        {
+            "asset": "IOTEC_KNOWLEDGE_WAREHOUSE.db",
+            "status": "FOUND",
+            "points": 5
+        },
+        {
+            "asset": "IOTEC_MASTER_TOWER.json",
+            "status": "FOUND",
+            "points": 5
+        },
+        {
+            "asset": "IOTEC_OPERATION_GRID.json",
+            "status": "FOUND",
+            "points": 5
+        },
+        {
+            "asset": "C:\\IOTEC\\enterprise.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        },
+        {
+            "asset": "C:\\IOTEC\\iotec_core.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        },
+        {
+            "asset": "C:\\IOTEC\\iotec_global.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        },
+        {
+            "asset": "C:\\IOTEC\\iotec_operational.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        },
+        {
+            "asset": "C:\\IOTEC\\iotec_revenue.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        },
+        {
+            "asset": "C:\\IOTEC\\tower.db",
+            "status": "COMMERCIAL_DATABASE",
+            "points": 10
+        }
+    ],
+    "readiness": "PRONTO_PARA_ESCALA"
+}

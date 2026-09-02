@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "kind": "validation",
+  "objective": "Validar o ciclo sistêmico",
+  "compressed_complexity": 1.851258,
+  "checks_count": 4,
+  "passed": true,
+  "failed_reasons": []
+}

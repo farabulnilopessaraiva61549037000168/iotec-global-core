@@ -1,0 +1,167 @@
+[
+    {
+        "product": "IOTEC AUTOMATION CORE",
+        "technical_language": "automacao operacional inteligente",
+        "human_translation": "automatize tarefas, reduza custos e opere continuamente",
+        "financial_impact": "aumenta velocidade operacional e reduz gargalos",
+        "target_audience": "empresas, escritorios, operacoes",
+        "immersive_environment": {
+            "recommended_videos": [
+                "executivos trabalhando",
+                "analistas em operacao",
+                "ambientes corporativos",
+                "dashboards vivos",
+                "equipes reunidas"
+            ],
+            "visual_goal": "empresa viva e operacional",
+            "atmosphere": "premium corporativo"
+        },
+        "sales_narrative": [
+            "Sua empresa pode operar continuamente.",
+            "Automatize processos e aumente produtividade.",
+            "Reduza perdas operacionais.",
+            "Transforme tarefas em fluxos inteligentes."
+        ],
+        "commercial_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficio",
+            "step_4": "demonstrar funcionamento",
+            "step_5": "abrir formulario",
+            "step_6": "gerar proposta",
+            "step_7": "contrato",
+            "step_8": "pagamento",
+            "step_9": "implantacao"
+        },
+        "acquisition_models": [
+            "assinatura",
+            "licenciamento",
+            "setup premium",
+            "operacao dedicada"
+        ],
+        "conversion_strategy": [
+            "linguagem humana",
+            "imersao audiovisual",
+            "presenca corporativa",
+            "demonstracao viva",
+            "facilidade de aquisicao"
+        ],
+        "portal_behavior": {
+            "videos_rotating": true,
+            "human_presence": true,
+            "immersive_narration": true,
+            "commercial_assistance": true,
+            "proposal_generation": true
+        }
+    },
+    {
+        "product": "IOTEC MEDIA NETWORK",
+        "technical_language": "ecossistema audiovisual corporativo",
+        "human_translation": "transforme sua marca em uma presenca digital viva",
+        "financial_impact": "aumenta visibilidade e autoridade empresarial",
+        "target_audience": "midia, empresas, publicidade, marcas",
+        "immersive_environment": {
+            "recommended_videos": [
+                "centros empresariais",
+                "urbanismo premium",
+                "executivos",
+                "streaming corporativo",
+                "eventos globais"
+            ],
+            "visual_goal": "empresa viva e operacional",
+            "atmosphere": "premium corporativo"
+        },
+        "sales_narrative": [
+            "Sua empresa ganha presenca visual premium.",
+            "Transforme telas em canais empresariais vivos.",
+            "Crie programacoes corporativas automatizadas.",
+            "Conecte sua marca ao mundo."
+        ],
+        "commercial_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficio",
+            "step_4": "demonstrar funcionamento",
+            "step_5": "abrir formulario",
+            "step_6": "gerar proposta",
+            "step_7": "contrato",
+            "step_8": "pagamento",
+            "step_9": "implantacao"
+        },
+        "acquisition_models": [
+            "pacote empresarial",
+            "streaming premium",
+            "licenciamento",
+            "infraestrutura audiovisual"
+        ],
+        "conversion_strategy": [
+            "linguagem humana",
+            "imersao audiovisual",
+            "presenca corporativa",
+            "demonstracao viva",
+            "facilidade de aquisicao"
+        ],
+        "portal_behavior": {
+            "videos_rotating": true,
+            "human_presence": true,
+            "immersive_narration": true,
+            "commercial_assistance": true,
+            "proposal_generation": true
+        }
+    },
+    {
+        "product": "IOTEC ANALYTICS",
+        "technical_language": "analise operacional inteligente",
+        "human_translation": "visualize gargalos e tome decisoes estrategicas",
+        "financial_impact": "melhora eficiencia e aumenta controle",
+        "target_audience": "gestores, empresas, command centers",
+        "immersive_environment": {
+            "recommended_videos": [
+                "salas de controle",
+                "analistas",
+                "graficos",
+                "financeiro",
+                "painel operacional"
+            ],
+            "visual_goal": "empresa viva e operacional",
+            "atmosphere": "premium corporativo"
+        },
+        "sales_narrative": [
+            "Acompanhe indicadores em tempo real.",
+            "Descubra gargalos ocultos.",
+            "Organize operacoes empresariais.",
+            "Tome decisoes com inteligencia."
+        ],
+        "commercial_flow": {
+            "step_1": "mostrar atmosfera",
+            "step_2": "explicar produto",
+            "step_3": "mostrar beneficio",
+            "step_4": "demonstrar funcionamento",
+            "step_5": "abrir formulario",
+            "step_6": "gerar proposta",
+            "step_7": "contrato",
+            "step_8": "pagamento",
+            "step_9": "implantacao"
+        },
+        "acquisition_models": [
+            "assinatura",
+            "analytics premium",
+            "command center",
+            "infraestrutura dedicada"
+        ],
+        "conversion_strategy": [
+            "linguagem humana",
+            "imersao audiovisual",
+            "presenca corporativa",
+            "demonstracao viva",
+            "facilidade de aquisicao"
+        ],
+        "portal_behavior": {
+            "videos_rotating": true,
+            "human_presence": true,
+            "immersive_narration": true,
+            "commercial_assistance": true,
+            "proposal_generation": true
+        }
+    }
+]

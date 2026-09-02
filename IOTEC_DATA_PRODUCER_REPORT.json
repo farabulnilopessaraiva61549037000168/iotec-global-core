@@ -1,0 +1,472 @@
+{
+    "gerado_em": "2026-06-13 12:03:08.303685",
+    "motores": [
+        {
+            "motor": "SIGNAL_MAPPER",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\SIGNAL_MAPPER.py",
+                    "bytes": 8859,
+                    "json_dump": 1,
+                    "write": 1,
+                    "json_refs": 1,
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "motor": "IOTEC_WEB_OBSERVER",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\IOTEC_WEB_OBSERVER.py",
+                    "bytes": 8647,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 0,
+                    "score": 0
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\IOTEC_WEB_OBSERVER.py",
+                    "bytes": 8647,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 0,
+                    "score": 0
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\IOTEC_WEB_OBSERVER.py",
+                    "bytes": 8647,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 0,
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "motor": "IOTEC_AUDITOR_PAYPAL",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\FINANCEIRO\\IOTEC_AUDITOR_PAYPAL.py",
+                    "bytes": 8121,
+                    "json_dump": 1,
+                    "write": 0,
+                    "json_refs": 7,
+                    "score": 8
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\PAYMENTS\\PAYPAL\\SANEAMENTO\\IOTEC_AUDITOR_PAYPAL.py",
+                    "bytes": 8121,
+                    "json_dump": 1,
+                    "write": 0,
+                    "json_refs": 7,
+                    "score": 8
+                }
+            ]
+        },
+        {
+            "motor": "paypal_server",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\paypal_server.py",
+                    "bytes": 2144,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 3,
+                    "score": 3
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\BACKEND\\paypal_server.py",
+                    "bytes": 2144,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 3,
+                    "score": 3
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\paypal_server.py",
+                    "bytes": 2144,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 3,
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "motor": "Specter.Fortress",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\Specter.Fortress.py",
+                    "bytes": 2156,
+                    "json_dump": 0,
+                    "write": 1,
+                    "json_refs": 0,
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "motor": "TOKEN",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+                    "bytes": 517,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 1,
+                    "score": 1
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+                    "bytes": 6402,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 0,
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "motor": "token",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\TOKEN.py",
+                    "bytes": 517,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 1,
+                    "score": 1
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\token.py",
+                    "bytes": 6402,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 0,
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "motor": "CREATIVE_EXPLORER",
+            "instancias": [
+                {
+                    "arquivo": "C:\\IOTEC\\CREATIVE_EXPLORER.py",
+                    "bytes": 8080,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 2,
+                    "score": 2
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\DUPLICADOS\\CREATIVE_EXPLORER.py",
+                    "bytes": 8080,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 2,
+                    "score": 2
+                },
+                {
+                    "arquivo": "C:\\IOTEC\\NUCLEO_CONSOLIDADO\\LABORATORIO\\CREATIVE_EXPLORER.py",
+                    "bytes": 8080,
+                    "json_dump": 0,
+                    "write": 0,
+                    "json_refs": 2,
+                    "score": 2
+                }
+            ]
+        }
+    ],
+    "json_recentes": [
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ENGINE_FORENSICS_REPORT.json",
+            "bytes": 9784,
+            "idade_horas": 0.06
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACTIVE_ACQUISITION_REPORT.json",
+            "bytes": 2027,
+            "idade_horas": 0.11
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REAL_CONNECTIVITY_REPORT.json",
+            "bytes": 69770,
+            "idade_horas": 0.14
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_EXTERNAL_ACQUISITION_REPORT.json",
+            "bytes": 582743,
+            "idade_horas": 0.2
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_BUSINESS_EXPANSION_REPORT.json",
+            "bytes": 14686,
+            "idade_horas": 0.38
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REAL_BUSINESS_RESERVOIR.json",
+            "bytes": 63515,
+            "idade_horas": 0.44
+        },
+        {
+            "arquivo": "C:\\IOTEC\\BUSINESS_REALITY_REPORT.json",
+            "bytes": 25852,
+            "idade_horas": 0.49
+        },
+        {
+            "arquivo": "C:\\IOTEC\\BUSINESS_QUALITY_REPORT.json",
+            "bytes": 36182,
+            "idade_horas": 0.57
+        },
+        {
+            "arquivo": "C:\\IOTEC\\BUSINESS_MASTER_RESERVOIR.json",
+            "bytes": 1847931,
+            "idade_horas": 0.75
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_BUSINESS_DATA_REPORT.json",
+            "bytes": 67882,
+            "idade_horas": 0.88
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DATA_QUALITY_REPORT.json",
+            "bytes": 16731,
+            "idade_horas": 1.01
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_FUEL_REPORT.json",
+            "bytes": 1073364,
+            "idade_horas": 1.14
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DEPENDENCY_REPORT.json",
+            "bytes": 486274,
+            "idade_horas": 1.31
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_SYSTEM_AUDIT_REPORT.json",
+            "bytes": 83845,
+            "idade_horas": 1.4
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REAL_REVENUE_REPORT.json",
+            "bytes": 922,
+            "idade_horas": 123.09
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CONVERSION_REPORT.json",
+            "bytes": 701,
+            "idade_horas": 123.23
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDRO_LOSS_REPORT.json",
+            "bytes": 243,
+            "idade_horas": 123.27
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDRO_PRESSURE_REPORT.json",
+            "bytes": 557,
+            "idade_horas": 123.33
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDRO_TRACE_REPORT.json",
+            "bytes": 568,
+            "idade_horas": 123.39
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDRO_FORECAST_REPORT.json",
+            "bytes": 1010,
+            "idade_horas": 123.53
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_HYDROECONOMIC_REPORT.json",
+            "bytes": 426,
+            "idade_horas": 123.65
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CONTRACT_REPORT.json",
+            "bytes": 96,
+            "idade_horas": 134.75
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_PROPOSALS_REPORT.json",
+            "bytes": 110,
+            "idade_horas": 134.95
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ACCOUNT_REGISTRY.json",
+            "bytes": 71,
+            "idade_horas": 135.0
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REVENUE_COCKPIT.json",
+            "bytes": 320,
+            "idade_horas": 135.06
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_EXECUTIVE_COCKPIT.json",
+            "bytes": 310,
+            "idade_horas": 137.56
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DAILY_GROWTH_MISSION.json",
+            "bytes": 249,
+            "idade_horas": 138.96
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REVENUE_PROJECTION_REPORT.json",
+            "bytes": 302,
+            "idade_horas": 139.06
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_GROWTH_COMMAND_CENTER.json",
+            "bytes": 643,
+            "idade_horas": 139.11
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_TRACTION_REPORT.json",
+            "bytes": 300,
+            "idade_horas": 139.15
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REVENUE_FLOW_REPORT.json",
+            "bytes": 1803,
+            "idade_horas": 139.28
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_COMMERCIAL_OPERATION_REPORT.json",
+            "bytes": 2330,
+            "idade_horas": 139.38
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_REVENUE_READINESS_REPORT.json",
+            "bytes": 765,
+            "idade_horas": 139.45
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CAPABILITY_CLUSTERS.json",
+            "bytes": 2818,
+            "idade_horas": 139.7
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_PRODUCT_CATALOG.json",
+            "bytes": 3002,
+            "idade_horas": 139.78
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ASSET_VALUE_REPORT.json",
+            "bytes": 14624,
+            "idade_horas": 139.84
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_DATA_HIGHWAY_REPORT.json",
+            "bytes": 40831,
+            "idade_horas": 139.93
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_FLOW_DISCOVERY_REPORT.json",
+            "bytes": 478103,
+            "idade_horas": 140.0
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_ENGINE_INTEGRATION_REPORT.json",
+            "bytes": 1679,
+            "idade_horas": 140.12
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_MOTOR_ACTIVATION_REPORT.json",
+            "bytes": 3227,
+            "idade_horas": 140.18
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_UTILIZATION_REPORT.json",
+            "bytes": 308,
+            "idade_horas": 140.25
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_CAPABILITY_POWER_REPORT.json",
+            "bytes": 5356,
+            "idade_horas": 140.31
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_TOTAL_CAPABILITIES_REPORT.json",
+            "bytes": 257,
+            "idade_horas": 140.37
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_MASTER_TOWER.json",
+            "bytes": 495,
+            "idade_horas": 140.77
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_MASTER_TOPOLOGY.json",
+            "bytes": 7301,
+            "idade_horas": 140.82
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_PRODUCTION_LEDGER.json",
+            "bytes": 12466,
+            "idade_horas": 141.13
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_OPERATION_GRID.json",
+            "bytes": 1504,
+            "idade_horas": 141.19
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_LIVE_CORE_REPORT.json",
+            "bytes": 20899,
+            "idade_horas": 141.41
+        },
+        {
+            "arquivo": "C:\\IOTEC\\IOTEC_SYSTEM_MAP.json",
+            "bytes": 174980,
+            "idade_horas": 141.48
+        },
+        {
+            "arquivo": "C:\\IOTEC\\REVENUE_INTELLIGENCE_MAP.json",
+            "bytes": 75362,
+            "idade_horas": 143.39
+        },
+        {
+            "arquivo": "C:\\IOTEC\\CAPABILITY_MAP.json",
+            "bytes": 110961,
+            "idade_horas": 143.46
+        }
+    ],
+    "ranking_produtores": [
+        {
+            "motor": "IOTEC_AUDITOR_PAYPAL",
+            "score": 16
+        },
+        {
+            "motor": "paypal_server",
+            "score": 9
+        },
+        {
+            "motor": "CREATIVE_EXPLORER",
+            "score": 6
+        },
+        {
+            "motor": "SIGNAL_MAPPER",
+            "score": 3
+        },
+        {
+            "motor": "Specter.Fortress",
+            "score": 1
+        },
+        {
+            "motor": "TOKEN",
+            "score": 1
+        },
+        {
+            "motor": "token",
+            "score": 1
+        },
+        {
+            "motor": "IOTEC_WEB_OBSERVER",
+            "score": 0
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "system": "IOTEC_IBEX",
+    "status": "ONLINE",
+    "signal_alignment": true,
+    "tower_connected": true,
+    "portal_connected": true,
+    "continuous_programming": true,
+    "visual_frequency": "STABLE",
+    "advertisement_frequency": "ACTIVE",
+    "product_showcase": "ACTIVE",
+    "observability": "ACTIVE",
+    "video_interfaces": "CONNECTED",
+    "image_interfaces": "CONNECTED",
+    "repair_agents": "ACTIVE",
+    "last_sync": "05/30/2026 17:55:49"
+}

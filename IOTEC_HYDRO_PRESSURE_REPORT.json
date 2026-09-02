@@ -1,0 +1,23 @@
+{
+    "generated": "2026-06-08 08:43:51.366418",
+    "total_rivers": 3,
+    "contracts": 1,
+    "proposals": 2,
+    "opportunities": 0,
+    "leads": 0,
+    "pressure": 200.0,
+    "efficiency": 33.33,
+    "plant_status": "PRESSAO ALTA",
+    "blocked_rivers": [
+        {
+            "hydro_id": "HYDRO-000002",
+            "company": "Clinica Vida",
+            "stage": "PROPOSAL"
+        },
+        {
+            "hydro_id": "HYDRO-000003",
+            "company": "Prefeitura Modelo",
+            "stage": "PROPOSAL"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "auto_archive": false,
+    "history_limit": 100000,
+    "default_priority": "NORMAL",
+    "allow_parallel": true
+}
